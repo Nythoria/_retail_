@@ -5,5 +5,3 @@ Logs/**
 UTILS/**
 *.dll
 *.exe
-Interface/AddOns/TradeSkillMaster/**
-Interface/AddOns/TradeSkillMaster_AppHelper/**

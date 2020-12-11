@@ -1,0 +1,11 @@
+## Interface: 90001
+## Title: |cff16C3F2AddOn|r|cFFFFFFFFSkins|r
+## Version: 4.47
+## Author: Azilroka, NihilisticPandemonium
+## SavedVariables: AddOnSkinsDB, AddOnSkinsDS
+## OptionalDeps: ElvUI
+## X-Tukui-ProjectID: 3
+## X-Tukui-ProjectFolders: AddOnSkins
+
+Load_AddOnSkins.xml
+

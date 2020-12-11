@@ -1,0 +1,87 @@
+
+HidingBarDB = {
+	["tstmp"] = 1607517664,
+	["config"] = {
+		["lineWidth"] = 4,
+		["btnSettings"] = {
+			["|cffb4b4ffALL THE THINGS|r"] = {
+				["tstmp"] = 1607517664,
+			},
+			["Raven"] = {
+				["tstmp"] = 1607517664,
+			},
+			["Hekili"] = {
+				["tstmp"] = 1607517664,
+			},
+			["BigWigs"] = {
+				["tstmp"] = 1607517664,
+			},
+			["TradeSkillMaster"] = {
+				["tstmp"] = 1607517664,
+			},
+			["ExRT"] = {
+				["tstmp"] = 1607517664,
+			},
+			["Altoholic"] = {
+				["tstmp"] = 1607517664,
+			},
+			["SavedInstances"] = {
+				["tstmp"] = 1607517664,
+			},
+			["FarmHud"] = {
+				["tstmp"] = 1607517664,
+			},
+			["WeakAuras"] = {
+				["tstmp"] = 1607517664,
+			},
+			["Masque"] = {
+				["tstmp"] = 1607517664,
+			},
+		},
+		["grabMinimap"] = true,
+		["showHandler"] = 0,
+		["expand"] = 0,
+		["ignoreMBtn"] = {
+			"GatherMatePin", -- [1]
+		},
+		["showDelay"] = 0,
+		["hideDelay"] = 0.75,
+		["anchor"] = "top",
+		["size"] = 10,
+		["buttonSize"] = 32,
+		["frameStrata"] = 2,
+		["mbtnPosition"] = 0,
+		["lineColor"] = {
+			0.8, -- [1]
+			0.6, -- [2]
+			0, -- [3]
+		},
+		["grabMinimapAfterN"] = 1,
+		["position"] = 650.6666877269745,
+		["orientation"] = 0,
+		["bgColor"] = {
+			0.1, -- [1]
+			0.1, -- [2]
+			0.1, -- [3]
+			0.7, -- [4]
+		},
+		["fadeOpacity"] = 0.2,
+		["mbtnSettings"] = {
+			["LibDBIcon10_Details"] = {
+				["tstmp"] = 1607517664,
+			},
+			["AllTheThings-Minimap"] = {
+				["tstmp"] = 1607517664,
+			},
+			["LibDBIcon10_DetailsStreamer"] = {
+				["tstmp"] = 1607517664,
+			},
+			["LibDBIcon10_BugSack"] = {
+				["tstmp"] = 1607517664,
+			},
+			["LibDBIcon10_FarmHud"] = {
+				["tstmp"] = 1607517664,
+			},
+		},
+	},
+}

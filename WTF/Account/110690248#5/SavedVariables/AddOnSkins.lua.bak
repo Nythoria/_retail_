@@ -1,0 +1,15 @@
+
+AddOnSkinsDB = {
+	["profileKeys"] = {
+		["Ríríbank - Argent Dawn"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["AAP-Core"] = false,
+		},
+	},
+}
+AddOnSkinsDS = {
+	[4.47] = {
+	},
+}

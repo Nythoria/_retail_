@@ -1,0 +1,7 @@
+## Interface: 80000
+## Title: Edit Macro Icons
+## Notes: Provides a basic slash command to edit macro, equipment set, and guild bank tab icons
+## Author: Shaun Dreclin
+## Version: 1.2
+
+EditMacroIcons.lua

@@ -1,0 +1,14 @@
+
+MythicDungeonToolsDB = {
+	["profileKeys"] = {
+		["Ríríbank - Argent Dawn"] = "Ríríbank - Argent Dawn",
+	},
+	["global"] = {
+		["dataCollectionGUID"] = {
+		},
+		["dataCollection"] = {
+		},
+		["dataCollectionCC"] = {
+		},
+	},
+}

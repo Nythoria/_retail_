@@ -1,0 +1,1221 @@
+
+TradeSkillMasterDB = {
+	["g@ @destroyingOptions@deAbovePrice"] = "0c",
+	["f@Horde - Argent Dawn@internalData@expiringAuction"] = {
+	},
+	["c@Ríríbank - Argent Dawn@internalData@craftingCooldowns"] = {
+	},
+	["g@ @shoppingOptions@buyoutConfirm"] = false,
+	["c@Ríríbank - Argent Dawn@craftingUIContext@groupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["_hash"] = 2108842,
+	["c@Ríríbank - Argent Dawn@bankingUIContext@auctioningGroupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["g@ @craftingOptions@defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["g@ @craftingUIContext@gatheringDividedContainer"] = {
+		["leftWidth"] = 284,
+	},
+	["g@ @mailingOptions@deMaxQuality"] = 2,
+	["c@Ríríbank - Argent Dawn@mainUIContext@groupsManagementGroupTree"] = {
+		["collapsed"] = {
+		},
+	},
+	["g@ @sniperOptions@sniperSound"] = "TSM_NO_SOUND",
+	["r@Argent Dawn@internalData@saveTimeExpires"] = "",
+	["s@Ríríbank - Horde - Argent Dawn@internalData@auctionQuantity"] = {
+	},
+	["g@ @auctionUIContext@sniperScrollingTable"] = {
+		["colWidth"] = {
+			["ilvl"] = 32,
+			["pct"] = 40,
+			["seller"] = 134,
+			["bidPct"] = 40,
+			["item"] = 230,
+			["buyout"] = 115,
+			["itemBuyout"] = 115,
+			["bid"] = 115,
+			["itemBid"] = 115,
+			["icon"] = 24,
+			["qty"] = 40,
+		},
+		["colHidden"] = {
+			["bid"] = true,
+			["buyout"] = true,
+			["bidPct"] = true,
+		},
+	},
+	["s@Ríríbank - Horde - Argent Dawn@internalData@reagentBankQuantity"] = {
+	},
+	["g@ @vendoringUIContext@buyScrollingTable"] = {
+		["colWidth"] = {
+			["ilvl"] = 32,
+			["qty"] = 40,
+			["item"] = 310,
+			["cost"] = 150,
+		},
+		["colHidden"] = {
+			["ilvl"] = true,
+		},
+	},
+	["g@ @shoppingOptions@maxDeSearchPercent"] = 100,
+	["r@Argent Dawn@internalData@csvBuys"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source",
+	["s@Ríríbank - Horde - Argent Dawn@internalData@money"] = 65,
+	["g@ @shoppingOptions@buyoutAlertSource"] = "min(100000g, 200% dbmarket)",
+	["f@Horde - Argent Dawn@userData@craftingCooldownIgnore"] = {
+	},
+	["s@Ríríbank - Horde - Argent Dawn@internalData@goldLog"] = "minute,copper\n26784635,0",
+	["s@Ríríbank - Horde - Argent Dawn@internalData@classKey"] = "WARRIOR",
+	["g@ @auctioningOptions@disableInvalidMsg"] = false,
+	["g@ @vendoringUIContext@showDefault"] = false,
+	["g@ @auctionUIContext@auctioningSelectionVerticalDividedContainer"] = {
+		["leftWidth"] = 220,
+	},
+	["g@ @internalData@destroyingHistory"] = {
+	},
+	["g@ @destroyingOptions@includeSoulbound"] = false,
+	["f@Horde - Argent Dawn@coreOptions@ignoreGuilds"] = {
+	},
+	["_lastModifiedVersion"] = {
+		["r@internalData@csvSales"] = 10,
+		["g@coreOptions@groupPriceSource"] = 41,
+		["g@userData@destroyingIgnore"] = 10,
+		["s@internalData@classKey"] = 19,
+		["r@internalData@saveTimeBuys"] = 10,
+		["c@internalData@auctionPrices"] = 10,
+		["g@coreOptions@chatFrame"] = 10,
+		["g@destroyingUIContext@itemsScrollingTable"] = 55,
+		["g@internalData@appMessageId"] = 10,
+		["g@craftingOptions@defaultCraftPriceMethod"] = 89,
+		["g@mailingOptions@keepMailSpace"] = 10,
+		["g@debug@chatLoggingEnabled"] = 19,
+		["g@mailingUIContext@mailsScrollingTable"] = 81,
+		["g@auctionUIContext@shoppingSearchesTabGroup"] = 55,
+		["g@mainUIContext@frame"] = 59,
+		["g@craftingUIContext@professionScrollingTable"] = 91,
+		["g@mainUIContext@ledgerOtherScrollingTable"] = 59,
+		["p@gatheringOptions@sources"] = 32,
+		["r@internalData@saveTimeExpires"] = 10,
+		["g@bankingUIContext@tab"] = 55,
+		["g@userData@operations"] = 10,
+		["r@internalData@csvExpense"] = 10,
+		["r@internalData@csvBuys"] = 10,
+		["f@userData@craftingCooldownIgnore"] = 35,
+		["c@bankingUIContext@mailingGroupTree"] = 80,
+		["g@mailingOptions@recentlyMailedList"] = 38,
+		["g@mainUIContext@importExportDividedContainer"] = 55,
+		["g@destroyingOptions@includeSoulbound"] = 10,
+		["g@shoppingOptions@buyoutConfirm"] = 46,
+		["g@vendoringUIContext@showDefault"] = 55,
+		["g@craftingOptions@ignoreCharacters"] = 10,
+		["g@auctioningOptions@scanCompleteSound"] = 10,
+		["g@auctionUIContext@auctioningLogScrollingTable"] = 55,
+		["g@destroyingOptions@autoStack"] = 10,
+		["g@vendoringOptions@displayMoneyCollected"] = 10,
+		["g@mainUIContext@ledgerAuctionsScrollingTable"] = 59,
+		["g@mainUIContext@dashboardUnselectedCharacters"] = 78,
+		["r@internalData@csvCancelled"] = 10,
+		["g@auctionUIContext@frame"] = 55,
+		["s@internalData@goldLogLastUpdate"] = 83,
+		["g@tooltipOptions@customPriceTooltips"] = 10,
+		["g@craftingUIContext@frame"] = 55,
+		["g@vendoringUIContext@buybackScrollingTable"] = 55,
+		["f@gatheringContext@professions"] = 32,
+		["g@mainUIContext@ledgerDetailScrollingTable"] = 59,
+		["g@mailingUIContext@showDefault"] = 55,
+		["g@shoppingOptions@searchAutoFocus"] = 88,
+		["s@internalData@auctionQuantity"] = 19,
+		["p@userData@items"] = 10,
+		["c@internalData@auctionSaleHints"] = 45,
+		["g@auctionUIContext@auctioningSelectionVerticalDividedContainer"] = 66,
+		["g@shoppingOptions@minDeSearchLvl"] = 10,
+		["g@mailingOptions@deMaxQuality"] = 10,
+		["f@internalData@mailExcessGoldLimit"] = 49,
+		["c@mainUIContext@exportGroupTree"] = 80,
+		["g@internalData@vendorItems"] = 10,
+		["f@internalData@mailExcessGoldChar"] = 49,
+		["g@accountingOptions@autoTrackTrades"] = 10,
+		["f@internalData@crafts"] = 53,
+		["c@bankingUIContext@warehousingGroupTree"] = 80,
+		["g@mainUIContext@dashboardDividedContainer"] = 59,
+		["r@internalData@saveTimeSales"] = 10,
+		["g@mailingUIContext@frame"] = 55,
+		["s@internalData@bagQuantity"] = 19,
+		["g@vendoringUIContext@buyScrollingTable"] = 92,
+		["g@destroyingUIContext@frame"] = 55,
+		["g@destroyingOptions@deAbovePrice"] = 10,
+		["s@internalData@reagentBankQuantity"] = 19,
+		["g@tooltipOptions@groupNameTooltip"] = 10,
+		["g@destroyingOptions@deMaxQuality"] = 10,
+		["g@tooltipOptions@moduleTooltips"] = 10,
+		["r@internalData@csvExpired"] = 10,
+		["g@craftingUIContext@matsScrollingTable"] = 55,
+		["s@internalData@mailQuantity"] = 19,
+		["g@mainUIContext@operationsDividedContainer"] = 55,
+		["c@internalData@craftingCooldowns"] = 27,
+		["g@auctionUIContext@shoppingSelectionDividedContainer"] = 55,
+		["g@auctionUIContext@auctioningTabGroup"] = 93,
+		["g@coreOptions@minimapIcon"] = 10,
+		["g@sniperOptions@sniperSound"] = 10,
+		["f@internalData@auctionDBScanHash"] = 50,
+		["g@vendoringOptions@qsMarketValue"] = 10,
+		["r@internalData@accountingTrimmed"] = 10,
+		["g@mailingOptions@sendItemsIndividually"] = 10,
+		["c@auctionUIContext@shoppingGroupTree"] = 80,
+		["g@taskListUIContext@frame"] = 55,
+		["g@auctionUIContext@myAuctionsScrollingTable"] = 84,
+		["g@mailingOptions@sendMessages"] = 10,
+		["f@internalData@csvAuctionDBScan"] = 50,
+		["g@tooltipOptions@vendorBuyTooltip"] = 10,
+		["g@internalData@whatsNewVersion"] = 94,
+		["g@appearanceOptions@showTotalMoney"] = 95,
+		["g@mailingOptions@resendDelay"] = 10,
+		["p@internalData@createdDefaultOperations"] = 11,
+		["c@mainUIContext@importGroupTree"] = 80,
+		["g@coreOptions@destroyValueSource"] = 10,
+		["f@internalData@expiringMail"] = 47,
+		["g@auctionUIContext@sniperScrollingTable"] = 72,
+		["g@userData@vendoringIgnore"] = 10,
+		["g@mainUIContext@dashboardTimeRange"] = 78,
+		["f@internalData@mailDisenchantablesChar"] = 49,
+		["g@mainUIContext@operationsSummaryScrollingTable"] = 76,
+		["g@internalData@optionalMatBonusIdLookup"] = 97,
+		["g@coreOptions@protectAuctionHouse"] = 77,
+		["g@tooltipOptions@embeddedTooltip"] = 10,
+		["g@mainUIContext@ledgerResaleScrollingTable"] = 62,
+		["g@tooltipOptions@tooltipPriceFormat"] = 10,
+		["g@craftingUIContext@gatheringScrollingTable"] = 55,
+		["g@bankingUIContext@isOpen"] = 55,
+		["g@destroyingOptions@autoShow"] = 10,
+		["f@internalData@pendingMail"] = 10,
+		["g@coreOptions@auctionSaleSound"] = 10,
+		["f@internalData@guildVaults"] = 10,
+		["f@coreOptions@ignoreGuilds"] = 10,
+		["g@userData@savedAuctioningSearches"] = 96,
+		["g@tooltipOptions@detailedDestroyTooltip"] = 10,
+		["g@auctioningOptions@disableInvalidMsg"] = 10,
+		["g@craftingUIContext@professionDividedContainer"] = 55,
+		["c@internalData@auctionMessages"] = 10,
+		["g@mainUIContext@ledgerInventoryScrollingTable"] = 69,
+		["f@auctioningOptions@whitelist"] = 10,
+		["g@vendoringUIContext@frame"] = 55,
+		["g@tooltipOptions@enabled"] = 20,
+		["s@internalData@bankQuantity"] = 19,
+		["f@internalData@guildGoldLogLastUpdate"] = 83,
+		["s@internalData@money"] = 74,
+		["g@auctioningOptions@matchWhitelist"] = 10,
+		["f@internalData@auctionDBScanTime"] = 50,
+		["p@userData@operations"] = 10,
+		["g@craftingUIContext@gatheringDividedContainer"] = 55,
+		["g@auctioningOptions@cancelWithBid"] = 10,
+		["s@internalData@playerProfessions"] = 36,
+		["r@internalData@saveTimeCancels"] = 10,
+		["g@tooltipOptions@millTooltip"] = 10,
+		["g@auctionUIContext@auctioningAuctionScrollingTable"] = 70,
+		["f@internalData@guildGoldLog"] = 25,
+		["g@tooltipOptions@prospectTooltip"] = 10,
+		["g@appearanceOptions@colorSet"] = 75,
+		["s@internalData@goldLog"] = 25,
+		["g@auctionUIContext@auctioningBagScrollingTable"] = 55,
+		["g@taskListUIContext@isOpen"] = 55,
+		["f@internalData@characterGuilds"] = 10,
+		["g@coreOptions@globalOperations"] = 10,
+		["g@mailingOptions@openMailSound"] = 10,
+		["g@vendoringUIContext@sellScrollingTable"] = 55,
+		["g@mainUIContext@groupsDividedContainer"] = 55,
+		["r@internalData@csvIncome"] = 10,
+		["f@internalData@mats"] = 10,
+		["g@userData@customPriceSources"] = 10,
+		["g@auctioningOptions@confirmCompleteSound"] = 10,
+		["f@internalData@expiringAuction"] = 47,
+		["g@accountingOptions@trackTrades"] = 10,
+		["c@auctionUIContext@auctioningGroupTree"] = 80,
+		["g@internalData@optionalMatTextLookup"] = 97,
+		["c@craftingUIContext@groupTree"] = 80,
+		["g@tooltipOptions@vendorSellTooltip"] = 10,
+		["g@tooltipOptions@operationTooltips"] = 10,
+		["c@mainUIContext@groupsManagementGroupTree"] = 71,
+		["g@mailingOptions@inboxMessages"] = 10,
+		["g@auctionUIContext@shoppingAuctionScrollingTable"] = 70,
+		["g@auctionUIContext@auctioningSelectionDividedContainer"] = 55,
+		["g@tooltipOptions@deTooltip"] = 10,
+		["g@tooltipOptions@tooltipShowModifier"] = 10,
+		["g@userData@savedShoppingSearches"] = 96,
+		["g@auctionUIContext@showDefault"] = 55,
+		["g@tooltipOptions@inventoryTooltipFormat"] = 10,
+		["f@internalData@isCraftFavorite"] = 56,
+		["p@userData@groups"] = 10,
+		["g@internalData@destroyingHistory"] = 10,
+		["g@tooltipOptions@transformTooltip"] = 10,
+		["c@mailingUIContext@groupTree"] = 80,
+		["g@shoppingOptions@maxDeSearchLvl"] = 79,
+		["f@gatheringContext@crafter"] = 32,
+		["g@internalData@lastCharacter"] = 90,
+		["c@vendoringUIContext@groupTree"] = 80,
+		["g@shoppingOptions@buyoutAlertSource"] = 46,
+		["g@craftingUIContext@showDefault"] = 55,
+		["g@craftingOptions@defaultMatCostMethod"] = 10,
+		["g@shoppingOptions@pctSource"] = 12,
+		["g@appearanceOptions@taskListBackgroundLock"] = 87,
+		["g@mainUIContext@ledgerTransactionsScrollingTable"] = 62,
+		["g@craftingUIContext@craftsScrollingTable"] = 86,
+		["g@bankingUIContext@frame"] = 55,
+		["c@bankingUIContext@auctioningGroupTree"] = 80,
+		["g@shoppingOptions@maxDeSearchPercent"] = 23,
+		["g@craftingOptions@ignoreGuilds"] = 10,
+	},
+	["g@ @userData@savedShoppingSearches"] = {
+		["isFavorite"] = {
+		},
+		["name"] = {
+		},
+		["filters"] = {
+		},
+	},
+	["g@ @mailingUIContext@showDefault"] = false,
+	["g@ @auctionUIContext@myAuctionsScrollingTable"] = {
+		["colWidth"] = {
+			["stackSize"] = 30,
+			["item"] = 248,
+			["group"] = 228,
+			["buyout"] = 100,
+			["timeLeft"] = 40,
+			["currentBid"] = 100,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @coreOptions@protectAuctionHouse"] = false,
+	["f@Horde - Argent Dawn@internalData@csvAuctionDBScan"] = "",
+	["c@Ríríbank - Argent Dawn@vendoringUIContext@groupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["r@Argent Dawn@internalData@csvExpired"] = "itemString,stackSize,quantity,player,time",
+	["c@Ríríbank - Argent Dawn@mailingUIContext@groupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["f@Horde - Argent Dawn@internalData@expiringMail"] = {
+	},
+	["r@Argent Dawn@internalData@csvSales"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source",
+	["g@ @mainUIContext@operationsDividedContainer"] = {
+		["leftWidth"] = 306,
+	},
+	["g@ @mainUIContext@ledgerAuctionsScrollingTable"] = {
+		["colWidth"] = {
+			["stackSize"] = 55,
+			["quantity"] = 72,
+			["time"] = 120,
+			["item"] = 305,
+			["player"] = 110,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @mainUIContext@ledgerOtherScrollingTable"] = {
+		["colWidth"] = {
+			["type"] = 200,
+			["time"] = 110,
+			["amount"] = 120,
+			["otherCharacter"] = 122,
+			["character"] = 110,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @auctionUIContext@shoppingAuctionScrollingTable"] = {
+		["colWidth"] = {
+			["ilvl"] = 32,
+			["pct"] = 40,
+			["seller"] = 136,
+			["bidPct"] = 40,
+			["item"] = 226,
+			["buyout"] = 115,
+			["itemBuyout"] = 115,
+			["bid"] = 115,
+			["itemBid"] = 115,
+			["timeLeft"] = 26,
+			["qty"] = 40,
+		},
+		["colHidden"] = {
+			["bid"] = true,
+			["buyout"] = true,
+			["bidPct"] = true,
+		},
+	},
+	["f@Horde - Argent Dawn@internalData@mats"] = {
+	},
+	["r@Argent Dawn@internalData@saveTimeCancels"] = "",
+	["g@ @taskListUIContext@isOpen"] = true,
+	["g@ @auctioningOptions@scanCompleteSound"] = "TSM_NO_SOUND",
+	["c@Ríríbank - Argent Dawn@internalData@auctionSaleHints"] = {
+	},
+	["c@Ríríbank - Argent Dawn@internalData@auctionPrices"] = {
+	},
+	["p@Default@internalData@createdDefaultOperations"] = true,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Ríríbank - Argent Dawn", -- [1]
+		},
+		["sync"] = {
+			"Ríríbank - Horde - Argent Dawn", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Argent Dawn", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Argent Dawn", -- [1]
+		},
+	},
+	["g@ @userData@operations"] = {
+	},
+	["g@ @mainUIContext@dashboardDividedContainer"] = {
+		["leftWidth"] = 300,
+	},
+	["g@ @auctionUIContext@auctioningAuctionScrollingTable"] = {
+		["colWidth"] = {
+			["ilvl"] = 32,
+			["pct"] = 40,
+			["seller"] = 136,
+			["bidPct"] = 40,
+			["item"] = 226,
+			["buyout"] = 115,
+			["itemBuyout"] = 115,
+			["bid"] = 115,
+			["itemBid"] = 115,
+			["timeLeft"] = 26,
+			["qty"] = 40,
+		},
+		["colHidden"] = {
+			["bid"] = true,
+			["buyout"] = true,
+			["bidPct"] = true,
+		},
+	},
+	["g@ @accountingOptions@autoTrackTrades"] = false,
+	["g@ @auctionUIContext@auctioningLogScrollingTable"] = {
+		["colWidth"] = {
+			["index"] = 14,
+			["info"] = 234,
+			["operation"] = 108,
+			["buyout"] = 110,
+			["seller"] = 90,
+			["item"] = 190,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @mailingOptions@sendItemsIndividually"] = false,
+	["g@ @craftingUIContext@craftsScrollingTable"] = {
+		["colWidth"] = {
+			["saleRate"] = 32,
+			["operation"] = 80,
+			["bags"] = 28,
+			["profit"] = 100,
+			["craftingCost"] = 100,
+			["ah"] = 24,
+			["profitPct"] = 50,
+			["craftName"] = 218,
+			["queued"] = 30,
+			["itemValue"] = 100,
+		},
+		["colHidden"] = {
+			["profitPct"] = true,
+		},
+	},
+	["g@ @destroyingOptions@deMaxQuality"] = 3,
+	["g@ @debug@chatLoggingEnabled"] = false,
+	["f@Horde - Argent Dawn@internalData@auctionDBScanTime"] = 0,
+	["g@ @tooltipOptions@tooltipShowModifier"] = "none",
+	["g@ @mainUIContext@frame"] = {
+		["centerX"] = 0,
+		["scale"] = 1,
+		["height"] = 700,
+		["centerY"] = 0,
+		["page"] = 1,
+		["width"] = 900,
+	},
+	["g@ @tooltipOptions@tooltipPriceFormat"] = "text",
+	["g@ @tooltipOptions@deTooltip"] = true,
+	["g@ @tooltipOptions@millTooltip"] = true,
+	["g@ @mainUIContext@dashboardTimeRange"] = -1,
+	["p@Default@gatheringOptions@sources"] = {
+		"vendor", -- [1]
+		"guildBank", -- [2]
+		"alt", -- [3]
+		"altGuildBank", -- [4]
+		"craftProfit", -- [5]
+		"auction", -- [6]
+		"craftNoProfit", -- [7]
+	},
+	["g@ @tooltipOptions@enabled"] = true,
+	["p@Default@userData@groups"] = {
+		[""] = {
+			["Mailing"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Auctioning"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Crafting"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Warehousing"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Vendoring"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Shopping"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Sniper"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+		},
+	},
+	["g@ @tooltipOptions@operationTooltips"] = {
+	},
+	["s@Ríríbank - Horde - Argent Dawn@internalData@bankQuantity"] = {
+	},
+	["g@ @mainUIContext@ledgerInventoryScrollingTable"] = {
+		["colWidth"] = {
+			["auctionHouse"] = 50,
+			["totalValue"] = 120,
+			["bags"] = 50,
+			["banks"] = 50,
+			["item"] = 160,
+			["totalItems"] = 50,
+			["guildVault"] = 50,
+			["alts"] = 50,
+			["mail"] = 50,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @craftingUIContext@gatheringScrollingTable"] = {
+		["colWidth"] = {
+			["name"] = 206,
+			["sources"] = 160,
+			["have"] = 50,
+			["need"] = 50,
+		},
+		["colHidden"] = {
+		},
+	},
+	["r@Argent Dawn@internalData@csvCancelled"] = "itemString,stackSize,quantity,player,time",
+	["c@Ríríbank - Argent Dawn@bankingUIContext@mailingGroupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["g@ @mainUIContext@ledgerTransactionsScrollingTable"] = {
+		["colWidth"] = {
+			["time"] = 110,
+			["player"] = 95,
+			["item"] = 156,
+			["total"] = 120,
+			["perItem"] = 120,
+			["auctions"] = 60,
+			["stack"] = 55,
+			["type"] = 50,
+		},
+		["colHidden"] = {
+			["total"] = true,
+		},
+	},
+	["g@ @tooltipOptions@customPriceTooltips"] = {
+	},
+	["g@ @auctionUIContext@auctioningTabGroup"] = {
+		["pathIndex"] = 1,
+	},
+	["g@ @coreOptions@minimapIcon"] = {
+		["minimapPos"] = 220,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["g@ @tooltipOptions@groupNameTooltip"] = true,
+	["g@ @mainUIContext@groupsDividedContainer"] = {
+		["leftWidth"] = 300,
+	},
+	["g@ @userData@customPriceSources"] = {
+	},
+	["f@Horde - Argent Dawn@gatheringContext@crafter"] = "",
+	["g@ @tooltipOptions@embeddedTooltip"] = true,
+	["s@Ríríbank - Horde - Argent Dawn@internalData@playerProfessions"] = {
+	},
+	["g@ @tooltipOptions@detailedDestroyTooltip"] = false,
+	["g@ @accountingOptions@trackTrades"] = true,
+	["g@ @craftingOptions@defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)*0.95",
+	["s@Ríríbank - Horde - Argent Dawn@internalData@bagQuantity"] = {
+		["i:53360"] = 1,
+		["i:6948"] = 1,
+		["i:117"] = 5,
+		["i:771"] = 1,
+	},
+	["f@Horde - Argent Dawn@internalData@mailDisenchantablesChar"] = "",
+	["g@ @craftingOptions@ignoreGuilds"] = {
+	},
+	["g@ @mailingOptions@inboxMessages"] = true,
+	["g@ @craftingOptions@ignoreCharacters"] = {
+	},
+	["g@ @shoppingOptions@searchAutoFocus"] = true,
+	["g@ @vendoringUIContext@buybackScrollingTable"] = {
+		["colWidth"] = {
+			["qty"] = 40,
+			["item"] = 360,
+			["cost"] = 100,
+		},
+		["colHidden"] = {
+		},
+	},
+	["f@Horde - Argent Dawn@internalData@guildVaults"] = {
+	},
+	["g@ @shoppingOptions@maxDeSearchLvl"] = 500,
+	["g@ @mailingUIContext@mailsScrollingTable"] = {
+		["colWidth"] = {
+			["items"] = 380,
+			["sender"] = 100,
+			["money"] = 115,
+			["expires"] = 65,
+		},
+		["colHidden"] = {
+			["sender"] = true,
+		},
+	},
+	["g@ @shoppingOptions@pctSource"] = "dbmarket",
+	["g@ @taskListUIContext@frame"] = {
+		["topRightY"] = -10,
+		["isOpen"] = true,
+		["topRightX"] = -220,
+		["minimized"] = false,
+	},
+	["r@Argent Dawn@internalData@saveTimeSales"] = "",
+	["g@ @appearanceOptions@showTotalMoney"] = false,
+	["g@ @vendoringOptions@displayMoneyCollected"] = false,
+	["g@ @vendoringUIContext@sellScrollingTable"] = {
+		["colWidth"] = {
+			["potential"] = 100,
+			["item"] = 300,
+			["vendorSell"] = 100,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @vendoringUIContext@frame"] = {
+		["centerX"] = -200,
+		["scale"] = 1,
+		["height"] = 500,
+		["centerY"] = 0,
+		["page"] = 1,
+		["width"] = 560,
+	},
+	["g@ @coreOptions@globalOperations"] = false,
+	["g@ @shoppingOptions@minDeSearchLvl"] = 1,
+	["g@ @internalData@appMessageId"] = 0,
+	["c@Ríríbank - Argent Dawn@mainUIContext@exportGroupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["g@ @bankingUIContext@isOpen"] = true,
+	["g@ @coreOptions@groupPriceSource"] = "dbmarket",
+	["g@ @mailingUIContext@frame"] = {
+		["centerX"] = -200.3199955224991,
+		["scale"] = 1,
+		["height"] = 516,
+		["centerY"] = 0.6399999856948853,
+		["page"] = 1,
+		["width"] = 620,
+	},
+	["r@Argent Dawn@internalData@saveTimeBuys"] = "",
+	["g@ @bankingUIContext@frame"] = {
+		["centerX"] = 500,
+		["height"] = 600,
+		["centerY"] = 0,
+		["scale"] = 1,
+		["width"] = 325,
+	},
+	["g@ @userData@vendoringIgnore"] = {
+	},
+	["g@ @mainUIContext@ledgerDetailScrollingTable"] = {
+		["colWidth"] = {
+			["buyerSeller"] = 100,
+			["source"] = 60,
+			["time"] = 110,
+			["perItem"] = 120,
+			["qty"] = 45,
+			["totalPrice"] = 120,
+			["activityType"] = 91,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @craftingUIContext@professionDividedContainer"] = {
+		["leftWidth"] = 520,
+	},
+	["g@ @craftingUIContext@matsScrollingTable"] = {
+		["colWidth"] = {
+			["price"] = 100,
+			["num"] = 100,
+			["name"] = 242,
+			["professions"] = 310,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @tooltipOptions@inventoryTooltipFormat"] = "full",
+	["g@ @internalData@lastCharacter"] = "Ríríbank - Argent Dawn",
+	["f@Horde - Argent Dawn@internalData@crafts"] = {
+	},
+	["f@Horde - Argent Dawn@auctioningOptions@whitelist"] = {
+	},
+	["g@ @mailingOptions@keepMailSpace"] = 0,
+	["p@Default@userData@items"] = {
+	},
+	["g@ @internalData@vendorItems"] = {
+		["i:136631"] = 450000,
+		["i:44854"] = 25,
+		["i:49908"] = 1500000,
+		["i:44501"] = 10000000,
+		["i:160400"] = 25000,
+		["i:173168"] = 10000,
+		["i:183951"] = 50000,
+		["i:30183"] = 700000,
+		["i:6217"] = 124,
+		["i:2678"] = 10,
+		["i:136638"] = 89500,
+		["i:160502"] = 11500,
+		["i:160709"] = 25000,
+		["i:180733"] = 50000,
+		["i:79740"] = 23,
+		["i:133589"] = 25000,
+		["i:2594"] = 1500,
+		["i:17202"] = 10,
+		["i:40533"] = 50000,
+		["i:4342"] = 2500,
+		["i:74832"] = 12000,
+		["i:58278"] = 16000,
+		["i:14341"] = 5000,
+		["i:161131"] = 300000000,
+		["i:2325"] = 1000,
+		["i:2604"] = 50,
+		["i:133592"] = 25000,
+		["i:183954"] = 50000,
+		["i:6260"] = 50,
+		["i:85583"] = 12000,
+		["i:133591"] = 25000,
+		["i:102540"] = 5000,
+		["i:133593"] = 25000,
+		["i:2320"] = 10,
+		["i:58265"] = 20000,
+		["i:160710"] = 25000,
+		["i:158205"] = 1000,
+		["i:35949"] = 8500,
+		["i:2324"] = 25,
+		["i:175886"] = 5000,
+		["i:3371"] = 150,
+		["i:4289"] = 50,
+		["i:6530"] = 100,
+		["i:46797"] = 25,
+		["i:10290"] = 2500,
+		["i:74659"] = 30000,
+		["i:183953"] = 50000,
+		["i:17196"] = 50,
+		["i:6261"] = 1000,
+		["i:18567"] = 30000,
+		["i:85585"] = 27000,
+		["i:172059"] = 42500,
+		["i:133588"] = 25000,
+		["i:136630"] = 118500,
+		["i:3466"] = 2000,
+		["i:3857"] = 500,
+		["i:159959"] = 6000,
+		["i:46796"] = 25,
+		["i:2880"] = 100,
+		["i:127681"] = 5000,
+		["i:44835"] = 10,
+		["i:43102"] = 750000,
+		["i:2595"] = 2000,
+		["i:85584"] = 17000,
+		["i:159"] = 25,
+		["i:8343"] = 2000,
+		["i:178786"] = 35000,
+		["i:160059"] = 250,
+		["i:183950"] = 50000,
+		["i:4291"] = 500,
+		["i:34412"] = 1000,
+		["i:39354"] = 15,
+		["i:4340"] = 350,
+		["i:39684"] = 9000,
+		["i:46793"] = 25,
+		["i:160712"] = 25000,
+		["i:30817"] = 25,
+		["i:11291"] = 4500,
+		["i:160705"] = 50,
+		["i:102539"] = 5000,
+		["i:136632"] = 210800,
+		["i:180732"] = 10000,
+		["i:4399"] = 200,
+		["i:160398"] = 25000,
+		["i:4537"] = 125,
+		["i:35948"] = 16000,
+		["i:163569"] = 100,
+		["i:4400"] = 2000,
+		["i:7005"] = 82,
+		["i:4470"] = 38,
+		["i:2596"] = 120,
+		["i:178787"] = 1250000,
+		["i:5956"] = 18,
+		["i:124436"] = 40000,
+		["i:163203"] = 50000000,
+		["i:17194"] = 10,
+		["i:4341"] = 500,
+		["i:80433"] = 2000000,
+		["i:27860"] = 6400,
+		["i:38426"] = 30000,
+		["i:177062"] = 50000,
+		["i:44499"] = 30000000,
+		["i:183952"] = 50000,
+		["i:44500"] = 15000000,
+		["i:136633"] = 25000,
+		["i:2605"] = 100,
+		["i:65893"] = 30000000,
+		["i:52188"] = 15000,
+		["i:173060"] = 5000,
+		["i:133590"] = 25000,
+		["i:46784"] = 25,
+		["i:65892"] = 50000000,
+		["i:74845"] = 35000,
+		["i:127037"] = 5000,
+		["i:62323"] = 60000,
+		["i:67319"] = 328990,
+		["i:67335"] = 445561,
+		["i:2321"] = 100,
+		["i:23572"] = 500000,
+		["i:74852"] = 16000,
+		["i:10647"] = 2000,
+		["i:172056"] = 50000,
+		["i:74851"] = 14000,
+		["i:136636"] = 57500,
+		["i:2901"] = 81,
+		["i:83092"] = 200000000,
+		["i:74660"] = 15000,
+		["i:136629"] = 173300,
+		["i:160298"] = 3000,
+		["i:74854"] = 7000,
+		["i:158186"] = 250,
+		["i:172057"] = 37500,
+		["i:136637"] = 11500,
+		["i:1179"] = 125,
+		["i:160399"] = 25000,
+		["i:2593"] = 150,
+		["i:34249"] = 1000000,
+		["i:44855"] = 25,
+		["i:44853"] = 25,
+		["i:172058"] = 45000,
+	},
+	["g@ @mailingOptions@sendMessages"] = true,
+	["g@ @internalData@whatsNewVersion"] = 0,
+	["r@Argent Dawn@internalData@accountingTrimmed"] = {
+	},
+	["_syncAccountKey"] = {
+		["Horde - Argent Dawn"] = "Horde - Argent Dawn - 1471380392",
+	},
+	["g@ @auctioningOptions@matchWhitelist"] = true,
+	["g@ @auctionUIContext@shoppingSelectionDividedContainer"] = {
+		["leftWidth"] = 272,
+	},
+	["g@ @auctionUIContext@showDefault"] = false,
+	["g@ @userData@savedAuctioningSearches"] = {
+		["searchTypes"] = {
+		},
+		["isFavorite"] = {
+		},
+		["name"] = {
+		},
+		["filters"] = {
+		},
+	},
+	["g@ @craftingUIContext@showDefault"] = false,
+	["g@ @auctioningOptions@cancelWithBid"] = false,
+	["g@ @destroyingOptions@autoStack"] = true,
+	["g@ @destroyingOptions@autoShow"] = true,
+	["c@Ríríbank - Argent Dawn@auctionUIContext@shoppingGroupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["g@ @destroyingUIContext@frame"] = {
+		["centerX"] = 0,
+		["height"] = 442,
+		["centerY"] = 0,
+		["scale"] = 1,
+		["width"] = 296,
+	},
+	["g@ @mailingOptions@resendDelay"] = 1,
+	["g@ @destroyingUIContext@itemsScrollingTable"] = {
+		["colWidth"] = {
+			["item"] = 214,
+			["num"] = 30,
+		},
+		["colHidden"] = {
+		},
+	},
+	["g@ @userData@destroyingIgnore"] = {
+	},
+	["g@ @bankingUIContext@tab"] = "Warehousing",
+	["g@ @internalData@optionalMatBonusIdLookup"] = {
+	},
+	["g@ @craftingUIContext@frame"] = {
+		["centerX"] = -200,
+		["scale"] = 1,
+		["height"] = 587,
+		["centerY"] = 0,
+		["page"] = 1,
+		["width"] = 820,
+	},
+	["c@Ríríbank - Argent Dawn@auctionUIContext@auctioningGroupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["c@Ríríbank - Argent Dawn@internalData@auctionMessages"] = {
+	},
+	["g@ @craftingUIContext@professionScrollingTable"] = {
+		["colWidth"] = {
+			["craftingCost"] = 100,
+			["saleRate"] = 30,
+			["name"] = 240,
+			["profitPct"] = 50,
+			["itemValue"] = 100,
+			["qty"] = 54,
+			["profit"] = 100,
+			["rank"] = 40,
+		},
+		["colHidden"] = {
+			["itemValue"] = true,
+			["profitPct"] = true,
+			["craftingCost"] = true,
+		},
+		["collapsed"] = {
+		},
+	},
+	["g@ @tooltipOptions@moduleTooltips"] = {
+		["AuctionDB"] = {
+			["regionMinBuyout"] = false,
+			["regionHistorical"] = false,
+			["historical"] = false,
+			["regionSalePercent"] = true,
+			["minBuyout"] = true,
+			["regionMarketValue"] = true,
+			["regionSale"] = true,
+			["marketValue"] = true,
+			["regionSoldPerDay"] = true,
+		},
+		["Auctioning"] = {
+			["postQuantity"] = false,
+			["operationPrices"] = false,
+		},
+		["Crafting"] = {
+			["matPrice"] = false,
+			["detailedMats"] = false,
+			["craftingCost"] = true,
+		},
+		["Accounting"] = {
+			["sale"] = true,
+			["expiredAuctions"] = false,
+			["purchase"] = true,
+			["cancelledAuctions"] = false,
+			["saleRate"] = false,
+		},
+		["Shopping"] = {
+			["maxPrice"] = false,
+		},
+		["Sniper"] = {
+			["belowPrice"] = false,
+		},
+	},
+	["g@ @appearanceOptions@taskListBackgroundLock"] = false,
+	["g@ @mainUIContext@ledgerResaleScrollingTable"] = {
+		["colWidth"] = {
+			["bought"] = 50,
+			["totalProfit"] = 120,
+			["item"] = 194,
+			["sold"] = 50,
+			["avgProfit"] = 120,
+			["avgSellPrice"] = 120,
+			["profitPct"] = 80,
+			["avgBuyPrice"] = 120,
+		},
+		["colHidden"] = {
+			["profitPct"] = true,
+			["totalProfit"] = true,
+		},
+	},
+	["f@Horde - Argent Dawn@internalData@mailExcessGoldChar"] = "",
+	["f@Horde - Argent Dawn@internalData@mailExcessGoldLimit"] = 10000000000,
+	["g@ @tooltipOptions@prospectTooltip"] = true,
+	["g@ @tooltipOptions@transformTooltip"] = true,
+	["g@ @mainUIContext@importExportDividedContainer"] = {
+		["leftWidth"] = 300,
+	},
+	["_version"] = 97,
+	["g@ @mailingOptions@openMailSound"] = "TSM_NO_SOUND",
+	["g@ @auctionUIContext@frame"] = {
+		["centerX"] = -300,
+		["scale"] = 1,
+		["height"] = 587,
+		["centerY"] = 100,
+		["page"] = 1,
+		["width"] = 830,
+	},
+	["g@ @appearanceOptions@colorSet"] = "midnight",
+	["c@Ríríbank - Argent Dawn@bankingUIContext@warehousingGroupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
+	["g@ @tooltipOptions@vendorSellTooltip"] = true,
+	["f@Horde - Argent Dawn@gatheringContext@professions"] = {
+	},
+	["g@ @coreOptions@chatFrame"] = "",
+	["s@Ríríbank - Horde - Argent Dawn@internalData@goldLogLastUpdate"] = 1607078139,
+	["g@ @coreOptions@auctionSaleSound"] = "TSM_NO_SOUND",
+	["g@ @auctionUIContext@shoppingSearchesTabGroup"] = {
+		["pathIndex"] = 1,
+	},
+	["g@ @auctionUIContext@auctioningSelectionDividedContainer"] = {
+		["leftWidth"] = 272,
+	},
+	["g@ @mainUIContext@operationsSummaryScrollingTable"] = {
+		["colWidth"] = {
+			["items"] = 130,
+			["selected"] = 16,
+			["name"] = 248,
+			["groups"] = 130,
+		},
+		["colHidden"] = {
+		},
+	},
+	["f@Horde - Argent Dawn@internalData@pendingMail"] = {
+		["Ríríbank"] = {
+		},
+	},
+	["c@Ríríbank - Argent Dawn@mainUIContext@importGroupTree"] = {
+		["collapsed"] = {
+		},
+		["selected"] = {
+		},
+	},
+	["s@Ríríbank - Horde - Argent Dawn@internalData@mailQuantity"] = {
+	},
+	["r@Argent Dawn@internalData@csvExpense"] = "type,amount,otherPlayer,player,time",
+	["_currentProfile"] = {
+		["Ríríbank - Argent Dawn"] = "Default",
+	},
+	["g@ @tooltipOptions@vendorBuyTooltip"] = true,
+	["_syncOwner"] = {
+		["Ríríbank - Horde - Argent Dawn"] = "Horde - Argent Dawn - 1471380392",
+	},
+	["g@ @auctionUIContext@auctioningBagScrollingTable"] = {
+		["colWidth"] = {
+			["operation"] = 206,
+			["selected"] = 16,
+			["item"] = 246,
+		},
+		["colHidden"] = {
+		},
+	},
+	["f@Horde - Argent Dawn@internalData@auctionDBScanHash"] = 0,
+	["g@ @auctioningOptions@confirmCompleteSound"] = "TSM_NO_SOUND",
+	["g@ @mailingOptions@recentlyMailedList"] = {
+	},
+	["f@Horde - Argent Dawn@internalData@guildGoldLog"] = {
+	},
+	["g@ @coreOptions@destroyValueSource"] = "dbmarket",
+	["g@ @mainUIContext@dashboardUnselectedCharacters"] = {
+	},
+	["g@ @internalData@optionalMatTextLookup"] = {
+	},
+	["p@Default@userData@operations"] = {
+		["Mailing"] = {
+			["#Default"] = {
+				["ignoreFactionrealm"] = {
+				},
+				["restock"] = false,
+				["maxQty"] = 10,
+				["relationships"] = {
+				},
+				["maxQtyEnabled"] = false,
+				["target"] = "",
+				["restockSources"] = {
+					["guild"] = false,
+					["bank"] = false,
+				},
+				["ignorePlayer"] = {
+				},
+				["keepQty"] = 0,
+			},
+		},
+		["Auctioning"] = {
+			["#Default"] = {
+				["cancelRepost"] = true,
+				["normalPrice"] = "check(first(crafting,dbmarket,dbregionmarketavg),max(2*avg(crafting,dbmarket,dbregionmarketavg),12*vendorsell))",
+				["cancelUndercut"] = true,
+				["keepQuantity"] = "0",
+				["postCap"] = "5",
+				["bidPercent"] = 1,
+				["relationships"] = {
+				},
+				["maxPrice"] = "check(first(crafting,dbmarket,dbregionmarketavg),max(5*avg(crafting,dbmarket,dbregionmarketavg),30*vendorsell))",
+				["ignoreLowDuration"] = 0,
+				["ignoreFactionrealm"] = {
+				},
+				["cancelRepostThreshold"] = "1g",
+				["maxExpires"] = "0",
+				["priceReset"] = "none",
+				["blacklist"] = "",
+				["duration"] = 2,
+				["aboveMax"] = "maxPrice",
+				["minPrice"] = "check(first(crafting,dbmarket,dbregionmarketavg),max(0.25*avg(crafting,dbmarket,dbregionmarketavg),1.5*vendorsell))",
+				["undercut"] = "0c",
+				["ignorePlayer"] = {
+				},
+			},
+		},
+		["Crafting"] = {
+			["#Default"] = {
+				["ignoreFactionrealm"] = {
+				},
+				["relationships"] = {
+				},
+				["minRestock"] = "10",
+				["craftPriceMethod"] = "",
+				["ignorePlayer"] = {
+				},
+				["maxRestock"] = "20",
+				["minProfit"] = "100g",
+			},
+		},
+		["Warehousing"] = {
+			["#Default"] = {
+				["stackSize"] = 0,
+				["ignoreFactionrealm"] = {
+				},
+				["moveQuantity"] = 0,
+				["keepBankQuantity"] = 0,
+				["relationships"] = {
+				},
+				["restockStackSize"] = 0,
+				["restockQuantity"] = 0,
+				["ignorePlayer"] = {
+				},
+				["keepBagQuantity"] = 0,
+				["restockKeepBankQuantity"] = 0,
+			},
+		},
+		["Vendoring"] = {
+			["#Default"] = {
+				["vsMarketValue"] = "dbmarket",
+				["ignoreFactionrealm"] = {
+				},
+				["enableBuy"] = true,
+				["vsDestroyValue"] = "destroy",
+				["sellAfterExpired"] = 20,
+				["vsMaxMarketValue"] = "0c",
+				["restockQty"] = 0,
+				["restockSources"] = {
+					["alts_ah"] = false,
+					["ah"] = false,
+					["guild"] = false,
+					["alts"] = false,
+					["mail"] = false,
+					["bank"] = false,
+				},
+				["relationships"] = {
+				},
+				["keepQty"] = 0,
+				["vsMaxDestroyValue"] = "0c",
+				["ignorePlayer"] = {
+				},
+				["sellSoulbound"] = false,
+				["enableSell"] = true,
+			},
+		},
+		["Shopping"] = {
+			["#Default"] = {
+				["ignoreFactionrealm"] = {
+				},
+				["showAboveMaxPrice"] = true,
+				["maxPrice"] = "dbmarket",
+				["restockQuantity"] = "0",
+				["restockSources"] = {
+					["alts"] = false,
+					["auctions"] = false,
+					["guild"] = false,
+					["bank"] = false,
+				},
+				["ignorePlayer"] = {
+				},
+				["relationships"] = {
+				},
+			},
+		},
+		["Sniper"] = {
+			["#Default"] = {
+				["ignorePlayer"] = {
+				},
+				["ignoreFactionrealm"] = {
+				},
+				["relationships"] = {
+				},
+				["belowPrice"] = "max(vendorsell, ifgt(DBRegionMarketAvg, 250000g, 0.8, ifgt(DBRegionMarketAvg, 100000g, 0.7, ifgt(DBRegionMarketAvg, 50000g, 0.6, ifgt(DBRegionMarketAvg, 25000g, 0.5, ifgt(DBRegionMarketAvg, 10000g, 0.4, ifgt(DBRegionMarketAvg, 5000g, 0.3, ifgt(DBRegionMarketAvg, 2000g, 0.2, ifgt(DBRegionMarketAvg, 1000g, 0.1, 0.05)))))))) * DBRegionMarketAvg)",
+			},
+		},
+	},
+	["f@Horde - Argent Dawn@internalData@guildGoldLogLastUpdate"] = {
+	},
+	["f@Horde - Argent Dawn@internalData@characterGuilds"] = {
+	},
+	["g@ @vendoringOptions@qsMarketValue"] = "dbmarket",
+	["f@Horde - Argent Dawn@internalData@isCraftFavorite"] = {
+	},
+	["r@Argent Dawn@internalData@csvIncome"] = "type,amount,otherPlayer,player,time",
+}
+TSMItemInfoDB = {
+	["locale"] = "enUS",
+	["revision"] = "36753",
+	["version"] = 7,
+	["build"] = "9.0.2",
+	["itemStrings"] = "i:163936i:174328i:34057i:111664i:109143i:23425i:108302i:36903i:108353i:140493i:128353i:124101i:154173i:132443i:152507i:39151i:76137i:52179i:154172i:154123i:52195i:36931i:152510i:166793i:161417i:22790i:7909i:169305i:151822i:22445i:137060i:144249i:151718i:124440i:160711i:61979i:169311i:151565i:34368i:36921i:137052i:12800i:169314i:52985i:108362i:168193i:130174i:23117i:39343i:161377i:95449i:80809i:84782i:95451i:85153i:85162i:95457i:114116i:84783i:95447i:95445i:89849i:85163i:95454i:89847i:159630i:184017i:163223i:163222i:163225i:163224i:129276i:161117i:114120i:72094i:61978i:111663i:109144i:178862i:111667i:109140i:8839i:108336i:23077i:179331i:36917i:12361i:23095i:39900i:40111i:32193i:52206i:76696i:71883i:178742i:53360i:140i:139i:117357i:58245i:166747i:2450i:23094i:39911i:40113i:32195i:52207i:76694i:71881i:175733i:109625i:109624i:2453i:108322i:61980i:33278i:43104i:36919i:52177i:137088i:43120i:114931i:169308i:36923i:124442i:130175i:151720i:771i:52983i:3864i:161375i:36909i:108305i:2770i:172849i:184058i:172669i:172672i:184055i:172666i:174472i:114119i:111595i:109137i:153636i:37700i:37701i:37702i:37704i:37703i:37705i:167672i:140192i:36932i:168189i:93672i:173096i:173069i:173087i:130180i:23440i:154126i:130215i:151580i:130219i:173127i:173121i:168639i:153710i:37921i:130173i:23079i:28595i:39905i:40112i:32194i:52212i:76692i:71879i:52194i:89880i:161418i:89639i:137018i:30542i:18984i:37863i:161463i:161462i:109693i:3819i:108329i:21394i:140808i:162966i:162897i:161902i:161674i:184030i:36928i:52192i:34052i:13463i:22786i:124102i:39334i:2449i:108319i:43108i:52185i:108308i:52193i:39339i:180117i:151564i:152636i:111671i:111670i:111674i:111601i:111675i:111673i:111676i:111672i:35623i:172232i:35624i:36860i:35625i:35627i:172179i:35622i:23427i:108303i:43124i:54452i:74247i:42732i:130179i:36934i:41265i:3818i:111668i:109139i:137539i:23424i:108301i:133925i:144482i:123919i:22785i:124106i:160833i:111666i:109141i:166746i:39970i:39969i:4625i:109125i:158163i:124104i:181501i:21929i:46954i:141605i:151722i:79011i:173944i:36933i:151963i:124103i:52219i:71877i:76700i:115504i:152545i:41509i:109124i:130178i:161379i:159614i:110560i:97512i:72092i:8845i:152875i:167219i:184021i:10645i:23836i:2776i:108296i:36901i:153700i:23112i:39338i:13464i:3821i:154174i:109126i:3369i:152547i:52719i:34055i:115809i:16203i:115811i:10939i:115812i:22446i:115815i:115814i:162973i:72234i:178811i:8846i:165574i:34191i:167677i:163045i:5512i:52986i:6948i:52721i:2581i:24269i:6451i:3531i:151721i:52181i:168907i:133642i:36929i:12364i:128502i:41058i:168989i:52555i:13467i:36906i:43109i:167868i:159615i:127760i:127761i:127762i:127765i:127764i:76141i:95350i:43105i:61981i:52190i:34054i:79254i:43126i:179350i:152626i:165568i:2772i:108297i:37101i:1529i:43118i:52251i:52182i:111669i:109138i:159627i:152178i:152179i:152180i:152181i:152182i:152183i:137108i:137053i:94222i:165662i:3358i:108326i:154176i:23426i:108304i:144259i:36922i:3356i:95567i:74637i:166795i:153706i:153702i:153705i:72093i:151579i:152546i:76133i:14344i:140590i:12799i:22449i:835i:154124i:168190i:52718i:34056i:16202i:10938i:1705i:22447i:168635i:124441i:123918i:36905i:3357i:108325i:16204i:151719i:1251i:174277i:178850i:161473i:43116i:161474i:158216i:23436i:87548i:111245i:165669i:167866i:159617i:184024i:52722i:130182i:785i:8544i:36925i:774i:180827i:174327i:167835i:33119i:22793i:184029i:174103i:137107i:168662i:128503i:89815i:151584i:173130i:173124i:153713i:130218i:168640i:130222i:154129i:168646i:159618i:184025i:155564i:158367i:39774i:140799i:118897i:165578i:21519i:79253i:3858i:108300i:140324i:168965i:36930i:152512i:39469i:1206i:22572i:22573i:22574i:22575i:22576i:22577i:22578i:13465i:155567i:158319i:74250i:109128i:137087i:39342i:22791i:24268i:168973i:22792i:108350i:23441i:52180i:165802i:23439i:154177i:167528i:167525i:167380i:167378i:167377i:53038i:108307i:52191i:168899i:91850i:168185i:180116i:178849i:181359i:179342i:154120i:76136i:130181i:2447i:158162i:165670i:177278i:167863i:152513i:158164i:167555i:152560i:127843i:58487i:168529i:168506i:142117i:152559i:169299i:39910i:40118i:52230i:76693i:71880i:118903i:22451i:22452i:21884i:21886i:22457i:22456i:21885i:76131i:132444i:178825i:8831i:52183i:108309i:130177i:52232i:130216i:130220i:153711i:173128i:173122i:40128i:151583i:71876i:35761i:154127i:168641i:39918i:76699i:22787i:72237i:165580i:75208i:159611i:152549i:35278i:169769i:146667i:156930i:23116i:39915i:71817i:32210i:40125i:52235i:76636i:142173i:165665i:76138i:152505i:76135i:129032i:159624i:154125i:153701i:37727i:43106i:61323i:79104i:139593i:172231i:168188i:129034i:152543i:168192i:130172i:160753i:184031i:43107i:36912i:108306i:128289i:128288i:154121i:36918i:3012i:2290i:1478i:1180i:1711i:1712i:168191i:165664i:111665i:109142i:152511i:37887i:132452i:74248i:36926i:23107i:79251i:1210i:179356i:130183i:94221i:43122i:168905i:169318i:21392i:173940i:6450i:72235i:97621i:2775i:108294i:765i:91863i:39341i:175884i:184052i:175921i:181333i:165223i:165220i:165058i:165055i:178783i:152509i:7734i:184016i:36924i:130176i:178770i:152544i:111659i:111662i:111652i:14343i:111589i:34053i:74252i:111651i:111656i:52720i:111650i:115502i:22448i:111658i:52241i:23114i:40117i:71874i:32205i:39909i:76697i:79010i:43127i:136605i:39919i:71820i:32200i:40119i:52242i:76639i:153703i:13466i:32825i:172230i:184019i:151650i:178751i:23119i:39920i:71819i:32201i:40120i:52244i:76638i:32321i:151190i:74249i:152506i:23438i:7910i:109127i:79255i:124105i:152557i:152579i:52984i:10940i:3820i:128910i:33069i:23115i:36920i:76142i:178826i:8838i:95568i:76134i:168489i:168498i:168499i:168500i:168501i:2452i:161411i:175732i:109129i:36907i:23437i:113588i:22789i:28767i:151823i:117356i:64488i:64457i:43824i:146669i:137054i:10620i:108298i:91861i:137089i:154122i:165576i:36904i:76130i:818i:143728i:2771i:108295i:137439i:152548i:147187i:147188i:147190i:147191i:147189i:147192i:36910i:108391i:142542i:147019i:117i:109991i:109119i:7911i:108299i:184020i:52987i:36927i:153635i:18986i:30544i:152876i:173058i:147012i:139327i:91862i:151824i:165572i:152877i:43103i:76140i:168642i:173129i:173123i:153712i:151585i:130221i:154128i:130217i:159625i:147011i:132342i:178810i:158224i:34471i:146668i:80513i:39340i:168302i:153669i:153704i:169307i:22450i:167865i:8149i:183850i:113111i:165569i:134553i:128908i:137077i:52988i:108365i:158215i:72103i:76139i:3355i:161382i:152508i:3530i:63427i:112059i:151652i:168807i:48933i:87215i:168808i:12282i:122284i:32698i:173946i:128304i:52178i:31463i:168487i:18904",
+	["data"] = "8AyAEhVCABAMqpgAAEAEAABAAAxJAAAIDAC85AAHIBABeAAAAAAAAIDAV35AAHMEABjAAApBAAAIDA6AtDAHIBABoAAAeAAAAIDAUBtDAHIBABBAAAcXAAAIDAh2gAAHHBABaAAAWCAAAIDARxqDAHHBABBAAAiTAAAIDAA95AAHJBABdAAACAAAAIDAeiqDAHJBABtAAABAAAABAAF8gAAPEDBABAAAAAAAABAAaxgAAPEDBABAAABAAAAIDA3lUFAHJBABzAtAb9MBABAMPWmGAEAEBAyAoA_8cBABAIc1xBAEEFBABAAABAAAAIDAC5zGAHJBABBAAAZAAAAIDAp55AAHQBABhAAAwdBAAIDA_UVCAHECABeAAAIOBAAIDAMLxBAHECAByAtArejBABAMRWmGAEAFBAtAAA4iIAAIDAQFmHAHEDABgAAAA0HAAIDAVQxBAHEDABeAAAQfAAAIDAl65AAHEEABBAAABAAAAIDAGUTHAHJCAB8AyAWBVCABAMc-5AAEAEBA8AyAHcVCABAMc-5AAEAEBABAAAuLAAAIDA5wgAAHJBABUAAAoPAAAIDAIvgAAHECABIByAUxgCABAMf7tFAEAEBAyAoA4O-BABAHmzvBAEEFBAZAAAAAAAAIDA2bgAAHMBAByAoAc46AABAKHpBDAEEFBAyAoAK_lBABAMeNhAAEAFBAtAAAIOBAAIDAywbGAHEEABtAAAAAAAAIDAntQFAHMBABBAAAqhBAAIDAHOsDAHIBABeAAAZAAAAIDAoPsBAHQBABIByA0kYCABAMUt0FAEAEBABAAABAAAAIDAdmbGAHJBABbAAAAAAAABAA7vgAAMABBAeAAAwUHAAIDAH65AAHEDAByAoAn8MBABALxt9BAEAFBAZAAAQcCAAIDAOvgAAHECABIByA2UaCABAMnhREAEAEBABAAAdgAAAIDA92vBAHJBABfAAABAAAAIDAgiqDAHJBABtAAA4iIAAIDATQxBAHEEABoABAYqDAAIDA6tQFAHECABaAAAEnAAAIDAAvgAAHECABbAAAZAAAAIDAU55AAHQBAB8AyAFfVCABAMVoBIAEAEBABABA4TSAABAATogAAAIBBABABAyvCAABAAkogAAAIBBABABAyvCAABAA2ngAAAIBBABABA4TSAABAAPogAAAIBBABABAyvCAABAA5ngAAAIBBABABAyvCAABAA3ngAAAIBBABABA4TSAABAAXogAAAIBBAoAjAAAAAAUAANogAAAIBBABABAyvCAABAA6ngAAAIBBABABA4TSAABAAOogAAAIBBABABA4TSAABAAhogAAAIBBABABAyvCAABAAFogAAAIBBABABAyvCAABAA4ngAAAIBBABABA4TSAABAArFVBAAIBBABABAyvCAABAAJogAAAIBBA7AAAUSqBABAM7_gAAEADBAID8Aw45CABAMy-TFAEAEBAyAoAEnAAAUAAj5UCAABBAAyAoAEnAAAUAAh5UCAABBAAyAoAEnAAAUAAg5UCAABBAAyAoAEnAAAUAAf5UCAABBAAtAAAQLxEABAAD8gAAPEDBA6AyAKRsBABAMYOhAAEADBAoAoAAAAAAUAA11wDAAICBAjAAAeFAAAIDAgbVCAHHCABeAAA0HAAAIDAA45AAHQBABjAAApBAAAIDAMBtDAHIBABoAAAeAAAAIDAaBtDAHIBABeC8A19FCABAMvDVFAEADBAjAAApBAAAIDAJBtDAHIBABoAAAeAAAAIDAZBtDAHIBABBAAA3FAAAIDAzwgAAHJBABUAAACAAAAIDAhiqDAHJBABaAAAEnAAAIDADvgAAHECABeC8AzhECABAMot0FAEADBAcAAAEnAAAIDAQ65AAHECABXAAAYtBAAIDA0vgAAHECABZAAAqhBAAUAACvgAADCCAAbAAAM1BAAUAAa65AADCCAAeAAAA9BAAUAAp65AADCEAAbAAAYtBAAUAA3hgAADCEAAgAAA6ACAAUAAY7xBADCDAAjABAQcCAAUAAPvZCADCDAAgAAAoMCAAUAA70BCADCEAAeC8ACN_BABAM0MSFAEADBABAAAEAAAABAKgPsBAEEBBABAAAFAAAABAI6WgAAEEBAABABAHAAAABAH22gAAEEBAAsAAABAAAABAMdpgAAEAEBABAAAHAAAABAUvZgAAEEBAABAAAAAAAABAA3KgJAPADBABAAAZAAAAIDAM0gAAHJBABZAAAqhBAAUAACvgAADACAAbAAAM1BAAUAAa65AADACAAeAAAA9BAAUAAp65AADAEAAbAAAYtBAAUAA3hgAADAEAAgAAA6ACAAUAAY7xBADADAAjABAQcCAAUAAPvZCADADAAgAAAoMCAAUAA70BCADAEAAVBwADK5BABAM0FWDAEADBAjAAAkBAAAIDA2UqDAHJBABjAAAkBAAAIDA6UqDAHJBABBAAAZAAAAIDAlwgAAHJBABKAAADAAAAIDAiiqDAHJBABeAAAZAAAAIDABQsBAHQCABBAAAAAAAABAAIEhAAMABBANAAAZAAAAIDAc55AAHQCABeAAAQfAAAIDAk65AAHEEABeAAAIOBAAIDAYQxBAHECAByAoAGrcBABABgmVDAEEFBARAAA0HAAAIDAQ45AAHQBABoAAAZAAAAIDAne5DAHQBABIByAWhiCABAM3HDCAEAEBAcAAAEnAAAIDAO65AAHECABtAAAAAAAAIDAotQFAHMEABoABAYqDAAIDA2tQFAHECABtAAAIOBAAIDAxwbGAHEEABBAAAmAAAAUAAZpgAAPAAAABAAAvfAAAIDA-2vBAHJBABRAAAgMAAAIDAlvgAAHECAB8AyAuVUCABAMMBhAAEAEBABAAAoPAAAIDAl2gAAHHBABcAAAkBAAAIDASxqDAHHBABBAAAFAAAAIDAm2gAAHHBAB8AyA8vVCABAMMLhAAEAEBAvCyAASoHABAMg7CFAEADBA8AyAGIZCABAMMLhAAEAEBA8AyA67eCABAMDO7DAEAEBADDyAJAKCABAMg7CFAEADBA8AyACbXCABAMrl9AAEAEBA8AyAaYaCABAMlrMFAEAEBAoABAAAAAAUAAZagAAAICBAjAAApBAAAIDA9AtDAHIBABoAAAeAAAAIDAVBtDAHIBABtAAAZAAAAIDA62TIAHQBABBAAAYJAAAIDAJ35AAHKBABBAAAYJAAAIDAK35AAHKBABBAAAYJAAAIDAL35AAHKBABBAAAYJAAAIDAM35AAHKBABBAAAYJAAAIDAN35AAHKBABBAAAYJAAAIDAO35AAHKBABOByAkfeAABAA4zgAADJEBAjAKAAAAAABAAPxgFAPABBAcAAAEnAAAIDAL65AAHECABtAAA4iIAAIDASQxBAHEEABbAAAAAAAABAA0V-AAPADBAID8AV9RCABAMQiLOAEADAAID8AgMZCABAM_iLOAEADAAID8ASEYCABAM2iLOAEADAAtABAoGGAAIDAAuQFAHEDABbAAAwUHAAIDA5hgAAHEDAByABA4iIAAIDAKFmHADFDAAoABAcREAAIDAMOVFADFCAAtAAAg4EAAUAAtwbGADFEAAtABAEhEAAIDASOVFADFDAA4BBAEnAAAIDAW3ROADFDAB2BBAoGGAAIDA82ROADFCAAyAAA4iIAAIDAymZCADFEAAxABAoGGAAIDAEFmHADFCAABAAAuLAAAIDA7wgAAHJBABoABAYqDAAIDA3tQFAHECABaAAAEnAAAIDANvgAAHECABZAAAqhBAAUAACvgAADBCAAbAAAM1BAAUAAa65AADBCAAeAAAA9BAAUAAp65AADBEAAbAAAYtBAAUAA3hgAADBEAAgAAA6ACAAUAAY7xBADBDAAjABAQcCAAUAAPvZCADBDAAgAAAoMCAAUAA70BCADBEAAgAAAA0HAAIDAUQxBAHEDABBABAAAAAABAAj0gAAPEBBA8AyAzAWCABAM41wDAEAEBAgAAAdEAAAIDAjUdCAHJBAByAoAcG9BABAUMoqBAEEFBAbAAAIOBAABAAprgAAAADAAZAAAIOBAABAAxrgAAAADAABAAAAAAAABAAXegAAAIDBA8AyAB7cCABAM65-DAEAEBA8AyAVWcCABAMPLxBAEAEBAoAAAAAAAAIDANB1DAHMBABBAAAkBAAAIDAMGwBAHJBABRAAACAAAAIDAliqDAHJBABdAZAV3CAABAQMqgAAEBEBAyAtA0dEBABAM2QxBAEAEBA6AtABjvBABAMMLhAAEADBA6AtAgDpBABAMrl9AAEADBA6AyADINCABAMMLhAAEAEBA6AyAh0WCABAMrl9AAEAEBAPD8AOWxCABAMXItDAEAEBAeAAAQfAAAIDAj65AAHEEABgAAAA0HAAIDARQxBAHEDABeAAAAAAAAIDAX35AAHMDABBAAAkBAAAIDA8wgAAHJBABZAAA0HAAAIDA9wgAAHJBABBAAABAAAAIDAdxSFAHJBABFAAAZAAAAIDApe5DAHQBABBAAAUAAAAIDArwgAAHJBABFAAAKAAAAIDAQ9VDAHJBABbAAAZAAAAIDAd55AAHQCABBAAAKjAAAIDALGVBAHHBABfAAAhDAAAIDATxqDAHHBABgAAAA0HAAIDALLxBAHEDABNAAAZAAAAIDAe55AAHQBABeC8APJCCABAMgZdNAEADBABAAABAAAAIDAqkdGAHHBAB7AyA_G2AABAMsV2HAEADAAjAAA9BAAAIDA7AtDAHIBABjAAA9BAAAIDANBtDAHIBABjAAA9BAAAIDAKBtDAHIBABjAAA9BAAAIDA-AtDAHIBABjAAA9BAAAIDAHBtDAHIBABjAAA9BAAAIDA4AtDAHIBABjAAA9BAAAIDAEBtDAHIBABjAAA9BAAAIDABBtDAHIBABcAAAwdBAAIDAP35AAHKCABBAAAAAAAAIDA8bdNAHMEABcAAAwdBAAIDAQ35AAHKCABcAAAwdBAAIDAR35AAHKCABcAAAwdBAAIDAS35AAHKCABcAAAwdBAAIDAT35AAHKCABBAAAAAAAABAAMGxLAPADBAcAAAwdBAAIDAU35AAHKCABbAAAiTAAAIDAn2gAAHHCABbAAA9BAAAIDAUxqDAHHCABZAAA0HAAAIDA_35AAHQBABbAAAAAAAABAA-q5AAPADBAjAAAAAAAAIDAzEVCAHMDABBAAAAAAAABAA4BhAAMABBAtABAoGGAAIDA9tQFAHEDABeAAAQfAAAIDAm65AAHEEABBAAAAAAAABAAUHhAAMABBABAAA9BAAAIDAxwgAAHJBABjAAApBAAAIDAGBtDAHIBABoAAAeAAAAIDAYBtDAHIBAByAoAy30AABAMc-5AAEADBAZAAAoPAAAIDAp2gAAHHBABZAAAkBAAAIDAVxqDAHHBABBABAAAAAABAA-HNDAMABBAyAoA9r1AABAMwrgAAEADBAqAAABAAAAIDARkUFAHHBABZAAA0HAAAIDAAxgAAHJBABBAAAWbAAAIDAexSFAHJCAB7AtA3J1AABAMULBIAEADBAjAAApBAAAIDA3AtDAHIBABoAAAeAAAAIDATBtDAHIBABBAAAAAAAABAA4KgJAPADBABAAAuLAAAIDAwwgAAHJBABcAAAuLAAAUAAUcgAAAIBAABAAA6DAAAIDA4wgAAHJBABoAAAemAAAIDA1UqDAHJBAB6AAAC_qBABAMp0gAAEADBABAAABAAAAIDAfxSFAHJBABUC8Ahp7BABAM8UfNAEADBAaAAAEnAAAIDAfvgAAHECABBAAAAAAAABAAW_gAAMABBABABAAAAAABAABRgAAPEDBAtAAAIOBAAIDA9wbGAHEEABBAAA2pAAAIDAySWCAHJBABVByAB7gCABAMHSwFAEAEBAeAAAwUHAAIDAF65AAHEDAByAtAcFFBABAMp5vGAEAEBABAAABAAAAIDAgxSFAHJBABgAAA6ACAAUAAgKxBADGDAAgAAAoMCAAUAA90BCADIEAAjABAQcCAAUAAQvZCADGDAAlAAAAAAAAIDAKB1DAHMEABBAAAxJAAAIDAfR2HAHIBABcAAAIDAAAUAA1ygAAAIBAAoAAAemAAAIDA5UqDAHJBABtABAoGGAAIDA_tQFAHEDAB8AyAenWCABAM7ioDAEAEBA7AAAT6rBABAMHfDCAEADBAjAKAAAAAABAAEX-DAPABBAgAAAkBAAAIDAT9VDAHHBABBAAAcXAAAIDAHdDCAHHBABBAAA3FAAAIDAB2gAAHJBABtAAAAAAAAIDAx92HAHMBAB8AyA-HcBABAKye-IAECEBAID8A-wqCABAM8DEGAEAEBAZAAAuLAAABAMKegAAEABBAdAYAkfFAABAMoegAAEADAABAAA0HAAAIDAr2gAAHHCABLAAAyAAAAIDAWxqDAHHCABBAAAuLAAAIDADxgAAHJBABtAAAoGGAAIDAiKpHAHECABaAAAEnAAAIDAivgAAHECABKAAAZAAAAIDAf55AAHQBABBAAAkBAAAIDANxgAAHJBABBAAAWCAAAIDA0wgAAHJBABzAtAQQNBABAMOWmGAEAEBAoAAAemAAAIDA3UqDAHJBABBAAAZAAAAIDAZrgAAHJBABBAAAxJAAAIDAgR2HAHIBABfAAAAAAAAIDAvKxBAHMCABcAAAAAAAAIDAY35AAHMCABoABA8SDAAUAANP8DADFDAABAAAAAAAAIDAAcgAAHMCABoABA8SDAAUAASP8DADHDAABAAAAAAAAIDACcgAAHMCABoABA8SDAAUAARP8DADGDAAaAAAAAAAAIDA8bgAAHMCABoABA8SDAAUAAQP8DADDDAAoABA8SDAAUAAOP8DADIDAABAAAAAAAABAAgsGIAPADBAgAAAhkAAAIDAbFWCAHJBABeC8ApV9BABAMlpgAAEADBABAAA6DAAAIDA1wgAAHJBAB8AyAGSXCABAMYOhAAEAEBABAAAAAAAAUAApKhAAPDBAAOByAkfeAABAA4zgAADJEBABAAAAAAAABAAfsGIAPADBAFABAAAAAABAA5hDCAAIBAABAAAqiAAAIDA_2vBAHJBABBAAAAAAAABAAO0gAAPABBAgAAAAAAAAIDAxKxBAHMDABBAAAUAAAAUAA4ogAAAHBAAZAAAkBAAAUAA1ygAAAIBAABAAAQGAAAUAAoogAAAHBAABAAA5AAAAUAA3ogAAAHBAAtAAAIOBAAIDA-wbGAHEEABeAAAIOBAAIDAZQxBAHECABBAAAAAAAABAApKgJAPADBAyAoA2GzAABAMVxgAAEADBAcAAAEnAAAIDAN65AAHECABZAAAQcCAAIDAYvgAAHECABoABAAAAAABAAkH5DAAIDBABAAAAAAAABAAX_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_JACKEBAbAAAiTAAAIDAKxgAAHJBABbAAALBAAAIDAiVqDAHJBABbAAAwUHAAIDAHigAAHEDABeAAAIOBAAIDAXQxBAHECABBAAAAAAAABAA5KgJAPADBAbAAAwUHAAIDAKigAAHEDABzAtAPIOBABAMMWmGAEAEBA8AyAEXXCABAMMLhAAEAEBA8AyAwDhCABAMrl9AAEAEBA8AyAvIWCABAMMLhAAEAEBA8AyAWAVCABAM4TgAAEAEBA8AyAqbUCABAMrl9AAEAEBABAAAQfAAAIDA-FVBAHHBABeAAAIDAAAIDAaxqDAHHBABgAAAA0HAAIDASQxBAHEDABIByAnN-DABAN-aaLACHEBABABAAAAAAUAAZQxBAAIBBABAAAyAAAAIDAB6sJAHHBABeC8AkqBCABAMIWgAAEADBAeC8AoW8BABAMOVfNAEADBAUC8A94ACABAMPTDGAEADBAeC8AiOACABAM0a8DAEADBAtAAA4iIAAIDATFmHAHEDABhAAAwdBAAIDABVVCAHECABtABAoGGAAIDA8tQFAHEDABBAAAKAAAAIDAzsgAAHJBAB6AAAxlqBABAMaxgAAEADBABAAAAAAAABAAoKgJAPADBAKABAAAAAADAAuKxBAABBBA8AyADWOFABAR-ORJACKEBABAAABAAAAIDAHexHAHHCAB6AAAAZrBABAM0agAAEADBAIByAAAAAABAM6bEIAEAEBAyAoAEnAAAUAAfV2HAABBAAtAoAEnAAAUAAXMSFAABBAAfAfAIOBAAUAAaQxBAABBAAyAoAEnAAAUAAZSxBAABBAAyAoAEnAAAUAAYSxBAABBAAtAoAIOBAAkBAsNsDAABBAAyAoAEnAAAUAAcV2HAABBAAyAoAEnAAAUAAcSxBAABBAAbAAAM1BAAUAAa65AADHCAAeAAAA9BAAUAAp65AADHEAAgAAA6ACAAUAAY7xBADHDAAjABAQcCAAUAAPvZCADHDAAgAAAoMCAAUAA70BCADHEAAoAAAPAAAAUAAz4gAAAICBABAAAg-AAAIDAtbgAAHKCABBAAAg-AAAIDAubgAAHKCABBAAAg-AAAIDAvbgAAHKCABBAAAg-AAAIDAwbgAAHKCABBAAAg-AAAIDAxbgAAHKCABBAAAg-AAAIDAzbgAAHKCABBAAAg-AAAIDA0bgAAHKCABjAAA4iIAAIDAWsZCAHEDAByAoAIa1AABACNNACAEAFBAeC8Az_DCABAMEvgAAEADBABAAAsEAAAIDA2wgAAHJBABgAAAEnAAAIDAj2gAAHHCABgAAA6DAAAIDAbxqDAHHCABoABAYqDAAIDA4tQFAHECABgAAA6ACAAUAAgKxBADHDAAoABAcREAAIDAPOVFADHCAAtABAEhEAAIDAVOVFADHDAAxABAoGGAAIDAHFmHADHCAA4BBAEnAAAIDAZ3ROADHDAB2BBAoGGAAIDA_2ROADHCAAeAAAA9BAAUAAq65AADHEAAtAAAg4EAAUAAvwbGADHEAAgAAAoMCAAUAA90BCADHEAAbAAAYtBAAUAABigAADHEAAyABA4iIAAIDANFmHADHDAAyAAA4iIAAIDA1mZCADHEAAbAAAM1BAAUAAZ65AADHCAAjABAQcCAAUAAQvZCADHDAABAAAYJAAAIDAMxgAAHJBABgAAAemAAAIDA-MWCAHJBAB8AyAOtaCABAM51wDAEAEBABABAAAAAABAA2ygAAMABBA7AAABtqBABAMq75AAEADBABAAAxJAAAIDAiR2HAHIBABBAAAAAAAABAA1ygAAMABBAOBAA8IeCABAMXvELAEAEBAyAoAhE6AABAGIqtDAEEFAABAAAAAAAAIDA4bgAAHMBABZAAAepBAAUAA_ugAADFCAAbAAAM1BAAUAAc65AADFCAAgAAAoMCAAUAA80BCADFEAAbAAAYtBAAUAA9hgAADFEAAeAAAA9BAAUAAu65AADFEAAgAAA6ACAAUAALQxBADFDAAjABAQcCAAUAALvZCADFDAAyAoAkKwAABALByTFAEAEBA6AAAhTqBABAM3cgAAEADBAjAAA4iIAAIDASsZCAHEDABBAAABAAAAIDA8-zGAHJBABhAAAwdBAAIDA-UVCAHECABtAAAZAAAAIDA1EUFAHQBAB7AAAU2yBABAMDKjGAEADBAtAAA4iIAAIDAOFmHAHEDABtAAAoGGAAIDAgKpHAHECABBAAAAAAAAKAA4sgAAMABBAVAAAZAAAAIDAk55AAHQCABBAAAAAAAABAA4sgAAMABBABABAAAAAABAAnUUCAPEBBAoAjAAAAAAUAALogAAAIBBABAAAAAAAAIDA-bdNAHMDABtAAA4iIAAIDARQxBAHEEABtAAAZAAAAIDA2EUFAHQBABBAAAxJAAAIDAjR2HAHIBABtAAA4iIAAIDAVQxBAHEEABoABAYqDAAIDA5tQFAHECAB7AtAKO5AABAMfLBIAEADBAPD8AM_xCABAMIVfNAEAEBAZAAAZAAAAIDAl55AAHQCABBAAAcXAAAIDA995AAHHBABcAAAWCAAAIDAcxqDAHHBABUAAAPcCAABAW7LWEAEGGBAUAAATzDAABAVr0uEACHGBAtAAA4iIAAIDASFmHAHEDABeAAAwUHAAIDAI65AAHEDABBABAyAAAAUAAa8gAAAIBAAHAHALBAAAUAAZ8gAAAIBAAHAHA-AAAAUAAf8gAAAIBAABABAlAAAAUAAf8gAAAIBAAHAHALBAAAUAAf8gAAAIBAAHAHA-AAAAUAAZ8gAAAIBAAtAAA4iIAAIDAUQxBAHEEAB6AAAj5pBABAM-G5DAEADBAjAAApBAAAIDAABtDAHIBABoAAAeAAAAIDAWBtDAHIBABBAAABAAAAIDAfqdHAHJBABBAAAAAAAABAADzgAAMABBAyAoA1-IBABALZgdCAEAFBAjAAAAAAAAIDAeKxBAHMEABcAAAEnAAAIDAP65AAHECABaAAAEnAAAIDAXvgAAHECABhAAAZAAAAIDAFXaCAHQBABKAAA6DAAAIDA6ugAAHECABeC8AeW9BABAM5dDMAEADBAtABAoGGAAIDA-tQFAHEDABjABAQcCAAyAAr7gAAPADBAVAAA0HAAAIDAW45AAHQBABIByA0BcCABAMAr5AAEAEBAIByAjqcCABAMFt0FAEAEBAdAZAESFAABAN2UgAACAEBAVByAWheCABAMxFsBAEAEBABAAAqCAAAUAAnogAAAHBAABAAA3mAAAIDAipVCAHJBABgAAAkBAAAIDAQ9VDAHJBABBAAALBAAAIDAKBhAAHHCABFAAAHAAAAIDAdxqDAHHCABBAAAKAAAAIDAuwgAAHJBABBABAAAAAAUAAYQxBAAIBBAVAAAZAAAAIDAm55AAHQBABeC8AnkCCABAMMLhAAEADBAeC8AylFCABAMg7CFAEADBAID8A4dwCABAMMLhAAEAEBAID8AbWtCABAMg7CFAEAEBA8AyA840BABAMMLhAAEADBA8AyAJnzBABAMrl9AAEADBA8AyAEegCABAMMLhAAEAEBA8AyAAxeCABAMrl9AAEAEBAeC8A8EDCABAMotQFAEADBABAAABAAAAIDAeqdHAHJBABaAUAHyDAABAM2ngAAEADAAID8Ahi0CABAMxpBIAEAEBAeAAAwUHAAIDAJ65AAHEDABoABAYqDAAIDA1tQFAHECABeC8ArbGCABAMCzgAAEADBABAAAxJAAAIDAkR2HAHIBABjAAAaBAAAIDA5AtDAHIBABjAAAaBAAAIDALBtDAHIBABjAAAaBAAAIDAIBtDAHIBABBAAAAAAAAIDAKcgAAHMDABjAAAaBAAAIDA8AtDAHIBABeAAAAAAAAIDAW35AAHMDABhAAAAAAAAIDA1EVCAHMDABjAAAaBAAAIDAFBtDAHIBABjAAAaBAAAIDA2AtDAHIBABgAAAAAAAAIDAGLxBAHMDABjAAAaBAAAIDACBtDAHIBABlAAAAAAAAIDAVH5DAHMDABaAAAAAAAAIDAScgAAHMDABjAAAaBAAAIDA_AtDAHIBABgAAA6ACAAUAAgKxBADFDAAZAAAepBAAUAAhvgAADFCAAeAAAA9BAAUAAq65AADFEAAgAAAoMCAAUAA90BCADFEAAbAAAYtBAAUAABigAADFEAAbAAAM1BAAUAAZ65AADFCAAjABAQcCAAUAAQvZCADFDAABAAAlnAAAIDAizVCAHJBABbAAA0HAAAIDAC45AAHQCABBABAAAAAABAA5p5AAMABBAbAAAM1BAAUAAc65AADDCAAgAAAoMCAAUAA80BCADDEAAbAAAYtBAAUAA9hgAADDEAAeAAAA9BAAUAAu65AADDEAAgAAA6ACAAUAALQxBADDDAAjABAQcCAAUAALvZCADDDAAtAAAoGGAAIDAVKpHAHECABBAAA6DAAAIDALxgAAHJBABBAAAAAAAABAAnrgAAMABBABAAAAAAAAIDA9bdNAHMBABID8AHdpCABAMDVfNAEAEBAyAoAMFIBABALMuaDAEAFBAeC8AM7GCABAMuuQFAEADBAZAAAepBAAUAA_ugAADICAAbAAAM1BAAUAAc65AADICAAgAAAoMCAAUAA80BCADIEAAbAAAYtBAAUAA9hgAADIEAAeAAAA9BAAUAAu65AADIEAAgAAA6ACAAUAALQxBADIDAAjABAQcCAAUAALvZCADIDAABAAAAAAAABAA1ygAAMABBAyAtAbkEBABAM2GxBAEAEBAhAAAAAAAAIDAuzgAAHMBABBAAABAAAAIDAVH2GAHJBABbAAAwUHAAIDAUigAAHEDABVAAAIOBAAIDAxvgAAHECABoAAAemAAAIDA7UqDAHJBABhAAABAAAAIDAQdaCAHQCABBAAABAAAAIDAjxSFAHJBAByAoAEnAAAUAAdV2HAABBAABAAABAAAAIDAIexHAHHBABBAAARdAAAIDAA3vBAHJBABBAAAAAAAAIDA6bgAAHMBABBAAAkBAAAIDAvwgAAHJBABUAAAm0EAABAReHzEACIGBABAAAAAAAABAA2ygAAMABBAZAAAepBAAUAAhvgAADJCAAcAAAEnAAAIDAM65AAHECABjAAA4iIAAIDAXsZCAHEDABeC8AN6HCABAMGigAAEADBABAAA8AAAAIDA3wgAAHJBABjAAAAAAAABAAjyMDAPABBAhAAAwdBAAIDADVVCAHECAByAoAEnAAAUAAs5UCAABBAAyAoAEnAAAUAAr5UCAABBAAyAoAEnAAAUAAu5UCAABBAAyAoAEnAAAUAAq5UCAABBAAyAoAEnAAAUAAaSxBAABBAABAAAPAAAAIDAowgAAHJBAB8AyAfihCABAMn0gAAEAEBAVBwAilkBABAMB1gAAEACBAoAAAemAAAIDA9UqDAHJBABBAAAuLAAAIDAOxgAAHJBABbAAAwUHAAIDAXigAAHEDABoAAAAAAAAIDACB1DAHMEABZAAA0HAAAIDAPxgAAHJBABgAbA4SIAABANlVgAACAEBAyAoAcMYBABAB5U5DAEEFBAsAAANYwAABANtBhAACHEBAgAAAAAAAABAAO4vBAPADBABAAAAAAAABAAA4vBAPEDBAeAAAAAAAABAAvpgAAPEDBAyAoAOHXBABAIs3XFAECFAAyAoAg7HBABALlMdCAEAFBABAAA6DAAAIDAy2gAAHHBABRAAAZAAAAIDAexqDAHHBABBABAAAAAAUAAr1xBAAIBBAyAoAle-AABAGup_BAEEFBAtAAA4iIAAIDARFmHAHEDAB8AyAebYCABAME-kDAEAEBABAAAuLAAAIDAQxgAAHJBABhAAAwdBAAIDAAVVCAHECABHAAAkBAAAIDAmvgAAHECAByAoATwcBABAD9TCCAEEFBABAAAZAAAAIDAz2gAAHHBABKAAACAAAAIDAfxqDAHHBAByAoAQizAABAMP6gAAEADBABAAAxJAAAIDAlR2HAHIBAByAtATcRBABAU5yyFAEEEBAyAtAAM9AABAQLd0FAEBEBAyAtAdo9AABAB7yyFAEEEBAyAtAznSBABAH8yyFAEEEBAyAtAJQpAABAK6yyFAEEEBAyAtAhE-AABAD9yyFAEEEBAeAAAWbAAAIDA895AAHHCABeAAAWCAAAIDAgxqDAHHCABBABAAAAAABAAHY1FAPEDBAyAtAdGHBABAMbuQFAEAEBABABABAAAAUAAUtgAAAFBAAjAAAkBAAAIDAB4qDAHHBABoAAAcXAAAIDAA4qDAHHBABBAAA0HAAAIDA02gAAHHCABRAAAyAAAAIDAhxqDAHHCABID8ACHqCABAMLoBIAEAEBAgAAA6kAAAIDA73vBAHJBABeAAAwUHAAIDAK65AAHEDABtAAAZAAAAIDAi3TIAHQBABZAAAIOBAABAAurgAAAADAAbAAAIOBAABAAPfOBAAADAAtAAAAAAAAIDAy92HAHMDABBABAKAAAAIDAsdLOAHQBAByAtAngDBABAMqTgAAEAEBAyAtAJgGBABAMeQgAAEAEBABABAAAAAAUAAWQxBAAIBBAyAoAzQ2BABAHgCyBAEEFBA8AyAuJWCABAMurgAAEAEBAtAAAAAAAAIDAz92HAHMEABKAAAZAAAAIDAn55AAHQCABjAAA4iIAAIDAUsZCAHEDAByAAA4iIAAIDAwmZCADIEAA4BBAEnAAAIDAU3ROADIDAB2BBAoGGAAIDAz2ROADICAAxABAoGGAAIDACFmHADICAAtAAAg4EAAUAAswbGADIEAAtABAEhEAAIDAQOVFADIDAAyABA4iIAAIDAIFmHADIDAAoABAcREAAIDAKOVFADICAA7AAAUQzBABAMJySFAEADBAyAtAVQDBABAMeQxBAEAEBAsABATpOAABAAEPhAADLDBAeC8A-28BABAMBVfNAEADBA6AyAMQuBABAMQ6gAAEADBAgAbAZIFAABAMI5gAAEAEBAyAoA2S6AABAKA91EAEDFAABABAAAAAABAAQ1UCAPEBBARAAAZAAAAIDAo55AAHQBABBAAAyAAAAIDAxPeLAHIBABtAAAZAAAAIDAl3TIAHQCABtAAAoGGAAIDATKpHAHECABIByAr8hCABAMPv5AAEAEBAbAAAAAAAAIDAVcgAAHMEAB8AyArOWCABAMDB1DAEAEBABAAAAAAAABAAWWgAAMABBAVBwAKwqBABAMyUfNAEACBAoAAA0HAAAIDAle5DAHQBAB8AyAqbUCABAMCXHGAEAEBAUAAA10EAABARJH4EACIGBAUAAAcyEAABARKH4EACIGBAyAoAwvzBABAHJzgCAEEFBABAAADkAAAIDAhEwBAHJBABgAAAsDAAAIDA5iqDAHJBAB6AyALtyBABAMjoBIAEADBAjAAAeFAAAIDAhbVCAHHCABjAAA4iIAAIDATsZCAHEDABBAAAyAAAAIDAysgAAHJBAB8AyAiUYCABAMLegAAEAEBABAAABAAAAIDAZjzGAHJBABBAAAZAAAAUAA0ogAAAHBAABABAAAAAABAAKJKBAMABBAoAiAIOBAABAAf-ZDAAADAAtAnAIOBAABAA4_5AAAADAAyAtAIOBAABAAJfoHAAADAAeAYAIOBAABAAiJhAAAADAAjAdAIOBAABAAW9eCAAADAAyAtAIOBAABAAIfoHAAADAABABANAAAABARwUgAACBBAABABAAAAAABAARnREASAIBABAAAAAAAABAA2ygAAMABBAVByAYIiCABAMe6IBAEAEBABAAAWbAAAIDAgvZFAHJBABeAAAIOBAAIDAr1xBAHECABBAAAAAAAABAAMvgAAMABBABAAAyAAAAIDA29xJAHJBABBAAAAAAAABAALegAAMABBA",
+	["names"] = "'Bygone Bee' AlmanacAberrant VoidfinAbyss CrystalAbyssal Gulper EelAbyssal Gulper Eel FleshAdamantite OreAdamantite Ore NuggetAdder's TongueAdder's Tongue StemAdept's Guide to Dimensional RiftingAdmiral's CompassAethrilAggramar's ConvictionAggramar's StrideAkunda's BiteAlabaster PigmentAlexandriteAliciteAman'Thul's VisionAmberblazeAmberjewelAmetrineAnchor WeedAncient Knot of WisdomAncient Knot of WisdomAncient LichenAquamarineAquipotent NautilusArarat's BloodmirrorArcane DustArchavon's Heavy HandArchimonde's Hatred RebornArguliteArkhanaAromatic Fish OilAshen PigmentAshvane's Razor CoralAstral GloryAttuned Crystal CoresAutumn's GlowAyala's Stone HeartAzerothian DiamondAzshara's Font of PowerAzshara's VeilAzshara's Veil StemAzsharineAzsuniteAzure MoonstoneAzure PigmentAzurethos' Singed PlumageBag of Enigma SeedsBag of Green Cabbage SeedsBag of Juicycrunch Carrot SeedsBag of Magebulb SeedsBag of Mogu Pumpkin SeedsBag of Pink Turnip SeedsBag of Raptorleaf SeedsBag of Salvaged GoodsBag of Scallion SeedsBag of Snakeroot SeedsBag of Songbell SeedsBag of Striped Melon SeedsBag of White Turnip SeedsBag of Windshear Cactus SeedsBag of Witchberry SeedsBalefire BranchBargast's LeashBattle Potion of AgilityBattle Potion of IntellectBattle Potion of StaminaBattle Potion of StrengthBeginner's Guide to Dimensional RiftingBerserker's JujuBig Crate of SalvageBlack Trillium OreBlackfallow InkBlackwater WhiptailBlackwater Whiptail FleshBladedancer's Armor KitBlind Lake SturgeonBlind Lake Sturgeon FleshBlindweedBlindweed StemBlood GarnetBlood-Spattered ScaleBloodstoneBlue SapphireBold Blood GarnetBold BloodstoneBold Cardinal RubyBold Crimson SpinelBold Inferno RubyBold Primordial RubyBold Queen's GarnetBottled Flayedwing ToxinBragger's GauntletsBrawler's BootsBrawler's PantsBrawler's StatueBrawler's VestBrewfest Reveler's HearthstoneBriarthornBrilliant Blood GarnetBrilliant BloodstoneBrilliant Cardinal RubyBrilliant Crimson SpinelBrilliant Inferno RubyBrilliant Primordial RubyBrilliant Queen's GarnetBrimming Ember ShardBroken Fireweed StemBroken Frostweed StemBruiseweedBruiseweed StemBurning EmbersBurning TorchBurnt PigmentCardinal RubyCarnelianCeann-Ar ChargerCelestial InkCerulean PigmentChain of SufferingChalcedonyChaos CrystalChaotic SpinelChemirineChipped Boar TuskCinderbloomCitrineClockwork Re-SharpenerCobalt OreCobalt Ore NuggetCopper OreCorrupted Aspirant's BadgeCorrupted Aspirant's MedallionCorrupted Gladiator's BadgeCorrupted Gladiator's MaledictCorrupted Gladiator's MedallionCorrupted Gladiator's MedallionCorrupted Gladiator's SpiteCrate of SalvageCrescent SaberfishCrescent Saberfish FleshCrimson PigmentCrystallized AirCrystallized EarthCrystallized FireCrystallized LifeCrystallized ShadowCrystallized WaterCyclotronic BlastDalaran HearthstoneDark JadeDark OpalDark PortalDarkmoon Deck: IndomitableDarkmoon Deck: PutrescenceDarkmoon Deck: VoracityDawnlightDawnstoneDeadly AmberblazeDeadly Deep AmberDeadly Deep ChemirineDeadly Eye of ProphecyDeadly Jewel ClusterDeadly Jewel DoubletDeadly Lava LazuliDeadly SolstoneDeadnettleDeep AmberDeep PeridotDelicate Blood GarnetDelicate BloodstoneDelicate Cardinal RubyDelicate Crimson SpinelDelicate Inferno RubyDelicate Primordial RubyDelicate Queen's GarnetDemonseyeDented ShovelDeployable Vibro EnhancerDesecrated HerbDestiny DriverDimensional Ripper - Area 52Dimensional Ripper - EverlookDirebrew's RemoteDoom's FuryDoom's WakeDraenic DustDragon's TeethDragon's Teeth StemDrape of Unyielding StrengthDraught of SoulsDread Aspirant's BadgeDread Aspirant's MedallionDread Gladiator's BadgeDread Gladiator's MedallionDreadfire VesselDreadstoneDream EmeraldDream ShardDreamfoilDreaming GloryDreamleafDusky PigmentEarthrootEarthroot StemEbon PigmentElementium OreElementium Ore NuggetEmber TopazEmerald PigmentEmpyreal OrdnanceEmpyriumEndless Tincture of Fractional PowerEnormous Abyssal Gulper EelEnormous Blackwater WhiptailEnormous Blind Lake SturgeonEnormous Crescent SaberfishEnormous Fat SleeperEnormous Fire AmmoniteEnormous Jawless SkulkerEnormous Sea ScorpionEternal AirEternal CrystalEternal EarthEternal FireEternal LifeEternal ShadowEternal Traveler's HearthstoneEternal WaterEternium OreEternium Ore NuggetEthereal InkEthereal PortalEthereal ShardEverfrost RazorEye of ProphecyEye of ZulEyesore BlasterFadeleafFat SleeperFat Sleeper FleshFaulty CountermeasureFel Iron OreFel Iron Ore NuggetFel LashFel-Oiled Infernal MachineFelslateFelweedFelwortFetish of the Tormented MindFire AmmoniteFire Ammonite TentacleFire Eater's HearthstoneFire LeafFire SeedFirebloomFireweedFirst Mate's SpyglassFjarnskagglFlame of BattleFlame SpessariteFlaming SpearsFlight Master's WhistleFlorid MalachiteFool's CapForbidden Obsidian ClawForest EmeraldForgefiend's FabricatorFoxflowerFractured AmberjewelFractured LightstoneFractured Sun's RadianceFractured Temporal CrystalFrenzied FangtoothFrostweave NetFrostweedFurystoneGalecaller's BeakGalecaller's BoonGarrison HearthstoneGhost Iron NuggetGhost Iron OreGhost MushroomGloom DustGloves of the Undying PactGlyph of AssimilationGnomish Death RayGoblin Rocket LauncherGold OreGold Ore NuggetGoldcloverGolden BerylGolden DraeniteGolden PigmentGolden SansamGoldthornGolganneth's VitalityGorgrond FlytrapGrave MossGreat Sea CatfishGreater Celestial EssenceGreater Cosmic EssenceGreater Critical Strike TaladiteGreater Eternal EssenceGreater Haste TaladiteGreater Magic EssenceGreater Mastery TaladiteGreater Planar EssenceGreater Stamina TaladiteGreater Versatility TaladiteGreatfather Winter's HearthstoneGreen Tea LeafGrim CodexGromsbloodGrong's Primal RageHandful of SnowflakesHarmonic DematerializerHeadless Horseman's HearthstoneHealthstoneHeartblossomHearthstoneHeavenly ShardHeavy Linen BandageHeavy Netherweave NetHeavy Silk BandageHeavy Wool BandageHesselianHessoniteHolographic Digitalization HearthstoneHorn of ValorHuge CitrineHuge EmeraldHunter's Seeking CrystalHyldnir HarpoonHyperthread WristwrapsHypnotic DustIcecapIcethornIcy PigmentIdol of Indiscriminate ConsumptionIgnition Mage's FuseImmaculate Critical Strike TaladiteImmaculate Haste TaladiteImmaculate Mastery TaladiteImmaculate Stamina TaladiteImmaculate Versatility TaladiteImperial AmethystIncantation of VuIndigo PigmentInferno InkInferno RubyInfinite DustInk of DreamsInk of the SeaInscrutable Quantum DeviceInsignia of the Grand ArmyInvocation of Yu'lonIron OreIron Ore NuggetIvory InkJadeJadefire InkJaina's LocketJasperJawless SkulkerJawless Skulker FleshJes' HowlerJuggernaut BreastplateJuggernaut CloakJuggernaut GauntletsJuggernaut HelmJuggernaut LegplatesJuggernaut PauldronsKakushan's Stormscale GauntletsKazzalax, Fujieda's FuryKey to the Palace of Lei ShenKezan Stamped BijouKhadgar's WhiskerKhadgar's Whisker StemKhaz'goroth's CourageKhorium OreKhorium Ore NuggetKil'jaeden's Burning WishKing's AmberKingsbloodKirin Tor BeaconKiryn's Poison VialKnot of Ancient FuryKraken's EyeKubilineKyaniteKypariteLabradoriteLane SnapperLapis LazuliLarge Brilliant ShardLarge Crate of SalvageLarge OpalLarge Prismatic ShardLarge Rope NetLariboleLava LazuliLesser Celestial EssenceLesser Cosmic EssenceLesser Eternal EssenceLesser Magic EssenceLesser MoonstoneLesser Planar EssenceLeviathan's EyeLeylight ShardLeystone OreLichbloomLiferootLiferoot StemLight Illusion DustLightspheneLinen BandageLingering Psychic ShellLingering SunmoteLion's GuileLion's InkLion's StrengthLiving Oil CanisterLiving RubyLorewalker's LodestoneLuminous ShardLunar Elder's HearthstoneLurker's Insidious GiftLustrous Golden PlumageMacabre Sheet MusicMaelstrom CrystalMaelstrom SapphireMageroyalMageweave BandageMajestic ZirconMalachiteMaldraxxian WarhornMalformed GnasherMalformed Herald's LegwrapsMalister's Frost WandMana ThistleManabound MirrorManifesto of MadnessMannoroth's Bloodletting ManaclesMaroon PigmentMaster Hunter's Seeking CrystalMaster PlowMasterful ArguliteMasterful Jewel ClusterMasterful Jewel DoubletMasterful KubilineMasterful Queen's OpalMasterful Sea CurrantMasterful ShadowrubyMasterful Tidal AmethystMauve StingerMchimba's Ritual BandagesMemory of Past SinsMercy's PsalterMerektha's FangMidnight InkMight of KrosusMiner's CoffeeMirror of Entwined FateMistletoeMisty PigmentMithril OreMithril Ore NuggetMobile Telemancy BeaconModular Platinum PlatingMonarch TopazMonelite OreMoonglow InkMoss AgateMote of AirMote of EarthMote of FireMote of LifeMote of ManaMote of ShadowMote of WaterMountain SilversageMr. MunchykinsMy'das TalismanMysterious EssenceNagrand ArrowbloomNaj'entus's VertebraeNether PigmentNetherbloomNetherweave NetNeural Synapse EnhancerNightmare VineNightmare Vine StemNightseyeNightstoneNoble Gardener's HearthstoneNoble TopazNorgannon's ProwessNotorious Aspirant's BadgeNotorious Aspirant's MedallionNotorious Gladiator's BadgeNotorious Gladiator's EmblemNotorious Gladiator's MedallionObsidium OreObsidium Ore NuggetOcean SapphireOrgozoa's Paralytic BarbOrgrimmar Portal ShardOsmenite OreOvercharged Anima BatteryOverflowing Anima CageOverflowing Ember MirrorOverwhelming Power CrystalOwlseyePandarian GarnetPandemonitePeacebloomPearl Diver's CompassPeddlefeet's Lovely HearthstonePhial of SerenityPillar of the Drowned CabalPlatinum OrePlunderbeard's FlaskPocket-Sized Computation DevicePotion of Bursting BloodPotion of Deadly GracePotion of DeepholmPotion of Empowered ProximityPotion of Focused ResolvePotion of Prolonged PowerPotion of Rising DeathPotion of Unbridled FuryPrecise BloodstonePrecise Cardinal RubyPrecise Inferno RubyPrecise Primordial RubyPrecise Queen's GarnetPreserved Mining PickPrimal AirPrimal EarthPrimal FirePrimal LifePrimal ManaPrimal ShadowPrimal WaterPrimordial RubyPrydaz, Xavaric's Magnum OpusPulsating StoneheartPurple LotusPyrite OrePyrite Ore NuggetQueen's OpalQuick AmberjewelQuick AzsuniteQuick DawnlightQuick Golden BerylQuick Jewel ClusterQuick Jewel DoubletQuick King's AmberQuick LightspheneQuick LightstoneQuick LionseyeQuick OwlseyeQuick Sand SpinelQuick Sun CrystalQuick Sun's RadianceRagveilRain PoppyRamping Amplitude Gigavolt EngineRancher's LariatRazdunk's Big Red ButtonRedtail LoachReinforced NetRemote Guidance DeviceRethu's Incessant CourageRich Illusion DustRigid Azure MoonstoneRigid ChalcedonyRigid Deepholm IoliteRigid Empyrean SapphireRigid Majestic ZirconRigid Ocean SapphireRigid River's HeartRing of Collapsing FuturesRitual Feather of Unng AkRiver's HeartRiverbudRoguestoneRoseate PigmentRotcrusted Voodoo DollRoyal QuartzRubelliteRuby AcornRuby PigmentRuby SeedsRusty Watering CanSack of Salvaged GoodsSacred ShardSage AgateSallow PigmentSand ShifterSand SpinelSangriteSanguinating TotemSanguine VintageSapphire PigmentSaronite OreSaronite Ore NuggetScale of the Earth-WarderScaleshardScarlet DiamondScarlet RubyScroll of AgilityScroll of Intellect IIScroll of Protection IIScroll of StaminaScroll of Stamina IIScroll of Versatility IISea CurrantSea Giant's TidestoneSea ScorpionSea Scorpion SegmentSea StalkSeeds of Nature's WrathSephuz's SecretSha CrystalShadow CrystalShadow DraeniteShadow PigmentShadowgemShadowgrasp TotemShadowrubyShan'ze Ritual StoneShimmering InkShiver Venom RelicShockbiter's FangSickle of Unyielding StrengthSigil of WardingSilk BandageSilkweedSilkweed StemSilver OreSilver Ore NuggetSilverleafSilvermoon Portal ShardSilvery PigmentSinful Aspirant's Badge of FerocitySinful Aspirant's MedallionSinful Gladiator's Badge of FerocitySinful Gladiator's MedallionSinister Aspirant's BadgeSinister Aspirant's MedallionSinister Gladiator's BadgeSinister Gladiator's MedallionSiphoning Phylactery ShardSiren's PollenSix Demon BagSkulker's WingSky SapphireSkystoneSlimy Consumptive OrganSlimy MackerelSmall Abyssal Gulper EelSmall Blackwater WhiptailSmall Blind Lake SturgeonSmall Brilliant ShardSmall Crescent SaberfishSmall Dream ShardSmall Ethereal ShardSmall Fat SleeperSmall Fire AmmoniteSmall Heavenly ShardSmall Jawless SkulkerSmall Luminous ShardSmall Prismatic ShardSmall Sea ScorpionSmooth AmberjewelSmooth Golden DraeniteSmooth King's AmberSmooth LightstoneSmooth LionseyeSmooth Sun CrystalSmooth Sun's RadianceSnow LilySnowfall InkSolendra's CompassionSolid ChalcedonySolid Deepholm IoliteSolid Empyrean SapphireSolid Majestic ZirconSolid Ocean SapphireSolid River's HeartSolstoneSorrowmossSoul CannonSoul DustSoul IgniterSoul of the BattlelordSpare Meat HookSparkling Azure MoonstoneSparkling ChalcedonySparkling Deepholm IoliteSparkling Empyrean SapphireSparkling Majestic ZirconSparkling Ocean SapphireSparkling River's HeartSparrowhawk NetSpecter of BetrayalSpirit DustStar MossStar of EluneStar RubyStarflowerStarlight InkStarlight RoseSteelskin PotionStorm Silver OreStormvineStrange DustStranglekelpStrom'kar, the WarbreakerSturdy RopeSubtle Golden DraeniteSun CrystalSun's RadianceSunblood AmethystSungrassSunreaver BeaconSunstoneSuperior Battle Potion of AgilitySuperior Battle Potion of IntellectSuperior Battle Potion of StaminaSuperior Battle Potion of StrengthSuperior Steelskin PotionSwiftthistleT'zane's BarkspinesTablet of DespairTalador OrchidTalandra's RoseTalasiteTemporal CrystalTeroconeThe DecapitatorThe Great Storm's EyeThe Horseman's Sinister SlicerThe Innkeeper's DaughterThe Last Relic of ArgusThe Schools of Arcane Magic - MasteryThe Sentinel's Eternal RefugeThe Walls FellThorium OreThorium Ore NuggetThunder Bluff Portal ShardThundergod's VigorTidal AmethystTidestorm CodexTiger LilyTiger OpalTigerseyeTimeless StratagemTin OreTin Ore NuggetTiny Oozeling in a JarTiragarde PerchTitanic Onslaught BreastplateTitanic Onslaught CloakTitanic Onslaught GreathelmTitanic Onslaught GreavesTitanic Onslaught HandguardsTitanic Onslaught PauldronsTitanium OreTitanium Ore NuggetTome of Town PortalTome of Unraveling SanityTough JerkyTrue Iron NuggetTrue Iron OreTruesilver OreTruesilver Ore NuggetTuft of Smoldering PlumageTwilight JasmineTwilight OpalUltramarine PigmentUltrasafe Transporter: GadgetzanUltrasafe Transporter: Toshley's StationUmbra ShardUmbral InkUmbral MoonglaivesUnbridled FuryUndercity Portal ShardValarjar BerserkersVariable Intensity Gigavolt Oscillating ReactorVeiled CrystalVerdant PigmentVermilion OnyxVersatile Dark OpalVersatile Jewel ClusterVersatile Jewel DoubletVersatile KyaniteVersatile LabradoriteVersatile Maelstrom SapphireVersatile Royal QuartzVersatile SkystoneVial of Animated BloodVial of Ceaseless ToxinsVial of Dormant ShadowswarmVial of Spectral EssenceVial of StormsVial of the SunwellVigilance PerchVintage Bug SprayerViolet PigmentViper FishViridescent PigmentViridiumVision of DemiseVoid CrystalVoid StoneVoodoo CharmWakener's FrondWarbinder's InkWard of EnvelopmentWarswords of the ValarjarWarswords of the ValarjarWeight of the EarthWhiptailWhiptail StemWhirlwing's PlumageWhite Trillium OreWild JadeWild SteelbloomWind-Up Utility PylonWinter's KissWool BandageWorgsawWormhole CentrifugeWormhole Generator: ArgusWormhole Generator: Kul TirasWormhole Generator: NorthrendWormhole Generator: PandariaWormhole Generator: ZandalarWorn BattleaxeWoW TokenWrangling RopeWrithing Segment of Drest'agathYseralline SeedZephyriteZezzak's ShardZin'anthidZorbin's Ultra-Shrinker",
+}

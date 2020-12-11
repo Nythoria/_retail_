@@ -1,0 +1,96 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Ríríbank - Argent Dawn"] = "Ríríbank - Argent Dawn",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Argent Dawn.Ríríbank"] = {
+				["HistoryLastUpdate"] = 1607078148,
+				["HistoryBuild"] = "36753",
+				["lastUpdate"] = 1607078142,
+				["HistorySize"] = 158,
+				["History"] = {
+					[1770] = 243073024,
+					[1656] = 512,
+					[1219] = 524288,
+					[1664] = 16,
+					[1680] = 8980480,
+					[1243] = 64,
+					[1625] = 67108864,
+					[986] = 4026531841,
+					[1771] = 4096,
+					[992] = 4096,
+					[994] = 512,
+					[1661] = 2074,
+					[1000] = 4194304,
+					[1799] = 8388608,
+					[258] = 8192,
+					[1701] = 1024,
+					[1768] = 134217728,
+					[1961] = 33554432,
+					[1461] = 8192,
+					[1914] = 3002597888,
+					[786] = 65,
+					[979] = 1060864,
+					[1960] = 5242880,
+					[1891] = 2147484672,
+					[987] = 4294901787,
+					[1916] = 2097150,
+					[1336] = 2097152,
+					[1340] = 746586112,
+					[995] = 31449200,
+					[997] = 960,
+					[1915] = 4005672559,
+					[1001] = 256,
+					[988] = 1022,
+					[1842] = 32768,
+					[1242] = 14338,
+					[1687] = 16,
+					[1663] = 4194304,
+					[1341] = 266240,
+				},
+				["RegularZoneQuests"] = {
+					[57157] = {
+						["numFulfilled"] = 0,
+					},
+					[55350] = {
+						["numFulfilled"] = 0,
+					},
+					[57008] = {
+						["numFulfilled"] = 0,
+					},
+					[56131] = {
+						["numFulfilled"] = 0,
+					},
+					[56139] = {
+						["numFulfilled"] = 0,
+					},
+					[55901] = {
+						["numFulfilled"] = 0,
+					},
+					[56308] = {
+						["numFulfilled"] = 0,
+					},
+					[56064] = {
+						["numFulfilled"] = 0,
+					},
+					[57728] = {
+						["numFulfilled"] = 0,
+					},
+				},
+			},
+		},
+		["RegularZoneQuests"] = {
+			[57157] = "0|1|Drive back N'Zoth's Forces|1607078142|Assault: The Black Empire",
+			[55350] = "0|1|Drive back the Amathet|1607078142|Assault: Amathet Advance",
+			[57008] = "0|1|Push back the mogu forces|1607078142|Assault: The Warring Clans",
+			[56131] = "0|3|0/3 Rare Enemies slain in Mechagon|1607078142|Security First",
+			[56139] = "0|6|0/6 Mechanized Chests opened in Mechagon|1607078142|Junkyard Treasures",
+			[55901] = "0|1|Complete activities in Mechagon|1607078142|Rustbolt Rebellion",
+			[56308] = "0|1|Drive back the Aqir|1607078142|Assault: Aqir Unearthed",
+			[56064] = "0|1|Cleanse N'Zoth's corruption|1607078142|Assault: The Black Empire",
+			[57728] = "0|1|Cull the mantid swarm|1607078142|Assault: The Endless Swarm",
+		},
+	},
+}

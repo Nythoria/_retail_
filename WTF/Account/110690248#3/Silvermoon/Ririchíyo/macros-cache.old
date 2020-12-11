@@ -1,0 +1,74 @@
+VER 3 0100000000000002 "FH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Flash Heal; [help]Flash Heal; Flash Heal
+END
+VER 3 0100000000000003 "GS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [@mouseover, exists, help]Guardian Spirit; Guardian Spirit
+END
+VER 3 0100000000000010 "Holy T100" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2]Apotheosis; [talent:7/3]Holy Word: Salvation
+END
+VER 3 010000000000000F "HW:S" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Holy Word: Sanctify
+/stopspelltarget
+END
+VER 3 0100000000000005 "HW:Serenity" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Holy Word: Serenity: [help]Holy Word: Serenity;Holy Word: Serenity
+END
+VER 3 0100000000000006 "Lev/Grip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Leap of Faith; [@target, exists, help]Leap of Faith; [@player]Levitate
+END
+VER 3 0100000000000007 "lvl90" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [talent:6/2] Divine Star; [talent:6/3] Halo
+END
+VER 3 0100000000000008 "Pain Supression" "INV_MISC_QUESTIONMARK"
+#showtooltip Pain Suppression
+/cast [@mouseover, exists, help]Pain Suppression; [help]Pain Suppression; Pain Suppression
+END
+VER 3 0100000000000009 "PoM/HW:C" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Prayer of Mending; [help]Prayer of Mending; Holy Word: Chastise
+END
+VER 3 010000000000000A "Purify/MD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help]Purify; [help]Purify; Mass Dispel
+END
+VER 3 0100000000000013 "purify/purge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover. harm]Dispel Magic; [@mouseover, help]Purify Disease
+END
+VER 3 010000000000000B "PW:R" "INV_MISC_QUESTIONMARK"
+#showtooltip Power Word: Radiance            
+/cast [@mouseover, exists, help]Power Word: Radiance; [@target, help]Power Word: Radiance; [@player]Power Word: Radiance
+END
+VER 3 010000000000000C "PW:S" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Power Word: Shield: [help]Power Word: Shield;Power Word: Shield
+END
+VER 3 010000000000000D "Renew/HF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Renew; [help]Renew; Holy Fire
+END
+VER 3 010000000000000E "Shadow Mend" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Mend                
+/cast [@mouseover, exists, help]Shadow Mend; [@target, help]Shadow Mend; [@player]Shadow Mend                
+END
+VER 3 0100000000000004 "Smite/Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Heal; [help]Heal; Smite
+END
+VER 3 0100000000000011 "sPriest_T100" "INV_MISC_QUESTIONMARK"
+/showtooltip
+/cast [talent:7/2]Dark Ascension; [talent:7/3]Surrender to Madness
+END
+VER 3 0100000000000012 "SW:D" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm][harm]Shadow Word: Death
+END

@@ -1,0 +1,6 @@
+## Interface: 90002
+## Title: Loot Lite
+## Version: 2020.11.17
+## Author: SajuukCor
+## Notes: Simple loot chat messages.
+LootLite.lua

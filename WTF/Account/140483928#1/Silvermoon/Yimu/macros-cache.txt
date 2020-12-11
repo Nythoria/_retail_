@@ -1,0 +1,48 @@
+VER 3 0100000000000026 "Disperse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cancelaura Dispersion
+/cast Dispersion
+END
+VER 3 0100000000000027 "DP/SG" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/1]Desperate Prayer;[talent:1/2]Spectral Guise
+END
+VER 3 0100000000000028 "FH/MB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [help]Flash Heal; Mind Blast
+END
+VER 3 0100000000000029 "Leap/Fiend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [help]Leap of Faith; Shadowfiend
+END
+VER 3 010000000000002A "Self Lev" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Levitate
+END
+VER 3 010000000000002B "ShadowBurst" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowfiend
+/cast [nopet,harm][nopet,target=target,harm] Shadowfiend
+/cast [harm][target=target,harm]Shadowcrawl
+/cast Power infusion
+/use 13
+/use 14
+END
+VER 3 010000000000002C "SW:D" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Word: Death
+/stopcasting
+/cast Shadow Word: Death
+END
+VER 3 0100000000000037 "Trinkets" "Ability_Blackhand_Marked4Death."
+#showtooltip 13
+/use 13
+/use 14
+END
+VER 3 010000000000002D "ZygorAction3" "134400"
+END
+VER 3 0100000000000034 "ZygorAction4" "134400"
+END
+VER 3 0100000000000035 "ZygorAction5" "134400"
+END
+VER 3 0100000000000036 "ZygorAction6" "134400"
+END

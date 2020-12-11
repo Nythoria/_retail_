@@ -1,0 +1,17 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Ríríbank - Argent Dawn"] = "Ríríbank - Argent Dawn",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Argent Dawn.Ríríbank"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["ArgentDawn"] = "Argent Dawn",
+		},
+	},
+}

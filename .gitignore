@@ -1,0 +1,7 @@
+blob_storage/**
+Cache/**
+Errors/**
+Logs/**
+UTILS/**
+*.dll
+*.exe

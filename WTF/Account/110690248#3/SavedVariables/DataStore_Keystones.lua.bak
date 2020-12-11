@@ -1,0 +1,50 @@
+
+DataStore_KeystonesDB = {
+	["profileKeys"] = {
+		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
+		["Enju - Twisting Nether"] = "Enju - Twisting Nether",
+		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
+		["Mitsukí - Ravencrest"] = "Mitsukí - Ravencrest",
+		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
+		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
+		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
+		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
+		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
+		["Kúsano - Draenor"] = "Kúsano - Draenor",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Silvermoon.Ririchíyo"] = {
+				["currentKeystone"] = {
+					["keystoneLevel"] = 3,
+					["name"] = "Theater of Pain",
+					["texture"] = 3759934,
+				},
+				["highestKeystoneThisWeek"] = {
+					["completionMilliseconds"] = 1764000,
+					["backgroundTexture"] = 0,
+					["name"] = "The Necrotic Wake",
+					["level"] = 5,
+					["texture"] = 3759930,
+				},
+				["lastUpdate"] = 1607636236,
+			},
+		},
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 3,
+			["NextWeeklyReset"] = "2020-12-16",
+		},
+	},
+}

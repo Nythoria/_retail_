@@ -1,0 +1,81 @@
+VER 3 0000000000000027 "*ChatHide" "134331"
+/run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
+END
+VER 3 000000000000003D "*Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar [@mouseover,help,nodead] [@target,help,nodead] [@targettarget,help,nodead] [@player]
+/use Detox
+/targetlasttarget
+END
+VER 3 0000000000000019 "*ClearActionBar" "134331"
+/run for i = 1,120 do PickupAction(i) ClearCursor() end
+END
+VER 3 000000000000003A "*clearFocus" "134331"
+/clearfocus
+END
+VER 3 0000000000000038 "*CR" "INV_MISC_QUESTIONMARK"
+#showtooltip Soulstone
+/stopcasting
+/use [@mouseover,help,dead][help,dead] Soulstone
+END
+VER 3 0000000000000039 "*focusMO" "134331"
+/focus [target=mouseover, exists]; [target=target]
+END
+VER 3 000000000000001D "*Grid1PixelSpace" "134331"
+/run local GL = Grid:GetModule("GridLayout"); GL.db.profile.Padding = -1; GL:ReloadLayout()
+END
+VER 3 000000000000003B "*Interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use Counterspell
+END
+VER 3 0000000000000045 "*Mount" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [flyable]Sylverian Dreamer; Vulpine Familiar
+END
+VER 3 000000000000003F "*Purge" "INV_MISC_QUESTIONMARK"
+#showtooltip Spellsteal
+/use [@target,harm,nodead] [@targettarget,harm,nodead] Spellsteal
+END
+VER 3 000000000000003E "*Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip Provoke
+/use Provoke
+END
+VER 3 000000000000000A "*UiElements" "134331"
+/run ChatFrame1:AddMessage(GetMouseFocus():GetName())
+END
+VER 3 0000000000000002 "*UIScale" "134331"
+/run SetCVar("uiScale", 768/string.match(({GetScreenResolutions()})[GetCurrentResolution()], "%d+x(%d+)"))
+END
+VER 3 0000000000000041 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Hearthstone
+END
+VER 3 0000000000000046 "Chaos button" "236291"
+#showtooltip
+/cast Chaos Bolt
+/use 14
+END
+VER 3 0000000000000042 "CR" "INV_MISC_QUESTIONMARK"
+#showtooltip Soulstone
+/stopcasting
+/use [@mouseover,help,dead][help,dead] Soulstone
+END
+VER 3 0000000000000047 "Health Stone" "INV_MISC_QUESTIONMARK"
+#showtooltip item:5512
+/use Healthstone
+/use Abyssal Healing Potion
+END
+VER 3 0000000000000044 "Interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use Disrupt
+END
+VER 3 0000000000000043 "Purge" "INV_MISC_QUESTIONMARK"
+#showtooltip Consume Magic
+/use [@target,harm,nodead] [@targettarget,harm,nodead] Consume Magic
+END
+VER 3 000000000000003C "ZygorAction1" "134400"
+END
+VER 3 0000000000000040 "ZygorAction2" "134400"
+END

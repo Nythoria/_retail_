@@ -1,0 +1,10 @@
+lightweight tag eeea8843a7575663615a5f005becc807808ccdec v9.0.2-11
+Author:	Dave Hendler <sollaires@gmail.com>
+Date:	Wed Dec 9 11:19:44 2020 -0800
+
+commit eeea8843a7575663615a5f005becc807808ccdec
+Author: Dave Hendler <sollaires@gmail.com>
+Date:   Wed Dec 9 11:19:44 2020 -0800
+
+    Fix possible bug when item name is not available
+

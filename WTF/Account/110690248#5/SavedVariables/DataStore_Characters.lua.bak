@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Ríríbank - Argent Dawn"] = "Ríríbank - Argent Dawn",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Argent Dawn.Ríríbank"] = {
+				["XPMax"] = 655,
+				["played"] = 1470,
+				["playedThisLevel"] = 147,
+				["isResting"] = false,
+				["lastUpdate"] = 1607078208,
+				["class"] = "Warrior",
+				["race"] = "Orc",
+				["level"] = 2,
+				["XP"] = 212,
+				["realm"] = "Argent Dawn",
+				["RestXP"] = 406,
+				["money"] = 65,
+				["gender"] = 3,
+				["subZone"] = "Valley of Trials",
+				["zone"] = "Valley of Trials",
+				["name"] = "Ríríbank",
+				["faction"] = "Horde",
+				["englishRace"] = "Orc",
+				["englishClass"] = "WARRIOR",
+				["lastLogoutTimestamp"] = 1607078208,
+				["hearthstone"] = "Valley of Trials",
+			},
+		},
+	},
+}

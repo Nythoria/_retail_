@@ -1,0 +1,36 @@
+
+GnosisChar = nil
+GnosisCharConfig = {
+	["optver"] = 4.62,
+	["bHideBlizz"] = false,
+	["cbconf"] = {
+	},
+	["channeledspells"] = {
+	},
+	["configs"] = {
+		["name"] = "",
+		["bsavectct"] = true,
+		["bsavespell"] = true,
+		["bsavedefaultopt"] = true,
+		["bsavecastbars"] = true,
+	},
+	["ct"] = {
+		["bsound"] = true,
+		["channel"] = 1,
+		["addon"] = "Blizz",
+		["bfile"] = false,
+		["sound"] = "MONEYFRAMEOPEN",
+		["bmusic"] = false,
+	},
+	["bAutoCreateOptions"] = false,
+	["bHideMirror"] = false,
+	["bHidePetVeh"] = false,
+	["iTimerScanEvery"] = 150,
+	["bHideAddonMsgs"] = false,
+	["bResizeOptions"] = true,
+	["ctt"] = 300,
+	["nameNewBar"] = "",
+	["strLocale"] = "default",
+	["wfcl"] = 1000,
+	["bAddonEn"] = true,
+}

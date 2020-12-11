@@ -1,0 +1,8 @@
+
+RaiderIO_Config = {
+	["displayWeeklyGuildBest"] = false,
+}
+RaiderIO_LastCharacter = "eu-Kúsano-silvermoon"
+RaiderIO_MissingCharacters = {
+}
+RaiderIO_CachedRuns = nil

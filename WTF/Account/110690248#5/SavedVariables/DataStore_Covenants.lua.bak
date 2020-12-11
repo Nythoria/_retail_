@@ -1,0 +1,14 @@
+
+DataStore_CovenantsDB = {
+	["profileKeys"] = {
+		["Ríríbank - Argent Dawn"] = "Ríríbank - Argent Dawn",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Argent Dawn.Ríríbank"] = {
+				["RenownLevel"] = 1,
+				["lastUpdate"] = 1607078141,
+			},
+		},
+	},
+}

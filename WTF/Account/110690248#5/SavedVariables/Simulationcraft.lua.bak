@@ -1,0 +1,10 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Ríríbank - Argent Dawn"] = "Ríríbank - Argent Dawn",
+	},
+	["profiles"] = {
+		["Ríríbank - Argent Dawn"] = {
+		},
+	},
+}

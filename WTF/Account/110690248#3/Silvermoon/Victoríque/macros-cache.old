@@ -1,0 +1,69 @@
+VER 3 0100000000000002 "affDemon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/3]Summon Voidwalker; Summon Felhunter
+END
+VER 3 0100000000000009 "afft60" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/2]Phantom Singularity; [talent:4/3,@cursor]Vile Taint
+END
+VER 3 0100000000000003 "Banish" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists]Banish;Banish
+END
+VER 3 0100000000000013 "clotte" "136139"
+/tarexact Clotted Corruption
+/focus
+/targetlasttarget
+END
+VER 3 010000000000000D "demot15" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2]Demonic Strength; [talent:1/3, @cursor]Bilescourge Bombers
+END
+VER 3 010000000000000F "demot30" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/2]Power Siphon; [talent:2/3, @mouseover, exists, harm]Doom; [talent:2/3, @target, harm]Doom
+END
+VER 3 010000000000000C "demot60" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/2]Soul Strike; [talent:4/3]Summon Vilefiend
+END
+VER 3 0100000000000010 "Essence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Heart Essence
+END
+VER 3 0100000000000011 "havoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus, exists][@mouseover, exists]Havoc;Havoc
+END
+VER 3 0100000000000012 "immolate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists]Immolate;Immolate
+END
+VER 3 0100000000000007 "MouseAgony" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm] [] Agony
+END
+VER 3 0100000000000005 "MouseCorrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm] [] Corruption
+END
+VER 3 0100000000000008 "MouseSiphon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm] [] Siphon Life
+END
+VER 3 0100000000000006 "MouseUA" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm] [] Unstable Affliction
+END
+VER 3 010000000000000E "Shadowfury" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowfury
+/cast [@cursor]Shadowfury
+END
+VER 3 010000000000000A "t75" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:5/3, mod:ctrl] Demonic Circle; [talent:5/3] Demonic Circle: Teleport; [talent:5/2] Mortal Coil
+END
+VER 3 010000000000000B "TSM - Raiding" "463286"
+#Talent Set Manager# automatically generated, do not modify
+/talentset pve Raiding
+END

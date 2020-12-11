@@ -1,0 +1,28 @@
+VER 3 0100000000000006 "level100" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/3]Arcane Orb
+END
+VER 3 0100000000000001 "level15" "INV_MISC_QUESTIONMARK"
+#showooltip
+/cast [talent:1/1]Arcane Familiar
+END
+VER 3 0100000000000002 "level45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/1]Mirror Image; [talent:3/2]Rune of Power
+END
+VER 3 0100000000000003 "level60" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/1]Supernova; [talent:4/2]Charged Up
+END
+VER 3 0100000000000004 "level75" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent5/2]Ring of Frost
+END
+VER 3 0100000000000005 "level90" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/1]Nether Tempest
+END
+VER 3 0100000000000007 "RemoveCorruption" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help][@target, exists, help]Remove Curse; Remove Curse
+END

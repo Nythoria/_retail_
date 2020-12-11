@@ -1,0 +1,27 @@
+
+HandyNotes_MechagonAndNazjatarDB = {
+	["profileKeys"] = {
+		["Kúsano - Draenor"] = "Default",
+		["Akatsúki - Silvermoon"] = "Default",
+		["Mitsukí - Ravencrest"] = "Default",
+		["Iríya - Ravencrest"] = "Default",
+		["Ririchíyo - Silvermoon"] = "Default",
+		["Taígá - Ravencrest"] = "Default",
+		["Ririchíyo - Ravencrest"] = "Default",
+		["Arutoria - Ravencrest"] = "Default",
+		["Sharutía - Silvermoon"] = "Default",
+		["Albertina - Silvermoon"] = "Default",
+		["Yóshino - Silvermoon"] = "Default",
+		["Yoshíno - Ravencrest"] = "Default",
+		["Kiríno - Ravencrest"] = "Default",
+		["Victoríque - Silvermoon"] = "Default",
+		["Eléonora - Ravencrest"] = "Default",
+		["Kúsano - Ravencrest"] = "Default",
+		["Rangii - Ravencrest"] = "Default",
+		["Enjú - Ravencrest"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

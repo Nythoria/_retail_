@@ -1,0 +1,21 @@
+
+DataStore_CovenantsDB = {
+	["profileKeys"] = {
+		["Yimu - Silvermoon"] = "Yimu - Silvermoon",
+		["Triarela - Silvermoon"] = "Triarela - Silvermoon",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Silvermoon.Triarela"] = {
+				["lastUpdate"] = 1607511011,
+				["RenownLevel"] = 1,
+			},
+			["Default.Silvermoon.Yimu"] = {
+				["lastUpdate"] = 1607517654,
+				["RenownLevel"] = 6,
+				["CovenantID"] = 1,
+				["ActiveSoulbindID"] = 7,
+			},
+		},
+	},
+}

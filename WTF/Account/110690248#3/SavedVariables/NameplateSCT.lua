@@ -1,0 +1,53 @@
+
+NameplateSCTDB = {
+	["profileKeys"] = {
+		["Kúsano - Draenor"] = "Default",
+		["Enju - Twisting Nether"] = "Default",
+		["Akatsúki - Silvermoon"] = "Default",
+		["Mitsukí - Ravencrest"] = "Default",
+		["Iríya - Ravencrest"] = "Default",
+		["Ririchíyo - Silvermoon"] = "Default",
+		["Aryenís - Silvermoon"] = "Default",
+		["Taígá - Ravencrest"] = "Default",
+		["Ririchíyo - Ravencrest"] = "Default",
+		["Alyettes - Ravencrest"] = "Default",
+		["Kúsano - Silvermoon"] = "Default",
+		["Arutoria - Ravencrest"] = "Default",
+		["Enjú - Ravencrest"] = "Default",
+		["Sharutía - Silvermoon"] = "Default",
+		["Eléonora - Ravencrest"] = "Default",
+		["Victoríque - Silvermoon"] = "Default",
+		["Albertina - Silvermoon"] = "Default",
+		["Yóshino - Silvermoon"] = "Default",
+		["Croesus - Ravencrest"] = "Default",
+		["Kiríno - Ravencrest"] = "Default",
+		["Yoshíno - Ravencrest"] = "Default",
+		["Kúsano - Ravencrest"] = "Default",
+		["Mítsukí - Silvermoon"] = "Default",
+		["Rangii - Ravencrest"] = "Default",
+		["Ririchíyo - Twisting Nether"] = "Default",
+	},
+	["global"] = {
+		["formatting"] = {
+			["icon"] = "none",
+			["size"] = 12,
+		},
+		["offTargetFormatting"] = {
+			["icon"] = "none",
+			["size"] = 10,
+		},
+		["font"] = "Arial Narrow",
+		["sizing"] = {
+			["crits"] = false,
+			["smallHits"] = false,
+		},
+		["animations"] = {
+			["autoattack"] = "rainfall",
+			["miss"] = "rainfall",
+			["ability"] = "rainfall",
+			["crit"] = "rainfall",
+			["autoattackcrit"] = "rainfall",
+		},
+		["textShadow"] = true,
+	},
+}

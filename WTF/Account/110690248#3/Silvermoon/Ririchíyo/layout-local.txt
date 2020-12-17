@@ -117,7 +117,7 @@ Anchor: BOTTOMRIGHT
 X: -99
 Y: 26
 W: 342
-H: 202
+H: 236
 Frame: MAOptions
 FrameLevel: 1
 Anchor: CENTER

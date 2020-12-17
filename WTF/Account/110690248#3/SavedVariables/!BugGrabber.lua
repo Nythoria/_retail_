@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 1616,
 	["lastSanitation"] = 3,
+	["session"] = 1617,
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\CompactUnitFrame.lua:530: Usage: local nameplateShowsWidgetsOnly = UnitNameplateShowsWidgetsOnly(unit)",

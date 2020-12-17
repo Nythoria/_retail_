@@ -75,7 +75,7 @@ FarmHudDB = {
 	["tracking^136466"] = "client",
 	["tracking^613074"] = "client",
 	["cardinalpoints_radius"] = 0.47,
-	["tracking^136454"] = "client",
+	["tracking^134153"] = "client",
 	["time_bottom"] = false,
 	["background_alpha"] = 0,
 	["MinimapIcon"] = {
@@ -83,28 +83,28 @@ FarmHudDB = {
 		["radius"] = 80,
 		["hide"] = true,
 	},
-	["tracking^535615"] = "false",
-	["showDummyBg"] = false,
-	["time_color"] = {
-		1, -- [1]
-		0.82, -- [2]
-		0, -- [3]
-		0.7, -- [4]
-	},
-	["tracking^133939"] = "client",
-	["player_dot"] = "blizz",
-	["coords_bottom"] = false,
-	["buttons_alpha"] = 0.6,
-	["tracking^535616"] = "false",
-	["tracking^136464"] = "client",
+	["tracking^136459"] = "client",
+	["buttons_radius"] = 0.56,
 	["cardinalpoints_color1"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["buttons_radius"] = 0.56,
-	["tracking^136459"] = "client",
+	["tracking^133939"] = "client",
+	["tracking^136464"] = "client",
+	["coords_bottom"] = false,
+	["tracking^535616"] = "false",
+	["buttons_alpha"] = 0.6,
+	["player_dot"] = "blizz",
+	["time_color"] = {
+		1, -- [1]
+		0.82, -- [2]
+		0, -- [3]
+		0.7, -- [4]
+	},
+	["showDummyBg"] = false,
+	["tracking^535615"] = "false",
 	["tracking^136452"] = "client",
-	["tracking^134153"] = "client",
+	["tracking^136454"] = "client",
 }

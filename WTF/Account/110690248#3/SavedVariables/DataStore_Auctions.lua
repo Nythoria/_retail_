@@ -10,27 +10,27 @@ DataStore_AuctionsDB = {
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Taígá - Ravencrest"] = "Taígá - Ravencrest",
 		["Ririchíyo - Ravencrest"] = "Ririchíyo - Ravencrest",
-		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
 		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
-		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
-		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
 		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Silvermoon.Yóshino"] = {
-				["lastUpdate"] = 1607471139,
+			["Default.Ravencrest.Kiríno"] = {
+				["lastUpdate"] = 1595324570,
 			},
 			["Default.Silvermoon.Sharutía"] = {
 				["lastUpdate"] = 1597608547,
@@ -41,13 +41,13 @@ DataStore_AuctionsDB = {
 			["Default.Silvermoon.Ririchíyo"] = {
 				["lastUpdate"] = 1608112673,
 			},
-			["Default.Silvermoon.Victoríque"] = {
-				["lastUpdate"] = 1602355260,
-				["lastVisitDate"] = "2020/07/19 18:48",
-			},
 			["Default.Ravencrest.Rangii"] = {
 				["lastUpdate"] = 1595804535,
 				["lastVisitDate"] = "2020/07/13 00:20",
+			},
+			["Default.Silvermoon.Victoríque"] = {
+				["lastUpdate"] = 1602355260,
+				["lastVisitDate"] = "2020/07/19 18:48",
 			},
 			["Default.Silvermoon.Kúsano"] = {
 				["lastUpdate"] = 1608027782,
@@ -74,8 +74,8 @@ DataStore_AuctionsDB = {
 					"0|173080|3|||8950000|", -- [20]
 				},
 			},
-			["Default.Ravencrest.Kiríno"] = {
-				["lastUpdate"] = 1595324570,
+			["Default.Silvermoon.Yóshino"] = {
+				["lastUpdate"] = 1607471139,
 			},
 		},
 	},

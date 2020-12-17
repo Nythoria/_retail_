@@ -10,16 +10,16 @@ HandyNotesDB = {
 		["Ririchíyo - Ravencrest"] = "Ririchíyo - Ravencrest",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
-		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
+		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
 		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
+		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
 	},
 	["profiles"] = {
 		["Kúsano - Draenor"] = {
@@ -40,7 +40,7 @@ HandyNotesDB = {
 		},
 		["Arutoria - Ravencrest"] = {
 		},
-		["Sharutía - Silvermoon"] = {
+		["Enjú - Ravencrest"] = {
 		},
 		["Albertina - Silvermoon"] = {
 		},
@@ -50,15 +50,15 @@ HandyNotesDB = {
 		},
 		["Kiríno - Ravencrest"] = {
 		},
-		["Victoríque - Silvermoon"] = {
-		},
 		["Eléonora - Ravencrest"] = {
+		},
+		["Victoríque - Silvermoon"] = {
 		},
 		["Kúsano - Ravencrest"] = {
 		},
 		["Rangii - Ravencrest"] = {
 		},
-		["Enjú - Ravencrest"] = {
+		["Sharutía - Silvermoon"] = {
 		},
 	},
 }
@@ -73,16 +73,16 @@ HandyNotes_HandyNotesDB = {
 		["Ririchíyo - Ravencrest"] = "Ririchíyo - Ravencrest",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
-		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
+		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
 		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
+		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
 	},
 	["profiles"] = {
 		["Kúsano - Draenor"] = {
@@ -103,7 +103,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Arutoria - Ravencrest"] = {
 		},
-		["Sharutía - Silvermoon"] = {
+		["Enjú - Ravencrest"] = {
 		},
 		["Albertina - Silvermoon"] = {
 		},
@@ -113,15 +113,15 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Kiríno - Ravencrest"] = {
 		},
-		["Victoríque - Silvermoon"] = {
-		},
 		["Eléonora - Ravencrest"] = {
+		},
+		["Victoríque - Silvermoon"] = {
 		},
 		["Kúsano - Ravencrest"] = {
 		},
 		["Rangii - Ravencrest"] = {
 		},
-		["Enjú - Ravencrest"] = {
+		["Sharutía - Silvermoon"] = {
 		},
 	},
 }

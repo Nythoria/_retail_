@@ -33,7 +33,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 178,
 		["faction"] = 0,
-		["time_stamp"] = 19405,
+		["time_stamp"] = 81242,
 	}, -- [3]
 	{
 		["source"] = "guild",
@@ -44,7 +44,7 @@ AstralKeys = {
 		["dungeon_id"] = 379,
 		["week"] = 178,
 		["faction"] = 0,
-		["time_stamp"] = 8619,
+		["time_stamp"] = 80162,
 	}, -- [4]
 	{
 		["source"] = "guild",
@@ -302,14 +302,14 @@ AstralCharacters = {
 	{
 		["weekly_best"] = 0,
 		["class"] = "DRUID",
-		["unit"] = "Kúsano-Silvermoon",
 		["faction"] = 0,
+		["unit"] = "Kúsano-Silvermoon",
 	}, -- [1]
 	{
 		["weekly_best"] = 0,
 		["class"] = "PRIEST",
-		["faction"] = 0,
 		["unit"] = "Ririchíyo-Silvermoon",
+		["faction"] = 0,
 	}, -- [2]
 }
 AstralKeysSettings = {
@@ -323,10 +323,10 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["no_key"] = true,
-			["party"] = true,
-			["guild"] = true,
 			["raid"] = false,
+			["party"] = true,
+			["no_key"] = true,
+			["guild"] = true,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -346,7 +346,6 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 	},
-	["new_settings_config"] = true,
 	["frame"] = {
 		["rank_filter"] = {
 			true, -- [1]
@@ -360,9 +359,7 @@ AstralKeysSettings = {
 			true, -- [9]
 			true, -- [10]
 		},
-		["show_offline"] = {
-			["isEnabled"] = true,
-		},
+		["current_list"] = "FRIENDS",
 		["isCollapsed"] = {
 			["isEnabled"] = false,
 		},
@@ -371,8 +368,11 @@ AstralKeysSettings = {
 			["isEnabled"] = false,
 		},
 		["sorth_method"] = "key_level",
-		["current_list"] = "FRIENDS",
+		["show_offline"] = {
+			["isEnabled"] = true,
+		},
 	},
+	["new_settings_config"] = true,
 }
 AstralMinimap = {
 	["profileKeys"] = {
@@ -385,18 +385,18 @@ AstralMinimap = {
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
-		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
 		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 	},
 	["profiles"] = {
 		["Kúsano - Draenor"] = {
@@ -417,11 +417,11 @@ AstralMinimap = {
 		},
 		["Arutoria - Ravencrest"] = {
 		},
-		["Ririchíyo - Twisting Nether"] = {
+		["Alyettes - Ravencrest"] = {
 		},
 		["Sharutía - Silvermoon"] = {
 		},
-		["Kúsano - Ravencrest"] = {
+		["Yóshino - Silvermoon"] = {
 		},
 		["Albertina - Silvermoon"] = {
 		},
@@ -431,15 +431,15 @@ AstralMinimap = {
 		},
 		["Kiríno - Ravencrest"] = {
 		},
-		["Eléonora - Ravencrest"] = {
-		},
 		["Victoríque - Silvermoon"] = {
 		},
-		["Yóshino - Silvermoon"] = {
+		["Kúsano - Ravencrest"] = {
+		},
+		["Eléonora - Ravencrest"] = {
 		},
 		["Rangii - Ravencrest"] = {
 		},
-		["Alyettes - Ravencrest"] = {
+		["Ririchíyo - Twisting Nether"] = {
 		},
 	},
 }
@@ -469,23 +469,23 @@ AstralLists = {
 			["Ririchíyo-Silvermoon"] = true,
 			["Zárgothrax-Silvermoon"] = true,
 			["Sókén-Silvermoon"] = true,
-			["Níksa-Silvermoon"] = "Kento#21136",
+			["Hìmí-Silvermoon"] = "Kento#21136",
 			["Nestravoid-Silvermoon"] = true,
 			["Eloyà-Silvermoon"] = "TheOyabun#2412",
-			["Eldorax-Silvermoon"] = "TheOyabun#2412",
+			["Níina-Silvermoon"] = "Nina#24867",
 			["Nestrá-Silvermoon"] = true,
 			["Wsic-Silvermoon"] = "fill3rz#2977",
-			["Neïr-Silvermoon"] = true,
-			["Khäleesy-Silvermoon"] = true,
-			["Junî-Silvermoon"] = true,
-			["Rãg-Silvermoon"] = "fill3rz#2977",
-			["Kúsano-Silvermoon"] = true,
-			["Lorint-Silvermoon"] = true,
-			["Michix-Silvermoon"] = true,
 			["Notenxpala-Silvermoon"] = true,
-			["Níina-Silvermoon"] = "Nina#24867",
+			["Khäleesy-Silvermoon"] = true,
+			["Michix-Silvermoon"] = true,
+			["Lorint-Silvermoon"] = true,
+			["Kúsano-Silvermoon"] = true,
+			["Rãg-Silvermoon"] = "fill3rz#2977",
+			["Junî-Silvermoon"] = true,
+			["Neïr-Silvermoon"] = true,
+			["Eldorax-Silvermoon"] = "TheOyabun#2412",
 			["Zinicshaman-Silvermoon"] = true,
-			["Hìmí-Silvermoon"] = "Kento#21136",
+			["Níksa-Silvermoon"] = "Kento#21136",
 		},
 	}, -- [1]
 	{
@@ -494,33 +494,33 @@ AstralLists = {
 			["Aöven-TwistingNether"] = "Dominoxx#2431",
 			["Ravenseb-Sylvanas"] = "RavenSeb#2210",
 			["Pasilla-Sylvanas"] = "RavenSeb#2210",
+			["Níksa-Silvermoon"] = "Kento#21136",
+			["Xnebine-Sylvanas"] = "RavenSeb#2210",
 			["Bigarmsya-Sylvanas"] = "RavenSeb#2210",
 			["Winndie-Silvermoon"] = "Nina#24867",
-			["Ririchíyo-Silvermoon"] = "ElectroReapr#2670",
-			["Xnebine-Sylvanas"] = "RavenSeb#2210",
-			["Hìmí-Silvermoon"] = "Kento#21136",
+			["Badnight-GrimBatol"] = "HMiller#2390",
 			["Líliana-Silvermoon"] = "Dajawz#2585",
-			["Icu-Sylvanas"] = "RavenSeb#2210",
+			["Coronarage-Sylvanas"] = "CGDoublecris#2398",
 			["Eldorax-Silvermoon"] = "TheOyabun#2412",
 			["Kúsano-Silvermoon"] = "ElectroReapr#2670",
-			["Coronarage-Sylvanas"] = "CGDoublecris#2398",
-			["Níina-Silvermoon"] = "Nina#24867",
-			["Lohly-Ravencrest"] = "Xyfy#21180",
+			["Eloyà-Silvermoon"] = "TheOyabun#2412",
+			["Purpleiswin-Sylvanas"] = "RavenSeb#2210",
+			["Ashenfire-Ravencrest"] = "Xyfy#21180",
 			["Dórf-GrimBatol"] = "HMiller#2390",
 			["Rãg-Silvermoon"] = "fill3rz#2977",
-			["Kenjani-Kazzak"] = "Kasper#22638",
-			["Wsic-Silvermoon"] = "fill3rz#2977",
-			["Yimu-Silvermoon"] = "ElectroReapr#2670",
-			["Zeusk-GrimBatol"] = "HMiller#2390",
 			["Coronamonk-Sylvanas"] = "CGDoublecris#2398",
+			["Wsic-Silvermoon"] = "fill3rz#2977",
+			["Níina-Silvermoon"] = "Nina#24867",
+			["Lohly-Ravencrest"] = "Xyfy#21180",
+			["Kenjani-Kazzak"] = "Kasper#22638",
 			["Ithuel-Sylvanas"] = "RavenSeb#2210",
-			["Ashenfire-Ravencrest"] = "Xyfy#21180",
-			["Purpleiswin-Sylvanas"] = "RavenSeb#2210",
-			["Eloyà-Silvermoon"] = "TheOyabun#2412",
+			["Zeusk-GrimBatol"] = "HMiller#2390",
+			["Yimu-Silvermoon"] = "ElectroReapr#2670",
+			["Hìmí-Silvermoon"] = "Kento#21136",
 			["Darqnyte-GrimBatol"] = "HMiller#2390",
-			["Badnight-GrimBatol"] = "HMiller#2390",
+			["Icu-Sylvanas"] = "RavenSeb#2210",
 			["Coronadeath-Sylvanas"] = "CGDoublecris#2398",
-			["Níksa-Silvermoon"] = "Kento#21136",
+			["Ririchíyo-Silvermoon"] = "ElectroReapr#2670",
 		},
 	}, -- [2]
 }

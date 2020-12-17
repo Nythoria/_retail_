@@ -10,22 +10,22 @@ DataStore_TalentsDB = {
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Taígá - Ravencrest"] = "Taígá - Ravencrest",
 		["Ririchíyo - Ravencrest"] = "Ririchíyo - Ravencrest",
-		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
 		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
-		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
-		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
 		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -41,168 +41,168 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["unlocked"] = true,
 						["icon"] = 3193844,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["unlocked"] = false,
 						["icon"] = 1830317,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = true,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["unlocked"] = true,
 						["icon"] = 3193843,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["unlocked"] = false,
 						["icon"] = 3015742,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Nullification Dynamo"] = {
 						["valid"] = false,
 						["name"] = "Nullification Dynamo",
 						["ID"] = 13,
-						["unlocked"] = false,
 						["icon"] = 3015741,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["unlocked"] = false,
 						["icon"] = 3015743,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["unlocked"] = false,
 						["icon"] = 2032580,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = true,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["unlocked"] = true,
 						["icon"] = 2967111,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Sphere of Suppression"] = {
 						["valid"] = false,
 						["name"] = "Sphere of Suppression",
 						["ID"] = 3,
-						["unlocked"] = false,
 						["icon"] = 2065602,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["The Unbound Force"] = {
 						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["unlocked"] = false,
 						["icon"] = 2967102,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Purification Protocol"] = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["unlocked"] = false,
 						["icon"] = 2967103,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["unlocked"] = true,
 						["icon"] = 3015740,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["unlocked"] = false,
 						["icon"] = 2967109,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["unlocked"] = false,
 						["icon"] = 2967104,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["unlocked"] = false,
 						["icon"] = 3193845,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["unlocked"] = false,
 						["icon"] = 2967113,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Touch of the Everlasting"] = {
 						["valid"] = false,
 						["name"] = "Touch of the Everlasting",
 						["ID"] = 33,
-						["unlocked"] = true,
 						["icon"] = 3193847,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Strength of the Warden"] = {
 						["valid"] = false,
 						["name"] = "Strength of the Warden",
 						["ID"] = 34,
-						["unlocked"] = true,
 						["icon"] = 3193846,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Anima of Life and Death"] = {
 						["valid"] = false,
 						["name"] = "Anima of Life and Death",
 						["ID"] = 7,
-						["unlocked"] = false,
 						["icon"] = 2967105,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Azeroth's Undying Gift"] = {
 						["valid"] = false,
 						["name"] = "Azeroth's Undying Gift",
 						["ID"] = 2,
-						["unlocked"] = false,
 						["icon"] = 2967107,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Aegis of the Deep"] = {
 						["valid"] = false,
 						["name"] = "Aegis of the Deep",
 						["ID"] = 25,
-						["unlocked"] = false,
 						["icon"] = 2967110,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 				},
@@ -219,175 +219,175 @@ DataStore_TalentsDB = {
 						["valid"] = false,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["icon"] = 3193844,
 						["unlocked"] = true,
+						["icon"] = 3193844,
 						["rank"] = 1,
 					},
 					["The Well of Existence"] = {
 						["valid"] = true,
 						["name"] = "The Well of Existence",
 						["ID"] = 19,
-						["icon"] = 516796,
 						["unlocked"] = false,
+						["icon"] = 516796,
 						["rank"] = 0,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = false,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["icon"] = 3193843,
 						["unlocked"] = false,
+						["icon"] = 3193843,
 						["rank"] = 0,
 					},
 					["Life-Binder's Invocation"] = {
 						["valid"] = true,
 						["name"] = "Life-Binder's Invocation",
 						["ID"] = 20,
-						["icon"] = 2967106,
 						["unlocked"] = true,
+						["icon"] = 2967106,
 						["rank"] = 2,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["icon"] = 3015742,
 						["unlocked"] = false,
+						["icon"] = 3015742,
 						["rank"] = 0,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["icon"] = 3015743,
 						["unlocked"] = true,
+						["icon"] = 3015743,
 						["rank"] = 1,
 					},
 					["The Ever-Rising Tide"] = {
 						["valid"] = true,
 						["name"] = "The Ever-Rising Tide",
 						["ID"] = 17,
-						["icon"] = 2967108,
 						["unlocked"] = false,
+						["icon"] = 2967108,
 						["rank"] = 0,
 					},
 					["Artifice of Time"] = {
 						["valid"] = true,
 						["name"] = "Artifice of Time",
 						["ID"] = 18,
-						["icon"] = 2967112,
 						["unlocked"] = false,
+						["icon"] = 2967112,
 						["rank"] = 0,
 					},
 					["Spirit of Preservation"] = {
 						["valid"] = true,
 						["name"] = "Spirit of Preservation",
 						["ID"] = 24,
-						["icon"] = 2967101,
 						["unlocked"] = true,
+						["icon"] = 2967101,
 						["rank"] = 1,
 					},
 					["The Unbound Force"] = {
 						["valid"] = false,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["icon"] = 2967102,
 						["unlocked"] = false,
+						["icon"] = 2967102,
 						["rank"] = 0,
 					},
 					["Purification Protocol"] = {
 						["valid"] = false,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["icon"] = 2967103,
 						["unlocked"] = false,
+						["icon"] = 2967103,
 						["rank"] = 0,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["icon"] = 3015740,
 						["unlocked"] = true,
+						["icon"] = 3015740,
 						["rank"] = 1,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["icon"] = 2967109,
 						["unlocked"] = false,
+						["icon"] = 2967109,
 						["rank"] = 0,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["icon"] = 2967104,
 						["unlocked"] = false,
+						["icon"] = 2967104,
 						["rank"] = 0,
 					},
 					["Unwavering Ward"] = {
 						["valid"] = true,
 						["name"] = "Unwavering Ward",
 						["ID"] = 16,
-						["icon"] = 3193842,
 						["unlocked"] = false,
+						["icon"] = 3193842,
 						["rank"] = 0,
 					},
 					["Vitality Conduit"] = {
 						["valid"] = true,
 						["name"] = "Vitality Conduit",
 						["ID"] = 21,
+						["unlocked"] = false,
 						["icon"] = 2967100,
-						["unlocked"] = false,
-						["rank"] = 0,
-					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["icon"] = 3193845,
-						["unlocked"] = false,
-						["rank"] = 0,
-					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
-						["icon"] = 1830317,
-						["unlocked"] = false,
-						["rank"] = 0,
-					},
-					["Blood of the Enemy"] = {
-						["valid"] = false,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["icon"] = 2032580,
-						["unlocked"] = false,
-						["rank"] = 0,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = false,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["icon"] = 2967113,
-						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = false,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["icon"] = 2967111,
 						["unlocked"] = true,
+						["icon"] = 2967111,
 						["rank"] = 1,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = false,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["unlocked"] = false,
+						["icon"] = 2967113,
+						["rank"] = 0,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = false,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["unlocked"] = false,
+						["icon"] = 2032580,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["unlocked"] = false,
+						["icon"] = 1830317,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["unlocked"] = false,
+						["icon"] = 3193845,
+						["rank"] = 0,
 					},
 				},
 				["Class"] = "SHAMAN",
 			},
 			["Default.Silvermoon.Ririchíyo"] = {
-				["lastUpdate"] = 1608182156,
+				["lastUpdate"] = 1608184348,
 				["Specializations"] = {
 					5631, -- [1]
 					16349, -- [2]
@@ -522,19 +522,19 @@ DataStore_TalentsDB = {
 						["unlocked"] = true,
 						["rank"] = 3,
 					},
-					["Essence of the Focusing Iris"] = {
-						["valid"] = false,
-						["name"] = "Essence of the Focusing Iris",
-						["ID"] = 5,
-						["icon"] = 2967111,
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["icon"] = 3193845,
 						["unlocked"] = true,
 						["rank"] = 3,
 					},
-					["Condensed Life-Force"] = {
-						["valid"] = false,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["icon"] = 2967113,
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["icon"] = 1830317,
 						["unlocked"] = true,
 						["rank"] = 3,
 					},
@@ -546,19 +546,19 @@ DataStore_TalentsDB = {
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
-						["icon"] = 1830317,
+					["Condensed Life-Force"] = {
+						["valid"] = false,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["icon"] = 2967113,
 						["unlocked"] = true,
 						["rank"] = 3,
 					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["icon"] = 3193845,
+					["Essence of the Focusing Iris"] = {
+						["valid"] = false,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["icon"] = 2967111,
 						["unlocked"] = true,
 						["rank"] = 3,
 					},
@@ -577,164 +577,156 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["unlocked"] = false,
 						["icon"] = 2967103,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["unlocked"] = true,
 						["icon"] = 1830317,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["unlocked"] = true,
 						["icon"] = 3015740,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["unlocked"] = false,
 						["icon"] = 2967109,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["unlocked"] = false,
 						["icon"] = 2967104,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["unlocked"] = false,
 						["icon"] = 3193845,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["unlocked"] = false,
 						["icon"] = 3015743,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["unlocked"] = false,
 						["icon"] = 2032580,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["unlocked"] = false,
 						["icon"] = 2967113,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
-					["Conflict and Strife"] = {
+					["Spark of Inspiration"] = {
 						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["unlocked"] = false,
-						["icon"] = 3015742,
-						["rank"] = 0,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
+						["unlocked"] = true,
+						["rank"] = 1,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = true,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["unlocked"] = false,
 						["icon"] = 2967111,
-						["rank"] = 0,
-					},
-					["Breath of the Dying"] = {
-						["valid"] = true,
-						["name"] = "Breath of the Dying",
-						["ID"] = 35,
-						["unlocked"] = true,
-						["icon"] = 3193844,
-						["rank"] = 1,
-					},
-					["Spark of Inspiration"] = {
-						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["unlocked"] = true,
-						["icon"] = 3193843,
-						["rank"] = 1,
-					},
-					["The Unbound Force"] = {
-						["valid"] = true,
-						["name"] = "The Unbound Force",
-						["ID"] = 28,
 						["unlocked"] = false,
-						["icon"] = 2967102,
 						["rank"] = 0,
 					},
-				},
-				["Class"] = "ROGUE",
-			},
-			["Default.Silvermoon.Yóshino"] = {
-				["lastUpdate"] = 1608032646,
-				["Specializations"] = {
-					5753, -- [1]
-					6521, -- [2]
-					14078, -- [3]
-				},
-				["AzeriteEssences"] = {
 					["Breath of the Dying"] = {
-						["valid"] = false,
+						["valid"] = true,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
 						["icon"] = 3193844,
 						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["The Well of Existence"] = {
-						["valid"] = true,
-						["name"] = "The Well of Existence",
-						["ID"] = 19,
-						["icon"] = 516796,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Spark of Inspiration"] = {
-						["valid"] = false,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["icon"] = 3193843,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Life-Binder's Invocation"] = {
-						["valid"] = true,
-						["name"] = "Life-Binder's Invocation",
-						["ID"] = 20,
-						["icon"] = 2967106,
-						["unlocked"] = true,
-						["rank"] = 4,
+						["rank"] = 1,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
 						["icon"] = 3015742,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = true,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["icon"] = 2967102,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+				},
+				["Class"] = "ROGUE",
+			},
+			["Default.Silvermoon.Sharutía"] = {
+				["lastUpdate"] = 1606336448,
+				["Specializations"] = {
+					8057, -- [1]
+					5803, -- [2]
+					14965, -- [3]
+				},
+				["AzeriteEssences"] = {
+					["Breath of the Dying"] = {
+						["valid"] = true,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["icon"] = 3193844,
 						["unlocked"] = true,
-						["rank"] = 2,
+						["rank"] = 1,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["icon"] = 1830317,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = true,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["icon"] = 3015742,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Nullification Dynamo"] = {
 						["valid"] = false,
@@ -752,61 +744,45 @@ DataStore_TalentsDB = {
 						["unlocked"] = true,
 						["rank"] = 3,
 					},
-					["The Ever-Rising Tide"] = {
+					["Blood of the Enemy"] = {
 						["valid"] = true,
-						["name"] = "The Ever-Rising Tide",
-						["ID"] = 17,
-						["icon"] = 2967108,
-						["unlocked"] = true,
-						["rank"] = 3,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["icon"] = 2032580,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Essence of the Focusing Iris"] = {
-						["valid"] = false,
+						["valid"] = true,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
 						["icon"] = 2967111,
 						["unlocked"] = true,
-						["rank"] = 4,
-					},
-					["Spirit of Preservation"] = {
-						["valid"] = true,
-						["name"] = "Spirit of Preservation",
-						["ID"] = 24,
-						["icon"] = 2967101,
-						["unlocked"] = true,
-						["rank"] = 2,
+						["rank"] = 3,
 					},
 					["Sphere of Suppression"] = {
 						["valid"] = false,
 						["name"] = "Sphere of Suppression",
 						["ID"] = 3,
 						["icon"] = 2065602,
-						["unlocked"] = true,
-						["rank"] = 1,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["The Unbound Force"] = {
-						["valid"] = false,
+						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
 						["icon"] = 2967102,
-						["unlocked"] = true,
-						["rank"] = 3,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Purification Protocol"] = {
-						["valid"] = false,
+						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
 						["icon"] = 2967103,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Strength of the Warden"] = {
-						["valid"] = false,
-						["name"] = "Strength of the Warden",
-						["ID"] = 34,
-						["icon"] = 3193846,
-						["unlocked"] = true,
-						["rank"] = 3,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
@@ -814,7 +790,7 @@ DataStore_TalentsDB = {
 						["ID"] = 12,
 						["icon"] = 3015740,
 						["unlocked"] = true,
-						["rank"] = 1,
+						["rank"] = 4,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
@@ -824,11 +800,43 @@ DataStore_TalentsDB = {
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["icon"] = 2967104,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
 						["icon"] = 3193845,
+						["unlocked"] = true,
+						["rank"] = 2,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = true,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["icon"] = 2967113,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Touch of the Everlasting"] = {
+						["valid"] = false,
+						["name"] = "Touch of the Everlasting",
+						["ID"] = 33,
+						["icon"] = 3193847,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["Strength of the Warden"] = {
+						["valid"] = false,
+						["name"] = "Strength of the Warden",
+						["ID"] = 34,
+						["icon"] = 3193846,
 						["unlocked"] = true,
 						["rank"] = 3,
 					},
@@ -838,71 +846,7 @@ DataStore_TalentsDB = {
 						["ID"] = 7,
 						["icon"] = 2967105,
 						["unlocked"] = true,
-						["rank"] = 4,
-					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
-						["icon"] = 1830317,
-						["unlocked"] = true,
 						["rank"] = 3,
-					},
-					["Artifice of Time"] = {
-						["valid"] = true,
-						["name"] = "Artifice of Time",
-						["ID"] = 18,
-						["icon"] = 2967112,
-						["unlocked"] = false,
-						["rank"] = 0,
-					},
-					["Vitality Conduit"] = {
-						["valid"] = true,
-						["name"] = "Vitality Conduit",
-						["ID"] = 21,
-						["icon"] = 2967100,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Unwavering Ward"] = {
-						["valid"] = true,
-						["name"] = "Unwavering Ward",
-						["ID"] = 16,
-						["icon"] = 3193842,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = false,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["icon"] = 2967113,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Touch of the Everlasting"] = {
-						["valid"] = false,
-						["name"] = "Touch of the Everlasting",
-						["ID"] = 33,
-						["icon"] = 3193847,
-						["unlocked"] = true,
-						["rank"] = 2,
-					},
-					["Memory of Lucid Dreams"] = {
-						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
-						["icon"] = 2967104,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Blood of the Enemy"] = {
-						["valid"] = false,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["icon"] = 2032580,
-						["unlocked"] = false,
-						["rank"] = 0,
 					},
 					["Azeroth's Undying Gift"] = {
 						["valid"] = false,
@@ -921,7 +865,7 @@ DataStore_TalentsDB = {
 						["rank"] = 3,
 					},
 				},
-				["Class"] = "PALADIN",
+				["Class"] = "DEATHKNIGHT",
 			},
 			["Default.Silvermoon.Victoríque"] = {
 				["lastUpdate"] = 1607449154,
@@ -935,112 +879,112 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["unlocked"] = true,
 						["icon"] = 2967103,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["unlocked"] = true,
 						["icon"] = 1830317,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["unlocked"] = true,
 						["icon"] = 3015740,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["unlocked"] = false,
 						["icon"] = 2967109,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["unlocked"] = true,
 						["icon"] = 2967104,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["unlocked"] = true,
 						["icon"] = 3193845,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["unlocked"] = true,
 						["icon"] = 3015743,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["unlocked"] = false,
 						["icon"] = 2032580,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["unlocked"] = true,
 						["icon"] = 2967113,
-						["rank"] = 3,
-					},
-					["Conflict and Strife"] = {
-						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["unlocked"] = false,
-						["icon"] = 3015742,
-						["rank"] = 0,
-					},
-					["Essence of the Focusing Iris"] = {
-						["valid"] = true,
-						["name"] = "Essence of the Focusing Iris",
-						["ID"] = 5,
 						["unlocked"] = true,
-						["icon"] = 2967111,
-						["rank"] = 4,
-					},
-					["Breath of the Dying"] = {
-						["valid"] = true,
-						["name"] = "Breath of the Dying",
-						["ID"] = 35,
-						["unlocked"] = true,
-						["icon"] = 3193844,
 						["rank"] = 3,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = true,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["unlocked"] = true,
 						["icon"] = 3193843,
+						["unlocked"] = true,
 						["rank"] = 3,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = true,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["icon"] = 2967111,
+						["unlocked"] = true,
+						["rank"] = 4,
+					},
+					["Breath of the Dying"] = {
+						["valid"] = true,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["icon"] = 3193844,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["icon"] = 3015742,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["The Unbound Force"] = {
 						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["unlocked"] = true,
 						["icon"] = 2967102,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 				},
@@ -1057,168 +1001,168 @@ DataStore_TalentsDB = {
 						["valid"] = false,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["icon"] = 3193844,
 						["unlocked"] = true,
+						["icon"] = 3193844,
 						["rank"] = 3,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["icon"] = 1830317,
 						["unlocked"] = true,
+						["icon"] = 1830317,
 						["rank"] = 1,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = false,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["icon"] = 3193843,
 						["unlocked"] = true,
+						["icon"] = 3193843,
 						["rank"] = 2,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["icon"] = 3015742,
 						["unlocked"] = false,
+						["icon"] = 3015742,
 						["rank"] = 0,
 					},
 					["Nullification Dynamo"] = {
 						["valid"] = true,
 						["name"] = "Nullification Dynamo",
 						["ID"] = 13,
-						["icon"] = 3015741,
 						["unlocked"] = false,
+						["icon"] = 3015741,
 						["rank"] = 0,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["icon"] = 3015743,
 						["unlocked"] = true,
+						["icon"] = 3015743,
 						["rank"] = 3,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = false,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["icon"] = 2032580,
 						["unlocked"] = false,
+						["icon"] = 2032580,
 						["rank"] = 0,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = false,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["icon"] = 2967111,
 						["unlocked"] = true,
+						["icon"] = 2967111,
 						["rank"] = 3,
 					},
 					["Sphere of Suppression"] = {
 						["valid"] = true,
 						["name"] = "Sphere of Suppression",
 						["ID"] = 3,
-						["icon"] = 2065602,
 						["unlocked"] = false,
+						["icon"] = 2065602,
 						["rank"] = 0,
 					},
 					["The Unbound Force"] = {
 						["valid"] = false,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["icon"] = 2967102,
 						["unlocked"] = false,
+						["icon"] = 2967102,
 						["rank"] = 0,
 					},
 					["Purification Protocol"] = {
 						["valid"] = false,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["icon"] = 2967103,
 						["unlocked"] = false,
+						["icon"] = 2967103,
 						["rank"] = 0,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["icon"] = 3015740,
 						["unlocked"] = true,
+						["icon"] = 3015740,
 						["rank"] = 3,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["icon"] = 2967109,
 						["unlocked"] = false,
+						["icon"] = 2967109,
 						["rank"] = 0,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["icon"] = 2967104,
 						["unlocked"] = false,
+						["icon"] = 2967104,
 						["rank"] = 0,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["icon"] = 3193845,
 						["unlocked"] = false,
+						["icon"] = 3193845,
 						["rank"] = 0,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = false,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["icon"] = 2967113,
 						["unlocked"] = true,
+						["icon"] = 2967113,
 						["rank"] = 2,
 					},
 					["Touch of the Everlasting"] = {
 						["valid"] = true,
 						["name"] = "Touch of the Everlasting",
 						["ID"] = 33,
-						["icon"] = 3193847,
 						["unlocked"] = true,
+						["icon"] = 3193847,
 						["rank"] = 1,
 					},
 					["Strength of the Warden"] = {
 						["valid"] = true,
 						["name"] = "Strength of the Warden",
 						["ID"] = 34,
-						["icon"] = 3193846,
 						["unlocked"] = true,
+						["icon"] = 3193846,
 						["rank"] = 2,
 					},
 					["Anima of Life and Death"] = {
 						["valid"] = true,
 						["name"] = "Anima of Life and Death",
 						["ID"] = 7,
-						["icon"] = 2967105,
 						["unlocked"] = true,
+						["icon"] = 2967105,
 						["rank"] = 3,
 					},
 					["Azeroth's Undying Gift"] = {
 						["valid"] = true,
 						["name"] = "Azeroth's Undying Gift",
 						["ID"] = 2,
-						["icon"] = 2967107,
 						["unlocked"] = true,
+						["icon"] = 2967107,
 						["rank"] = 2,
 					},
 					["Aegis of the Deep"] = {
 						["valid"] = true,
 						["name"] = "Aegis of the Deep",
 						["ID"] = 25,
-						["icon"] = 2967110,
 						["unlocked"] = false,
+						["icon"] = 2967110,
 						["rank"] = 0,
 					},
 				},
@@ -1236,112 +1180,112 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["icon"] = 2967103,
 						["unlocked"] = false,
+						["icon"] = 2967103,
 						["rank"] = 0,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["icon"] = 1830317,
 						["unlocked"] = false,
+						["icon"] = 1830317,
 						["rank"] = 0,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["icon"] = 3015740,
 						["unlocked"] = true,
+						["icon"] = 3015740,
 						["rank"] = 1,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["icon"] = 2967109,
 						["unlocked"] = false,
+						["icon"] = 2967109,
 						["rank"] = 0,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["icon"] = 2967104,
 						["unlocked"] = false,
+						["icon"] = 2967104,
 						["rank"] = 0,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["icon"] = 3193845,
 						["unlocked"] = false,
+						["icon"] = 3193845,
 						["rank"] = 0,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["icon"] = 3015743,
 						["unlocked"] = false,
+						["icon"] = 3015743,
 						["rank"] = 0,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["icon"] = 2032580,
 						["unlocked"] = false,
+						["icon"] = 2032580,
 						["rank"] = 0,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["icon"] = 2967113,
 						["unlocked"] = false,
+						["icon"] = 2967113,
 						["rank"] = 0,
 					},
-					["Spark of Inspiration"] = {
+					["Conflict and Strife"] = {
 						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["icon"] = 3193843,
-						["unlocked"] = true,
-						["rank"] = 1,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["unlocked"] = false,
+						["icon"] = 3015742,
+						["rank"] = 0,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = true,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["icon"] = 2967111,
 						["unlocked"] = false,
+						["icon"] = 2967111,
 						["rank"] = 0,
 					},
 					["Breath of the Dying"] = {
 						["valid"] = true,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["icon"] = 3193844,
 						["unlocked"] = true,
+						["icon"] = 3193844,
 						["rank"] = 1,
 					},
-					["Conflict and Strife"] = {
+					["Spark of Inspiration"] = {
 						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["icon"] = 3015742,
-						["unlocked"] = false,
-						["rank"] = 0,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["unlocked"] = true,
+						["icon"] = 3193843,
+						["rank"] = 1,
 					},
 					["The Unbound Force"] = {
 						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["icon"] = 2967102,
 						["unlocked"] = false,
+						["icon"] = 2967102,
 						["rank"] = 0,
 					},
 				},
@@ -1359,224 +1303,224 @@ DataStore_TalentsDB = {
 						["valid"] = false,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["unlocked"] = true,
 						["icon"] = 3193844,
+						["unlocked"] = true,
 						["rank"] = 2,
 					},
 					["The Well of Existence"] = {
 						["valid"] = false,
 						["name"] = "The Well of Existence",
 						["ID"] = 19,
-						["unlocked"] = false,
 						["icon"] = 516796,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = false,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["unlocked"] = true,
 						["icon"] = 3193843,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Life-Binder's Invocation"] = {
 						["valid"] = false,
 						["name"] = "Life-Binder's Invocation",
 						["ID"] = 20,
-						["unlocked"] = true,
 						["icon"] = 2967106,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["unlocked"] = true,
 						["icon"] = 3015742,
+						["unlocked"] = true,
 						["rank"] = 2,
 					},
 					["Nullification Dynamo"] = {
 						["valid"] = true,
 						["name"] = "Nullification Dynamo",
 						["ID"] = 13,
-						["unlocked"] = false,
 						["icon"] = 3015741,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["unlocked"] = true,
 						["icon"] = 3015743,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["The Ever-Rising Tide"] = {
 						["valid"] = false,
 						["name"] = "The Ever-Rising Tide",
 						["ID"] = 17,
-						["unlocked"] = true,
 						["icon"] = 2967108,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = false,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["unlocked"] = true,
 						["icon"] = 2967111,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Spirit of Preservation"] = {
 						["valid"] = false,
 						["name"] = "Spirit of Preservation",
 						["ID"] = 24,
-						["unlocked"] = true,
 						["icon"] = 2967101,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Sphere of Suppression"] = {
 						["valid"] = true,
 						["name"] = "Sphere of Suppression",
 						["ID"] = 3,
-						["unlocked"] = false,
 						["icon"] = 2065602,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["The Unbound Force"] = {
 						["valid"] = false,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["unlocked"] = false,
 						["icon"] = 2967102,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Purification Protocol"] = {
 						["valid"] = false,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["unlocked"] = false,
 						["icon"] = 2967103,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 					["Strength of the Warden"] = {
 						["valid"] = true,
 						["name"] = "Strength of the Warden",
 						["ID"] = 34,
-						["unlocked"] = true,
 						["icon"] = 3193846,
+						["unlocked"] = true,
 						["rank"] = 2,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["unlocked"] = true,
 						["icon"] = 3015740,
+						["unlocked"] = true,
 						["rank"] = 1,
-					},
-					["Ripple in Space"] = {
-						["valid"] = true,
-						["name"] = "Ripple in Space",
-						["ID"] = 15,
-						["unlocked"] = false,
-						["icon"] = 2967109,
-						["rank"] = 0,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["unlocked"] = true,
 						["icon"] = 3193845,
+						["unlocked"] = true,
 						["rank"] = 3,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["icon"] = 2967109,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Anima of Life and Death"] = {
 						["valid"] = true,
 						["name"] = "Anima of Life and Death",
 						["ID"] = 7,
-						["unlocked"] = true,
 						["icon"] = 2967105,
-						["rank"] = 2,
-					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
 						["unlocked"] = true,
-						["icon"] = 1830317,
 						["rank"] = 2,
 					},
-					["Artifice of Time"] = {
+					["Blood of the Enemy"] = {
 						["valid"] = false,
-						["name"] = "Artifice of Time",
-						["ID"] = 18,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["icon"] = 2032580,
 						["unlocked"] = false,
-						["icon"] = 2967112,
 						["rank"] = 0,
 					},
-					["Vitality Conduit"] = {
-						["valid"] = false,
-						["name"] = "Vitality Conduit",
-						["ID"] = 21,
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["icon"] = 2967104,
 						["unlocked"] = true,
-						["icon"] = 2967100,
-						["rank"] = 3,
-					},
-					["Unwavering Ward"] = {
-						["valid"] = false,
-						["name"] = "Unwavering Ward",
-						["ID"] = 16,
-						["unlocked"] = true,
-						["icon"] = 3193842,
 						["rank"] = 3,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = false,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["unlocked"] = true,
 						["icon"] = 2967113,
+						["unlocked"] = true,
 						["rank"] = 1,
+					},
+					["Unwavering Ward"] = {
+						["valid"] = false,
+						["name"] = "Unwavering Ward",
+						["ID"] = 16,
+						["icon"] = 3193842,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["Vitality Conduit"] = {
+						["valid"] = false,
+						["name"] = "Vitality Conduit",
+						["ID"] = 21,
+						["icon"] = 2967100,
+						["unlocked"] = true,
+						["rank"] = 3,
 					},
 					["Touch of the Everlasting"] = {
 						["valid"] = true,
 						["name"] = "Touch of the Everlasting",
 						["ID"] = 33,
-						["unlocked"] = true,
 						["icon"] = 3193847,
+						["unlocked"] = true,
 						["rank"] = 2,
 					},
-					["Memory of Lucid Dreams"] = {
-						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
-						["unlocked"] = true,
-						["icon"] = 2967104,
-						["rank"] = 3,
-					},
-					["Blood of the Enemy"] = {
+					["Artifice of Time"] = {
 						["valid"] = false,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
+						["name"] = "Artifice of Time",
+						["ID"] = 18,
+						["icon"] = 2967112,
 						["unlocked"] = false,
-						["icon"] = 2032580,
 						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["icon"] = 1830317,
+						["unlocked"] = true,
+						["rank"] = 2,
 					},
 					["Azeroth's Undying Gift"] = {
 						["valid"] = true,
 						["name"] = "Azeroth's Undying Gift",
 						["ID"] = 2,
-						["unlocked"] = true,
 						["icon"] = 2967107,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["Aegis of the Deep"] = {
 						["valid"] = true,
 						["name"] = "Aegis of the Deep",
 						["ID"] = 25,
-						["unlocked"] = false,
 						["icon"] = 2967110,
+						["unlocked"] = false,
 						["rank"] = 0,
 					},
 				},
@@ -1594,112 +1538,112 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["icon"] = 2967103,
 						["unlocked"] = false,
+						["icon"] = 2967103,
 						["rank"] = 0,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["icon"] = 1830317,
 						["unlocked"] = false,
+						["icon"] = 1830317,
 						["rank"] = 0,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["icon"] = 3015740,
 						["unlocked"] = true,
+						["icon"] = 3015740,
 						["rank"] = 1,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["icon"] = 2967109,
 						["unlocked"] = false,
+						["icon"] = 2967109,
 						["rank"] = 0,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["icon"] = 2967104,
 						["unlocked"] = false,
+						["icon"] = 2967104,
 						["rank"] = 0,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["icon"] = 3193845,
 						["unlocked"] = false,
+						["icon"] = 3193845,
 						["rank"] = 0,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["icon"] = 3015743,
 						["unlocked"] = false,
+						["icon"] = 3015743,
 						["rank"] = 0,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["icon"] = 2032580,
 						["unlocked"] = false,
+						["icon"] = 2032580,
 						["rank"] = 0,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["icon"] = 2967113,
 						["unlocked"] = true,
+						["icon"] = 2967113,
 						["rank"] = 3,
 					},
-					["Spark of Inspiration"] = {
+					["Conflict and Strife"] = {
 						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["icon"] = 3193843,
-						["unlocked"] = true,
-						["rank"] = 1,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["unlocked"] = false,
+						["icon"] = 3015742,
+						["rank"] = 0,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = true,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["icon"] = 2967111,
 						["unlocked"] = false,
+						["icon"] = 2967111,
 						["rank"] = 0,
 					},
 					["Breath of the Dying"] = {
 						["valid"] = true,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["icon"] = 3193844,
 						["unlocked"] = true,
+						["icon"] = 3193844,
 						["rank"] = 1,
 					},
-					["Conflict and Strife"] = {
+					["Spark of Inspiration"] = {
 						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["icon"] = 3015742,
-						["unlocked"] = false,
-						["rank"] = 0,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["unlocked"] = true,
+						["icon"] = 3193843,
+						["rank"] = 1,
 					},
 					["The Unbound Force"] = {
 						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["icon"] = 2967102,
 						["unlocked"] = false,
+						["icon"] = 2967102,
 						["rank"] = 0,
 					},
 				},
@@ -1718,17 +1662,252 @@ DataStore_TalentsDB = {
 						["valid"] = false,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["unlocked"] = true,
 						["icon"] = 3193844,
+						["unlocked"] = true,
 						["rank"] = 1,
 					},
 					["The Well of Existence"] = {
 						["valid"] = true,
 						["name"] = "The Well of Existence",
 						["ID"] = 19,
-						["unlocked"] = false,
 						["icon"] = 516796,
+						["unlocked"] = false,
 						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = false,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["Life-Binder's Invocation"] = {
+						["valid"] = true,
+						["name"] = "Life-Binder's Invocation",
+						["ID"] = 20,
+						["icon"] = 2967106,
+						["unlocked"] = true,
+						["rank"] = 4,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["icon"] = 3015742,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Nullification Dynamo"] = {
+						["valid"] = false,
+						["name"] = "Nullification Dynamo",
+						["ID"] = 13,
+						["icon"] = 3015741,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Vision of Perfection"] = {
+						["valid"] = true,
+						["name"] = "Vision of Perfection",
+						["ID"] = 22,
+						["icon"] = 3015743,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["The Ever-Rising Tide"] = {
+						["valid"] = true,
+						["name"] = "The Ever-Rising Tide",
+						["ID"] = 17,
+						["icon"] = 2967108,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = false,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["icon"] = 2967111,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["Spirit of Preservation"] = {
+						["valid"] = true,
+						["name"] = "Spirit of Preservation",
+						["ID"] = 24,
+						["icon"] = 2967101,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Sphere of Suppression"] = {
+						["valid"] = false,
+						["name"] = "Sphere of Suppression",
+						["ID"] = 3,
+						["icon"] = 2065602,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = false,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["icon"] = 2967102,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Purification Protocol"] = {
+						["valid"] = false,
+						["name"] = "Purification Protocol",
+						["ID"] = 6,
+						["icon"] = 2967103,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Strength of the Warden"] = {
+						["valid"] = false,
+						["name"] = "Strength of the Warden",
+						["ID"] = 34,
+						["icon"] = 3193846,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["The Crucible of Flame"] = {
+						["valid"] = true,
+						["name"] = "The Crucible of Flame",
+						["ID"] = 12,
+						["icon"] = 3015740,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["icon"] = 3193845,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["icon"] = 2967109,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Anima of Life and Death"] = {
+						["valid"] = false,
+						["name"] = "Anima of Life and Death",
+						["ID"] = 7,
+						["icon"] = 2967105,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = false,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["icon"] = 2032580,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["icon"] = 2967104,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = false,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["icon"] = 2967113,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Unwavering Ward"] = {
+						["valid"] = true,
+						["name"] = "Unwavering Ward",
+						["ID"] = 16,
+						["icon"] = 3193842,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["Vitality Conduit"] = {
+						["valid"] = true,
+						["name"] = "Vitality Conduit",
+						["ID"] = 21,
+						["icon"] = 2967100,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["Touch of the Everlasting"] = {
+						["valid"] = false,
+						["name"] = "Touch of the Everlasting",
+						["ID"] = 33,
+						["icon"] = 3193847,
+						["unlocked"] = true,
+						["rank"] = 1,
+					},
+					["Artifice of Time"] = {
+						["valid"] = true,
+						["name"] = "Artifice of Time",
+						["ID"] = 18,
+						["icon"] = 2967112,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["icon"] = 1830317,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Azeroth's Undying Gift"] = {
+						["valid"] = false,
+						["name"] = "Azeroth's Undying Gift",
+						["ID"] = 2,
+						["icon"] = 2967107,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Aegis of the Deep"] = {
+						["valid"] = false,
+						["name"] = "Aegis of the Deep",
+						["ID"] = 25,
+						["icon"] = 2967110,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+				},
+				["Class"] = "DRUID",
+			},
+			["Default.Silvermoon.Yóshino"] = {
+				["lastUpdate"] = 1608032646,
+				["Specializations"] = {
+					5753, -- [1]
+					6521, -- [2]
+					14078, -- [3]
+				},
+				["AzeriteEssences"] = {
+					["Breath of the Dying"] = {
+						["valid"] = false,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["unlocked"] = true,
+						["icon"] = 3193844,
+						["rank"] = 3,
+					},
+					["The Well of Existence"] = {
+						["valid"] = true,
+						["name"] = "The Well of Existence",
+						["ID"] = 19,
+						["unlocked"] = true,
+						["icon"] = 516796,
+						["rank"] = 3,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = false,
@@ -1736,7 +1915,7 @@ DataStore_TalentsDB = {
 						["ID"] = 36,
 						["unlocked"] = true,
 						["icon"] = 3193843,
-						["rank"] = 1,
+						["rank"] = 3,
 					},
 					["Life-Binder's Invocation"] = {
 						["valid"] = true,
@@ -1750,17 +1929,17 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 3015742,
-						["rank"] = 0,
+						["rank"] = 2,
 					},
 					["Nullification Dynamo"] = {
 						["valid"] = false,
 						["name"] = "Nullification Dynamo",
 						["ID"] = 13,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 3015741,
-						["rank"] = 0,
+						["rank"] = 3,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
@@ -1784,39 +1963,39 @@ DataStore_TalentsDB = {
 						["ID"] = 5,
 						["unlocked"] = true,
 						["icon"] = 2967111,
-						["rank"] = 3,
+						["rank"] = 4,
 					},
 					["Spirit of Preservation"] = {
 						["valid"] = true,
 						["name"] = "Spirit of Preservation",
 						["ID"] = 24,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 2967101,
-						["rank"] = 0,
+						["rank"] = 2,
 					},
 					["Sphere of Suppression"] = {
 						["valid"] = false,
 						["name"] = "Sphere of Suppression",
 						["ID"] = 3,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 2065602,
-						["rank"] = 0,
+						["rank"] = 1,
 					},
 					["The Unbound Force"] = {
 						["valid"] = false,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 2967102,
-						["rank"] = 0,
+						["rank"] = 3,
 					},
 					["Purification Protocol"] = {
 						["valid"] = false,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 2967103,
-						["rank"] = 0,
+						["rank"] = 3,
 					},
 					["Strength of the Warden"] = {
 						["valid"] = false,
@@ -1824,7 +2003,7 @@ DataStore_TalentsDB = {
 						["ID"] = 34,
 						["unlocked"] = true,
 						["icon"] = 3193846,
-						["rank"] = 1,
+						["rank"] = 3,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
@@ -1834,6 +2013,14 @@ DataStore_TalentsDB = {
 						["icon"] = 3015740,
 						["rank"] = 1,
 					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["unlocked"] = true,
+						["icon"] = 3193845,
+						["rank"] = 3,
+					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
@@ -1842,45 +2029,37 @@ DataStore_TalentsDB = {
 						["icon"] = 2967109,
 						["rank"] = 0,
 					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["unlocked"] = true,
-						["icon"] = 3193845,
-						["rank"] = 1,
-					},
 					["Anima of Life and Death"] = {
 						["valid"] = false,
 						["name"] = "Anima of Life and Death",
 						["ID"] = 7,
 						["unlocked"] = true,
 						["icon"] = 2967105,
+						["rank"] = 4,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = false,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["unlocked"] = false,
+						["icon"] = 2032580,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["unlocked"] = true,
+						["icon"] = 2967104,
 						["rank"] = 3,
 					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
-						["unlocked"] = false,
-						["icon"] = 1830317,
-						["rank"] = 0,
-					},
-					["Artifice of Time"] = {
-						["valid"] = true,
-						["name"] = "Artifice of Time",
-						["ID"] = 18,
-						["unlocked"] = false,
-						["icon"] = 2967112,
-						["rank"] = 0,
-					},
-					["Vitality Conduit"] = {
-						["valid"] = true,
-						["name"] = "Vitality Conduit",
-						["ID"] = 21,
+					["Condensed Life-Force"] = {
+						["valid"] = false,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
 						["unlocked"] = true,
-						["icon"] = 2967100,
-						["rank"] = 1,
+						["icon"] = 2967113,
+						["rank"] = 3,
 					},
 					["Unwavering Ward"] = {
 						["valid"] = true,
@@ -1890,13 +2069,13 @@ DataStore_TalentsDB = {
 						["icon"] = 3193842,
 						["rank"] = 3,
 					},
-					["Condensed Life-Force"] = {
-						["valid"] = false,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["unlocked"] = false,
-						["icon"] = 2967113,
-						["rank"] = 0,
+					["Vitality Conduit"] = {
+						["valid"] = true,
+						["name"] = "Vitality Conduit",
+						["ID"] = 21,
+						["unlocked"] = true,
+						["icon"] = 2967100,
+						["rank"] = 3,
 					},
 					["Touch of the Everlasting"] = {
 						["valid"] = false,
@@ -1904,201 +2083,22 @@ DataStore_TalentsDB = {
 						["ID"] = 33,
 						["unlocked"] = true,
 						["icon"] = 3193847,
-						["rank"] = 1,
+						["rank"] = 2,
 					},
-					["Memory of Lucid Dreams"] = {
+					["Artifice of Time"] = {
 						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
+						["name"] = "Artifice of Time",
+						["ID"] = 18,
 						["unlocked"] = false,
-						["icon"] = 2967104,
+						["icon"] = 2967112,
 						["rank"] = 0,
-					},
-					["Blood of the Enemy"] = {
-						["valid"] = false,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["unlocked"] = false,
-						["icon"] = 2032580,
-						["rank"] = 0,
-					},
-					["Azeroth's Undying Gift"] = {
-						["valid"] = false,
-						["name"] = "Azeroth's Undying Gift",
-						["ID"] = 2,
-						["unlocked"] = false,
-						["icon"] = 2967107,
-						["rank"] = 0,
-					},
-					["Aegis of the Deep"] = {
-						["valid"] = false,
-						["name"] = "Aegis of the Deep",
-						["ID"] = 25,
-						["unlocked"] = false,
-						["icon"] = 2967110,
-						["rank"] = 0,
-					},
-				},
-				["Class"] = "DRUID",
-			},
-			["Default.Silvermoon.Sharutía"] = {
-				["lastUpdate"] = 1606336448,
-				["Specializations"] = {
-					8057, -- [1]
-					5803, -- [2]
-					14965, -- [3]
-				},
-				["AzeriteEssences"] = {
-					["Breath of the Dying"] = {
-						["valid"] = true,
-						["name"] = "Breath of the Dying",
-						["ID"] = 35,
-						["unlocked"] = true,
-						["icon"] = 3193844,
-						["rank"] = 1,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 1830317,
-						["rank"] = 0,
-					},
-					["Spark of Inspiration"] = {
-						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["unlocked"] = true,
-						["icon"] = 3193843,
-						["rank"] = 1,
-					},
-					["Conflict and Strife"] = {
-						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["unlocked"] = false,
-						["icon"] = 3015742,
-						["rank"] = 0,
-					},
-					["Nullification Dynamo"] = {
-						["valid"] = false,
-						["name"] = "Nullification Dynamo",
-						["ID"] = 13,
-						["unlocked"] = true,
-						["icon"] = 3015741,
-						["rank"] = 3,
-					},
-					["Vision of Perfection"] = {
-						["valid"] = true,
-						["name"] = "Vision of Perfection",
-						["ID"] = 22,
-						["unlocked"] = true,
-						["icon"] = 3015743,
-						["rank"] = 3,
-					},
-					["Blood of the Enemy"] = {
-						["valid"] = true,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["unlocked"] = false,
-						["icon"] = 2032580,
-						["rank"] = 0,
-					},
-					["Essence of the Focusing Iris"] = {
-						["valid"] = true,
-						["name"] = "Essence of the Focusing Iris",
-						["ID"] = 5,
-						["unlocked"] = true,
-						["icon"] = 2967111,
-						["rank"] = 3,
-					},
-					["Sphere of Suppression"] = {
-						["valid"] = false,
-						["name"] = "Sphere of Suppression",
-						["ID"] = 3,
-						["unlocked"] = false,
-						["icon"] = 2065602,
-						["rank"] = 0,
-					},
-					["The Unbound Force"] = {
-						["valid"] = true,
-						["name"] = "The Unbound Force",
-						["ID"] = 28,
-						["unlocked"] = false,
-						["icon"] = 2967102,
-						["rank"] = 0,
-					},
-					["Purification Protocol"] = {
-						["valid"] = true,
-						["name"] = "Purification Protocol",
-						["ID"] = 6,
-						["unlocked"] = false,
-						["icon"] = 2967103,
-						["rank"] = 0,
-					},
-					["The Crucible of Flame"] = {
-						["valid"] = true,
-						["name"] = "The Crucible of Flame",
-						["ID"] = 12,
-						["unlocked"] = true,
-						["icon"] = 3015740,
-						["rank"] = 4,
-					},
-					["Ripple in Space"] = {
-						["valid"] = true,
-						["name"] = "Ripple in Space",
-						["ID"] = 15,
-						["unlocked"] = false,
-						["icon"] = 2967109,
-						["rank"] = 0,
-					},
-					["Memory of Lucid Dreams"] = {
-						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
-						["unlocked"] = true,
-						["icon"] = 2967104,
-						["rank"] = 3,
-					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["unlocked"] = true,
-						["icon"] = 3193845,
-						["rank"] = 2,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = true,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["unlocked"] = false,
-						["icon"] = 2967113,
-						["rank"] = 0,
-					},
-					["Touch of the Everlasting"] = {
-						["valid"] = false,
-						["name"] = "Touch of the Everlasting",
-						["ID"] = 33,
-						["unlocked"] = true,
-						["icon"] = 3193847,
-						["rank"] = 1,
-					},
-					["Strength of the Warden"] = {
-						["valid"] = false,
-						["name"] = "Strength of the Warden",
-						["ID"] = 34,
-						["unlocked"] = true,
-						["icon"] = 3193846,
-						["rank"] = 3,
-					},
-					["Anima of Life and Death"] = {
-						["valid"] = false,
-						["name"] = "Anima of Life and Death",
-						["ID"] = 7,
-						["unlocked"] = true,
-						["icon"] = 2967105,
 						["rank"] = 3,
 					},
 					["Azeroth's Undying Gift"] = {
@@ -2118,7 +2118,7 @@ DataStore_TalentsDB = {
 						["rank"] = 3,
 					},
 				},
-				["Class"] = "DEATHKNIGHT",
+				["Class"] = "PALADIN",
 			},
 		},
 	},
@@ -2134,22 +2134,22 @@ DataStore_TalentsRefDB = {
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Taígá - Ravencrest"] = "Taígá - Ravencrest",
 		["Ririchíyo - Ravencrest"] = "Ririchíyo - Ravencrest",
-		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
 		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
-		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
-		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
 		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 	},
 	["global"] = {
 		["DEATHKNIGHT"] = {
@@ -2572,89 +2572,89 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 36839,
 		},
-		["PALADIN"] = {
+		["HUNTER"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 65,
+					["id"] = 253,
 					["talents"] = {
-						17565, -- [1]
-						17567, -- [2]
-						17569, -- [3]
-						22176, -- [4]
-						17575, -- [5]
-						17577, -- [6]
-						22179, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22433, -- [10]
-						22434, -- [11]
-						17593, -- [12]
-						17597, -- [13]
-						17599, -- [14]
-						17601, -- [15]
-						23191, -- [16]
-						22190, -- [17]
-						22484, -- [18]
-						21201, -- [19]
-						21671, -- [20]
-						21203, -- [21]
+						22291, -- [1]
+						22280, -- [2]
+						22282, -- [3]
+						22500, -- [4]
+						22266, -- [5]
+						22290, -- [6]
+						19347, -- [7]
+						19348, -- [8]
+						23100, -- [9]
+						22441, -- [10]
+						22347, -- [11]
+						22269, -- [12]
+						22268, -- [13]
+						22276, -- [14]
+						22499, -- [15]
+						19357, -- [16]
+						22002, -- [17]
+						23044, -- [18]
+						22273, -- [19]
+						21986, -- [20]
+						22295, -- [21]
 					},
 				}, -- [1]
 				{
-					["id"] = 66,
+					["id"] = 254,
 					["talents"] = {
-						22428, -- [1]
-						22558, -- [2]
-						23469, -- [3]
-						22431, -- [4]
-						22604, -- [5]
-						23468, -- [6]
-						22179, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22433, -- [10]
-						22434, -- [11]
-						22435, -- [12]
-						17597, -- [13]
-						17599, -- [14]
-						17601, -- [15]
-						22189, -- [16]
-						22438, -- [17]
-						23087, -- [18]
-						23457, -- [19]
-						21202, -- [20]
-						22645, -- [21]
+						22279, -- [1]
+						22501, -- [2]
+						22289, -- [3]
+						22495, -- [4]
+						22497, -- [5]
+						22498, -- [6]
+						19347, -- [7]
+						19348, -- [8]
+						23100, -- [9]
+						22267, -- [10]
+						22286, -- [11]
+						21998, -- [12]
+						22268, -- [13]
+						22276, -- [14]
+						23463, -- [15]
+						23063, -- [16]
+						23104, -- [17]
+						22287, -- [18]
+						22274, -- [19]
+						22308, -- [20]
+						22288, -- [21]
 					},
 				}, -- [2]
 				{
-					["id"] = 70,
+					["id"] = 255,
 					["talents"] = {
-						22590, -- [1]
-						22557, -- [2]
-						23467, -- [3]
-						22319, -- [4]
-						22592, -- [5]
-						23466, -- [6]
-						22179, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22433, -- [10]
-						22434, -- [11]
-						22183, -- [12]
-						17597, -- [13]
-						17599, -- [14]
-						17601, -- [15]
-						23167, -- [16]
-						22483, -- [17]
-						23086, -- [18]
-						23456, -- [19]
-						22215, -- [20]
-						22634, -- [21]
+						22275, -- [1]
+						22283, -- [2]
+						22296, -- [3]
+						21997, -- [4]
+						22769, -- [5]
+						22297, -- [6]
+						19347, -- [7]
+						19348, -- [8]
+						23100, -- [9]
+						22277, -- [10]
+						19361, -- [11]
+						22299, -- [12]
+						22268, -- [13]
+						22276, -- [14]
+						22499, -- [15]
+						22300, -- [16]
+						22278, -- [17]
+						22271, -- [18]
+						22272, -- [19]
+						22301, -- [20]
+						23105, -- [21]
 					},
 				}, -- [3]
 			},
-			["Version"] = 36839,
+			["Version"] = 36372,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",
@@ -3076,89 +3076,89 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 36839,
 		},
-		["HUNTER"] = {
+		["PALADIN"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 253,
+					["id"] = 65,
 					["talents"] = {
-						22291, -- [1]
-						22280, -- [2]
-						22282, -- [3]
-						22500, -- [4]
-						22266, -- [5]
-						22290, -- [6]
-						19347, -- [7]
-						19348, -- [8]
-						23100, -- [9]
-						22441, -- [10]
-						22347, -- [11]
-						22269, -- [12]
-						22268, -- [13]
-						22276, -- [14]
-						22499, -- [15]
-						19357, -- [16]
-						22002, -- [17]
-						23044, -- [18]
-						22273, -- [19]
-						21986, -- [20]
-						22295, -- [21]
+						17565, -- [1]
+						17567, -- [2]
+						17569, -- [3]
+						22176, -- [4]
+						17575, -- [5]
+						17577, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22433, -- [10]
+						22434, -- [11]
+						17593, -- [12]
+						17597, -- [13]
+						17599, -- [14]
+						17601, -- [15]
+						23191, -- [16]
+						22190, -- [17]
+						22484, -- [18]
+						21201, -- [19]
+						21671, -- [20]
+						21203, -- [21]
 					},
 				}, -- [1]
 				{
-					["id"] = 254,
+					["id"] = 66,
 					["talents"] = {
-						22279, -- [1]
-						22501, -- [2]
-						22289, -- [3]
-						22495, -- [4]
-						22497, -- [5]
-						22498, -- [6]
-						19347, -- [7]
-						19348, -- [8]
-						23100, -- [9]
-						22267, -- [10]
-						22286, -- [11]
-						21998, -- [12]
-						22268, -- [13]
-						22276, -- [14]
-						23463, -- [15]
-						23063, -- [16]
-						23104, -- [17]
-						22287, -- [18]
-						22274, -- [19]
-						22308, -- [20]
-						22288, -- [21]
+						22428, -- [1]
+						22558, -- [2]
+						23469, -- [3]
+						22431, -- [4]
+						22604, -- [5]
+						23468, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22433, -- [10]
+						22434, -- [11]
+						22435, -- [12]
+						17597, -- [13]
+						17599, -- [14]
+						17601, -- [15]
+						22189, -- [16]
+						22438, -- [17]
+						23087, -- [18]
+						23457, -- [19]
+						21202, -- [20]
+						22645, -- [21]
 					},
 				}, -- [2]
 				{
-					["id"] = 255,
+					["id"] = 70,
 					["talents"] = {
-						22275, -- [1]
-						22283, -- [2]
-						22296, -- [3]
-						21997, -- [4]
-						22769, -- [5]
-						22297, -- [6]
-						19347, -- [7]
-						19348, -- [8]
-						23100, -- [9]
-						22277, -- [10]
-						19361, -- [11]
-						22299, -- [12]
-						22268, -- [13]
-						22276, -- [14]
-						22499, -- [15]
-						22300, -- [16]
-						22278, -- [17]
-						22271, -- [18]
-						22272, -- [19]
-						22301, -- [20]
-						23105, -- [21]
+						22590, -- [1]
+						22557, -- [2]
+						23467, -- [3]
+						22319, -- [4]
+						22592, -- [5]
+						23466, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22433, -- [10]
+						22434, -- [11]
+						22183, -- [12]
+						17597, -- [13]
+						17599, -- [14]
+						17601, -- [15]
+						23167, -- [16]
+						22483, -- [17]
+						23086, -- [18]
+						23456, -- [19]
+						22215, -- [20]
+						22634, -- [21]
 					},
 				}, -- [3]
 			},
-			["Version"] = 36372,
+			["Version"] = 36839,
 		},
 	},
 }

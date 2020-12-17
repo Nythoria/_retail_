@@ -1,7 +1,6 @@
 
 Blizzard_Console_SavedVars = {
 	["version"] = 3,
-	["height"] = 300,
 	["messageHistory"] = {
 		{
 			"Sorting particles normally.", -- [1]
@@ -3823,9 +3822,26 @@ Blizzard_Console_SavedVars = {
 			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [955]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [956]
+		{
+			"NetClient::HandleDisconnect()\n", -- [1]
+			0, -- [2]
+		}, -- [957]
+		{
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			0, -- [2]
+		}, -- [958]
+		{
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
+			0, -- [2]
+		}, -- [959]
 	},
-	["isShown"] = false,
+	["height"] = 300,
 	["fontHeight"] = 14,
+	["isShown"] = false,
 	["commandHistory"] = {
 	},
 }

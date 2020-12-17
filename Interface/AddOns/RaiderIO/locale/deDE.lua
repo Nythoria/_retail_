@@ -1,3 +1,4 @@
+-- Generated from CurseForge on Wed Dec 16 18:09:21 UTC 2020
 local _, ns = ...
 
 if ns:IsSameLocale("deDE") then
@@ -109,7 +110,7 @@ L["MY_PROFILE_TITLE"] = "Raider.IO Profil"
 L["MYTHIC_PLUS_DB_MODULES"] = "Mythic+ Datenbank Module"
 L["MYTHIC_PLUS_SCORES"] = "Mythic+ Wertung Tooltips"
 L["NO_GUILD_RECORD"] = "Keine Gildenrekorde"
-L["OPEN_CONFIG"] = "Öffne Konfigutration"
+L["OPEN_CONFIG"] = "Konfiguration öffnen"
 L["OUT_OF_SYNC_DATABASE_S"] = "|cffFFFFFF%s|r hat keine synchronisierte Fraktionsdaten der Horde/Allianz. Bitte aktualisiere die Raider.IO Client-Einstellungen, um beide Fraktionen zu synchronisieren."
 L["OUTDATED_DATABASE"] = "Wertungen sind %d Tag(e) alt"
 L["OUTDATED_DATABASE_HOURS"] = "Wertungen sind %d Stunde(n) alt"
@@ -268,7 +269,6 @@ L["USE_ENGLISH_ABBREVIATION"] = "Englische Abkürzungen für Dungeons erzwingen"
 L["USE_ENGLISH_ABBREVIATION_DESC"] = "Wenn diese Option aktiviert ist, werden die für Dungeons verwendeten Abkürzungen überschrieben um die englische Version zu sein, anstatt Ihre aktuelle Sprache."
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r Der Debug-Modus ist aktiviert. Sie können ihn deaktivieren, indem Sie |cffFFFFFF/raiderio debug|r eingeben."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "Raider.IO: Du solltest zuerst die automatische Positionierung für das Raider.IO Profil deaktivieren."
-
 
 	ns.L = L
 end

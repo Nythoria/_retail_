@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0407,
+	["LastVersion"] = 2.0408,
 	["LastPlayerFullName"] = "Yóshino-Silvermoon",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {

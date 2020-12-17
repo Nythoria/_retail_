@@ -1,3 +1,4 @@
+-- Generated from CurseForge on Wed Dec 16 18:09:26 UTC 2020
 local _, ns = ...
 
 if ns:IsSameLocale("itIT") then
@@ -327,7 +328,6 @@ L["USE_ENGLISH_ABBREVIATION"] = "Forza Abbreviazioni dei Dungeon in Inglese"
 L["USE_ENGLISH_ABBREVIATION_DESC"] = "Quando selezionato, verranno usate le abbreviazioni per i nomi dei dungeon in Inglese, al posto della lingua corrente."
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r La modalità Debug è abilitata. Per disabilitarla digita /raiderio debug|r"
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Devi prima Disabilitare \"Posizionamento Automatico\" per il Profilo RaiderIO."
-
 
 	ns.L = L
 end

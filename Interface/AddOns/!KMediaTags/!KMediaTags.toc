@@ -5,8 +5,6 @@
 ## Notes: Additional Media and Tags for ElvUI 
 ## OptionalDeps: ElvUI
 ## DefaultState: Enabled 
-## X-Tukui-ProjectID: 127
-## X-Tukui-ProjectFolders: !KMediaTags
 
 libs\lib.xml
 
@@ -14,4 +12,3 @@ media\media.lua
 tags\tags.lua 
 tags\taginfo.lua
 core.lua
-

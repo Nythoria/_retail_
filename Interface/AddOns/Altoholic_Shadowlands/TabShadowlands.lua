@@ -1,7 +1,6 @@
 local addonName = "Altoholic"
 local addon = _G[addonName]
 local colors = addon.Colors
-local L = LibStub("AceLocale-3.0"):GetLocale(addonName)
 
 addon.Tabs.Shadowlands = {}
 
@@ -29,7 +28,7 @@ local function GetCharacterLoginText(character)
 			last = format("%s: %s", LASTONLINE, colors.yellow..date("%m/%d/%Y %H:%M", last))
 		end
 	else
-		last = format("%s: %s", LASTONLINE, colors.red..L["N/A"])
+		last = ""
 	end
 	return format("%s %s(%s%s)", (DataStore:GetColoredCharacterName(character) or ""), colors.white, last, colors.white)
 end
@@ -85,8 +84,6 @@ local function CharactersIcon_Initialize(self, level)
     local currentAccount, currentRealm, currentName = strsplit(".", currentCharacterKey)
     
 	if level == 1 then
-		DDM_AddTitle(L["Characters"])
-		
 		for account in pairs(DataStore:GetAccounts()) do
 			for realm in pairs(DataStore:GetRealms(account)) do
 
@@ -147,22 +144,16 @@ addon:Controller("AltoholicUI.TabShadowlandsCharacterIcon", {
 addon:Controller("AltoholicUI.TabShadowlands", {
 	OnBind = function(frame)
         frame.ClassIcons:Update("THIS_ACCOUNT")
-    
-        -- Setup aliases
-        frame.Overview = frame.MenuItem1
-        frame.Renown = frame.MenuItem2
-        frame.Soulbinds = frame.MenuItem3
-        frame.SanctumFeatures = frame.MenuItem4
-        frame.AnimaDiversion = frame.MenuItem5
-        frame.Torghast = frame.MenuItem6
         
-		-- Localise section names
-        frame.Overview:SetText(OVERVIEW)
-		frame.Renown:SetText(COVENANT_SANCTUM_TAB_RENOWN)
-        frame.Soulbinds:SetText(COVENANT_PREVIEW_SOULBINDS)
-        frame.SanctumFeatures:SetText(COVENANT_PREVIEW_SANCTUM_FEATURE)
-        frame.AnimaDiversion:SetText(ANIMA_DIVERSION_ORIGIN_TOOLTIP)
-        frame.Torghast:SetText(C_Map.GetAreaInfo(10472))
+		-- Localise menu names
+        frame.MenuItem1:SetText(OVERVIEW)
+        frame.MenuItem2:SetText(COVENANT_SANCTUM_TAB_UPGRADES)
+		frame.MenuItem3:SetText(COVENANT_SANCTUM_TAB_RENOWN)
+        frame.MenuItem4:SetText(COVENANT_PREVIEW_SOULBINDS)
+        frame.MenuItem5:SetText(COVENANT_PREVIEW_SANCTUM_FEATURE)
+        frame.MenuItem6:SetText(ANIMA_DIVERSION_ORIGIN_TOOLTIP)
+        frame.MenuItem7:SetText(C_Map.GetAreaInfo(10472))
+        frame.MenuItem8:SetText(GREAT_VAULT_REWARDS)
 		
         -- Set section 1 as default
         frame:MenuItem_Highlight(1)
@@ -176,6 +167,8 @@ addon:Controller("AltoholicUI.TabShadowlands", {
         frame.SanctumFeaturesPanel:Hide()
         frame.AnimaDiversionPanel:Hide()
         frame.TorghastPanel:Hide()
+        frame.WeeklyRewardsPanel:Hide()
+        frame.ReservoirPanel:Hide()
 	end,
 	Refresh = function(frame)
         local key = ns:GetAltKey()
@@ -189,7 +182,7 @@ addon:Controller("AltoholicUI.TabShadowlands", {
 	end,
 	MenuItem_Highlight = function(frame, id)
 		-- highlight the current menu item
-		for i = 1, 6 do 
+		for i = 1, 8 do 
 			frame["MenuItem"..i]:UnlockHighlight()
 		end
 		frame["MenuItem"..id]:LockHighlight()

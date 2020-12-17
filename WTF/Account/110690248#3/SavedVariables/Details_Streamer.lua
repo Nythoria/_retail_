@@ -16,13 +16,13 @@ Details_StreamerDB = {
 		["Ririchíyo - Twisting Nether"] = "Victoríque - Silvermoon",
 		["Enjú - Ravencrest"] = "Victoríque - Silvermoon",
 		["Kúsano - Ravencrest"] = "Victoríque - Silvermoon",
-		["Mítsukí - Silvermoon"] = "Victoríque - Silvermoon",
 		["Yóshino - Silvermoon"] = "Victoríque - Silvermoon",
-		["Croesus - Ravencrest"] = "Victoríque - Silvermoon",
-		["Kiríno - Ravencrest"] = "Victoríque - Silvermoon",
+		["Mítsukí - Silvermoon"] = "Victoríque - Silvermoon",
 		["Yoshíno - Ravencrest"] = "Victoríque - Silvermoon",
-		["Eléonora - Ravencrest"] = "Victoríque - Silvermoon",
+		["Kiríno - Ravencrest"] = "Victoríque - Silvermoon",
+		["Croesus - Ravencrest"] = "Victoríque - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Eléonora - Ravencrest"] = "Victoríque - Silvermoon",
 		["Rangii - Ravencrest"] = "Victoríque - Silvermoon",
 		["Sharutía - Silvermoon"] = "Victoríque - Silvermoon",
 	},
@@ -57,7 +57,12 @@ Details_StreamerDB = {
 			["point"] = "LEFT",
 			["enabled"] = false,
 			["arrow_size"] = 18,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1019607843137255, -- [1]
+				0.1019607843137255, -- [2]
+				0.1019607843137255, -- [3]
+				0.6500000059604645, -- [4]
+			},
 			["row_spacement"] = 14,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -65,12 +70,7 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.1019607843137255, -- [1]
-				0.1019607843137255, -- [2]
-				0.1019607843137255, -- [3]
-				0.6500000059604645, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\UI-InChatFriendsArrow",
 			["per_second"] = {
 				["enabled"] = false,
@@ -88,7 +88,7 @@ Details_StreamerDB = {
 			["font_face"] = "Expressway",
 			["y"] = -77.49317932128906,
 			["use_spark"] = false,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},

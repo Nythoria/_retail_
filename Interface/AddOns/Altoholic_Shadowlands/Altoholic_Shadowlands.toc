@@ -2,12 +2,11 @@
 ## Title: Altoholic_Shadowlands
 ## Notes: Altoholic's Shadowlands UI
 ## Author: Teelo
-## Version: 9.0.2-009
+## Version: 9.0.2-011
 ## Dependencies: Altoholic, DataStore, DataStore_Characters, DataStore_Covenants, DataStore_Quests
 ## LoadOnDemand: 1
 ## X-Category: Interface Enhancements
 
-Templates\UITemplates.xml
 TabShadowlands.xml
 
 Frames\Overview.xml
@@ -16,3 +15,5 @@ Frames\Soulbinds.xml
 Frames\SanctumFeatures.xml
 Frames\AnimaDiversion.xml
 Frames\Torghast.xml
+Frames\Weeklies.xml
+Frames\Reservoir.xml

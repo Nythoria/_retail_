@@ -1,6 +1,5 @@
-## v4.10.23 Changes
+## v4.10.25 Changes
 
-* [Retail] Updated prospecting values
-* [Classic] Updated TOC for patch 1.13.6
+* [Retail] Removed some bonus IDs which were added in the previous version which have no effect on items
 
 [Known Issues](http://support.tradeskillmaster.com/display/KB/TSM4+Currently+Known+Issues)

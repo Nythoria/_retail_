@@ -1,18 +1,18 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0407,
+	["LastVersion"] = 2.0408,
 	["LastPlayerFullName"] = "Kúsano-Silvermoon",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178817,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178817::::::::60:105::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Hood of Refracted Shadows]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:178817::::::::60:105::16:6:7205:6652:6935:1501:5855:6646:1:28:1279:::|h[Hood of Refracted Shadows]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 184757,
-			["Level"] = 161,
-			["Link"] = "|cff0070dd|Hitem:184757::::::::60:102::11::1:28:1707:::|h[Chain of the Purpose-Bound]|h|r",
+			["ID"] = 180115,
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:180115::::::::60:105::16:5:6808:6652:7193:1501:6646:1:28:1279:::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 178779,
@@ -21,14 +21,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 181655,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:181655::::::::60:105::74:4:6652:1472:5874:6616:1:28:2060:::|h[Corpsehide Vest]|h|r",
+			["ID"] = 182989,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:182989::::::::60:105::5:4:7188:6652:1485:6646:1:28:2060:::|h[Corset of the Deft Duelist]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 172256,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:172256::::::::60:102::13:1:6893:4:9:60:28:391:29:49:30:36:::|h[Shadebound Waistguard]|h|r",
+			["ID"] = 178699,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178699::::::::60:105::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Sapgorger Belt]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 180108,
@@ -46,21 +46,21 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178741::::::::60:105::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Risen Monstrosity Cuffs]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 172252,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:172252::::::::60:102::13:1:6893:4:9:60:28:391:29:36:30:49:::|h[Shadebound Gauntlets]|h|r",
+			["ID"] = 178832,
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:178832::::::::60:105::16:4:6808:6652:1501:6646:1:28:1279:::|h[Gloves of Haunting Fixation]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178824,
-			["Level"] = 184,
+			["ID"] = 183038,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178824::::::::60:105::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Signet of the False Accuser]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183038::::::::60:105::3:5:7189:6652:7194:1472:6646:1:28:753:::|h[Hyperlight Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178872,
-			["Level"] = 184,
+			["ID"] = 183038,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178872::::::::60:105::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Ring of Perpetual Conflict]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183038::::::::60:104::3:5:7189:6652:7194:1472:6646:1:28:753:::|h[Hyperlight Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173078,
@@ -80,9 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179349::::::::60:105::23:4:6807:6652:1498:6646:1:28:749:::|h[Dealer Xy'exa's Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179339,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:179339::::::::60:105::23:4:6807:6652:1498:6646:1:28:2044:::|h[Whizblast Walking Stick]|h|r",
+			["ID"] = 180000,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:180000::::::::60:105::3:4:7189:6652:1498:6646:1:28:807:::|h[Staff of the Penitent]|h|r",
 		}, -- [16]
 	},
 	["LastKeybindingsSet"] = 1,

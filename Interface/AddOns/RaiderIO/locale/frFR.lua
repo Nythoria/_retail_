@@ -1,3 +1,4 @@
+-- Generated from CurseForge on Wed Dec 16 18:09:24 UTC 2020
 local _, ns = ...
 
 if ns:IsSameLocale("frFR") then
@@ -298,7 +299,6 @@ L["USE_ENGLISH_ABBREVIATION"] = "Forcer les abréviations anglaises pour les Don
 L["USE_ENGLISH_ABBREVIATION_DESC"] = "Lorsque cette option est activée, les abréviations utilisées pour les Donjons seront les versions anglaises et non celles de votre langue actuelle."
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r Le mode de débogage est activé. Vous pouvez le désactiver en tapant |cffFFFFFF/raiderio debug|r."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Vous devez d'abord désactiver le positionnement automatique pour le profil RaiderIO."
-
 
 	ns.L = L
 end

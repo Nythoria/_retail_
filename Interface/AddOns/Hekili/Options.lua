@@ -8047,6 +8047,28 @@ function Hekili:GenerateProfile()
         if state.covenant[ v ] then covenant = v; break end
     end
 
+    local conduits
+    for k,v in orderedPairs( s.conduit ) do
+        if v.enabled then
+            if conduits then conduits = format( "%s\n   %s = %d", conduits, k, v.rank )
+            else conduits = format( "%s = %d", k, v.rank ) end
+        end
+    end
+
+    local soulbinds
+    
+    local activeBind = C_Soulbinds.GetActiveSoulbindID()
+    if activeBind then
+        soulbinds = "[" .. formatKey( C_Soulbinds.GetSoulbindData( activeBind ).name ) .. "]"
+    end
+
+    for k,v in orderedPairs( s.soulbind ) do
+        if v.enabled then
+            if soulbinds then soulbinds = format( "%s\n   %s = %d", soulbinds, k, v.rank )
+            else soulbinds = format( "%s = %d", k, v.rank ) end
+        end
+    end    
+
     local sets
     for k, v in orderedPairs( class.gear ) do
         if s.set_bonus[ k ] > 0 then
@@ -8105,6 +8127,8 @@ function Hekili:GenerateProfile()
         "talents: %s\n\n" ..
         "pvptalents: %s\n\n" ..
         "covenant: %s\n\n" ..
+        "conduits: %s\n\n" ..
+        "soulbinds: %s\n\n" ..
         "sets: %s\n\n" ..
         "gear: %s\n\n" ..
         "legendaries: %s\n\n" ..
@@ -8118,6 +8142,8 @@ function Hekili:GenerateProfile()
         talents or "none",
         pvptalents or "none",
         covenant or "none",
+        conduits or "none",
+        soulbinds or "none",
         sets or "none",
         gear or "none",
         legendaries or "none",
@@ -8442,7 +8468,13 @@ function Hekili:TotalRefresh( noOptions )
 
     self:OverrideBinds()
 
-    LibStub("LibDBIcon-1.0"):Refresh( "Hekili", self.DB.profile.iconStore )
+    -- LibStub("LibDBIcon-1.0"):Refresh( "Hekili", self.DB.profile.iconStore )
+    
+    if WeakAuras and WeakAuras.ScanEvents then
+        for name in pairs( Hekili.DB.profile.toggles ) do
+            WeakAuras.ScanEvents( "HEKILI_TOGGLE" )
+        end
+    end
 
 end
 
@@ -8894,6 +8926,8 @@ do
         import = true,
         skeleton = true,
         recover = true,
+        
+        profile = true,
         set = true
     }
 
@@ -9047,6 +9081,43 @@ do
                     return
 
                 end
+
+            
+            elseif args[1] == "profile" then
+                if not args[2] then
+                    local output = "Use |cFFFFD100/hekili profile name|r to swap profiles via command-line or macro.\nValid profile |cFFFFD100name|rs are:"
+
+                    for name, prof in ns.orderedPairs( Hekili.DB.profiles ) do
+                        output = format( "%s\n - |cFFFFD100%s|r %s", output, name, Hekili.DB.profile == prof and "|cFF00FF00(current)|r" or "" )
+                    end
+
+                    output = format( "%s\nTo create a new profile, see |cFFFFD100/hekili|r > |cFFFFD100Profiles|r.", output )
+
+                    Hekili:Print( output )
+                    return
+                end
+
+                local profileName = input:match( "%s+(.+)$" )
+
+                if not rawget( Hekili.DB.profiles, profileName ) then
+                    local output = format( "'%s' is not a valid profile name.\nValid profile |cFFFFD100name|rs are:", profileName )
+
+                    local count = 0
+
+                    for name, prof in ns.orderedPairs( Hekili.DB.profiles ) do
+                        count = count + 1
+                        output = format( "%s\n - |cFFFFD100%s|r %s", output, name, Hekili.DB.profile == prof and "|cFF00FF00(current)|r" or "" )
+                    end
+
+                    output = format( "%s\nTo create a new profile, see |cFFFFD100/hekili|r > |cFFFFD100Profiles|r.", output )
+
+                    Hekili:Print( output )
+                    return
+                end
+
+                Hekili:Print( format( "Set profile to |cFF00FF00%s|r.", profileName ) )
+                self.DB:SetProfile( profileName )
+                return
 
             else
                 LibStub( "AceConfigCmd-3.0" ):HandleCommand( "hekili", "Hekili", input )
@@ -9535,6 +9606,16 @@ local function Sanitize( segment, i, line, warnings )
     i, times = i:gsub( "conduit%.([%w_]+)$", "conduit.%1.enabled" )
     if times > 0 then
         table.insert( warnings, "Line " .. line .. ": Converted 'conduit.X' to 'conduit.X.enabled' at EOL (" .. times .. "x)." )
+    end
+
+    i, times = i:gsub( "soulbind%.([%w_]+)([%+%-%*%%/&|= ()<>)])", "soulbind.%1.enabled%2" )
+    if times > 0 then
+        table.insert( warnings, "Line " .. line .. ": Converted 'soulbind.X' to 'soulbind.X.enabled' (" .. times .. "x)." )
+    end
+
+    i, times = i:gsub( "soulbind%.([%w_]+)$", "soulbind.%1.enabled" )
+    if times > 0 then
+        table.insert( warnings, "Line " .. line .. ": Converted 'soulbind.X' to 'soulbind.X.enabled' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "pet%.[%w_]+%.([%w_]+)%.", "%1." )

@@ -28,9 +28,9 @@ VER 3 00000000000000B2 "*healthstone" "INV_MISC_QUESTIONMARK"
 /use Abyssal Healing Potion
 END
 VER 3 00000000000000D1 "*Milling" "INV_MISC_QUESTIONMARK"
-#showtooltip Rising Glory
+#showtooltip Death Blossom
 /cast Milling
-/use Rising Glory
+/use Death Blossom
 END
 VER 3 00000000000000B8 "*mount" "INV_MISC_QUESTIONMARK"
 #showtooltip

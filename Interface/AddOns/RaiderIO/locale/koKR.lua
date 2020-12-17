@@ -1,3 +1,4 @@
+-- Generated from CurseForge on Wed Dec 16 18:09:27 UTC 2020
 local _, ns = ...
 
 if ns:IsSameLocale("koKR") then
@@ -122,8 +123,7 @@ L["OUTDATED_EXPIRED_ALERT"] = "|cffFFFFFF%s|r이 만료 된 데이터를 사용 
 L["OUTDATED_EXPIRED_TITLE"] = "Raider.IO 데이터가 만료되었습니다."
 L["OUTDATED_EXPIRES_IN_DAYS"] = "Raider.IO 데이터가 %d 일 후에 만료됩니다"
 L["OUTDATED_EXPIRES_IN_HOURS"] = "Raider.IO 데이터가 %d 시간 후에 만료됩니다"
---[[Translation missing --]]
---[[ L["OUTDATED_EXPIRES_IN_MINUTES"] = ""--]] 
+L["OUTDATED_EXPIRES_IN_MINUTES"] = "Raider.IO 데이터는 %d분후에 만료됩니다."
 L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = "가장 정확한 데이터를 보려면 지금 애드온을 업데이트하십시오. 플레이어의 진행 상황을 개선하기 위해 열심히 노력하며 아주 오래된 데이터를 표시하는 것은 장애가됩니다. Raider.IO 클라이언트를 사용하여 데이터를 자동으로 동기화 할 수 있습니다"
 L["PLAYER_PROFILE_TITLE"] = "파티장 프로필"
 L["PREV_SEASON_SUFFIX"] = "(*)"
@@ -274,7 +274,6 @@ L["USE_ENGLISH_ABBREVIATION"] = "던전 강제 영어 약어"
 L["USE_ENGLISH_ABBREVIATION_DESC"] = "설정하면, 던전에 현재 사용중인 언어가 아닌 영어 버전 약어로 표시합니다."
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r 디버그 모드가 활성화되었습니다. |cffFFFFFF/raiderio debug|r을 입력하여 기능을 비활성화 할 수 있습니다."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: 먼저 내 프로필 위치 자동화 설정을 비활성화해야 합니다."
-
 
 	ns.L = L
 end

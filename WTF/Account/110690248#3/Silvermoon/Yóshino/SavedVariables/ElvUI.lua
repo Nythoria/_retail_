@@ -24,116 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"tank", -- [1]
-			"Cárrótt-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1708, -- [11]
-			"Player-3391-0BBA07AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Cárrótt|r",
-			[51] = 1607511681,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"healsssss", -- [1]
-			"Cárrótt-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1709, -- [11]
-			"Player-3391-0BBA07AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Cárrótt|r",
-			[51] = 1607511684,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14483:Player-3391-0B3793E5:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Coldheart Interstitia]|h|r!", -- [1]
-			"Yóshino-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yóshino-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1710, -- [11]
-			"Player-3391-0B3793E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Yóshino|r",
-			[51] = 1607511720,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"ez\\", -- [1]
-			"Darkav-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Darkav-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1718, -- [11]
-			"Player-1305-0B324A65", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDarkav-Kazzak|r",
-			[51] = 1607511729,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
-		{
-			";)", -- [1]
-			"Darkav-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Darkav-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1719, -- [11]
-			"Player-1305-0B324A65", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaDarkav-Kazzak|r",
-			[51] = 1607511731,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
 			"nice gg guys :)", -- [1]
 			"Yóshino-Silvermoon", -- [2]
 			"", -- [3]
@@ -154,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607511735,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
+		}, -- [1]
 		{
 			"nice!", -- [1]
 			"Necrontyr-Ravencrest", -- [2]
@@ -176,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNecrontyr-Ravencrest|r",
 			[51] = 1607511742,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [7]
+		}, -- [2]
 		{
 			"anyone wanna run a l3? :)", -- [1]
 			"Livecell-Silvermoon", -- [2]
@@ -198,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLivecell|r",
 			[51] = 1607511744,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [3]
 		{
 			"ty", -- [1]
 			"Darkav-Kazzak", -- [2]
@@ -220,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDarkav-Kazzak|r",
 			[51] = 1607511745,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
+		}, -- [4]
 		{
 			"good run;)", -- [1]
 			"Darkav-Kazzak", -- [2]
@@ -242,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDarkav-Kazzak|r",
 			[51] = 1607511752,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [10]
+		}, -- [5]
 		{
 			"Too busy doing layer 5", -- [1]
 			"Chillvendor-Silvermoon", -- [2]
@@ -264,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaChillvendor|r",
 			[51] = 1607511761,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [6]
 		{
 			"LOL", -- [1]
 			"Necrontyr-Ravencrest", -- [2]
@@ -286,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNecrontyr-Ravencrest|r",
 			[51] = 1607511764,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [12]
+		}, -- [7]
 		{
 			"we took 645 dust", -- [1]
 			"Necrontyr-Ravencrest", -- [2]
@@ -308,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNecrontyr-Ravencrest|r",
 			[51] = 1607511770,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [13]
+		}, -- [8]
 		{
 			"bb", -- [1]
 			"Darkav-Kazzak", -- [2]
@@ -330,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDarkav-Kazzak|r",
 			[51] = 1607511775,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
+		}, -- [9]
 		{
 			"100more for my leggo", -- [1]
 			"Darkav-Kazzak", -- [2]
@@ -352,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDarkav-Kazzak|r",
 			[51] = 1607511792,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
+		}, -- [10]
 		{
 			"210ilvl", -- [1]
 			"Darkav-Kazzak", -- [2]
@@ -374,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDarkav-Kazzak|r",
 			[51] = 1607511795,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
+		}, -- [11]
 		{
 			"thanks for the inv... time to craft my leggo", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -396,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607511795,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [12]
 		{
 			";)", -- [1]
 			"Darkav-Kazzak", -- [2]
@@ -418,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDarkav-Kazzak|r",
 			[51] = 1607511797,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
+		}, -- [13]
 		{
 			"does it cap", -- [1]
 			"Necrontyr-Ravencrest", -- [2]
@@ -440,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNecrontyr-Ravencrest|r",
 			[51] = 1607511801,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [19]
+		}, -- [14]
 		{
 			"bb guys o/", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -462,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607511803,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
+		}, -- [15]
 		{
 			"at 810?", -- [1]
 			"Necrontyr-Ravencrest", -- [2]
@@ -484,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNecrontyr-Ravencrest|r",
 			[51] = 1607511803,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [21]
+		}, -- [16]
 		{
 			"layer 4 is fun xD", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -506,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607511819,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [17]
 		{
 			"where is the weekly chest to?", -- [1]
 			"Ceidwad-Silvermoon", -- [2]
@@ -528,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ceidwad|r",
 			[51] = 1607511942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [18]
 		{
 			"Is there anything that isnt for sale these days...", -- [1]
 			"Dopplebanger-Silvermoon", -- [2]
@@ -550,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dopplebanger|r",
 			[51] = 1607511949,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [19]
 		{
 			"Near bank", -- [1]
 			"Focarul-Silvermoon", -- [2]
@@ -572,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edFocarul|r",
 			[51] = 1607511951,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [20]
 		{
 			"anyone else getting \"retrieving item information\" on current reward on great vault?", -- [1]
 			"Dxmonthing-Silvermoon", -- [2]
@@ -594,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDxmonthing|r",
 			[51] = 1607511962,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [21]
 		{
 			"doing solo?", -- [1]
 			"Êerie-Silvermoon", -- [2]
@@ -616,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaÊerie|r",
 			[51] = 1607511974,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
+		}, -- [22]
 		{
 			"you cant open it this week tho obviously", -- [1]
 			"Nocurebank-Silvermoon", -- [2]
@@ -638,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNocurebank|r",
 			[51] = 1607511974,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [23]
 		{
 			"2DPS and 1healer", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -660,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607511989,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [24]
 		{
 			"<<NBC>> (Special Offer) WTS HEROIC CASTLE NATHRIA (Limited Spots)/ Offering Mythic Keystone 10+: 500k , M+15: 700k / ||Torghast Boost available|| / Only Gold . Wis Me For More Info!!", -- [1]
 			"Novanii-Silvermoon", -- [2]
@@ -682,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novanii|r",
 			[51] = 1607511995,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [25]
 		{
 			"tank would have made it far easier", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -704,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607512008,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [26]
 		{
 			"wts |cffffffff|Hitem:167861::::::::1:1449:::::::|h[Alliance Glider Kit]|h|r 50g / stack", -- [1]
 			"Mylilgnomy-Silvermoon", -- [2]
@@ -726,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMylilgnomy|r",
 			[51] = 1607512015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [27]
 		{
 			"<ICECROWN COMMUNITY> Selling Free ARMOR STACK M+ Keys 0-12+, [Castle Nathria Normal/Heroic] Full run Lootshare,Curve. Torghast Layers 1-8.PVP Cap/Rating Boosts and much more only for gold/w for more info or to book an spot:)", -- [1]
 			"Magiskst-Silvermoon", -- [2]
@@ -748,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMagiskst|r",
 			[51] = 1607512015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [28]
 		{
 			"10mil?", -- [1]
 			"Peekatu-Silvermoon", -- [2]
@@ -770,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Peekatu|r",
 			[51] = 1607512445,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [29]
 		{
 			"I know there are lot of better things you can buy for 1 Mil G", -- [1]
 			"Álfrèd-Silvermoon", -- [2]
@@ -792,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Álfrèd|r",
 			[51] = 1607512450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [30]
 		{
 			"nah 9M", -- [1]
 			"Chiika-Silvermoon", -- [2]
@@ -814,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Chiika|r",
 			[51] = 1607512451,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [31]
 		{
 			"WTB |cffa335ee|Hitem:184789::::::::60:261:::3:6652:1472:6646:1:28:1707:::|h[Nyte's Mischievous Treads]|h|r", -- [1]
 			"Stabtheback-Silvermoon", -- [2]
@@ -836,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Stabtheback|r",
 			[51] = 1607512454,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [32]
 		{
 			"LF LW with rank 2 leather leggings", -- [1]
 			"Kilaueas-Silvermoon", -- [2]
@@ -858,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kilaueas|r",
 			[51] = 1607512456,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [33]
 		{
 			"<<NBC>> (Special Offer) WTS HEROIC CASTLE NATHRIA (Limited Spots)/ Offering Mythic Keystone 10+: 500k , M+15: 700k / ||Torghast Boost available|| / Only Gold . Wis Me For More Info!!", -- [1]
 			"Novanii-Silvermoon", -- [2]
@@ -880,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novanii|r",
 			[51] = 1607512456,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [34]
 		{
 			"It's the eye of the  Jailer  It's the thrill of the fight", -- [1]
 			"Anathráx-Silvermoon", -- [2]
@@ -902,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Anathráx|r",
 			[51] = 1607512460,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [35]
 		{
 			"wts |cffa335ee|Hitem:183010::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Stud-Scarred Footwear]|h|r", -- [1]
 			"Thedeft-Silvermoon", -- [2]
@@ -924,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Thedeft|r",
 			[51] = 1607512461,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [36]
 		{
 			"WTS Gear up to 160-180ilvl, All SL dungeons 8/8 with strong team , ashes weekly cap farm; help with SLs storyline", -- [1]
 			"Gensyxar-Silvermoon", -- [2]
@@ -946,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gensyxar|r",
 			[51] = 1607512470,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14755:Player-3391-0B3793E5:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Legendary Accord]|h|r!", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -968,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607512578,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [43]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-3391-0B3793E5:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -990,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607512586,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14797:Player-3391-0BAD2F70:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
 			"Hoottz-Silvermoon", -- [2]
@@ -1012,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHoottz|r",
 			[51] = 1607512595,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [40]
 		{
 			"this one hell of legendary for holy priests |cffff8000|Hitem:183325::::::::60:258::3:1:3524:1:28:751:::|h[Memory of Archbishop Benedictus]|h|r", -- [1]
 			"Loliloolo-Silvermoon", -- [2]
@@ -1034,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLoliloolo|r",
 			[51] = 1607512611,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [41]
 		{
 			"need dps and healer for plaguefall +2", -- [1]
 			"Krayyt-Silvermoon", -- [2]
@@ -1056,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKrayyt|r",
 			[51] = 1607512611,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [42]
 		{
 			"well I now have 3 characters with legendaries and my alt(this one) out gears both of my mains xD", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -1078,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607512623,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [43]
 		{
 			"Benedictus? Wasn't he the pedo priest trainer in classic?", -- [1]
 			"Tyvannus-Silvermoon", -- [2]
@@ -1100,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tyvannus|r",
 			[51] = 1607512640,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14463:Player-3391-0AC088F3:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Skoldus Hall]|h|r!", -- [1]
 			"Lorint-Silvermoon", -- [2]
@@ -1122,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lorint|r",
 			[51] = 1607512660,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [45]
 		{
 			"don't know", -- [1]
 			"Loliloolo-Silvermoon", -- [2]
@@ -1144,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLoliloolo|r",
 			[51] = 1607512691,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [46]
 		{
 			"Benedictus was the head of the Stormwind Cathedral who turned out to be an double agent for the Twilight Hour Cult", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -1166,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607512706,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [47]
 		{
 			"|cff66bbff|Hjournal:1:2431:14|h[Mortanis]|h|r killed, but no luck of gear or conduits... ", -- [1]
 			"Loliloolo-Silvermoon", -- [2]
@@ -1188,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLoliloolo|r",
 			[51] = 1607512712,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [48]
 		{
 			"any dps or healer for +2 plaguefall?", -- [1]
 			"Krayyt-Silvermoon", -- [2]
@@ -1210,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKrayyt|r",
 			[51] = 1607512730,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [49]
 		{
 			"1 melee dps and 1 healer for Plaguefall +2", -- [1]
 			"Naughtyninja-Silvermoon", -- [2]
@@ -1232,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Naughtyninja|r",
 			[51] = 1607512840,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11183:Player-3391-0BB68D7C:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Keystone Initiate]|h|r!", -- [1]
 			"Parazinim-Silvermoon", -- [2]
@@ -1254,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Parazinim|r",
 			[51] = 1607512887,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [51]
 		{
 			"\"Dáwn\" has earned the achievement |cffffff00|Hachievement:5785:Guild-3391-0000057A9660:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Dungeon Challenges]|h|r!", -- [1]
 			"Dáwn", -- [2]
@@ -1276,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "Dáwn",
 			[51] = 1607512964,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [52]
 		{
 			"<RT> Ekphoras, Herald of Grief |cffffff00|Hworldmap:1543:4240:2120|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Sifrir-Silvermoon", -- [2]
@@ -1298,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sifrir|r",
 			[51] = 1607512997,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [53]
 		{
 			"for the gyre ring", -- [1]
 			"Sifrir-Silvermoon", -- [2]
@@ -1320,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sifrir|r",
 			[51] = 1607513004,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [54]
 		{
 			"|cffffff00|Hworldmap:1543:3769:6153|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r yero the skittish up", -- [1]
 			"Aeliru-Silvermoon", -- [2]
@@ -1342,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Aeliru|r",
 			[51] = 1607513065,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14463:Player-3391-0BAACE9D:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Skoldus Hall]|h|r!", -- [1]
 			"Shadowprint-Silvermoon", -- [2]
@@ -1364,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeShadowprint|r",
 			[51] = 1607513243,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [56]
 		{
 			":)", -- [1]
 			"Sockatt-Silvermoon", -- [2]
@@ -1386,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sockatt|r",
 			[51] = 1607513438,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [57]
 		{
 			"ZEKRIS UP 33 66 |cffffff00|Hworldmap:1543:3408:6702|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Pikletikler-Silvermoon", -- [2]
@@ -1408,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pikletikler|r",
 			[51] = 1607513440,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [58]
 		{
 			"big rare 500k hp", -- [1]
 			"Pikletikler-Silvermoon", -- [2]
@@ -1430,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pikletikler|r",
 			[51] = 1607513458,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [59]
 		{
 			"anyone need a tank for mythics?", -- [1]
 			"Líliana-Silvermoon", -- [2]
@@ -1452,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Líliana|r",
 			[51] = 1607513769,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [60]
 		{
 			"Well im planning to go spires M0 in a few mins, if peeps wanna join", -- [1]
 			"Mìcha-Silvermoon", -- [2]
@@ -1474,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mìcha|r",
 			[51] = 1607513812,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [61]
 		{
 			"Will", -- [1]
 			"Rødekineser-Silvermoon", -- [2]
@@ -1496,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRødekineser|r",
 			[51] = 1607513839,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [62]
 		{
 			"yes we do", -- [1]
 			"Smithinhood-Silvermoon", -- [2]
@@ -1518,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Smithinhood|r",
 			[51] = 1607513843,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [63]
 		{
 			"full group except tank", -- [1]
 			"Smithinhood-Silvermoon", -- [2]
@@ -1540,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Smithinhood|r",
 			[51] = 1607513848,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [64]
 		{
 			"anyone for ToP +4 ", -- [1]
 			"Cárrótt-Silvermoon", -- [2]
@@ -1562,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cárrótt|r",
 			[51] = 1607513860,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [65]
 		{
 			"need heal and dps", -- [1]
 			"Cárrótt-Silvermoon", -- [2]
@@ -1584,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Cárrótt|r",
 			[51] = 1607513863,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [66]
 		{
 			"I can't really do any M+ during the day", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -1606,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607513946,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [67]
 		{
 			"supposed to be at work so can't really do anything whit", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -1628,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607513954,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [68]
 		{
 			"which I can't stop doing at a moments notice", -- [1]
 			"Yóshino-Silvermoon", -- [2]
@@ -1650,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yóshino|r",
 			[51] = 1607513961,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [69]
 		{
 			"same", -- [1]
 			"Parazinim-Silvermoon", -- [2]
@@ -1672,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Parazinim|r",
 			[51] = 1607513974,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11183:Player-3391-0B709646:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Keystone Initiate]|h|r!", -- [1]
 			"Pewpewsir-Silvermoon", -- [2]
@@ -1694,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Pewpewsir|r",
 			[51] = 1607513983,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11183:Player-3391-0BA8B749:1:12:9:20:4294967295:4294967295:4294967295:4294967295|h[Keystone Initiate]|h|r!", -- [1]
 			"Maxieminus-Silvermoon", -- [2]
@@ -1716,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Maxieminus|r",
 			[51] = 1607513983,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [72]
 		{
 			"yes", -- [1]
 			"Ikkoyu-Silvermoon", -- [2]
@@ -1738,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ikkoyu|r",
 			[51] = 1607513994,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [73]
 		{
 			"thats sad lmao", -- [1]
 			"Freejam-Silvermoon", -- [2]
@@ -1760,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freejam|r",
 			[51] = 1607513995,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [74]
 		{
 			"can get 9", -- [1]
 			"Mdps-Silvermoon", -- [2]
@@ -1782,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mdps|r",
 			[51] = 1607513996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [75]
 		{
 			"9", -- [1]
 			"Sbnn-Silvermoon", -- [2]
@@ -1804,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sbnn|r",
 			[51] = 1607513996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [76]
 		{
 			"y", -- [1]
 			"Tîmur-Silvermoon", -- [2]
@@ -1826,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTîmur|r",
 			[51] = 1607513997,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [77]
 		{
 			"WTS |cff1eff00|Hitem:171315::::::::60:104:::::::|h[Nightshade]|h|r|cffffffff|Hitem:169701::::::::60:104:::::::|h[Death Blossom]|h|r|cffffffff|Hitem:168583::::::::60:104:::::::|h[Widowbloom]|h|r", -- [1]
 			"Araseil-Silvermoon", -- [2]
@@ -1848,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Araseil|r",
 			[51] = 1607514002,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [78]
 		{
 			"y", -- [1]
 			"Edrart-Silvermoon", -- [2]
@@ -1870,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEdrart|r",
 			[51] = 1607514003,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [79]
 		{
 			"just play an op class, mounts are account bound now", -- [1]
 			"Freejam-Silvermoon", -- [2]
@@ -1892,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freejam|r",
 			[51] = 1607514004,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [80]
 		{
 			"wts |cffa335ee|Hitem:183010::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Stud-Scarred Footwear]|h|r", -- [1]
 			"Thedeft-Silvermoon", -- [2]
@@ -1914,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Thedeft|r",
 			[51] = 1607514005,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [81]
 		{
 			"WTS |cff71d5ff|Hspell:60002:0|h[Time-Lost Proto-Drake]|h|r |cffa335ee|Hitem:44168::::::::48:102::::1:28:50:::|h[Reins of the Time-Lost Proto-Drake]|h|r rare up now, kill and loot", -- [1]
 			"Kransy-Silvermoon", -- [2]
@@ -1936,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kransy|r",
 			[51] = 1607514005,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [82]
 		{
 			"[Guild: ePeen] are looking to create an exceptional community from average players. New and veteran players welcome, socials, pvp'ers, etc.. we also have multiple mythic groups on the go. Whisper me for more info.", -- [1]
 			"Hznz-Silvermoon", -- [2]
@@ -1958,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hznz|r",
 			[51] = 1607514015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [83]
 		{
 			"wts|cffa335ee|Hitem:183010::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Stud-Scarred Footwear]|h|r", -- [1]
 			"Thedeft-Silvermoon", -- [2]
@@ -1980,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Thedeft|r",
 			[51] = 1607514023,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [84]
 		{
 			"WTB |cffa335ee|Hitem:184803::::::::60:105:::::::|h[Halberd of Agthia]|h|r", -- [1]
 			"Noonie-Silvermoon", -- [2]
@@ -2002,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Noonie|r",
 			[51] = 1607514034,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [85]
 		{
 			"<<NBC>> (Special Offer) WTS HEROIC CASTLE NATHRIA (Limited Spots)/ Offering Mythic Keystone 10+: 500k , M+15: 700k / ||Torghast Boost available|| / Only Gold . Wis Me For More Info!!", -- [1]
 			"Novanii-Silvermoon", -- [2]
@@ -2024,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novanii|r",
 			[51] = 1607514043,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [86]
 		{
 			"|cff71d5ff|Hspell:60002:0|h[Time-Lost Proto-Drake]|h|r |cffa335ee|Hitem:44168::::::::48:102::::1:28:50:::|h[Reins of the Time-Lost Proto-Drake]|h|r sell kill now", -- [1]
 			"Kransy-Silvermoon", -- [2]
@@ -2046,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kransy|r",
 			[51] = 1607514070,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [87]
 		{
 			"Any tonkers for M+? ", -- [1]
 			"Smithinhood-Silvermoon", -- [2]
@@ -2068,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Smithinhood|r",
 			[51] = 1607514076,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [88]
 		{
 			"any M+ grp?", -- [1]
 			"Forara-Silvermoon", -- [2]
@@ -2090,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Forara|r",
 			[51] = 1607514289,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6739:Player-3391-0BB0C1B4:1:12:10:20:4294967295:4294967295:4294967295:4294967295|h[Silvershard Mines Victory]|h|r!", -- [1]
 			"Krayyt-Silvermoon", -- [2]
@@ -2112,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKrayyt|r",
 			[51] = 1607602077,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [90]
 		{
 			"2 dps for |cffa335ee|Hkeystone:180653:377:2:10:0:0:0|h[Keystone: De Other Side (2)]|h|r ?", -- [1]
 			"Irias-Silvermoon", -- [2]
@@ -2134,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeIrias|r",
 			[51] = 1607602334,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [91]
 		{
 			"guys ? 2 dps for DoS needed +2", -- [1]
 			"Irias-Silvermoon", -- [2]
@@ -2156,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeIrias|r",
 			[51] = 1607602422,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1180:Player-3391-0BA84849:1:12:10:20:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Àudacity-Silvermoon", -- [2]
@@ -2178,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Àudacity|r",
 			[51] = 1607602437,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9714:Player-3391-0BB0C1B4:1:12:10:20:4294967295:4294967295:4294967295:4294967295|h[Thy Kingdom Come]|h|r!", -- [1]
 			"Krayyt-Silvermoon", -- [2]
@@ -2200,6 +2090,116 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKrayyt|r",
 			[51] = 1607604235,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"|cffa335ee|Hitem:181819::::::::60:258::16::1:28:1279:::|h[Marrowfang's Reins]|h|r nice", -- [1]
+			"Nestravoid-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			925, -- [11]
+			"Player-3391-0BAACE9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNestravoid|r",
+			[51] = 1608037706,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"gz", -- [1]
+			"Torekov-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			926, -- [11]
+			"Player-3391-0BB78544", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Torekov|r",
+			[51] = 1608037839,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"hey guys", -- [1]
+			"Irias-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			928, -- [11]
+			"Player-3391-0A9BCC5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeIrias|r",
+			[51] = 1608038082,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"anyone who can inv alt to guild ?", -- [1]
+			"Irias-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			929, -- [11]
+			"Player-3391-0A9BCC5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeIrias|r",
+			[51] = 1608038088,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"just managing some alt shit =)", -- [1]
+			"Varlan-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			933, -- [11]
+			"Player-3391-0B1FFAC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Varlan|r",
+			[51] = 1608038193,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 }

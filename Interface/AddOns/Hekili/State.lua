@@ -54,8 +54,7 @@ state.false_start = 0
 state.latency = 0
 
 state.filter = "none"
-state.cycle_aura = 'no_aura'
-state.cast_target = 'nobody'
+state.cast_target = "nobody"
 
 state.arena = false
 state.bg = false
@@ -158,6 +157,7 @@ state.target = {
     health = {},
     updated = true
 }
+
 state.movement = state.target -- lazy!
 state.sim.target = state.target
 state.toggle = {}
@@ -645,10 +645,10 @@ do
     local cycle = {}
     local debug = function( ... ) if Hekili.ActiveDebug then Hekili:Debug( ... ) end end
 
-    function state.SetupCycle( ability )
+    function state.SetupCycle( ability, quiet )
         wipe( cycle )
 
-        if not ability then
+        if not ability and not quiet then
             debug( " - no ability provided to SetupCycle." )
             return
         end
@@ -660,7 +660,7 @@ do
             aura = class.auras[ ability.key ] and ability.key
         end
 
-        if not aura then
+        if not aura and not quiet then
             debug( " - no aura identified for target-cycling and no aura matching " .. ability.key .. " found in ability / spec module; target cycling disabled." )
             return
         end
@@ -678,10 +678,13 @@ do
             cycle.maxTTD  = ability.max_ttd
 
             cycle.aura = aura
-            debug( " - we will use the ability on a different target, if available, until %s expires at %.2f [+%.2f].", cycle.aura, cycle.expires, cycle.expires - state.query_time )
-            debug( " - confirm:  IsCycling? %s, %s", tostring( state.IsCycling() ), tostring( state.IsCycling( aura ) ) ) 
+
+            if not quiet then
+                debug( " - we will use the ability on a different target, if available, until %s expires at %.2f [+%.2f].", cycle.aura, cycle.expires, cycle.expires - state.query_time )
+                debug( " - confirm:  IsCycling? %s, %s", tostring( state.IsCycling() ), tostring( state.IsCycling( aura ) ) ) 
+            end
         else
-            debug( " - cycle aura appears to be down, so we're sticking with our current target." )
+            if not quiet then debug( " - cycle aura appears to be down, so we're sticking with our current target." ) end
         end
     end
 
@@ -694,6 +697,12 @@ do
         cycle.minTTD  = minTTD
         cycle.maxTTD  = maxTTD
         cycle.aura    = aura
+    end
+
+    function state.HasCyclingDebuff( aura )
+        if not cycle.aura then return false end
+        if aura and aura ~= cycle.aura then return false end
+        return true
     end
 
     function state.IsCycling( aura )
@@ -725,7 +734,7 @@ end
 
 
 -- Apply a buff to the current game state.
-local function applyBuff( aura, duration, stacks, value, v2, v3 )
+local function applyBuff( aura, duration, stacks, value, v2, v3, applied )
     if not aura then
         Error( "Attempted to apply/remove a nameless aura '%s'.", aura or "nil" )
         return
@@ -782,12 +791,13 @@ local function applyBuff( aura, duration, stacks, value, v2, v3 )
         b.lastCount = b.count
         b.lastApplied = b.applied
 
-        -- state.buff[ aura ] = state.buff[ aura ] or {}
-        b.expires = state.query_time + duration
-        b.last_expiry = b.expires
-
-        b.applied = state.query_time
+        b.applied = applied or state.query_time
         b.last_application = b.applied or 0
+
+        b.duration = duration
+
+        b.expires = b.applied + duration
+        b.last_expiry = b.expires
 
         b.count = min( class.auras[ aura ].max_stack or 1, stacks or 1 )
         b.v1 = value or 0
@@ -796,10 +806,10 @@ local function applyBuff( aura, duration, stacks, value, v2, v3 )
         b.caster = 'player'
     end
 
-    local resource = class.resourceAuras[ aura ]
-
-    if resource then
-        state.forecastResources( resource )
+    for resource, auras in pairs( class.resourceAuras ) do
+        if auras[ aura ] then
+            state.forecastResources( resource )
+        end
     end
 
     if aura == 'heroism' or aura == 'time_warp' or aura == 'ancient_hysteria' then
@@ -1043,34 +1053,29 @@ function state.channelSpell( name, start, duration, id )
 
         if not duration then return end
 
-        state.player.channelSpell = name
-        state.player.channelStart = start
-        state.player.channelEnd = start + duration
-
-        applyBuff( "casting", duration, nil, id or ( ability and ability.id ) or 0, nil, true )
-        state.buff.casting.applied = start
-        state.buff.casting.expires = start + duration
+        applyBuff( "casting", duration, nil, id or ( ability and ability.id ) or 0, nil, true, start )
     end
 end
 
 function state.stopChanneling( reset, action )
     if not reset then
-        local spell = state.player.channelSpell
+        local spell = state.channel
         local ability = spell and class.abilities[ spell ]
 
-        if spell and spell ~= action then
-            if Hekili.ActiveDebug then Hekili:Debug( "Breaking channel of %s (non-reset).", state.player.channelSpell or "nil", tostring( reset ) or "false" ) end
+        if spell then
+            if Hekili.ActiveDebug then Hekili:Debug( "Breaking channel of %s.", spell ) end
+            if ability and ability.breakchannel then ability.breakchannel() end            
             state:RemoveSpellEvents( spell )
-            if ability and ability.breakchannel then ability.breakchannel() end
         end
     end
 
-    state.player.channelSpell = nil
-    state.player.channelStart = 0
-    state.player.channelEnd   = 0
+    -- This will lock in gains from channeling before the channel ends.
+    for resource, auras in pairs( class.resourceAuras ) do
+        if auras.casting then state[ resource ].actual = state[ resource ].current end
+    end
+
     removeBuff( "casting" )
 end
-
 -- See mt_state for 'isChanneling'.
 
 
@@ -1186,7 +1191,8 @@ local function forecastResources( resource )
                 ( not v.aura      or state[ v.debuff and 'debuff' or 'buff' ][ v.aura ].remains > 0 ) and
                 ( not v.set_bonus or state.set_bonus[ v.set_bonus ] > 0 ) and
                 ( not v.setting   or state.settings[ v.setting ] ) and
-                ( not v.swing     or state.swings[ v.swing .. "_speed" ] and state.swings[ v.swing .. "_speed" ] > 0 ) then
+                ( not v.swing     or state.swings[ v.swing .. "_speed" ] and state.swings[ v.swing .. "_speed" ] > 0 ) and
+                ( not v.channel   or state.buff.casting.up and state.buff.casting.v3 and state.buff.casting.v1 == class.abilities[ v.channel ].id ) then
 
                 local r = state[ v.resource ]
 
@@ -1224,7 +1230,7 @@ local function forecastResources( resource )
 
             local bonus = r.regen * ( now - prev )
 
-            if ( e.stop and e.stop( r.forecast[ r.fcount ].v ) ) or ( e.aura and state[ e.debuff and 'debuff' or 'buff' ][ e.aura ].expires < now ) then
+            if ( e.stop and e.stop( r.forecast[ r.fcount ].v ) ) or ( e.aura and state[ e.debuff and 'debuff' or 'buff' ][ e.aura ].expires < now ) or ( e.channel and state.buff.casting.expires < now ) then
                 table.remove( events, 1 )
 
                 local v = max( 0, min( r.max, r.forecast[ r.fcount ].v + bonus ) )
@@ -1271,7 +1277,7 @@ local function forecastResources( resource )
                 remains[ e.resource ] = finish - e.next
                 e.next = e.next + step
 
-                if e.next > finish or step < 0 or ( e.aura and state[ e.debuff and 'debuff' or 'buff' ][ e.aura ].expires < e.next ) then
+                if e.next > finish or step < 0 or ( e.aura and state[ e.debuff and 'debuff' or 'buff' ][ e.aura ].expires < e.next ) or ( e.channel and state.buff.casting.expires < e.next ) then
                     table.remove( events, 1 )
                 end
             end
@@ -1374,7 +1380,7 @@ do
 
     local function channelInfo( ability )
         if state.system.packName and scripts.Channels[ state.system.packName ] then
-            return scripts.Channels[ state.system.packName ][ state.player.channelSpell ], class.auras[ state.player.channelSpell ]
+            return scripts.Channels[ state.system.packName ][ state.channel ], class.auras[ state.channel ]
         end
     end
 
@@ -1674,13 +1680,17 @@ local mt_state = {
             return false -- will set to true if/when a spell is hardcast.
 
         elseif k == 'channeling' then
-            return t.player.channelSpell ~= nil and t.player.channelEnd >= t.query_time
+            return t.buff.casting.up and t.buff.casting.v3
 
         elseif k == 'channel' then
-            return t.channeling and t.player.channelSpell or nil
+            if t.buff.casting.down or not t.buff.casting.v3 then return nil end
+            local chan = class.abilities[ t.buff.casting.v1 ]
+
+            if chan then return chan.key end
+            return "unknown"
 
         elseif k == 'channel_remains' then
-            return t.channeling and ( t.player.channelEnd - t.query_time ) or 0
+            return t.buff.casting.up and t.buff.casting.v3 and t.buff.casting.remains or 0
 
         elseif k == 'ranged' then
             return false
@@ -1759,14 +1769,25 @@ local mt_state = {
             local targets = t.active_enemies
             local timeframe = t.delay + t.offset
 
-            local minTTD = timeframe + ( t.cycleInfo.minTTD or 10 )
-            local maxTTD = min( 3599, timeframe + ( t.cycleInfo.maxTTD or 3599 ) )
+            local minTTD = timeframe + min( t.cycleInfo.minTTD or 10, t.settings.cycle_min )
+            local maxTTD = t.cycleInfo.maxTTD
 
-            targets = targets - Hekili:GetNumTTDsAfter( maxTTD )
+            if not t.HasCyclingDebuff() and t.settings.cycleDebuff then
+                -- See if the specialization has a default aura to use for cycling (i.e., Unholy using Festering Wound).
+                minTTD = max( minTTD, t.debuff[ t.settings.cycleDebuff ].duration / 2 )
+            end
+
             targets = targets - Hekili:GetNumTTDsBefore( minTTD )
+
+            if maxTTD then
+                targets = targets - Hekili:GetNumTTDsAfter( maxTTD )
+            end
 
             -- So the reason we're stuck here is that we may need 'cycle_enemies' when we *aren't* cycling targets.
             -- I.e., we would cycle Festering Strike (festering_wound) but if we've already dotted our valid adds, we'd hit Death and Decay.
+
+            if t.min_targets > 0 then targets = max( t.min_targets, targets ) end
+            if t.max_targets > 0 then targets = min( t.max_targets, targets ) end
 
             return max( 1, targets )
 
@@ -2404,6 +2425,15 @@ local mt_target = {
             if state.args.cycle_target == 1 then return UnitGUID( 'target' ) .. 'c' or 'cycle'
             elseif state.args.target then return UnitGUID( 'target' ) .. '+' .. state.args.target or 'unknown' end
             return UnitGUID( 'target' ) or 'unknown'
+        
+        elseif k == 'class' then
+            if not UnitExists( "target" ) then return "virtual"
+            elseif not UnitIsPlayer( "target" ) then return "npc" end
+
+            local c = UnitClassBase( "target" )
+            if c then return strlower( c ) end
+
+            return "unknown"
 
         elseif k == 'time_to_die' then
             local ttd = Hekili:GetTTD( 'target' )
@@ -3291,7 +3321,7 @@ local mt_default_buff = {
             if t.up then return ( 100 * t.stack / t.max_stack ) else return 0 end
 
         elseif k == 'ticks' then
-            if t.up then return floor( t.duration / t.tick_time ) - t.ticks_remain end
+            if t.up then return t.duration / t.tick_time - t.ticks_remain end
             -- if t.up then return 1 + ( ( class.auras[ t.key ].duration or ( 30 * state.haste ) ) / ( class.auras[ t.key ].tick_time or ( 3 * t.haste ) ) ) - t.ticks_remain end
             return 0
 
@@ -3299,7 +3329,7 @@ local mt_default_buff = {
             return aura and aura.tick_time or ( 3 * state.haste ) -- Default tick time will be 3 because why not?
 
         elseif k == 'ticks_remain' then
-            if t.up then return math.floor( t.remains / t.tick_time ) end
+            if t.up then return t.remains / t.tick_time end
             return 0
 
         elseif k == 'last_trigger' then
@@ -4197,14 +4227,14 @@ local mt_default_debuff = {
             return ns.getModifier( aura.id, state.target.unit )
 
         elseif k == 'ticks' then
-            if t.up then return floor( t.duration / t.tick_time ) - t.ticks_remain end
+            if t.up then return t.duration / t.tick_time - t.ticks_remain end
             return 0
 
         elseif k == 'tick_time' then
             return aura.tick_time or ( 3 * state.haste )
 
         elseif k == 'ticks_remain' then
-            return floor( t.remains / t.tick_time )
+            return t.remains / t.tick_time
 
         elseif k == 'tick_time_remains' then
             if not aura.tick_time then return t.remains end
@@ -4892,7 +4922,7 @@ function state.putTrinketsOnCD( val )
     val = val or 10
 
     for i, item in ipairs( state.items ) do
-        if not class.abilities[ item ].essence then setCooldown( item, val ) end
+        if not class.abilities[ item ].essence and state.cooldown[ item ].remains < val then setCooldown( item, val ) end
     end
 end
 
@@ -5328,11 +5358,13 @@ function state:RunHandler( key, noStart )
         return
     end
 
-    if state.channeling and not ability.castableWhileCasting then
-        state.stopChanneling()
+    if self.channeling and not ability.castableWhileCasting then
+        self.stopChanneling( false, ability.key )
     end
     
-    if ability.channeled and ability.start then ability.start()
+    if ability.channeled then
+        if ability.start then ability.start() end
+        self.channelSpell( key, self.query_time, ability.cast, ability.id )
     elseif ability.handler then ability.handler() end
 
     self.prev.last = key
@@ -5732,24 +5764,6 @@ function state.reset( dispName )
                 -- state:QueueEvent( action, "projectile", true )
             end
         end
-
-
-        --[[ if not state.spec.canCastWhileCasting then
-            if ( not ability or not ability.breakable ) then
-                -- Revisit auto-advance, we may be overcompensating for it now that we use the queue.
-                state.setCooldown( "global_cooldown", max( cast_time, state.cooldown.global_cooldown.remains ) )
-
-                if ability and dispName ~= "Interrupts" and dispName ~= "Defensives" then
-                    if not ability.channeled then
-                        state.advance( max( cast_time, state:QueuedCastRemains( casting, true ) ) )
-
-                    elseif ability.postchannel then
-                        ability.postchannel()
-
-                    end
-                end
-            end
-        end ]]
     end
 
     -- Delay to end of GCD.

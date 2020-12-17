@@ -7,6 +7,7 @@ hidingBar.cover:SetAllPoints()
 hidingBar.cover:EnableMouse(true)
 hidingBar.cover:SetFrameLevel(hidingBar:GetFrameLevel() + 10)
 hidingBar.drag = CreateFrame("BUTTON", nil, UIParent)
+hidingBar.drag:SetClampedToScreen(true)
 hidingBar.drag:SetHitRectInsets(-2, -2, -2, -2)
 hidingBar.drag:SetFrameLevel(hidingBar:GetFrameLevel())
 hidingBar.drag.bg = hidingBar.drag:CreateTexture(nil, "OVERLAY")
@@ -114,6 +115,7 @@ end
 
 function hidingBar:UI_SCALE_CHANGED()
 	self.position = nil
+	self.secondPosition = nil
 	self:setBarPosition()
 end
 
@@ -808,7 +810,7 @@ function hidingBar:applyLayout()
 
 	local maxButtons = followed and i + j or i > j and i or j
 	if maxButtons > self.config.size then maxButtons = self.config.size end
-	local line =  math.ceil((j + orderDelta) / self.config.size)
+	local line = math.ceil((j + orderDelta) / self.config.size)
 	local width = maxButtons * self.config.buttonSize + offsetX * 2
 	local height = line * self.config.buttonSize + offsetY * 2
 	if orientation == 2 then width, height = height, width end
@@ -873,9 +875,43 @@ function hidingBar:setDragBarPosition()
 end
 
 
+function hidingBar:setBarAnchor(anchor)
+	if not self.config.freeMove or self.config.anchor == anchor then return end
+	local position, secondPosition
+
+	if anchor == "left" or anchor == "right" then
+		if self.config.expand == 0 then
+			position = self:GetTop()
+		else
+			position = self:GetBottom()
+		end
+	else
+		if self.config.expand == 0 then
+			position = self:GetLeft()
+		else
+			position = self:GetRight()
+		end
+	end
+
+	if anchor == "left" then
+		secondPosition = self:GetLeft()
+	elseif anchor == "right" then
+		secondPosition = self:GetRight() - UIParent:GetWidth()
+	elseif anchor == "top" then
+		secondPosition = self:GetTop() - UIParent:GetHeight()
+	else
+		secondPosition = self:GetBottom()
+	end
+
+	self.config.anchor = anchor
+	self:applyLayout()
+	self:setBarPosition(position, secondPosition)
+end
+
+
 function hidingBar:setBarExpand(expand)
 	if self.config.expand == expand then return end
-	local anchor, delta = self.config.anchor
+	local anchor, delta, position = self.config.anchor
 
 	if anchor == "left" or anchor == "right" then
 		delta = self:GetHeight()
@@ -884,24 +920,33 @@ function hidingBar:setBarExpand(expand)
 	end
 
 	if expand == 0 then
-		self.position = self.position + delta
+		position = self.position + delta
 	else
-		self.position = self.position - delta
+		position = self.position - delta
 	end
 	self.config.expand = expand
-	self.config.position = self.position * UIParent:GetScale()
 
-	self:setBarPosition()
+	self:setBarPosition(position)
 end
 
 
-function hidingBar:setBarPosition()
+function hidingBar:setBarPosition(position, secondPosition)
 	local UIwidth, UIheight = UIParent:GetSize()
 	local width, height = self:GetSize()
+	local scale = UIParent:GetScale()
 	local anchor = self.config.anchor
 
+	if position then
+		self.position = position
+		self.config.position = position * scale
+	end
+
+	if secondPosition then
+		self.secondPosition = secondPosition
+		self.config.secondPosition = secondPosition * scale
+	end
+
 	if not self.position then
-		local scale = UIParent:GetScale()
 		if not self.config.position then
 			if anchor == "left" or anchor =="right" then
 				self.config.position = WorldFrame:GetHeight() / 2 - height / 2 * scale
@@ -912,37 +957,28 @@ function hidingBar:setBarPosition()
 		self.position = self.config.position / scale
 	end
 
-	if anchor == "left" or anchor == "right" then
-		if self.config.expand == 0 then
-			if self.position > UIheight then self.position = UIheight
-			elseif self.position - height < 0 then self.position = height end
-		else
-			if self.position + height > UIheight then self.position = UIheight - height
-			elseif self.position < 0 then self.position = 0 end
+	if not self.secondPosition then
+		if not self.config.secondPosition then
+			self.config.secondPosition = 0
 		end
-	else
-		if self.config.expand == 0 then
-			if self.position + width > UIwidth then self.position = UIwidth - width
-			elseif self.position < 0 then self.position = 0 end
-		else
-			if self.position > UIwidth then self.position = UIwidth
-			elseif self.position - width < 0 then self.position = width end
-		end
+		self.secondPosition = self.config.secondPosition / scale
 	end
+
+	config:updateCoords()
 
 	self:ClearAllPoints()
 	if anchor == "left" then
 		local point = self.config.expand == 0 and "TOPLEFT" or "BOTTOMLEFT"
-		self:SetPoint(point, UIParent, "BOTTOMLEFT", 0, self.position)
+		self:SetPoint(point, UIParent, "BOTTOMLEFT", self.secondPosition, self.position)
 	elseif anchor == "right" then
 		local point = self.config.expand == 0 and "TOPRIGHT" or "BOTTOMRIGHT"
-		self:SetPoint(point, UIParent, "BOTTOMRIGHT", 0, self.position)
+		self:SetPoint(point, UIParent, "BOTTOMRIGHT", self.secondPosition, self.position)
 	elseif anchor == "top" then
 		local point = self.config.expand == 0 and "TOPLEFT" or "TOPRIGHT"
-		self:SetPoint(point, UIParent, "TOPLEFT", self.position, 0)
+		self:SetPoint(point, UIParent, "TOPLEFT", self.position, self.secondPosition)
 	else
 		local point = self.config.expand == 0 and "BOTTOMLEFT" or "BOTTOMRIGHT"
-		self:SetPoint(point, UIParent, "BOTTOMLEFT", self.position, 0)
+		self:SetPoint(point, UIParent, "BOTTOMLEFT", self.position, self.secondPosition)
 	end
 end
 
@@ -955,41 +991,55 @@ function hidingBar:dragBar()
 	x, y = x / scale, y / scale
 
 	local anchor = self.config.anchor
-	local offset, position = 100
+	local offset, secondPosition, position = 100, 0
 
-	if anchor == "left" and x > width
-	or anchor == "right" and x < UIwidth - width then
-		if y > UIheight - offset then
-			anchor = "top"
-		elseif y < offset then
-			anchor = "bottom"
+	if not self.config.freeMove then
+		if anchor == "left" and x > width
+		or anchor == "right" and x < UIwidth - width then
+			if y > UIheight - offset then
+				anchor = "top"
+			elseif y < offset then
+				anchor = "bottom"
+			end
+		elseif anchor == "top" and y < UIheight - height
+		or anchor == "bottom" and y > height then
+			if x < offset then
+				anchor = "left"
+			elseif x > UIwidth - offset then
+				anchor = "right"
+			end
 		end
-	elseif anchor == "top" and y < UIheight - height
-	or anchor == "bottom" and y > height then
-		if x < offset then
-			anchor = "left"
-		elseif x > UIwidth - offset then
-			anchor = "right"
-		end
-	end
 
-	if anchor ~= self.config.anchor then
-		self.config.anchor = anchor
-		width, height = self:applyLayout()
-		self:setDragBarPosition()
+		if anchor ~= self.config.anchor then
+			self.config.anchor = anchor
+			width, height = self:applyLayout()
+			self:setDragBarPosition()
+
+			if config.hideToCombobox then
+				UIDropDownMenu_SetSelectedValue(config.hideToCombobox, self.config.anchor)
+			end
+		end
 	end
 
 	if anchor == "left" or anchor == "right" then
 		local delta = self.config.expand == 0 and -height or height
 		position = y - delta / 2
+		if self.config.freeMove then
+			local dhWidth = self.drag:GetWidth() / 2
+			delta = anchor == "left" and -width - dhWidth or width + dhWidth - UIwidth
+			secondPosition = x + delta
+		end
 	else
 		local delta = self.config.expand == 0 and width or -width
 		position = x - delta / 2
+		if self.config.freeMove then
+			local dhHeight = self.drag:GetHeight() / 2
+			delta = anchor == "top" and height + dhHeight - UIheight or -height - dhHeight
+			secondPosition = y + delta
+		end
 	end
 
-	self.position = position
-	self.config.position = position * scale
-	self:setBarPosition()
+	self:setBarPosition(position, secondPosition)
 end
 
 

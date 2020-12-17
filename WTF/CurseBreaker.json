@@ -59,35 +59,35 @@
         },
         {
             "Checksums": {
-                "AstralKeys": "0f42e7fb754ff928c0ddc60214d673f8"
+                "AstralKeys": "4de98e3c20858b14382d88e449df03eb"
             },
             "Directories": [
                 "AstralKeys"
             ],
             "Name": "Astral Keys",
             "URL": "https://www.curseforge.com/wow/addons/astral-keys",
-            "Version": "3.33"
+            "Version": "3.35"
         },
         {
             "Checksums": {
-                "BigWigs": "732561bcc1b822facf31a7de21af7e56",
-                "BigWigs_CastleNathria": "45c758e072dc316f0c3401ccabbbb512",
-                "BigWigs_Core": "f4e55b0bdfcea64c1cc06400d85c8147",
-                "BigWigs_Options": "ed320c32c8556729d303f6e1781614d1",
-                "BigWigs_Plugins": "a58a9bf1edbc268e792cdca138e6eb49",
+                "BigWigs": "30e9b9ad2fddfa98686e48cd88beb9b5",
+                "BigWigs_CastleNathria": "0b05989701016b03ab099541510246bd",
+                "BigWigs_Core": "c13b4469d9177a6d9807a50014e241ec",
+                "BigWigs_Options": "c572c457b6164890b3e9d8272e15485e",
+                "BigWigs_Plugins": "56b2d58b46a28b25f29f48252918d375",
                 "BigWigs_Shadowlands": "ee2a7408b287b7113e582a67a2869723"
             },
             "Directories": [
-                "BigWigs_Core",
-                "BigWigs_Shadowlands",
                 "BigWigs_Plugins",
-                "BigWigs_CastleNathria",
+                "BigWigs_Shadowlands",
+                "BigWigs_Core",
+                "BigWigs",
                 "BigWigs_Options",
-                "BigWigs"
+                "BigWigs_CastleNathria"
             ],
             "Name": "BigWigs Bossmods",
             "URL": "https://www.curseforge.com/wow/addons/big-wigs",
-            "Version": "v190"
+            "Version": "v193"
         },
         {
             "Checksums": {
@@ -102,14 +102,14 @@
         },
         {
             "Checksums": {
-                "BigWigs_BurningCrusade": "bf432fff81211bbabedc850aeccbce91"
+                "BigWigs_BurningCrusade": "0b84d1743ebf76e87ef6ffa46ae71d67"
             },
             "Directories": [
                 "BigWigs_BurningCrusade"
             ],
             "Name": "BigWigs_BurningCrusade",
             "URL": "https://www.curseforge.com/wow/addons/bigwigs_burningcrusade",
-            "Version": "v9.0.1"
+            "Version": "v9.0.2"
         },
         {
             "Checksums": {
@@ -146,14 +146,14 @@
         },
         {
             "Checksums": {
-                "BigWigs_MistsOfPandaria": "d0d477cfa52477579c20d63b485502c4"
+                "BigWigs_MistsOfPandaria": "01cbcf667b991fe060fec34a7bb00d87"
             },
             "Directories": [
                 "BigWigs_MistsOfPandaria"
             ],
             "Name": "BigWigs_MistsOfPandaria",
             "URL": "https://www.curseforge.com/wow/addons/bigwigs_mistsofpandaria",
-            "Version": "v9.0.1"
+            "Version": "v9.0.2"
         },
         {
             "Checksums": {
@@ -311,14 +311,14 @@
         },
         {
             "Checksums": {
-                "ExRT": "09c609e6e2ed0459f9bbe7d8e797694b"
+                "ExRT": "fbee974b5673e9af4e991f964ae85953"
             },
             "Directories": [
                 "ExRT"
             ],
             "Name": "Exorsus Raid Tools",
             "URL": "https://www.curseforge.com/wow/addons/exorsus-raid-tools",
-            "Version": "Exorsus Raid Tools v.4390"
+            "Version": "Exorsus Raid Tools v.4400"
         },
         {
             "Checksums": {
@@ -346,14 +346,14 @@
         },
         {
             "Checksums": {
-                "Hekili": "56c67259ac20d199d70b0174ab530d75"
+                "Hekili": "8e5df598f3df74331989cf84bf615c27"
             },
             "Directories": [
                 "Hekili"
             ],
             "Name": "Hekili",
             "URL": "https://www.curseforge.com/wow/addons/hekili",
-            "Version": "v9.0.2-1.0.22"
+            "Version": "v9.0.2-1.0.23"
         },
         {
             "Checksums": {
@@ -492,14 +492,14 @@
         },
         {
             "Checksums": {
-                "MythicDungeonTools": "a3a472b8e1b5bcdb418d02b16e9689b7"
+                "MythicDungeonTools": "fb0a7cfa207f3dfa1b309b0e6f88ac30"
             },
             "Directories": [
                 "MythicDungeonTools"
             ],
             "Name": "Mythic Dungeon Tools",
             "URL": "https://www.curseforge.com/wow/addons/mythic-dungeon-tools",
-            "Version": "v3.3.3"
+            "Version": "v3.3.4"
         },
         {
             "Checksums": {
@@ -525,18 +525,18 @@
         },
         {
             "Checksums": {
-                "Pawn": "8e124d73bc164e3dad11be433324ba6c"
+                "Pawn": "0a0e49c5d6710543a2f15756c9dacdad"
             },
             "Directories": [
                 "Pawn"
             ],
             "Name": "Pawn",
             "URL": "https://www.curseforge.com/wow/addons/pawn",
-            "Version": "2.4.7"
+            "Version": "2.4.8"
         },
         {
             "Checksums": {
-                "RaiderIO": "74188e93f36fc2107791c273068f8c74",
+                "RaiderIO": "ebafeaccd004dff6da7a0142fc92f9bd",
                 "RaiderIO_DB_EU_A": "e4fc53e9095c002ede3309416b877730",
                 "RaiderIO_DB_EU_A_R": "f7d8a3451f52cc3d3d6f7d9d16c0ce46",
                 "RaiderIO_DB_EU_H": "8e9287abcfa3bdc85f0929ab4e3a469b",
@@ -555,27 +555,27 @@
                 "RaiderIO_DB_US_H_R": "50467739efa34b3f82d964883348fb34"
             },
             "Directories": [
-                "RaiderIO_DB_EU_A",
-                "RaiderIO_DB_KR_A_R",
-                "RaiderIO_DB_TW_H_R",
-                "RaiderIO_DB_TW_A_R",
-                "RaiderIO_DB_US_A",
                 "RaiderIO_DB_US_H",
-                "RaiderIO_DB_KR_H",
-                "RaiderIO_DB_EU_H_R",
-                "RaiderIO",
-                "RaiderIO_DB_KR_A",
-                "RaiderIO_DB_TW_A",
-                "RaiderIO_DB_TW_H",
-                "RaiderIO_DB_US_A_R",
+                "RaiderIO_DB_KR_A_R",
                 "RaiderIO_DB_KR_H_R",
-                "RaiderIO_DB_EU_A_R",
+                "RaiderIO_DB_US_A_R",
+                "RaiderIO_DB_EU_H_R",
+                "RaiderIO_DB_EU_H",
                 "RaiderIO_DB_US_H_R",
-                "RaiderIO_DB_EU_H"
+                "RaiderIO_DB_TW_A",
+                "RaiderIO_DB_TW_A_R",
+                "RaiderIO_DB_EU_A",
+                "RaiderIO_DB_TW_H",
+                "RaiderIO_DB_TW_H_R",
+                "RaiderIO",
+                "RaiderIO_DB_EU_A_R",
+                "RaiderIO_DB_KR_A",
+                "RaiderIO_DB_US_A",
+                "RaiderIO_DB_KR_H"
             ],
             "Name": "Raider.IO Mythic Plus and Raid Progress",
             "URL": "https://www.curseforge.com/wow/addons/raiderio",
-            "Version": "v202012100600"
+            "Version": "v202012110600"
         },
         {
             "Checksums": {
@@ -592,14 +592,14 @@
         },
         {
             "Checksums": {
-                "RCLootCouncil": "f7ea43ce805bfc623e2aeb13036eaf65"
+                "RCLootCouncil": "a49cbb69df3954604c4b1b2bfa9dff6b"
             },
             "Directories": [
                 "RCLootCouncil"
             ],
             "Name": "RCLootCouncil",
             "URL": "https://www.curseforge.com/wow/addons/rclootcouncil",
-            "Version": "3.0.1"
+            "Version": "3.0.2"
         },
         {
             "Checksums": {
@@ -658,17 +658,6 @@
         },
         {
             "Checksums": {
-                "TalentSetManager": "6b8dc0fdb289420144dd709614198ffd"
-            },
-            "Directories": [
-                "TalentSetManager"
-            ],
-            "Name": "Talent Set Manager",
-            "URL": "https://www.curseforge.com/wow/addons/talent-set-manager",
-            "Version": "v1.3.2"
-        },
-        {
-            "Checksums": {
                 "TradeSkillMaster": "89e7e50dc60b20e19e3ee1bfa7ed8400"
             },
             "Directories": [
@@ -713,22 +702,22 @@
         },
         {
             "Checksums": {
-                "WeakAuras": "d34504c1cc0b8d5298da2a3378da044b",
+                "WeakAuras": "4a8760a03e32d858b8b49e3d3f0b96b3",
                 "WeakAurasArchive": "17e3f67e8b3a55b5438cab2464b145cf",
-                "WeakAurasModelPaths": "7e34315567573b54b01dc98f66b7967a",
-                "WeakAurasOptions": "7255a51eb6b7225da507709cce53bfc7",
-                "WeakAurasTemplates": "ca125fbb3963a68a8695d8aeadb4091c"
+                "WeakAurasModelPaths": "8fe5bd5748299b4e77e0850df538018c",
+                "WeakAurasOptions": "8d912a759b5e5ca6437f91b47515f977",
+                "WeakAurasTemplates": "df8218f7f5a840c5ee5911d320bc1ff7"
             },
             "Directories": [
                 "WeakAuras",
-                "WeakAurasOptions",
                 "WeakAurasTemplates",
+                "WeakAurasOptions",
                 "WeakAurasArchive",
                 "WeakAurasModelPaths"
             ],
             "Name": "WeakAuras",
             "URL": "https://www.curseforge.com/wow/addons/weakauras-2",
-            "Version": "3.1.3"
+            "Version": "3.1.4"
         },
         {
             "Checksums": {
@@ -758,28 +747,28 @@
         },
         {
             "Checksums": {
-                "Altoholic": "638ef33a4ecb0c1209db7268fade747a",
-                "Altoholic_Achievements": "4787848badf11b465d3d4c8f6ef4f77f",
-                "Altoholic_Agenda": "a48a525a4731d5f02e723721505c443f",
-                "Altoholic_Characters": "a7930cc8b39d7e780cb8969d9f462036",
-                "Altoholic_Grids": "9d7de6287d6c55aedeff4194e047ac0d",
-                "Altoholic_Guild": "5134f3a52f50a8436e65071a2836806a",
-                "Altoholic_Search": "f567e1641a07cf3a9e71eb9edc82c663",
-                "Altoholic_Shadowlands": "ee1401e8516698199f5ad4c125e179c1",
-                "Altoholic_Summary": "894eeb2958f6b999b83d23f65958b486",
+                "Altoholic": "69965bbdd65fdb45395e7b3f444039ce",
+                "Altoholic_Achievements": "c78593cc0f0a92456b8e2b51b125976e",
+                "Altoholic_Agenda": "f1e90363881546d3fcb514a3acb2c695",
+                "Altoholic_Characters": "11b2670523b115d82f65b559dad079e8",
+                "Altoholic_Grids": "3c7110b60f73031056d4b50f59a3fed3",
+                "Altoholic_Guild": "9c4f20e74926faaa4bb413bd39c449b6",
+                "Altoholic_Search": "3b033c2b9bd7e7377df35db5ec5b74b9",
+                "Altoholic_Shadowlands": "665b196a1b9eb577fe114bdedd23f46a",
+                "Altoholic_Summary": "737cba5d317b49419c714a48fa5aa1bf",
                 "DataStore": "5a246bf80e6038e979e323913411a6a1",
                 "DataStore_Achievements": "839c0104f8af97249575c5c4850a7f59",
                 "DataStore_Agenda": "05d6e49f59474a9fd786f2233f248d10",
                 "DataStore_Auctions": "5d42977408f080cf19ba9b26073bb34d",
                 "DataStore_Characters": "6c1953aaca4e55810c6667e07db0841c",
                 "DataStore_Containers": "425bdbe1246fd71b541c003e2ae439e8",
-                "DataStore_Covenants": "f17686162313fedf32038d930a05f55c",
+                "DataStore_Covenants": "31059ad6cca73437973b19425604a4ca",
                 "DataStore_Crafts": "b460fe29457e32c5b0fd4f8223aa39cf",
                 "DataStore_Currencies": "9e937a33b77261caf719752cca74ad2f",
-                "DataStore_Garrisons": "4c0db334e587227e6c6297dc8718a88a",
+                "DataStore_Garrisons": "1a264653ebd6a683040b0a88b0327744",
                 "DataStore_Inventory": "04f44f314a1aa71a02feec3877d42190",
-                "DataStore_Keystones": "045efdb09a8f6bef0cd3bbdddb4f9e05",
-                "DataStore_Mails": "7b7a7fd99eedd0149400c3c6a34a9acc",
+                "DataStore_Keystones": "a447517309ef5cb9a69977ba2df3d1ad",
+                "DataStore_Mails": "7843107fd0006e42058eea7758237415",
                 "DataStore_Pets": "615cee77ab1e999b111af4aa92b8ddfb",
                 "DataStore_Quests": "8accf5e64ec82ce27aebd7d95bc21620",
                 "DataStore_Rares": "8c81547995b9ef3a9974e394c8a895de",
@@ -789,50 +778,50 @@
                 "DataStore_Talents": "9a2687807f347d73046fc4e11435d688"
             },
             "Directories": [
+                "DataStore_Agenda",
+                "DataStore_Crafts",
+                "DataStore_Mails",
+                "DataStore_Covenants",
+                "DataStore_Achievements",
+                "Altoholic_Grids",
+                "DataStore_Inventory",
+                "DataStore_Containers",
                 "Altoholic",
-                "DataStore_Spells",
+                "Altoholic_Guild",
                 "DataStore_Reputations",
                 "DataStore_Currencies",
-                "DataStore_Covenants",
-                "DataStore_Garrisons",
-                "DataStore",
-                "DataStore_Pets",
-                "Altoholic_Guild",
                 "Altoholic_Agenda",
-                "DataStore_Containers",
-                "DataStore_Quests",
-                "DataStore_Crafts",
-                "DataStore_Characters",
-                "DataStore_Mails",
-                "Altoholic_Grids",
-                "DataStore_Talents",
-                "DataStore_Keystones",
-                "DataStore_Inventory",
-                "DataStore_Achievements",
-                "DataStore_Stats",
-                "Altoholic_Shadowlands",
-                "Altoholic_Search",
-                "DataStore_Auctions",
-                "Altoholic_Summary",
-                "DataStore_Agenda",
                 "Altoholic_Characters",
+                "DataStore_Pets",
+                "DataStore_Stats",
+                "Altoholic_Search",
+                "DataStore_Keystones",
+                "DataStore_Talents",
+                "Altoholic_Shadowlands",
+                "DataStore_Auctions",
+                "DataStore_Quests",
+                "DataStore",
+                "DataStore_Spells",
+                "DataStore_Garrisons",
                 "DataStore_Rares",
-                "Altoholic_Achievements"
+                "Altoholic_Summary",
+                "Altoholic_Achievements",
+                "DataStore_Characters"
             ],
             "Name": "Altoholic-Retail (Teelo's Fork)",
             "URL": "https://www.curseforge.com/wow/addons/altoholic-retail",
-            "Version": "9.0.2-009"
+            "Version": "9.0.2-010"
         },
         {
             "Checksums": {
-                "HidingBar": "3099ed16a42147714a10ee612af17590"
+                "HidingBar": "de81db61077a5e911dfe8ca5063d682c"
             },
             "Directories": [
                 "HidingBar"
             ],
             "Name": "HidingBar",
             "URL": "https://www.curseforge.com/wow/addons/hidingbar",
-            "Version": "v9.0.9"
+            "Version": "v9.0.13"
         },
         {
             "Checksums": {
@@ -847,14 +836,14 @@
         },
         {
             "Checksums": {
-                "HandyNotes_Shadowlands": "fe2417fb4d987b0a486e5f08948629a2"
+                "HandyNotes_Shadowlands": "b4744f19f0a6b711d044ec8e1e799796"
             },
             "Directories": [
                 "HandyNotes_Shadowlands"
             ],
             "Name": "HandyNotes: Shadowlands",
             "URL": "https://www.curseforge.com/wow/addons/handynotes-shadowlands",
-            "Version": "v25"
+            "Version": "v26"
         },
         {
             "Checksums": {
@@ -908,7 +897,7 @@
         "Number": 7
     },
     "CFCacheCloudFlare": {},
-    "CFCacheTimestamp": 1607622762,
+    "CFCacheTimestamp": 1608023434,
     "CompactMode": false,
     "IgnoreClientVersion": {},
     "ShowAuthors": true,

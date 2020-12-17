@@ -1,207 +1,90 @@
-2.1.8 Release Notes
+2.1.9 Release Notes
 Contributions made by Gold:
-* rename for level 120 boost (now 50)
-* another rename to prevent future issues
-* item sets on lv50/lv120. will finished/verify tommorow
-* update for level 120 trials/boost, now level50
-* its a me, a harvest
 
 Contributions made by slumber:
-* covenant file skeletons
-* revendreth beginssssssssss
-* moved blanchy out of the treasures achievement and into the overall treasures header until we decide what to do with her
-* more revendreth, some #errors, i'm dying
-* attached some achievements to wqs (commented out the ones that break parser for now)
-* more #errors
-* more revendreth (quests, treasures, rares, battle pets, my suffering)
-* #errors catchup
-* more #errors
-* more revendreth
-* more #errors, revendreth, and venthyr
-* more venthyr, some rares, some zone rewards
-* renny isn't night fae only, quests just require level 60
-* a little bit more ardenweald
-* no thoughts head empty
-* more revendreth/venthyr, a couple #errors
-* accidentally put a zone reward in the wrong zone
-* #errors (marked a breadcrumb)
-* more revendreth
-* added quests for 'the duelist's debt' criteria for 'sojourner of revendreth'
-* made up some fake objectIDs until data exists so questIDs don't show up falsely as missing in ATT
-* added a missing vendor in revendreth
-* more revendreth quests/treasures/zone drops/blfljalsdfjaslmglasjg
-* added missing rare achievement in the maw and some other maw stuff
-* fixed a mistake i made in revendreth
-* added some missing WQs
-* secrets of draenor enchanting is not a collectible item
-* 20/50 shard labor + some rare questID/tracking quest/TODO cleanup
-* finished the shard portion of shard labor
-* did i forget to parse?  well maybe so
-* moved maw 'henchmen' criteria to rares section, since apparently they drop some of the same shared loot and have daily trackable kills
-* dustbrawl's tracking quest + a missing zone reward in maldraxxus
-* a few more zone rewards
-* filled in some zone sets based on known data
-* another maldraxxus set
-* added context for some quests in HQT
-* more #errors
-* some #errors, some covenant framework so shit is matchymatchy everywhere ugh
-* more
-* #errors foreverrrrrrrrrrrrr and some revendreth
-* #errors, missing wqs, more garbage anima items
-* more bastion rare and treasure info, and shard labor can die in a fire
-* more anima stuff, pvp quests, marked a breadcrumb, moved a quest to the correct map
-* absolutely torghastly
-* #errors
-* will i ever be free
-* li'l venthyr, more missing wqs/anima trash, some ardenweald rare stuff
-* #errors, some WQ updates
-* some venthyr quests, some #errors, added a revendreth achievement
-* just more general sl stuff
-* maw mapID fix, added a missing wq, fixed an npcID for a pet battle achievement, a couple missing quests
-* #errors
-* added some missing zone rewards
-* just........................... more...
-* missing rare questid/drop
-* so much stuff
-* #errors
-* a couple missing rare drops
-* bloop blop
-* removed manually added achievements from bastion WQs since they're already linked with _quests
-* the ember court is the worst thing that has ever happened to me
-* added a missing enchanting wq
-* first 2 days of blanchy, a couple missing treasure chests (will grab others later ugh)
-* added avowed stuff, will worry about why it's refusing to be alphabetized later i guess
-* ember court is blizzard perpetrating a crime against me specifically and i WILL press charges
-* a little maldraxxus achieve/rare/treasure stuff
-* a missing wq, anima trash, coords for a quest, and blanchy day 3 questID
-* missing treasures, confirmed a bunch of treasure objectIDs, added a missing zone reward
-* added some missing items to bastion rares and some other little thingz
-* missing wq
-* added a missing drop to famu the infinite
-* +1 hqt and tweaked a coord that was ever-so-slightly off
-* fresh batch of #errors
-* meep morp
-* missing wqs
-* ardenweald treasures from today, move the avowed achievements to the faction section, and anima trash
-* a couple of missing torghast maps, anima/quest trash
+* mortanis WQ questID + coords, missing zone reward in maldraxxus, a couple for HQT
+* final dead blanchy quest + marked the daily trigger as a daily, duh
+* IDK MAN JUST THE DAILY HAPPENINGS
+* anima trash, maldraxxus treasures, more venthyr quests
+* when will i remember to mark treasure chests as dailies
+* more traysure, added a maw achieve
+* delete the ember court
+* :slumberclown:
+* some small treasure/rare/anima things
+* added a missing toy, a missing wq, some other small things
+* some hqt
+* 2 mawchievements
+* more maw junk
+* finished adding abhorrent adversaries criteria to zones
+* various little SL things
+* tanglewood thorn is now a dagger
+* more torghast mappies, hqt, some little legion stuff
+* a couple small #errors and a batch of kyrian quests submitted by nohh
+* Circus Theme Song 10 Hours - YouTube
+* added bored dredger vendor + its wares
+* another batch of #errors
+* more #errors, added 'what we ride in the shadows' achievement
+* added pvp achievements to zones, commented removed (?) pvp meta, attached pvp achieve crit to their WQs
+* family exorcist in zones
+* 3 hqt, 1 to-do done
+* today's nonsense
+* more nonsense
 
 Contributions made by mogwai316:
-* Moved Night Fae things under Night Fae Covenant header in Ardenweald. Updated Thread of Hope questline in Ardenweald.
-* Bastion world quests etc.
-* Various quest/rare/wq updates - Fixed a bad quest id in N'Zoth Vale
-* Updated initial Anima Conductor quests
-* Made an Ardenweald common zone drops section
-* Some dailies and Heart Of The Forest flight path map fix
-* Fractured Faerie Tales achieve/quests added in Ardenweald
-* Added some more quests, wqs, and dailies. Changed some of the Ardenweald Adventurer criteria back to being consistently formatted the same way.
-* Updated a couple pets and added a couple wq's
-* SL Wild Pet cleanup. Added missing pets to journal, added missing crs, etc. There were items linked to many wild pets which (afaik) are not used in game because the pets are catchable, so I put all of those I could find in NYI and removed any linkage from them to the wild pets.
-* Crimson Dredwing Pup is not a catchable wild pet, it comes from a zone drop item.
-* Added Chewed Reins of the Callowed Flayedwing to Maldraxxus zone drops
-* Added Pink Party Hat pattern and a couple WQs
-* Tailoring recipes updated via profession automator (Bags now shown, as well as all ranks of the Grim-Veiled recipes). Quest Recipes that are only temporarily learned for wq's have been marked unobtainable(training) since they disappear from the spellbook after the quest is completed.
-* Enchanting and Inscription recipes updated via profession automator. Quest Recipes that are only temporarily learned for wq's have been marked unobtainable(training) since they disappear from the spellbook after the quest is completed. Draenor Recipes that were removed in 9.0.1 are now marked unobtainable.
-* Cooking and Leatherworking recipes updated via profession automator. Quest Recipes that are only temporarily learned for wq's have been marked unobtainable(training) since they disappear from the spellbook after the quest is completed. Draenor Recipes that were removed in 9.0.1 are now marked unobtainable.
-* Added SL Runeforging recipes.  Note: runeforging currently requires account/debug mode on to see (this was true before this commit; not sure when it got broke)
-* Alchemy, Engineering, Tailoring recipes updated via profession automator. Quest Recipes that are only temporarily learned for wq's have been marked unobtainable(training) since they disappear from the spellbook after the quest is completed. Draenor Recipes that were removed in 9.0.1 are now marked unobtainable.
-* Jewelcrafting and Blacksmithing recipes updated via profession automator. Quest Recipes that are only temporarily learned for wq's have been marked unobtainable(training) since they disappear from the spellbook after the quest is completed. Draenor Recipes that were removed in 9.0.1 are now marked unobtainable.
-* Other Secret of Draenor * items marked as not collectible
-* Added Night Fae transport network intro questline. Updated Cortinarius vendor and moved him under the Night Fae header. Added some Marasmius daily quests.
-* Various minor updates (zone drops, WQs, etc.). Moved Ardenweald covenant callings into the Night Fae covenant file.
+* Added new quests available in Oribos
+* Made Regenerating Slime Vial collectible and added to Toy Box. Added Favor: Perfected Hand Mirror and an Inscription WQ.
+* Updated some Necrolord covenant intro quests
+* Added various quests
+* Added Necrolord intro questline for Abomination Factory and some weekly/other quests.
+* Various quests added.  Can't run parser on my machine anymore but checking in the .lua changes for now.
+* Fixed Animaflow Stabilizer quest id; added a few quests.
+* Night Fae chapter 4 quests updated
+* Added Bondable Val'kyr Diadem toy
+* Added a couple Night Fae things.
+* Updated many covenant-specific mounts. Moved a couple Bastion vendors into Kyrian Covenant section.
+* Added Nathria AotC/CE feats of strength. Marked some BfA feats of strength as unobtainable.
+* Updated all of Zo'sorg's gear and costs (Sinful Gladiator's conquest gear)
+* Added Chalkyth
+* Updated the Torghast section under Achievements to use the current names and known info. Added some missing ones. The layer 2-9 achieves remain commented out, likely those were in beta but not in the release version of SL.
+* Spindlenose (Court of Night) vendor updates and some zone reward updates
+* Bonebound Chest and other various minor things updated
+* Necrolord chapter 4 questline added. - Some Necrolord achieves and other quests added. - In Achievements - Expansion Features - Covenant Sanctums, started putting covenant-specific achieves under covenant headers to make it more visible.
+* Added some Necrolord quests and one Night Fae quest. - Fixed Tower Power coords
+* More Necrolord achievement updates (enjoy the criteria numbers)
 * Various minor updates
-* Started Night Fae chapter 3 quests and other misc updates
-* Queen's Conservatory intro quests, more Night Fae organization/updates. Added crs to WIld Hunting achieve in Ardenweald
-* Added tracking of Soulshape Forms for Night Fae
-* Various minor quest updates
-* Added Technique: Fae Revel Masque from Brightgleam (vendor)
-* Added some WQs
-* Various minor additions
-* Fixed Peerless Draenic Steel Bulwark recipe which started showing as obtainable thanks to Blizz randomly moving it around (but not moving the other 2 Draenic Steel Bulwarks...).
-* Fae Pipes toy added
-* Updated items on Undying Army Quartermaster in Maldraxxus and added the corresponding vendor in Oribos. Moved Blisterback Bloodtusk mount to drop from Warbringer Mal'Korak.
-* Added Ascended, Court of Harvesters, and Wild Hunt quartermasters to Oribos. Put a Court of Harvesters item under Covenant: Venthyr header.
-* Updated items on Avowed Quartermaster in Revendreth and added the corresponding vendor in Oribos.
-* Added Yira'lya
-* Various minor additions
-* Cleaned up some things in Pet Journal and updated a few other various things
-* Added Mar'lan <Night Fae Armor Trader> and his 50 items.
-* Added some Maw dailies
-* Minor Maw updates
-* Added/updated many items and their costs on Su Zettai and moved him into the Necrolord covenant section. Updated some of the Necrolord covenant intro quests. Added some zone drops and a world drop.
-* Moved Nathrian Weaponsmith npcs into Night Fae Covenant section and added their items. Currently none are showing up as collectible although they are there in debug (hopefully harvest will fix this).
-* Various minor updates
-* Fixed items on Venthyr covenant Nathrian Weaponsmith npcs. Cost not done yet and items on one of the npc's are not appearing collectible yet.
-* Moved Necrolord Nathrian Weaponsmith npcs into Necrolord Covenant section and added their items. Currently none are showing up as collectible although they are there in debug (hopefully harvest will fix this).
-* Added Kyrian Nathrian Weaponsmith npcs into Kyrian Covenant section and added their items. Currently none are showing up as collectible although they are there in debug (hopefully harvest will fix this). Added Kyrian Hearthstone toy. Kyrian Ritual Vestments is a quest item, not a toy (marked it uncollectible).
+* Added some Revendreth rare drops, zone drops/rewards. Made rare achieve criteria formatting consistent.
+* Crafter's Mark III = Never Implemented (maybe they will add them in the future). Alphabetized a treasure.
 
 Contributions made by ImUnicke:
-* simplified print of Quest completion and included ATT version - added mapID to De Other Side/ICC - some WQ and achieves
-* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
-* Merge branch 'master' of https://github.com/DFortun81/AllTheThings git wtf is going on
-* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
-* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
-* tell people to report errors in #errors!
-* lots of SL updates from backlog...
-* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
-* parse catch up
-* more SL updates - organizing the 'skip storyline' quests better... still much to complete/add
-* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
-* modified the ignore file a bit
-* expanded Shard Labor info for easy individual tracking
-* fixed a bunch of invalid source data - fixed/combined many duplicate key data
-* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
-* fixed various incorrect variable references - fixed breadcrumbs being treated as not-collectible once they became completed and their following quest(s) were also completed - small logic clean up
-* added print of QuestID for Accepted quests as well - modified Settings to reflect Quest output changes - removed the on-load spam of Completed Quests (since it's very difficult to consider any of it helpful)
-* fixed printing 'nil' when accepting new quests
-* lots of various SL updates - Necrolord intro questline laid out
-* fixed dupe HQT
-* added coords for grandmaster vole in necrolord covenant
-* various SL catch up entries (2020-11-29)
-* various SL updates/notes - improved handling of the 'cost' field so that the parser tells me when I type it wrong and it becomes ignored - fixed various locations of 'cost' having non-standard formatting
-* removed bad mapID from ToP
-* removed sq on legendary crafting quest
-* new torghast mapID
-* fixed description duplication in tooltips hopefully - moved Torghast under Expansion Features > Shadowlands
-* consolidated information for covenant Callings for Necrolord and Venthyr
-* Show Collected -> Debug On -> Hide Collected -> Debug Off works as expected now (leaving Collected Hidden after removing Debug)
-* fixed Debug mode still hiding groups which only contained uncollectible things - stubbed out section for shared covenant Calling rewards - fixed grouping for BFA Darkshore World Quests - more info for some HQT
-* added the custom tag for checking the criteria of whether a character has chosen to Skip the Shadowlands story - applied SL Skip tag to various quests which require being on a Skip character (as there does not appear to be any alternate way to obtain them on a Story character) - moved 'Covenant Sanctum' header above the other Covenant headers
-* one random coord in the Maw, not worth a parse!
-* the tiniest of coord updates (0.1 on this map is like 5 pixels on the ground lol) + a note
-* added custom tags for SL Covenants - added some missing referenced objects - moved a bunch of Venthyr-only Vendors inside the Venthyr Covenant Vendors group
-* couple calling rewards - missing torghast map
-* fixed Contains logic from being able to nest the root group within the root group - clened up some vendor/zone drop item combination items in Revendreth - added the Buckled Chain Belt - tagged some maw bonus objectives as daily
-* categories was blah
-* fixes for today's venthyr/necrolord callings
-* rewards from challenge box... maybe common, idk
-* more SL updates catch up from this week
-* Return to Oribos cannot be picked up at lvl 60
-* more SL random updates/errors
-* tack on a [HQT] indication for accepted/completed Quests (help narrow down if 'real' quests were mistakenly sourced as HQT)
-* various SL updates/additions
-* SL updates - moved various 'real' quests from HQT into their respective Maw Rares (Bonus Objectives)
-* various SL updates - moved Revendreth Pristine Dredbat Fang to be with the other random-drop "Favor" daily quests
-* various SL updates - moved pristine dredbat fang back to zone drops
-
-Contributions made by Sanctuari:
-* There is no honor, only Zo'kuul. - Fixed honor costs/missing weapons and neck.
+* couple maps in castle nathria (so far)
+* conduit from calling box
+* simplified caching functionality - added option to search for data only using cached data - skip refreshing windows before the game is even loaded - simplified logic for moving/resizing the windows - modified scrollbar logic to only move by 1 instead of fractionally - simplified scrollbar value change logic due to step constraint - consolidated reagent cache state value
+* do not auto-collapse a character's saved groups when Account Mode is enabled (fixes #632, fixes #629)
+* account-wide reputation collection returns the proper other-character saved value (fixes #629 for real) - minilist sorting will now only be performed if the top-level header is NOT tied to an Instance since relying on current difficulty is not super reliable (fixes #628)
+* moved encounter tooltip progress summary onto its own line since it seems basically impossible to account for overlapping text with how tooltips work (fixes #645)
+* priest calling conduit
+* what is going on with BuildContains....
+* fixed 'Contains' logic for the 925th time
+* clean up
+* modified in-game harvester to re-try harvesting item sources if the existing source is now non-existent
+* re-harvest + re-parse (fixes #634)
+* used the same logic for pulling 'task' from the map APIs into /attwq as for 'storyline' quest objects so that static quests with no rewards don't show up by themselves in the window - tagged mystery quest 49369 as world quest since it comes back from the 'task' API even though it's not a real quest
+* various SL updates
+* the 'Not in ATT' line for Accepted/Completed quests is now Red for easier visibility - playing catch up of my many screenshots taken over the last week...
+* added ability to create a generic Dropdown in the Settings - added Tooltip Setting to require a key modifier for showing Tooltip info (closes #646)
+* tooltip modifier key now only affects some UI-based tooltips (items/spells/etc) not World-based tooltips
+* fixed the BRF Blackhand quest items which still had nested Quest objects - yet another revision to 'Contains'/Search logic! tune in next time for the next problem that shows up... - modified SearchForObjectClone to try to find a filter-inclusive group first
+* fixed source quest list for things which have source quests but are not quests
+* necrolord treasure coord - reverted some 'Contains' changes because it made other things not work as expected.... tune in again next time
+* added some zone drops for CN (though they don't seem to have source ID's currently...) - added sire denathrius quest item - couple conduits from calling box - revendreth zone drop
+* commented out the temp DB from Beta which had things in it that have changed in live - fixed difficulties/sourceIDs for castle nathria - harvested again to fix sourceIDs for stuff
+* crs for Grand Theft Shadehound
+* quite a revamp to the Contains/Search consolidation logic, hopefully this works for everything...? - fixed the quest chain requirements window to only perform quest chain logic for root quest objects, or objects with a source quest (this way rares/etc. with a questID attached don't show in a quest chain requirements window when popped out) - removed currency build logic in popout groups for now since it became broken at some point - a questID for Maw rare
+* fixed tooltip progress text for standalone collectible items - fixed achievement criteria showing 'Contains' as if they were their parent achievement - removed extra logic from Contains which excluded listing the same group as was originally searched (since the search logic now properly collapses the matching group prior to hitting Contains)
+* added sourceQuests to the Dead Blanchy mount unlock to help show the order of obtaining to those who do not track quests/enable debug - modified some descriptions for Blanchy due to varying costs of the blanket
 
 Contributions made by Gromwind:
-* Fixed map coordinate for Glurp
-* Added coordinates for Fractured Faerie Tales
-* Linked some achievements to the Ardenweald outdoor zone
-* Added coordinates for Wild Hunting achievement in Ardenweald.
-* Fixed coordinates for Wild Gloomrunner
-
-Contributions made by TKTalonzor:
-* Added Sewer Creep to Ravendreth achiev Abhorrent Adversaries of the Afterlife
-
-Contributions made by Gaulish:
-* Temporary coords/quest ids for shard labor.
-
-Contributions made by sadidorf:
-* Some Ardenweald treasures
-
-Contributions made by Dead Serious:
-* Re-added path for Holiday Icon
+* Moved some achievements into OZ > Bastion and added some coordinates / descriptions.
+* Adding achievements erroneously removed in previous commit.
+* Added additional Buckled <armour type> Belt items to All-in-One Belt Repair Kit.
 

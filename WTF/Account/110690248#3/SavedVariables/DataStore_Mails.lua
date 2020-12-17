@@ -18,12 +18,12 @@ DataStore_MailsDB = {
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
 		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 	},
@@ -279,16 +279,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/12/07 22:06",
 			},
 			["Default.Silvermoon.Ririchíyo"] = {
-				["lastUpdate"] = 1607602936,
-				["lastVisitDate"] = "2020/12/10 12:22",
-			},
-			["Default.Silvermoon.Aryenís"] = {
-				["lastUpdate"] = 1607077611,
-				["lastVisitDate"] = "2020/12/04 10:26",
-			},
-			["Default.Ravencrest.Rangii"] = {
-				["lastUpdate"] = 1595804557,
-				["lastVisitDate"] = "2020/07/27 00:02",
+				["lastUpdate"] = 1608063610,
+				["lastVisitDate"] = "2020/12/15 20:20",
 			},
 			["Default.Silvermoon.Yóshino"] = {
 				["lastUpdate"] = 1607508861,
@@ -298,13 +290,32 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1607449315,
 				["lastVisitDate"] = "2020/12/08 17:41",
 			},
+			["Default.Silvermoon.Aryenís"] = {
+				["lastUpdate"] = 1607077611,
+				["lastVisitDate"] = "2020/12/04 10:26",
+			},
 			["Default.Ravencrest.Kiríno"] = {
 				["lastUpdate"] = 1595324669,
 				["lastVisitDate"] = "2020/07/21 10:44",
 			},
+			["Default.Ravencrest.Rangii"] = {
+				["lastUpdate"] = 1595804557,
+				["lastVisitDate"] = "2020/07/27 00:02",
+			},
 			["Default.Silvermoon.Kúsano"] = {
-				["lastUpdate"] = 1607603226,
-				["lastVisitDate"] = "2020/12/10 12:27",
+				["lastUpdate"] = 1608050106,
+				["lastVisitDate"] = "2020/12/15 16:35",
+				["MailCache"] = {
+					{
+						["sender"] = "Auctioneer",
+						["subject"] = "Auctions",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["money"] = 0,
+						["text"] = "",
+						["lastCheck"] = 1608088471,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
 			},
 			["Default.Silvermoon.Sharutía"] = {
 				["lastUpdate"] = 1597688606,

@@ -95,6 +95,23 @@ local AddonDB_Defaults = {
                         },
                     }
                 },
+                CovenantFeatures = { -- stores the results from C_CovenantSanctumUI.GetFeatures
+                    ['*'] = { -- array index, contents...???
+                        garrTalentTreeID = 0,
+                        featureType = 0,
+                        uiOrder = 0,
+                    }
+                },
+                SoulCurrencies = {}, -- as returned by C_CovenantSanctumUI.GetSoulCurrencies()
+                SoulCurrenciesTotals = {
+                    ['*'] = 0 -- key is currencyID, value is quantity
+                },
+                CurrentTalentTreeID = 0, -- as returned by C_CovenantSanctumUI.GetCurrentTalentTreeID
+                TalentTreeTalents = {
+                    ['*'] = { -- tree ID
+                        -- contents ??? as returned by C_Garrison.GetTalentTreeInfo().talents
+                    }
+                },
 			}
 		}
 	}
@@ -143,13 +160,6 @@ local function ScanConduit()
     local x = originPosition.x
     local y = originPosition.y
     addon.ThisCharacter.ConduitOriginPosition = {["x"] = x, ["y"] = y} -- overwrite Vector2DMixin with just x,y
-    
-    local currencyID, maxDisplayable = C_CovenantSanctumUI.GetAnimaInfo()
-    local info = C_CurrencyInfo.GetCurrencyInfo(currencyID)
-    addon.ThisCharacter.AnimaCurrency.currencyID = currencyID
-    addon.ThisCharacter.AnimaCurrency.maxDisplayable = maxDisplayable
-    addon.ThisCharacter.AnimaCurrency.count = info.quantity
-    addon.ThisCharacter.AnimaCurrency.icon = info.iconFileID
 end
 
 local function ScanSoulbinds()
@@ -184,6 +194,31 @@ local function ScanTorghast(uiTextureKit)
     end
 end
 
+local function ScanAnima()
+    local currencyID, maxDisplayable = C_CovenantSanctumUI.GetAnimaInfo()
+    local info = C_CurrencyInfo.GetCurrencyInfo(currencyID)
+    
+    addon.ThisCharacter.AnimaCurrency.currencyID = currencyID
+    addon.ThisCharacter.AnimaCurrency.maxDisplayable = maxDisplayable
+    addon.ThisCharacter.AnimaCurrency.count = info.quantity
+    addon.ThisCharacter.AnimaCurrency.icon = info.iconFileID
+end
+
+local function ScanReservoir()
+    addon.ThisCharacter.CovenantFeatures = C_CovenantSanctumUI.GetFeatures()
+    for i, feature in pairs(addon.ThisCharacter.CovenantFeatures) do
+        local treeID = feature.garrTalentTreeID
+        addon.ThisCharacter.TalentTreeTalents[treeID] = C_Garrison.GetTalentTreeInfo(treeID).talents
+    end
+    addon.ThisCharacter.SoulCurrencies = C_CovenantSanctumUI.GetSoulCurrencies()
+    for i, currencyID in ipairs(addon.ThisCharacter.SoulCurrencies) do
+    	local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(currencyID)
+        addon.ThisCharacter.SoulCurrenciesTotals[currencyID] = currencyInfo.quantity
+    end
+    addon.ThisCharacter.CurrentTalentTreeID = C_CovenantSanctumUI.GetCurrentTalentTreeID() -- nfi what this is, but apparently I need to store it as its empty until the reservoir is clicked on
+                                                                                           -- maybe its the currently selected tree? But even check clicking a different one, the number returned doesn't change
+end
+
 	
 -- *** Event Handlers ***
 local function OnRenownChanged()
@@ -193,6 +228,7 @@ end
 local function OnEnterWorld(event, isInitial, isReload)
     ScanRenown()
     ScanCovenant()
+    ScanAnima()
     -- incorrect garden data is loaded during first PLAYER_ENTERING_WORLD
     if not isInitial then
         ScanGarden()
@@ -223,6 +259,14 @@ local function OnGossipShow(event, uiTextureKit)
     end
 end
 
+local function OnCurrencyDisplayUpdate()
+    ScanAnima()
+end
+
+local function OnCovenantSanctumInteraction()
+    ScanReservoir()
+end
+
 -- ** Mixins **
 
 -- Generic
@@ -239,8 +283,30 @@ end
 
 -- Sanctum Features
 
+local function _GetCovenantFeatures(character)
+    return character.CovenantFeatures
+end
+
+local function _GetSoulCurrencies(character)
+    return character.SoulCurrencies
+end
+
+local function _GetSoulCurrenciesQuantity(character, currencyID)
+    return character.SoulCurrenciesTotals[currencyID]
+end
+
+local function _CovenantSanctum_GetCurrentTalentTreeID(character)
+    return character.CurrentTalentTreeID
+end
+
 local function _IsArdenwealdGardenAccessible(character)
     return (character.CovenantID == 3) and character.SanctumFeatureUnlocked
+end
+
+-- Unique Sanctum Feature
+
+local function _GetGarrisonTalentTreeTalents(character, treeID)
+    return character.TalentTreeTalents[treeID]
 end
 
 local function _GetArdenwealdGardenData(character)
@@ -261,13 +327,14 @@ end
 
 local function _GetAnimaDiversionNodes(character)
     local nodes = character.ConduitNodes
+    local replacementNodes = CopyTable(nodes)
     for i, node in pairs(nodes) do
         local x = node.normalizedPosition.x
         local y = node.normalizedPosition.y
-        nodes[i].normalizedPosition = CreateVector2D(x, y)
+        replacementNodes[i].normalizedPosition = CreateVector2D(x, y)
     end
     
-    return nodes
+    return replacementNodes
 end
 
 local function _GetReinforceProgress(character)
@@ -325,6 +392,11 @@ local PublicMethods = {
     GetConduitRankFromCollection = _GetConduitRankFromCollection,
     GetInstalledConduitID = _GetInstalledConduitID,
     GetTorghastData = _GetTorghastData,
+    GetCovenantFeatures = _GetCovenantFeatures,
+    GetSoulCurrencies = _GetSoulCurrencies,
+    GetSoulCurrenciesQuantity = _GetSoulCurrenciesQuantity,
+    CovenantSanctum_GetCurrentTalentTreeID = _CovenantSanctum_GetCurrentTalentTreeID,
+    GetGarrisonTalentTreeTalents = _GetGarrisonTalentTreeTalents,
 }
 
 function addon:OnInitialize()
@@ -344,6 +416,11 @@ function addon:OnInitialize()
     DataStore:SetCharacterBasedMethod("GetConduitRankFromCollection")
     DataStore:SetCharacterBasedMethod("GetInstalledConduitID")
     DataStore:SetCharacterBasedMethod("GetTorghastData")
+    DataStore:SetCharacterBasedMethod("GetCovenantFeatures")
+    DataStore:SetCharacterBasedMethod("GetSoulCurrencies")
+    DataStore:SetCharacterBasedMethod("GetSoulCurrenciesQuantity")
+    DataStore:SetCharacterBasedMethod("CovenantSanctum_GetCurrentTalentTreeID")
+    DataStore:SetCharacterBasedMethod("GetGarrisonTalentTreeTalents")
 end
 
 function addon:OnEnable()	
@@ -354,6 +431,9 @@ function addon:OnEnable()
     addon:RegisterEvent("ANIMA_DIVERSION_OPEN", OnConduitOpened)
     addon:RegisterEvent("SOULBIND_FORGE_INTERACTION_STARTED", OnSoulbindForgeOpened)
     addon:RegisterEvent("GOSSIP_SHOW", OnGossipShow)
+	addon:RegisterEvent("CURRENCY_DISPLAY_UPDATE", OnCurrencyDisplayUpdate)
+    addon:RegisterEvent("COVENANT_SANCTUM_INTERACTION_STARTED", OnCovenantSanctumInteraction)
+    addon:RegisterEvent("GARRISON_TALENT_RESEARCH_STARTED", OnCovenantSanctumInteraction)
 end
 
 function addon:OnDisable()
@@ -363,5 +443,8 @@ function addon:OnDisable()
     addon:UnregisterEvent("SOULBIND_ACTIVATED")
     addon:UnregisterEvent("ANIMA_DIVERSION_OPEN")
     addon:UnregisterEvent("SOULBIND_FORGE_INTERACTION_STARTED")
-    addon:UnregisterEvent("GOSSIP_SHOW")    
+    addon:UnregisterEvent("GOSSIP_SHOW")
+	addon:UnregisterEvent("CURRENCY_DISPLAY_UPDATE")
+    addon:UnregisterEvent("COVENANT_SANCTUM_INTERACTION_STARTED")
+    addon:UnregisterEvent("GARRISON_TALENT_RESEARCH_STARTED")    
 end

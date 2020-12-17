@@ -18,12 +18,12 @@ DataStore_PetsDB = {
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
 		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 	},
@@ -34,24 +34,25 @@ DataStore_PetsDB = {
 				[253788] = 127850,
 				[279657] = 143515,
 				[315221] = 161919,
+				[315303] = 161966,
 				[301031] = 154833,
 				[177236] = 143802,
 				[315301] = 161963,
-				[253916] = 127947,
+				[253790] = 127852,
 				[315270] = 161946,
 				[288889] = 148984,
 				[315302] = 161964,
 				[135263] = 68661,
 				[301033] = 154835,
-				[315303] = 161966,
-				[253790] = 127852,
+				[253916] = 127947,
+				[339999] = 173591,
 				[253924] = 127950,
 				[92395] = 49586,
 				[315225] = 161921,
 				[315304] = 161967,
 				[210675] = 112015,
-				[312029] = 160187,
 				[300934] = 154693,
+				[312029] = 160187,
 				[254295] = 128157,
 				[253925] = 127951,
 				[335056] = 171697,
@@ -60,32 +61,32 @@ DataStore_PetsDB = {
 				[260887] = 132366,
 				[286484] = 147585,
 				[301053] = 154854,
-				[315290] = 161959,
 				[253805] = 127857,
-				[288895] = 148988,
 				[230443] = 115918,
 				[280332] = 143816,
+				[288895] = 148988,
+				[273159] = 138964,
 				[177224] = 143810,
 				[19772] = 12419,
 				[273839] = 139252,
-				[273159] = 138964,
-				[253813] = 127859,
+				[259758] = 131644,
+				[274776] = 140125,
 				[253809] = 127858,
 				[315231] = 161924,
-				[274776] = 140125,
+				[315229] = 161923,
 				[177225] = 143809,
 				[273195] = 139073,
-				[253928] = 127954,
+				[280333] = 143817,
 				[294206] = 151779,
 				[225200] = 113136,
-				[280333] = 143817,
+				[253928] = 127954,
 				[253818] = 127863,
-				[315229] = 161923,
+				[253813] = 127859,
 				[177226] = 143808,
-				[259758] = 131644,
 				[315297] = 161961,
 				[177242] = 143796,
 				[264001] = 134406,
+				[315290] = 161959,
 				[26533] = 15698,
 				[315298] = 161962,
 				[210672] = 97178,
@@ -121,7 +122,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Silvermoon.Ririchíyo"] = {
-				["lastUpdate"] = 1607639750,
+				["lastUpdate"] = 1608182156,
 				["CRITTER"] = {
 					177225, -- [1]
 					273839, -- [2]
@@ -132,9 +133,10 @@ DataStore_PetsDB = {
 					312833, -- [7]
 					273195, -- [8]
 					335056, -- [9]
-					315225, -- [10]
-					315303, -- [11]
-					315301, -- [12]
+					339999, -- [10]
+					315225, -- [11]
+					315303, -- [12]
+					315301, -- [13]
 				},
 			},
 			["Default.Silvermoon.Sharutía"] = {
@@ -201,7 +203,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Silvermoon.Kúsano"] = {
-				["lastUpdate"] = 1607636736,
+				["lastUpdate"] = 1608181876,
 				["CRITTER"] = {
 					253813, -- [1]
 					19772, -- [2]
@@ -214,7 +216,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Silvermoon.Yóshino"] = {
-				["lastUpdate"] = 1607599677,
+				["lastUpdate"] = 1608032649,
 				["CRITTER"] = {
 					315302, -- [1]
 					315229, -- [2]

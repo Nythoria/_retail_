@@ -5,8 +5,6 @@
 ## Notes: ElvUI Plugin from Blinkii@Eu-Arygos | Support: mMediaTag@gmx.de
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled
-## X-Tukui-ProjectID: 60
-## X-Tukui-ProjectFolders: ElvUI_mMediaTag
 
 locales\load_locales.xml
 core\init.lua
@@ -19,4 +17,3 @@ addons\addons.xml
 media\load_media.xml
 misc\load_misc.xml
 mProfiles\load_profile.xml
-

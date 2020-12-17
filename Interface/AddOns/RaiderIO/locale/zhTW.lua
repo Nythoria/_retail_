@@ -1,3 +1,4 @@
+-- Generated from CurseForge on Wed Dec 16 18:09:32 UTC 2020
 local _, ns = ...
 
 if ns:IsSameLocale("zhTW") then
@@ -272,7 +273,6 @@ L["USE_ENGLISH_ABBREVIATION"] = "強制使用英文地城縮寫"
 L["USE_ENGLISH_ABBREVIATION_DESC"] = "設置後會覆蓋地城的縮寫使用英文版本，無視您當前語言。"
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r偵錯模式已啟用。您如果想停用請輸入|cffFFFFFF/raiderio debug|r。"
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO：您必須先取消M+紀錄的自動定位。"
-
 
 	ns.L = L
 end

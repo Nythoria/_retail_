@@ -1,10 +1,12 @@
-lightweight tag 9e7abd3fa04d582d25fb80e5a4aae347d32b3302 3.33
+lightweight tag 5c372af46343ad804f4cdbdfe17040d995843c44 3.35
 Author:	Phrike <phriked@gmail.com>
-Date:	Wed Dec 9 11:18:53 2020 -0600
+Date:	Fri Dec 11 17:53:24 2020 -0600
 
-commit 9e7abd3fa04d582d25fb80e5a4aae347d32b3302
+commit 5c372af46343ad804f4cdbdfe17040d995843c44
 Author: Phrike <phriked@gmail.com>
-Date:   Wed Dec 9 11:18:53 2020 -0600
+Date:   Fri Dec 11 17:53:24 2020 -0600
 
-    Add Shadowlands dungeons
+    Bug fix
+    
+    - Fixed issue where AK was not tracking weekly best
 

@@ -14,12 +14,12 @@ SimulationCraftDB = {
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
 		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
 		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
@@ -57,17 +57,17 @@ SimulationCraftDB = {
 		},
 		["Enjú - Ravencrest"] = {
 		},
-		["Yóshino - Silvermoon"] = {
+		["Mítsukí - Silvermoon"] = {
 		},
 		["Kúsano - Ravencrest"] = {
 		},
-		["Croesus - Ravencrest"] = {
+		["Yoshíno - Ravencrest"] = {
 		},
 		["Albertina - Silvermoon"] = {
 		},
-		["Mítsukí - Silvermoon"] = {
+		["Yóshino - Silvermoon"] = {
 		},
-		["Yoshíno - Ravencrest"] = {
+		["Croesus - Ravencrest"] = {
 		},
 		["Kiríno - Ravencrest"] = {
 		},

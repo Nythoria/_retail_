@@ -688,6 +688,7 @@ local function ScanResourceCollectionTime()
 end
 
 local function ScanAvailableMissions(followerType, storage)
+    if (not followerType) or (not storage) then return end -- workaround for delays after logging in
 	local missionsList = {}
 	C_Garrison.GetAvailableMissions(missionsList, followerType)
 	

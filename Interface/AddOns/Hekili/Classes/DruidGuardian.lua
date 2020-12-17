@@ -896,6 +896,14 @@ if UnitClassBase( "player" ) == "DRUID" then
 
             handler = function ()
                 applyBuff( "heart_of_the_wild" )
+
+                if talent.balance_affinity.enabled then
+                    shift( "moonkin_form" )
+                elseif talent.feral_affinity.enabled then
+                    shift( "cat_form" )
+                elseif talent.restoration_affinity.enabled then
+                    unshift()
+                end
             end,
         },
 
@@ -1056,7 +1064,7 @@ if UnitClassBase( "player" ) == "DRUID" then
         mangle = {
             id = 33917,
             cast = 0,
-            cooldown = function () return buff.berserk.up and ( level > 57 and 1.5 or 3 ) or 6 end,
+            cooldown = function () return ( buff.berserk.up and ( level > 57 and 1.5 or 3 ) or 6 ) * haste end,
             gcd = "spell",
 
             spend = function () return buff.gore.up and -19 or -15 end,
@@ -1670,7 +1678,7 @@ if UnitClassBase( "player" ) == "DRUID" then
             known = 106832,
             suffix = "(Bear)",
             cast = 0,
-            cooldown = function () return buff.berserk.up and ( level > 57 and 1.5 or 3 ) or 6 end,
+            cooldown = function () return ( buff.berserk.up and ( level > 57 and 1.5 or 3 ) or 6 ) * haste end,
             gcd = "spell",
 
             spend = -5,

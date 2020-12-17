@@ -18,12 +18,12 @@ DataStore_TalentsDB = {
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
 		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 	},
@@ -387,10 +387,10 @@ DataStore_TalentsDB = {
 				["Class"] = "SHAMAN",
 			},
 			["Default.Silvermoon.Ririchíyo"] = {
-				["lastUpdate"] = 1607639750,
+				["lastUpdate"] = 1608182156,
 				["Specializations"] = {
-					15871, -- [1]
-					10223, -- [2]
+					5631, -- [1]
+					16349, -- [2]
 					15222, -- [3]
 				},
 				["AzeriteEssences"] = {
@@ -689,7 +689,7 @@ DataStore_TalentsDB = {
 				["Class"] = "ROGUE",
 			},
 			["Default.Silvermoon.Yóshino"] = {
-				["lastUpdate"] = 1607599673,
+				["lastUpdate"] = 1608032646,
 				["Specializations"] = {
 					5753, -- [1]
 					6521, -- [2]
@@ -1706,7 +1706,7 @@ DataStore_TalentsDB = {
 				["Class"] = "MAGE",
 			},
 			["Default.Silvermoon.Kúsano"] = {
-				["lastUpdate"] = 1607636732,
+				["lastUpdate"] = 1608181873,
 				["Specializations"] = {
 					7865, -- [1]
 					10729, -- [2]
@@ -2142,12 +2142,12 @@ DataStore_TalentsRefDB = {
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
 		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 	},

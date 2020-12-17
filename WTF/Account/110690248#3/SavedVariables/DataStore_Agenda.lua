@@ -18,12 +18,12 @@ DataStore_AgendaDB = {
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
 		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 	},
@@ -46,41 +46,73 @@ DataStore_AgendaDB = {
 			},
 			["Default.Silvermoon.Ririchíyo"] = {
 				["DungeonIDs"] = {
-					[1039251394] = {
-						["name"] = "Castle Nathria Heroic",
-						["resetTime"] = 1608101997,
-						["numEncounters"] = 10,
+					[1041116680] = {
+						["name"] = "Mists of Tirna Scithe Mythic",
+						["resetTime"] = 1608706799,
+						["numEncounters"] = 3,
 						["bosses"] = {
-							["Shriekwing"] = true,
-						},
-						["progress"] = 1,
-						["extended"] = 0,
-						["isRaid"] = 1,
-					},
-					[1039292839] = {
-						["name"] = "Castle Nathria Normal",
-						["resetTime"] = 1608101997,
-						["numEncounters"] = 10,
-						["bosses"] = {
-							["Huntsman Altimor"] = true,
-							["Shriekwing"] = true,
-							["Hungering Destroyer"] = true,
+							["Mistcaller"] = true,
+							["Tred'ova"] = true,
+							["Ingra Maloch"] = true,
 						},
 						["progress"] = 3,
 						["extended"] = 0,
-						["isRaid"] = 1,
+						["isRaid"] = 0,
+					},
+					[1041111294] = {
+						["name"] = "Spires of Ascension Mythic",
+						["resetTime"] = 1608706799,
+						["numEncounters"] = 4,
+						["bosses"] = {
+							["Oryphrion"] = true,
+							["Kin-Tara"] = true,
+							["Ventunax"] = true,
+							["Devos, Paragon of Loyalty"] = true,
+						},
+						["progress"] = 4,
+						["extended"] = 0,
+						["isRaid"] = 0,
+					},
+					[1041117243] = {
+						["name"] = "Halls of Atonement Mythic",
+						["resetTime"] = 1608706799,
+						["numEncounters"] = 4,
+						["bosses"] = {
+							["Lord Chamberlain"] = true,
+							["Halkias, the Sin-Stained Goliath"] = true,
+							["High Adjudicator Aleez"] = true,
+							["Echelon"] = true,
+						},
+						["progress"] = 4,
+						["extended"] = 0,
+						["isRaid"] = 0,
+					},
+					[1041121713] = {
+						["name"] = "Plaguefall Mythic",
+						["resetTime"] = 1608706799,
+						["numEncounters"] = 4,
+						["bosses"] = {
+							["Domina Venomblade"] = true,
+							["Stradama Margrave"] = true,
+							["Doctor Ickus"] = true,
+							["Globgrog"] = true,
+						},
+						["progress"] = 4,
+						["extended"] = 0,
+						["isRaid"] = 0,
 					},
 				},
 				["Calendar"] = {
-					"2020-12-11|20:00|Optional normal run cont.|0|8", -- [1]
-					"2020-12-15|19:30|SUNLIGHT RAID|0|2", -- [2]
-					"2020-12-17|19:30|SUNLIGHT RAID|0|2", -- [3]
-					"2020-12-21|20:00|OPTIONAL HOLIDAY RAID|0|8", -- [4]
-					"2020-12-28|20:00|OPTIONAL HOLIDAY RAID|0|7", -- [5]
+					"2020-12-17|19:30|SUNLIGHT RAID|0|2", -- [1]
+					"2020-12-21|20:00|OPTIONAL HOLIDAY RAID|0|7", -- [2]
+					"2020-12-28|20:00|OPTIONAL HOLIDAY RAID|0|7", -- [3]
 				},
-				["lastUpdate"] = 1607647228,
+				["lastUpdate"] = 1608182161,
 				["expiredCalendar"] = {
 					"2020-12-10|19:30|SUNLIGHT RAID|0|2", -- [1]
+					"2020-12-11|20:00|Optional normal run cont.|0|8", -- [2]
+					"2020-12-13|19:30|SUNLIGHT OPTIONAL RAID|0|2", -- [3]
+					"2020-12-15|19:30|SUNLIGHT RAID|0|2", -- [4]
 				},
 			},
 			["Default.Silvermoon.Sharutía"] = {
@@ -112,33 +144,61 @@ DataStore_AgendaDB = {
 			},
 			["Default.Silvermoon.Kúsano"] = {
 				["DungeonIDs"] = {
-					[1038948985] = {
-						["resetTime"] = 1608101999,
-						["name"] = "Castle Nathria Normal",
-						["numEncounters"] = 10,
+					[363187797] = {
+						["resetTime"] = 1608706799,
+						["name"] = "Sanguine Depths Mythic",
+						["numEncounters"] = 4,
 						["bosses"] = {
-							["Shriekwing"] = true,
-							["Huntsman Altimor"] = true,
-							["Hungering Destroyer"] = true,
+							["General Kaal"] = true,
+							["Kryxis the Voracious"] = true,
+							["Grand Proctor Beryllia"] = true,
+							["Executor Tarvold"] = true,
+						},
+						["extended"] = 0,
+						["progress"] = 4,
+						["isRaid"] = 0,
+					},
+					[1041136552] = {
+						["resetTime"] = 1608706799,
+						["name"] = "Mists of Tirna Scithe Mythic",
+						["numEncounters"] = 3,
+						["bosses"] = {
+							["Mistcaller"] = true,
+							["Tred'ova"] = true,
+							["Ingra Maloch"] = true,
 						},
 						["extended"] = 0,
 						["progress"] = 3,
-						["isRaid"] = 1,
+						["isRaid"] = 0,
+					},
+					[363191352] = {
+						["resetTime"] = 1608706799,
+						["name"] = "Halls of Atonement Mythic",
+						["numEncounters"] = 4,
+						["bosses"] = {
+							["Lord Chamberlain"] = true,
+							["Halkias, the Sin-Stained Goliath"] = true,
+							["High Adjudicator Aleez"] = true,
+							["Echelon"] = true,
+						},
+						["extended"] = 0,
+						["progress"] = 4,
+						["isRaid"] = 0,
 					},
 				},
 				["Calendar"] = {
-					"2020-12-11|20:00|Optional normal run cont.|0|7", -- [1]
-					"2020-12-14|20:00|Moonlight raid|0|2", -- [2]
-					"2020-12-16|20:00|Moonlight raid|0|2", -- [3]
-					"2020-12-21|20:00|OPTIONAL HOLIDAY RAID|0|8", -- [4]
-					"2020-12-28|20:00|OPTIONAL HOLIDAY RAID|0|8", -- [5]
-					"2021-01-06|20:00|Moonlight raid|0|2", -- [6]
-					"2021-01-11|20:00|Moonlight raid|0|2", -- [7]
-					"2021-01-13|20:00|Moonlight raid|0|2", -- [8]
+					"2020-12-21|20:00|OPTIONAL HOLIDAY RAID|0|8", -- [1]
+					"2020-12-28|20:00|OPTIONAL HOLIDAY RAID|0|8", -- [2]
+					"2021-01-04|20:00|Moonlight raid|0|2", -- [3]
+					"2021-01-06|20:00|Moonlight raid|0|2", -- [4]
+					"2021-01-11|20:00|Moonlight raid|0|2", -- [5]
 				},
-				["lastUpdate"] = 1607636739,
+				["lastUpdate"] = 1608182054,
 				["expiredCalendar"] = {
 					"2020-12-09|20:00|Moonlight raid|0|2", -- [1]
+					"2020-12-11|20:00|Moonlight normal run cont.|0|7", -- [2]
+					"2020-12-14|20:00|Moonlight raid|0|2", -- [3]
+					"2020-12-16|20:00|Moonlight raid|0|2", -- [4]
 				},
 			},
 			["Default.Silvermoon.Yóshino"] = {
@@ -147,7 +207,7 @@ DataStore_AgendaDB = {
 					"2020-12-23|08:00|Super Squirt Day|4|8", -- [2]
 					"2020-12-28|20:00|OPTIONAL HOLIDAY RAID|0|8", -- [3]
 				},
-				["lastUpdate"] = 1607599681,
+				["lastUpdate"] = 1608032653,
 			},
 		},
 	},

@@ -12,14 +12,14 @@ AddOnSkinsDB = {
 		["Arutoria - Ravencrest"] = "Default",
 		["Alyettes - Ravencrest"] = "Default",
 		["Kúsano - Draenor"] = "Default",
-		["Mítsukí - Silvermoon"] = "Default",
-		["Albertina - Silvermoon"] = "Default",
 		["Yóshino - Silvermoon"] = "Default",
+		["Albertina - Silvermoon"] = "Default",
+		["Mítsukí - Silvermoon"] = "Default",
 		["Croesus - Ravencrest"] = "Default",
 		["Kiríno - Ravencrest"] = "Default",
 		["Eléonora - Ravencrest"] = "Default",
-		["Kúsano - Ravencrest"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
+		["Kúsano - Ravencrest"] = "Default",
 		["Rangii - Ravencrest"] = "Default",
 		["Ririchíyo - Twisting Nether"] = "Default",
 	},
@@ -27,8 +27,8 @@ AddOnSkinsDB = {
 		["Default"] = {
 			["ArkInventory"] = false,
 			["Altoholic"] = false,
-			["EmbedOoCDelay"] = 30,
 			["DBMFont"] = "PT Sans Narrow",
+			["EmbedOoCDelay"] = 30,
 			["EmbedBackdropTransparent"] = false,
 			["Hekili"] = false,
 			["EmbedLeftWidth"] = 240,
@@ -39,6 +39,4 @@ AddOnSkinsDB = {
 	},
 }
 AddOnSkinsDS = {
-	[4.47] = {
-	},
 }

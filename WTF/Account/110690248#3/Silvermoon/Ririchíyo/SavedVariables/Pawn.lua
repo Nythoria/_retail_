@@ -1,13 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0407,
+	["LastVersion"] = 2.0408,
 	["LastPlayerFullName"] = "Ririchíyo-Silvermoon",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178860,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178860::::::::60:257::23:5:6807:6652:6935:1498:6646:1:28:2044:::|h[Cowl of the Devoted General]|h|r",
+			["ID"] = 183021,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:183021::::::::60:257::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Confidant's Favored Cap]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 180115,
@@ -21,14 +21,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 178813,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178813::::::::60:258::23:4:6807:43:1498:6646:1:28:749:::|h[Sinlight Shroud]|h|r",
+			["ID"] = 182998,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:182998::::::::60:257::82:4:7189:6652:1472:6646:1:28:751:::|h[Robes of the Cursed Commando]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 184788,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:184788::::::::60:256:::4:42:7193:1472:6646:1:28:1707:::|h[Kit Jin's Sultry Cinch]|h|r",
+			["ID"] = 183028,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:183028::::::::60:256::5:5:7188:6652:6935:1485:6646:1:28:2060:::|h[Cinch of Infinite Tightness]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 179351,
@@ -41,26 +41,26 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:173243::::::::60:256::63:5:6976:6716:6649:6647:1487::::|h[Penitent One]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 181576,
-			["Level"] = 155,
-			["Link"] = "|cff0070dd|Hitem:181576::::::::60:256::74:5:6652:7194:1472:5852:6616:1:28:2060:::|h[Spiritmender's Cuffs]|h|r",
+			["ID"] = 178782,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:178782::::::::60:256::35:6:7203:6652:7194:1501:5865:6646::::|h[Necropolis Lord's Shackles]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 173217,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:173217::::::::60:256:::1:6893:4:28:391:29:40:30:36:9:60:::|h[Shadowlace Handwraps]|h|r",
+			["ID"] = 178705,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178705::::::::60:256::23:4:6807:6652:1498:6646:1:28:749:::|h[Tricksprite Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178781,
-			["Level"] = 184,
+			["ID"] = 178871,
+			["Level"] = 203,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178781::::::::60:256::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Ritual Commander's Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871:6168:::::::60:257::16:6:7209:6652:7193:1501:5861:6646:1:28:1279:::|h[Bloodoath Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178781,
-			["Level"] = 184,
+			["ID"] = 178871,
+			["Level"] = 203,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178781::::::::60:257::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Ritual Commander's Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871:6168:::::::60:256::16:6:7209:6652:7193:1501:5861:6646:1:28:1279:::|h[Bloodoath Signet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173078,
@@ -80,9 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178851::::::::60:257::23:4:6807:6652:1498:6646:1:28:749:::|h[Cloak of Enveloping Manifestations]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179339,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:179339::::::::60:257::23:4:6807:6652:1498:6646:1:28:2044:::|h[Whizblast Walking Stick]|h|r",
+			["ID"] = 178714,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178714::::::::60:257::16:4:7208:1501:5858:6646:1:28:1279:::|h[Lakali's Spire of Knowledge]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 175009,

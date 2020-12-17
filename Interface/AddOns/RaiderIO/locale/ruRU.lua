@@ -1,4 +1,4 @@
--- Generated from CurseForge on Wed Dec 16 18:09:30 UTC 2020
+-- Generated from CurseForge on Thu Dec 17 06:10:21 UTC 2020
 local _, ns = ...
 
 if ns:IsSameLocale("ruRU") then

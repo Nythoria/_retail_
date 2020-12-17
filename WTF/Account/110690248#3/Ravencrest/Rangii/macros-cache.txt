@@ -1,8 +1,0 @@
-VER 3 0100000000000001 "level102" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:3/1]Felblade; [talent:3/3]Fel Eruption
-END
-VER 3 0100000000000002 "misery" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@cursor]Sigil of Misery
-END

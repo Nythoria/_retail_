@@ -1,9 +1,0 @@
-1.2
-• Fixed for 8.0.1 compatibility
-• Added support for icon names to equipment sets
-
-1.1
-• Added support for equipment sets and guild bank tabs
-
-1.0
-• Release

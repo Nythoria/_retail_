@@ -1,2 +1,0 @@
-
-EasyScrap_IgnoreList = nil

@@ -1,5 +1,0 @@
-VER 3 0100000000000001 "Grappling Hook" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@cursor]Grappling Hook
-/stopspelltarget
-END

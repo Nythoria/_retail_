@@ -1,9 +1,0 @@
-
-RoutesDB = {
-	["profileKeys"] = {
-		["Kúsano - Draenor"] = "Default",
-		["Kúsano - Ravencrest"] = "Default",
-		["Ririchíyo - Silvermoon"] = "Default",
-		["Victoríque - Silvermoon"] = "Default",
-	},
-}

@@ -54,8 +54,8 @@ AngryAssign_Pages = {
 		["Name"] = "healing cds hivemind ",
 		["Id"] = 1652659087,
 		["UpdateId"] = 1726327964,
-		["Backup"] = "Wings(Holy) on Pull\n\nFrenzy\n2nd - Wings(Nina), AM(Nina), Disc Burst\n3rd - Wings(Holy), Tranq, Disc Burst\n4th - Wings(Nina), Tree, Disc Burst\n5th - Wings(Holy), AM(Nina), Disc Burst\n\nExplosions\n1st - AM(Holy), Personals\n2ns - Barrier, Personal",
 		["Contents"] = "Frenzy\n1st - Wings, AM, Disc Burst\n2nd - Tranq, Disc Burst, Rally\n3rd - Wings, Tree, Disc Burst\n4th - AM, Disc Burst, Rally\n\nExplosions\n1st - Revival, Personal, Darkness\n2nd - Barrier, Personals, Darknessl",
+		["Backup"] = "Wings(Holy) on Pull\n\nFrenzy\n2nd - Wings(Nina), AM(Nina), Disc Burst\n3rd - Wings(Holy), Tranq, Disc Burst\n4th - Wings(Nina), Tree, Disc Burst\n5th - Wings(Holy), AM(Nina), Disc Burst\n\nExplosions\n1st - AM(Holy), Personals\n2ns - Barrier, Personal",
 	},
 	[3447302950] = {
 		["Updated"] = 1596046003,
@@ -92,26 +92,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 3012995405,
 		["Contents"] = "Despell: Hezan delightfully Goose\nBreath: Far, strairs Mid\n\nImmunity soaks - Spookipal, Ariius, Wsic, Zols",
 	},
-	[467077188] = {
-		["Updated"] = 1607888582,
-		["Name"] = "Court of Blood",
-		["Id"] = 467077188,
-		["UpdateId"] = 2382289600,
-		["Contents"] = "Frieda kicks: Scripe - Nikea - Ulerith - Parazini",
-	},
-	[3765141338] = {
-		["Updated"] = 1607720308,
-		["Name"] = "---",
-		["Id"] = 3765141338,
-		["UpdateId"] = 1950175245,
-		["Contents"] = "Interrupts-->\n\nFelmeme\nKratistus\nAnnahk\nWarxy\nAda",
-	},
-	[1791083770] = {
-		["Updated"] = 1594319370,
-		["Name"] = "2. Maut",
-		["Id"] = 1791083770,
-		["UpdateId"] = 503257453,
-		["Contents"] = "decurse\nYaganmage --> Niksa\nWsic --> Tinker",
+	[1163388070] = {
+		["Updated"] = 1597689685,
+		["Name"] = "football boss soaks/interrupts ",
+		["Id"] = 1163388070,
+		["UpdateId"] = 97935736,
+		["Contents"] = "soaks: \n\nFootballl 1: Left Nina (skull) Middle bigfat (star) Right Lilliana (Start) \n\n\nFootball 2: Left mazu (purple) Middle Jack (start) Right freek (Blue)\n\n \nFootball 3: Left icyman (orange) Middle khaleesy (green) Right leezly (start) \n\n\nFootball 4: Left soso (Skull) Middle mergrim (star) Right Bodie (start)\n\nInterrupts: \n\nAdd 1: Will, Bodie, Mergrim, Bdestro\n\nAdd 2: Tzanirax, Icyman, soso, khaleesy, Nemaine\n\nAdd 3: bauls, Eldorax, Freekwanuit, wisc",
 	},
 	[2939629564] = {
 		["Updated"] = 1597003235,
@@ -120,17 +106,37 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1305897106,
 		["Contents"] = "Vita > Void > vita...\n\nRag-> Bigfat-> Mmlc-> Selala-> Notenx",
 	},
-	[1163388070] = {
-		["Updated"] = 1597689685,
-		["Name"] = "football boss soaks/interrupts ",
-		["Id"] = 1163388070,
-		["UpdateId"] = 97935736,
-		["Contents"] = "soaks: \n\nFootballl 1: Left Nina (skull) Middle bigfat (star) Right Lilliana (Start) \n\n\nFootball 2: Left mazu (purple) Middle Jack (start) Right freek (Blue)\n\n \nFootball 3: Left icyman (orange) Middle khaleesy (green) Right leezly (start) \n\n\nFootball 4: Left soso (Skull) Middle mergrim (star) Right Bodie (start)\n\nInterrupts: \n\nAdd 1: Will, Bodie, Mergrim, Bdestro\n\nAdd 2: Tzanirax, Icyman, soso, khaleesy, Nemaine\n\nAdd 3: bauls, Eldorax, Freekwanuit, wisc",
+	[1791083770] = {
+		["Updated"] = 1594319370,
+		["Name"] = "2. Maut",
+		["Id"] = 1791083770,
+		["UpdateId"] = 503257453,
+		["Contents"] = "decurse\nYaganmage --> Niksa\nWsic --> Tinker",
+	},
+	[3765141338] = {
+		["Updated"] = 1607720308,
+		["Name"] = "---",
+		["Id"] = 3765141338,
+		["UpdateId"] = 1950175245,
+		["Contents"] = "Interrupts-->\n\nFelmeme\nKratistus\nAnnahk\nWarxy\nAda",
+	},
+	[467077188] = {
+		["Updated"] = 1607888582,
+		["Name"] = "Court of Blood",
+		["Id"] = 467077188,
+		["UpdateId"] = 2382289600,
+		["Contents"] = "Frieda kicks: Scripe - Nikea - Ulerith - Parazini",
 	},
 }
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
+	["window"] = {
+		["height"] = 500.0000305175781,
+		["top"] = 1018.999877929688,
+		["left"] = 393.9998474121094,
+		["width"] = 700.0000610351562,
+	},
 	["display"] = {
 		["y"] = -79.49969482421875,
 		["x"] = 72.99987030029297,
@@ -139,26 +145,20 @@ AngryAssign_State = {
 		["hidden"] = false,
 		["width"] = 369.0001525878906,
 	},
-	["locked"] = true,
 	["tree"] = {
 		["groups"] = {
 		},
 		["scrollvalue"] = 0,
-		["treesizable"] = true,
-		["selected"] = 1652659087,
-		["treewidth"] = 175,
 		["fullwidth"] = 666.0001220703125,
+		["treesizable"] = true,
+		["treewidth"] = 175,
+		["selected"] = 1652659087,
 	},
 	["directionUp"] = false,
-	["window"] = {
-		["height"] = 500.0000305175781,
-		["top"] = 1018.999877929688,
-		["left"] = 393.9998474121094,
-		["width"] = 700.0000610351562,
-	},
+	["locked"] = true,
 }
 AngryAssign_Config = {
-	["allowall"] = true,
-	["fontHeight"] = 11,
 	["fontFlags"] = "OUTLINE",
+	["fontHeight"] = 11,
+	["allowall"] = true,
 }

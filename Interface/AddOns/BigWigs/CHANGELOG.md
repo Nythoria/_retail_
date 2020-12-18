@@ -1,13 +1,10 @@
 # BigWigs
 
-## [v194.1](https://github.com/BigWigsMods/BigWigs/tree/v194.1) (2020-12-16)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v194...v194.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v195](https://github.com/BigWigsMods/BigWigs/tree/v195) (2020-12-17)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v194.1...v195) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Update deDE (#882)  
-- CastleNathria/TheCouncilofBlood: Emphasize link by default  
-- CastleNathria/Shriekwing: Revert cast time back to 6s for stage 1  
-- CastleNathria/Xymox: Start working on Mythic timers  
-- CastleNathria/Shriekwing: Add berserk and fix respawn  
-- CastleNathria/HungeringDestroyer: Add Berserk  
-- CastleNathria/Altimor: Update a timer for Mythic  
-- CastleNathria/HungeringDestroyer: Move Miasma mark clearing to win/wipe  
+- bump version  
+- CastleNathria/InervaDarkvein: Fix early shared suffering detection  
+- CastleNathria/StoneLegionGenerals: Improve the Wicked Blade implementation  
+- CastleNathria/SunKingsSalvation: Target scan for the Ember Blast player instead of waiting for the emote.  
+- Core/BossPrototype: Add :GetNextBossTarget() API  

@@ -1,1043 +1,1043 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g welp this character got gold", -- [1]
-		"/g from WB", -- [2]
-		"/g gieff", -- [3]
-		"/g BIGGG", -- [4]
-		"/g not so big xD", -- [5]
-		"/g I got |cffa335ee|Hitem:183028::::::::60:256::5:5:7188:6652:6935:1485:6646:1:28:2060:::|h[Cinch of Infinite Tightness]|h|r from Weekly and |cffa335ee|Hitem:178782::::::::60:256::35:6:7203:6652:7194:1501:5865:6646::::|h[Necropolis Lord's Shackles]|h|r from Chest", -- [6]
-		"/g so kinda shite stats on both but healer so ilvl is bigger upgrade", -- [7]
-		"/g so thats why we can use the Light in the Shadowlands xD", -- [8]
-		"/g no", -- [9]
-		"/g even with layer 8 we still max out at I think 1340 this week with Bolvar quest", -- [10]
-		"/g yeah 1340 this week", -- [11]
-		"/g if you have already crafted a r1 you will need 3900 to upgrade to r4", -- [12]
-		"/g 3150 then", -- [13]
-		"/g I have mathed it out xD without the intro questline giving us 200~} a week first wee we are gonna be able to have r4 is week starting 30/12", -- [14]
-		"/g assuming you have only crafted 1", -- [15]
-		"/g thats the intro questline and we are almost done with that", -- [16]
-		"/g we have this week which is freeing Thrall then next week which is freeing Anduin then we are done with that", -- [17]
-		"/g + counts too", -- [18]
-		"/g just need to replace |cff0070dd|Hitem:184841::::::::60:256::27:4:6652:1472:5861:6616:1:28:2060:::|h[Lyre of Sacred Purpose]|h|r now", -- [19]
-		"/g then everything 184+", -- [20]
+		"/g assuming you have only crafted 1", -- [1]
+		"/g thats the intro questline and we are almost done with that", -- [2]
+		"/g we have this week which is freeing Thrall then next week which is freeing Anduin then we are done with that", -- [3]
+		"/g + counts too", -- [4]
+		"/g just need to replace |cff0070dd|Hitem:184841::::::::60:256::27:4:6652:1472:5861:6616:1:28:2060:::|h[Lyre of Sacred Purpose]|h|r now", -- [5]
+		"/g then everything 184+", -- [6]
+		"/masque", -- [7]
+		"/raid <", -- [8]
+		"/cw Babyautismo-Silvermoon guild pays for mats", -- [9]
+		"/cw Krayyt-Silvermoon it wouldn't be Meepers xD", -- [10]
+		"/cw Krayyt-Silvermoon yeah I keep giving mine away to spriests", -- [11]
+		"/cw Krayyt-Silvermoon I don't need it as Holy so..", -- [12]
+		"/cw Krayyt-Silvermoon ehh gonna be back Disc again soon so it will be mine again xD", -- [13]
+		"/raid well it will only be while am Holy anyway xD PI is a Healing CD for Disc xD", -- [14]
+		"/cw Babyautismo-Silvermoon I think you may have done", -- [15]
+		"/cw Julerith-Silvermoon sure", -- [16]
+		"/1 XD", -- [17]
+		"/raid yeah could see that xD", -- [18]
+		"/cw Julerith-Silvermoon I'll be using it myself here xD", -- [19]
+		"/raid also taking DMG interrupts the cast", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"LF LW |cffffffff|Hitem:172325::::::::60:264::63:1:3524::::|h[Boneshatter Helm]|h|r rank 3 i have mats", -- [1]
-			"Surema-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Rodaki-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Surema-Silvermoon", -- [5]
+			"Rodaki-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3303, -- [11]
-			"Player-3391-0BA3BCA1", -- [12]
+			5727, -- [11]
+			"Player-3391-0B19AA6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcSurema|r",
-			[51] = 1608117801,
+			[52] = "|cffa22fc8Rodaki|r",
+			[51] = 1608247967,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [1]
 		{
-			"\"Army of the Snoepsh\" is a raiding guild looking for reliable and motivated people to bolster our raiding team. We need DPS (lock/bdruid) to help us progress through Castle Nathria. Raid Times are Sunday and Wedensday 8pm. Currently 6/10 NM.", -- [1]
-			"Blazette-Silvermoon", -- [2]
+			"LFW[Leatherworking] and [Jewelcrafting] crafting any legendary with your mats for free. Need the exp!", -- [1]
+			"Tofuududu-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Blazette-Silvermoon", -- [5]
+			"Tofuududu-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3305, -- [11]
-			"Player-3391-0774CE60", -- [12]
+			5728, -- [11]
+			"Player-3391-0B14CD6B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Blazette|r",
-			[51] = 1608117807,
+			[52] = "|cfffe7b09Tofuududu|r",
+			[51] = 1608247968,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [2]
 		{
-			"oh no, he's guilt tripping", -- [1]
-			"Asuri-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3306, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608117810,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"nah, he knows its not working on this guild", -- [1]
-			"Nikeah-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3310, -- [11]
-			"Player-3391-0ADB6A78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Nikeah|r",
-			[51] = 1608117827,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"WTS |cffa335ee|Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Legionnaire's Bloodstained Sabatons]|h|r 235k cheaper than AH", -- [1]
-			"Hárazo-Silvermoon", -- [2]
+			"<!> RCU <!> Is selling Castle Nathria NM/HC Boost, Also selling Mythic+ Up to 15 Untimed, we also offer Mounts and legacy boosts /w For info", -- [1]
+			"Norahx-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Hárazo-Silvermoon", -- [5]
+			"Norahx-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3311, -- [11]
-			"Player-3391-0B340616", -- [12]
+			5732, -- [11]
+			"Player-3391-0BB00ACC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcHárazo|r",
-			[51] = 1608117833,
+			[52] = "|cffa22fc8Norahx|r",
+			[51] = 1608247975,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"WTB |cffa335ee|Hitem:183035::::::::60:268::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r 120k or PMO", -- [1]
+			"Delateran-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Delateran-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5735, -- [11]
+			"Player-3391-0B80BB53", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Delateran|r",
+			[51] = 1608247983,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"LF Leatherworker with RANK 2 MAIL shoulders! Got mats!", -- [1]
+			"Xatanic-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xatanic-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5738, -- [11]
+			"Player-3391-0A22C557", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Xatanic|r",
+			[51] = 1608247992,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [5]
 		{
-			"everytime i ask someone if i can join they say \"sorry, just heals now\" or \"fuck off parazini you idiot\"", -- [1]
-			"Itsmezini-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3312, -- [11]
-			"Player-3391-0B8C2349", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Itsmezini|r",
-			[51] = 1608117840,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14795:Player-3391-0B7A0532:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Clearing the Fog]|h|r!", -- [1]
-			"Kanaì-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kanaì-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3313, -- [11]
-			"Player-3391-0B7A0532", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Kanaì|r",
-			[51] = 1608117840,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"[WTS] Fast Powerleveling to 60 lvl! World & Daily Questing, Renown weekly cap, Gear farming, NEW Mounts, and other boosts. We have over 13094 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
-			"Carlethany-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:172325::::::::60:263::63:1:3524::::|h[Boneshatter Helm]|h|r Rank 2 (210 ilvl)", -- [1]
+			"Joriir-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Carlethany-Silvermoon", -- [5]
+			"Joriir-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3314, -- [11]
-			"Player-3391-0BC1321B", -- [12]
+			5740, -- [11]
+			"Player-3391-0A34319E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cCarlethany|r",
-			[51] = 1608117849,
+			[52] = "|cff006fdcJoriir|r",
+			[51] = 1608247993,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"how is it i got renown 7 yet no mission table?", -- [1]
+			"Wathia-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Wathia-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5741, -- [11]
+			"Player-3391-09B66C3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Wathia|r",
+			[51] = 1608247995,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-181167-3391-98178973|h[Guild: Crimson Night]|h|r rekrutuje na weekendowe zmagania :) W planie robienie PVE contentu (Norm/HC i M+).Start od zera. Zapraszam rowniez osoby  lvlujace.", -- [1]
+			"Amirte-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amirte-Silvermoon", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5742, -- [11]
+			"Player-3391-0ADB107F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Amirte|r",
+			[51] = 1608247995,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [8]
 		{
-			"<Deeprun Tram Security> is a guild with a long history on Silvermoon and multiple CEs under its belt. Looking for a hpal and a few dps to fill our ranks. Our raid days are Tues/Wed/Sun 19:00-22:00 server time. Apply @ www.deepruntramsecurity.com", -- [1]
-			"Fistmytaco-Silvermoon", -- [2]
+			"LFW |cffffd000|Htrade:Player-3391-0BA7FF00:2108:165|h[Leatherworking]|h|r crafting your rank1 , free with your mats, will give 1k each !!!!", -- [1]
+			"Hunterari-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Fistmytaco-Silvermoon", -- [5]
+			"Hunterari-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3315, -- [11]
-			"Player-3391-0AEED437", -- [12]
+			5743, -- [11]
+			"Player-3391-0BA7FF00", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Fistmytaco|r",
-			[51] = 1608117854,
+			[52] = "|cffa9d271Hunterari|r",
+			[51] = 1608247996,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [9]
 		{
-			"WTS |cffa335ee|Hitem:54068::::::::10:258::15:::::|h[Wooly White Rhino]|h|r", -- [1]
-			"Buckob-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-5198-3391-40082980|h[Guild: Flawless Imperfection]|h|r{@EU-Silvermoon}[CN 5/10N] Fun and social, weekend raiding guild. We look for mature and dedicated guildies. Activity is open for socials, m+, hc/acheivment raids.", -- [1]
+			"Icuim-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Buckob-Silvermoon", -- [5]
+			"Icuim-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3316, -- [11]
-			"Player-3391-0BC05443", -- [12]
+			5744, -- [11]
+			"Player-3391-068AB76F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeBuckob|r",
-			[51] = 1608117859,
+			[52] = "|cff3ec6eaIcuim|r",
+			[51] = 1608247997,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [10]
 		{
-			"\"Army of the Snoepsh\" is a raiding guild looking for reliable and motivated people to bolster our raiding team. We need DPS (lock/bdruid) to help us progress through Castle Nathria. Raid Times are Sunday and Wedensday 8pm. Currently 6/10 NM.", -- [1]
-			"Blazette-Silvermoon", -- [2]
+			"<NOVA Community> Offers Mythic+ boosts M0-M10 [M0- 165k Shared loot] [M4- 260k] [M6- 320k] [M7- 350k] [M10- 460k] All key levels & Bulk run discounts available! [Torghast boosts - Layers 1-8] [Castle Nathria Normal full clear - 1.25M] gold only /w me", -- [1]
+			"Novasm-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Blazette-Silvermoon", -- [5]
+			"Novasm-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3320, -- [11]
-			"Player-3391-0774CE60", -- [12]
+			5746, -- [11]
+			"Player-3391-0BAA4470", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Blazette|r",
-			[51] = 1608117879,
+			[52] = "|cff3ec6eaNovasm|r",
+			[51] = 1608248011,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [11]
 		{
-			"WTB [Heavy Callous Hide]1.1k each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"<Axis Mundi> Rekrutuje! Szukamy Healerow oraz rDPS na Castle Nathria. Jezeli chcesz wiedziec wiecej, zapraszamy na nasza strone internetowa: https://axismundi.guildtag.com/info/", -- [1]
+			"Althin-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Althin-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3321, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			5749, -- [11]
+			"Player-3391-0A9D29FB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608117882,
+			[52] = "|cff006fdcAlthin|r",
+			[51] = 1608248015,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [12]
 		{
-			"WTB Elethium Ore 120g each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"LFW|cffffd000|Htrade:Player-3391-0B14CD6B:2108:165|h[Leatherworking]|h|r|cffffd000|Htrade:Player-3391-0B14CD6B:25229:755|h[Jewelcrafting]|h|r crafting any legendary with your mats for free. Need the exp!", -- [1]
+			"Tofuududu-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Tofuududu-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3322, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			5750, -- [11]
+			"Player-3391-0B14CD6B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608117882,
+			[52] = "|cfffe7b09Tofuududu|r",
+			[51] = 1608248015,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [13]
 		{
-			"lf2m tank heal theater of pain m2 and |cffa335ee|Hkeystone:180653:375:6:9:7:0:0|h[Keystone: Mists of Tirna Scithe (6)]|h|r", -- [1]
-			"Bajkela-Silvermoon", -- [2]
+			"WTS Mythic 0's!  4 for weekly special offer, 1k rio group going now!", -- [1]
+			"Laxûs-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Bajkela-Silvermoon", -- [5]
+			"Laxûs-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3328, -- [11]
-			"Player-3391-0BA8CAB3", -- [12]
+			5751, -- [11]
+			"Player-3391-0B75ABBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Bajkela|r",
-			[51] = 1608117907,
+			[52] = "|cffc31d39Laxûs|r",
+			[51] = 1608248018,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [14]
 		{
-			"<Nova> is offering Castle Nathria 10/10 Full Clear || Mythic 0-12 - Bulk discount available 10-17.5% || Torghast boosts - Layer 1-6 || All this for in-game gold only! /w for more info :-)", -- [1]
-			"Piratejoey-Silvermoon", -- [2]
+			"WTS 7 Nemesis quests/titles-1st part of|cffffff00|Hachievement:9738:Player-3391-07CB185E:1:4:18:16:4294967295:4294967295:4294967295:4294967295|h[Warlord of Draenor]|h|r. In run you will get 7 titles+7achivements+4k broken bones.Run tomorrow 18:00ST", -- [1]
+			"Ardelis-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Piratejoey-Silvermoon", -- [5]
+			"Ardelis-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3329, -- [11]
-			"Player-3391-08D8A0CA", -- [12]
+			5752, -- [11]
+			"Player-3391-07CB185E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Piratejoey|r",
-			[51] = 1608117917,
+			[52] = "|cfffefefeArdelis|r",
+			[51] = 1608248021,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
 		{
-			"WTS |cffa335ee|Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Legionnaire's Bloodstained Sabatons]|h|r 235k ", -- [1]
-			"Hárazo-Silvermoon", -- [2]
+			"WTS |cff1eff00|Hitem:171428::::::::60:254:::::::|h[Shadowghast Ingot]|h|r", -- [1]
+			"Onearrow-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Hárazo-Silvermoon", -- [5]
+			"Onearrow-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3330, -- [11]
-			"Player-3391-0B340616", -- [12]
+			5753, -- [11]
+			"Player-3391-0BB54A5E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcHárazo|r",
-			[51] = 1608117926,
+			[52] = "|cffa9d271Onearrow|r",
+			[51] = 1608248021,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [16]
 		{
-			"WTS  |cffa335ee|Hitem:54068::::::::10:258::15:::::|h[Wooly White Rhino]|h|r", -- [1]
-			"Buckob-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly quest 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Tinkyminky-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Buckob-Silvermoon", -- [5]
+			"Tinkyminky-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3331, -- [11]
-			"Player-3391-0BC05443", -- [12]
+			5754, -- [11]
+			"Player-3391-0BA970A5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeBuckob|r",
-			[51] = 1608117932,
+			[52] = "|cff00fe97Tinkyminky|r",
+			[51] = 1608248022,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [17]
 		{
-			"Merry X-Mas times, Happy Holiday time everyone... and put ya Red winter hat on :) <3", -- [1]
-			"Larascha-Silvermoon", -- [2]
+			"you need to unlock mission table with anima", -- [1]
+			"Raikana-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Larascha-Silvermoon", -- [5]
+			"Raikana-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3332, -- [11]
-			"Player-3391-08281C6A", -- [12]
+			5756, -- [11]
+			"Player-3391-068B0EB2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Larascha|r",
-			[51] = 1608117938,
+			[52] = "|cff006fdcRaikana|r",
+			[51] = 1608248028,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [18]
 		{
-			"lf2m tank heal theater of pain m2 and [Keystone: Mists of Tirna Scithe (6)]", -- [1]
-			"Bajkela-Silvermoon", -- [2]
+			"<!> RCU <!> Is selling Castle Nathria NM/HC Boost, Also selling Mythic+ Up to 15 Untimed, we also offer Mounts and legacy boosts /w For info", -- [1]
+			"Norahx-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Bajkela-Silvermoon", -- [5]
+			"Norahx-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3333, -- [11]
-			"Player-3391-0BA8CAB3", -- [12]
+			5758, -- [11]
+			"Player-3391-0BB00ACC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Bajkela|r",
-			[51] = 1608117941,
+			[52] = "|cffa22fc8Norahx|r",
+			[51] = 1608248037,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [19]
 		{
-			"wow thanks joey, i cant believe nova is offering 10/10 full clears", -- [1]
-			"Femalenano-Silvermoon", -- [2]
+			"wts |cff71d5ff|Hspell:72807:0|h[Icebound Frostbrood Vanquisher]|h|r90k|cff71d5ff|Hspell:225765:0|h[Leyfeather Hippogryph]|h|r490k|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r50k", -- [1]
+			"Fullarcane-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Femalenano-Silvermoon", -- [5]
+			"Fullarcane-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3334, -- [11]
-			"Player-3391-0A936501", -- [12]
+			5759, -- [11]
+			"Player-3391-0BC1BA5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaFemalenano|r",
-			[51] = 1608117946,
+			[52] = "|cff3ec6eaFullarcane|r",
+			[51] = 1608248043,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [20]
 		{
-			"xd", -- [1]
-			"Pinksodavand-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-117629-3391-91949970|h[Guild: SKÅL]|h|r 12/12M (NYA) 6/10HC (CN) Söker fler raiders (DH hög prio)! Vi raidar onsd & torsd samt HC på helger för alts/socials! Sugen? Dra en /w så snackar vi vidare!", -- [1]
+			"Virrjet-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Pinksodavand-Silvermoon", -- [5]
+			"Virrjet-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3335, -- [11]
-			"Player-3391-0B063ED8", -- [12]
+			5760, -- [11]
+			"Player-3391-0B415C5F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Pinksodavand|r",
-			[51] = 1608117958,
+			[52] = "|cffa9d271Virrjet|r",
+			[51] = 1608248058,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [21]
 		{
-			"WTB |cffffffff|Hitem:171412::::::::60:252:::::::|h[Shadowghast Breastplate]|h|r", -- [1]
-			"Crabbymeat-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Rodaki-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crabbymeat-Silvermoon", -- [5]
+			"Rodaki-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3336, -- [11]
-			"Player-3391-078336B3", -- [12]
+			5761, -- [11]
+			"Player-3391-0B19AA6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Crabbymeat|r",
-			[51] = 1608117961,
+			[52] = "|cffa22fc8Rodaki|r",
+			[51] = 1608248064,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [22]
 		{
-			"[WТS] Castle Nathria NM/HC BOOST! Get ilvl 200-220 gear, achieves, and AOTC! Choose from multiple Guild runs every day. We have over 13094 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
-			"Carlethany-Silvermoon", -- [2]
+			"|cffffd000|Htrade:Player-3391-0A7DC958:2108:165|h[Leatherworking]|h|r LFW Crafting your rank 1 Legendary (190ilvl) free with your mats. Will give 1k each. (Rank 3 Leather gloves also.)", -- [1]
+			"Podola-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Carlethany-Silvermoon", -- [5]
+			"Podola-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3337, -- [11]
-			"Player-3391-0BC1321B", -- [12]
+			5762, -- [11]
+			"Player-3391-0A7DC958", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cCarlethany|r",
-			[51] = 1608117963,
+			[52] = "|cff00fe97Podola|r",
+			[51] = 1608248065,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [23]
 		{
-			"If you're sending Merry Christmas/Happy Holidays you are a FA@@OT", -- [1]
-			"Stabbimcshiv-Silvermoon", -- [2]
+			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 1.2m [Mythic 0-12 ][+5 290k /+7 350k /  +10  460k ] [Multi Run 10%-17.5% Off ] -- Torghast Boost [Layer 1-6]  Only For Gold !", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Stabbimcshiv-Silvermoon", -- [5]
+			"Clairredfild-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3338, -- [11]
-			"Player-3391-0BA198E3", -- [12]
+			5763, -- [11]
+			"Player-3391-0A796191", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Stabbimcshiv|r",
-			[51] = 1608117966,
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1608248068,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [24]
 		{
-			"WTB |cffffffff|Hitem:171412::::::::60:252:::::::|h[Shadowghast Breastplate]|h|r RANK 3", -- [1]
-			"Crabbymeat-Silvermoon", -- [2]
+			"† LF |cff0070dd|Hitem:16007::::::::60:254:::1:3524::::|h[Flawless Arcanite Rifle]|h|r crafter! (pre-Cata engineering) ", -- [1]
+			"Azubiel-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crabbymeat-Silvermoon", -- [5]
+			"Azubiel-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3339, -- [11]
-			"Player-3391-078336B3", -- [12]
+			5764, -- [11]
+			"Player-3391-0A5A5689", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Crabbymeat|r",
-			[51] = 1608117970,
+			[52] = "|cffa9d271Azubiel|r",
+			[51] = 1608248069,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [25]
 		{
-			"scrooge detected :P", -- [1]
-			"Larascha-Silvermoon", -- [2]
+			"<Icecrown> Selling Mythic 0s! and Mythic+ Keys +2 to +10!! Torghast Layer 1 - 8! Normal Castle Nathria spots this weekend as well! PvP rating, Rare Mounts, legacy achievements, leveling & more! /w for more info!", -- [1]
+			"Iccfourdy-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Larascha-Silvermoon", -- [5]
+			"Iccfourdy-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3340, -- [11]
-			"Player-3391-08281C6A", -- [12]
+			5765, -- [11]
+			"Player-3391-0BBDDD66", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Larascha|r",
-			[51] = 1608117980,
+			[52] = "|cffa9d271Iccfourdy|r",
+			[51] = 1608248069,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [26]
 		{
-			"True, Merry Christmas", -- [1]
-			"Stabbimcshiv-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-181167-3391-98178973|h[Guild: Crimson Night]|h|r rekrutuje na weekendowe zmagania :) W planie robienie PVE contentu (Norm/HC i M+).Start od zera. Zapraszam rowniez osoby  lvlujace.", -- [1]
+			"Amirte-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Stabbimcshiv-Silvermoon", -- [5]
-			"", -- [6]
+			"Amirte-Silvermoon", -- [5]
+			"AFK", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3342, -- [11]
-			"Player-3391-0BA198E3", -- [12]
+			5768, -- [11]
+			"Player-3391-0ADB107F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Stabbimcshiv|r",
-			[51] = 1608117990,
+			[52] = "|cfffef367Amirte|r",
+			[51] = 1608248079,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [27]
 		{
-			"WTB Elethium Ore 120g each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:172325::::::::60:263::63:1:3524::::|h[Boneshatter Helm]|h|r Rank 2 (210 ilvl)", -- [1]
+			"Joriir-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Joriir-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3343, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			5769, -- [11]
+			"Player-3391-0A34319E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118001,
+			[52] = "|cff006fdcJoriir|r",
+			[51] = 1608248079,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [28]
 		{
-			"WTB [Heavy Callous Hide]1.1k each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"<Nal Ra> new guild that prioritizes a friendly social climate - looking for members for all content especially Mythics, Socials welcome! We're mostly experienced players but we welcome players with any skill to join as long as you're friendly :) /w", -- [1]
+			"Nsic-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Nsic-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3344, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			5771, -- [11]
+			"Player-3391-0BBBFEF0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118001,
+			[52] = "|cfffef367Nsic|r",
+			[51] = 1608248084,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [29]
 		{
-			"WTS |cffa335ee|Hitem:54068::::::::10:258::15:::::|h[Wooly White Rhino]|h|r", -- [1]
-			"Buckob-Silvermoon", -- [2]
+			"Boost key 2-9  In time ( share loot ) --- boost key 15 for weekly chest ( you drop item 226) - boost torghast Layer 1-2-3-4-5  ---- Boost Raid Hc and Normal ---Boost Lvlup fast and ez under 6h 50-60 ------whisper me for more I", -- [1]
+			"Darksgf-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Buckob-Silvermoon", -- [5]
+			"Darksgf-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3345, -- [11]
-			"Player-3391-0BC05443", -- [12]
+			5772, -- [11]
+			"Player-3391-0BADF031", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeBuckob|r",
-			[51] = 1608118011,
+			[52] = "|cffa22fc8Darksgf|r",
+			[51] = 1608248085,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [30]
 		{
-			"LF enchanter Fortified Leech Sinful Revelation", -- [1]
-			"Affecto-Silvermoon", -- [2]
+			"LFW|cffffd000|Htrade:Player-3391-0B14CD6B:2108:165|h[Leatherworking]|h|r|cffffd000|Htrade:Player-3391-0B14CD6B:25229:755|h[Jewelcrafting]|h|rcrafting any legendary with your mats for free. Need the exp!", -- [1]
+			"Tofuududu-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Affecto-Silvermoon", -- [5]
+			"Tofuududu-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3346, -- [11]
-			"Player-3391-0BB81DB7", -- [12]
+			5773, -- [11]
+			"Player-3391-0B14CD6B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Affecto|r",
-			[51] = 1608118014,
+			[52] = "|cfffe7b09Tofuududu|r",
+			[51] = 1608248088,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [31]
 		{
-			"|cffa335ee|Hitem:184778::::::::48:258::5:4:7188:6652:1485:6646:1:28:752:::|h[Decadent Nathrian Shawl]|h|r|cffa335ee|Hitem:183008::::::::48:258::5:4:7188:6652:1485:6646:1:28:752:::|h[Supple Supplicant's Gloves]|h|r|cffa335ee|Hitem:183035::::::::48:258::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r WTS cheaper then Ah /w me", -- [1]
-			"Donatetome-Silvermoon", -- [2]
+			"why is nobody dueling in front of SW :(", -- [1]
+			"Shela-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Donatetome-Silvermoon", -- [5]
+			"Shela-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3350, -- [11]
-			"Player-3391-0BBDBBCE", -- [12]
+			5774, -- [11]
+			"Player-3391-0BBD6BED", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeDonatetome|r",
-			[51] = 1608118025,
+			[52] = "|cffc59a6cShela|r",
+			[51] = 1608248090,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [32]
 		{
-			"lf2m tank heal theater of pain m2 and [Keystone: Mists of Tirna Scithe (6)]", -- [1]
-			"Bajkela-Silvermoon", -- [2]
+			"<NOVA Community> Offers Mythic+ boosts M0-M10 [M0- 165k Shared loot] [M4- 260k] [M6- 320k] [M7- 350k] [M10- 460k] All key levels & Bulk run discounts available! [Torghast boosts - Layers 1-8] [Castle Nathria Normal full clear - 1.25M] gold only /w me", -- [1]
+			"Novasm-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Bajkela-Silvermoon", -- [5]
+			"Novasm-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3356, -- [11]
-			"Player-3391-0BA8CAB3", -- [12]
+			5776, -- [11]
+			"Player-3391-0BAA4470", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Bajkela|r",
-			[51] = 1608118051,
+			[52] = "|cff3ec6eaNovasm|r",
+			[51] = 1608248095,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [33]
 		{
-			"WTB [Heavy Callous Hide]1.1k each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"WTB |cffa335ee|Hitem:183035::::::::60:268::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r 120k or PMO", -- [1]
+			"Delateran-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Delateran-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3357, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			5780, -- [11]
+			"Player-3391-0B80BB53", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118054,
+			[52] = "|cff00fe97Delateran|r",
+			[51] = 1608248110,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [34]
 		{
-			"WTB Elethium Ore 120g each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"wts |cff71d5ff|Hspell:72807:0|h[Icebound Frostbrood Vanquisher]|h|r90k|cff71d5ff|Hspell:225765:0|h[Leyfeather Hippogryph]|h|r490k|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r50k", -- [1]
+			"Fullarcane-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Fullarcane-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3358, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			5788, -- [11]
+			"Player-3391-0BC1BA5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118055,
+			[52] = "|cff3ec6eaFullarcane|r",
+			[51] = 1608248126,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [35]
 		{
-			"[WТS] Mythic +5/+6/+7/+8/+9/+10/+14 key BOOST tonight! You will get NEW ilvl 194-226+ Gear, Achieves & RIO Score. We have over 13094 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
-			"Carlethany-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:172325::::::::60:263::63:1:3524::::|h[Boneshatter Helm]|h|r Rank 2 (210 ilvl)", -- [1]
+			"Joriir-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Carlethany-Silvermoon", -- [5]
+			"Joriir-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3359, -- [11]
-			"Player-3391-0BC1321B", -- [12]
+			5790, -- [11]
+			"Player-3391-0A34319E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cCarlethany|r",
-			[51] = 1608118056,
+			[52] = "|cff006fdcJoriir|r",
+			[51] = 1608248128,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [36]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1157:Player-3391-0BA84849:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Duel-icious]|h|r!", -- [1]
-			"Àudacity-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Àudacity-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3360, -- [11]
-			"Player-3391-0BA84849", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Àudacity|r",
-			[51] = 1608118065,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-178130-3391-46002460|h[Guild: Order of Arathor]|h|r Is LF experienced raiders to fill our roster with the goal of mythic progression. currently in need of Healers and DPS Raid Days/Times WED,SUN; 19:00-22:00.", -- [1]
-			"Basalisc-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Rodaki-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Basalisc-Silvermoon", -- [5]
+			"Rodaki-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3361, -- [11]
-			"Player-3391-07742F5D", -- [12]
+			5792, -- [11]
+			"Player-3391-0B19AA6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Basalisc|r",
-			[51] = 1608118067,
+			[52] = "|cffa22fc8Rodaki|r",
+			[51] = 1608248130,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-181167-3391-98178973|h[Guild: Crimson Night]|h|r rekrutuje na weekendowe zmagania :) W planie robienie PVE contentu (Norm/HC i M+).Start od zera. Zapraszam rowniez osoby  lvlujace.", -- [1]
+			"Amirte-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amirte-Silvermoon", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5796, -- [11]
+			"Player-3391-0ADB107F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Amirte|r",
+			[51] = 1608248140,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [38]
 		{
-			"Wts Mythic+( 2-10)  Cheap Fast And Smooth /w For more info Cheapest Accpte GOld on All Realms", -- [1]
-			"Imtis-Silvermoon", -- [2]
+			"Holy Pala looking for dps forr 2v2", -- [1]
+			"Kantaros-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Imtis-Silvermoon", -- [5]
+			"Kantaros-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3363, -- [11]
-			"Player-3391-0A6EBAE3", -- [12]
+			5797, -- [11]
+			"Player-3391-0BB8C507", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Imtis|r",
-			[51] = 1608118072,
+			[52] = "|cfff38bb9Kantaros|r",
+			[51] = 1608248149,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [39]
 		{
-			"wtb |cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r", -- [1]
-			"Ranccree-Silvermoon", -- [2]
+			"LFW|cffffd000|Htrade:Player-3391-0B14CD6B:2108:165|h[Leatherworking]|h|r|cffffd000|Htrade:Player-3391-0B14CD6B:25229:755|h[Jewelcrafting]|h|r crafting any legendary with your mats for free. Need the exp!", -- [1]
+			"Tofuududu-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ranccree-Silvermoon", -- [5]
+			"Tofuududu-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3364, -- [11]
-			"Player-3391-0B2A1FB0", -- [12]
+			5798, -- [11]
+			"Player-3391-0B14CD6B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa22fc8Ranccree|r",
-			[51] = 1608118072,
+			[52] = "|cfffe7b09Tofuududu|r",
+			[51] = 1608248158,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [40]
 		{
-			"wtb|cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r|cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r|cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r", -- [1]
-			"Ranccree-Silvermoon", -- [2]
+			"<<Wild Hunt>> . We are looking for friendly active players that wanna help us .We are interested mainly in 1 healer {shamman/monk} for our raid team. Raid days thurs/sun  20.00-23.00. /w me for more info", -- [1]
+			"Atrocion-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ranccree-Silvermoon", -- [5]
+			"Atrocion-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3366, -- [11]
-			"Player-3391-0B2A1FB0", -- [12]
+			5799, -- [11]
+			"Player-3391-0804FCF3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa22fc8Ranccree|r",
-			[51] = 1608118088,
+			[52] = "|cffc31d39Atrocion|r",
+			[51] = 1608248161,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [41]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14783:Player-3391-0B03F903:1:12:17:20:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r!", -- [1]
+			"Monkhea-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"Monkhea-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3371, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			5801, -- [11]
+			"Player-3391-0B03F903", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
+			[52] = "|cff00fe97Monkhea|r",
+			[51] = 1608248162,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [42]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14206:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Blade of the Primus]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-56-3391-45738460|h[Guild: Hawaiien Punch]|h|r  Is recruiting Healers (pala,Shaman,Monk)  for our Main team!!!  Our schedule is Wed, Thur, Monday 20:15-23:15 ST Socials and M+ based player most welcome as well", -- [1]
+			"Pàtecatl-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"2. Trade - City", -- [4]
+			"Pàtecatl-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3372, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			5802, -- [11]
+			"Player-3391-0AAE822F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cfffefefePàtecatl|r",
+			[51] = 1608248164,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [43]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"LF Leatherworker with RANK 2 MAIL shoulders! Got mats!", -- [1]
+			"Xatanic-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"2. Trade - City", -- [4]
+			"Xatanic-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3373, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			5803, -- [11]
+			"Player-3391-0A22C557", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cffc31d39Xatanic|r",
+			[51] = 1608248166,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [44]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 1.2m [Mythic 0-12 ][+5 290k /+7 350k /  +10  460k ] [Multi Run 10%-17.5% Off ] -- Torghast Boost [Layer 1-6]  Only For Gold !", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"2. Trade - City", -- [4]
+			"Clairredfild-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3374, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			5804, -- [11]
+			"Player-3391-0A796191", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1608248166,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [45]
 		{
-			"Welp, fingers crossed", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"WTS 7 Nemesis quests/titles-1st part of|cffffff00|Hachievement:9738:Player-3391-07CB185E:1:4:18:16:4294967295:4294967295:4294967295:4294967295|h[Warlord of Draenor]|h|r. In run you will get 7 titles+7achivements+4k broken bones.Run tomorrow 18:00ST", -- [1]
+			"Ardelis-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Ardelis-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3378, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			5805, -- [11]
+			"Player-3391-07CB185E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118177,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffefefeArdelis|r",
+			[51] = 1608248171,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [46]
 		{
-			"Oh I'm on the wrong character", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"gz", -- [1]
+			"Anardel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1046,1160 +1046,1160 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3379, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			5806, -- [11]
+			"Player-3391-0B2F1063", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118189,
+			[52] = "|cffa22fc8Anardel|r",
+			[51] = 1608248172,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [47]
 		{
-			"Fuck off parazini you idiot", -- [1]
-			"Felmeme-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3381, -- [11]
-			"Player-3391-0BB74527", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Felmeme|r",
-			[51] = 1608118203,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
-		{
-			"whoah", -- [1]
-			"Nikeah-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3383, -- [11]
-			"Player-3391-0ADB6A78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Nikeah|r",
-			[51] = 1608118211,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
-		{
-			"I knew beforehand it would be rough pickings", -- [1]
-			"Forkez-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3399, -- [11]
-			"Player-3391-0B7457D7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Forkez|r",
-			[51] = 1608118337,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
-		{
-			"But |cffa335ee|Hitem:178810::::::::60:65::35:5:7210:6652:1501:5878:6646::::|h[Vial of Spectral Essence]|h|r will have to do", -- [1]
-			"Forkez-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3400, -- [11]
-			"Player-3391-0B7457D7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Forkez|r",
-			[51] = 1608118345,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
-		{
-			"<Nova> is offering Castle Nathria 10/10 Full Clear || Mythic 0-12 - Bulk discount available 10-17.5% || Torghast boosts - Layer 1-6 || All this for in-game gold only! /w for more info :-)", -- [1]
-			"Piratejoey-Silvermoon", -- [2]
+			"<Gamblers> Doswiadczony sklad poszukuje wzmocnienia do raidowania w Shadowlands.Poszukujemy DPS/HEAL. 10/10N 5/10 HC /w me", -- [1]
+			"Golcedabbana-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Piratejoey-Silvermoon", -- [5]
+			"Golcedabbana-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3417, -- [11]
-			"Player-3391-08D8A0CA", -- [12]
+			5807, -- [11]
+			"Player-3391-0BAD0275", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Piratejoey|r",
-			[51] = 1608118456,
+			[52] = "|cff3ec6eaGolcedabbana|r",
+			[51] = 1608248175,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"WTS |cffffffff|Hitem:172325::::::::60:263::63:1:3524::::|h[Boneshatter Helm]|h|r Rank 2 (210 ilvl)", -- [1]
+			"Joriir-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Joriir-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5809, -- [11]
+			"Player-3391-0A34319E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJoriir|r",
+			[51] = 1608248177,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"<Simplicity> Normal/Heroic raiding guild. All members are 25+ - Perfect for older player looking for a relaxed environment for content.Raid days Thur/Sun 20:00-23:00 Server Time - /w for Info. 6/10 NM Castle Nathria - Primarily Looking for Ranged DPS.", -- [1]
+			"Penski-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Penski-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5810, -- [11]
+			"Player-3391-0BAFE6C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Penski|r",
+			[51] = 1608248180,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-181194-3391-98199972|h[Guild: Unholy Warband]|h|r looking for active members who would be intrested in raiding, mythic+ and RBG, for further information, whisper me!", -- [1]
+			"Keyaiindron-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Keyaiindron-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5811, -- [11]
+			"Player-3391-0AE1CC90", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Keyaiindron|r",
+			[51] = 1608248180,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"<!> RCU <!> Is selling Castle Nathria NM/HC Boost, Also selling Mythic+ Up to 15 Untimed, we also offer Mounts and legacy boosts /w For info", -- [1]
+			"Norahx-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Norahx-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5812, -- [11]
+			"Player-3391-0BB00ACC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Norahx|r",
+			[51] = 1608248180,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [52]
 		{
-			"Is |cffffff00|Hquest:62638:2060|h[Emissary of War]|h|r possible in m+ or only normal mythics?", -- [1]
-			"Neltora-Silvermoon", -- [2]
+			"WTB AH in oribos", -- [1]
+			"Vaél-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Neltora-Silvermoon", -- [5]
+			"1. General - Oribos", -- [4]
+			"Vaél-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
 			0, -- [10]
-			3418, -- [11]
-			"Player-3391-06F416ED", -- [12]
+			5813, -- [11]
+			"Player-3391-0BB56359", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Neltora|r",
-			[51] = 1608118460,
+			[52] = "|cffc59a6cVaél|r",
+			[51] = 1608248187,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [53]
 		{
-			"also m+", -- [1]
-			"Ionasz-Silvermoon", -- [2]
+			"<NOVA Community> Offers Mythic+ boosts M0-M10 [M0- 165k Shared loot] [M4- 260k] [M6- 320k] [M7- 350k] [M10- 460k] All key levels & Bulk run discounts available! [Torghast boosts - Layers 1-8] [Castle Nathria Normal full clear - 1.25M] gold only /w me", -- [1]
+			"Novasm-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ionasz-Silvermoon", -- [5]
+			"Novasm-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3419, -- [11]
-			"Player-3391-0904DC8E", -- [12]
+			5814, -- [11]
+			"Player-3391-0BAA4470", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Ionasz|r",
-			[51] = 1608118470,
+			[52] = "|cff3ec6eaNovasm|r",
+			[51] = 1608248187,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [54]
 		{
-			"Wts ...Offering Myhtic Keystone ( +2..+4...+6...+10..).. Torghast Boost Available ....Only GOld ..Wis Me For More Info..", -- [1]
-			"Firewavee-Silvermoon", -- [2]
+			"lfg for 4 mythics", -- [1]
+			"Monkhea-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Firewavee-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3420, -- [11]
-			"Player-3391-0A84D9E8", -- [12]
+			5816, -- [11]
+			"Player-3391-0B03F903", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaFirewavee|r",
-			[51] = 1608118471,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Monkhea|r",
+			[51] = 1608248191,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"did anyone had his vault bugged after not looting it at first place?", -- [1]
-			"Dêadwood-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:171349::::::::60:270:::::::|h[Potion of Phantom Fire]|h|r cheap, stack up for raid/m+", -- [1]
+			"Tigerpaw-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Dêadwood-Silvermoon", -- [5]
+			"Tigerpaw-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3421, -- [11]
-			"Player-3391-0BAEB3EE", -- [12]
+			5818, -- [11]
+			"Player-3391-068ADF83", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa22fc8Dêadwood|r",
-			[51] = 1608118475,
+			[52] = "|cff00fe97Tigerpaw|r",
+			[51] = 1608248205,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [56]
 		{
-			"Sweet thanks, what about |cffffff00|Hquest:60252:837|h[A Valuable Find: Spires of Ascension]|h|r?", -- [1]
-			"Neltora-Silvermoon", -- [2]
+			"LF Alchemy to get Arcanite Bar |cff1eff00|Hitem:12363::::::::60:70:::::::|h[Arcane Crystal]|h|r|cffffffff|Hitem:12359::::::::60:70:::::::|h[Thorium Bar]|h|r", -- [1]
+			"Dunbrand-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Neltora-Silvermoon", -- [5]
+			"Dunbrand-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3422, -- [11]
-			"Player-3391-06F416ED", -- [12]
+			5819, -- [11]
+			"Player-3391-0BB3F002", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Neltora|r",
-			[51] = 1608118481,
+			[52] = "|cfff38bb9Dunbrand|r",
+			[51] = 1608248207,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [57]
 		{
-			"Wts Mythic+( 2-10)  Cheap Fast And Smooth /w For more info Cheapest Accpte GOld on All Realms", -- [1]
-			"Imtis-Silvermoon", -- [2]
+			"wts |cff71d5ff|Hspell:72807:0|h[Icebound Frostbrood Vanquisher]|h|r90k|cff71d5ff|Hspell:225765:0|h[Leyfeather Hippogryph]|h|r490k|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r50k", -- [1]
+			"Fullarcane-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Imtis-Silvermoon", -- [5]
+			"Fullarcane-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			3423, -- [11]
-			"Player-3391-0A6EBAE3", -- [12]
+			5820, -- [11]
+			"Player-3391-0BC1BA5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Imtis|r",
-			[51] = 1608118494,
+			[52] = "|cff3ec6eaFullarcane|r",
+			[51] = 1608248209,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [58]
 		{
-			"|cffa335ee|Hitem:184019::::::::60:63::5:4:7188:6652:1485:6646:1:28:2060:::|h[Soul Igniter]|h|r", -- [1]
-			"Eloyà-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Rodaki-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Rodaki-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3432, -- [11]
-			"Player-3391-0B3E1E4B", -- [12]
+			5822, -- [11]
+			"Player-3391-0B19AA6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaEloyà|r",
-			[51] = 1608118723,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa22fc8Rodaki|r",
+			[51] = 1608248211,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [59]
 		{
-			"ahh grats man", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:172325::::::::60:263::63:1:3524::::|h[Boneshatter Helm]|h|r Rank 2 (210 ilvl).", -- [1]
+			"Joriir-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Joriir-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3433, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5823, -- [11]
+			"Player-3391-0A34319E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118739,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff006fdcJoriir|r",
+			[51] = 1608248212,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [60]
 		{
-			"gzgz", -- [1]
-			"Junî-Silvermoon", -- [2]
+			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 1.2m [Mythic 0-12 ][+5 290k /+7 350k /  +10  460k ] [Multi Run 10%-17.5% Off ] -- Torghast Boost [Layer 1-6]  Only For Gold !", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Clairredfild-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3434, -- [11]
-			"Player-3391-0A7350D6", -- [12]
+			5825, -- [11]
+			"Player-3391-0A796191", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Junî|r",
-			[51] = 1608118744,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1608248216,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [61]
 		{
-			"Oya going fire ey? XD", -- [1]
-			"Sókén-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-181167-3391-98178973|h[Guild: Crimson Night]|h|r rekrutuje na weekendowe zmagania :) W planie robienie PVE contentu (Norm/HC i M+).Start od zera. Zapraszam rowniez osoby  lvlujace.", -- [1]
+			"Amirte-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"2. Trade - City", -- [4]
+			"Amirte-Silvermoon", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3435, -- [11]
-			"Player-3391-0B02A272", -- [12]
+			5829, -- [11]
+			"Player-3391-0ADB107F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSókén|r",
-			[51] = 1608118748,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffef367Amirte|r",
+			[51] = 1608248242,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [62]
 		{
-			"|cffa335ee|Hitem:184025::::::::60:269::5:4:7188:6652:1485:6646::::|h[Memory of Past Sins]|h|r|cffa335ee|Hitem:179350::::::::60:269::35:5:7207:6652:1501:5874:6646::::|h[Inscrutable Quantum Device]|h|r|cffa335ee|Hitem:177846::::::::60:269::39:4:7140:6652:1485:6646::::|h[Sinful Gladiator's Gladius]|h|r which fucking one", -- [1]
-			"Naughtyninja-Silvermoon", -- [2]
+			"LFW |cffffd000|Htrade:Player-3391-0BA7FF00:2108:165|h[Leatherworking]|h|r crafting your rank1 , free with your mats, will give 1k each !!!!", -- [1]
+			"Hunterari-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Hunterari-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3436, -- [11]
-			"Player-3391-0BB73B63", -- [12]
+			5830, -- [11]
+			"Player-3391-0BA7FF00", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Naughtyninja|r",
-			[51] = 1608118760,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa9d271Hunterari|r",
+			[51] = 1608248243,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [63]
 		{
-			"are you switching to fire oya???", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:172327::::::::60:252::65:2:6718:1522::::|h[Boneshatter Pauldrons]|h|r Rank 3 Mail shoulders!", -- [1]
+			"Xatanic-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Xatanic-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3437, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5831, -- [11]
+			"Player-3391-0A22C557", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118762,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffc31d39Xatanic|r",
+			[51] = 1608248243,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [64]
 		{
-			"i was thinking about it", -- [1]
-			"Eloyà-Silvermoon", -- [2]
+			"<Incineration> are recruiting raiders for our newly formed 20 man team. We need a mage and healer (pref monk/pala) We do normal and HC progression in a friendly and layed back enviroment. We raid Wednesday and Sunday. Whisp for information", -- [1]
+			"Bierlina-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Bierlina-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3438, -- [11]
-			"Player-3391-0B3E1E4B", -- [12]
+			5832, -- [11]
+			"Player-3391-0B3FB057", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaEloyà|r",
-			[51] = 1608118773,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffefefeBierlina|r",
+			[51] = 1608248247,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [65]
 		{
-			"|cffa335ee|Hitem:179350::::::::60:258::35:5:7207:6652:1501:5874:6646::::|h[Inscrutable Quantum Device]|h|r is a sim bait and is really difficult to use in raids, strong in m+ though", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"<!> RCU <!> Is selling Castle Nathria NM/HC Boost, Also selling Mythic+ Up to 15 Untimed, we also offer Mounts and legacy boosts /w For info", -- [1]
+			"Norahx-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Norahx-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3439, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5835, -- [11]
+			"Player-3391-0BB00ACC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118786,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa22fc8Norahx|r",
+			[51] = 1608248253,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [66]
 		{
-			"why do?", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"WTS |cffa335ee|Hitem:183008::::::::60:258::3:4:7189:6652:1472:6646:1:28:751:::|h[Supple Supplicant's Gloves]|h|r cheaper than AH", -- [1]
+			"Evilshadee-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Evilshadee-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3440, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			5836, -- [11]
+			"Player-3391-0B9CE597", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118800,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffefefeEvilshadee|r",
+			[51] = 1608248253,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [67]
 		{
-			"yea, i have a 220 in vault atm", -- [1]
-			"Eloyà-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:172325::::::::60:263::63:1:3524::::|h[Boneshatter Helm]|h|r Rank 2 (210 ilvl). Also crafting with your mats :P", -- [1]
+			"Joriir-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Joriir-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3441, -- [11]
-			"Player-3391-0B3E1E4B", -- [12]
+			5837, -- [11]
+			"Player-3391-0A34319E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaEloyà|r",
-			[51] = 1608118803,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff006fdcJoriir|r",
+			[51] = 1608248265,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [68]
 		{
-			"I absolutely love min", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 1.2m [Mythic 0-12 ][+5 290k /+7 350k /  +10  460k ] [Multi Run 10%-17.5% Off ] -- Torghast Boost [Layer 1-6]  Only For Gold !", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Clairredfild-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3442, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			5838, -- [11]
+			"Player-3391-0A796191", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118808,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1608248267,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [69]
 		{
-			"memory is better the more players use it", -- [1]
-			"Mìcha-Silvermoon", -- [2]
+			"10/10N, 2/10HC szuka ludzi do uzupelnienia skladu. W szczegolnosci zalezy nam na healerach! Raidy sroda, czwartek, poniedzialek, 20-23.", -- [1]
+			"Czyngischán-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Czyngischán-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3443, -- [11]
-			"Player-3391-0BA1A467", -- [12]
+			5839, -- [11]
+			"Player-3391-0B73E9C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118811,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff00fe97Czyngischán|r",
+			[51] = 1608248269,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [70]
 		{
-			"600 mastery on demand", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly quest 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Tinkyminky-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Tinkyminky-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3444, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			5841, -- [11]
+			"Player-3391-0BA970A5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118815,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff00fe97Tinkyminky|r",
+			[51] = 1608248271,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [71]
 		{
-			"the trinket?", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"<<Pugs>> Are currently recruiting for Heroic progress moving on to mythic in the coming weeks. 10/10N 7/10 HC. Looking for RANGED to finish our roster. Raid times are (Wed,Thur,Sun 19:30-22:30 ST) /w for more info!", -- [1]
+			"Jcarlo-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Jcarlo-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3445, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5842, -- [11]
+			"Player-3391-0A7CD82E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118816,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffe7b09Jcarlo|r",
+			[51] = 1608248273,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [72]
 		{
-			"I'd go for Memory", -- [1]
-			"Forkez-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Rodaki-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Rodaki-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3446, -- [11]
-			"Player-3391-0B7457D7", -- [12]
+			5844, -- [11]
+			"Player-3391-0B19AA6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Forkez|r",
-			[51] = 1608118820,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa22fc8Rodaki|r",
+			[51] = 1608248276,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [73]
 		{
-			"me and smith have it both", -- [1]
-			"Mìcha-Silvermoon", -- [2]
+			"LF Alchemy to get Arcanite Bar [Arcane Crystal][Thorium Bar]", -- [1]
+			"Dunbrand-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Dunbrand-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3447, -- [11]
-			"Player-3391-0BA1A467", -- [12]
+			5845, -- [11]
+			"Player-3391-0BB3F002", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118826,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfff38bb9Dunbrand|r",
+			[51] = 1608248277,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [74]
 		{
-			"and yea", -- [1]
-			"Mìcha-Silvermoon", -- [2]
+			"LF Leatherworker with RANK 2 MAIL shoulders! Got mats!", -- [1]
+			"Xatanic-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Xatanic-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3448, -- [11]
-			"Player-3391-0BA1A467", -- [12]
+			5848, -- [11]
+			"Player-3391-0A22C557", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118830,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffc31d39Xatanic|r",
+			[51] = 1608248279,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [75]
 		{
-			"its the damage that increases or smth, not quite sure", -- [1]
-			"Mìcha-Silvermoon", -- [2]
+			"<NOVA Community> Offers Mythic+ boosts M0-M10 [M0- 165k Shared loot] [M4- 260k] [M6- 320k] [M7- 350k] [M10- 460k] All key levels & Bulk run discounts available! [Torghast boosts - Layers 1-8] [Castle Nathria Normal full clear - 1.25M] gold only /w me", -- [1]
+			"Novasm-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Novasm-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3449, -- [11]
-			"Player-3391-0BA1A467", -- [12]
+			5851, -- [11]
+			"Player-3391-0BAA4470", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118841,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff3ec6eaNovasm|r",
+			[51] = 1608248281,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [76]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14808:Player-3391-0B0D3081:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Touring Torghast]|h|r!", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"WTS  0 to 10  & torghost all layers Only for Gold with fair prices whisper me for more info", -- [1]
+			"Uncröwned-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Yaganlock-Silvermoon", -- [5]
+			"2. Trade - City", -- [4]
+			"Uncröwned-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3451, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5857, -- [11]
+			"Player-3391-0B7175F0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118845,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cfffef367Uncröwned|r",
+			[51] = 1608248287,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [77]
 		{
-			"its just hard to get multiple uses out of it in a raid due to all the secondary effects", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"wts |cff71d5ff|Hspell:72807:0|h[Icebound Frostbrood Vanquisher]|h|r90k|cff71d5ff|Hspell:225765:0|h[Leyfeather Hippogryph]|h|r490k|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r50k", -- [1]
+			"Fullarcane-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Fullarcane-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3452, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5859, -- [11]
+			"Player-3391-0BC1BA5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118887,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff3ec6eaFullarcane|r",
+			[51] = 1608248292,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [78]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14285:Player-3391-0ADB6A78:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Ready for Raiding VII]|h|r!", -- [1]
-			"Nikeah-Silvermoon", -- [2]
+			"† LF |cff0070dd|Hitem:16007::::::::60:254:::1:3524::::|h[Flawless Arcanite Rifle]|h|r crafter! (pre-Cata engineering) † ", -- [1]
+			"Azubiel-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Nikeah-Silvermoon", -- [5]
+			"2. Trade - City", -- [4]
+			"Azubiel-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3453, -- [11]
-			"Player-3391-0ADB6A78", -- [12]
+			5862, -- [11]
+			"Player-3391-0A5A5689", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Nikeah|r",
-			[51] = 1608118894,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cffa9d271Azubiel|r",
+			[51] = 1608248295,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [79]
 		{
-			"unless you havent found that to be the case??", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-181167-3391-98178973|h[Guild: Crimson Night]|h|r rekrutuje na weekendowe zmagania :) W planie robienie PVE contentu (Norm/HC i M+).Start od zera. Zapraszam rowniez osoby  lvlujace.", -- [1]
+			"Amirte-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"2. Trade - City", -- [4]
+			"Amirte-Silvermoon", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3454, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5864, -- [11]
+			"Player-3391-0ADB107F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118898,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffef367Amirte|r",
+			[51] = 1608248297,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [80]
 		{
-			"which one", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"WTS Mythic+ 4-5-6-7  Team is ready you can check my rio for details.", -- [1]
+			"Oxebar-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Oxebar-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3455, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5867, -- [11]
+			"Player-3391-0A8179F7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118902,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff00fe97Oxebar|r",
+			[51] = 1608248298,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [81]
 		{
-			"iqd", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"LFW|cffffd000|Htrade:Player-3391-0B14CD6B:2108:165|h[Leatherworking]|h|r|cffffd000|Htrade:Player-3391-0B14CD6B:25229:755|h[Jewelcrafting]|h|r crafting any legendary with your mats for free. Need the exp!", -- [1]
+			"Tofuududu-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Tofuududu-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3456, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5868, -- [11]
+			"Player-3391-0B14CD6B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118908,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffe7b09Tofuududu|r",
+			[51] = 1608248301,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [82]
 		{
-			"the \"???' thing", -- [1]
-			"Mìcha-Silvermoon", -- [2]
+			"LF Alcgemy to get Arcanite Bar |cff1eff00|Hitem:12363::::::::60:70:::::::|h[Arcane Crystal]|h|r|cffffffff|Hitem:12359::::::::60:70:::::::|h[Thorium Bar]|h|r", -- [1]
+			"Dunbrand-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Dunbrand-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3457, -- [11]
-			"Player-3391-0BA1A467", -- [12]
+			5869, -- [11]
+			"Player-3391-0BB3F002", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118916,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfff38bb9Dunbrand|r",
+			[51] = 1608248305,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [83]
 		{
-			"ye", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"|cffffd000|Htrade:Player-3391-0A7DC958:2108:165|h[Leatherworking]|h|r LFW Crafting your rank 1 Legendary (190ilvl) free with your mats. Will give 1k each. (Rank 3 Leather gloves also.)", -- [1]
+			"Podola-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Podola-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3458, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5870, -- [11]
+			"Player-3391-0A7DC958", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118918,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff00fe97Podola|r",
+			[51] = 1608248305,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [84]
 		{
-			"tbh i always have got second uses from stats", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"<!> RCU <!> Is selling Castle Nathria NM/HC Boost, Also selling Mythic+ Up to 15 Untimed, we also offer Mounts and legacy boosts /w For info", -- [1]
+			"Norahx-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Norahx-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3460, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5871, -- [11]
+			"Player-3391-0BB00ACC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118921,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa22fc8Norahx|r",
+			[51] = 1608248305,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [85]
 		{
-			"off it", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"anyone have any idea why world quest reward ilvl reduces by 10 when i leave oribos?", -- [1]
+			"Nathely-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Nathely-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3461, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5875, -- [11]
+			"Player-3391-089314A2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118922,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffe7b09Nathely|r",
+			[51] = 1608248312,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [86]
 		{
-			"been amazing for me personally", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-181194-3391-98199972|h[Guild: Unholy Warband]|h|r looking for active members who would be intrested in raiding, mythic+ and RBG, for further information, whisper me!", -- [1]
+			"Keyaiindron-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Keyaiindron-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3462, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5876, -- [11]
+			"Player-3391-0AE1CC90", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118927,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfff38bb9Keyaiindron|r",
+			[51] = 1608248315,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [87]
 		{
-			"interesting", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"<NOVA> Offering Normal CASTLE NATHRIA 10/10 1.2m [Mythic 0-12 ][+5 290k /+7 350k /  +10  460k ] [Multi Run 10%-17.5% Off ] -- Torghast Boost [Layer 1-6]  Only For Gold !", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Clairredfild-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3463, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5878, -- [11]
+			"Player-3391-0A796191", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118928,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1608248319,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [88]
 		{
-			"Yeah same", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"<Icecrown> Selling Mythic 0s! and Mythic+ Keys +2 to +10!! Torghast Layer 1 - 8! Normal Castle Nathria spots this weekend as well! PvP rating, Rare Mounts, legacy achievements, leveling & more! /w for more info!", -- [1]
+			"Iccfourdy-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Iccfourdy-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3464, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			5879, -- [11]
+			"Player-3391-0BBDDD66", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118931,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa9d271Iccfourdy|r",
+			[51] = 1608248319,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [89]
 		{
-			"youre sure your second use is always stats?", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"WTS 7 Nemesis quests/titles-1st part of|cffffff00|Hachievement:9738:Player-3391-07CB185E:1:4:18:16:4294967295:4294967295:4294967295:4294967295|h[Warlord of Draenor]|h|r. In run you will get 7 titles+7achivements+4k broken bones.Run tomorrow 18:00ST", -- [1]
+			"Ardelis-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Ardelis-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3465, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			5881, -- [11]
+			"Player-3391-07CB185E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118941,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffefefeArdelis|r",
+			[51] = 1608248321,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [90]
 		{
-			"but i just try to time it with cd's and no one is like 20% health near me", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly quest 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Tinkyminky-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Tinkyminky-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3466, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5882, -- [11]
+			"Player-3391-0BA970A5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118943,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff00fe97Tinkyminky|r",
+			[51] = 1608248322,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [91]
 		{
-			"yes", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"<<Wild Hunt>> . We are looking for friendly active players that wanna help us .We are interested mainly in 1 healer {shamman/monk} for our raid team. Raid days thurs/sun  20.00-23.00. /w me for more info", -- [1]
+			"Atrocion-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Atrocion-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3467, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5883, -- [11]
+			"Player-3391-0804FCF3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118944,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffc31d39Atrocion|r",
+			[51] = 1608248323,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [92]
 		{
-			"only ever not get stat if im cc'ed", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"WTS Mythic0 and Mythic+ dungeon boost (speciall offer for 4 M0 weekly 213illvl item ) Torgast Layer 1-6 cheap price /w me", -- [1]
+			"Rodaki-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Rodaki-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3468, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			5886, -- [11]
+			"Player-3391-0B19AA6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118952,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa22fc8Rodaki|r",
+			[51] = 1608248330,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [93]
 		{
-			"1 dps 1 healer for m0s", -- [1]
-			"Hìmí-Silvermoon", -- [2]
+			"WTS Mythic+ Random   4-5-6-7  Team is ready you can check my rio for details.", -- [1]
+			"Oxebar-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Oxebar-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3469, -- [11]
-			"Player-3391-0B71912D", -- [12]
+			5887, -- [11]
+			"Player-3391-0A8179F7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Hìmí|r",
-			[51] = 1608118953,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff00fe97Oxebar|r",
+			[51] = 1608248332,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [94]
 		{
-			"i always check it", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"<Simplicity> Normal/Heroic raiding guild. All members are 25+ - Perfect for older player looking for a relaxed environment for content.Raid days Thur/Sun 20:00-23:00 Server Time - /w for Info. 6/10 NM Castle Nathria - Primarily Looking for Ranged DPS.", -- [1]
+			"Penski-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Penski-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3470, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5888, -- [11]
+			"Player-3391-0BAFE6C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118956,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa22fc8Penski|r",
+			[51] = 1608248334,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [95]
 		{
-			"sure himi", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"LFW |cffffd000|Htrade:Player-3391-0BA7FF00:2108:165|h[Leatherworking]|h|r crafting your rank1 , free with your mats, will give 1k each !!!!", -- [1]
+			"Hunterari-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Hunterari-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3471, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5889, -- [11]
+			"Player-3391-0BA7FF00", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118959,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa9d271Hunterari|r",
+			[51] = 1608248336,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [96]
 		{
-			"i'm game", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"WTS |cffffffff|Hitem:172325::::::::60:263::63:1:3524::::|h[Boneshatter Helm]|h|r Rank 2 (210 ilvl). Also crafting with your mats :P", -- [1]
+			"Joriir-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Joriir-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3472, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5890, -- [11]
+			"Player-3391-0A34319E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118960,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff006fdcJoriir|r",
+			[51] = 1608248343,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [97]
 		{
-			"can even control i if i want haste or mastery depending on if i use |cff71d5ff|Htalent:19293|h[Dark Soul: Misery]|h|r before or not", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"<NOVA Community> Offers Mythic+ boosts M0-M10 [M0- 165k Shared loot] [M4- 260k] [M6- 320k] [M7- 350k] [M10- 460k] All key levels & Bulk run discounts available! [Torghast boosts - Layers 1-8] [Castle Nathria Normal full clear - 1.25M] gold only /w me", -- [1]
+			"Novasm-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Novasm-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3473, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			5893, -- [11]
+			"Player-3391-0BAA4470", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118970,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff3ec6eaNovasm|r",
+			[51] = 1608248347,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [98]
 		{
-			"ye", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"WTS Mythic+ 4-5-6-7  Team is ready you can check my rio for details.", -- [1]
+			"Oxebar-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Oxebar-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			3474, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			5895, -- [11]
+			"Player-3391-0A8179F7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118977,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cff00fe97Oxebar|r",
+			[51] = 1608248358,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

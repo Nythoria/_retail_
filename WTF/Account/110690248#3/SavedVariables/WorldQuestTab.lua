@@ -22,13 +22,13 @@ BWQDB = {
 		["Aryenís - Silvermoon"] = {
 			["activeProfile"] = 0,
 		},
-		["Victoríque - Silvermoon"] = {
+		["Kúsano - Draenor"] = {
 			["activeProfile"] = 0,
 		},
 		["Ririchíyo - Twisting Nether"] = {
 			["activeProfile"] = 0,
 		},
-		["Kúsano - Draenor"] = {
+		["Victoríque - Silvermoon"] = {
 			["activeProfile"] = 0,
 		},
 	},
@@ -40,13 +40,13 @@ BWQDB = {
 				["list"] = {
 					["alwaysAllQuests"] = true,
 				},
+				["external"] = {
+				},
 				["pin"] = {
 					["fadeOnPing"] = false,
 					["continentVisible"] = 3,
 					["ringType"] = 1,
 					["filterPoI"] = false,
-				},
-				["external"] = {
 				},
 				["general"] = {
 					["bountyReward"] = true,
@@ -75,8 +75,8 @@ BWQDB = {
 		["Croesus - Ravencrest"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
 		["Aryenís - Silvermoon"] = "Default",
-		["Victoríque - Silvermoon"] = "Default",
-		["Ririchíyo - Twisting Nether"] = "Default",
 		["Kúsano - Draenor"] = "Default",
+		["Ririchíyo - Twisting Nether"] = "Default",
+		["Victoríque - Silvermoon"] = "Default",
 	},
 }

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 1618,
 	["lastSanitation"] = 3,
-	["session"] = 1617,
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\CompactUnitFrame.lua:530: Usage: local nameplateShowsWidgetsOnly = UnitNameplateShowsWidgetsOnly(unit)",
@@ -301,44 +301,13 @@ BugGrabberDB = {
 			["counter"] = 46,
 		}, -- [38]
 		{
-			["message"] = "...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:216: Usage: GetRaidTargetIndex(unit)",
-			["time"] = "2020/12/12 20:40:17",
-			["locals"] = "(*temporary) = nil\n",
-			["stack"] = "[string \"=[C]\"]: in function `GetRaidTargetIndex'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:216: in function `OnRaidTargetUpdate'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:122: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
-			["session"] = 1577,
-			["counter"] = 3,
-		}, -- [39]
-		{
-			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'RCLootCouncil' tried to call the protected function 'SetTargetClampingInsets()'.",
-			["time"] = "2020/12/02 21:06:26",
-			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetTargetClampingInsets'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:305: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:244>\n[string \"=[C]\"]: in function `SetupClassNameplateBars'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:119: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
-			["session"] = 1577,
-			["counter"] = 2,
-		}, -- [40]
-		{
-			["message"] = "...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:470: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: <unnamed>:GetLeft().",
-			["time"] = "2020/12/02 20:03:28",
-			["locals"] = "(*temporary) = <unnamed> {\n otherHealPrediction = <unnamed> {\n }\n b = 0\n myHealAbsorbLeftShadow = <unnamed> {\n }\n border = <unnamed> {\n }\n background = <unnamed> {\n }\n overAbsorbGlow = <unnamed> {\n }\n barTexture = <unnamed> {\n }\n 0 = <userdata>\n r = 0.999998\n totalAbsorb = <unnamed> {\n }\n myHealPrediction = <unnamed> {\n }\n g = 0\n totalAbsorbOverlay = <unnamed> {\n }\n myHealAbsorbRightShadow = <unnamed> {\n }\n overHealAbsorbGlow = <unnamed> {\n }\n myHealAbsorb = <unnamed> {\n }\n}\n",
-			["stack"] = "[string \"=[C]\"]: in function `GetLeft'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:470: in function `GetPreferredInsets'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:166: in function `UpdateInsetsForType'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:150: in function `ApplyFrameOptions'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:116: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
-			["session"] = 1577,
-			["counter"] = 4,
-		}, -- [41]
-		{
-			["message"] = "Interface\\FrameXML\\AuraUtil.lua:58: Usage: local continuationToken, slot1, slot2, ... = UnitAuraSlots(\"unit\" [, \"filter\"][, maxSlots][, continuationToken])",
-			["time"] = "2020/12/02 21:30:08",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"HARMFUL|INCLUDE_NAME_PLATE_ONLY\"\n(*temporary) = 32\n(*temporary) = nil\n",
-			["stack"] = "[string \"=[C]\"]: in function `UnitAuraSlots'\n[string \"@Interface\\FrameXML\\AuraUtil.lua\"]:58: in function `ForEachAura'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:597: in function `UpdateBuffs'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:209: in function `OnUnitAuraUpdate'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:65: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
-			["session"] = 1577,
-			["counter"] = 23,
-		}, -- [42]
-		{
 			["message"] = "...ns\\Blizzard_AchievementUI\\Blizzard_AchievementUI-1.0.lua:717: Usage: GetCategoryNumAchievements(categoryID, includeSuperceded)",
 			["time"] = "2020/12/12 23:34:17",
 			["locals"] = "(*temporary) = \"summary\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `GetCategoryNumAchievements'\n[string \"@Interface\\AddOns\\Blizzard_AchievementUI\\Blizzard_AchievementUI-1.0.lua\"]:717: in function `AchievementFrameComparison_UpdateStatusBars'\n[string \"@Interface\\AddOns\\Blizzard_AchievementUI\\Blizzard_AchievementUI-1.0.lua\"]:2922: in function <...ns\\Blizzard_AchievementUI\\Blizzard_AchievementUI.lua:2919>",
 			["session"] = 1577,
 			["counter"] = 1,
-		}, -- [43]
+		}, -- [39]
 		{
 			["message"] = "Interface\\AddOns\\BigWigs_Core\\BossPrototype.lua:2462: C_Timer.After requires a non-negative duration",
 			["time"] = "2020/12/13 19:04:48",
@@ -346,7 +315,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\BigWigs_Core\\BossPrototype.lua\"]:2462: in function `YellCountdown'\n[string \"@Interface\\AddOns\\BigWigs_CastleNathria\\SunKingsSalvation.lua\"]:348: in function `?'\n[string \"@Interface\\AddOns\\BigWigs_Core\\Core.lua\"]:59: in function <Interface\\AddOns\\BigWigs_Core\\Core.lua:54>",
 			["session"] = 1579,
 			["counter"] = 1,
-		}, -- [44]
+		}, -- [40]
 		{
 			["message"] = "[string \"--[==[ Error in 'Raid Mana' ]==] return fun...\"]:9: table index is nil",
 			["time"] = "2020/12/11 21:01:07",
@@ -354,14 +323,14 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:651: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:534>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:730: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:689: in function `ScanEvents'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:835: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:822>",
 			["session"] = 1597,
 			["counter"] = 32,
-		}, -- [45]
+		}, -- [41]
 		{
 			["message"] = "...eGUI-Widgets\\AceGUIWidget-WeakAurasDisplayButton.lua:1056: Display \"Death Strike Tracker\" thinks it is a member of group \"Death Knight Misc\" which does not control it\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIWidget-WeakAurasDisplayButton.lua\"]:1056: in function `Initialize'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.1.4.lua\"]:562: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:556>\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua\"]:849: in function `NewDisplayButton'\n[string \"@Interface\\AddOns\\WeakAuras\\Transmission.lua\"]:435: in function <Interface\\AddOns\\WeakAuras\\Transmission.lua:392>\n",
 			["time"] = "2020/12/15 09:34:57",
 			["stack"] = "",
 			["session"] = 1601,
 			["counter"] = 1,
-		}, -- [46]
+		}, -- [42]
 		{
 			["message"] = "...ns\\Blizzard_WeeklyRewards\\Blizzard_WeeklyRewards.lua:429: attempt to index local 'runInfo' (a nil value)",
 			["time"] = "2020/12/14 15:01:51",
@@ -369,7 +338,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_WeeklyRewards\\Blizzard_WeeklyRewards.lua\"]:429: in function `HandlePreviewMythicRewardTooltip'\n[string \"@Interface\\AddOns\\Blizzard_WeeklyRewards\\Blizzard_WeeklyRewards.lua\"]:380: in function `ShowPreviewItemTooltip'\n[string \"@Interface\\AddOns\\Blizzard_WeeklyRewards\\Blizzard_WeeklyRewards.lua\"]:357: in function <...ns\\Blizzard_WeeklyRewards\\Blizzard_WeeklyRewards.lua:355>",
 			["session"] = 1608,
 			["counter"] = 19,
-		}, -- [47]
+		}, -- [43]
 		{
 			["message"] = "Interface\\AddOns\\xCT+\\modules\\combattext.lua:876: bad argument #2 to 'match' (string expected, got nil)",
 			["time"] = "2020/12/08 18:58:52",
@@ -377,14 +346,14 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `match'\n[string \"@Interface\\AddOns\\xCT+\\modules\\combattext.lua\"]:876: in function `?'\n[string \"@Interface\\AddOns\\xCT+\\modules\\combattext.lua\"]:529: in function <Interface\\AddOns\\xCT+\\modules\\combattext.lua:512>",
 			["session"] = 1609,
 			["counter"] = 22,
-		}, -- [48]
+		}, -- [44]
 		{
 			["message"] = "[string \"--[==[ Error in 'ato_count_injured' ]==] re...\"]:55: attempt to index field 'triggerState' (a nil value)",
 			["time"] = "2020/12/16 00:51:35",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:598: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:534>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:805: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1089: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1658: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1482: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1359>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1514: in function `ScanForLoads'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1564: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1562>",
 			["session"] = 1609,
 			["counter"] = 28,
-		}, -- [49]
+		}, -- [45]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua:300: attempt to call method 'SetBackdropBorderColor' (a nil value)",
 			["time"] = "2020/12/16 09:24:46",
@@ -392,6 +361,45 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:300: in function `HandleIconBorder'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\WeeklyRewards.lua\"]:84: in function <...ddOns\\ElvUI\\Modules\\Skins\\Blizzard\\WeeklyRewards.lua:79>\n[string \"=[C]\"]: in function `SelectReward'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 1612,
 			["counter"] = 2,
+		}, -- [46]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'RCLootCouncil' tried to call the protected function 'SetTargetClampingInsets()'.",
+			["time"] = "2020/12/02 21:06:26",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetTargetClampingInsets'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:305: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:244>\n[string \"=[C]\"]: in function `SetupClassNameplateBars'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:119: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
+			["session"] = 1618,
+			["counter"] = 3,
+		}, -- [47]
+		{
+			["message"] = "...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:216: Usage: GetRaidTargetIndex(unit)",
+			["time"] = "2020/12/12 20:40:17",
+			["locals"] = "(*temporary) = nil\n",
+			["stack"] = "[string \"=[C]\"]: in function `GetRaidTargetIndex'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:216: in function `OnRaidTargetUpdate'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:122: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
+			["session"] = 1618,
+			["counter"] = 10,
+		}, -- [48]
+		{
+			["message"] = "Interface\\FrameXML\\CompactUnitFrame.lua:2023: Attempt to access forbidden object from code tainted by an AddOn",
+			["time"] = "2020/12/17 19:14:23",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n Flash = <unnamed> {\n }\n showCastbar = true\n background = <unnamed> {\n }\n Icon = <unnamed> {\n }\n startChannelColor = <table> {\n }\n finishedCastColor = <table> {\n }\n iconWhenNoninterruptible = true\n Text = <unnamed> {\n }\n additionalFadeWidgets = <table> {\n }\n Spark = <unnamed> {\n }\n BorderShield = <unnamed> {\n }\n finishedColorSameAsStart = true\n startCastColor = <table> {\n }\n flashColorSameAsStart = true\n failedCastColor = <table> {\n }\n nonInterruptibleColor = <table> {\n }\n}\n(*temporary) = 8\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:2023: in function `DefaultCompactNamePlateFrameSetupInternal'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:1983: in function `DefaultCompactNamePlateFrameSetup'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:2000: in function `func'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:224: in function `CompactUnitFrame_SetUpFrame'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:141: in function `ApplyFrameOptions'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:116: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
+			["session"] = 1618,
+			["counter"] = 92,
+		}, -- [49]
+		{
+			["message"] = "...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:470: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: <unnamed>:GetLeft().",
+			["time"] = "2020/12/02 20:03:28",
+			["locals"] = "(*temporary) = <unnamed> {\n otherHealPrediction = <unnamed> {\n }\n b = 0\n myHealAbsorbLeftShadow = <unnamed> {\n }\n border = <unnamed> {\n }\n background = <unnamed> {\n }\n overAbsorbGlow = <unnamed> {\n }\n barTexture = <unnamed> {\n }\n 0 = <userdata>\n r = 0.999998\n totalAbsorb = <unnamed> {\n }\n myHealPrediction = <unnamed> {\n }\n g = 0\n totalAbsorbOverlay = <unnamed> {\n }\n myHealAbsorbRightShadow = <unnamed> {\n }\n overHealAbsorbGlow = <unnamed> {\n }\n myHealAbsorb = <unnamed> {\n }\n}\n",
+			["stack"] = "[string \"=[C]\"]: in function `GetLeft'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:470: in function `GetPreferredInsets'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:166: in function `UpdateInsetsForType'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:150: in function `ApplyFrameOptions'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:116: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
+			["session"] = 1618,
+			["counter"] = 6,
 		}, -- [50]
+		{
+			["message"] = "Interface\\FrameXML\\AuraUtil.lua:58: Usage: local continuationToken, slot1, slot2, ... = UnitAuraSlots(\"unit\" [, \"filter\"][, maxSlots][, continuationToken])",
+			["time"] = "2020/12/02 21:30:08",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"HARMFUL|INCLUDE_NAME_PLATE_ONLY\"\n(*temporary) = 32\n(*temporary) = nil\n",
+			["stack"] = "[string \"=[C]\"]: in function `UnitAuraSlots'\n[string \"@Interface\\FrameXML\\AuraUtil.lua\"]:58: in function `ForEachAura'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:597: in function `UpdateBuffs'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:209: in function `OnUnitAuraUpdate'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:65: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
+			["session"] = 1618,
+			["counter"] = 31,
+		}, -- [51]
 	},
 }

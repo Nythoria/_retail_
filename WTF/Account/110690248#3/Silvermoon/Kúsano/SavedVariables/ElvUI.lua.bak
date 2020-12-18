@@ -1,0 +1,315 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"<<Trio>> is newly formed (very) primarily raiding guild. We are looking for mainly DPS and Healers (not toxic ppl tho.). Raid times are 12pm Saturday and Sunday. Whisper me if you got any questions!", -- [1]
+			"Maybee-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maybee-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3923, -- [11]
+			"Player-3391-0AE3050A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Maybee|r",
+			[51] = 1608316762,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"XD", -- [1]
+			"Kavlakì-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kavlakì-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3926, -- [11]
+			"Player-3391-09F954F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Kavlakì|r",
+			[51] = 1608316763,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"|cffa335ee|Hitem:184794::::::::60:102:::4:6652:7193:1472:6646:1:28:1707:::|h[Viller's Traveling Chain]|h|r WTS 250k cheaper than ah ", -- [1]
+			"Sarpanitsama-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sarpanitsama-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3937, -- [11]
+			"Player-3391-0B8CA8E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sarpanitsama|r",
+			[51] = 1608316768,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"AHAHHAHAHAAHAHAHHA", -- [1]
+			"Vãlkyrîe-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vãlkyrîe-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3945, -- [11]
+			"Player-3391-0BBDF155", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVãlkyrîe|r",
+			[51] = 1608316771,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"NA FAS ESU PIPES ", -- [1]
+			"Pyrokavleta-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pyrokavleta-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3947, -- [11]
+			"Player-3391-0AF69BE4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Pyrokavleta|r",
+			[51] = 1608316773,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"WTS |cffa335ee|Hitem:184785::::::::60:72::3:4:6652:7194:1472:6646:1:28:751:::|h[Gaiazelle's Spiked Collar]|h|r", -- [1]
+			"Whisia-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Whisia-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3948, -- [11]
+			"Player-3391-0682BCAD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cWhisia|r",
+			[51] = 1608316773,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"WTS |cffa335ee|Hitem:184794::::::::60:577:::4:6652:7193:1472:6646:1:28:1707:::|h[Viller's Traveling Chain]|h|r Cheaper than AH", -- [1]
+			"Havocos-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Havocos-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3952, -- [11]
+			"Player-3391-0AFDD1D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Havocos|r",
+			[51] = 1608316779,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"|cff0070dd|Hitem:184490::::::::60:70:::::::|h[Fae Pipes]|h|r OLOI SAS!", -- [1]
+			"Tieria-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tieria-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3955, -- [11]
+			"Player-3391-0BACDF45", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Tieria|r",
+			[51] = 1608316784,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"Selling Castle Nathria normal runs! Done by 12/12M Ny'alotha guilds & teams. Selling Sire Denathrius and Stone Legion Generals too! Please note, ONLY GOLD! No RMT. ", -- [1]
+			"Ghankdob-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ghankdob-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3957, -- [11]
+			"Player-3391-0AD1E419", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ghankdob|r",
+			[51] = 1608316786,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [9]
+		{
+			"WTS iLvl 207 Leather Head |cffa335ee|Hitem:184791::::::::60:62:::4:6652:7194:1472:6646:1:28:1707:::|h[Azsharys' Lunar Veil]|h|r 420k - BiS stats for tanks, Cheaper than AH", -- [1]
+			"Majoche-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Majoche-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3960, -- [11]
+			"Player-3391-0B1108CF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMajoche|r",
+			[51] = 1608316789,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [10]
+		{
+			"<Flex Army> 10/10N 3/10H are looking for more people to join our casual guild. We aim to do Mythic & M+ /w for info!", -- [1]
+			"Wavel-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Wavel-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3961, -- [11]
+			"Player-3391-09F9E869", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcWavel|r",
+			[51] = 1608316790,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [11]
+		{
+			"<NOVA> Offering Tonight Normal CASTLE NATHRIA 10/10 1200k  / Tonight HC CASTLE NATHRIA 5/10  1150k -- [Mythic 0-12 ][+5 290k /+7 350k /  +10  460k ] [Multi Run 10%-17.5% Off ] -- Torghast Boost [Layer 1-8]  Only For Gold !", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Clairredfild-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3963, -- [11]
+			"Player-3391-0A796191", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1608316792,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [12]
+		{
+			"pes ta Tieria-Silvermoon", -- [1]
+			"Wizzbizz-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Wizzbizz-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3965, -- [11]
+			"Player-3391-0B33057C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Wizzbizz|r",
+			[51] = 1608316794,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [13]
+		{
+			"WTS |cff0070dd|Hitem:172097::::::::60:103:::::::|h[Heavy Callous Hide]|h|r 1740g each", -- [1]
+			"Sencer-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sencer-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3967, -- [11]
+			"Player-3391-0BB1C03C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sencer|r",
+			[51] = 1608316796,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [14]
+	},
+}

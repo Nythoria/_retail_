@@ -96,6 +96,7 @@ local Heartstones = {
     172179, -- 永恆旅人的爐石
     180290, -- 暗夜妖精的爐石
     182773, -- 死靈領主爐石
+    183716, -- 汎希爾罪孽石
     184353, -- 琪瑞安族爐石
     ---------------------
     48933, --蟲洞產生器：北裂境
@@ -238,10 +239,12 @@ local ButtonTypes = {
         name = L["Encounter Journal"],
         icon = W.Media.Icons.barEncounterJournal,
         macro = {
-            LeftButton = "/click EJMicroButton"
+            LeftButton = "/click EJMicroButton",
+            RightButton = '/run WeeklyRewards_LoadUI(); WeeklyRewardsFrame:Show()'
         },
         tooltips = {
-            L["Encounter Journal"]
+            LeftButtonIcon .. " " .. L["Encounter Journal"],
+            RightButtonIcon .. " " .. L["Weekly Rewards"]
         }
     },
     FRIENDS = {

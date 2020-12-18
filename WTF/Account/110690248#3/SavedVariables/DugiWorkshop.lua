@@ -9,6 +9,6 @@ LSWConfig = {
 	},
 	["forceCraft"] = false,
 	["valueAsPercent"] = false,
-	["residualPricing"] = "resale",
 	["residualValueFactor"] = 50,
+	["residualPricing"] = "resale",
 }

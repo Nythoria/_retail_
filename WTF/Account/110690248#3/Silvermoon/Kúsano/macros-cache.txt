@@ -1,0 +1,72 @@
+VER 3 010000000000000C "Cenarion Ward" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Cenarion Ward; [@target, help, exists]Cenarion Ward; [@player]Cenarion Ward
+END
+VER 3 010000000000001A "dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm]Soothe; [@mouseover, help, exists]Remove Corruption; [@target, exists, harm]Soothe; [@target, help, exists][@player]Remove Corruption
+END
+VER 3 0100000000000016 "dispell" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists][@target, help, exists][@player]Nature's Cure
+END
+VER 3 010000000000000D "Displacer" "INV_MISC_QUESTIONMARK"
+#showtooltip Displacer Beast
+/cast Displacer Beast
+/cancelaura Cat Form
+END
+VER 3 0100000000000018 "Efflo" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Efflorescence
+/stopspelltarget
+END
+VER 3 010000000000000B "Frenzied Regen" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura [mod:ctrl]Bear Form
+/cast [stance:1]Frenzied Regeneration; Bear Form
+END
+VER 3 010000000000000E "HT/Wrath" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Healing Touch; [@target, help, exists]Healing Touch; [@target, harm, exists]Solar Wrath; [@player]Healing Touch
+END
+VER 3 0100000000000001 "Innervate" "136048"
+#showtooltip
+/cast [@player]Innervate
+END
+VER 3 0100000000000019 "InnervateBalance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Innervate
+END
+VER 3 010000000000000F "Ironbark" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Ironbark; [@target, help, exists]Ironbark; [@player]Ironbark
+END
+VER 3 0100000000000010 "MF/Rejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Rejuvenation; [@target, help, exists]Rejuvenation; [@target, harm, exists]Moonfire; [@player]Rejuvenation
+END
+VER 3 0100000000000015 "NoForm" "132125"
+#showtooltip
+/cast !Cat Form
+END
+VER 3 0100000000000011 "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Regrowth; [@target, help, exists]Regrowth; [@player]Regrowth
+END
+VER 3 0100000000000012 "SF/LB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Lifebloom; [@target, help, exists]Lifebloom; [@target, harm, exists]Sunfire; [@player]Lifebloom
+END
+VER 3 0100000000000013 "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Swiftmend; [@target, help, exists]Swiftmend; [@player]Swiftmend
+END
+VER 3 0100000000000017 "Ursol's Vortex" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Ursol's Vortex
+/stopspelltarget
+END
+VER 3 0100000000000014 "Wild Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, exists]Wild Growth; [@target, help, exists]Wild Growth; [@player]Wild Growth
+END

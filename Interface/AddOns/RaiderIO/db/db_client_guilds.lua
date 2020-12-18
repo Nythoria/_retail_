@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2020-12-17T17:39:23Z
+-- RaiderIO Client Data. Generated on 2020-12-18T19:21:07Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -147,42 +147,76 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 12916,
+        ["zone_id"] = 13334,
         ["level"] = 12,
-        ["upgrades"] = 0,
-        ["fraction"] = 1.0109699264090357,
-        ["clear_time"] = "00:36:24.705",
+        ["upgrades"] = 1,
+        ["fraction"] = 0.9824203122822389,
+        ["clear_time"] = "00:29:29.338",
         ["party"] = {
           [1] = {
-            ["name"] = "Delagiator",
+            ["name"] = "Doríáth",
             ["role"] = "tank",
             ["class_id"] = 2
           },
           [2] = {
-            ["name"] = "Hoottz",
+            ["name"] = "Wildlyfe",
             ["role"] = "healer",
-            ["class_id"] = 7
+            ["class_id"] = 11
           },
           [3] = {
-            ["name"] = "Grimm",
-            ["role"] = "dps",
-            ["class_id"] = 5
-          },
-          [4] = {
-            ["name"] = "Vorqia",
+            ["name"] = "Itsmezini",
             ["role"] = "dps",
             ["class_id"] = 4
           },
-          [5] = {
-            ["name"] = "Раздрожулька",
+          [4] = {
+            ["name"] = "Junî",
             ["role"] = "dps",
-            ["class_id"] = 3
+            ["class_id"] = 11
+          },
+          [5] = {
+            ["name"] = "Krayyt",
+            ["role"] = "dps",
+            ["class_id"] = 5
           }
         }
       }
     },
     ["weekly_best"] = {
       [1] = {
+        ["zone_id"] = 13334,
+        ["level"] = 12,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.9824203122822389,
+        ["clear_time"] = "00:29:29.338",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Doríáth",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Wildlyfe",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Itsmezini",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          },
+          [4] = {
+            ["name"] = "Junî",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [5] = {
+            ["name"] = "Krayyt",
+            ["role"] = "dps",
+            ["class_id"] = 5
+          }
+        }
+      },
+      [2] = {
         ["zone_id"] = 12916,
         ["level"] = 11,
         ["upgrades"] = 2,
@@ -216,7 +250,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [2] = {
+      [3] = {
         ["zone_id"] = 13334,
         ["level"] = 11,
         ["upgrades"] = 1,
@@ -250,20 +284,20 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
-        ["zone_id"] = 13309,
+      [4] = {
+        ["zone_id"] = 12831,
         ["level"] = 11,
-        ["upgrades"] = 0,
-        ["fraction"] = 1.145885154158545,
-        ["clear_time"] = "00:44:42.516",
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8260950167087677,
+        ["clear_time"] = "00:25:37.362",
         ["party"] = {
           [1] = {
-            ["name"] = "Когнара",
+            ["name"] = "Perlite",
             ["role"] = "tank",
-            ["class_id"] = 12
+            ["class_id"] = 2
           },
           [2] = {
-            ["name"] = "Дружелюбие",
+            ["name"] = "Kabior",
             ["role"] = "healer",
             ["class_id"] = 7
           },
@@ -273,82 +307,48 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 4
           },
           [4] = {
-            ["name"] = "Братмелло",
-            ["role"] = "dps",
-            ["class_id"] = 4
-          },
-          [5] = {
-            ["name"] = "Наготове",
-            ["role"] = "dps",
-            ["class_id"] = 9
-          }
-        }
-      },
-      [4] = {
-        ["zone_id"] = 13309,
-        ["level"] = 11,
-        ["upgrades"] = 0,
-        ["fraction"] = 1.1816339947176397,
-        ["clear_time"] = "00:46:06.204",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Lorant",
-            ["role"] = "tank",
-            ["class_id"] = 2
-          },
-          [2] = {
-            ["name"] = "Saorise",
-            ["role"] = "healer",
-            ["class_id"] = 2
-          },
-          [3] = {
-            ["name"] = "Leylight",
+            ["name"] = "Krayyt",
             ["role"] = "dps",
             ["class_id"] = 5
           },
-          [4] = {
-            ["name"] = "Zárgothrax",
-            ["role"] = "dps",
-            ["class_id"] = 9
-          },
           [5] = {
-            ["name"] = "Éadrom",
+            ["name"] = "Vanarch",
             ["role"] = "dps",
-            ["class_id"] = 5
+            ["class_id"] = 11
           }
         }
       },
       [5] = {
-        ["zone_id"] = 13334,
-        ["level"] = 10,
+        ["zone_id"] = 13228,
+        ["level"] = 11,
         ["upgrades"] = 1,
-        ["fraction"] = 0.8385784778336912,
-        ["clear_time"] = "00:25:10.279",
+        ["fraction"] = 0.8334462224665596,
+        ["clear_time"] = "00:31:41.090",
         ["party"] = {
           [1] = {
-            ["name"] = "Lorant",
+            ["name"] = "Nazgul",
             ["role"] = "tank",
-            ["class_id"] = 2
+            ["class_id"] = 12
           },
           [2] = {
-            ["name"] = "Saorise",
+            ["name"] = "Tépii",
             ["role"] = "healer",
-            ["class_id"] = 2
+            ["class_id"] = 10
           },
           [3] = {
-            ["name"] = "Draugodan",
+            ["name"] = "Itsmezini",
             ["role"] = "dps",
-            ["class_id"] = 6
+            ["class_id"] = 4
           },
           [4] = {
-            ["name"] = "Incerva",
+            ["name"] = "Yirkarja",
             ["role"] = "dps",
-            ["class_id"] = 2
+            ["class_id"] = 11
           },
           [5] = {
-            ["name"] = "Zárgothrax",
+            ["name"] = "Ínfíníté",
             ["role"] = "dps",
-            ["class_id"] = 9
+            ["class_id"] = 1
           }
         }
       }

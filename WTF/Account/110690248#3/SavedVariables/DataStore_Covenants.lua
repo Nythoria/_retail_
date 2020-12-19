@@ -3,18 +3,30 @@ DataStore_CovenantsDB = {
 	["profileKeys"] = {
 		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
-		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
 		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Silvermoon.Aryenís"] = {
+				["lastUpdate"] = 1607077591,
+				["RenownLevel"] = 1,
+			},
 			["Default.Silvermoon.Akatsúki"] = {
 				["CovenantID"] = 4,
 				["lastUpdate"] = 1607510868,
+				["RenownLevel"] = 1,
+			},
+			["Default.Ravencrest.Eléonora"] = {
+				["lastUpdate"] = 1608321914,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 10000,
+				},
 				["RenownLevel"] = 1,
 			},
 			["Default.Silvermoon.Ririchíyo"] = {
@@ -184,7 +196,7 @@ DataStore_CovenantsDB = {
 						},
 					},
 				},
-				["lastUpdate"] = 1608240905,
+				["lastUpdate"] = 1608336489,
 				["ConduitReinforceProgress"] = 6,
 				["ConduitOriginPosition"] = {
 					["y"] = 0.2016096115112305,
@@ -195,26 +207,26 @@ DataStore_CovenantsDB = {
 				},
 				["ActiveSoulbindID"] = 7,
 				["AnimaCurrency"] = {
-					["count"] = 3296,
+					["count"] = 3234,
 					["maxDisplayable"] = 10000,
 				},
 				["ConduitCollection"] = {
 					[107] = {
-						["conduitSpecName"] = "Shadow",
-						["conduitItemID"] = 182131,
-						["conduitItemLevel"] = 200,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 33,
 						["conduitID"] = 107,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 200,
+						["conduitItemID"] = 182131,
+						["conduitSpecSetID"] = 33,
+						["conduitSpecName"] = "Shadow",
 						["conduitRank"] = 5,
 					},
 					[81] = {
-						["conduitSpecName"] = "Discipline",
-						["conduitItemID"] = 181867,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 31,
 						["conduitID"] = 81,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 181867,
+						["conduitSpecSetID"] = 31,
+						["conduitSpecName"] = "Discipline",
 						["conduitRank"] = 4,
 					},
 					[85] = {
@@ -224,23 +236,6 @@ DataStore_CovenantsDB = {
 						["conduitItemID"] = 181962,
 						["conduitRank"] = 1,
 					},
-					[72] = {
-						["conduitID"] = 72,
-						["conduitItemLevel"] = 145,
-						["conduitItemID"] = 181840,
-						["conduitSpecSetID"] = 166,
-						["conduitType"] = 2,
-						["conduitRank"] = 1,
-					},
-					[78] = {
-						["conduitSpecName"] = "Holy",
-						["conduitItemID"] = 181847,
-						["conduitItemLevel"] = 171,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 32,
-						["conduitID"] = 78,
-						["conduitRank"] = 3,
-					},
 					[67] = {
 						["conduitID"] = 67,
 						["conduitItemLevel"] = 200,
@@ -248,95 +243,112 @@ DataStore_CovenantsDB = {
 						["conduitItemID"] = 181827,
 						["conduitRank"] = 5,
 					},
-					[116] = {
-						["conduitSpecName"] = "Holy",
-						["conduitItemID"] = 182141,
-						["conduitItemLevel"] = 200,
+					[78] = {
+						["conduitID"] = 78,
 						["conduitType"] = 1,
+						["conduitItemLevel"] = 171,
+						["conduitItemID"] = 181847,
 						["conduitSpecSetID"] = 32,
+						["conduitSpecName"] = "Holy",
+						["conduitRank"] = 3,
+					},
+					[82] = {
+						["conduitID"] = 82,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 181942,
+						["conduitSpecSetID"] = 32,
+						["conduitSpecName"] = "Holy",
+						["conduitRank"] = 4,
+					},
+					[116] = {
 						["conduitID"] = 116,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 200,
+						["conduitItemID"] = 182141,
+						["conduitSpecSetID"] = 32,
+						["conduitSpecName"] = "Holy",
 						["conduitRank"] = 5,
 					},
 					[75] = {
-						["conduitSpecName"] = "Discipline",
-						["conduitItemID"] = 181843,
-						["conduitItemLevel"] = 200,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 31,
 						["conduitID"] = 75,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 200,
+						["conduitItemID"] = 181843,
+						["conduitSpecSetID"] = 31,
+						["conduitSpecName"] = "Discipline",
 						["conduitRank"] = 5,
 					},
-					[84] = {
-						["conduitSpecName"] = "Holy",
-						["conduitItemID"] = 181944,
-						["conduitItemLevel"] = 184,
+					[114] = {
+						["conduitID"] = 114,
 						["conduitType"] = 1,
-						["conduitSpecSetID"] = 32,
-						["conduitID"] = 84,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 182139,
+						["conduitSpecSetID"] = 33,
+						["conduitSpecName"] = "Shadow",
 						["conduitRank"] = 4,
 					},
 					[113] = {
-						["conduitSpecName"] = "Shadow",
-						["conduitItemID"] = 182138,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 33,
 						["conduitID"] = 113,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 182138,
+						["conduitSpecSetID"] = 33,
+						["conduitSpecName"] = "Shadow",
 						["conduitRank"] = 4,
 					},
 					[87] = {
 						["conduitID"] = 87,
 						["conduitItemLevel"] = 171,
-						["conduitItemID"] = 181974,
-						["conduitSpecSetID"] = 166,
 						["conduitType"] = 1,
+						["conduitSpecSetID"] = 166,
+						["conduitItemID"] = 181974,
 						["conduitRank"] = 3,
 						["covenantID"] = 1,
 					},
 					[76] = {
-						["conduitSpecName"] = "Discipline",
-						["conduitItemID"] = 181844,
-						["conduitItemLevel"] = 200,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 31,
 						["conduitID"] = 76,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 200,
+						["conduitItemID"] = 181844,
+						["conduitSpecSetID"] = 31,
+						["conduitSpecName"] = "Discipline",
 						["conduitRank"] = 5,
 					},
 					[115] = {
-						["conduitSpecName"] = "Shadow",
-						["conduitItemID"] = 182140,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 33,
 						["conduitID"] = 115,
-						["conduitRank"] = 4,
-					},
-					[114] = {
-						["conduitSpecName"] = "Shadow",
-						["conduitItemID"] = 182139,
-						["conduitItemLevel"] = 184,
 						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 182140,
 						["conduitSpecSetID"] = 33,
-						["conduitID"] = 114,
+						["conduitSpecName"] = "Shadow",
 						["conduitRank"] = 4,
 					},
-					[82] = {
-						["conduitSpecName"] = "Holy",
-						["conduitItemID"] = 181942,
-						["conduitItemLevel"] = 184,
+					[84] = {
+						["conduitID"] = 84,
 						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 181944,
 						["conduitSpecSetID"] = 32,
-						["conduitID"] = 82,
+						["conduitSpecName"] = "Holy",
 						["conduitRank"] = 4,
+					},
+					[72] = {
+						["conduitID"] = 72,
+						["conduitItemLevel"] = 145,
+						["conduitType"] = 2,
+						["conduitSpecSetID"] = 166,
+						["conduitItemID"] = 181840,
+						["conduitRank"] = 1,
 					},
 				},
-				["RenownLevel"] = 11,
+				["RenownLevel"] = 12,
 				["ConduitNodes"] = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 1,
@@ -351,8 +363,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 1,
@@ -367,12 +379,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to the Temple of Humility, unlocking a new World Quest.",
 						["talentID"] = 1239,
+						["description"] = "Channel Anima to the Temple of Humility, unlocking a new World Quest.",
 						["name"] = "Temple of Humility",
 						["normalizedPosition"] = {
 							["y"] = 0.3745641708374023,
@@ -382,12 +394,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to the Eternal Forge, unlocking new Daily Quests.",
 						["talentID"] = 1240,
+						["description"] = "Channel Anima to the Eternal Forge, unlocking new Daily Quests.",
 						["name"] = "Eternal Forge",
 						["normalizedPosition"] = {
 							["y"] = 0.1277060508728027,
@@ -397,12 +409,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to the Citadel of Loyalty, allowing you and your allies to challenge an elite foe.",
 						["talentID"] = 1241,
+						["description"] = "Channel Anima to the Citadel of Loyalty, allowing you and your allies to challenge an elite foe.",
 						["name"] = "Citadel of Loyalty",
 						["normalizedPosition"] = {
 							["y"] = 0.2288322448730469,
@@ -412,12 +424,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to the Eonian Archives, allowing access to mighty Kyrian enhancements.",
 						["talentID"] = 1242,
+						["description"] = "Channel Anima to the Eonian Archives, allowing access to mighty Kyrian enhancements.",
 						["name"] = "Eonian Archives",
 						["normalizedPosition"] = {
 							["y"] = 0.2973120808601379,
@@ -425,16 +437,6 @@ DataStore_CovenantsDB = {
 						},
 					}, -- [6]
 				},
-			},
-			["Default.Silvermoon.Yóshino"] = {
-				["CovenantID"] = 1,
-				["lastUpdate"] = 1608032645,
-				["ActiveSoulbindID"] = 7,
-				["AnimaCurrency"] = {
-					["count"] = 190,
-					["maxDisplayable"] = 10000,
-				},
-				["RenownLevel"] = 6,
 			},
 			["Default.Silvermoon.Victoríque"] = {
 				["lastUpdate"] = 1607449150,
@@ -599,74 +601,74 @@ DataStore_CovenantsDB = {
 						["conduitRank"] = 3,
 					},
 					[261] = {
-						["conduitSpecName"] = "Balance",
-						["conduitItemID"] = 183476,
-						["conduitItemLevel"] = 171,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 15,
 						["conduitID"] = 261,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 171,
+						["conduitItemID"] = 183476,
+						["conduitSpecSetID"] = 15,
+						["conduitSpecName"] = "Balance",
 						["conduitRank"] = 3,
 					},
 					[262] = {
-						["conduitSpecName"] = "Balance",
-						["conduitItemID"] = 183477,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 15,
 						["conduitID"] = 262,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 183477,
+						["conduitSpecSetID"] = 15,
+						["conduitSpecName"] = "Balance",
 						["conduitRank"] = 4,
 					},
 					[263] = {
-						["conduitSpecName"] = "Balance",
-						["conduitItemID"] = 183478,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 15,
 						["conduitID"] = 263,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 183478,
+						["conduitSpecSetID"] = 15,
+						["conduitSpecName"] = "Balance",
 						["conduitRank"] = 4,
 					},
 					[279] = {
 						["conduitID"] = 279,
 						["conduitItemLevel"] = 145,
-						["conduitItemID"] = 183473,
-						["conduitSpecSetID"] = 48,
 						["conduitType"] = 1,
+						["conduitSpecSetID"] = 48,
+						["conduitItemID"] = 183473,
 						["conduitRank"] = 1,
 						["covenantID"] = 3,
 					},
 					[265] = {
-						["conduitSpecName"] = "Feral",
-						["conduitItemID"] = 183480,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 16,
 						["conduitID"] = 265,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 183480,
+						["conduitSpecSetID"] = 16,
+						["conduitSpecName"] = "Feral",
 						["conduitRank"] = 4,
 					},
 					[267] = {
-						["conduitSpecName"] = "Feral",
-						["conduitItemID"] = 183482,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 16,
 						["conduitID"] = 267,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 183482,
+						["conduitSpecSetID"] = 16,
+						["conduitSpecName"] = "Feral",
 						["conduitRank"] = 4,
 					},
 					[269] = {
-						["conduitSpecName"] = "Guardian",
-						["conduitItemID"] = 183484,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 17,
 						["conduitID"] = 269,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 183484,
+						["conduitSpecSetID"] = 17,
+						["conduitSpecName"] = "Guardian",
 						["conduitRank"] = 4,
 					},
 					[256] = {
 						["conduitID"] = 256,
 						["conduitItemLevel"] = 145,
-						["conduitItemID"] = 183466,
-						["conduitSpecSetID"] = 48,
 						["conduitType"] = 2,
+						["conduitSpecSetID"] = 48,
+						["conduitItemID"] = 183466,
 						["conduitRank"] = 1,
 					},
 					[257] = {
@@ -683,23 +685,23 @@ DataStore_CovenantsDB = {
 						["conduitItemID"] = 183468,
 						["conduitRank"] = 5,
 					},
-					[272] = {
-						["conduitSpecName"] = "Guardian",
-						["conduitItemID"] = 183487,
-						["conduitItemLevel"] = 184,
-						["conduitType"] = 2,
-						["conduitSpecSetID"] = 17,
-						["conduitID"] = 272,
-						["conduitRank"] = 4,
-					},
 					[264] = {
-						["conduitSpecName"] = "Balance",
-						["conduitItemID"] = 183479,
-						["conduitItemLevel"] = 158,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 15,
 						["conduitID"] = 264,
+						["conduitType"] = 1,
+						["conduitItemLevel"] = 158,
+						["conduitItemID"] = 183479,
+						["conduitSpecSetID"] = 15,
+						["conduitSpecName"] = "Balance",
 						["conduitRank"] = 2,
+					},
+					[272] = {
+						["conduitID"] = 272,
+						["conduitType"] = 2,
+						["conduitItemLevel"] = 184,
+						["conduitItemID"] = 183487,
+						["conduitSpecSetID"] = 17,
+						["conduitSpecName"] = "Guardian",
+						["conduitRank"] = 4,
 					},
 				},
 				["RenownLevel"] = 9,
@@ -707,8 +709,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 1,
@@ -723,8 +725,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 1,
@@ -739,12 +741,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to Tirna Vaal, unlocking a new World Quest.",
 						["talentID"] = 1245,
+						["description"] = "Channel Anima to Tirna Vaal, unlocking a new World Quest.",
 						["name"] = "Tirna Vaal",
 						["normalizedPosition"] = {
 							["y"] = 0.3683687448501587,
@@ -754,12 +756,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to the Hibernal Hollow, unlocking new Daily Quests.",
 						["talentID"] = 1246,
+						["description"] = "Channel Anima to the Hibernal Hollow, unlocking new Daily Quests.",
 						["name"] = "Hibernal Hollow",
 						["normalizedPosition"] = {
 							["y"] = 0.5420361757278442,
@@ -769,12 +771,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to Tirna Scithe, allowing you and your allies to challenge an elite foe.",
 						["talentID"] = 1247,
+						["description"] = "Channel Anima to Tirna Scithe, allowing you and your allies to challenge an elite foe.",
 						["name"] = "Tirna Scithe",
 						["normalizedPosition"] = {
 							["y"] = 0.6383302211761475,
@@ -784,12 +786,12 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["description"] = "Channel Anima to Claw's Edge, allowing access to mighty Night Fae enhancements.",
 						["talentID"] = 1248,
+						["description"] = "Channel Anima to Claw's Edge, allowing access to mighty Night Fae enhancements.",
 						["name"] = "Claw's Edge",
 						["normalizedPosition"] = {
 							["y"] = 0.6843030452728271,
@@ -798,9 +800,15 @@ DataStore_CovenantsDB = {
 					}, -- [6]
 				},
 			},
-			["Default.Silvermoon.Aryenís"] = {
-				["lastUpdate"] = 1607077591,
-				["RenownLevel"] = 1,
+			["Default.Silvermoon.Yóshino"] = {
+				["CovenantID"] = 1,
+				["lastUpdate"] = 1608032645,
+				["ActiveSoulbindID"] = 7,
+				["AnimaCurrency"] = {
+					["count"] = 190,
+					["maxDisplayable"] = 10000,
+				},
+				["RenownLevel"] = 6,
 			},
 		},
 	},

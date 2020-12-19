@@ -10,22 +10,22 @@ DataStoreDB = {
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Taígá - Ravencrest"] = "Taígá - Ravencrest",
 		["Ririchíyo - Ravencrest"] = "Ririchíyo - Ravencrest",
-		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
 		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
-		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
-		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
-		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
-		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
+		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -48,35 +48,35 @@ DataStoreDB = {
 		["Version"] = 1,
 		["Characters"] = {
 			["Default.Ravencrest.Arutoria"] = {
-				["guildName"] = "Invicta",
 				["faction"] = "Alliance",
+				["guildName"] = "Invicta",
 			},
 			["Default.Silvermoon.Akatsúki"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Dáwn",
+				["faction"] = "Alliance",
 			},
 			["Default.Silvermoon.Ririchíyo"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Dáwn",
+				["faction"] = "Alliance",
 			},
-			["Default.Silvermoon.Yóshino"] = {
+			["Default.Silvermoon.Sharutía"] = {
 				["guildName"] = "Dáwn",
 				["faction"] = "Alliance",
 			},
 			["Default.Silvermoon.Victoríque"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Dáwn",
+				["faction"] = "Alliance",
 			},
 			["Default.Silvermoon.Aryenís"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Silvermoon.Mítsukí"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Dáwn",
+				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Kiríno"] = {
-				["guildName"] = "Invicta",
 				["faction"] = "Alliance",
+				["guildName"] = "Invicta",
 			},
 			["Default.Ravencrest.Rangii"] = {
 				["faction"] = "Alliance",
@@ -91,10 +91,10 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Silvermoon.Kúsano"] = {
-				["guildName"] = "Dáwn",
 				["faction"] = "Alliance",
+				["guildName"] = "Dáwn",
 			},
-			["Default.Silvermoon.Sharutía"] = {
+			["Default.Silvermoon.Yóshino"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Dáwn",
 			},

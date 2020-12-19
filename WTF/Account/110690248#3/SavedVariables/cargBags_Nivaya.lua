@@ -8,17 +8,17 @@ cBnivCfg = {
 	["Junk"] = true,
 	["BankBlack"] = true,
 	["SortBags"] = true,
-	["BankCustomBags"] = true,
+	["Restack"] = true,
 	["Unlocked"] = false,
 	["SellJunk"] = true,
 	["Quest"] = true,
 	["NewItems"] = true,
 	["Gem"] = true,
-	["SortBank"] = true,
-	["TradeGoods"] = true,
 	["CoolStuff"] = false,
+	["TradeGoods"] = true,
+	["SortBank"] = true,
 	["FilterBank"] = true,
-	["Restack"] = true,
+	["BankCustomBags"] = true,
 }
 cB_CustomBags = {
 }

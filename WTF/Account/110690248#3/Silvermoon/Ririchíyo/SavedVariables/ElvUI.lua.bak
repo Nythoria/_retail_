@@ -1,97 +1,97 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g welp this character got gold", -- [1]
-		"/g from WB", -- [2]
-		"/g gieff", -- [3]
-		"/g BIGGG", -- [4]
-		"/g not so big xD", -- [5]
-		"/g I got |cffa335ee|Hitem:183028::::::::60:256::5:5:7188:6652:6935:1485:6646:1:28:2060:::|h[Cinch of Infinite Tightness]|h|r from Weekly and |cffa335ee|Hitem:178782::::::::60:256::35:6:7203:6652:7194:1501:5865:6646::::|h[Necropolis Lord's Shackles]|h|r from Chest", -- [6]
-		"/g so kinda shite stats on both but healer so ilvl is bigger upgrade", -- [7]
-		"/g so thats why we can use the Light in the Shadowlands xD", -- [8]
-		"/g no", -- [9]
-		"/g even with layer 8 we still max out at I think 1340 this week with Bolvar quest", -- [10]
-		"/g yeah 1340 this week", -- [11]
-		"/g if you have already crafted a r1 you will need 3900 to upgrade to r4", -- [12]
-		"/g 3150 then", -- [13]
-		"/g I have mathed it out xD without the intro questline giving us 200~} a week first wee we are gonna be able to have r4 is week starting 30/12", -- [14]
-		"/g assuming you have only crafted 1", -- [15]
-		"/g thats the intro questline and we are almost done with that", -- [16]
-		"/g we have this week which is freeing Thrall then next week which is freeing Anduin then we are done with that", -- [17]
-		"/g + counts too", -- [18]
-		"/g just need to replace |cff0070dd|Hitem:184841::::::::60:256::27:4:6652:1472:5861:6616:1:28:2060:::|h[Lyre of Sacred Purpose]|h|r now", -- [19]
-		"/g then everything 184+", -- [20]
+		"/g + counts too", -- [1]
+		"/g just need to replace |cff0070dd|Hitem:184841::::::::60:256::27:4:6652:1472:5861:6616:1:28:2060:::|h[Lyre of Sacred Purpose]|h|r now", -- [2]
+		"/g then everything 184+", -- [3]
+		"/masque", -- [4]
+		"/raid <", -- [5]
+		"/cw Babyautismo-Silvermoon guild pays for mats", -- [6]
+		"/cw Krayyt-Silvermoon it wouldn't be Meepers xD", -- [7]
+		"/cw Krayyt-Silvermoon yeah I keep giving mine away to spriests", -- [8]
+		"/cw Krayyt-Silvermoon I don't need it as Holy so..", -- [9]
+		"/cw Krayyt-Silvermoon ehh gonna be back Disc again soon so it will be mine again xD", -- [10]
+		"/raid well it will only be while am Holy anyway xD PI is a Healing CD for Disc xD", -- [11]
+		"/cw Babyautismo-Silvermoon I think you may have done", -- [12]
+		"/cw Julerith-Silvermoon sure", -- [13]
+		"/1 XD", -- [14]
+		"/raid yeah could see that xD", -- [15]
+		"/cw Julerith-Silvermoon I'll be using it myself here xD", -- [16]
+		"/raid also taking DMG interrupts the cast", -- [17]
+		"/p yeah thanks for run anyway", -- [18]
+		"/g spirit mend to the rescue", -- [19]
+		"/g I could level my hunter too xD", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"LF LW |cffffffff|Hitem:172325::::::::60:264::63:1:3524::::|h[Boneshatter Helm]|h|r rank 3 i have mats", -- [1]
-			"Surema-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Surema-Silvermoon", -- [5]
+			"2", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3303, -- [11]
-			"Player-3391-0BA3BCA1", -- [12]
+			73, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcSurema|r",
-			[51] = 1608117801,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323877,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [1]
 		{
-			"\"Army of the Snoepsh\" is a raiding guild looking for reliable and motivated people to bolster our raiding team. We need DPS (lock/bdruid) to help us progress through Castle Nathria. Raid Times are Sunday and Wedensday 8pm. Currently 6/10 NM.", -- [1]
-			"Blazette-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Blazette-Silvermoon", -- [5]
+			"1", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3305, -- [11]
-			"Player-3391-0774CE60", -- [12]
+			75, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Blazette|r",
-			[51] = 1608117807,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323878,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [2]
 		{
-			"oh no, he's guilt tripping", -- [1]
-			"Asuri-Silvermoon", -- [2]
-			"", -- [3]
+			"Corrupted Blood on Ririchíyo", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3306, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			81, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608117810,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323890,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [3]
 		{
-			"nah, he knows its not working on this guild", -- [1]
-			"Nikeah-Silvermoon", -- [2]
+			"lisa", -- [1]
+			"Yaganlock-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -100,988 +100,988 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3310, -- [11]
-			"Player-3391-0ADB6A78", -- [12]
+			84, -- [11]
+			"Player-3391-0B0D3081", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Nikeah|r",
-			[51] = 1608117827,
+			[52] = "|cff8687edYaganlock|r",
+			[51] = 1608323898,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [4]
 		{
-			"WTS |cffa335ee|Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Legionnaire's Bloodstained Sabatons]|h|r 235k cheaper than AH", -- [1]
-			"Hárazo-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hárazo-Silvermoon", -- [5]
+			"3", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3311, -- [11]
-			"Player-3391-0B340616", -- [12]
+			85, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcHárazo|r",
-			[51] = 1608117833,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323899,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [5]
 		{
-			"everytime i ask someone if i can join they say \"sorry, just heals now\" or \"fuck off parazini you idiot\"", -- [1]
-			"Itsmezini-Silvermoon", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3312, -- [11]
-			"Player-3391-0B8C2349", -- [12]
+			86, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Itsmezini|r",
-			[51] = 1608117840,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323900,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [6]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14795:Player-3391-0B7A0532:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Clearing the Fog]|h|r!", -- [1]
-			"Kanaì-Silvermoon", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Kanaì-Silvermoon", -- [5]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3313, -- [11]
-			"Player-3391-0B7A0532", -- [12]
+			88, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Kanaì|r",
-			[51] = 1608117840,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323901,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [7]
 		{
-			"[WTS] Fast Powerleveling to 60 lvl! World & Daily Questing, Renown weekly cap, Gear farming, NEW Mounts, and other boosts. We have over 13094 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
-			"Carlethany-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Carlethany-Silvermoon", -- [5]
+			"Corrupted Blood on Mìcha", -- [1]
+			"Mìcha-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3314, -- [11]
-			"Player-3391-0BC1321B", -- [12]
+			92, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cCarlethany|r",
-			[51] = 1608117849,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608323908,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [8]
 		{
-			"<Deeprun Tram Security> is a guild with a long history on Silvermoon and multiple CEs under its belt. Looking for a hpal and a few dps to fill our ranks. Our raid days are Tues/Wed/Sun 19:00-22:00 server time. Apply @ www.deepruntramsecurity.com", -- [1]
-			"Fistmytaco-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fistmytaco-Silvermoon", -- [5]
+			"3", -- [1]
+			"Mìcha-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3315, -- [11]
-			"Player-3391-0AEED437", -- [12]
+			97, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Fistmytaco|r",
-			[51] = 1608117854,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608323917,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [9]
 		{
-			"WTS |cffa335ee|Hitem:54068::::::::10:258::15:::::|h[Wooly White Rhino]|h|r", -- [1]
-			"Buckob-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Buckob-Silvermoon", -- [5]
+			"Corrupted Blood on Ririchíyo", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3316, -- [11]
-			"Player-3391-0BC05443", -- [12]
+			98, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeBuckob|r",
-			[51] = 1608117859,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323917,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [10]
 		{
-			"\"Army of the Snoepsh\" is a raiding guild looking for reliable and motivated people to bolster our raiding team. We need DPS (lock/bdruid) to help us progress through Castle Nathria. Raid Times are Sunday and Wedensday 8pm. Currently 6/10 NM.", -- [1]
-			"Blazette-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Blazette-Silvermoon", -- [5]
+			"2", -- [1]
+			"Mìcha-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3320, -- [11]
-			"Player-3391-0774CE60", -- [12]
+			99, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Blazette|r",
-			[51] = 1608117879,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608323918,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [11]
 		{
-			"WTB [Heavy Callous Hide]1.1k each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"1", -- [1]
+			"Mìcha-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3321, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			100, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608117882,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608323919,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [12]
 		{
-			"WTB Elethium Ore 120g each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"3", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3322, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			104, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608117882,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323926,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [13]
 		{
-			"lf2m tank heal theater of pain m2 and |cffa335ee|Hkeystone:180653:375:6:9:7:0:0|h[Keystone: Mists of Tirna Scithe (6)]|h|r", -- [1]
-			"Bajkela-Silvermoon", -- [2]
+			"|cffa335ee|Hitem:181819::::::::60:265::16::1:28:1279:::|h[Marrowfang's Reins]|h|r", -- [1]
+			"Yaganlock-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bajkela-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3328, -- [11]
-			"Player-3391-0BA8CAB3", -- [12]
+			105, -- [11]
+			"Player-3391-0B0D3081", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Bajkela|r",
-			[51] = 1608117907,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edYaganlock|r",
+			[51] = 1608323927,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [14]
 		{
-			"<Nova> is offering Castle Nathria 10/10 Full Clear || Mythic 0-12 - Bulk discount available 10-17.5% || Torghast boosts - Layer 1-6 || All this for in-game gold only! /w for more info :-)", -- [1]
-			"Piratejoey-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Piratejoey-Silvermoon", -- [5]
+			"2", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3329, -- [11]
-			"Player-3391-08D8A0CA", -- [12]
+			106, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Piratejoey|r",
-			[51] = 1608117917,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323927,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [15]
 		{
-			"WTS |cffa335ee|Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Legionnaire's Bloodstained Sabatons]|h|r 235k ", -- [1]
-			"Hárazo-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hárazo-Silvermoon", -- [5]
+			"1", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3330, -- [11]
-			"Player-3391-0B340616", -- [12]
+			109, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcHárazo|r",
-			[51] = 1608117926,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323928,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [16]
 		{
-			"WTS  |cffa335ee|Hitem:54068::::::::10:258::15:::::|h[Wooly White Rhino]|h|r", -- [1]
-			"Buckob-Silvermoon", -- [2]
+			"got this just now", -- [1]
+			"Yaganlock-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Buckob-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3331, -- [11]
-			"Player-3391-0BC05443", -- [12]
+			110, -- [11]
+			"Player-3391-0B0D3081", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeBuckob|r",
-			[51] = 1608117932,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edYaganlock|r",
+			[51] = 1608323929,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [17]
 		{
-			"Merry X-Mas times, Happy Holiday time everyone... and put ya Red winter hat on :) <3", -- [1]
-			"Larascha-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Larascha-Silvermoon", -- [5]
+			"Corrupted Blood on Ririchíyo", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3332, -- [11]
-			"Player-3391-08281C6A", -- [12]
+			117, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Larascha|r",
-			[51] = 1608117938,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323952,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [18]
 		{
-			"lf2m tank heal theater of pain m2 and [Keystone: Mists of Tirna Scithe (6)]", -- [1]
-			"Bajkela-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bajkela-Silvermoon", -- [5]
+			"3", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3333, -- [11]
-			"Player-3391-0BA8CAB3", -- [12]
+			120, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Bajkela|r",
-			[51] = 1608117941,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323961,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [19]
 		{
-			"wow thanks joey, i cant believe nova is offering 10/10 full clears", -- [1]
-			"Femalenano-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Femalenano-Silvermoon", -- [5]
+			"2", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3334, -- [11]
-			"Player-3391-0A936501", -- [12]
+			121, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaFemalenano|r",
-			[51] = 1608117946,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323962,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [20]
 		{
-			"xd", -- [1]
-			"Pinksodavand-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pinksodavand-Silvermoon", -- [5]
+			"1", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3335, -- [11]
-			"Player-3391-0B063ED8", -- [12]
+			124, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Pinksodavand|r",
-			[51] = 1608117958,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323963,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [21]
 		{
-			"WTB |cffffffff|Hitem:171412::::::::60:252:::::::|h[Shadowghast Breastplate]|h|r", -- [1]
-			"Crabbymeat-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crabbymeat-Silvermoon", -- [5]
+			"Corrupted Blood on Ririchíyo", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3336, -- [11]
-			"Player-3391-078336B3", -- [12]
+			128, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Crabbymeat|r",
-			[51] = 1608117961,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323970,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [22]
 		{
-			"[WТS] Castle Nathria NM/HC BOOST! Get ilvl 200-220 gear, achieves, and AOTC! Choose from multiple Guild runs every day. We have over 13094 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
-			"Carlethany-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Carlethany-Silvermoon", -- [5]
+			"3", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3337, -- [11]
-			"Player-3391-0BC1321B", -- [12]
+			131, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cCarlethany|r",
-			[51] = 1608117963,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323979,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [23]
 		{
-			"If you're sending Merry Christmas/Happy Holidays you are a FA@@OT", -- [1]
-			"Stabbimcshiv-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stabbimcshiv-Silvermoon", -- [5]
+			"2", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3338, -- [11]
-			"Player-3391-0BA198E3", -- [12]
+			132, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Stabbimcshiv|r",
-			[51] = 1608117966,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323980,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [24]
 		{
-			"WTB |cffffffff|Hitem:171412::::::::60:252:::::::|h[Shadowghast Breastplate]|h|r RANK 3", -- [1]
-			"Crabbymeat-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crabbymeat-Silvermoon", -- [5]
+			"1", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3339, -- [11]
-			"Player-3391-078336B3", -- [12]
+			133, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Crabbymeat|r",
-			[51] = 1608117970,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608323981,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [25]
 		{
-			"scrooge detected :P", -- [1]
-			"Larascha-Silvermoon", -- [2]
+			"gz ^^", -- [1]
+			"Khäleesy-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Larascha-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3340, -- [11]
-			"Player-3391-08281C6A", -- [12]
+			135, -- [11]
+			"Player-3391-0AB0C45D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Larascha|r",
-			[51] = 1608117980,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Khäleesy|r",
+			[51] = 1608323986,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [26]
 		{
-			"True, Merry Christmas", -- [1]
-			"Stabbimcshiv-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stabbimcshiv-Silvermoon", -- [5]
+			"Verderbtes Blut auf Xevair", -- [1]
+			"Xevair-Blackmoore", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Xevair-Blackmoore", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3342, -- [11]
-			"Player-3391-0BA198E3", -- [12]
+			139, -- [11]
+			"Player-580-08C470D8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Stabbimcshiv|r",
-			[51] = 1608117990,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Xevair-Blackmoore|r",
+			[51] = 1608323988,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [27]
 		{
-			"WTB Elethium Ore 120g each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14760:Player-3391-0B9C1F4C:1:12:18:20:4294967295:4294967295:4294967295:4294967295|h[Recollection Collection]|h|r!", -- [1]
+			"Igofast-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"", -- [4]
+			"Igofast-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3343, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			142, -- [11]
+			"Player-3391-0B9C1F4C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118001,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Igofast|r",
+			[51] = 1608324018,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [28]
 		{
-			"WTB [Heavy Callous Hide]1.1k each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
+			"gz ^^", -- [1]
+			"Jäc-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3344, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			152, -- [11]
+			"Player-3391-0B222258", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118001,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Jäc|r",
+			[51] = 1608324134,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [29]
 		{
-			"WTS |cffa335ee|Hitem:54068::::::::10:258::15:::::|h[Wooly White Rhino]|h|r", -- [1]
-			"Buckob-Silvermoon", -- [2]
+			"oin the boss move with the shit on em ", -- [1]
+			"Barovenn-TheMaelstrom", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Buckob-Silvermoon", -- [5]
+			"", -- [4]
+			"Barovenn-TheMaelstrom", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3345, -- [11]
-			"Player-3391-0BC05443", -- [12]
+			154, -- [11]
+			"Player-1596-09558DBC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeBuckob|r",
-			[51] = 1608118011,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cBarovenn-TheMaelstrom|r",
+			[51] = 1608324160,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [30]
 		{
-			"LF enchanter Fortified Leech Sinful Revelation", -- [1]
-			"Affecto-Silvermoon", -- [2]
+			"ty", -- [1]
+			"Yaganlock-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Affecto-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3346, -- [11]
-			"Player-3391-0BB81DB7", -- [12]
+			157, -- [11]
+			"Player-3391-0B0D3081", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Affecto|r",
-			[51] = 1608118014,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edYaganlock|r",
+			[51] = 1608324191,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [31]
 		{
-			"|cffa335ee|Hitem:184778::::::::48:258::5:4:7188:6652:1485:6646:1:28:752:::|h[Decadent Nathrian Shawl]|h|r|cffa335ee|Hitem:183008::::::::48:258::5:4:7188:6652:1485:6646:1:28:752:::|h[Supple Supplicant's Gloves]|h|r|cffa335ee|Hitem:183035::::::::48:258::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r WTS cheaper then Ah /w me", -- [1]
-			"Donatetome-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-3391-0B010A3F:1:12:18:20:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
+			"Sóso-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Donatetome-Silvermoon", -- [5]
+			"", -- [4]
+			"Sóso-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3350, -- [11]
-			"Player-3391-0BBDBBCE", -- [12]
+			158, -- [11]
+			"Player-3391-0B010A3F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeDonatetome|r",
-			[51] = 1608118025,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Sóso|r",
+			[51] = 1608324269,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [32]
 		{
-			"lf2m tank heal theater of pain m2 and [Keystone: Mists of Tirna Scithe (6)]", -- [1]
-			"Bajkela-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bajkela-Silvermoon", -- [5]
+			"Laser on Ririchíyo", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3356, -- [11]
-			"Player-3391-0BA8CAB3", -- [12]
+			179, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Bajkela|r",
-			[51] = 1608118051,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608324472,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [33]
 		{
-			"WTB [Heavy Callous Hide]1.1k each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Laser on Mìcha", -- [1]
+			"Mìcha-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3357, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			180, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118054,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608324472,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [34]
 		{
-			"WTB Elethium Ore 120g each C.O.D", -- [1]
-			"Crucius-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Crucius-Silvermoon", -- [5]
+			"Laser on Ririchíyo", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3358, -- [11]
-			"Player-3391-0B9C6169", -- [12]
+			185, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCrucius|r",
-			[51] = 1608118055,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608324484,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [35]
 		{
-			"[WТS] Mythic +5/+6/+7/+8/+9/+10/+14 key BOOST tonight! You will get NEW ilvl 194-226+ Gear, Achieves & RIO Score. We have over 13094 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
-			"Carlethany-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Carlethany-Silvermoon", -- [5]
+			"Laser on Ririchíyo", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3359, -- [11]
-			"Player-3391-0BC1321B", -- [12]
+			190, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cCarlethany|r",
-			[51] = 1608118056,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608324489,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [36]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1157:Player-3391-0BA84849:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Duel-icious]|h|r!", -- [1]
-			"Àudacity-Silvermoon", -- [2]
+			"bl", -- [1]
+			"Barovenn-TheMaelstrom", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Àudacity-Silvermoon", -- [5]
+			"Barovenn-TheMaelstrom", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3360, -- [11]
-			"Player-3391-0BA84849", -- [12]
+			193, -- [11]
+			"Player-1596-09558DBC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Àudacity|r",
-			[51] = 1608118065,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBarovenn-TheMaelstrom|r",
+			[51] = 1608324498,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [37]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-178130-3391-46002460|h[Guild: Order of Arathor]|h|r Is LF experienced raiders to fill our roster with the goal of mythic progression. currently in need of Healers and DPS Raid Days/Times WED,SUN; 19:00-22:00.", -- [1]
-			"Basalisc-Silvermoon", -- [2]
+			"do tactics please", -- [1]
+			"Barovenn-TheMaelstrom", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Basalisc-Silvermoon", -- [5]
+			"", -- [4]
+			"Barovenn-TheMaelstrom", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3361, -- [11]
-			"Player-3391-07742F5D", -- [12]
+			199, -- [11]
+			"Player-1596-09558DBC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Basalisc|r",
-			[51] = 1608118067,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cBarovenn-TheMaelstrom|r",
+			[51] = 1608324519,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [38]
 		{
-			"Wts Mythic+( 2-10)  Cheap Fast And Smooth /w For more info Cheapest Accpte GOld on All Realms", -- [1]
-			"Imtis-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14795:Player-3391-0B222258:1:12:18:20:4294967295:4294967295:4294967295:4294967295|h[Clearing the Fog]|h|r!", -- [1]
+			"Jäc-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Imtis-Silvermoon", -- [5]
+			"", -- [4]
+			"Jäc-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3363, -- [11]
-			"Player-3391-0A6EBAE3", -- [12]
+			203, -- [11]
+			"Player-3391-0B222258", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Imtis|r",
-			[51] = 1608118072,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Jäc|r",
+			[51] = 1608324535,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [39]
 		{
-			"wtb |cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r", -- [1]
-			"Ranccree-Silvermoon", -- [2]
+			"lol", -- [1]
+			"Hìmí-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ranccree-Silvermoon", -- [5]
+			"", -- [4]
+			"Hìmí-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3364, -- [11]
-			"Player-3391-0B2A1FB0", -- [12]
+			225, -- [11]
+			"Player-3391-0B71912D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Ranccree|r",
-			[51] = 1608118072,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Hìmí|r",
+			[51] = 1608324623,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"wtb|cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r|cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r|cffffffff|Hitem:169701::::::::52:581:::1:3524::::|h[Death Blossom]|h|r", -- [1]
-			"Ranccree-Silvermoon", -- [2]
+			"dafyq", -- [1]
+			"Hìmí-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ranccree-Silvermoon", -- [5]
+			"", -- [4]
+			"Hìmí-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3366, -- [11]
-			"Player-3391-0B2A1FB0", -- [12]
+			226, -- [11]
+			"Player-3391-0B71912D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Ranccree|r",
-			[51] = 1608118088,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00fe97Hìmí|r",
+			[51] = 1608324625,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [41]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"after failing himself ", -- [1]
+			"Barovenn-TheMaelstrom", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"Barovenn-TheMaelstrom", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3371, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			227, -- [11]
+			"Player-1596-09558DBC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBarovenn-TheMaelstrom|r",
+			[51] = 1608324633,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [42]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14206:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Blade of the Primus]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"Well then one of those", -- [1]
+			"Mìcha-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3372, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			228, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608324633,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [43]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"what a guy ", -- [1]
+			"Barovenn-TheMaelstrom", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"Barovenn-TheMaelstrom", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3373, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			229, -- [11]
+			"Player-1596-09558DBC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBarovenn-TheMaelstrom|r",
+			[51] = 1608324636,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [44]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-3391-0B7457EA:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"yea happens ..", -- [1]
+			"Mìcha-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Forklash-Silvermoon", -- [5]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3374, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			230, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118130,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608324641,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [45]
 		{
-			"Welp, fingers crossed", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"Well see ya then .. Good evening still", -- [1]
+			"Mìcha-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mìcha-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3378, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			233, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118177,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608324722,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [46]
 		{
-			"Oh I'm on the wrong character", -- [1]
-			"Forklash-Silvermoon", -- [2]
+			"yeah cya :) sorry for the key though :/", -- [1]
+			"Hìmí-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hìmí-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3379, -- [11]
-			"Player-3391-0B7457EA", -- [12]
+			235, -- [11]
+			"Player-3391-0B71912D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cForklash|r",
-			[51] = 1608118189,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe97Hìmí|r",
+			[51] = 1608324735,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [47]
 		{
-			"Fuck off parazini you idiot", -- [1]
-			"Felmeme-Silvermoon", -- [2]
+			"yeah thanks for run anyway", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Ririchíyo-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3381, -- [11]
-			"Player-3391-0BB74527", -- [12]
+			237, -- [11]
+			"Player-3391-0B3793E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Felmeme|r",
-			[51] = 1608118203,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608324742,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [48]
 		{
-			"whoah", -- [1]
-			"Nikeah-Silvermoon", -- [2]
+			"ehhh echo finally done with their splits ? :D", -- [1]
+			"Firesnek-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1090,20 +1090,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3383, -- [11]
-			"Player-3391-0ADB6A78", -- [12]
+			238, -- [11]
+			"Player-3391-0BBDAAD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Nikeah|r",
-			[51] = 1608118211,
+			[52] = "|cfffe7b09Firesnek|r",
+			[51] = 1608324745,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [49]
 		{
-			"I knew beforehand it would be rough pickings", -- [1]
-			"Forkez-Silvermoon", -- [2]
+			"let's see i they catch up to limit", -- [1]
+			"Firesnek-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1112,20 +1112,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3399, -- [11]
-			"Player-3391-0B7457D7", -- [12]
+			240, -- [11]
+			"Player-3391-0BBDAAD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Forkez|r",
-			[51] = 1608118337,
+			[52] = "|cfffe7b09Firesnek|r",
+			[51] = 1608324776,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [50]
 		{
-			"But |cffa335ee|Hitem:178810::::::::60:65::35:5:7210:6652:1501:5878:6646::::|h[Vial of Spectral Essence]|h|r will have to do", -- [1]
-			"Forkez-Silvermoon", -- [2]
+			"IM COMING RAID", -- [1]
+			"Ççarrot-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1134,569 +1134,151 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3400, -- [11]
-			"Player-3391-0B7457D7", -- [12]
+			253, -- [11]
+			"Player-3391-0BC28E13", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Forkez|r",
-			[51] = 1608118345,
+			[52] = "|cffa9d271Ççarrot|r",
+			[51] = 1608324872,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [51]
 		{
-			"<Nova> is offering Castle Nathria 10/10 Full Clear || Mythic 0-12 - Bulk discount available 10-17.5% || Torghast boosts - Layer 1-6 || All this for in-game gold only! /w for more info :-)", -- [1]
-			"Piratejoey-Silvermoon", -- [2]
+			"IM COMUING", -- [1]
+			"Ççarrot-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Piratejoey-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3417, -- [11]
-			"Player-3391-08D8A0CA", -- [12]
+			254, -- [11]
+			"Player-3391-0BC28E13", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Piratejoey|r",
-			[51] = 1608118456,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Ççarrot|r",
+			[51] = 1608324874,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [52]
 		{
-			"Is |cffffff00|Hquest:62638:2060|h[Emissary of War]|h|r possible in m+ or only normal mythics?", -- [1]
-			"Neltora-Silvermoon", -- [2]
+			"14dps 14 hunters", -- [1]
+			"Zinih-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Neltora-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3418, -- [11]
-			"Player-3391-06F416ED", -- [12]
+			256, -- [11]
+			"Player-3391-0BC234DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Neltora|r",
-			[51] = 1608118460,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Zinih|r",
+			[51] = 1608324918,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [53]
 		{
-			"also m+", -- [1]
-			"Ionasz-Silvermoon", -- [2]
+			"inb4 raid is 2 tanks, 4-5 healers and 13-14 hunters", -- [1]
+			"Ulerith-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ionasz-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3419, -- [11]
-			"Player-3391-0904DC8E", -- [12]
+			257, -- [11]
+			"Player-3391-0ADB300F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Ionasz|r",
-			[51] = 1608118470,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Ulerith|r",
+			[51] = 1608324927,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"Wts ...Offering Myhtic Keystone ( +2..+4...+6...+10..).. Torghast Boost Available ....Only GOld ..Wis Me For More Info..", -- [1]
-			"Firewavee-Silvermoon", -- [2]
+			"baby don't hurt me no more", -- [1]
+			"Taroer-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Firewavee-Silvermoon", -- [5]
+			"1. General - Ardenweald", -- [4]
+			"Taroer-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Ardenweald", -- [9]
 			0, -- [10]
-			3420, -- [11]
-			"Player-3391-0A84D9E8", -- [12]
+			258, -- [11]
+			"Player-3391-096E2BF2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaFirewavee|r",
-			[51] = 1608118471,
+			[52] = "|cffa9d271Taroer|r",
+			[51] = 1608324927,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [55]
 		{
-			"did anyone had his vault bugged after not looting it at first place?", -- [1]
-			"Dêadwood-Silvermoon", -- [2]
+			"^", -- [1]
+			"Ulerith-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dêadwood-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3421, -- [11]
-			"Player-3391-0BAEB3EE", -- [12]
+			259, -- [11]
+			"Player-3391-0ADB300F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Dêadwood|r",
-			[51] = 1608118475,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Ulerith|r",
+			[51] = 1608324930,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [56]
 		{
-			"Sweet thanks, what about |cffffff00|Hquest:60252:837|h[A Valuable Find: Spires of Ascension]|h|r?", -- [1]
-			"Neltora-Silvermoon", -- [2]
+			"one opener, boss phases", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Neltora-Silvermoon", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			3422, -- [11]
-			"Player-3391-06F416ED", -- [12]
+			260, -- [11]
+			"Player-3391-0AD855B5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Neltora|r",
-			[51] = 1608118481,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608324933,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [57]
 		{
-			"Wts Mythic+( 2-10)  Cheap Fast And Smooth /w For more info Cheapest Accpte GOld on All Realms", -- [1]
-			"Imtis-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Imtis-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3423, -- [11]
-			"Player-3391-0A6EBAE3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Imtis|r",
-			[51] = 1608118494,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"|cffa335ee|Hitem:184019::::::::60:63::5:4:7188:6652:1485:6646:1:28:2060:::|h[Soul Igniter]|h|r", -- [1]
-			"Eloyà-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3432, -- [11]
-			"Player-3391-0B3E1E4B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaEloyà|r",
-			[51] = 1608118723,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
-		{
-			"ahh grats man", -- [1]
-			"Krayyt-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3433, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118739,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
-		{
-			"gzgz", -- [1]
-			"Junî-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3434, -- [11]
-			"Player-3391-0A7350D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Junî|r",
-			[51] = 1608118744,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
-		{
-			"Oya going fire ey? XD", -- [1]
-			"Sókén-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3435, -- [11]
-			"Player-3391-0B02A272", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSókén|r",
-			[51] = 1608118748,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
-		{
-			"|cffa335ee|Hitem:184025::::::::60:269::5:4:7188:6652:1485:6646::::|h[Memory of Past Sins]|h|r|cffa335ee|Hitem:179350::::::::60:269::35:5:7207:6652:1501:5874:6646::::|h[Inscrutable Quantum Device]|h|r|cffa335ee|Hitem:177846::::::::60:269::39:4:7140:6652:1485:6646::::|h[Sinful Gladiator's Gladius]|h|r which fucking one", -- [1]
-			"Naughtyninja-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3436, -- [11]
-			"Player-3391-0BB73B63", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Naughtyninja|r",
-			[51] = 1608118760,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
-		{
-			"are you switching to fire oya???", -- [1]
-			"Krayyt-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3437, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118762,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
-		{
-			"i was thinking about it", -- [1]
-			"Eloyà-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3438, -- [11]
-			"Player-3391-0B3E1E4B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaEloyà|r",
-			[51] = 1608118773,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
-		{
-			"|cffa335ee|Hitem:179350::::::::60:258::35:5:7207:6652:1501:5874:6646::::|h[Inscrutable Quantum Device]|h|r is a sim bait and is really difficult to use in raids, strong in m+ though", -- [1]
-			"Krayyt-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3439, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118786,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
-		{
-			"why do?", -- [1]
-			"Asuri-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3440, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118800,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
-		{
-			"yea, i have a 220 in vault atm", -- [1]
-			"Eloyà-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3441, -- [11]
-			"Player-3391-0B3E1E4B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaEloyà|r",
-			[51] = 1608118803,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
-		{
-			"I absolutely love min", -- [1]
-			"Asuri-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3442, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118808,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
-		{
-			"memory is better the more players use it", -- [1]
-			"Mìcha-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3443, -- [11]
-			"Player-3391-0BA1A467", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118811,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
-		{
-			"600 mastery on demand", -- [1]
-			"Asuri-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3444, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118815,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
-		{
-			"the trinket?", -- [1]
-			"Krayyt-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3445, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118816,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
-		{
-			"I'd go for Memory", -- [1]
-			"Forkez-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3446, -- [11]
-			"Player-3391-0B7457D7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Forkez|r",
-			[51] = 1608118820,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
-		{
-			"me and smith have it both", -- [1]
-			"Mìcha-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3447, -- [11]
-			"Player-3391-0BA1A467", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118826,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
-		{
-			"and yea", -- [1]
-			"Mìcha-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3448, -- [11]
-			"Player-3391-0BA1A467", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118830,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
-		{
-			"its the damage that increases or smth, not quite sure", -- [1]
-			"Mìcha-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3449, -- [11]
-			"Player-3391-0BA1A467", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118841,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14808:Player-3391-0B0D3081:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Touring Torghast]|h|r!", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:513:Player-3391-0B0D3081:1:12:18:20:4294967295:4294967295:4294967295:4294967295|h[100 Honorable Kills]|h|r!", -- [1]
 			"Yaganlock-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1706,7 +1288,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3451, -- [11]
+			261, -- [11]
 			"Player-3391-0B0D3081", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1714,12 +1296,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118845,
+			[51] = 1608324938,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [58]
 		{
-			"its just hard to get multiple uses out of it in a raid due to all the secondary effects", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"th ehealers better be shamans", -- [1]
+			"Firesnek-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1728,42 +1310,284 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3452, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			262, -- [11]
+			"Player-3391-0BBDAAD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118887,
+			[52] = "|cfffe7b09Firesnek|r",
+			[51] = 1608324942,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [59]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14285:Player-3391-0ADB6A78:1:12:16:20:4294967295:4294967295:4294967295:4294967295|h[Ready for Raiding VII]|h|r!", -- [1]
-			"Nikeah-Silvermoon", -- [2]
+			"WHAT IS LOVE", -- [1]
+			"Epinephrin-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Ardenweald", -- [4]
+			"Epinephrin-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ardenweald", -- [9]
+			0, -- [10]
+			263, -- [11]
+			"Player-3391-0B03864A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeEpinephrin|r",
+			[51] = 1608324957,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"the healers are hunters", -- [1]
+			"Zinih-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nikeah-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3453, -- [11]
-			"Player-3391-0ADB6A78", -- [12]
+			264, -- [11]
+			"Player-3391-0BC234DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Nikeah|r",
-			[51] = 1608118894,
+			[52] = "|cffa9d271Zinih|r",
+			[51] = 1608324973,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [61]
+		{
+			"GOT TO DO WITH IT", -- [1]
+			"Generaalski-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Ardenweald", -- [4]
+			"Generaalski-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ardenweald", -- [9]
+			0, -- [10]
+			265, -- [11]
+			"Player-3391-0B7F4BB1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Generaalski|r",
+			[51] = 1608324977,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"noooooo", -- [1]
+			"Laëwyn-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Ardenweald", -- [4]
+			"Laëwyn-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ardenweald", -- [9]
+			0, -- [10]
+			266, -- [11]
+			"Player-3391-06817FAC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Laëwyn|r",
+			[51] = 1608324992,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"spirit mend to the rescue", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			267, -- [11]
+			"Player-3391-0B3793E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608324995,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [64]
+		{
+			"why would we need tanks, just rotate pets", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			268, -- [11]
+			"Player-3391-0AD855B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608324995,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [65]
+		{
+			"Just make 5 healers go spirit mend", -- [1]
+			"Ulerith-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			269, -- [11]
+			"Player-3391-0ADB300F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Ulerith|r",
+			[51] = 1608324999,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [66]
+		{
+			"BABY DON'T HURT ME", -- [1]
+			"Laëwyn-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Ardenweald", -- [4]
+			"Laëwyn-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ardenweald", -- [9]
+			0, -- [10]
+			270, -- [11]
+			"Player-3391-06817FAC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Laëwyn|r",
+			[51] = 1608325014,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"actually all healers just go spirit mend", -- [1]
+			"Ulerith-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			271, -- [11]
+			"Player-3391-0ADB300F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Ulerith|r",
+			[51] = 1608325016,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [68]
+		{
+			"hunters*", -- [1]
+			"Ulerith-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			272, -- [11]
+			"Player-3391-0ADB300F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Ulerith|r",
+			[51] = 1608325024,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14334:Player-3391-0AF26E0F:1:12:18:20:4294967295:4294967295:4294967295:4294967295|h[Into the Maw]|h|r!", -- [1]
+			"Avaloén-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Avaloén-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			273, -- [11]
+			"Player-3391-0AF26E0F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Avaloén|r",
+			[51] = 1608325024,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [70]
 		{
-			"unless you havent found that to be the case??", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"NO MORE", -- [1]
+			"Taroer-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Ardenweald", -- [4]
+			"Taroer-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ardenweald", -- [9]
+			0, -- [10]
+			274, -- [11]
+			"Player-3391-096E2BF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Taroer|r",
+			[51] = 1608325034,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"i mained hunter in eternal palace, so uhh.. incoming", -- [1]
+			"Totemìc-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1772,63 +1596,41 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3454, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			275, -- [11]
+			"Player-3391-06888086", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118898,
+			[52] = "|cff006fdcTotemìc|r",
+			[51] = 1608325076,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [72]
 		{
-			"which one", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"SIMPLY HAVING ", -- [1]
+			"Epinephrin-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"1. General - Ardenweald", -- [4]
+			"Epinephrin-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Ardenweald", -- [9]
 			0, -- [10]
-			3455, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			276, -- [11]
+			"Player-3391-0B03864A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118902,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+			true, -- [17]
+			[52] = "|cfffefefeEpinephrin|r",
+			[51] = 1608325078,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
 		{
-			"iqd", -- [1]
-			"Krayyt-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3456, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118908,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
-		{
-			"the \"???' thing", -- [1]
+			"Stop it >:(", -- [1]
 			"Mìcha-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1838,7 +1640,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3457, -- [11]
+			277, -- [11]
 			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1846,12 +1648,210 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Mìcha|r",
-			[51] = 1608118916,
+			[51] = 1608325095,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [74]
+		{
+			"What we doing", -- [1]
+			"Asuri-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Asuri-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			278, -- [11]
+			"Player-3391-0B71AA9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edAsuri|r",
+			[51] = 1608325104,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [75]
+		{
+			"All of you, no more hunters", -- [1]
+			"Mìcha-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			279, -- [11]
+			"Player-3391-0BA1A467", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608325106,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [76]
+		{
+			"end", -- [1]
+			"Mìcha-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			280, -- [11]
+			"Player-3391-0BA1A467", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608325109,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [77]
+		{
+			"hunter is probably going to be my nightfae alt either way", -- [1]
+			"Totemìc-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			281, -- [11]
+			"Player-3391-06888086", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTotemìc|r",
+			[51] = 1608325123,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [78]
+		{
+			"I could level my hunter too xD", -- [1]
+			"Ririchíyo-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			282, -- [11]
+			"Player-3391-0B3793E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRirichíyo|r",
+			[51] = 1608325132,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [79]
+		{
+			"hunters only", -- [1]
+			"Zinih-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			283, -- [11]
+			"Player-3391-0BC234DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Zinih|r",
+			[51] = 1608325136,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14797:Player-3391-0BBDAAD4:1:12:18:20:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
+			"Firesnek-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Firesnek-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-3391-0BBDAAD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Firesnek|r",
+			[51] = 1608325141,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"S", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-3391-0AD855B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608325175,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [82]
+		{
+			"T", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			286, -- [11]
+			"Player-3391-0AD855B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608325176,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"ye", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"O", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1860,20 +1860,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3458, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			287, -- [11]
+			"Player-3391-0AD855B5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118918,
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608325177,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"tbh i always have got second uses from stats", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"P", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1882,20 +1882,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3460, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			288, -- [11]
+			"Player-3391-0AD855B5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118921,
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608325177,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"off it", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"i dont see enough green names in the chat", -- [1]
+			"Zinih-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1904,20 +1904,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3461, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			289, -- [11]
+			"Player-3391-0BC234DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118922,
+			[52] = "|cffa9d271Zinih|r",
+			[51] = 1608325195,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"been amazing for me personally", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"hmm. wonder if we can get 20 hunters and do raid as only hunters", -- [1]
+			"Klaggtard-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1926,20 +1926,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3462, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			290, -- [11]
+			"Player-3391-0BC1A0A4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118927,
+			[52] = "|cffa9d271Klaggtard|r",
+			[51] = 1608321612,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"interesting", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"the absolute unit of raid opener", -- [1]
+			"Ulerith-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1948,20 +1948,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3463, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			291, -- [11]
+			"Player-3391-0ADB300F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118928,
+			[52] = "|cffa9d271Ulerith|r",
+			[51] = 1608321613,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"Yeah same", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"Do we get guns, red transmog, and chant god save the queen while we fire in lines?", -- [1]
+			"Ulerith-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1970,20 +1970,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3464, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			292, -- [11]
+			"Player-3391-0ADB300F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118931,
+			[52] = "|cffa9d271Ulerith|r",
+			[51] = 1608321646,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"youre sure your second use is always stats?", -- [1]
-			"Krayyt-Silvermoon", -- [2]
+			"heeeeyyyy", -- [1]
+			"Líliana-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1992,20 +1992,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3465, -- [11]
-			"Player-3391-0BB0C1B4", -- [12]
+			293, -- [11]
+			"Player-3391-0B11ECAE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKrayyt|r",
-			[51] = 1608118941,
+			[52] = "|cffc31d39Líliana|r",
+			[51] = 1608325262,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [90]
 		{
-			"but i just try to time it with cd's and no one is like 20% health near me", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"=(", -- [1]
+			"Líliana-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2014,20 +2014,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3466, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			294, -- [11]
+			"Player-3391-0B11ECAE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118943,
+			[52] = "|cffc31d39Líliana|r",
+			[51] = 1608325264,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [91]
 		{
-			"yes", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"i love hunters", -- [1]
+			"Zinih-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2036,20 +2036,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3467, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			295, -- [11]
+			"Player-3391-0BC234DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118944,
+			[52] = "|cffa9d271Zinih|r",
+			[51] = 1608325266,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [92]
 		{
-			"only ever not get stat if im cc'ed", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"hey get that red name outta here", -- [1]
+			"Zinih-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2058,20 +2058,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3468, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			296, -- [11]
+			"Player-3391-0BC234DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118952,
+			[52] = "|cffa9d271Zinih|r",
+			[51] = 1608325270,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [93]
 		{
-			"1 dps 1 healer for m0s", -- [1]
-			"Hìmí-Silvermoon", -- [2]
+			"shoot that guy", -- [1]
+			"Zinih-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2080,20 +2080,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3469, -- [11]
-			"Player-3391-0B71912D", -- [12]
+			297, -- [11]
+			"Player-3391-0BC234DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe97Hìmí|r",
-			[51] = 1608118953,
+			[52] = "|cffa9d271Zinih|r",
+			[51] = 1608325272,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [94]
 		{
-			"i always check it", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"I am no part of this", -- [1]
+			"Mìcha-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2102,20 +2102,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3470, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			298, -- [11]
+			"Player-3391-0BA1A467", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118956,
+			[52] = "|cffa9d271Mìcha|r",
+			[51] = 1608325280,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [95]
 		{
-			"sure himi", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"|cff71d5ff|Hspell:53351:0|h[Kill Shot]|h|r|cff71d5ff|Hspell:53351:0|h[Kill Shot]|h|r|cff71d5ff|Hspell:53351:0|h[Kill Shot]|h|r|cff71d5ff|Hspell:53351:0|h[Kill Shot]|h|r|cff71d5ff|Hspell:53351:0|h[Kill Shot]|h|r", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2124,20 +2124,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3471, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			299, -- [11]
+			"Player-3391-0AD855B5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118959,
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608325286,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [96]
 		{
-			"i'm game", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"i think i got him", -- [1]
+			"Smithinhood-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2146,42 +2146,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3472, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			300, -- [11]
+			"Player-3391-0AD855B5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118960,
+			[52] = "|cffa9d271Smithinhood|r",
+			[51] = 1608325288,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [97]
 		{
-			"can even control i if i want haste or mastery depending on if i use |cff71d5ff|Htalent:19293|h[Dark Soul: Misery]|h|r before or not", -- [1]
-			"Asuri-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14747:Player-3391-0B11ECAE:1:12:18:20:4294967295:4294967295:4294967295:4294967295|h[Make it Double!]|h|r!", -- [1]
+			"Líliana-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Líliana-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3473, -- [11]
-			"Player-3391-0B71AA9D", -- [12]
+			301, -- [11]
+			"Player-3391-0B11ECAE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edAsuri|r",
-			[51] = 1608118970,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Líliana|r",
+			[51] = 1608325295,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [98]
 		{
-			"ye", -- [1]
-			"Yaganlock-Silvermoon", -- [2]
+			"survival pvp is probably still fun, only reason i'd level one", -- [1]
+			"Totemìc-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2190,15 +2190,15 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3474, -- [11]
-			"Player-3391-0B0D3081", -- [12]
+			304, -- [11]
+			"Player-3391-06888086", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edYaganlock|r",
-			[51] = 1608118977,
+			[52] = "|cff006fdcTotemìc|r",
+			[51] = 1608325311,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},

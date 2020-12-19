@@ -75,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173078::::::::60:258::13:::::|h[Darkmoon Deck: Repose]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 178851,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178851::::::::60:257::23:4:6807:6652:1498:6646:1:28:749:::|h[Cloak of Enveloping Manifestations]|h|r",
+			["ID"] = 179349,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:179349::::::::60:257::16:4:7208:1501:5858:6646:1:28:1279:::|h[Dealer Xy'exa's Cape]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 178714,

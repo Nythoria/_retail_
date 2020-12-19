@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2020-12-18T08:17:35Z
+-- RaiderIO Client Data. Generated on 2020-12-19T00:22:07Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -217,6 +217,40 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [2] = {
+        ["zone_id"] = 12842,
+        ["level"] = 11,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.720733734552513,
+        ["clear_time"] = "00:29:33.725",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Boinkz",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Hoottz",
+            ["role"] = "healer",
+            ["class_id"] = 7
+          },
+          [3] = {
+            ["name"] = "Exceedo",
+            ["role"] = "dps",
+            ["class_id"] = 9
+          },
+          [4] = {
+            ["name"] = "Grimm",
+            ["role"] = "dps",
+            ["class_id"] = 5
+          },
+          [5] = {
+            ["name"] = "Prontô",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          }
+        }
+      },
+      [3] = {
         ["zone_id"] = 12916,
         ["level"] = 11,
         ["upgrades"] = 2,
@@ -250,7 +284,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
+      [4] = {
         ["zone_id"] = 13334,
         ["level"] = 11,
         ["upgrades"] = 1,
@@ -284,7 +318,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [4] = {
+      [5] = {
         ["zone_id"] = 12831,
         ["level"] = 11,
         ["upgrades"] = 1,
@@ -315,40 +349,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Vanarch",
             ["role"] = "dps",
             ["class_id"] = 11
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 13228,
-        ["level"] = 11,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.8334462224665596,
-        ["clear_time"] = "00:31:41.090",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Nazgul",
-            ["role"] = "tank",
-            ["class_id"] = 12
-          },
-          [2] = {
-            ["name"] = "Tépii",
-            ["role"] = "healer",
-            ["class_id"] = 10
-          },
-          [3] = {
-            ["name"] = "Itsmezini",
-            ["role"] = "dps",
-            ["class_id"] = 4
-          },
-          [4] = {
-            ["name"] = "Yirkarja",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          },
-          [5] = {
-            ["name"] = "Ínfíníté",
-            ["role"] = "dps",
-            ["class_id"] = 1
           }
         }
       }

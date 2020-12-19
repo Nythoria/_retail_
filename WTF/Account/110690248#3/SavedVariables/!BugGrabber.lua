@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 1618,
 	["lastSanitation"] = 3,
+	["session"] = 1621,
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\CompactUnitFrame.lua:530: Usage: local nameplateShowsWidgetsOnly = UnitNameplateShowsWidgetsOnly(unit)",
@@ -340,20 +340,12 @@ BugGrabberDB = {
 			["counter"] = 19,
 		}, -- [43]
 		{
-			["message"] = "Interface\\AddOns\\xCT+\\modules\\combattext.lua:876: bad argument #2 to 'match' (string expected, got nil)",
-			["time"] = "2020/12/08 18:58:52",
-			["locals"] = "(*temporary) = \"Eldorsol has gained Anima Power: \"\n(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `match'\n[string \"@Interface\\AddOns\\xCT+\\modules\\combattext.lua\"]:876: in function `?'\n[string \"@Interface\\AddOns\\xCT+\\modules\\combattext.lua\"]:529: in function <Interface\\AddOns\\xCT+\\modules\\combattext.lua:512>",
-			["session"] = 1609,
-			["counter"] = 22,
-		}, -- [44]
-		{
 			["message"] = "[string \"--[==[ Error in 'ato_count_injured' ]==] re...\"]:55: attempt to index field 'triggerState' (a nil value)",
 			["time"] = "2020/12/16 00:51:35",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:598: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:534>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:805: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1089: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1658: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1482: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1359>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1514: in function `ScanForLoads'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.1.4.lua\"]:1564: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1562>",
 			["session"] = 1609,
 			["counter"] = 28,
-		}, -- [45]
+		}, -- [44]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua:300: attempt to call method 'SetBackdropBorderColor' (a nil value)",
 			["time"] = "2020/12/16 09:24:46",
@@ -361,14 +353,14 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:300: in function `HandleIconBorder'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\WeeklyRewards.lua\"]:84: in function <...ddOns\\ElvUI\\Modules\\Skins\\Blizzard\\WeeklyRewards.lua:79>\n[string \"=[C]\"]: in function `SelectReward'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 1612,
 			["counter"] = 2,
-		}, -- [46]
+		}, -- [45]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'RCLootCouncil' tried to call the protected function 'SetTargetClampingInsets()'.",
 			["time"] = "2020/12/02 21:06:26",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetTargetClampingInsets'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:305: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:244>\n[string \"=[C]\"]: in function `SetupClassNameplateBars'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:119: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
 			["session"] = 1618,
 			["counter"] = 3,
-		}, -- [47]
+		}, -- [46]
 		{
 			["message"] = "...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:216: Usage: GetRaidTargetIndex(unit)",
 			["time"] = "2020/12/12 20:40:17",
@@ -376,7 +368,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetRaidTargetIndex'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:216: in function `OnRaidTargetUpdate'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:122: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
 			["session"] = 1618,
 			["counter"] = 10,
-		}, -- [48]
+		}, -- [47]
 		{
 			["message"] = "Interface\\FrameXML\\CompactUnitFrame.lua:2023: Attempt to access forbidden object from code tainted by an AddOn",
 			["time"] = "2020/12/17 19:14:23",
@@ -384,7 +376,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:2023: in function `DefaultCompactNamePlateFrameSetupInternal'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:1983: in function `DefaultCompactNamePlateFrameSetup'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:2000: in function `func'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:224: in function `CompactUnitFrame_SetUpFrame'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:141: in function `ApplyFrameOptions'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:116: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
 			["session"] = 1618,
 			["counter"] = 92,
-		}, -- [49]
+		}, -- [48]
 		{
 			["message"] = "...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:470: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: <unnamed>:GetLeft().",
 			["time"] = "2020/12/02 20:03:28",
@@ -392,7 +384,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetLeft'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:470: in function `GetPreferredInsets'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:166: in function `UpdateInsetsForType'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:150: in function `ApplyFrameOptions'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:116: in function `OnNamePlateAdded'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:56: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
 			["session"] = 1618,
 			["counter"] = 6,
-		}, -- [50]
+		}, -- [49]
 		{
 			["message"] = "Interface\\FrameXML\\AuraUtil.lua:58: Usage: local continuationToken, slot1, slot2, ... = UnitAuraSlots(\"unit\" [, \"filter\"][, maxSlots][, continuationToken])",
 			["time"] = "2020/12/02 21:30:08",
@@ -400,6 +392,14 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `UnitAuraSlots'\n[string \"@Interface\\FrameXML\\AuraUtil.lua\"]:58: in function `ForEachAura'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:597: in function `UpdateBuffs'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:209: in function `OnUnitAuraUpdate'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:65: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:47>\n[string \"=[C]\"]: ?",
 			["session"] = 1618,
 			["counter"] = 31,
+		}, -- [50]
+		{
+			["message"] = "Interface\\AddOns\\xCT+\\modules\\combattext.lua:876: bad argument #2 to 'match' (string expected, got nil)",
+			["time"] = "2020/12/08 18:58:52",
+			["locals"] = "(*temporary) = \"Eldorsol has gained Anima Power: \"\n(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `match'\n[string \"@Interface\\AddOns\\xCT+\\modules\\combattext.lua\"]:876: in function `?'\n[string \"@Interface\\AddOns\\xCT+\\modules\\combattext.lua\"]:529: in function <Interface\\AddOns\\xCT+\\modules\\combattext.lua:512>",
+			["session"] = 1621,
+			["counter"] = 28,
 		}, -- [51]
 	},
 }

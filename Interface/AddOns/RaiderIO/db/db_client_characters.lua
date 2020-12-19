@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2020-12-18T08:17:35Z
+-- RaiderIO Client Data. Generated on 2020-12-19T00:22:07Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -67,7 +67,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 431.9,
+        ["score"] = 572.1,
         ["best"] = {
           ["zone_id"] = 12916,
           ["level"] = 10,
@@ -119,19 +119,19 @@ ns.CLIENT_CHARACTERS = {
           },
           [6] = {
             ["zone_id"] = 13228,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 9,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.902,
+            ["score"] = 90.86055386258388,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/3865816-9-plaguefall?utm_source=client"
           },
           [7] = {
             ["zone_id"] = 13309,
-            ["level"] = 4,
+            ["level"] = 9,
             ["upgrades"] = 1,
-            ["fraction"] = 0.872,
-            ["score"] = 41.12182822376259,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/2475604-4-de-other-side?utm_source=client"
+            ["fraction"] = 0.944,
+            ["score"] = 90.48567192895,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/3853583-9-de-other-side?utm_source=client"
           },
           [8] = {
             ["zone_id"] = 13334,

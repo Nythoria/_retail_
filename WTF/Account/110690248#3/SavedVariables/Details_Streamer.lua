@@ -12,19 +12,19 @@ Details_StreamerDB = {
 		["Ririchíyo - Ravencrest"] = "Victoríque - Silvermoon",
 		["Kúsano - Silvermoon"] = "Victoríque - Silvermoon",
 		["Arutoria - Ravencrest"] = "Victoríque - Silvermoon",
-		["Alyettes - Ravencrest"] = "Victoríque - Silvermoon",
+		["Sharutía - Silvermoon"] = "Victoríque - Silvermoon",
 		["Ririchíyo - Twisting Nether"] = "Victoríque - Silvermoon",
-		["Enjú - Ravencrest"] = "Victoríque - Silvermoon",
-		["Kúsano - Ravencrest"] = "Victoríque - Silvermoon",
-		["Mítsukí - Silvermoon"] = "Victoríque - Silvermoon",
-		["Yóshino - Silvermoon"] = "Victoríque - Silvermoon",
-		["Croesus - Ravencrest"] = "Victoríque - Silvermoon",
-		["Kiríno - Ravencrest"] = "Victoríque - Silvermoon",
-		["Yoshíno - Ravencrest"] = "Victoríque - Silvermoon",
 		["Eléonora - Ravencrest"] = "Victoríque - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Croesus - Ravencrest"] = "Victoríque - Silvermoon",
+		["Yóshino - Silvermoon"] = "Victoríque - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Victoríque - Silvermoon",
+		["Kiríno - Ravencrest"] = "Victoríque - Silvermoon",
+		["Mítsukí - Silvermoon"] = "Victoríque - Silvermoon",
+		["Kúsano - Ravencrest"] = "Victoríque - Silvermoon",
+		["Enjú - Ravencrest"] = "Victoríque - Silvermoon",
 		["Rangii - Ravencrest"] = "Victoríque - Silvermoon",
-		["Sharutía - Silvermoon"] = "Victoríque - Silvermoon",
+		["Alyettes - Ravencrest"] = "Victoríque - Silvermoon",
 	},
 	["profiles"] = {
 		["Victoríque - Silvermoon"] = {
@@ -57,7 +57,7 @@ Details_StreamerDB = {
 			["point"] = "LEFT",
 			["enabled"] = false,
 			["arrow_size"] = 18,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["row_spacement"] = 14,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -65,12 +65,18 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1019607843137255, -- [1]
+				0.1019607843137255, -- [2]
+				0.1019607843137255, -- [3]
+				0.6500000059604645, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\UI-InChatFriendsArrow",
-			["font_size"] = 10,
 			["use_spark"] = false,
+			["y"] = -77.49317932128906,
 			["x"] = 215.9997711181641,
 			["font_face"] = "Expressway",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -82,13 +88,7 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["y"] = -77.49317932128906,
-			["row_color"] = {
-				0.1019607843137255, -- [1]
-				0.1019607843137255, -- [2]
-				0.1019607843137255, -- [3]
-				0.6500000059604645, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},

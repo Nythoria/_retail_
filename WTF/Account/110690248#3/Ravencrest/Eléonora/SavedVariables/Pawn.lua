@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0402,
+	["LastVersion"] = 2.0408,
 	["LastPlayerFullName"] = "Eléonora-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

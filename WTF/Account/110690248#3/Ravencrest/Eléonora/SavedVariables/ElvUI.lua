@@ -466,5 +466,247 @@ ElvCharacterDB = {
 			[51] = 1603886265,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [21]
+		{
+			"WTB |cffa335ee|Hitem:184804::::::::60:70:::::::|h[Ulfius' Calming Claymore]|h|r 225k/w me ", -- [1]
+			"Archipoo-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Archipoo-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			311, -- [11]
+			"Player-1329-0934024F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Archipoo|r",
+			[51] = 1608325535,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [22]
+		{
+			"Whats a decent ilvl for mythic 0? ", -- [1]
+			"Benzn-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Benzn-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			314, -- [11]
+			"Player-1329-05A91A30", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Benzn|r",
+			[51] = 1608325549,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [23]
+		{
+			"WTS |cffa335ee|Hitem:183031::::::::60:265::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Soldier's Stoneband Wristguards]|h|r", -- [1]
+			"Thantrix-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thantrix-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			315, -- [11]
+			"Player-1329-0411FBC1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edThantrix|r",
+			[51] = 1608325549,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [24]
+		{
+			"LF Guild. just to buy heirlooms.. anyone :)", -- [1]
+			"Dbagterp-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dbagterp-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			316, -- [11]
+			"Player-1329-04174A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDbagterp|r",
+			[51] = 1608325553,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [25]
+		{
+			"WTS [Castle Nathria] Normal Tomoorw 10:00 Gmae Time +10  key any time /w", -- [1]
+			"Crazzybolvar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Crazzybolvar-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			319, -- [11]
+			"Player-1329-0951D1D7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Crazzybolvar|r",
+			[51] = 1608325557,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [26]
+		{
+			"150", -- [1]
+			"Usque-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Usque-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			320, -- [11]
+			"Player-1329-094DF9ED", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Usque|r",
+			[51] = 1608325558,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [27]
+		{
+			"195 according to lfr", -- [1]
+			"Shämbulancé-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shämbulancé-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			321, -- [11]
+			"Player-1329-0413D2A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcShämbulancé|r",
+			[51] = 1608325558,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [28]
+		{
+			"Don't bother with m0.", -- [1]
+			"Nexieane-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nexieane-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			322, -- [11]
+			"Player-1329-07038691", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Nexieane|r",
+			[51] = 1608325565,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [29]
+		{
+			"Go +2", -- [1]
+			"Nexieane-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nexieane-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			323, -- [11]
+			"Player-1329-07038691", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Nexieane|r",
+			[51] = 1608325566,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [30]
+		{
+			"Resto druid LF Raid guild", -- [1]
+			"Dunnzy-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dunnzy-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-1329-092C06C2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Dunnzy|r",
+			[51] = 1608325570,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [31]
+		{
+			"WTS |cffa335ee|Hitem:183017::::::::60:63::5:5:7188:6652:6935:1485:6646:1:28:752:::|h[Acolyte's Velvet Bindings]|h|r 213 PRISMATIC SOCKET", -- [1]
+			"Grädde-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Grädde-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			325, -- [11]
+			"Player-1329-0951A8D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaGrädde|r",
+			[51] = 1608325574,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [32]
 	},
 }

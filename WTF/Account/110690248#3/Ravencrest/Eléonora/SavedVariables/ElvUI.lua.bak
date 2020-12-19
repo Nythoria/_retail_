@@ -444,5 +444,27 @@ ElvCharacterDB = {
 			[51] = 1603740182,
 			[50] = "CHAT_MSG_WHISPER",
 		}, -- [20]
+		{
+			"WTS mythic+  15+ or Higher! wis me for pricE! guild group", -- [1]
+			"Atlantâ-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Atlantâ-Ravencrest", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"Player-1329-06EEEA99", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAtlantâ|r",
+			[51] = 1603886265,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [21]
 	},
 }

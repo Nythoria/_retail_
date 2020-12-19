@@ -48,8 +48,8 @@ MADB = {
 			},
 		},
 	},
-	["frameListRows"] = 18,
-	["playSound"] = false,
-	["noBags"] = false,
 	["closeGUIOnEscape"] = false,
+	["noBags"] = false,
+	["playSound"] = false,
+	["frameListRows"] = 18,
 }

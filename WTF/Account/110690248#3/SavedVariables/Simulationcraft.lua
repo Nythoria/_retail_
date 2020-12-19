@@ -10,22 +10,22 @@ SimulationCraftDB = {
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Taígá - Ravencrest"] = "Taígá - Ravencrest",
 		["Ririchíyo - Ravencrest"] = "Ririchíyo - Ravencrest",
-		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 		["Arutoria - Ravencrest"] = "Arutoria - Ravencrest",
 		["Enjú - Ravencrest"] = "Enjú - Ravencrest",
-		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
-		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
-		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
-		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
-		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
 		["Kúsano - Ravencrest"] = "Kúsano - Ravencrest",
+		["Croesus - Ravencrest"] = "Croesus - Ravencrest",
+		["Albertina - Silvermoon"] = "Albertina - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
+		["Yoshíno - Ravencrest"] = "Yoshíno - Ravencrest",
+		["Kiríno - Ravencrest"] = "Kiríno - Ravencrest",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Eléonora - Ravencrest"] = "Eléonora - Ravencrest",
+		["Sharutía - Silvermoon"] = "Sharutía - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Ririchíyo - Twisting Nether"] = "Ririchíyo - Twisting Nether",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 	},
 	["profiles"] = {
 		["Kúsano - Draenor"] = {
@@ -49,7 +49,7 @@ SimulationCraftDB = {
 		},
 		["Ririchíyo - Ravencrest"] = {
 		},
-		["Alyettes - Ravencrest"] = {
+		["Ririchíyo - Twisting Nether"] = {
 		},
 		["Kúsano - Silvermoon"] = {
 		},
@@ -57,32 +57,32 @@ SimulationCraftDB = {
 		},
 		["Enjú - Ravencrest"] = {
 		},
-		["Sharutía - Silvermoon"] = {
+		["Yóshino - Silvermoon"] = {
 		},
-		["Eléonora - Ravencrest"] = {
+		["Kúsano - Ravencrest"] = {
+		},
+		["Croesus - Ravencrest"] = {
+		},
+		["Albertina - Silvermoon"] = {
+		},
+		["Mítsukí - Silvermoon"] = {
+		},
+		["Yoshíno - Ravencrest"] = {
+		},
+		["Kiríno - Ravencrest"] = {
 		},
 		["Victoríque - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Albertina - Silvermoon"] = {
+		["Eléonora - Ravencrest"] = {
 		},
-		["Yóshino - Silvermoon"] = {
-		},
-		["Croesus - Ravencrest"] = {
-		},
-		["Kiríno - Ravencrest"] = {
-		},
-		["Yoshíno - Ravencrest"] = {
-		},
-		["Kúsano - Ravencrest"] = {
-		},
-		["Mítsukí - Silvermoon"] = {
+		["Sharutía - Silvermoon"] = {
 		},
 		["Rangii - Ravencrest"] = {
 		},
-		["Ririchíyo - Twisting Nether"] = {
+		["Alyettes - Ravencrest"] = {
 		},
 	},
 }

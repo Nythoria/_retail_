@@ -1,6 +1,7 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+		["Ririchíyo - Silvermoon"] = "Kúsano - Silvermoon",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
 	},
 	["profiles"] = {

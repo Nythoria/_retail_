@@ -4,6 +4,2639 @@ WeakAurasSaved = {
 	},
 	["editor_tab_spaces"] = 4,
 	["displays"] = {
+		["Inn"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Inn",
+			["yOffset"] = -33.888732910156,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Inn",
+			["xOffset"] = -16.111328125,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "pJ37S2BKNfI",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Oribos Map Labels"] = {
+			["controlledChildren"] = {
+				"Professions", -- [1]
+				"PVP Vendors", -- [2]
+				"Tmog Void Storage Barber", -- [3]
+				"Inn", -- [4]
+				"Mail", -- [5]
+				"Portals", -- [6]
+				"Weekly Vault", -- [7]
+				"Bank", -- [8]
+				"Revendreth", -- [9]
+				"Ardenweald", -- [10]
+				"Flight Master", -- [11]
+				"Bastion", -- [12]
+				"Maldraxxus", -- [13]
+			},
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["authorOptions"] = {
+			},
+			["preferToUpdate"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["unit"] = "player",
+						["type"] = "aura2",
+						["spellIds"] = {
+						},
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+						["event"] = "Health",
+						["names"] = {
+						},
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["internalVersion"] = 40,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["scale"] = 1,
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "group",
+			["borderSize"] = 2,
+			["borderOffset"] = 4,
+			["semver"] = "1.0.6",
+			["tocversion"] = 90002,
+			["id"] = "Oribos Map Labels",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = 0,
+			["borderInset"] = 1,
+			["selfPoint"] = "BOTTOMLEFT",
+			["config"] = {
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+				["groupOffset"] = true,
+			},
+			["uid"] = "GTb7vNjcRq9",
+		},
+		["Set Flightmaster Waypoint"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = " ",
+			["yOffset"] = 0,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/M0JRiO0tQ/1",
+			["actions"] = {
+				["start"] = {
+					["custom"] = "C_Map.SetUserWaypoint(UiMapPoint.CreateFromCoordinates(1550, 0.4701, 0.5113, 0))\nC_SuperTrack.SetSuperTrackedUserWaypoint(true)",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+					["custom"] = "C_Map.ClearUserWaypoint()",
+					["do_custom"] = true,
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "status",
+						["use_alwaystrue"] = true,
+						["unevent"] = "auto",
+						["duration"] = "1",
+						["event"] = "Conditions",
+						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["subeventSuffix"] = "_CAST_START",
+						["names"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Friz Quadrata TT",
+			["version"] = 1,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = true,
+				["zoneId"] = "1671",
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["regionType"] = "text",
+			["fixedWidth"] = 200,
+			["selfPoint"] = "BOTTOM",
+			["authorOptions"] = {
+			},
+			["displayText_format_p_time_precision"] = 1,
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["justify"] = "LEFT",
+			["semver"] = "1.0.0",
+			["tocversion"] = 90002,
+			["id"] = "Set Flightmaster Waypoint",
+			["uid"] = "GjJnqhU8pVI",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["automaticWidth"] = "Auto",
+			["config"] = {
+			},
+			["shadowYOffset"] = -1,
+			["anchorPoint"] = "CENTER",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["preferToUpdate"] = false,
+		},
+		["Tmog Void Storage Barber"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "TMOG\nBarber\nVoid Storage",
+			["yOffset"] = -117.77783203125,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Tmog Void Storage Barber",
+			["xOffset"] = -49.444519042969,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "2ZxnbvYfibq",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["uf_Guardian Spirit"] = {
+			["outline"] = "OUTLINE",
+			["iconSource"] = -1,
+			["sparkWidth"] = 10,
+			["xOffset"] = 0,
+			["displayText"] = "%{p}s",
+			["id"] = "uf_Guardian Spirit",
+			["shadowYOffset"] = -2,
+			["anchorPoint"] = "CENTER",
+			["sparkOffsetX"] = 0,
+			["parent"] = "HealingTurtleCDs",
+			["sparkRotation"] = 0,
+			["customTextUpdate"] = "event",
+			["automaticWidth"] = "Auto",
+			["backgroundColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["showClones"] = true,
+						["type"] = "aura2",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
+						["auraspellids"] = {
+							"47788", -- [1]
+							"33206", -- [2]
+						},
+						["unit"] = "group",
+						["names"] = {
+						},
+						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["yOffset"] = 0,
+			["selfPoint"] = "CENTER",
+			["displayText_format_p_time_dynamic"] = true,
+			["color"] = {
+				0.1019607843137255, -- [1]
+				0.7725490196078432, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["barColor"] = {
+				1, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["desaturate"] = false,
+			["sparkRotationMode"] = "AUTO",
+			["font"] = "Expressway",
+			["sparkOffsetY"] = 0,
+			["subRegions"] = {
+			},
+			["height"] = 15,
+			["icon"] = false,
+			["load"] = {
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["sparkBlendMode"] = "ADD",
+			["useAdjustededMax"] = false,
+			["fontSize"] = 17,
+			["icon_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["wordWrap"] = "WordWrap",
+			["shadowXOffset"] = 2,
+			["authorOptions"] = {
+			},
+			["sparkColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["useAdjustededMin"] = false,
+			["regionType"] = "text",
+			["actions"] = {
+				["start"] = {
+					["glow_color"] = {
+						0.1019607843137255, -- [1]
+						0.7725490196078432, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["glow_YOffset"] = 1,
+					["glow_action"] = "show",
+					["do_glow"] = true,
+					["glow_lines"] = 30,
+					["glow_length"] = 20,
+					["glow_frame_type"] = "UNITFRAME",
+					["use_glow_color"] = true,
+					["glow_XOffset"] = 1,
+					["glow_type"] = "Pixel",
+				},
+				["finish"] = {
+					["glow_color"] = {
+						0.2078431372549019, -- [1]
+						0.8352941176470589, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["glow_action"] = "show",
+					["glow_type"] = "Pixel",
+					["do_glow"] = false,
+					["hide_all_glows"] = true,
+					["glow_border"] = true,
+					["glow_length"] = 20,
+					["glow_frame_type"] = "UNITFRAME",
+					["use_glow_color"] = true,
+					["do_custom"] = false,
+					["glow_lines"] = 30,
+				},
+				["init"] = {
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["icon_side"] = "RIGHT",
+			["conditions"] = {
+			},
+			["orientation"] = "HORIZONTAL",
+			["sparkHeight"] = 30,
+			["texture"] = "Blizzard",
+			["displayText_format_p_time_precision"] = 1,
+			["zoom"] = 0,
+			["spark"] = false,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkHidden"] = "NEVER",
+			["justify"] = "LEFT",
+			["alpha"] = 1,
+			["width"] = 200,
+			["frameStrata"] = 1,
+			["uid"] = "c5ue2cYYi43",
+			["inverse"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.5, -- [4]
+			},
+			["fixedWidth"] = 200,
+			["information"] = {
+			},
+			["config"] = {
+			},
+		},
+		["Revendreth"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Revendreth",
+			["yOffset"] = -38.888793945313,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1671 then -- Oribos - Ring of Transference\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1671",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Revendreth",
+			["xOffset"] = -297.22210693359,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "THJ191bYNbk",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Bank"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Bank",
+			["yOffset"] = 68.333312988281,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Bank",
+			["xOffset"] = -76.111236572266,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "vq7I3O0keaz",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["*UI_Misc."] = {
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["controlledChildren"] = {
+				"details", -- [1]
+			},
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["authorOptions"] = {
+			},
+			["load"] = {
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "group",
+			["borderSize"] = 2,
+			["anchorPoint"] = "CENTER",
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["scale"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["names"] = {
+						},
+						["type"] = "aura2",
+						["spellIds"] = {
+						},
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["event"] = "Health",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["xOffset"] = 0,
+			["internalVersion"] = 40,
+			["selfPoint"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["id"] = "*UI_Misc.",
+			["borderInset"] = 1,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["config"] = {
+			},
+			["uid"] = "W)S9LuxOvu5",
+			["borderOffset"] = 4,
+			["subRegions"] = {
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["yOffset"] = 0,
+		},
+		["Bastion"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Bastion",
+			["yOffset"] = -38.889038085938,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1671 then -- Oribos - Ring of Transference\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1671",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Bastion",
+			["xOffset"] = -11.666900634766,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "uXCoJr4BZ3L",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Ardenweald"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Ardenweald",
+			["yOffset"] = -173.33319091797,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1671 then -- Oribos - Ring of Transference\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1671",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Ardenweald",
+			["xOffset"] = -147.22219848633,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "mAyXCEsFSLX",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Portals"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Portals",
+			["yOffset"] = -33.888977050781,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Portals",
+			["xOffset"] = -347.22230529785,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "6m0UIoJt7Ey",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Flight Master"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Flight\nMaster",
+			["yOffset"] = -126.66662597656,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1671 then -- Oribos - Ring of Transference\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1671",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Flight Master",
+			["xOffset"] = -58.333465576172,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "VqZAAvSPpIf",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["PVP Vendors"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "PVP\nVendors",
+			["yOffset"] = -65.555541992188,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "PVP Vendors",
+			["xOffset"] = -237.22216796875,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "PqB5dAxFrbB",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Weekly Vault"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Weekly\nVault",
+			["yOffset"] = 44.999938964844,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Weekly Vault",
+			["xOffset"] = -43.889129638672,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "1elY5qRh7Im",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Maldraxxus"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Maldraxxus",
+			["yOffset"] = 59.999877929688,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1671 then -- Oribos - Ring of Transference\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1671",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Maldraxxus",
+			["xOffset"] = -45.000152587891,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "k(LzftI1W)9",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["Mail"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Mail",
+			["yOffset"] = -47.222045898438,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference\n\n",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Mail",
+			["xOffset"] = -49.444641113281,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "4kbxnE5jTAV",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
+		["HealingTurtleCDs"] = {
+			["grow"] = "DOWN",
+			["controlledChildren"] = {
+				"uf_Guardian Spirit", -- [1]
+			},
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["xOffset"] = -2,
+			["yOffset"] = 4,
+			["anchorPoint"] = "BOTTOMRIGHT",
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["space"] = 2,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["debuffType"] = "HELPFUL",
+						["type"] = "aura2",
+						["spellIds"] = {
+						},
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["event"] = "Health",
+						["names"] = {
+						},
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["columnSpace"] = 1,
+			["radius"] = 200,
+			["selfPoint"] = "BOTTOMRIGHT",
+			["align"] = "CENTER",
+			["stagger"] = 0,
+			["subRegions"] = {
+			},
+			["config"] = {
+			},
+			["load"] = {
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["authorOptions"] = {
+			},
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["animate"] = false,
+			["uid"] = "Blwxq)kYuBO",
+			["scale"] = 1,
+			["useLimit"] = false,
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["anchorPerUnit"] = "UNITFRAME",
+			["arcLength"] = 360,
+			["internalVersion"] = 40,
+			["constantFactor"] = "RADIUS",
+			["rowSpace"] = 1,
+			["borderOffset"] = 4,
+			["gridType"] = "RD",
+			["frameStrata"] = 9,
+			["id"] = "HealingTurtleCDs",
+			["fullCircle"] = true,
+			["gridWidth"] = 5,
+			["anchorFrameType"] = "SCREEN",
+			["limit"] = 5,
+			["borderInset"] = 1,
+			["rotation"] = 0,
+			["sort"] = "none",
+			["conditions"] = {
+			},
+			["information"] = {
+			},
+			["useAnchorPerUnit"] = true,
+		},
+		["Professions"] = {
+			["outline"] = "OUTLINE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayText"] = "Professions",
+			["yOffset"] = 38.888854980469,
+			["displayText_format_p_time_dynamic"] = false,
+			["customTextUpdate"] = "event",
+			["url"] = "https://wago.io/oribos-map-labels/7",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["use_unit"] = true,
+						["events"] = "OPEN_WORLD_MAP, WORLD_MAP_UPDATE, QUEST_LOG_UPDATE",
+						["event"] = "Conditions",
+						["spellIds"] = {
+						},
+						["custom_type"] = "event",
+						["names"] = {
+						},
+						["custom"] = "function()\n    local mapID = WorldMapFrame:GetMapID()\n    if mapID == 1670 then -- Oribos - Ring of Fates\n        return true\n    else\n        return false\n    end\nend\n\n\n--1670 = Oribos - Ring of Fates\n--1671 = Oribos - Ring of Transference",
+						["duration"] = "1",
+						["check"] = "update",
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_hide"] = "custom",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["activeTriggerMode"] = -10,
+			},
+			["displayText_format_p_format"] = "timed",
+			["internalVersion"] = 40,
+			["wordWrap"] = "WordWrap",
+			["font"] = "Expressway",
+			["version"] = 7,
+			["subRegions"] = {
+			},
+			["load"] = {
+				["use_zoneId"] = false,
+				["zoneId"] = "1670",
+				["zonegroupId"] = "411",
+				["use_zonegroupId"] = true,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["shadowXOffset"] = 1,
+			["authorOptions"] = {
+			},
+			["anchorFrameFrame"] = "WorldMapFrame",
+			["regionType"] = "text",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Oribos Map Labels",
+			["fixedWidth"] = 200,
+			["displayText_format_p_time_precision"] = 1,
+			["semver"] = "1.0.6",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "straight",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["use_translate"] = false,
+					["use_alpha"] = false,
+					["type"] = "none",
+					["easeType"] = "none",
+					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      return startX + (progress * deltaX), startY + (progress * deltaY)\n    end\n  ",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["x"] = 135,
+					["preset"] = "spiralandpulse",
+					["easeStrength"] = 3,
+					["translateType"] = "straightTranslate",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["justify"] = "CENTER",
+			["tocversion"] = 90002,
+			["id"] = "Professions",
+			["xOffset"] = -212.77780151367,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SELECTFRAME",
+			["shadowYOffset"] = -1,
+			["uid"] = "X1cQuROKMq7",
+			["anchorPoint"] = "CENTER",
+			["automaticWidth"] = "Auto",
+			["shadowColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["preferToUpdate"] = false,
+		},
 		["details"] = {
 			["sparkWidth"] = 10,
 			["sparkOffsetX"] = 0,
@@ -23,7 +2656,8 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["debuffType"] = "HELPFUL",
+						["names"] = {
+						},
 						["type"] = "aura2",
 						["spellIds"] = {
 						},
@@ -31,8 +2665,7 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Health",
-						["names"] = {
-						},
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 					},
@@ -77,173 +2710,69 @@ WeakAurasSaved = {
 			},
 			["sparkBlendMode"] = "ADD",
 			["useAdjustededMax"] = true,
-			["uid"] = "dy92N6Rhkxw",
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["parent"] = "*UI_Misc.",
-			["icon"] = false,
-			["anchorFrameFrame"] = "Details_WindowFrame1",
-			["regionType"] = "aurabar",
-			["useAdjustededMin"] = true,
-			["config"] = {
-			},
-			["icon_side"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["sparkHeight"] = 30,
-			["texture"] = "Solid",
-			["sparkHidden"] = "NEVER",
-			["zoom"] = 0,
-			["spark"] = false,
-			["width"] = 244,
-			["id"] = "details",
-			["frameStrata"] = 9,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SELECTFRAME",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["inverse"] = false,
+			["iconSource"] = -1,
+			["parent"] = "*UI_Misc.",
+			["icon"] = false,
+			["anchorFrameFrame"] = "Details_WindowFrame1",
+			["regionType"] = "aurabar",
+			["useAdjustededMin"] = true,
 			["actions"] = {
 				["start"] = {
 				},
-				["finish"] = {
-				},
 				["init"] = {
 				},
+				["finish"] = {
+				},
+			},
+			["icon_side"] = "RIGHT",
+			["authorOptions"] = {
+			},
+			["sparkHeight"] = 30,
+			["texture"] = "Solid",
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
+			["spark"] = false,
+			["anchorFrameType"] = "SELECTFRAME",
+			["sparkHidden"] = "NEVER",
+			["alpha"] = 1,
+			["frameStrata"] = 9,
+			["width"] = 244,
+			["id"] = "details",
+			["uid"] = "dy92N6Rhkxw",
+			["inverse"] = false,
+			["config"] = {
 			},
 			["orientation"] = "HORIZONTAL",
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["iconSource"] = -1,
-		},
-		["*UI_Misc."] = {
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["controlledChildren"] = {
-				"details", -- [1]
-			},
-			["borderBackdrop"] = "Blizzard Tooltip",
-			["authorOptions"] = {
-			},
-			["information"] = {
-			},
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "group",
-			["borderSize"] = 2,
-			["yOffset"] = 0,
-			["borderColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["xOffset"] = 0,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["debuffType"] = "HELPFUL",
-						["type"] = "aura2",
-						["spellIds"] = {
-						},
-						["subeventSuffix"] = "_CAST_START",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["event"] = "Health",
-						["names"] = {
-						},
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["anchorPoint"] = "CENTER",
-			["internalVersion"] = 40,
 			["animation"] = {
 				["start"] = {
-					["easeStrength"] = 3,
 					["type"] = "none",
+					["easeStrength"] = 3,
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 				["main"] = {
-					["easeStrength"] = 3,
 					["type"] = "none",
+					["easeStrength"] = 3,
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 				["finish"] = {
-					["easeStrength"] = 3,
 					["type"] = "none",
+					["easeStrength"] = 3,
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["id"] = "*UI_Misc.",
-			["borderOffset"] = 4,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["uid"] = "W)S9LuxOvu5",
-			["config"] = {
-			},
-			["borderInset"] = 1,
-			["subRegions"] = {
-			},
-			["conditions"] = {
-			},
-			["load"] = {
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["scale"] = 1,
 		},
 	},
 	["lastArchiveClear"] = 1608185209,
@@ -256,10 +2785,10 @@ WeakAurasSaved = {
 	["registered"] = {
 	},
 	["frame"] = {
-		["xOffset"] = -438,
-		["yOffset"] = -164.4996337890625,
-		["height"] = 665.0000610351562,
+		["xOffset"] = -18.99951171875,
 		["width"] = 830,
+		["height"] = 665.0001220703125,
+		["yOffset"] = -109.4992065429688,
 	},
 	["editor_theme"] = "Monokai",
 }

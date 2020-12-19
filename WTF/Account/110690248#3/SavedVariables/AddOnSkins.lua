@@ -14,6 +14,7 @@ AddOnSkinsDB = {
 			["Blizzard_ExtraActionButton"] = true,
 			["StatusBarTexture"] = "Solid",
 			["BackgroundTexture"] = "Solid",
+			["Hekili"] = false,
 			["EmbedOoC"] = true,
 			["Shadows"] = false,
 		},

@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Dec 19 06:11:05 UTC 2020
+-- Generated from CurseForge on Sun Dec 20 18:11:31 UTC 2020
 local _, ns = ...
 
 if ns:IsSameLocale("esES") then

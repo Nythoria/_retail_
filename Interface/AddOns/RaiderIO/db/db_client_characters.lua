@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2020-12-19T12:28:48Z
+-- RaiderIO Client Data. Generated on 2020-12-21T05:56:39Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -67,7 +67,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 572.1,
+        ["score"] = 645.1,
         ["best"] = {
           ["zone_id"] = 12916,
           ["level"] = 10,
@@ -79,11 +79,11 @@ ns.CLIENT_CHARACTERS = {
         ["runs"] = {
           [1] = {
             ["zone_id"] = 12831,
-            ["level"] = 0,
+            ["level"] = 10,
             ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["fraction"] = 1.472,
+            ["score"] = 72.51689107234458,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/4118693-10-halls-of-atonement?utm_source=client"
           },
           [2] = {
             ["zone_id"] = 12837,
@@ -137,9 +137,9 @@ ns.CLIENT_CHARACTERS = {
             ["zone_id"] = 13334,
             ["level"] = 9,
             ["upgrades"] = 1,
-            ["fraction"] = 0.898,
-            ["score"] = 90.8917425828665,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/2475594-9-mists-of-tirna-scithe?utm_source=client"
+            ["fraction"] = 0.853,
+            ["score"] = 91.28753819408006,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/4222649-9-mists-of-tirna-scithe?utm_source=client"
           }
         }
       }
@@ -173,14 +173,14 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 97.1,
+        ["score"] = 194.4,
         ["best"] = {
-          ["zone_id"] = 12831,
-          ["level"] = 6,
-          ["upgrades"] = 2,
-          ["fraction"] = 0.763,
-          ["score"] = 63.576351196319834,
-          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/2660741-6-halls-of-atonement?utm_source=client"
+          ["zone_id"] = 12837,
+          ["level"] = 7,
+          ["upgrades"] = 0,
+          ["fraction"] = 1.146,
+          ["score"] = 53.95415865828992,
+          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/4406155-7-spires-of-ascension?utm_source=client"
         },
         ["runs"] = {
           [1] = {
@@ -193,11 +193,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [2] = {
             ["zone_id"] = 12837,
-            ["level"] = 2,
+            ["level"] = 7,
             ["upgrades"] = 0,
-            ["fraction"] = 1.006,
-            ["score"] = 9.954189173309523,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/1345817-2-spires-of-ascension?utm_source=client"
+            ["fraction"] = 1.146,
+            ["score"] = 53.95415865828992,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/4406155-7-spires-of-ascension?utm_source=client"
           },
           [3] = {
             ["zone_id"] = 12841,
@@ -241,11 +241,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [8] = {
             ["zone_id"] = 13334,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 5,
+            ["upgrades"] = 2,
+            ["fraction"] = 0.791,
+            ["score"] = 53.32727891575731,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/4406152-5-mists-of-tirna-scithe?utm_source=client"
           }
         }
       }
@@ -276,24 +276,6 @@ ns.CLIENT_CHARACTERS = {
       ["faction"] = "alliance",
       ["race"] = 7,
       ["class"] = 4
-    },
-    ["mythic_keystone"] = {
-      ["all"] = {
-        ["score"] = 0,
-        ["best"] = nil,
-        ["runs"] = {
-
-        }
-      }
-    }
-  },
-  ["Eléonora-Ravencrest"] = {
-    ["profile"] = {
-      ["name"] = "Eléonora",
-      ["realm"] = "Ravencrest",
-      ["faction"] = "alliance",
-      ["race"] = 34,
-      ["class"] = 3
     },
     ["mythic_keystone"] = {
       ["all"] = {

@@ -1,8 +1,9 @@
 
 AddOnSkinsDB = {
 	["profileKeys"] = {
-		["Ririchíyo - Silvermoon"] = "Default",
+		["Eléonóra - Silvermoon"] = "Default",
 		["Kúsano - Silvermoon"] = "Default",
+		["Ririchíyo - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -13,8 +14,9 @@ AddOnSkinsDB = {
 			["DBMFont"] = "Expressway",
 			["Blizzard_ExtraActionButton"] = true,
 			["StatusBarTexture"] = "Solid",
-			["BackgroundTexture"] = "Solid",
+			["Hekili"] = false,
 			["EmbedOoC"] = true,
+			["BackgroundTexture"] = "Solid",
 			["Shadows"] = false,
 		},
 	},

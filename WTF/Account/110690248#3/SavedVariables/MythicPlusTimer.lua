@@ -25,7 +25,7 @@ MythicPlusTimerDB = {
 		["color_prideful_value_warning"] = "FFFFFF00",
 		["color_prideful_value_alert"] = "FFFF0000",
 		["show_pull_values"] = false,
-		["color_prideful"] = "FFFFFFFF",
+		["insert_keystone"] = true,
 		["color_timeleft_expired"] = "FFFF0000",
 		["color_chest_time_expired"] = "FF808080",
 		["best_times"] = {
@@ -49,11 +49,11 @@ MythicPlusTimerDB = {
 			},
 			[-1] = {
 				50, -- [1]
-				["l30affixes-9-7-13-121"] = {
-					123, -- [1]
-				},
 				["l30"] = {
 					110, -- [1]
+				},
+				["l30affixes-9-7-13-121"] = {
+					123, -- [1]
 				},
 			},
 			[2285] = {
@@ -78,7 +78,7 @@ MythicPlusTimerDB = {
 				},
 			},
 		},
-		["npc_progress_id"] = "sl_1",
+		["color_dungeon_name"] = "FFFFD100",
 		["show_affixes_as_text"] = true,
 		["color_deathcounter"] = "FFFFFFFF",
 		["color_prideful_value"] = "FFFFFFFF",
@@ -89,12 +89,12 @@ MythicPlusTimerDB = {
 			["is_prideful"] = false,
 			["quantity_number"] = 285,
 			["cm_level"] = 7,
-			["time_left_2"] = 0,
+			["elapsed_time"] = 2682,
 			["deathcount"] = 27,
 			["quantity_completed"] = true,
-			["final_quantity_number"] = 285,
+			["time_left_3"] = 0,
 			["zone_name"] = "Spires of Ascension",
-			["level_key"] = "l7",
+			["affixes_key"] = "affixes-9-7-124",
 			["time_left"] = 0,
 			["deathcount_visible"] = true,
 			["steps"] = 5,
@@ -102,18 +102,11 @@ MythicPlusTimerDB = {
 				["Hóótts"] = 4,
 				["Eloyà"] = 5,
 				["Mønkeytøy"] = 7,
-				["Kúsano"] = 4,
 				["Muumi-Ravencrest"] = 6,
+				["Kúsano"] = 4,
 			},
-			["max_time"] = 2340,
-			["is_reaping"] = false,
-			["current_map_id"] = 381,
 			["current_zone_id"] = 2285,
-			["affixes"] = {
-				9, -- [1]
-				7, -- [2]
-				124, -- [3]
-			},
+			["is_reaping"] = false,
 			["times"] = {
 				382, -- [1]
 				1572, -- [2]
@@ -121,25 +114,32 @@ MythicPlusTimerDB = {
 				2559, -- [4]
 				2682, -- [5]
 			},
+			["max_time"] = 2340,
+			["affixes"] = {
+				9, -- [1]
+				7, -- [2]
+				124, -- [3]
+			},
+			["current_map_id"] = 381,
 			["pull"] = {
 			},
-			["affixes_key"] = "affixes-9-7-124",
-			["time_left_3"] = 0,
-			["elapsed_time"] = 2682,
+			["level_key"] = "l7",
+			["final_quantity_number"] = 285,
+			["time_left_2"] = 0,
 		},
-		["color_objective_completed"] = "FF808080",
+		["color_time"] = "FFFFFFFF",
+		["color_chest_timeleft"] = "FF00FF00",
 		["hide_default_objectivetracker"] = true,
 		["objective_time"] = true,
-		["color_chest_timeleft"] = "FF00FF00",
-		["color_time"] = "FFFFFFFF",
+		["color_objective_completed"] = "FF808080",
 		["color_timeleft"] = "FF00FF00",
-		["color_dungeon_name"] = "FFFFD100",
+		["npc_progress_id"] = "sl_1",
 		["npc_progress"] = {
 			[163058] = {
 				[4] = 6,
 			},
-			[163520] = {
-				[6] = 2,
+			[167116] = {
+				[4] = 2,
 			},
 			[164926] = {
 				[6] = 3,
@@ -150,14 +150,14 @@ MythicPlusTimerDB = {
 			[172312] = {
 				[4] = 2,
 			},
-			[168717] = {
-				[4] = 1,
+			[166299] = {
+				[4] = 2,
 			},
 			[166275] = {
 				[4] = 3,
 			},
-			[163458] = {
-				[4] = 3,
+			[163520] = {
+				[6] = 2,
 			},
 			[163524] = {
 				[5] = 7,
@@ -168,17 +168,17 @@ MythicPlusTimerDB = {
 			[163501] = {
 				[4] = 1,
 			},
-			[166276] = {
-				[4] = 5,
+			[167113] = {
+				[4] = 4,
 			},
-			[166299] = {
-				[4] = 2,
+			[168717] = {
+				[4] = 1,
 			},
 			[168318] = {
 				[8] = 6,
 			},
-			[167113] = {
-				[4] = 4,
+			[166276] = {
+				[4] = 5,
 			},
 			[167117] = {
 				11, -- [1]
@@ -189,8 +189,8 @@ MythicPlusTimerDB = {
 			[168418] = {
 				[4] = 2,
 			},
-			[163459] = {
-				[4] = 2,
+			[164921] = {
+				[4] = 6,
 			},
 			[163506] = {
 				[4] = 7,
@@ -216,8 +216,8 @@ MythicPlusTimerDB = {
 			[163503] = {
 				[2] = 13,
 			},
-			[164921] = {
-				[4] = 6,
+			[163459] = {
+				[4] = 2,
 			},
 			[166301] = {
 				[4] = 4,
@@ -228,10 +228,10 @@ MythicPlusTimerDB = {
 			[163457] = {
 				[4] = 6,
 			},
-			[167116] = {
-				[4] = 2,
+			[163458] = {
+				[4] = 3,
 			},
 		},
-		["insert_keystone"] = true,
+		["color_prideful"] = "FFFFFFFF",
 	},
 }

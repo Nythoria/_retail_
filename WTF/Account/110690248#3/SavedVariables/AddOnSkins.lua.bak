@@ -7,16 +7,16 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["EmbedOoCDelay"] = 3,
 			["Blizzard_AbilityButton"] = true,
 			["DBMFontSize"] = 11,
 			["DBMRadarTrans"] = true,
 			["DBMFont"] = "Expressway",
 			["Blizzard_ExtraActionButton"] = true,
+			["BackgroundTexture"] = "Solid",
 			["StatusBarTexture"] = "Solid",
 			["Hekili"] = false,
 			["EmbedOoC"] = true,
-			["BackgroundTexture"] = "Solid",
+			["EmbedOoCDelay"] = 3,
 			["Shadows"] = false,
 		},
 	},

@@ -124,7 +124,7 @@ do
         [338303] = { "call_of_flame", { 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50 }, },
         [338315] = { "shattered_perceptions", { 13, 14.3, 15.6, 16.9, 18.2, 19.5, 20.8, 22.1, 23.4, 24.7, 26, 27.3, 28.6, 29.9, 31.2 }, },
         [338311] = { "unending_grip", { -20, -22, -24, -26, -28, -30, -32, -34, -36, -38, -40, -42, -44, -46, -48 }, },
-        [338319] = { "haunting_apparitions", { 31, 34.1, 37.2, 40.3, 35, 46.5, 49.6, 52.7, 55.8, 58.9, 62, 65.1, 68.2, 71.3, 74.4 }, },
+        [338319] = { "haunting_apparitions", { 31, 34.1, 37.2, 40.3, 43.4, 46.5, 49.6, 52.7, 55.8, 58.9, 62, 65.1, 68.2, 71.3, 74.4 }, },
         [338330] = { "insatiable_appetite", { 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3, 2.4 }, },
         [338318] = { "unruly_winds", { 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35 }, },
         [338322] = { "focused_lightning", { 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3, 3.25, 3.5, 3.75, 4, 4.25, 4.5 }, },
@@ -209,7 +209,7 @@ do
         [339973] = { "deadly_chain", { 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20 }, },
         [339987] = { "untempered_dedication", { 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12 }, },
         [340006] = { "vengeful_shock", { 3, 3.3, 3.6, 3.9, 4.2, 4.5, 4.8, 5.1, 5.4, 5.7, 6, 6.3, 6.6, 6.9, 7.2 }, },
-        [340012] = { "punish_the_guilty", { 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120 }, },
+        [340012] = { "punish_the_guilty", { 15, 16.5, 18, 19.5, 21, 22.5, 24, 25.5, 27, 28.5, 30, 31.5, 33, 34.5, 36 }, },
         [340023] = { "resolute_defender", { 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3, 2.4 }, },
         [340028] = { "increased_scrutiny", { -5000, -5500, -6000, -6500, -7000, -7500, -8000, -8500, -9000, -9500, -10000, -10500, -11000, -11500, -12000 }, },
         [340033] = { "powerful_precision", { 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 }, },
@@ -296,7 +296,7 @@ do
         [339576] = { "cold_embrace", { 75 }, },
         [344358] = { "unnatural_malice", { 25, 27.5, 30, 32.5, 35, 37.5, 40, 42.5, 45, 47.5, 50, 52.5, 55, 57.5, 60 }, },
         [346747] = { "ambuscade", { 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 1000, 2300, 2400 }, },
-        [338682] = { "viscous_ink", { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -12, -12.5, -13 }, },    
+        [338682] = { "viscous_ink", { -12, -12.5, -13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -12, -12.5, -13 }, },
     }
 
     local soulbinds = {
@@ -397,6 +397,9 @@ do
     local soulbindEvents = {
         "SOULBIND_ACTIVATED",
         "SOULBIND_CONDUIT_CHARGES_UPDATED",
+        "SOULBIND_CONDUIT_COLLECTION_CLEARED",
+        "SOULBIND_CONDUIT_COLLECTION_REMOVED",
+        "SOULBIND_CONDUIT_COLLECTION_UPDATED",
         "SOULBIND_CONDUIT_INSTALLED",
         "SOULBIND_CONDUIT_UNINSTALLED",
         "SOULBIND_FORGE_INTERACTION_STARTED",
@@ -406,7 +409,8 @@ do
         "SOULBIND_NODE_UPDATED",
         "SOULBIND_PATH_CHANGED",
         "SOULBIND_PENDING_CONDUIT_CHANGED",
-        "PLAYER_ENTERING_WORLD"
+        "PLAYER_ENTERING_WORLD",
+        "PLAYER_TALENT_UPDATE"
     }
 
     local GetActiveSoulbindID, GetSoulbindData, GetConduitSpellID = C_Soulbinds.GetActiveSoulbindID, C_Soulbinds.GetSoulbindData, C_Soulbinds.GetConduitSpellID
@@ -430,62 +434,47 @@ do
         if not souldata then return end
 
         for i, node in ipairs( souldata.tree.nodes ) do
-            if node.conduitID and node.conduitRank then
-                if node.state == Enum.SoulbindNodeState.Selected then
-                    if node.conduitID > 0 then
-                        local spellID = GetConduitSpellID( node.conduitID, node.conduitRank )
+            if node.state == Enum.SoulbindNodeState.Selected then
+                if node.conduitID > 0 then
+                    local spellID = GetConduitSpellID( node.conduitID, node.conduitRank )
 
-                        if conduits[ spellID ] then
-                            found = true
+                    if conduits[ spellID ] then
+                        found = true
 
-                            local data = conduits[ spellID ]
-                            local key = data[ 1 ]
+                        local data = conduits[ spellID ]
+                        local key = data[ 1 ]
 
-                            local conduit = rawget( state.conduit, key ) or {
-                                rank = 0,
-                                mod = 0
-                            }
+                        local conduit = rawget( state.conduit, key ) or {
+                            rank = 0,
+                            mod = 0
+                        }
 
-                            conduit.rank = node.conduitRank
-                            conduit.mod = data[ 2 ][ node.conduitRank ]
+                        conduit.rank = node.conduitRank
+                        conduit.mod = data[ 2 ][ node.conduitRank ]
 
-                            state.conduit[ key ] = conduit
-                        end
-                    elseif node.spellID > 0 then
-                        if soulbinds[ node.spellID ] then
-                            local key = soulbinds[ node.spellID ]
+                        state.conduit[ key ] = conduit
+                    end
+                elseif node.spellID > 0 then
+                    if soulbinds[ node.spellID ] then
+                        found = true
 
-                            local soulbind = rawget( state.soulbind, key ) or {}
-                            soulbind.rank = 1
+                        local key = soulbinds[ node.spellID ]
 
-                            state.soulbind[ key ] = soulbind
-                        end
+                        local soulbind = rawget( state.soulbind, key ) or {}
+                        soulbind.rank = 1
+
+                        state.soulbind[ key ] = soulbind
                     end
                 end
             end
         end
 
-        return found
-    end
-
-
-    local tries = 30
-    function ns.StartConduits()
-        if not ns.updateConduits() then
-            tries = tries - 1
-            
-            if tries > 0 then
-                C_Timer.After( 1, ns.StartConduits )
-            end
-
-            return
+        if not found then
+            C_Timer.After( 2, ns.updateConduits )
         end
-
-        tries = 0
     end
 
-    ns.StartConduits()
-
+    ns.updateConduits()
 
     for i, event in pairs( soulbindEvents ) do
         RegisterEvent( event, ns.updateConduits )

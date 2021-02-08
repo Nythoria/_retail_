@@ -9,7 +9,7 @@ P.announcement = {
         enable = true,
         onlySourceIsPlayer = false,
         raidWarning = false,
-        text = L["%player% casted %spell% -> %target%"],
+        text = L["%player% cast %spell% -> %target%"],
         channel = {
             solo = "NONE",
             party = "PARTY",
@@ -159,7 +159,7 @@ P.announcement = {
         forceSourceIsPlayer = true,
         forceDestIsPlayer = false,
         raidWarning = false,
-        text = L["%player% casted %spell% -> %target%"],
+        text = L["%player% cast %spell% -> %target%"],
         channel = {
             solo = "NONE",
             party = "PARTY",
@@ -216,7 +216,7 @@ P.announcement = {
                 enable = true,
                 includePlayer = true,
                 raidWarning = false,
-                text = L["%player% casted %spell%, today's special is Anchovy Pie!"]
+                text = L["%player% cast %spell%, today's special is Anchovy Pie!"]
             },
             feasts = {
                 enable = true,
@@ -242,6 +242,13 @@ P.announcement = {
                 raidWarning = false,
                 text = L["%player% opened %spell%!"]
             }
+        }
+    },
+    keystone = {
+        enable = true,
+        text = L["My new keystone is %keystone%."],
+        channel = {
+            party = "PARTY"
         }
     }
 }
@@ -315,7 +322,9 @@ P.item = {
     extraItemsBar = {
         enable = true,
         customList = {},
-        blackList = {},
+        blackList = {
+            [183040] = true
+        },
         bar1 = {
             enable = true,
             mouseOver = false,
@@ -331,6 +340,7 @@ P.item = {
             buttonsPerRow = 12,
             anchor = "TOPLEFT",
             spacing = 3,
+            tooltip = true,
             countFont = {
                 name = F.GetCompatibleFont("Montserrat"),
                 size = 12,
@@ -355,7 +365,7 @@ P.item = {
                     b = 1
                 }
             },
-            include = "QUEST,BANNER,EQUIP,TORGHAST"
+            include = "QUEST,BANNER,EQUIP,TORGHAST,OPENABLE"
         },
         bar2 = {
             enable = true,
@@ -372,6 +382,7 @@ P.item = {
             buttonsPerRow = 12,
             anchor = "TOPLEFT",
             spacing = 3,
+            tooltip = true,
             countFont = {
                 name = F.GetCompatibleFont("Montserrat"),
                 size = 12,
@@ -413,6 +424,7 @@ P.item = {
             buttonsPerRow = 12,
             anchor = "TOPLEFT",
             spacing = 3,
+            tooltip = true,
             countFont = {
                 name = F.GetCompatibleFont("Montserrat"),
                 size = 12,
@@ -438,6 +450,90 @@ P.item = {
                 }
             },
             include = "MAGEFOOD,FOODVENDOR,FOODSL,CUSTOM"
+        },
+        bar4 = {
+            enable = false,
+            mouseOver = false,
+            globalFade = false,
+            fadeTime = 0.3,
+            alphaMin = 0,
+            alphaMax = 1,
+            numButtons = 12,
+            backdrop = true,
+            backdropSpacing = 3,
+            buttonWidth = 35,
+            buttonHeight = 30,
+            buttonsPerRow = 12,
+            anchor = "TOPLEFT",
+            spacing = 3,
+            tooltip = true,
+            countFont = {
+                name = F.GetCompatibleFont("Montserrat"),
+                size = 12,
+                style = "OUTLINE",
+                xOffset = 0,
+                yOffset = 0,
+                color = {
+                    r = 1,
+                    g = 1,
+                    b = 1
+                }
+            },
+            bindFont = {
+                name = F.GetCompatibleFont("Montserrat"),
+                size = 12,
+                style = "OUTLINE",
+                xOffset = 0,
+                yOffset = 0,
+                color = {
+                    r = 1,
+                    g = 1,
+                    b = 1
+                }
+            },
+            include = "CUSTOM"
+        },
+        bar5 = {
+            enable = false,
+            mouseOver = false,
+            globalFade = false,
+            fadeTime = 0.3,
+            alphaMin = 0,
+            alphaMax = 1,
+            numButtons = 12,
+            backdrop = true,
+            backdropSpacing = 3,
+            buttonWidth = 35,
+            buttonHeight = 30,
+            buttonsPerRow = 12,
+            anchor = "TOPLEFT",
+            spacing = 3,
+            tooltip = true,
+            countFont = {
+                name = F.GetCompatibleFont("Montserrat"),
+                size = 12,
+                style = "OUTLINE",
+                xOffset = 0,
+                yOffset = 0,
+                color = {
+                    r = 1,
+                    g = 1,
+                    b = 1
+                }
+            },
+            bindFont = {
+                name = F.GetCompatibleFont("Montserrat"),
+                size = 12,
+                style = "OUTLINE",
+                xOffset = 0,
+                yOffset = 0,
+                color = {
+                    r = 1,
+                    g = 1,
+                    b = 1
+                }
+            },
+            include = "CUSTOM"
         }
     },
     inspect = {
@@ -628,7 +724,7 @@ P.social = {
         textures = {
             game = "Modern",
             status = "Square",
-            factionIcon = false,
+            factionIcon = false
         },
         areaColor = {
             r = 1,

@@ -199,6 +199,11 @@
 		[217957] = 5308, --warrior execute
 		[224253] = 5308, --warrior execute
 		[199850] = 199658, --warrior whirlwind
+		[190411] = 199658, --warrior whirlwind
+		[44949] = 199658, --warrior whirlwind
+		[199667] = 199658, --warrior whirlwind
+		[199852] = 199658, --warrior whirlwind
+		[199851] = 199658, --warrior whirlwind
 		
 		[222031] = 199547, --deamonhunter ChaosStrike
 		[200685] = 199552, --deamonhunter Blade Dance
@@ -318,9 +323,6 @@
 		local _hook_deaths_container = _detalhes.hooks ["HOOK_DEATH"]
 		local _hook_battleress_container = _detalhes.hooks ["HOOK_BATTLERESS"]
 		local _hook_interrupt_container = _detalhes.hooks ["HOOK_INTERRUPT"]
-		
-	--> G'Huun blood shield
-		local _track_ghuun_bloodshield --REMOVE ON 9.0 PATCH
 		
 	--> encoutner rules
 		local ignored_npc_ids = {
@@ -710,6 +712,12 @@
 			--> � um pet
 			alvo_name = alvo_name .. " <" .. alvo_dono.nome .. ">"
 		
+		end
+
+		if (not jogador_alvo) then
+			local instanceName, _, _, _, _, _, _, instanceId = GetInstanceInfo()
+			Details:Msg("Report 0x885488", alvo_name, instanceName, instanceId, damage_cache[alvo_serial] and "true")
+			return
 		end
 		
 		--> last event
@@ -2364,16 +2372,6 @@ SPELL_HEAL,Player-3209-0A79112C,"Symantec-Azralon",0x511,0x0,Player-3209-065BAED
 						if (overheal > 0) then
 							return parser:heal (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, nil, 0, _math_ceil (overheal), 0, 0, nil, true)
 						end
-					
-						--local absorb = escudo [alvo_name][spellid][who_name] - amount
-						--local overheal = amount - absorb
-						--escudo [alvo_name][spellid][who_name] = amount
-						
-						--if (absorb > 0) then
-							--return parser:heal (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, spellid, spellname, nil, _math_ceil (absorb), _math_ceil (overheal), 0, 0, nil, true)
-						--end
-					else
-						-- escudo n�o encontrado :(
 					end
 					
 			------------------------------------------------------------------------------------------------
@@ -2509,8 +2507,7 @@ SPELL_HEAL,Player-3209-0A79112C,"Symantec-Azralon",0x511,0x0,Player-3209-065BAED
 				if (absorb_spell_list [spellid] and _recording_healing) then
 					if (escudo [alvo_name] and escudo [alvo_name][spellid] and escudo [alvo_name][spellid][who_name]) then
 						if (amount) then
-							-- o amount � o que sobrou do escudo
-							
+							-- o amount � o que sobrou do escudo							
 							local overheal = escudo [alvo_name][spellid][who_name]
 							escudo [alvo_name][spellid][who_name] = 0
 
@@ -2522,9 +2519,9 @@ SPELL_HEAL,Player-3209-0A79112C,"Symantec-Azralon",0x511,0x0,Player-3209-065BAED
 								return
 							end
 						end
+
 						escudo [alvo_name][spellid][who_name] = 0
 					end
-				--end
 				
 			------------------------------------------------------------------------------------------------
 			--> recording buffs
@@ -4408,14 +4405,6 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			end
 		end
 		
-		--> wipe encounter data if changing map while the encounter table is poiting to argus encounter ~REMOVE on 8.0
-		if (_detalhes.encounter_table and _detalhes.encounter_table.id == 2092) then
-			_table_wipe (_detalhes.encounter_table)
-			if (_detalhes.debug) then
-				_detalhes:Msg ("(debug) map changed with encounter table pointing to argus encounter, wiping the encounter table.")
-			end
-		end
-		
 		_detalhes.time_type = _detalhes.time_type_original
 		
 		if (_detalhes.debug) then
@@ -4527,12 +4516,17 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			return
 		end
 
-		--> leave the current combat when the encounter start, if is doing a mythic plus dungeons, check if the options alows to create a dedicated segment for the boss fight
+		--> leave the current combat when the encounter start, if is doing a mythic plus dungeons, check if the options allows to create a dedicated segment for the boss fight
 		if ((_in_combat and not _detalhes.tabela_vigente.is_boss) and (not _detalhes.MythicPlus.Started or _detalhes.mythic_plus.boss_dedicated_segment)) then
 			_detalhes:SairDoCombate()
 		end
 		
 		local encounterID, encounterName, difficultyID, raidSize = _select (1, ...)
+		local zoneName, _, _, _, _, _, _, zoneMapID = _GetInstanceInfo()
+
+		if (_detalhes.InstancesToStoreData[zoneMapID]) then
+			Details.current_exp_raid_encounters[encounterID] = true
+		end
 		
 		if (not _detalhes.WhoAggroTimer and _detalhes.announce_firsthit.enabled) then
 			_detalhes.WhoAggroTimer = C_Timer.NewTimer (0.5, who_aggro)
@@ -4545,32 +4539,17 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 
 		_current_encounter_id = encounterID
+		--Details:Msg("encounter started:", encounterID, encounterName)
 		_detalhes.boss1_health_percent = 1
-		
-		if (_current_encounter_id == 2122) then --g'huun --REMOVE ON 9,0 PATCH
-			C_Timer.After (1, function()
-				local boss1GUID = UnitGUID ("boss1")
-				if (boss1GUID) then
-					local npcid = _select (6, _strsplit ("-", boss1GUID))
-					if (npcid and npcid == "132998") then --is g'huun?
-						--print ("Details! Ignoring now damage on G'huun!")
-						_track_ghuun_bloodshield = true
-					end
-				end
-			end)
-		end
 		
 		local dbm_mod, dbm_time = _detalhes.encounter_table.DBM_Mod, _detalhes.encounter_table.DBM_ModTime
 		_table_wipe (_detalhes.encounter_table)
-		
-		local encounterID, encounterName, difficultyID, raidSize = _select (1, ...)
-		local zoneName, _, _, _, _, _, _, zoneMapID = _GetInstanceInfo()
 		
 		--print (encounterID, encounterName, difficultyID, raidSize)
 		_detalhes.encounter_table.phase = 1
 		
 		--store the encounter time inside the encounter table for the encounter plugin
-		_detalhes.encounter_table ["start"] = _GetTime()
+		_detalhes.encounter_table.start = GetTime()
 		_detalhes.encounter_table ["end"] = nil
 --		local encounterID = Details.encounter_table.id
 		_detalhes.encounter_table.id = encounterID
@@ -4609,6 +4588,8 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 		
 		_detalhes:SendEvent ("COMBAT_ENCOUNTER_START", nil, ...)
+
+		--print ("encounter staerted at:", _detalhes.encounter_table.start)
 	end
 	
 	function _detalhes.parser_functions:ENCOUNTER_END (...)
@@ -4618,21 +4599,18 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 		
 		_current_encounter_id = nil
-		_track_ghuun_bloodshield = nil --REMOVE ON PATCH 9.0
 		
 		local _, instanceType = GetInstanceInfo() --> let's make sure it isn't a dungeon
 		if (_detalhes.zone_type == "party" or instanceType == "party") then
 			if (_detalhes.debug) then
 				_detalhes:Msg ("(debug) the zone type is 'party', ignoring ENCOUNTER_END.")
 			end
-			--return --rnu encounter end for dungeons as well
 		end
 	
 		local encounterID, encounterName, difficultyID, raidSize, endStatus = _select (1, ...)
-		
-		--_detalhes:Msg ("encounter against|cFFFFC000", encounterName, "|rended.")
 	
 		if (not _detalhes.encounter_table.start) then
+			Details:Msg("encounter table without start time.")
 			return
 		end
 		
@@ -4640,7 +4618,7 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		if (_detalhes.latest_ENCOUNTER_END + 15 > _GetTime()) then
 			return
 		end
-		--_detalhes.latest_ENCOUNTER_END = _detalhes._tempo
+
 		_detalhes.latest_ENCOUNTER_END = _GetTime()
 		_detalhes.encounter_table ["end"] = _GetTime() -- 0.351
 		
@@ -4665,7 +4643,7 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		_detalhes:SendEvent ("COMBAT_ENCOUNTER_END", nil, ...)
 		
 		_table_wipe (_detalhes.encounter_table)
-		_table_wipe (bargastBuffs)
+		_table_wipe (bargastBuffs) --remove on 10.0
 		
 		return true
 	end

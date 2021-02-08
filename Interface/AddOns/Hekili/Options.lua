@@ -460,6 +460,7 @@ local actionTemplate = {
     action = "wait",
     criteria = "",
     caption = "",
+    description = "",
 
     -- Shared Modifiers
     chain = 0,  -- NYI
@@ -467,6 +468,7 @@ local actionTemplate = {
 
     cycle_targets = 0,
     max_cycle_targets = 3,
+    max_energy = 0,
 
     interrupt = 0,  --NYI
     interrupt_if = "",  --NYI
@@ -3363,20 +3365,34 @@ do
         apl = "\n" .. apl
         apl = apl:gsub( "actions(%+?)=", "actions.default%1=" )
 
-        for list, action in apl:gmatch( "\nactions%.(%S-)%+?=/?([^\n^$]*)" ) do
-            lists[ list ] = lists[ list ] or ""
+        local comment
 
-            --[[ if action:sub( 1, 6 ) == "potion" then
-                local potion = action:match( ",name=(.-),") or action:match( ",name=(.-)$" ) or class.potion or ""
-                action = action:gsub( potion, "\"" .. potion .. "\"" )
-            end ]]
+        for line in apl:gmatch( "\n([^\n^$]*)") do
+            local newComment = line:match( "^# (.+)" )
+            if newComment then comment = newComment end
 
-            if action:sub( 1, 16 ) == "call_action_list" or action:sub( 1, 15 ) == "run_action_list" then
-                local name = action:match( ",name=(.-)," ) or action:match( ",name=(.-)$" )
-                if name then action:gsub( ",name=" .. name, ",name=\"" .. name .. "\"" ) end
+            local list, action = line:match( "^actions%.(%S-)%+?=/?([^\n^$]*)" )
+
+            if list and action then
+                lists[ list ] = lists[ list ] or ""
+
+                --[[ if action:sub( 1, 6 ) == "potion" then
+                    local potion = action:match( ",name=(.-),") or action:match( ",name=(.-)$" ) or class.potion or ""
+                    action = action:gsub( potion, "\"" .. potion .. "\"" )
+                end ]]
+
+                if action:sub( 1, 16 ) == "call_action_list" or action:sub( 1, 15 ) == "run_action_list" then
+                    local name = action:match( ",name=(.-)," ) or action:match( ",name=(.-)$" )
+                    if name then action:gsub( ",name=" .. name, ",name=\"" .. name .. "\"" ) end
+                end
+
+                if comment then
+                    action = action .. ',description=' .. comment:gsub( ",", ";" )
+                    comment = nil
+                end
+
+                lists[ list ] = lists[ list ] .. "actions+=/" .. action .. "\n"
             end
-
-            lists[ list ] = lists[ list ] .. "actions+=/" .. action .. "\n"
         end
 
         local count = 0
@@ -4525,7 +4541,7 @@ do
                                 potion = {
                                     type = "select",
                                     name = "Default Potion",
-                                    desc = "When recommending a potion, the addon will suggest this potion unless unless the action list specifies otherwise.",
+                                    desc = "When recommending a potion, the addon will suggest this potion unless the action list specifies otherwise.",
                                     order = 2,
                                     width = 3,
                                     values = function ()
@@ -4699,7 +4715,7 @@ do
                                 damageRange = {
                                     type = "range",
                                     name = "Filter Damaged Enemies by Range",
-                                    desc = "If set above 0, the addon will attempt to avoid counting targets that have were out of range when last seen.  This is based on cached data and may be inaccurate.",
+                                    desc = "If set above 0, the addon will attempt to avoid counting targets that were out of range when last seen.  This is based on cached data and may be inaccurate.",
                                     width = "full",
                                     hidden = function () return self.DB.profile.specs[ id ].damage == false end,
                                     min = 0,
@@ -4967,6 +4983,7 @@ do
     local toggleToNumber = {
         cycle_targets = true,
         for_next = true,
+        max_energy = true,
         strict = true,
         use_off_gcd = true,
         use_while_casting = true,
@@ -6177,7 +6194,7 @@ do
                                     hidden = function () return packControl.makingNew end,
                                 },
 
-                                actionGroup = {
+                                --[[ actionGroup = {
                                     type = "group",
                                     inline = true,
                                     name = "",
@@ -6203,12 +6220,12 @@ do
                                                 local p = rawget( Hekili.DB.profile.packs, pack )
                                                 return not packControl.actionID or packControl.actionID == "zzzzzzzzzz" or not p.lists[ packControl.listName ][ id ]
                                             end,
-                                            args = {
+                                            args = { ]]
                                                 enabled = {
                                                     type = "toggle",
                                                     name = "Enabled",
                                                     desc = "If disabled, this entry will not be shown even if its criteria are met.",
-                                                    order = 0,
+                                                    order = 3.0,
                                                     width = "full",
                                                 },
 
@@ -6217,7 +6234,7 @@ do
                                                     name = "Action",
                                                     desc = "Select the action that will be recommended when this entry's criteria are met.",
                                                     values = class.abilityList,
-                                                    order = 1,
+                                                    order = 3.1,
                                                     width = 1.5,
                                                 },
 
@@ -6227,7 +6244,7 @@ do
                                                     desc = "Captions are |cFFFF0000very|r short descriptions that can appear on the icon of a recommended ability.\n\n" ..
                                                         "This can be useful for understanding why an ability was recommended at a particular time.\n\n" ..
                                                         "Requires Captions to be Enabled on each display.",
-                                                    order = 2,
+                                                    order = 3.2,
                                                     width = 1.5,
                                                     validate = function( info, val )
                                                         val = val:trim()
@@ -6263,7 +6280,7 @@ do
 
                                                         return v
                                                     end,
-                                                    order = 2,
+                                                    order = 3.2,
                                                     width = 1.2,
                                                     hidden = function ()
                                                         local e = GetListEntry( pack )
@@ -6274,7 +6291,7 @@ do
                                                 buff_name = {
                                                     type = "select",
                                                     name = "Buff Name",
-                                                    order = 2,
+                                                    order = 3.2,
                                                     width = 1.5,
                                                     desc = "Specify the buff to remove.",
                                                     values = class.auraList,
@@ -6287,7 +6304,7 @@ do
                                                 potion = {
                                                     type = "select",
                                                     name = "Potion",
-                                                    order = 2,
+                                                    order = 3.2,
                                                     -- width = "full",
                                                     values = class.potionList,
                                                     hidden = function ()
@@ -6300,7 +6317,7 @@ do
                                                 sec = {
                                                     type = "input",
                                                     name = "Seconds",
-                                                    order = 2,
+                                                    order = 3.2,
                                                     width = 1.2,
                                                     hidden = function ()
                                                         local e = GetListEntry( pack )
@@ -6308,17 +6325,38 @@ do
                                                     end,
                                                 },
 
+                                                max_energy = {
+                                                    type = "toggle",
+                                                    name = "Max Energy",
+                                                    order = 3.2,
+                                                    width = 1.2,
+                                                    desc = "When checked, this entry will require that the player have enough energy to trigger Ferocious Bite's full damage bonus.",
+                                                    hidden = function ()
+                                                        local e = GetListEntry( pack )
+                                                        return e.action ~= "ferocious_bite"
+                                                    end,
+                                                },
+
+                                                description = {
+                                                    type = "input",
+                                                    name = "Description",
+                                                    desc = "This allows you to provide text that explains this entry, which will show when you Pause and mouseover the ability to see " ..
+                                                        "why this entry was recommended.",
+                                                    order = 3.205,
+                                                    width = "full",
+                                                },
+
                                                 lb01 = {
                                                     type = "description",
                                                     name = "",
-                                                    order = 2.1,
+                                                    order = 3.21,
                                                     width = "full"
                                                 },
 
                                                 var_name = {
                                                     type = "input",
                                                     name = "Variable Name",
-                                                    order = 3,
+                                                    order = 3.3,
                                                     width = 1.5,
                                                     desc = "Specify a name for this variable.  Variables must be lowercase with no spaces or symbols aside from the underscore.",
                                                     validate = function( info, val )
@@ -6354,7 +6392,7 @@ do
                                                         setif = "Set Value If...",
                                                         sub = "Subtract Value",
                                                     },
-                                                    order = 3.1,
+                                                    order = 3.31,
                                                     width = 1.5,
                                                     hidden = function ()
                                                         local e = GetListEntry( pack )
@@ -6366,7 +6404,7 @@ do
                                                     type = "group",
                                                     inline = true,
                                                     name = "",
-                                                    order = 5,
+                                                    order = 3.5,
                                                     args = {
                                                         for_next = {
                                                             type = "toggle",
@@ -6423,7 +6461,7 @@ do
                                                 criteria = {
                                                     type = "input",
                                                     name = "Conditions",
-                                                    order = 6,
+                                                    order = 3.6,
                                                     width = "full",
                                                     multiline = 6,
                                                     dialogControl = "HekiliCustomEditor",
@@ -6463,7 +6501,7 @@ do
                                                     type = "input",
                                                     name = "Value",
                                                     desc = "Provide the value to store (or calculate) when this variable is invoked.",
-                                                    order = 6.1,
+                                                    order = 3.61,
                                                     width = "full",
                                                     multiline = 3,
                                                     dialogControl = "HekiliCustomEditor",
@@ -6507,7 +6545,7 @@ do
                                                     type = "input",
                                                     name = "Value Else",
                                                     desc = "Provide the value to store (or calculate) if this variable's conditions are not met.",
-                                                    order = 6.2,
+                                                    order = 3.62,
                                                     width = "full",
                                                     multiline = 3,
                                                     dialogControl = "HekiliCustomEditor",
@@ -6546,7 +6584,7 @@ do
                                                         -- if not e.criteria or e.criteria:trim() == "" then return true end
                                                         return e.action ~= "variable" or e.op == "reset" or e.op == "ceil" or e.op == "floor"
                                                     end,
-                                                },                                                
+                                                },
 
                                                 showModifiers = {
                                                     type = "toggle",
@@ -6753,11 +6791,11 @@ do
                                                         local p = rawget( Hekili.DB.profile.packs, pack )
                                                         return #p.lists[ packControl.listName ] < 2 
                                                     end
-                                                } ]]
+                                                }
                                             },
-                                        },                                    
+                                        },
                                     }
-                                },
+                                }, ]]
 
                                 newListGroup = {
                                     type = "group",
@@ -8184,56 +8222,57 @@ function Hekili:GetOptions()
                     },
 
                     welcome = {
-                        type = "group",
+                        type = 'description',
                         name = "",
-                        inline = true,
+                        fontSize = "medium",
+                        image = "Interface\\Addons\\Hekili\\Textures\\Taco256",
+                        imageWidth = 192,
+                        imageHeight = 192,
                         order = 5,
-                        args = {
-                            desc = {
-                                type = 'description',
-                                name = function ()
-                                    local output = "\n|cFF00CCFFTHANK YOU TO OUR SUPPORTERS!|r\n\n"
-
-                                    for i, name in ipairs( ns.Patrons ) do
-                                        if i == 1 then
-                                            output = output .. name
-                                        elseif i == #ns.Patrons then
-                                            output = output .. ", and " .. name .. "."
-                                        else
-                                            output = output .. ", " .. name
-                                        end
-                                    end
-
-                                    output = output .. "\n\nPlease see the |cFFFFD100Issue Reporting|r tab for information about reporting bugs.\n"
-                                    return output
-                                end,
-                                image = "Interface\\Addons\\Hekili\\Textures\\LOGO-ORANGE",
-                                imageWidth = 150,
-                                imageHeight = 150,
-                                fontSize = "medium",
-                                order = 2,
-                                width = "full"
-                            },
-
-                            curse = {
-                                type = 'input',
-                                name = "Twitch / Curse",
-                                order = 3,
-                                get = function () return "https://www.curseforge.com/wow/addons/hekili" end,
-                                set = function () end,
-                                width = "full",
-                            },
-
-                            github = {
-                                type = "input",
-                                name = "GitHub",
-                                order = 4,
-                                get = function () return "http://github.com/Hekili/hekili/" end,
-                                set = function () end,
-                                width = "full",
-                            },
-                        }
+                        width = "full"
                     },
+
+                    supporters = {
+                        type = "description",
+                        name = function ()
+                            return "|cFF00CCFFTHANK YOU TO OUR SUPPORTERS!|r\n\n" .. ns.Patrons .. ".\n\n" ..
+                                "Please see the |cFFFFD100Issue Reporting|r tab for information about reporting bugs.\n\n"
+                        end,
+                        fontSize = "medium",
+                        order = 6,
+                        width = "full"
+                    },
+
+                    curse = {
+                        type = "input",
+                        name = "Curse",
+                        order = 10,
+                        get = function () return "https://www.curseforge.com/wow/addons/hekili" end,
+                        set = function () end,
+                        width = "full",
+                        dialogControl = "SFX-Info-URL",
+                    },
+
+                    github = {
+                        type = "input",
+                        name = "GitHub",
+                        order = 11,
+                        get = function () return "https://github.com/Hekili/hekili/" end,
+                        set = function () end,
+                        width = "full",
+                        width = "full",
+                        dialogControl = "SFX-Info-URL",
+                    },
+
+                    simulationcraft = {
+                        type = "input",
+                        name = "SimC",
+                        order = 12,
+                        get = function () return "https://github.com/simulationcraft/simc/wiki" end,
+                        set = function () end,
+                        width = "full",
+                        dialogControl = "SFX-Info-URL",
+                    }
                 }
             },
 
@@ -8311,6 +8350,7 @@ function Hekili:GetOptions()
                         width = "full",
                         get = function() return "http://github.com/Hekili/hekili/issues" end,
                         set = function() return end,
+                        dialogControl = "SFX-Info-URL"
                     },
                 }
             },
@@ -8929,7 +8969,9 @@ do
         recover = true,
         
         profile = true,
-        set = true
+        set = true,
+        enable = true,
+        disable = true
     }
 
     local info = {}
@@ -8980,16 +9022,21 @@ do
             end
 
             if args[1] == "set" then
-                local prefs = Hekili.DB.profile.specs[ state.spec.id ].settings
+                local spec = Hekili.DB.profile.specs[ state.spec.id ]
+                local prefs = spec.settings
                 local settings = class.specs[ state.spec.id ].settings
 
                 local index
 
                 if args[2] then
-                    for i, setting in ipairs( settings ) do
-                        if setting.name == args[2] then
-                            index = i
-                            break
+                    if args[2] == "target_swap" then
+                        index = -1
+                    else
+                        for i, setting in ipairs( settings ) do
+                            if setting.name == args[2] then
+                                index = i
+                                break
+                            end
                         end
                     end
                 end
@@ -8998,19 +9045,24 @@ do
                     -- No arguments, list options.
                     local output = "Use |cFFFFD100/hekili set|r to adjust your specialization options via chat or macros.\n\nOptions for " .. state.spec.name .. " are:"
 
-                    local hasToggle, hasNumber = false, false
+                    local hasToggle, hasNumber = true, false
                     local exToggle, exNumber
 
                     for i, setting in ipairs( settings ) do
                         if setting.info.type == "toggle" then
                             output = format( "%s\n - |cFFFFD100%s|r = |cFF00FF00%s|r (%s)", output, setting.name, prefs[ setting.name ] and "ON" or "OFF", setting.info.name )
-                            hasToggle = true
                             exToggle = setting.name
                         elseif setting.info.type == "range" then
                             output = format( "%s\n - |cFFFFD100%s|r = |cFF00FF00%.2f|r, min: %.2f, max: %.2f (%s)", output, setting.name, prefs[ setting.name ], ( setting.info.min and format( "%.2f", setting.info.min ) or "N/A" ), ( setting.info.max and format( "%.2f", setting.info.max ) or "N/A" ), setting.info.name )
                             hasNumber = true
                             exNumber = setting.name
                         end
+                    end
+
+                    output = format( "%s\n - |cFFFFD100target_swap|r = |cFF00FF00%s|r (%s)", output, spec.cycle and "ON" or "OFF", "Recommend Target Swaps" )
+
+                    if not hasToggle and not hasNumber then
+                        output = output .. "cFFFFD100<none>|r"
                     end
 
                     if hasToggle then
@@ -9032,6 +9084,30 @@ do
                 end
 
                 -- Two or more arguments, we're setting (or querying).
+
+                if index == -1 then
+                    local to
+
+                    if args[3] then
+                        if args[3] == "on" then to = true
+                        elseif args[3] == "off" then to = false
+                        elseif args[3] == "default" then to = false
+                        else
+                            Hekili:Print( format( "'%s' is not a valid option for |cFFFFD100%s|r.", args[3] ) )
+                            return
+                        end
+                    else
+                        to = not spec.cycle
+                    end
+                    
+                    Hekili:Print( format( "Recommend Target Swaps set to %s.", ( to and "|cFF00FF00ON|r" or "|cFFFF0000OFF|r" ) ) )
+
+                    spec.cycle = to
+
+                    Hekili:ForceUpdate( "CLI_TOGGLE" )
+                    return
+                end                    
+
                 local setting = settings[ index ]
 
                 if setting.info.type == "toggle" then
@@ -9119,6 +9195,29 @@ do
                 Hekili:Print( format( "Set profile to |cFF00FF00%s|r.", profileName ) )
                 self.DB:SetProfile( profileName )
                 return
+
+            elseif args[1] == "enable" or args[1] == "disable" then
+                local enable = args[1] == "enable"
+
+                for i, buttons in ipairs( ns.UI.Buttons ) do
+                    for j, _ in ipairs( buttons ) do
+                        if not enable then
+                            buttons[j]:Hide()
+                        else
+                            buttons[j]:Show()
+                        end
+                    end
+                end
+
+                self.DB.profile.enabled = enable
+    
+                if enable then
+                    Hekili:Print( "Addon |cFFFFD100ENABLED|r." )
+                    self:Enable()
+                else
+                    Hekili:Print( "Addon |cFFFFD100DISABLED|r." )
+                    self:Disable()
+                end
 
             else
                 LibStub( "AceConfigCmd-3.0" ):HandleCommand( "hekili", "Hekili", input )
@@ -9937,6 +10036,10 @@ do
                             value = SpaceOut( value )
                         end
 
+                        if key == 'description' then
+                            value = value:gsub( ";", "," )
+                        end
+
                         result[ key ] = value
                     end
                 end
@@ -9951,6 +10054,7 @@ do
 
             if result.for_next then result.for_next = tonumber( result.for_next ) end
             if result.cycle_targets then result.cycle_targets = tonumber( result.cycle_targets ) end
+            if result.max_energy then result.max_energy = tonumber( result.max_energy ) end
 
             if result.use_off_gcd then result.use_off_gcd = tonumber( result.use_off_gcd ) end
             if result.use_while_casting then result.use_while_casting = tonumber( result.use_while_casting ) end
@@ -10007,14 +10111,17 @@ function Hekili:TogglePause( ... )
         end
 
         self.Pause = true
-        self:SaveDebugSnapshot()
-        self:Print( "Snapshot saved." )
-        self.ActiveDebug = false
-
-        if not warnOnce then
-            Hekili:Print( "Snapshots are viewable via /hekili (until you reload your UI)." )
-            warnOnce = true
+        
+        if self:SaveDebugSnapshot() then
+            if not warnOnce then
+                self:Print( "Snapshot saved; snapshots are viewable via /hekili (until you reload your UI)." )
+                warnOnce = true
+            else
+                self:Print( "Snapshot saved." )
+            end
         end
+        
+        self.ActiveDebug = false
     else
         self.Pause = false
     end
@@ -10023,7 +10130,9 @@ function Hekili:TogglePause( ... )
 
     for _, group in pairs( ns.UI.Buttons ) do
         for _, button in pairs( group ) do
-            button:EnableMouse( MouseInteract )
+            if button:IsShown() then
+                button:EnableMouse( MouseInteract )
+            end
         end
     end
 

@@ -1,8 +1,11 @@
 # LittleWigs
 
-## [v9.0.11](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.11) (2020-12-17)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.10...v9.0.11) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.0.27](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.27) (2021-02-05)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.26...v9.0.27) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
+- BfA/Shadowlands/Trash: Fix throttle  
+- Shadowlands/MistsOfTirnaScithe/Trash: Fix Hand of Thros spam  
 - Update option files  
-- SpiresOfAscension/Devos: Change Abyssal Detonation sound and emphasize it by default.  
-- Plaguefall/Trash: Remove Venompiercer ability (december 15th hotfix)  
+- Shadowlands/SpiresOfAscension/Devos: Tweak  
+- Shadowlands/SpiresOfAscension/Devos: Fix message icons  
+- Shadowlands/SpiresOfAscension/Devos: Fix timers  

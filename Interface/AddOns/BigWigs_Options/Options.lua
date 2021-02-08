@@ -16,12 +16,13 @@ local lds = LibStub("LibDualSpec-1.0")
 local loader = BigWigsLoader
 local API = BigWigsAPI
 options.SendMessage = loader.SendMessage
+local UnitName = loader.UnitName
 
 local bwTooltip = CreateFrame("GameTooltip", "BigWigsOptionsTooltip", UIParent, "GameTooltipTemplate")
 
 local colorModule
 local soundModule
-local isOpen, isPluginOpen
+local configFrame, isPluginOpen
 
 local showToggleOptions, getAdvancedToggleOption = nil, nil
 
@@ -71,15 +72,6 @@ local acOptions = {
 					name = L.flashScreen,
 					desc = L.flashScreenDesc,
 					order = 22,
-				},
-				chat = {
-					type = "toggle",
-					name = L.chatMessages,
-					desc = L.chatMessagesDesc,
-					order = 25,
-					width = "full",
-					get = function() return BigWigs:GetPlugin("Messages").db.profile.chat end,
-					set = function(_, v) BigWigs:GetPlugin("Messages").db.profile.chat = v end,
 				},
 				separator3 = {
 					type = "description",
@@ -241,15 +233,19 @@ do
 end
 
 function options:Open()
-	if isOpen then
-		isOpen:Hide()
-	else
+	if not configFrame then
 		options:OpenConfig()
 	end
 end
 
+function options:Close()
+	if configFrame then
+		configFrame:Hide()
+	end
+end
+
 function options:IsOpen()
-	return isOpen
+	return configFrame and true or false
 end
 
 -------------------------------------------------------------------------------
@@ -615,8 +611,8 @@ spellUpdater:RegisterEvent("SPELL_DATA_LOAD_RESULT")
 
 local function clearPendingUpdates()
 	spellUpdater:SetScript("OnUpdate", nil)
-	wipe(needsUpdate)
-	wipe(needsLayout)
+	needsUpdate = {}
+	needsLayout = {}
 end
 
 local function buttonClicked(widget)
@@ -823,8 +819,11 @@ do
 
 	local function printList(channel, header, list)
 		if #list == 0 then return end
-		if header then output(channel, header, unpack(list))
-		else output(channel, unpack(list)) end
+		if header then
+			output(channel, header, unpack(list))
+		else
+			output(channel, unpack(list))
+		end
 	end
 
 	function listAbilitiesInChat(widget)
@@ -840,7 +839,7 @@ do
 			if module.optionHeaders and module.optionHeaders[o] then
 				-- print what we have so far
 				printList(channel, header, abilities)
-				wipe(abilities)
+				abilities = {}
 				header = module.optionHeaders[o]
 				currentSize = #header
 			end
@@ -882,7 +881,7 @@ do
 			if link then
 				if currentSize + #link + 1 > 255 then
 					printList(channel, header, abilities)
-					wipe(abilities)
+					abilities = {}
 					currentSize = 0
 				end
 				abilities[#abilities + 1] = link
@@ -1301,7 +1300,7 @@ do
 		playerName = UnitName("player")
 
 		local bw = AceGUI:Create("Frame")
-		isOpen = bw
+		configFrame = bw
 		bw:SetTitle("BigWigs")
 		bw:SetStatusText(" "..loader:GetReleaseString())
 		bw:SetWidth(858)
@@ -1310,9 +1309,9 @@ do
 		bw:SetLayout("Flow")
 		bw:SetCallback("OnClose", function(widget)
 			AceGUI:Release(widget)
-			wipe(statusTable)
+			statusTable = {}
 			isPluginOpen = nil
-			isOpen = nil
+			configFrame = nil
 		end)
 
 		local introduction = AceGUI:Create("Label")

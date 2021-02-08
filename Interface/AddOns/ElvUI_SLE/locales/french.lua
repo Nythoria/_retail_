@@ -588,6 +588,7 @@ L["Stage Background"] = "Fond de scène"
 L["Start fishing even if you are mounted."] = "Commencez à pêcher même si vous êtes sur une monture."
 L["Statusbar Color"] = "Statusbar Color"
 L["Statusbars"] = "Barres de statut"
+L["Strict String Replacement"] = true
 L["String Replacement"] = "Remplacement de la chaîne"
 L["Submodules and Coding:"] = true
 L["Subpages are blocks of 10 items. This option set how many of subpages will be shown on a single page."] = "Les sous-pages sont des blocs de 10 éléments. Cette option définit le nombre de sous-pages qui seront affichées sur une seule page."
@@ -696,6 +697,7 @@ L["SLE_EM_TAGS_HELP"] = [[Les balises et paramètres suivants sont éligibles po
 |cff3cbf27pvp|r - if on BG, arena or world pvp area. Available arguments: pvp, arena;
 |cff3cbf27difficulty|r - defines the difficulty of the instance. Arguments are: normal, heroic, lfr, challenge, mythic;
 |cff3cbf27effectivelevel|r - effective level refers to your level when you are scaled, e.g. timewalking
+|cff3cbf27warmode|r - checks if you have warmode enabled
 
 Example: [solo] Set1; [party:4, spec:3] Set2; [instance:raid, difficulty:heroic] Set3
 ]]

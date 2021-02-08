@@ -12,7 +12,7 @@ MythicPlusTimerDB = {
 		["show_absolute_numbers"] = false,
 		["show_reapingtimer"] = true,
 		["position"] = {
-			["top"] = 143.9999847412109,
+			["top"] = 143.9999694824219,
 			["left"] = 23.00003433227539,
 			["relative_point"] = "LEFT",
 		},
@@ -25,7 +25,7 @@ MythicPlusTimerDB = {
 		["color_prideful_value_warning"] = "FFFFFF00",
 		["color_prideful_value_alert"] = "FFFF0000",
 		["show_pull_values"] = false,
-		["insert_keystone"] = true,
+		["color_prideful"] = "FFFFFFFF",
 		["color_timeleft_expired"] = "FFFF0000",
 		["color_chest_time_expired"] = "FF808080",
 		["best_times"] = {
@@ -78,62 +78,58 @@ MythicPlusTimerDB = {
 				},
 			},
 		},
-		["color_dungeon_name"] = "FFFFD100",
+		["npc_progress_id"] = "sl_1",
 		["show_affixes_as_text"] = true,
 		["color_deathcounter"] = "FFFFFFFF",
 		["color_prideful_value"] = "FFFFFFFF",
 		["color_current_pull"] = "FF00FF00",
 		["current_run"] = {
-			["is_completed"] = true,
 			["is_teeming"] = false,
-			["is_prideful"] = false,
-			["quantity_number"] = 285,
-			["cm_level"] = 7,
-			["elapsed_time"] = 2682,
-			["deathcount"] = 27,
-			["quantity_completed"] = true,
-			["time_left_3"] = 0,
-			["zone_name"] = "Spires of Ascension",
-			["affixes_key"] = "affixes-9-7-124",
-			["time_left"] = 0,
+			["is_prideful"] = true,
+			["quantity_number"] = "42",
+			["cm_level"] = 30,
+			["deathcount"] = 2,
+			["elapsed_time"] = 123,
+			["max_time"] = 2160,
+			["zone_name"] = "Demo",
+			["is_demo"] = true,
+			["time_left"] = 2037,
 			["deathcount_visible"] = true,
 			["steps"] = 5,
-			["death_names"] = {
-				["Hóótts"] = 4,
-				["Eloyà"] = 5,
-				["Mønkeytøy"] = 7,
-				["Muumi-Ravencrest"] = 6,
-				["Kúsano"] = 4,
-			},
-			["current_zone_id"] = 2285,
+			["final_quantity_number"] = 123,
+			["current_map_id"] = -1,
 			["is_reaping"] = false,
+			["affixes_key"] = "affixes-9-7-13-121",
+			["current_zone_id"] = -1,
+			["level_key"] = "l30",
 			["times"] = {
-				382, -- [1]
-				1572, -- [2]
-				2153, -- [3]
-				2559, -- [4]
-				2682, -- [5]
+				123, -- [1]
+				["1last_best_time_zone"] = 50,
+				["1last_best_time_zone_level"] = 110,
+				["1last_best_time_zone_level_affixes"] = 150,
 			},
-			["max_time"] = 2340,
+			["pull"] = {
+				["guid"] = {
+					4, -- [1]
+					1.28, -- [2]
+				},
+			},
 			["affixes"] = {
 				9, -- [1]
 				7, -- [2]
-				124, -- [3]
+				13, -- [3]
+				121, -- [4]
 			},
-			["current_map_id"] = 381,
-			["pull"] = {
-			},
-			["level_key"] = "l7",
-			["final_quantity_number"] = 285,
-			["time_left_2"] = 0,
+			["time_left_3"] = 1173,
+			["time_left_2"] = 1605,
 		},
-		["color_time"] = "FFFFFFFF",
-		["color_chest_timeleft"] = "FF00FF00",
+		["color_objective_completed"] = "FF808080",
 		["hide_default_objectivetracker"] = true,
 		["objective_time"] = true,
-		["color_objective_completed"] = "FF808080",
+		["color_chest_timeleft"] = "FF00FF00",
+		["color_time"] = "FFFFFFFF",
 		["color_timeleft"] = "FF00FF00",
-		["npc_progress_id"] = "sl_1",
+		["color_dungeon_name"] = "FFFFD100",
 		["npc_progress"] = {
 			[163058] = {
 				[4] = 6,
@@ -150,8 +146,8 @@ MythicPlusTimerDB = {
 			[172312] = {
 				[4] = 2,
 			},
-			[166299] = {
-				[4] = 2,
+			[168717] = {
+				[4] = 1,
 			},
 			[166275] = {
 				[4] = 3,
@@ -168,17 +164,17 @@ MythicPlusTimerDB = {
 			[163501] = {
 				[4] = 1,
 			},
-			[167113] = {
-				[4] = 4,
+			[166276] = {
+				[4] = 5,
 			},
-			[168717] = {
-				[4] = 1,
+			[166299] = {
+				[4] = 2,
 			},
 			[168318] = {
 				[8] = 6,
 			},
-			[166276] = {
-				[4] = 5,
+			[167113] = {
+				[4] = 4,
 			},
 			[167117] = {
 				11, -- [1]
@@ -189,8 +185,8 @@ MythicPlusTimerDB = {
 			[168418] = {
 				[4] = 2,
 			},
-			[164921] = {
-				[4] = 6,
+			[163459] = {
+				[4] = 2,
 			},
 			[163506] = {
 				[4] = 7,
@@ -216,8 +212,8 @@ MythicPlusTimerDB = {
 			[163503] = {
 				[2] = 13,
 			},
-			[163459] = {
-				[4] = 2,
+			[164921] = {
+				[4] = 6,
 			},
 			[166301] = {
 				[4] = 4,
@@ -232,6 +228,6 @@ MythicPlusTimerDB = {
 				[4] = 3,
 			},
 		},
-		["color_prideful"] = "FFFFFFFF",
+		["insert_keystone"] = true,
 	},
 }

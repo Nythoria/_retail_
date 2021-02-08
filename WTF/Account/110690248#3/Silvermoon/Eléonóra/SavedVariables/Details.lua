@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v9.0.2.8093",
+	["last_version"] = "v9.0.2.8102",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -17,6 +17,7 @@ _detalhes_database = {
 		["enabled"] = false,
 		["welcome_panel_pos"] = {
 		},
+		["last_coach_name"] = false,
 	},
 	["on_death_menu"] = true,
 	["cached_talents"] = {
@@ -36,8 +37,8 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -105,7 +106,7 @@ _detalhes_database = {
 			},
 			["main_frame_size"] = {
 				300, -- [1]
-				500.0000305175781, -- [2]
+				500.0000610351563, -- [2]
 			},
 			["minimap"] = {
 				["minimapPos"] = 160,
@@ -119,7 +120,12 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -127,35 +133,29 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["use_spark"] = true,
+			["y"] = 0.000152587890625,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
-				["y"] = 3.0517578125e-05,
+				["y"] = 0.00018310546875,
 				["x"] = 3.0517578125e-05,
 				["size"] = 32,
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["y"] = 4.57763671875e-05,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_day"] = "20",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -172,9 +172,79 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["last_day"] = "02",
 	["nick_tag_cache"] = {
-		["nextreset"] = 1609781906,
 		["last_version"] = 12,
+		["Zappiethot"] = {
+			"Super Soaker", -- [1]
+			"Interface\\EncounterJournal\\UI-EJ-BOSS-Cyanigosa", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"Interface\\PetBattles\\Weather-Rain", -- [4]
+			{
+				0.078125, -- [1]
+				0.970703125, -- [2]
+				1, -- [3]
+				0, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			9, -- [7]
+		},
+		["Firesnek"] = {
+			"Firesnek", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		["Scripé"] = {
+			"", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			9, -- [7]
+		},
+		["nextreset"] = 1609781906,
 	},
 	["benchmark_db"] = {
 		["frame"] = {
@@ -187,7 +257,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 10,
+	["combat_counter"] = 14,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -335,7 +405,7 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 237.0023803710938,
+					["y"] = 237.005615234375,
 					["x"] = 796.5013427734375,
 					["w"] = 244.9994506835938,
 					["h"] = 180.0001525878906,
@@ -350,7 +420,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 5,
+		["logons"] = 7,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

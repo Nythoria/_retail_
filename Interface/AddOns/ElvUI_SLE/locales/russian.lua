@@ -588,6 +588,7 @@ L["Stage Background"] = "Фон стадии"
 L["Start fishing even if you are mounted."] = "Забрасывать удочку даже, если вы на средстве передвижения."
 L["Statusbar Color"] = "Цвет полос состояния"
 L["Statusbars"] = "Полосы состояния"
+L["Strict String Replacement"] = true
 L["String Replacement"] = "Замена текста"
 L["Submodules and Coding:"] = "Модули и код:"
 L["Subpages are blocks of 10 items. This option set how many of subpages will be shown on a single page."] = "Субстраницы это блоки из 10 предметов. Эта опция показывает сколько субстраниц будет показано на одной странице."
@@ -695,6 +696,7 @@ L["SLE_EM_TAGS_HELP"] = [[Следующие тэги и параметры мо
 |cff3cbf27pvp|r - для полей боя, арен и открытых пвп зон. Параметры: ПвП, арена;
 |cff3cbf27difficulty|r - Определяет сложность подземелья. Параметры: нормал, героик, лфр, испытание, мифик;
 |cff3cbf27effectivelevel|r - effective level refers to your level when you are scaled, e.g. timewalking
+|cff3cbf27warmode|r - checks if you have warmode enabled
 
 Пример: [solo] Set1; [party:4, spec:3] Set2; [instance:raid, difficulty:heroic] Set3
 ]]

@@ -1,0 +1,77 @@
+VER 3 0100000000000001 "Dispersion" "INV_MISC_QUESTIONMARK"
+#showtooltip Dispersion
+/stopcasting
+/cast Dispersion
+/cancelaura Dispersion
+END
+VER 3 0100000000000002 "FH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Flash Heal; [help]Flash Heal; Flash Heal
+END
+VER 3 0100000000000003 "GS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [@mouseover, exists, help]Guardian Spirit; Guardian Spirit
+END
+VER 3 0100000000000004 "Heal/Smite" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Heal; [help]Heal; Smite
+END
+VER 3 0100000000000005 "HW:Serenity" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Holy Word: Serenity: [help]Holy Word: Serenity;Holy Word: Serenity
+END
+VER 3 0100000000000006 "Lev/Grip" "INV_MISC_QUESTIONMARK"
+#showtooltip Leap of Faith
+/cast [@mouseover, exists, mod:ctrl]Levitate;[@mouseover, exists]Leap of Faith
+END
+VER 3 0100000000000007 "lvl90Talents" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [talent:6/2] Divine Star; [talent:6/3] Halo
+END
+VER 3 0100000000000008 "MB/SM" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [help]Shadow Mend; Mind Blast
+END
+VER 3 0100000000000009 "Pain Suppression" "INV_MISC_QUESTIONMARK"
+#showtooltip Pain Suppression
+/cast [@mouseover, exists, help]Pain Suppression; [help]Pain Suppression; Pain Suppression
+END
+VER 3 010000000000000A "Plea" "INV_MISC_QUESTIONMARK"
+#showtooltip Plea
+/cast [@mouseover, exists, help]Plea: [help]Plea;Plea
+END
+VER 3 010000000000000B "PoM/HW:C" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Prayer of Mending; [help]Prayer of Mending; Holy Word: Chastise
+END
+VER 3 010000000000000C "Purify/MD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help]Purify; [help]Purify; Mass Dispel
+END
+VER 3 010000000000000D "PW:R" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Power Word: Radiance; [help]Power Word: Radiance; Power Word: Radiance
+END
+VER 3 010000000000000E "PW:S" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Power Word: Shield: [help]Power Word: Shield;Power Word: Shield
+END
+VER 3 010000000000000F "Renew/HF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, help]Renew; [help]Renew; Holy Fire
+END
+VER 3 0100000000000010 "Self Lev" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player]Levitate
+END
+VER 3 0100000000000011 "Shadow Mend" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Mend
+/cast [@mouseover, exists, help]Shadow Mend; [@target, help]Shadow Mend; [@player]Shadow Mend
+END
+VER 3 0100000000000012 "Shadowfiend" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowfiend
+/cast [nopet,harm][nopet,target=target,harm] Shadowfiend
+/cast [harm][target=target,harm]Shadowcrawl
+/cast Arcane Torrent
+END

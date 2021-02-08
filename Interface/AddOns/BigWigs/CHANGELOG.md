@@ -1,10 +1,12 @@
 # BigWigs
 
-## [v198](https://github.com/BigWigsMods/BigWigs/tree/v198) (2020-12-20)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v197...v198) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v211.2](https://github.com/BigWigsMods/BigWigs/tree/v211.2) (2021-02-04)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v211.1...v211.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- bump version  
-- CastleNathria/Altimor: Swap Vicious Lunge from say to yell.  
-- Plugins/Bars: Change the "deprecated" chat message  
-- Plugins/BossBlock: Disable the menu entry for blocking quest tooltips for now.  
-- Plugins/Pull: Typing "/pull" with no number will now start a 10 second pull timer.  
+- Plugins/Sound: Add warning when disabling  
+- Plugins/AltPower: Add warning when disabling  
+- Plugins/Messages: Re-arrange options layout, add temporary checkbox to disable messages until we can implement a better solution.  
+- Media: Remove old icons  
+- Update koKR (#985)  
+- Update koKR (#983)  
+- Update zhCN (#981)  

@@ -1,0 +1,22 @@
+## Title: |cff00ffffZero|rNotes
+## Version: 1.1.1
+## Author: Serafno#2492, Bambule#21598
+## Interface: 90002
+## SavedVariables: ZNotes
+
+ZNEventHandler.lua
+ZNInit.lua
+embeds.xml
+ZNnoteLogic.lua
+ZNminimap.lua
+ZNUiFunctions.lua
+ZNFrame.lua
+ZNplayer.lua
+ZNboss.lua
+ZNinfoinstall.lua
+ZNstartUp.lua
+ZNgrouptemplates.lua
+ZNpreviewFunctions.lua
+ZNhome.lua
+ZNimpexp.lua
+ZNconfig.lua

@@ -417,6 +417,9 @@ do
 
         { "^dot%.festering_wound%.stack[>=]=?(.-)$",    -- UH DK helper during Unholy Frenzy.
                                                     "time_to_wounds(%1)" },
+            
+        { "^master_assassin_remains[<=]+(.-)$",
+                                                    "0.01+master_assassin_remains-(%1)" },
 
         { "^exsanguinated$",                        "remains" }, -- Assassination
         { "^!?(debuff%.[a-z0-9_]+)%.exsanguinated$",
@@ -429,6 +432,7 @@ do
 
         { "^!?stealthed.all$",                      "stealthed.remains" },
         { "^!?stealthed.mantle$",                   "stealthed.mantle_remains" },
+        { "^!?stealthed.sepsis$",                   "stealthed.sepsis_remains" },
         { "^!?stealthed.rogue$",                    "stealthed.rogue_remains" },
 
         { "^!?time_to_hpg$",                        "time_to_hpg" }, -- Retribution Paladin
@@ -627,6 +631,8 @@ do
         ["="] = true,
         ["~"] = true,
         ["!"] = true,
+        ["!="] = true,
+        ["~="] = true
      }
 
      local math_ops = {
@@ -637,12 +643,19 @@ do
         ["%"] = true,
         ["<"] = true,
         [">"] = true,
-        ["="] = true,
-        ["~="] = true,
+        -- ["="] = true,
+        -- ["!="] = true,
+        -- ["~="] = true,
         ["<="] = true,
         [">="] = true,
         [">?"] = true,
         ["<?"] = true,
+     }
+
+     local equality = {
+         ["="] = true,
+         ["!="] = true,
+         ["~="] = true,
      }
 
      local comp_ops = {
@@ -797,7 +810,7 @@ do
                     piece.s = scripts:EmulateSyntax( piece.s, numeric )
                 end
 
-                if ( prev and prev.t == "op" and math_ops[ prev.a ] ) or ( next and next.t == "op" and math_ops[ next.a ] ) then
+                if ( prev and prev.t == "op" and math_ops[ prev.a ] and not equality[ prev.a ] ) or ( next and next.t == "op" and math_ops[ next.a ] and not equality[ next.a ] ) then
                     -- This expression is getting mathed.
                     -- Lets see what it returns and wrap it in btoi if it is a boolean expr.
                     if piece.s:find("^variable%.") then
@@ -822,7 +835,7 @@ do
                     end
                     piece.r = nil
 
-                elseif not numeric and ( not prev or ( prev.t == "op" and not math_ops[ prev.a ] ) ) and ( not next or ( next.t == "op" and not math_ops[ next.a ] ) ) then
+                elseif not numeric and ( not prev or ( prev.t == "op" and not math_ops[ prev.a ] and not equality[ prev.a ] ) ) and ( not next or ( next.t == "op" and not math_ops[ next.a ] and not equality[ next.a ] ) ) then
                     -- This expression is not having math operations performed on it.
                     -- Let's make sure it's a boolean.
                     if piece.s:find("^variable") then
@@ -837,7 +850,9 @@ do
                                 local safepiece = piece.s:gsub( "%%", "%%%%" )
                                 Hekili:Error( "Unable to compile '" .. safepiece:gsub("%%", "%%%%") .. "' - " .. val .. " (pcall-b)\nFrom: " .. esString:gsub( "%%", "%%%%" ) )
                             else
-                                if trimmed_prefix ~= "safebool" and ( val == nil or type( val ) == "number" ) then piece.s = "safebool(" .. piece.s .. ")" end
+                                if trimmed_prefix ~= "safebool" and ( val == nil or type( val ) == "number" ) then
+                                    piece.s = "safebool(" .. piece.s .. ")"
+                                end
                             end
                         else
                             Hekili:Error( "Unable to compile '" .. ( piece.s ):gsub("%%","%%%%") .. "' - " .. warn .. " (loadstring-b)." )
@@ -1037,6 +1052,7 @@ local newModifiers = {
     interrupt_global = 'bool',
     interrupt_if = 'bool',
     interrupt_immediate = 'bool',
+    max_energy = 'bool',
     moving = 'bool',
     only_cwc = 'bool',
     strict = 'bool',

@@ -63,7 +63,7 @@ options.extraItemsBar = {
             name = L["Enable"]
         },
         custom = {
-            order = 6,
+            order = 10,
             type = "group",
             name = L["Custom Items"],
             disabled = function()
@@ -123,7 +123,7 @@ options.extraItemsBar = {
             }
         },
         blackList = {
-            order = 7,
+            order = 11,
             type = "group",
             name = L["Blacklist"],
             disabled = function()
@@ -184,7 +184,7 @@ options.extraItemsBar = {
 }
 
 do -- Add options for bars
-    for i = 1, 3 do
+    for i = 1, 5 do
         options.extraItemsBar.args["bar" .. i] = {
             order = i + 2,
             type = "group",
@@ -263,6 +263,11 @@ do -- Add options for bars
                                 return not E.db.WT.item.extraItemsBar.enable or
                                     E.db.WT.item.extraItemsBar["bar" .. i].globalFade
                             end
+                        },
+                        tooltip = {
+                            order = 6,
+                            type = "toggle",
+                            name = L["Tooltip"]
                         }
                     }
                 },
@@ -495,7 +500,7 @@ do -- Add options for bars
                     type = "input",
                     name = L["Button Groups"],
                     desc = format(
-                        "%s %s\n\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s",
+                        "%s %s\n\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s",
                         L["Set the type and order of button groups."],
                         L["You can separate the groups with a comma."],
                         FormatDesc("QUEST", L["Quest Items"]),
@@ -507,9 +512,11 @@ do -- Add options for bars
                         FormatDesc("TORGHAST", L["Torghast Items"]),
                         FormatDesc("FOOD", L["Food"]),
                         FormatDesc("FOODSL", format("%s (%s)", L["Food"], L["Shadowlands"])),
+                        FormatDesc("FOODVENDOR", format("%s (%s)", L["Food"], L["Sold by vendor"])),
                         FormatDesc("MAGEFOOD", format("%s (%s)", L["Food"], L["Crafted by mage"])),
                         FormatDesc("BANNER", L["Banners"]),
                         FormatDesc("UTILITY", L["Utilities"]),
+                        FormatDesc("OPENABLE", L["Openable Items"]),
                         FormatDesc("CUSTOM", L["Custom Items"])
                     ),
                     width = "full"

@@ -21,21 +21,21 @@ if UnitClassBase( "player" ) == "ROGUE" then
     local spec = Hekili:NewSpecialization( 261 )
 
     spec:RegisterResource( Enum.PowerType.Energy, {
-        --[[ shadow_techniques = {
+        shadow_techniques = {
             last = function () return state.query_time end,
             interval = function () return state.time_to_sht[5] end,
             value = 8,
             stop = function () return state.time_to_sht[5] == 0 or state.time_to_sht[5] == 3600 end,
-        }, ]]
+        },
     } )
 
     spec:RegisterResource( Enum.PowerType.ComboPoints, {
-        --[[ shadow_techniques = {
+        shadow_techniques = {
             last = function () return state.query_time end,
             interval = function () return state.time_to_sht[5] end,
             value = 1,
             stop = function () return state.time_to_sht[5] == 0 or state.time_to_sht[5] == 3600 end,
-        }, ]]
+        },
 
         shuriken_tornado = {
             aura = "shuriken_tornado",
@@ -203,7 +203,7 @@ if UnitClassBase( "player" ) == "ROGUE" then
         },
         shadow_dance = {
             id = 185422,
-            duration = function () return talent.subterfuge.enabled and 6 or 5 end,
+            duration = function () return talent.subterfuge.enabled and 9 or 8 end,
             max_stack = 1,
         },
         shadows_grasp = {
@@ -331,9 +331,9 @@ if UnitClassBase( "player" ) == "ROGUE" then
             max_stack = 1,
         },
 
-        mark_of_the_master_assassin = {
-            id = 318587,
-            duration = 3600,
+        master_assassins_mark = {
+            id = 340094,
+            duration = 4,
             max_stack = 1
         },
 
@@ -354,17 +354,30 @@ if UnitClassBase( "player" ) == "ROGUE" then
     end )
 
 
+    local stealth = {
+        rogue   = { "stealth", "vanish", "shadow_dance", "subterfuge" },
+        mantle  = { "stealth", "vanish" },
+        sepsis  = { "sepsis_buff" },
+        all     = { "stealth", "vanish", "shadow_dance", "subterfuge", "shadowmeld", "sepsis_buff" }
+    }
+
+
     spec:RegisterStateTable( "stealthed", setmetatable( {}, {
         __index = function( t, k )
             if k == "rogue" then
-                return buff.stealth.up or buff.vanish.up or buff.shadow_dance.up or buff.subterfuge.up or buff.sepsis_buff.up
+                return buff.stealth.up or buff.vanish.up or buff.shadow_dance.up or buff.subterfuge.up
             elseif k == "rogue_remains" then
-                return max( buff.stealth.remains, buff.vanish.remains, buff.shadow_dance.remains, buff.subterfuge.remains, buff.sepsis_buff.remains )
+                return max( buff.stealth.remains, buff.vanish.remains, buff.shadow_dance.remains, buff.subterfuge.remains )
 
             elseif k == "mantle" then
                 return buff.stealth.up or buff.vanish.up
             elseif k == "mantle_remains" then
                 return max( buff.stealth.remains, buff.vanish.remains )
+            
+            elseif k == "sepsis" then
+                return buff.sepsis_buff.up
+            elseif k == "sepsis_remains" then
+                return buff.sepsis_buff.remains
             
             elseif k == "all" then
                 return buff.stealth.up or buff.vanish.up or buff.shadow_dance.up or buff.subterfuge.up or buff.shadowmeld.up or buff.sepsis_buff.up
@@ -489,7 +502,7 @@ if UnitClassBase( "player" ) == "ROGUE" then
                 cooldown.secret_technique.expires = max( 0, cooldown.secret_technique.expires - amt )
             end
 
-            cooldown.shadow_dance.expires = max( 0, cooldown.shadow_dance.remains - ( amt * ( talent.enveloping_shadows.enabled and 1.5 or 1 ) ) )
+            reduceCooldown( "shadow_dance", amt * ( talent.enveloping_shadows.enabled and 1.5 or 1 ) )
         end
     end
 
@@ -498,11 +511,15 @@ if UnitClassBase( "player" ) == "ROGUE" then
 
 
     spec:RegisterStateExpr( "mantle_duration", function ()
-        return 0
+        return legendary.mark_of_the_master_assassin.enabled and 4 or 0
+    end )
 
-        --[[ if stealthed.mantle then return cooldown.global_cooldown.remains + 5
-        elseif buff.master_assassins_initiative.up then return buff.master_assassins_initiative.remains end
-        return 0 ]]
+    spec:RegisterStateExpr( "master_assassin_remains", function ()
+        if not legendary.mark_of_the_master_assassin.enabled then return 0 end
+
+        if stealthed.mantle then return cooldown.global_cooldown.remains + 4
+        elseif buff.master_assassins_mark.up then return buff.master_assassins_mark.remains end
+        return 0
     end )
 
 
@@ -521,7 +538,7 @@ if UnitClassBase( "player" ) == "ROGUE" then
             end
 
             if legendary.mark_of_the_master_assassin.enabled and stealthed.mantle then
-                applyBuff( "mark_of_the_master_assassin", 4 )
+                applyBuff( "master_assassins_mark", 4 )
             end
 
             if buff.stealth.up then 
@@ -532,6 +549,17 @@ if UnitClassBase( "player" ) == "ROGUE" then
             removeBuff( "shadowmeld" )
         end
     end )
+
+    
+    local ExpireSepsis = setfenv( function ()
+        applyBuff( "sepsis_buff" )
+    end, state )
+
+    spec:RegisterHook( "reset_precast", function( amt, resource )
+        if debuff.sepsis.up then
+            state:QueueAuraExpiration( "sepsis", ExpireSepsis, debuff.sepsis.expires )
+        end
+    end )    
 
 
     spec:RegisterGear( "insignia_of_ravenholdt", 137049 )
@@ -681,8 +709,10 @@ if UnitClassBase( "player" ) == "ROGUE" then
 
             usable = function ()
                 if boss then return false, "cheap_shot assumed unusable in boss fights" end
-                return stealthed.all or buff.subterfuge.up, "not stealthed"
+                return stealthed.all, "not stealthed"
             end,
+
+            nodebuff = "cheap_shot",
 
             handler = function ()
                 removeBuff( "cold_blood" )
@@ -699,6 +729,8 @@ if UnitClassBase( "player" ) == "ROGUE" then
 
                 applyDebuff( "target", "cheap_shot" )
                 removeBuff( "shot_in_the_dark" )
+
+                if buff.sepsis_buff.up then removeBuff( "sepsis_buff" ) end
 
                 gain( 2 + ( buff.shadow_blades.up and 1 or 0 ), "combo_points" )
                 removeBuff( "symbols_of_death_crit" )
@@ -1121,9 +1153,9 @@ if UnitClassBase( "player" ) == "ROGUE" then
         shadow_dance = {
             id = 185313,
             cast = 0,
-            charges = 2,
+            charges = function () return talent.enveloping_shadows.enabled and 2 or nil end,
             cooldown = 60,
-            recharge = 60,
+            recharge = function () return talent.enveloping_shadows.enabled and 60 or nil end,
             gcd = "off",
 
             startsCombat = false,
@@ -1496,11 +1528,11 @@ if UnitClassBase( "player" ) == "ROGUE" then
             id = 213981,
             cast = 0,
             cooldown = 60,
-            gcd = "spell",
+            gcd = "off",
             
             pvptalent = "cold_blood",            
 
-            startsCombat = true,
+            startsCombat = false,
             texture = 135988,
             
             handler = function ()

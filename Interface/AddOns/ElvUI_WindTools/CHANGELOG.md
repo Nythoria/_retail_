@@ -1,84 +1,108 @@
-# Version: 2.15
-2020/12/18 Released
+# Version: 2.17
+2021/02/02 Released
+## ❗ Important
+- Russian translation updated. Thanks Evgeniy-ONiX
+- Add basic support for Spanish and Portuguese. You can report the translation problem in our Discord anytime.
 ## ✳️ New
-- [Misc] Add new feature and option of hiding crafter name.
-- [Skins] Add skin for weekly rewards.
-- [Instance Difficulty] Add a new option of text-align.
+- Add some English fonts from ElvUI for non-english users.
+- Add a new statusbar texture.
+- [Announcement] Add support for new keystone announcement.
+- [Skins] Add new skins for UI widget. (e.g. charge of HoS first boss)
+- [Extra Item Bar] Add new item group "OPENABLE" (openable items).
+- [Progression] Add the tracker for [Shadowlands Keystone Master: Season One].
 ## 💪 Improvement
-- Amend some parts of the previous changelog.
-- [Announcement] Fix the bug that may occur after leaving from a group.
-- [Announcement] Add Eternal Cauldron. Thanks Seiryuu-sama
-- [Game Bar] Right-click Encounter Journal button now will open Weekly Rewards.
-- [Game Bar] Add Venthyr Sinstone to Hearthstone list.
-- [Move Frame] Add support for weekly rewards.
-- [Skins] Fix a potential bug of Raid Utility skin.
-- [Skins] Optimize Mythic Dungeon Keystone skin.
-- [Extra Item Bar] UTILITY (utilities) category add some Shadowlands crafting items like armor kit.
+- Edited some option description.
+- [Announcement] The owner of the pet can be recognized correctly in Korean client.
+- [Announcement] Fix the announcement of the interrupts by pets.
+- [Announcement] Fix announcement sent by multiple users.
+- [Progression] Remove outdated instances.
+- [Game Bar] Prevent the taint by toggling calendar in combat.
+- [Game Bar] Add charge information into the tooltip of Home button.
 - [Extra Item Bar] Update Torghast item list.
-- [Inpect] Fix the Shadowlands enchant info. Thanks loudsoul.
-- [Progression] Update Boss IDs for fetching progression correctly.
+- [Extra Item Bar] Optimize the update of bars.
+- [Extra Item Bar] Charm of Eternal Winter will be added in blacklist by default.
+- [Skins] Fix the issue that the shadow not in right place with the ElvUI power bar in "OFFSET" style.
+- [Move Frames] Add support of moving covenant mission frame.
 
 ------
-# 版本: 2.15
-2020/12/18 发布
+# 版本: 2.17
+2021/02/02 发布
+## ❗ 重要
+- 俄语翻译大幅更新. 感谢 Evgeniy-ONiX
+- 新增了对西班牙语和葡萄牙语的支持. 任何翻译问题可随时来 Discord 反馈.
 ## ✳️ 新增
-- [其他] 添加了隐藏制造者姓名的功能及选项.
-- [美化皮肤] 添加了每周奖励宝库的界面美化.
-- [副本难度] 添加了一个文字对齐选项.
+- 添加了部分 ElvUI 內英文字体.
+- 添加了一个 Light 材质.
+- [通告] 添加了新史诗钥石的通报.
+- [美化皮肤] 添加了新的 UI 组件美化. (比如: 赎罪老一充能)
+- [额外物品条] 添加了 "OPENABLE" (可打开物品) 物品分类.
+- [进度] 新增了对 [暗影国度钥石大师: 第一赛季] 的追踪.
 ## 💪 改善
-- 修正了一些之前更新记录的文本.
-- [通告] 修复了在离队后可能出现的错误.
-- [通告] 添加了永恒药锅. 感谢 Seiryuu-sama
-- [游戏条] 右键冒险手册现在将会打开每周奖励宝库.
-- [游戏条] 炉石列表新增温西尔罪碑.
-- [移动框体] 添加了每周奖励宝库界面的支持.
-- [美化皮肤] 修复了团队工具皮肤可能造成的错误.
-- [美化皮肤] 优化了传奇钥石界面美化.
-- [额外物品条] UTILITY (实用工具) 分组新增了护甲片等暗影国度制作物品.
+- 优化设定文本.
+- [通告] 韩语客户端中宠物主人现在可以被正确识别.
+- [通告] 修复了宠物打断无法通告的问题.
+- [通告] 修复了有时重复通告的问题.
+- [进度] 移除了过时的副本.
+- [游戏条] 禁止战斗中开启日历造成污染.
+- [游戏条] 家按钮的鼠标提示将会显示物品可用次数.
 - [额外物品条] 更新托加斯特物品列表.
-- [观察] 修复了暗影国度的附魔信息. 感谢 loudsoul
-- [团队进度] 修复了副本进度获取错误的问题.
+- [额外物品条] 优化了条更新的逻辑.
+- [额外物品条] 永冬护符将默认加入黑名单.
+- [美化皮肤] 修复了设定能量条为"偏移"风格时, 阴影位置不正确的问题.
+- [移动框体] 盟约指挥桌框架现在可以被移动了.
 
 ------
-# 版本: 2.15
-2020/12/18 發布
+# 版本: 2.17
+2021/02/02 發布
+## ❗ 重要
+- 俄語翻譯大幅更新. 感謝 Evgeniy-ONiX
+- 支援西班牙語及葡萄牙語. 任何翻譯問題可隨時來 Discord 進行回報.
 ## ✳️ 新增
-- [其他] 新增了隱藏製作者姓名的功能及設定.
-- [美化皮膚] 新增了每週獎勵寶庫的界面美化.
-- [副本難度] 新增了一個文字對齊選項.
+- 添加了部分 ElvUI 內英文字型.
+- 新增了一個 Light 材質.
+- [通告] 新增了新傳奇鑰石通報.
+- [美化皮膚] 新增了 UI 組件美化. (比如: 贖罪一王充能)
+- [額外物品條] 新增了 "OPENABLE" (可開啟物品) 物品分組.
+- [進度] 新增了對 [暗影之境鑰石王: 第一季] 的追蹤.
 ## 💪 改善
-- 修正了一些之前的更新記錄的文本.
-- [通告] 修復了可能出現的離隊後錯誤.
-- [通告] 新增了永恆大鍋. 感謝 Seiryuu-sama
-- [遊戲條] 右鍵地城導覽手冊按鍵現在將會開啟每週獎勵寶庫.
-- [遊戲條] 爐石列表新增汎希爾罪孽石.
-- [移動框架] 支援每週獎勵寶庫介面.
-- [美化皮膚] 修復了團隊工具皮膚可能造成的錯誤.
-- [美化皮膚] 優化了傳奇鑰石介面美化.
-- [額外物品條] UTILITY (實用工具) 分組新增了護甲片等暗影之境製造物品.
+- 優化設定文字.
+- [通告] 韓文客戶端中寵物主人現可被正確識別.
+- [通告] 修復了寵物打斷無法通告的問題.
+- [通告] 修復了有時重複通告的問題.
+- [進度] 移除了過時的副本.
+- [遊戲條] 禁止在戰鬥中開啟行事曆導致污染.
+- [遊戲條] 家按鍵的滑鼠提示將會顯示物品的可用次數.
 - [額外物品條] 更新托伽司物品列表.
-- [觀察] 修復了暗影之境的附魔訊息. 感謝 loudsoul
-- [團隊進度] 修復了副本進度獲取錯誤的問題.
+- [額外物品條] 優化了條更新的邏輯.
+- [額外物品條] 恆冬符咒將默認加入黑名單.
+- [美化皮膚] 修復了設定能量條為"偏移"風格的時候, 陰影位置不正確的問題.
+- [移動框架] 誓盟指揮台框架現在可以被移動了.
 
 ------
-# 버전: 2.15
-2020/12/18 Released
+# 버전: 2.17
+2021/02/02 Released
+## ❗ 중요 사항
+- 러시아어 번역 업데이트. Thanks Evgeniy-ONiX
+- 스페인어 및 포르투갈어에 대한 지원을 추가합니다. 번역 관련 문제는 언제든지 Discord로 알려주시기 바랍니다.
 ## ✳️ 신규 사항
-- [기타] 제작 아이템의 제작자 이름을 숨겨주는 새로운 옵션을 추가하였습니다.
-- [스킨] 주간 보상(위대한 금고) 스킨 추가.
-- [인스턴스 난이도] 텍스트 정렬 옵션을 추가하였습니다.
+- 영어를 사용하지 않는 사용자를 위해 ElvUI의 영어 폰트 일부를 추가하였습니다.
+- 새로운 상태 바 텍스처를 추가하였습니다.
+- [알림] 쐐기돌 획득 알림을 추가하였습니다.
+- [스킨] 새로운 UI 위젯 추가 (예: 속죄의 전당 1넴 할리아스의 령 충전)
+- [아이템 바] 새로운 아이템 그룹 "OPENABLE" (열 수 있는 아이템) 을 추가하였습니다.
+- [진행상태] [어둠땅 쐐기돌 장인: 1 시즌] 위업을 추적할 수 있는 기능이 추가되었습니다.
 ## 💪 개선 사항
-- 이전 변경 로그의 일부 수정.
-- [알림] 파티를 떠난 후 발생할 수 있는 오류를 수정하였습니다.
-- [알림] 영원의 가마솥을 추가하였습니다. Thanks Seiryuu-sama
-- [게임 바] 모험 안내서를 마우스 오른쪽 버튼으로 클릭하면 주간 보상 금고를 확인할 수 있습니다.
-- [게임 바] 베나리의 이동의 암호를 귀환석 리스트에 추가하였습니다.
-- [프레임 이동] 주간 보상 (위대한 금고) 창을 이동할 수 있습니다.
-- [스킨] 공격대 도구 스킨의 잠재적인 버그를 수정하였습니다.
-- [스킨] 쐐기던전의 쐐기돌 스킨을 최적화하였습니다.
-- [아이템 바] UTILITY (유틸리티) 카테고리에 방어구 강화, 기름, 숫돌 같은 어둠땅 제작 아이템이 추가 되였습니다.
-- [아이템 바] 토르가스트 아이템 리스트 업데이트.
-- [살펴보기] 어둠땅 마법 부여 정보를 수정하였습니다. Thanks loudsoul.
-- [진행 상태] 진행 상황을 올바르게 가져오기 위해 보스ID를 업데이트 하였습니다.
+- 일부 옵션의 설명을 수정했습니다.
+- [알림] 한국 클라이언트에서 하수인의 주인을 정확하게 인식할 수 있습니다.
+- [알림] 하수인에 의한 차단 알림을 수정했습니다.
+- [알림] 가끔 반복되는 알림 문제를 수정했습니다.
+- [진행상태] 오래된 인스턴스를 삭제했습니다.
+- [게임 바] 전투 중 달력을 열수 없도록 수정하였습니다.
+- [게임 바] 홈 버튼의 툴팁에 사용 가능한 개수를 표시합니다.
+- [아이템 바] 토르가스트 아이템 리스트를 업데이트하였습니다.
+- [아이템 바] 업데이트 로직을 최적화했습니다.
+- [아이템 바] 사냥꾼 알티모르의 드롭 아이템 영원한 겨울의 부적 목걸이는 기본적으로 블랙리스트에 추가됩니다.
+- [스킨] ElvUI 파워 바를 "OFFSET"스타일로 설정했을 때 그림자 위치가 잘못되던 문제를 수정했습니다.
+- [프레임 이동] 성약단 임무 탁자의 프레임 이동을 추가하였습니다.
 
 ------

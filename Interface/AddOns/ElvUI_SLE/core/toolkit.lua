@@ -30,7 +30,8 @@ T.Values = {
 		BOTTOM = 'BOTTOM',
 	},
 	-- FontSize = { min = 8, max = 64, step = 1 },
-	-- Strata = { BACKGROUND = 'BACKGROUND', LOW = 'LOW', MEDIUM = 'MEDIUM', HIGH = 'HIGH', DIALOG = 'DIALOG', TOOLTIP = 'TOOLTIP' },
+	Strata = { BACKGROUND = 'BACKGROUND', LOW = 'LOW', MEDIUM = 'MEDIUM', HIGH = 'HIGH', DIALOG = 'DIALOG', TOOLTIP = 'TOOLTIP' },
+	AllPoints = { TOPLEFT = 'TOPLEFT', LEFT = 'LEFT', BOTTOMLEFT = 'BOTTOMLEFT', RIGHT = 'RIGHT', TOPRIGHT = 'TOPRIGHT', BOTTOMRIGHT = 'BOTTOMRIGHT', CENTER = 'CENTER', TOP = 'TOP', BOTTOM = 'BOTTOM' }
 }
 
 T.StringToUpper = function(str)
@@ -174,14 +175,6 @@ function SLE:Reset(group)
 	if group == 'datatexts' or group == 'all' then
 		E:CopyTable(E.db.sle.datatexts, P.sle.datatexts)
 		E:CopyTable(E.db.sle.dt, P.sle.dt)
-		E:ResetMovers(L["SLE_DataPanel_1"])
-		E:ResetMovers(L["SLE_DataPanel_2"])
-		E:ResetMovers(L["SLE_DataPanel_3"])
-		E:ResetMovers(L["SLE_DataPanel_4"])
-		E:ResetMovers(L["SLE_DataPanel_5"])
-		E:ResetMovers(L["SLE_DataPanel_6"])
-		E:ResetMovers(L["SLE_DataPanel_7"])
-		E:ResetMovers(L["SLE_DataPanel_8"])
 	end
 	if group == 'marks' or group == 'all' then
 		E:CopyTable(E.db.sle.raidmarkers, P.sle.raidmarkers)

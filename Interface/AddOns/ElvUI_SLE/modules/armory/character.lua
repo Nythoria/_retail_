@@ -1,5 +1,4 @@
 local SLE, T, E, L, V, P, G = unpack(select(2, ...))
-if select(2, GetAddOnInfo('ElvUI_KnightFrame')) and IsAddOnLoaded('ElvUI_KnightFrame') then return end --Don't break korean code :D
 local Armory = SLE:GetModule("Armory_Core")
 local CA = SLE:NewModule("Armory_Character", "AceEvent-3.0", "AceConsole-3.0", "AceHook-3.0");
 local LCG = LibStub('LibCustomGlow-1.0')
@@ -87,6 +86,7 @@ function CA:BuildLayout()
 		Slot["SLE_Warning"].texture:SetTexture(Armory.Constants.WarningTexture)
 		Slot["SLE_Warning"].texture:SetVertexColor(1, 0, 0)
 
+		Slot["SLE_Warning"]:SetFrameLevel(3)  --* Fixes #468
 		Slot["SLE_Warning"]:SetScript("OnEnter", Armory.Warning_OnEnter)
 		Slot["SLE_Warning"]:SetScript("OnLeave", Armory.Tooltip_OnLeave)
 		Slot["SLE_Warning"]:Hide()

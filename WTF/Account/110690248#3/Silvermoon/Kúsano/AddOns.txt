@@ -25,3 +25,6 @@ BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 LittleWigs: enabled
+BigWigs_Shadowlands: enabled
+BigWigs_CastleNathria: enabled
+AAP-Core: disabled

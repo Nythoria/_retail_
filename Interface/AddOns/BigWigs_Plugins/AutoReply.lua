@@ -118,6 +118,12 @@ function plugin:OnPluginEnable()
 	self:RegisterMessage("BigWigs_OnBossWipe", "WinOrWipe")
 end
 
+function plugin:OnPluginDisable()
+	curModule = nil
+	throttle, throttleBN, friendlies = {}, {}, {}
+	healthPools, healthPoolNames = {}, {}
+end
+
 -------------------------------------------------------------------------------
 -- Event Handlers
 --
@@ -135,15 +141,11 @@ end
 do
 	local function CreateAdvancedFinalReply(win)
 		if win then
-			local _, _, _, instanceId = UnitPosition("player")
 			local playersTotal, playersAlive = 0, 0
 			for unit in curModule:IterateGroup() do
-				local _, _, _, tarInstanceId = UnitPosition(unit)
-				if tarInstanceId == instanceId then
-					playersTotal = playersTotal + 1
-					if not UnitIsDeadOrGhost(unit) then
-						playersAlive = playersAlive + 1
-					end
+				playersTotal = playersTotal + 1
+				if not UnitIsDeadOrGhost(unit) then
+					playersAlive = playersAlive + 1
 				end
 			end
 			return L.autoReplyLeftCombatAdvancedWin:format(curModule.displayName, playersAlive, playersTotal)
@@ -224,7 +226,7 @@ end
 do
 	local units = {"boss1", "boss2", "boss3", "boss4", "boss5"}
 
-	local UnitHealth, UnitHealthMax, UnitName, IsEncounterInProgress = UnitHealth, UnitHealthMax, UnitName, IsEncounterInProgress
+	local UnitHealth, UnitHealthMax, IsEncounterInProgress = UnitHealth, UnitHealthMax, IsEncounterInProgress
 	local function StoreHealth()
 		if IsEncounterInProgress() then
 			for i = 1, 5 do
@@ -234,7 +236,7 @@ do
 					local maxHealth = UnitHealthMax(unit)
 					local health = rawHealth / maxHealth
 					healthPools[i] = health
-					healthPoolNames[i] = UnitName(unit)
+					healthPoolNames[i] = plugin:UnitName(unit)
 				elseif healthPools[i] then
 					healthPools[i] = nil
 					healthPoolNames[i] = nil
@@ -247,36 +249,28 @@ do
 		if mode == 2 then
 			return L.autoReplyNormal:format(curModule.displayName) -- In combat with encounterName
 		elseif mode == 3 then
-			local _, _, _, instanceId = UnitPosition("player")
 			local playersTotal, playersAlive = 0, 0
 			for unit in curModule:IterateGroup() do
-				local _, _, _, tarInstanceId = UnitPosition(unit)
-				if tarInstanceId == instanceId then
-					playersTotal = playersTotal + 1
-					if not UnitIsDeadOrGhost(unit) then
-						playersAlive = playersAlive + 1
-					end
+				playersTotal = playersTotal + 1
+				if not UnitIsDeadOrGhost(unit) then
+					playersAlive = playersAlive + 1
 				end
 			end
 			-- In combat with encounterName, difficulty, playersAlive
 			return L.autoReplyAdvanced:format(curModule.displayName, GetDifficultyInfo(curDiff), playersAlive, playersTotal)
 		elseif mode == 4 then
-			local _, _, _, instanceId = UnitPosition("player")
 			local playersTotal, playersAlive = 0, 0
 			for unit in curModule:IterateGroup() do
-				local _, _, _, tarInstanceId = UnitPosition(unit)
-				if tarInstanceId == instanceId then
-					playersTotal = playersTotal + 1
-					if not UnitIsDeadOrGhost(unit) then
-						playersAlive = playersAlive + 1
-					end
+				playersTotal = playersTotal + 1
+				if not UnitIsDeadOrGhost(unit) then
+					playersAlive = playersAlive + 1
 				end
 			end
 			local totalHp = ""
 			for i = 1, 5 do
 				local unit = units[i]
 				local hp = UnitHealth(unit)
-				local name = UnitName(unit)
+				local name = plugin:UnitName(unit)
 				if hp > 0 then
 					hp = hp / UnitHealthMax(unit)
 					if totalHp == "" then

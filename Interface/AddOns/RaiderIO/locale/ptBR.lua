@@ -1,4 +1,4 @@
--- Generated from CurseForge on Mon Dec 21 06:12:51 UTC 2020
+-- Generated from CurseForge on Sun Feb  7 18:49:03 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("ptBR") then
@@ -17,6 +17,10 @@ L["API_DEPRECATED_UNKNOWN_ADDON"] = "<AddOn Desconhecido>"
 L["API_DEPRECATED_UNKNOWN_FILE"] = "<Arquivo de AddOn Desconhecido>"
 L["API_DEPRECATED_WITH"] = "|cffFF0000Warning!|r O Addon |cffFFFFFF%s|r está chamando uma função descontinuada do RaiderIO.%s. Esta função será removida em versões futuras. Incentive o autor de %s a atualizar para a nova API do RaiderIO.%s. Pilha de chamadas:%s"
 L["API_INVALID_DATABASE"] = "|cffFF0000Warning!|r Detectou um banco de dados Raider.IO inválido em |cffffffff%s|r. Atualize todas as regiões e facções no cliente Raider.IO ou reinstale o complemento manualmente."
+--[[Translation missing --]]
+--[[ L["AUTO_COMBATLOG"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["AUTO_COMBATLOG_DESC"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "Melhor por Masmorra."
 L["BEST_RUN"] = "Melhor M+"
 L["BEST_SCORE"] = "Melhor Pontuação M+ (%s)"
@@ -312,6 +316,8 @@ L["RAID_PROGRESS_TITLE"] = "Progresso de Raide"
 --[[ L["RAIDERIO_BEST_RUN"] = ""--]] 
 L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Personalização do cliente Raider.IO"
 --[[Translation missing --]]
+--[[ L["RAIDERIO_LIVE_TRACKING"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAIDERIO_MP_BASE_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAIDERIO_MP_BEST_SCORE"] = ""--]] 
@@ -450,6 +456,10 @@ L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Personalização do cliente Raider.IO"
 L["USE_ENGLISH_ABBREVIATION"] = "Forçar Abreviações em Inglês para Masmorras"
 --[[Translation missing --]]
 --[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS_DESC"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["WARNING_DEBUG_MODE_ENABLE"] = ""--]] 
 --[[Translation missing --]]

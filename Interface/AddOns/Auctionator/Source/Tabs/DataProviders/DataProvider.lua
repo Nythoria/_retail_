@@ -105,6 +105,14 @@ function AuctionatorDataProviderMixin:SetOnSearchEndedCallback(onSearchEndedCall
   self.onSearchEnded = onSearchEndedCallback
 end
 
+function AuctionatorDataProviderMixin:NotifyCacheUsed()
+  self.cacheUsedCount = self.cacheUsedCount + 1
+end
+
+function AuctionatorDataProviderMixin:SetDirty()
+  self.isDirty = true
+end
+
 function AuctionatorDataProviderMixin:SetOnPreserveScrollCallback(onPreserveScrollCallback)
   self.onPreserveScroll = onPreserveScrollCallback
 end
@@ -128,6 +136,12 @@ function AuctionatorDataProviderMixin:CheckForEntriesToProcess()
       self.announcedCompletion = true
       self.onSearchEnded()
     end
+
+    if self.isDirty then
+      self.onUpdate(self.results)
+      self.isDirty = false
+    end
+
     return
   end
 
@@ -137,7 +151,9 @@ function AuctionatorDataProviderMixin:CheckForEntriesToProcess()
   local entry
   local key
 
-  while processCount < self.processCountPerUpdate and #self.entriesToProcess > 0 do
+  self.cacheUsedCount = 0
+
+  while processCount < self.processCountPerUpdate + self.cacheUsedCount and #self.entriesToProcess > 0 do
     processCount = processCount + 1
     entry = table.remove(self.entriesToProcess)
 
@@ -145,6 +161,9 @@ function AuctionatorDataProviderMixin:CheckForEntriesToProcess()
     if self.insertedKeys[key] == nil then
       self.insertedKeys[key] = entry
       table.insert(self.results, entry)
+
+      --Used to keep items in a consistent order when fields are identical and sorting
+      entry.sortingIndex = #self.results
 
       self.onEntryProcessed(entry)
     end
@@ -160,4 +179,64 @@ function AuctionatorDataProviderMixin:CheckForEntriesToProcess()
   end
 
   self.onUpdate(self.results)
+  self.isDirty = false
+end
+
+local function WrapCSVParameter(parameter)
+  if type(parameter) == "string" then
+    return "\"" .. string.gsub(parameter, "\"", "") .. "\""
+  else
+    return tostring(parameter)
+  end
+end
+
+function AuctionatorDataProviderMixin:GetCSV(callback)
+  if self:GetCount() == 0 then
+    callback("")
+  end
+
+  local csvResult = ""
+
+  local layout = self:GetTableLayout()
+
+  for index, column in ipairs(layout) do
+    csvResult = csvResult .. WrapCSVParameter(column.headerText)
+
+    if index ~= #layout then
+      csvResult = csvResult ..  ","
+    end
+  end
+  csvResult = csvResult .. "\n"
+
+  local function DoRows(start, finish)
+    finish = math.min(finish, self:GetCount())
+
+    local index = start
+    while index <= finish do
+      local row = self.results[index]
+      for column, cell in ipairs(layout) do
+        csvResult = csvResult .. WrapCSVParameter(row[cell.headerParameters[1]])
+
+        if column ~= #layout then
+          csvResult = csvResult .. ","
+        end
+      end
+
+      if index ~= self:GetCount() then
+        csvResult = csvResult .. "\n"
+      end
+
+      index = index + 1
+    end
+
+    if finish < self:GetCount() then
+      C_Timer.After(0, function()
+        DoRows(finish + 1, (finish - start) + finish + 1)
+      end)
+    else
+      callback(csvResult)
+    end
+  end
+
+  DoRows(1, 50)
 end

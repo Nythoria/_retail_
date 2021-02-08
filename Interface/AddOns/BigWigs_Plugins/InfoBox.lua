@@ -69,6 +69,10 @@ plugin.defaultDB = {
 do
 	display = CreateFrame("Frame", "BigWigsInfoBox", UIParent)
 	display:SetSize(infoboxWidth, infoboxHeight)
+	display:SetFrameStrata("MEDIUM")
+	display:SetFixedFrameStrata(true)
+	display:SetFrameLevel(130)
+	display:SetFixedFrameLevel(true)
 	display:SetClampedToScreen(true)
 	display:EnableMouse(true)
 	display:SetMovable(true)
@@ -111,7 +115,7 @@ do
 	close:SetPoint("BOTTOMRIGHT", display, "TOPRIGHT", -2, 2)
 	close:SetHeight(16)
 	close:SetWidth(16)
-	close:SetNormalTexture("Interface\\AddOns\\BigWigs\\Media\\Textures\\icons\\close")
+	close:SetNormalTexture("Interface\\AddOns\\BigWigs\\Media\\Icons\\close")
 	close:SetScript("OnClick", function()
 		BigWigs:Print(L.toggleDisplayPrint)
 		plugin:Close()
@@ -185,13 +189,6 @@ end
 -- Initialization
 --
 
-local function resetAnchor()
-	display:ClearAllPoints()
-	display:SetPoint("CENTER", UIParent, "CENTER", -300, -80)
-	db.posx = nil
-	db.posy = nil
-end
-
 local function updateProfile()
 	db = plugin.db.profile
 
@@ -204,7 +201,7 @@ local function updateProfile()
 			display:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", x / s, y / s)
 		else
 			display:ClearAllPoints()
-			display:SetPoint("CENTER", UIParent, "CENTER", -300, -80)
+			display:SetPoint("CENTER", UIParent, "CENTER", -450, -40)
 		end
 
 		--plugin:RestyleWindow()
@@ -226,7 +223,6 @@ function plugin:OnPluginEnable()
 	self:RegisterMessage("BigWigs_StopConfigureMode", "Close")
 
 	self:RegisterMessage("BigWigs_ProfileUpdate", updateProfile)
-	self:RegisterMessage("BigWigs_ResetPositions", resetAnchor)
 	updateProfile()
 end
 

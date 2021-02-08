@@ -1,0 +1,74 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/played", -- [1]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"also other sign ups are like 205-210+ ilvl so i don't think I could", -- [1]
+			"Searingxsh-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-3391-0BC73185", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSearingxsh|r",
+			[51] = 1611157016,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [1]
+		{
+			"skill > ilvl", -- [1]
+			"Amîcus-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-3391-0B467C0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Amîcus|r",
+			[51] = 1611157045,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [2]
+		{
+			" And most of us got none :)", -- [1]
+			"Boblashdk-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-3391-0BABB875", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Boblashdk|r",
+			[51] = 1611157045,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [3]
+	},
+}

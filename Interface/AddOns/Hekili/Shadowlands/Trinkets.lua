@@ -492,6 +492,27 @@ do
             }
         },
 
+        instructors_divine_bell = {
+            cast = 0,
+            cooldown = 90,
+            gcd = "off",
+
+            item = 184842,
+            toggle = "cooldowns",
+
+            handler = function ()
+                applyBuff( "instructors_divine_bell" )
+            end,
+
+            auras = {
+                instructors_divine_bell = {
+                    id = 348139,
+                    duration = 9,
+                    max_stack = 1
+                }
+            }
+        },
+
         macabre_sheet_music = {
             cast = 0,
             cooldown = 90,
@@ -562,6 +583,28 @@ do
                     duration = 5,
                     max_stack = 1
                 },
+            }
+        },
+
+        mistcaller_ocarina = {
+            cast = 0,
+            cooldown = 30,
+            gcd = "spell",
+
+            item = 178715,
+            
+            nobuff = "mistcaller_ocarina",
+
+            handler = function ()
+                applyBuff( "mistcaller_ocarina" )
+            end,
+
+            auras = {
+                mistcaller_ocarina = {
+                    id = 330067,
+                    duration = 900,
+                    max_stack = 1
+                }
             }
         },
 
@@ -763,19 +806,17 @@ do
 
         soul_igniter = {
             cast = 0,
-            cooldown = function () return debuff.soul_ignition.down and 0.5 or 60 end,
+            cooldown = 0.5,
             gcd = "off",
 
             item = 184019,
             toggle = "cooldowns",
 
+            nobuff = "soul_ignition",
+            no_icd = true,
+
             handler = function ()
-                if debuff.soul_ignition.down then
-                    applyDebuff( "player", "soul_ignition" )
-                else
-                    -- Blazing Surge.
-                    removeDebuff( "soul_ignition" )
-                end
+                applyBuff( "soul_ignition" )
             end,
 
             auras = {
@@ -786,6 +827,23 @@ do
                 }
             }
         },
+
+
+        soul_ignition = {
+            cast = 0,
+            cooldown = 60,
+
+            toggle = "cooldowns",
+
+            buff = "soul_ignition",
+
+            indicator = "cancel",
+
+            handler = function ()
+                removeBuff( "soul_ignition" )
+            end,
+        },
+
 
         soulletting_ruby = {
             cast = 0,

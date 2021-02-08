@@ -1,16 +1,10 @@
-lightweight tag b3e907dbcac7b5f460d4afd883e318eae686026f DetailsRetail.9.0.2.8097.144
+lightweight tag 87728d0e6881b454b7de1aaa99c097c62fab0ebf DetailsRetail.9.0.2.8203.144
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Sun Dec 20 17:46:39 2020 -0300
+Date:	Fri Feb 5 14:21:23 2021 -0300
 
-commit b3e907dbcac7b5f460d4afd883e318eae686026f
+commit 87728d0e6881b454b7de1aaa99c097c62fab0ebf
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sun Dec 20 17:46:39 2020 -0300
+Date:   Fri Feb 5 14:21:23 2021 -0300
 
-    Update boot.lua
-
-commit 9b972e41f9ae9d13859b389d1b601c086685bf70
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sun Dec 20 17:44:09 2020 -0300
-
-    Coach updates
+    Backend improvements
 

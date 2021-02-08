@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 64,
 	["lastSanitation"] = 3,
-	["session"] = 61,
 	["errors"] = {
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",

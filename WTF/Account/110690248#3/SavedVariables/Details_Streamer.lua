@@ -7,13 +7,13 @@ Details_StreamerDB = {
 		["Eléonóra - Silvermoon"] = "Kúsano - Silvermoon",
 		["Akatsúki - Silvermoon"] = "Kúsano - Silvermoon",
 		["Yóshino - Silvermoon"] = "Kúsano - Silvermoon",
-		["Santáshelper - Silvermoon"] = "Kúsano - Silvermoon",
+		["Iríya - Ravencrest"] = "Kúsano - Silvermoon",
 		["Ririchíyo - Silvermoon"] = "Kúsano - Silvermoon",
-		["Aryenís - Silvermoon"] = "Kúsano - Silvermoon",
 		["Victoríque - Silvermoon"] = "Kúsano - Silvermoon",
+		["Aryenís - Silvermoon"] = "Kúsano - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Kúsano - Silvermoon",
 		["Rangii - Ravencrest"] = "Kúsano - Silvermoon",
-		["Iríya - Ravencrest"] = "Kúsano - Silvermoon",
+		["Santáshelper - Silvermoon"] = "Kúsano - Silvermoon",
 	},
 	["profiles"] = {
 		["Kúsano - Silvermoon"] = {
@@ -40,18 +40,13 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["scale"] = 1,
+			["use_square_mode"] = false,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
@@ -63,9 +58,14 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
+			["y"] = 0.000152587890625,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -73,17 +73,17 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 0.00018310546875,
 				["x"] = 3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["y"] = 0.000152587890625,
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["use_square_mode"] = false,
+			["main_frame_strata"] = "LOW",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
 }

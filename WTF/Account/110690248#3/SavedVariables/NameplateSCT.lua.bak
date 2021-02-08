@@ -7,9 +7,9 @@ NameplateSCTDB = {
 		["Mítsukí - Silvermoon"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
-		["Yóshino - Silvermoon"] = "Default",
-		["Rangii - Ravencrest"] = "Default",
 		["Iríya - Ravencrest"] = "Default",
+		["Rangii - Ravencrest"] = "Default",
+		["Yóshino - Silvermoon"] = "Default",
 	},
 	["global"] = {
 		["showIcon"] = false,

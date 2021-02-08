@@ -7,21 +7,18 @@ SimulationCraftDB = {
 		["Eléonóra - Silvermoon"] = "Eléonóra - Silvermoon",
 		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
 		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Santáshelper - Silvermoon"] = "Santáshelper - Silvermoon",
+		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
 		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
-		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
+		["Santáshelper - Silvermoon"] = "Santáshelper - Silvermoon",
 	},
 	["profiles"] = {
 		["Sharutía - Silvermoon"] = {
 		},
 		["Kúsano - Silvermoon"] = {
-			["minimap"] = {
-				["hide"] = false,
-			},
 			["frame"] = {
 				["ofsx"] = 0,
 				["point"] = "CENTER",
@@ -29,6 +26,9 @@ SimulationCraftDB = {
 				["height"] = 400,
 				["ofsy"] = 0,
 				["width"] = 750,
+			},
+			["minimap"] = {
+				["hide"] = false,
 			},
 		},
 		["Ririchíyo - Aerie Peak"] = {
@@ -36,9 +36,6 @@ SimulationCraftDB = {
 		["Eléonóra - Silvermoon"] = {
 		},
 		["Akatsúki - Silvermoon"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
 			["frame"] = {
 				["ofsx"] = 0,
 				["point"] = "CENTER",
@@ -47,24 +44,30 @@ SimulationCraftDB = {
 				["ofsy"] = 0,
 				["width"] = 750,
 			},
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Yóshino - Silvermoon"] = {
 		},
-		["Santáshelper - Silvermoon"] = {
+		["Iríya - Ravencrest"] = {
 		},
 		["Ririchíyo - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Aryenís - Silvermoon"] = {
-		},
 		["Victoríque - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
+		["Aryenís - Silvermoon"] = {
+		},
 		["Mítsukí - Silvermoon"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 			["frame"] = {
 				["ofsx"] = 0,
 				["point"] = "CENTER",
@@ -73,13 +76,10 @@ SimulationCraftDB = {
 				["ofsy"] = 0,
 				["width"] = 750,
 			},
-			["minimap"] = {
-				["hide"] = true,
-			},
 		},
 		["Rangii - Ravencrest"] = {
 		},
-		["Iríya - Ravencrest"] = {
+		["Santáshelper - Silvermoon"] = {
 		},
 	},
 }

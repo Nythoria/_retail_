@@ -1,6 +1,0 @@
-<Bindings>
-	<Binding name="TOGGLETASKWINDOW" header="EXECUTIVEASSISTANT" category="BINDING_CATEGORY_EXECUTIVEASSISTANT" >
-		ExecAssist:doToggleTaskWindow()
-	</Binding>	
-</Bindings>
-

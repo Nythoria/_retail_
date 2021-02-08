@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sun Feb  7 18:49:00 UTC 2021
+-- Generated from CurseForge on Mon Feb  8 06:49:37 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("itIT") then

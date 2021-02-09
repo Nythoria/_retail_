@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-08T10:47:28Z
+-- RaiderIO Client Data. Generated on 2021-02-09T04:31:26Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -142,8 +142,8 @@ ns.CLIENT_CHARACTERS = {
           ["zone_id"] = 13309,
           ["level"] = 15,
           ["upgrades"] = 0,
-          ["fraction"] = 1.795,
-          ["score"] = 113.8283804692277,
+          ["fraction"] = 1.712,
+          ["score"] = 116.13896970150395,
           ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/15334576-15-de-other-side?utm_source=client"
         },
         ["runs"] = {
@@ -199,8 +199,8 @@ ns.CLIENT_CHARACTERS = {
             ["zone_id"] = 13309,
             ["level"] = 15,
             ["upgrades"] = 0,
-            ["fraction"] = 1.795,
-            ["score"] = 113.8283804692277,
+            ["fraction"] = 1.712,
+            ["score"] = 116.13896970150395,
             ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/15334576-15-de-other-side?utm_source=client"
           },
           [8] = {

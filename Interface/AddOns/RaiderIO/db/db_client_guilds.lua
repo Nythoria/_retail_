@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-09T07:30:43Z
+-- RaiderIO Client Data. Generated on 2021-02-09T09:31:10Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {

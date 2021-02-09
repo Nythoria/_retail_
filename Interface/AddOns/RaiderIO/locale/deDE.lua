@@ -1,4 +1,4 @@
--- Generated from CurseForge on Mon Feb  8 23:19:39 UTC 2021
+-- Generated from CurseForge on Tue Feb  9 06:51:53 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("deDE") then

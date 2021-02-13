@@ -3,7 +3,7 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Ririchíyo-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Chiennoir-silvermoon"] = true,
-	["eu-Flashiprälle-silvermoon"] = true,
+	["eu-Koszliderc-silvermoon"] = true,
+	["eu-Nassís-silvermoon"] = true,
 }
 RaiderIO_CachedRuns = nil

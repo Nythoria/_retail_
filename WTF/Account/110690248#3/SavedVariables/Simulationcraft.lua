@@ -19,31 +19,12 @@ SimulationCraftDB = {
 		["Sharutía - Silvermoon"] = {
 		},
 		["Kúsano - Silvermoon"] = {
-			["frame"] = {
-				["ofsx"] = 0,
-				["point"] = "CENTER",
-				["relativePoint"] = "CENTER",
-				["height"] = 400,
-				["ofsy"] = 0,
-				["width"] = 750,
-			},
-			["minimap"] = {
-				["hide"] = false,
-			},
 		},
 		["Ririchíyo - Aerie Peak"] = {
 		},
 		["Eléonóra - Silvermoon"] = {
 		},
 		["Akatsúki - Silvermoon"] = {
-			["frame"] = {
-				["ofsx"] = 0,
-				["point"] = "CENTER",
-				["relativePoint"] = "CENTER",
-				["height"] = 400,
-				["ofsy"] = 0,
-				["width"] = 750,
-			},
 			["minimap"] = {
 				["hide"] = true,
 			},
@@ -67,14 +48,6 @@ SimulationCraftDB = {
 		["Mítsukí - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
-			},
-			["frame"] = {
-				["ofsx"] = 0,
-				["point"] = "CENTER",
-				["relativePoint"] = "CENTER",
-				["height"] = 400,
-				["ofsy"] = 0,
-				["width"] = 750,
 			},
 		},
 		["Rangii - Ravencrest"] = {

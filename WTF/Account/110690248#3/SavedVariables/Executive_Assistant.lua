@@ -112,22 +112,6 @@ ExecAssistDB = {
 					},
 				},
 			},
-			["DBIconTable"] = {
-				["hide"] = false,
-			},
-			["useTaskWindow"] = true,
-			["charSpecificCmdLineTarget"] = false,
-			["useDataBrokerTooltip"] = true,
-		},
-		["Kúsano - Silvermoon"] = {
-			["map"] = {
-			},
-			["DBIconTable"] = {
-				["hide"] = false,
-			},
-			["useTaskWindow"] = true,
-			["charSpecificCmdLineTarget"] = false,
-			["useDataBrokerTooltip"] = true,
 		},
 		["Ririchíyo - Silvermoon"] = {
 			["map"] = {
@@ -411,6 +395,16 @@ ExecAssistDB = {
 					["p"] = "g467930",
 					["defaultEnabled"] = true,
 				},
+				["t118929"] = {
+					["hideDays"] = {
+					},
+					["resetType"] = "Weekly Automatic",
+					["isTask"] = true,
+					["id"] = "t118929",
+					["taskName"] = "Favors",
+					["p"] = "g67281",
+					["defaultEnabled"] = true,
+				},
 				["t677226"] = {
 					["hideDays"] = {
 					},
@@ -465,14 +459,14 @@ ExecAssistDB = {
 					["p"] = "g134805",
 					["defaultEnabled"] = true,
 				},
-				["t117838"] = {
+				["t286667"] = {
 					["hideDays"] = {
 					},
-					["resetType"] = "Daily Automatic",
+					["resetType"] = "Weekly Automatic",
 					["isTask"] = true,
-					["id"] = "t117838",
-					["taskName"] = "Calling",
-					["p"] = "g446130",
+					["id"] = "t286667",
+					["taskName"] = "10 Done",
+					["p"] = "g915302",
 					["defaultEnabled"] = true,
 				},
 				["g446130"] = {
@@ -494,14 +488,14 @@ ExecAssistDB = {
 					},
 					["defaultEnabled"] = true,
 				},
-				["t286667"] = {
+				["t117838"] = {
 					["hideDays"] = {
 					},
-					["resetType"] = "Weekly Automatic",
+					["resetType"] = "Daily Automatic",
 					["isTask"] = true,
-					["id"] = "t286667",
-					["taskName"] = "10 Done",
-					["p"] = "g915302",
+					["id"] = "t117838",
+					["taskName"] = "Calling",
+					["p"] = "g446130",
 					["defaultEnabled"] = true,
 				},
 				["g67281"] = {
@@ -513,6 +507,7 @@ ExecAssistDB = {
 						"g962072", -- [2]
 						"g915302", -- [3]
 						"g467930", -- [4]
+						"t118929", -- [5]
 					},
 					["isGroup"] = true,
 					["id"] = "g67281",
@@ -537,7 +532,7 @@ ExecAssistDB = {
 			},
 			["DailyResetTime"] = 8,
 		},
-		["nextMidnightReset"] = 1612828800,
+		["nextMidnightReset"] = 1613260800,
 		["tooltip"] = {
 			["standard_size"] = 11,
 			["header_size"] = 11,
@@ -582,8 +577,8 @@ ExecAssistDB = {
 			["AutoHideDelay"] = 0.5,
 			["snowflake_size"] = 11,
 		},
-		["nextWeeklyReset"] = 1612940400,
-		["nextDailyReset"] = 1612767600,
+		["nextWeeklyReset"] = 1613545200,
+		["nextDailyReset"] = 1613286000,
 		["taskWindow"] = {
 			["locked"] = true,
 			["toggleState_ToggledOff"] = true,
@@ -603,29 +598,43 @@ ExecAssistDB = {
 			["Kúsano - Silvermoon"] = {
 				["agg"] = {
 					["t336891"] = {
-						["checked"] = true,
 					},
 				},
 				["charClass"] = "DRUID",
 			},
 			["Ririchíyo - Silvermoon"] = {
 				["agg"] = {
-					["t92876"] = {
-						["checked"] = true,
-					},
-					["t677226"] = {
-					},
 					["t669042"] = {
 						["checked"] = true,
 					},
 					["t650156"] = {
 						["checked"] = true,
 					},
+					["t336891"] = {
+						["checked"] = true,
+					},
+					["t118929"] = {
+						["checked"] = true,
+					},
+					["t92876"] = {
+						["checked"] = true,
+					},
+					["t677226"] = {
+					},
 				},
 				["charClass"] = "PRIEST",
 			},
 			["Victoríque - Silvermoon"] = {
 				["agg"] = {
+					["t669042"] = {
+						["checked"] = true,
+					},
+					["t118929"] = {
+						["checked"] = true,
+					},
+					["t650156"] = {
+						["checked"] = true,
+					},
 				},
 				["charClass"] = "WARLOCK",
 			},

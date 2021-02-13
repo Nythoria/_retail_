@@ -173,7 +173,6 @@ function ExecAssist:CreateTaskWindow()
 
 	self.taskWindow = CreateFrame("Frame", "ExecAssist_TaskWindow", pA, "BackdropTemplate") -- self.taskWindow = CreateFrame("Frame", "ExecAssist_TaskWindow", pA)	
 	local TW = self.taskWindow	
-	-- TW:SetFrameStrata("DIALOG") -- Enable for precompositing Screenshot 
 	
 	self.taskWindow_dragFrame = CreateFrame("Frame", "ExecAssist_TaskWindow_dragFrame", pA, "BackdropTemplate") -- self.taskWindow_dragFrame = CreateFrame("Frame", "ExecAssist_TaskWindow_dragFrame", pA) -- Proof of Concept
 	local DF = self.taskWindow_dragFrame
@@ -185,7 +184,7 @@ function ExecAssist:CreateTaskWindow()
 	
   -- self.taskWindow  
 	self:setTaskWindowPos(twStem.pos.relTW)
-	TW:SetFrameLevel(3)
+	TW:SetFrameLevel(3)							 -- NB: ensures TW is always above DF
 	TW:SetMovable(not twStem.locked) -- NB: pA can remain movable
 
 	TW:SetScript("OnMouseDown", function(_, button)
@@ -227,8 +226,6 @@ function ExecAssist:CreateTaskWindow()
 
 	TW.f = TW:CreateFontString(nil, "OVERLAY")
 	TW.f:SetFontObject(ssf)
--- test
--- TW.f:SetShadowColor(0, 0, 0, 1)
 					
 	TW.ctrlButtons["showGroups"]:SetNormalTexture(self.icons.ldb_showGroups)
 	TW.ctrlButtons["hideGroups"]:SetNormalTexture(self.icons.ldb_hideGroups)
@@ -444,6 +441,8 @@ function ExecAssist:UpdateWindow(reLoadAllOptions)
 	end 
 	-- --- -- -- --- ---- --- -- -- --- ---- --- -- -- --- ---- --- -- -- --- ---- --- -- -- --- ---- ---
 
+	DF:SetFrameStrata(twStem.strata or "LOW"); TW:SetFrameStrata(twStem.strata or "LOW") --newOption
+
 	local W, w, H = 0, 0, 24 -- 21
 	local data, maxCols = self:fetchData("TW")
 	if not self.taskWindow.buttons then self.taskWindow.buttons ={} end
@@ -452,10 +451,7 @@ function ExecAssist:UpdateWindow(reLoadAllOptions)
 	local dispTasks = self.taskWindow.dispTasks
 
 	self:loadFontStrings(tooltipStem)
-	TW.f:SetFontObject(ssf)	
--- test
---TW.f:SetShadowColor(0, 0, 0, 1)	
-  
+	TW.f:SetFontObject(ssf)	 
 	
 	if #BL < #data then -- make enough buttons
 		for i = #BL, #data do
@@ -628,7 +624,7 @@ function ExecAssist:UpdateWindow(reLoadAllOptions)
 		TW:SetAlpha(twStem.opacity_faded)		
 		self.taskWindow_posAnchor:ClearAllPoints()
 		self.taskWindow_posAnchor:SetPoint(twStem.pos.posW_rel, UIParent, twStem.pos.posW_relP, twStem.pos.xOff, twStem.pos.yOff)
-debug("winUpdate:OnMouseUp"); debug(twStem.pos.xOff, "twStem.pos.xOff"); debug(twStem.pos.yOff, "twStem.pos.yOff")
+		debug("winUpdate:OnMouseUp"); debug(twStem.pos.xOff, "twStem.pos.xOff"); debug(twStem.pos.yOff, "twStem.pos.yOff")
 
 	end
 	

@@ -604,7 +604,20 @@ function ExecAssist:mkCharList() -- Alphabetize Character List
 	ExecAssist.charList = {}; ExecAssist.compressed_charList = {}
 	local CL, CCL = ExecAssist.charList, ExecAssist.compressed_charList
 	for charName, charStem in pairs(charStem_base) do table.insert(CL, charName) end
-	table.sort(CL)
+	
+	if self.db.global.tooltip.AllChar_GroupCharNames then 
+		table.sort(CL)
+	else
+		function compareCharacters(a, b)
+			local aServer = string.match(a, [[.* - (.*)]])
+			local bServer = string.match(b, [[.* - (.*)]])
+			if aServer ~= bServer then
+				return aServer < bServer
+			end
+			return a < b
+		end
+		table.sort(CL, compareCharacters)	
+	end
 	
 	for i=1,#CL do CCL[ CL[i]:gsub(" ", "") ] = CL[i]	end
 

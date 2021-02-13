@@ -2262,7 +2262,29 @@ all:RegisterAbilities( {
         handler = function ()
             removeBuff( args.buff_name )
         end,
-    }
+    },
+
+    null_cooldown = {
+        name = "|cff00ccff[Null Cooldown]|r",
+        cast = 0,
+        gcd = "off",
+
+        startsCombat = false,
+
+        unlisted = true
+    },
+
+    trinket1 = {
+        name = "|cff00ccff[Trinket #1]",
+        cast = 0,
+        gcd = "off",
+    },
+
+    trinket2 = {
+        name = "|cff00ccff[Trinket #2]",
+        cast = 0,
+        gcd = "off",
+    },
 } )
 
 
@@ -4570,6 +4592,28 @@ all:RegisterAbility( "wrathstone", {
         wrathstone = {
             id = 64800,
             duration = 20,
+            max_stack = 1
+        }
+    }
+} )
+
+
+all:RegisterAbility( "skardyns_grace", {
+    cast = 0,
+    cooldown = 120,
+    gcd = "off",
+
+    item = 133282,
+    toggle = "cooldowns",
+
+    handler = function ()
+        applyBuff( "speed_of_thought" )
+    end,
+
+    auras = {
+        speed_of_thought = {
+            id = 92099,
+            duration = 35,
             max_stack = 1
         }
     }

@@ -247,6 +247,9 @@ L.HideChar_ifNoIncomplete_name = "Hide Character Category when all tasks complet
 L.HideChar_ifNoIncomplete_desc = "Prevents an 'empty' Character catetory by hiding the Character if: \n\n1) All Tasks are Completed\n2) 'Show Completed Tasks' is NOT ENABLED (see 'Complated Tasks...' section below)."
 
 
+L.allChars_GroupCharNames_name = "When displaying All Characters: Sort by Char Name, then Server Name"
+L.allChars_GroupCharNames_desc = "If checked, character name will be the primary sort. If unchecked, server name will be the primary sort. \n\n Examples \n\n If checked, all chars with the name 'soandso' will be grouped together. If unchecked chars named 'soandso' will not be grouped together but with their fellow server chars."
+
 L.ShowServerNames_name = "Show Server Name with Character Name"
 L.ShowServerNames_desc = "Displays the server name along with the character name (e.g., Character Name - Server Name)"
 L.useMouseoverHighlight_name = "Use Mouseover Highlights"
@@ -453,6 +456,10 @@ L.background = "Background"
 L.BackdropColor = "Backdrop color"
 L.Border = "Border"
 L.BorderColor = "Border Color"
+
+L.StrataName = "Frame Strata"
+L.strata_name = "Frame Stata"
+L.strata_desc = "Select the display level within the frame hierarchy for best display"
 
 L.GroupOptions = "Group Options"
 L.groupactions = "Group Actions"
@@ -1134,7 +1141,7 @@ L.FontShadowYOffset = "Font Shadow Y-Offset"
 
 
 L.showChecked_name = "Show Completed Tasks"
-L.showChecked_desc = "Toggles the showing or hiding of Copleted Tasks"
+L.showChecked_desc = "Toggles the showing or hiding of Completed Tasks"
 
 L.rightMouseOnTask_name = "Show Completed Tasks, Toggle with Right Mouse"
 L.rightMouseOnTask_desc = "If enabled, right-clicking on a tooltip task will toggle 'Show Completed Tasks'"
@@ -1273,6 +1280,10 @@ L.TooltipConfig_Help = "%s: %s%s%s Toggles use of the DataBroker Display on Mous
 "%s: This setting helps with clutter management. An Empty Group has no Tasks available and may come about for a number of reasons (they may be disabled for the character, hidden for that day, etc). If Enabled, Child Groups that are themselves empty will not be considered an entry so a Group whose only entries are two empty Child Groups will itself be considered empty.\n\n"..
 "%s: Prevents an 'empty' Character catetory by hiding the Character when All Tasks are Completed and '%s' (see below for explanation) is NOT enabled.\n\n"..
 "%s: If Enabled [CharacterName - ServerName]; if Disabled [CharacterName]. This only affects the Display, %s will still be able to tell same-name-but-different-server Alts apart.\n\n"..
+"%s: If checked, character name will be the primary sort. If unchecked, server name will be the primary sort. Examples: If checked, all chars with the name 'soandso' will be grouped together. If unchecked chars named 'soandso' will not be grouped together but with their fellow server chars.\n\n"..
+
+
+
 "%s: Controls the use of a Mouseover texture for the Tooltip cells. Most users prefer them enabled so they are certain which cell/button the mouse is over but others are crazy-brave and certain of themselves.\n\n"..
 "%s: Counts refer to the Complete/Not Complete counts of Tasks. Four type of display are available: 'Completed / Total', 'Completed / Not Completed', 'Not Completed', 'Percent Completed'. %s will display them on Group Headers while %s will display them in the Text element of the DataBroker feed.\n\n"..
 "%s: Shows/Hides Completed Tasks from the Tooltip.\n\n"..
@@ -1282,9 +1293,10 @@ L.TooltipConfig_Help = "%s: %s%s%s Toggles use of the DataBroker Display on Mous
 L.WindowStyle = "Window Style"
 L.TaskWindowConfig = "Task Window Configuration"
 L.TaskWindow_GettingStarted = "Help with the Configuration Options is available in the next panel: %s\n\n%s Icon Help sections are duplicated for convenience but for more detailed information on the Task Window Display itself, See %s."
-L.TaskWindowConfig_Help = "%s: %s%s%s Toggles use of the %s. This can also be toggled from the DataBroker Object if desired (see %s configuration)\n\n"..
+
+L.TaskWindowConfig_Help = "%s: %s Toggles use of the %s. This can also be toggled from the DataBroker Object if desired (see %s configuration)\n\n"..
 "%s: Remembers and restores the Toggle State at login/UI reload (See Key Bindings to bind a key or Click Map to setup Toggling from the DataBroker / Minimap Button)\n\n"..
-"%s: %s%s%s If Enabled, the Current Character will be able to set the %s position specifically for them; otherwise, it will use the global position.\n\n"..
+"%s: %s If Enabled, the Current Character will be able to set the %s position specifically for them; otherwise, it will use the global position.\n\n"..
 "%s: Places the Task Window Buttons at the Top or Bottom of the %s.\n\n"..
 "%s: Toggles Display of Tooltips for the Buttons and areas on the %s. This can be toggled from the %s itself (Right-Mouse on the Gear Icon)\n\n"..
 "%s: Controls the use of a Mouseover texture for the Task Window Buttons. Most users prefer them enabled so they are certain which button the mouse is over but others are crazy-brave and certain of themselves.\n\n"..
@@ -1301,6 +1313,7 @@ L.TaskWindowConfig_Help = "%s: %s%s%s Toggles use of the %s. This can also be to
 "%s: Shows/Hides Completed Tasks from the Tooltip.\n\n"..
 "%s: Enables/Disables the ability to use a Right-Mouse click on a Task to toggle the Show/Hide mode. It is suggested to leave this enabled but a few users may find it problematic for various reasons.\n\n"..
 "%s: \n!! Experimental Feature !!\n\n Hides Task Window if '%s' is disabled and all Tasks have been Completed. WARNING: this will effectively DISABLE the ClickMap 'Toggle Task Window' feature as the Task Window Toggle State is constantly reset by *this* feature. Use at your own risk.\n\n"..
+"%s: Sets the Frame Strata, allowing you to raise or lower where the Task Window is in the frame hierarchy.\n\n"..
 "%s: Set the Type and Color for the %s Background and Border."
 
 L.ResetAutoreset = "Reset/Autoreset"

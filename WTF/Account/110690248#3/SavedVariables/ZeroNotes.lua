@@ -1068,7 +1068,7 @@ ZNotes = {
 		["homeSendToExRT"] = true,
 		["lastBossTemplate"] = "hungering destroyer mythic",
 		["homeIncludeMissing"] = false,
-		["homeLastGroupTemplate"] = "full team",
+		["homeLastGroupTemplate"] = "Use Current Group",
 	},
 	["BossTemplatesMigrated"] = true,
 	["PlayerSpellsMigrated"] = true,

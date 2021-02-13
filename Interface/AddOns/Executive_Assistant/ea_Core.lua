@@ -1,7 +1,7 @@
 -- ------------------------------------------------------------------------- --
 -- Project: Executive Assistant - Custom To-Do/Task List Manager
 -- Author:  VincentSDSH				
--- Version: 1.3b - w9.0
+-- Version: 1.4b - w9.0
 -- ------------------------------------------------------------------------- --
 -- Command: /ea or /exa
 --
@@ -11,6 +11,7 @@
 --            backdrops. There is no change in functionality, only the default setting has been changed in an effort 
 --            to improve performance."
 -- Adding "BackdropTemplate" as para4 to CreateFrame() to set things back to normal. Might be overkill but it'll save a lot of retesting
+--
 -- ------------------------------------------------------------------------- --
 -- 
 -- Optional
@@ -156,6 +157,7 @@ function ExecAssist:OnInitialize()
 	    	["useRemembered_toggleState"] = true, -- 0.9.9j
   	  	["toggleState_ToggledOff"] = nil,			-- 0.9.9j
 				["useDragFrame"] = true,
+				["strata"] = "LOW",
 				["pos"] = {
 					["idx"] = 1,
 					["relTW"] = "CENTER",
@@ -197,6 +199,9 @@ function ExecAssist:OnInitialize()
 				["showChecked"] = true,
 				["defaultExpandSelf"] = true,
 				["OnlyCurrentChar"] = true,				
+				
+				["AllChar_GroupCharNames"] = true,
+				
 				["ShowServerNames"] = true,
 				["useMouseoverHighlight"] = true,
 				["default_tooltipType"] = "PGT",

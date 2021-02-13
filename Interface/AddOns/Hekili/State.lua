@@ -187,7 +187,11 @@ state.trinket = {
         },
         has_stat = {
             slot = "t1"
-        }
+        },
+
+        is = {
+            slot = "t1"
+        },
     },
 
     t2 = {
@@ -214,6 +218,10 @@ state.trinket = {
         has_stat = {
             slot = "t2",
         },
+
+        is = {
+            slot = "t2",
+        },
     },
 
     any = {},
@@ -236,7 +244,7 @@ state.trinket = {
     stat = {
     },
     has_stat = {
-    }
+    },
 }
 state.trinket.proc = state.trinket.stat
 state.trinket[1] = state.trinket.t1
@@ -314,7 +322,7 @@ local mt_trinket_any_stat = {
     end ]]
 
         if state.trinket.t1.has_stat[k] then return state.trinket.t1
-            elseif state.trinket.t2.has_stat[k] then return state.trinket.t2 end
+        elseif state.trinket.t2.has_stat[k] then return state.trinket.t2 end
         return no_trinket
     end
 }
@@ -332,6 +340,13 @@ local mt_trinket = {
             return class.trinkets[ t.id ].buff and state.buff[ class.trinkets[ t.id ].buff ].remains or 0
         elseif k == "has_cooldown" then
             return GetItemSpell( t.id ) ~= nil
+        elseif k == "cooldown" then
+            if t.usable and t.ability then
+                t.cooldown = state.cooldown[ t.ability ]
+            else
+                t.cooldown = state.cooldown.null_cooldown
+            end
+            return t.cooldown
         end
         return false
     end
@@ -341,7 +356,21 @@ setmetatable( state.trinket.t1, mt_trinket )
 setmetatable( state.trinket.t2, mt_trinket )
 
 
-local mt_trinket_cooldown = {
+local mt_trinket_is = {
+    __index = function( t, k )
+        local item = state.trinket[ t.slot ]
+
+        if item.usable and item.ability == k then return true end
+    
+        return false
+    end,
+}
+
+setmetatable( state.trinket.t1.is, mt_trinket_is )
+setmetatable( state.trinket.t2.is, mt_trinket_is )
+
+
+--[[ local mt_trinket_cooldown = {
     __index = function(t, k)
         if k == "duration" or k == "expires" then
             -- Refresh the ID in case we changed specs and ability is spec dependent.
@@ -369,7 +398,7 @@ local mt_trinket_cooldown = {
 }
 
 setmetatable( state.trinket.t1.cooldown, mt_trinket_cooldown )
-setmetatable( state.trinket.t2.cooldown, mt_trinket_cooldown )
+setmetatable( state.trinket.t2.cooldown, mt_trinket_cooldown ) ]]
 
 
 local mt_trinket_has_stacking_stat = {
@@ -3281,15 +3310,10 @@ local mt_default_buff = {
             return t.remains > 0
 
         elseif k == "react" then
-            -- React returns stacks assuming you've had time to react to them.
-            -- if state.query_time > t.applied + state.latency then
-                if t.expires > state.query_time then
-                    return t.count
-                end
-                return 0
-            -- end
-
-            -- return state.query_time > t.lastApplied and t.lastCount or 0
+            if t.expires > state.query_time then
+                return t.count
+            end
+            return 0
 
         elseif k == "down" then
             return t.remains == 0
@@ -4190,9 +4214,6 @@ local mt_default_debuff = {
             -- if state.isCyclingTargets( nil, t.key ) then return true end
             return t.remains < 0.3 * ( aura and aura.duration or t.duration or 30 )
 
-        elseif k == "ticks_gained_on_refresh" then
-            return min( 1.3 * t.duration, t.remains + t.duration ) / ( t.tick_time )
-
         elseif k == "time_to_refresh" then
             -- if state.isCyclingTargets( nil, t.key ) then return 0 end
             return t.up and ( max( 0, 0.01 + state.query_time - ( 0.3 * ( aura and aura.duration or t.duration or 30 ) ) ) ) or 0
@@ -4202,15 +4223,10 @@ local mt_default_debuff = {
             if t.up then return ( t.count ) else return 0 end
 
         elseif k == "react" then
-            -- React returns stacks assuming you've had time to react to them.
-            if state.query_time > t.applied + state.latency then
-                if t.expires > state.query_time then
-                    return t.count
-                end
-                return 0
+            if t.expires > state.query_time then
+                return t.count
             end
-
-            return state.query_time > t.lastApplied and t.lastCount or 0
+            return 0
 
         elseif k == "max_stack" or k == "max_stacks" then
             return aura and aura.max_stack or 1
@@ -5531,10 +5547,10 @@ function state.reset( dispName )
         v.true_remains = nil
     end
 
-    state.trinket.t1.cooldown.duration = nil
+    --[[ state.trinket.t1.cooldown.duration = nil
     state.trinket.t1.cooldown.expires = nil
     state.trinket.t2.cooldown.duration = nil
-    state.trinket.t2.cooldown.expires = nil
+    state.trinket.t2.cooldown.expires = nil ]]
 
     for k, v in pairs( state.debuff ) do
         for attr in pairs( default_debuff_values ) do
@@ -6224,7 +6240,7 @@ do
 
             if ability.id < -100 or ability.id > 0 or toggleSpells[ spell ] then
                 if state.filter ~= "none" and state.filter ~= toggle and not ability[ state.filter ] then return true, "display"
-                elseif ability.item and not state.equipped[ ability.item ] then return false
+                elseif ability.item and not ability.bagItem and not state.equipped[ ability.item ] then return false
                 elseif toggle and toggle ~= "none" then
                     if not self.toggle[ toggle ] or ( profile.toggles[ toggle ].separate and state.filter ~= toggle ) then return true, "toggle" end
                 end
@@ -6249,12 +6265,14 @@ do
         local profile = Hekili.DB.profile
         local spec = profile.specs[ state.spec.id ]
 
+        local option = ability.item and spec.items[ spell ] or spec.abilities[ spell ]
+
         local toggle = option.toggle
         if not toggle or toggle == "default" then toggle = ability.toggle end
 
         if ability.id < -100 or ability.id > 0 or toggleSpells[ spell ] then
             if state.filter ~= "none" and state.filter ~= toggle and not ability[ state.filter ] then return true, "display"
-            elseif ability.item and not state.equipped[ ability.item ] then return false
+            elseif ability.item and not ability.bagItem and not state.equipped[ ability.item ] then return false, "not equipped"
             elseif toggle and toggle ~= "none" then
                 if not self.toggle[ toggle ] or ( profile.toggles[ toggle ].separate and state.filter ~= toggle ) then return true, "toggle" end
             end

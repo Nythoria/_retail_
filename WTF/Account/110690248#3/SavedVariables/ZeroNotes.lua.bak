@@ -1062,7 +1062,7 @@ ZNotes = {
 	},
 	["lastTemplates"] = {
 		["lastGroupTemplate"] = "full team",
-		["homeLastGroupTemplate"] = "full team",
+		["homeLastGroupTemplate"] = "Use Current Group",
 		["homeIncludeMissing"] = false,
 		["homeLastBossTemplate"] = "hungering destroyer mythic",
 		["homeSendToExRT"] = true,

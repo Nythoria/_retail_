@@ -12,6 +12,7 @@ local L   = LibStub("AceLocale-3.0"):GetLocale(AddonName)
 local mainOpts, ClickMap, TaskAndCharMaintenance, HelpPanel -- TACM is dynamically created, pruned, and maintained so it's made context-local but it still needs to be self.[*] aware so it's loaded in regOptions, mainOpts has a FirstTimeUser prune, ClickMap is updated to match the dynamic map changes
 local GROUP_IDENTIFIER, TASK_IDENTIFIER = "g", "t"
 local MOVE_UP, MOVE_DOWN = "UP", "DOWN"
+local frameStrataOptions = {"BACKGROUND", "LOW", "MEDIUM", "HIGH", "DIALOG", "TOOLTIP"}
 	-- Initialize Options: reg opt tables & add to blizz opts
 local function simpleTcopy(tOri) local tNew = {} if tOri then for i=1,#tOri do tNew[i]=tOri[i] end end return tNew end 
 
@@ -1378,6 +1379,9 @@ function ExecAssist:regOptions()
 									
 									L.ShowServerNames_name:cf("cyan", "cream"),
 									L.appName:cf("EAtan", "cream"),
+									
+									L.allChars_GroupCharNames_name, 
+									
 									L.useMouseoverHighlight_name:cf("cyan", "cream"),
 									L.displayCounts:cf("cyan", "cream"),
 									L.useCounts_onHeaders_name:cf("attn", "cream"),
@@ -1518,17 +1522,18 @@ function ExecAssist:regOptions()
 								fontSize = "medium",
 								name = function() 
 									local TaskWindow = L.Diff_TaskWindow:cf("afternoon", "cream")
+
 									return L.TaskWindowConfig_Help:cf("cream"):format(
 									L.useTaskWindow :cf("grass", "cream"),
-									L.CharSpecificI:cf("EAtan", "cream"), L.CharSpecific:cf("acyan", "cream"), L.CharSpecificO:cf("EAtan", "cream"),
+									L.CharSpecific:cf("acyan", "cream"),
 									TaskWindow,
 									L.ClickMap_Name:cf("EAblue", "cream"),
-
+									
 									L.rememberToggleState_name:cf("cyan", "cream"),
 
 									L.perCharTaskPositionWindow_name:cf("cyan", "cream"),														
 									
-									L.CharSpecificI:cf("EAtan", "cream"), L.CharSpecific:cf("acyan", "cream"), L.CharSpecificO:cf("EAtan", "cream"),
+									L.CharSpecific:cf("acyan", "cream"),
 									TaskWindow,
 									L.twButtonLocation_name:cf("cyan", "cream"),
 									TaskWindow,
@@ -1560,8 +1565,11 @@ function ExecAssist:regOptions()
 									L.hideTW_ifHideCompTaks_andNoUncompTasks_name:cf("cyan", "cream"),
 									L.twuseCounts_onHeaders_name:cf("cyan", "cream"),
 									
+									L.StrataName:cf("cyan", "cream"),
+									
 									L.WindowStyle:cf("cyan", "cream"),
 									TaskWindow)
+								
 								end,
 							},
 						}
@@ -1914,11 +1922,32 @@ function ExecAssist:regOptions()
 		      	values = function()  
 							charList, revCharList = {}, {}
 		      		local charStem = self.db.global.charStem
-		      		for k, v in pairs(charStem) do
-		      			table.insert(charList, k)
-		      			revCharList[k] = #charList
-		      		end
 		      		
+							if self.db.global.tooltip.AllChar_GroupCharNames then 
+			      		for k, v in pairs(charStem) do
+			      			table.insert(charList, k)
+			      			revCharList[k] = #charList
+			      		end
+							else
+			      		for k, v in pairs(charStem) do
+			      			table.insert(charList, k)
+								end
+								
+								function compareCharacters(a, b)
+									local aServer = string.match(a, [[.* - (.*)]])
+									local bServer = string.match(b, [[.* - (.*)]])
+									if aServer ~= bServer then
+										return aServer < bServer
+									end
+									return a < b
+								end
+								table.sort(charList, compareCharacters)
+								
+								for k, v in pairs(charList) do
+									revCharList[v] = k
+							  end
+							end
+							    		
 							return charList		      		
 		      	end,
 		      	get = function() return revCharList[self.userConfigDisplay] end,
@@ -2933,6 +2962,18 @@ function ExecAssist:regOptions()
 						get = function() return ttStem.ShowServerNames end,
 						set = function(i, v) ttStem.ShowServerNames = v	end,
 					},
+					
+					allChars_GroupCharNames = {
+						name = L.allChars_GroupCharNames_name,
+						desc = L.allChars_GroupCharNames_desc,
+						type = "toggle",
+						width="full",
+						order = 40,
+						get = function() return ttStem.AllChar_GroupCharNames end,
+						set = function(i, v) ttStem.AllChar_GroupCharNames = v; ExecAssist:mkCharList()	end,					
+					},
+					
+					
 					useMouseoverHighlight = {
 						name = L.useMouseoverHighlight_name,
 						desc = L.useMouseoverHighlight_desc,
@@ -3543,7 +3584,7 @@ function ExecAssist:regOptions()
 						type = "select",
 						order = 230,
 						values = L.widthMethod_values,
-						get = function() return twStem.widthMethod end, -- twStem.use_FixedWidth_FontString end,
+						get = function() return twStem.widthMethod end, 
 						set = function(i, v) twStem.widthMethod = v	; 
 							self:UpdateWindow()
 						end,
@@ -3566,6 +3607,29 @@ function ExecAssist:regOptions()
 				},
 
 			},
+
+
+			Strata = {
+	   		type = "group", 
+	   		inline = true, 
+	   		name = L.StrataName, 
+	   		order = 930,
+				args = {
+					widthMethod = {
+						name = L.strata_name,
+						desc = L.strata_desc,
+						type = "select",
+						order = 230,
+						values = frameStrataOptions,
+						get = function() for i = 1, #frameStrataOptions do if twStem.strata == frameStrataOptions[i] then return i end end return 2 end, 
+						set = function(i, v) 
+							twStem.strata = frameStrataOptions[v] 
+							self:UpdateWindow()
+						end,
+					},				
+				},
+			},
+
 
 			WindowStyle = {
 	   		type = "group", 
@@ -3900,7 +3964,7 @@ function ExecAssist:configureClickMap()
 		
 	if not self.configClickMap then
 	
-		self.configClickMap = CreateFrame("Frame", "ExecAssist_configClickMap", UIParent)
+		self.configClickMap = CreateFrame("Frame", "ExecAssist_configClickMap", UIParent, "BackdropTemplate")
 		self.configClickMap.bMap = {}		
 		local cm = self.configClickMap		
 		
@@ -3914,7 +3978,7 @@ function ExecAssist:configureClickMap()
 	  local bgFrame = {bgFile = AceGUIWidgetLSMlists.background["Solid"]}	  
 	  
 		cm:SetBackdrop(bgFrame); cm:SetBackdropColor(0, 0, 0, 1)
-	
+
 		-- fonts for fontstrings
 		local hf, kf, sf = CreateFont("headerFont_map"), CreateFont("keyFont_map") , CreateFont("standardFont_map")  	
 		hf:SetJustifyH("CENTER"); hf:SetJustifyV("MIDDLE")
@@ -3923,9 +3987,9 @@ function ExecAssist:configureClickMap()
 		kf:SetFont(LSM:Fetch("font", "Friz Quadrata TT"), 11, "")
 		sf:SetFont(LSM:Fetch("font", "Friz Quadrata TT"), 10, "")
 		
-		cm.tA = CreateFrame("Button", nil, cm)
-		cm.tB = CreateFrame("Button", nil, cm)
-		cm.tZ = CreateFrame("Button", nil, cm)
+		cm.tA = CreateFrame("Button", nil, cm, "BackdropTemplate")
+		cm.tB = CreateFrame("Button", nil, cm, "BackdropTemplate")
+		cm.tZ = CreateFrame("Button", nil, cm, "BackdropTemplate")
 		local bgFrame2 = {bgFile = AceGUIWidgetLSMlists.background["Blizzard Tooltip"]}
 		cm.tZ:SetBackdrop(bgFrame2); cm.tZ:SetBackdropColor(7, 0, 0, .5)
 		
@@ -3975,11 +4039,11 @@ function ExecAssist:configureClickMap()
 			local M = self.configClickMap.bMap
 			local svcInfo = self:get_clickmapService(cmSvcTag)	
 			M[cmSvcTag] = {
-				["A"] = CreateFrame("Button", nil, cm),
-				["B"] = CreateFrame("Button", nil, cm),
-				["C"] = CreateFrame("Button", nil, cm),
-				["D"] = CreateFrame("Button", nil, cm),
-				["E"] = CreateFrame("Button", nil, cm),
+				["A"] = CreateFrame("Button", nil, cm, "BackdropTemplate"),
+				["B"] = CreateFrame("Button", nil, cm, "BackdropTemplate"),
+				["C"] = CreateFrame("Button", nil, cm, "BackdropTemplate"),
+				["D"] = CreateFrame("Button", nil, cm, "BackdropTemplate"),
+				["E"] = CreateFrame("Button", nil, cm, "BackdropTemplate"),
 			}
 			local A, B, C, D, E = M[cmSvcTag].A, M[cmSvcTag].B, M[cmSvcTag].C, M[cmSvcTag].D, M[cmSvcTag].E
 

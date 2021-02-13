@@ -17,7 +17,6 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["EmbedOoCDelay"] = 3,
 			["Blizzard_AbilityButton"] = true,
 			["DBMFontSize"] = 11,
 			["DBMRadarTrans"] = true,
@@ -29,6 +28,7 @@ AddOnSkinsDB = {
 			["Hekili"] = false,
 			["EmbedOoC"] = true,
 			["BugSack"] = false,
+			["EmbedOoCDelay"] = 3,
 			["Shadows"] = false,
 		},
 	},

@@ -25,3 +25,5 @@ RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_A: disabled
 ElvUI_OptionsUI: enabled
 AAP-Core: disabled
+BigWigs_Shadowlands: enabled
+LittleWigs: enabled

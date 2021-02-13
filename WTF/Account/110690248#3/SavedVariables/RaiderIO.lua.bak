@@ -4,7 +4,7 @@ RaiderIO_Config = {
 	["enableKeystoneTooltips"] = true,
 	["disableScoreColors"] = false,
 	["showMainBestScore"] = true,
-	["previouslyEnabledLogging"] = false,
+	["previouslyEnabledLogging"] = true,
 	["enableClientEnhancements"] = true,
 	["showScoreInCombat"] = false,
 	["lockProfile"] = false,
@@ -31,7 +31,7 @@ RaiderIO_Config = {
 	["inverseProfileModifier"] = false,
 	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "eu-Ririchíyo-silvermoon"
+RaiderIO_LastCharacter = "eu-Kúsano-silvermoon"
 RaiderIO_MissingCharacters = {
 }
 RaiderIO_CachedRuns = nil

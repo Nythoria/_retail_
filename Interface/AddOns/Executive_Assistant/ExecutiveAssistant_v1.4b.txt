@@ -44,6 +44,21 @@ TWO IMPORTANT TECHNICAL NOTES (but only for the addon-savvy or prospective addon
 
 
 Version Notes:
+	1.4b
+		BUGFIX: frame tweak for Task Window handling frames to address a drag-frame issues some were having.
+	1.4a
+		Repackaged due to packager failure to collect localization files.
+	1.4
+		More fixes to handle CreateFrame() API changes
+		NEW: Strata option added to TaskWindow (default: LOW) see Task Window -> Strata
+		NEW: When displaying All Characters: Sort by Char Name, then Server Name (default: ENABLED) see ldb tooltip -> options section (last option group)
+		KNOWN ISSUE: Help Panel in-line color coding is inconsistent. This seems to be a change in how WoW is handling these types of strings as the coding is inconsistent but fails early on. If no solution or practicable workaround is found, this feature might be removed just for the sake of consistency.
+		
+
+	1.3b
+		Update: Shadowlands
+		Update: Libraries
+
 	v1.3a
 		NEW FEATURE: Set AutoHide Delay - change the time (in seconds) before the DataBroker Tooltip gets lonely and hides
 	v1.3

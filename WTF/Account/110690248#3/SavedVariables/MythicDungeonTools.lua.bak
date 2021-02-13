@@ -10,14 +10,14 @@ MythicDungeonToolsDB = {
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
 	},
 	["global"] = {
+		["nonFullscreenScale"] = 1,
+		["MDI"] = {
+		},
 		["currentPreset"] = {
 			[29] = 2,
 			[30] = 2,
 			[36] = 2,
 		},
-		["MDI"] = {
-		},
-		["nonFullscreenScale"] = 1,
 		["maximized"] = false,
 		["presets"] = {
 			[29] = {
@@ -558,8 +558,20 @@ MythicDungeonToolsDB = {
 					["difficulty"] = 10,
 				}, -- [1]
 				{
+					["objects"] = {
+					},
+					["week"] = 10,
 					["difficulty"] = 10,
-					["week"] = 9,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "Qman_HoA",
+					["mdi"] = {
+						["freehold"] = 1,
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+					},
 					["value"] = {
 						["selection"] = {
 							22, -- [1]
@@ -843,21 +855,11 @@ MythicDungeonToolsDB = {
 						["riftOffsets"] = {
 							[3] = {
 							},
+							[10] = {
+							},
 							[9] = {
 							},
 						},
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
-					["text"] = "Qman_HoA",
-					["mdi"] = {
-						["freehold"] = 1,
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-					},
-					["objects"] = {
 					},
 				}, -- [2]
 				{
@@ -20019,7 +20021,8 @@ MythicDungeonToolsDB = {
 				}, -- [32]
 			},
 		},
-		["version"] = 346,
+		["version"] = 347,
+		["currentDungeonIdx"] = 30,
 		["colorPaletteInfo"] = {
 			["customPaletteValues"] = {
 				{
@@ -20084,6 +20087,5 @@ MythicDungeonToolsDB = {
 				}, -- [12]
 			},
 		},
-		["currentDungeonIdx"] = 30,
 	},
 }

@@ -24,534 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Gildia Far Beyond Insanity. Polska gildia z wieloletnim doswiadczeniem na roznych  serwerach rozpoczyna swoja działalnosc i tu. Zapraszamy wszystkich chetnych do wspólnego raidowania, m+, pvp oraz wielu innych.", -- [1]
-			"Foltek-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Foltek-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2208, -- [11]
-			"Player-3391-0BA55918", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Foltek|r",
-			[51] = 1612454502,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Obecnie potrzebujemy tanka(najlepiej monka) oraz kilku dpsow (hunter mm monk ww rogal) do uzupelnienia gildiowej grupy raidowj. Inne kandydatury oczywiscie rozniez bd rozpatrzane. wiecj informacji na /w Zapraszam serdecznie", -- [1]
-			"Foltek-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Foltek-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2209, -- [11]
-			"Player-3391-0BA55918", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Foltek|r",
-			[51] = 1612454502,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<NOVA>Selling dungeon for (gold only)[M11 - 220k] [M13 - 260k] [ [M12 - 245k] [M10 - 175k] [M14 270k] [M15 440k] [Torghast - Layers 1-8] PvP 2v2 3v3 rateGet your weekly vault loot! All key levels available,bulk discount(5%- 15%) for muti runs,f", -- [1]
-			"Maxigodx-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Maxigodx-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2210, -- [11]
-			"Player-3391-0A8AB718", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Maxigodx|r",
-			[51] = 1612454506,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS |cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|r Heroic Kill For Gold Only ! Get Your |cffffff00|Hachievement:14460:Player-3391-0A6D9AE1:1:1:5:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r !", -- [1]
-			"Mendøza-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mendøza-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2211, -- [11]
-			"Player-3391-0A6D9AE1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Mendøza|r",
-			[51] = 1612454508,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"<RCU Community> WTS  M+ 0-15 |||cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC Today || Vip Traders |||cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r || PVP  2v2 3v3 ||RBG ||/w for more info", -- [1]
-			"Dèvill-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dèvill-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2212, -- [11]
-			"Player-3391-0B9BECD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDèvill|r",
-			[51] = 1612454509,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTB |cffffffff|Hitem:172316::::::::60:577:::2:1532:6758::::|h[Umbrahide Gauntlets]|h|r 235ilvl", -- [1]
-			"Greeniskeen-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Greeniskeen-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2217, -- [11]
-			"Player-3391-08C257F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Greeniskeen|r",
-			[51] = 1612454538,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"[WTS] Torghast & Twisting Corridors Boost up to layer 8. Get 1140x [Soul Ash], Spirestalker title and Corridor Creeper mount. We have over 13898 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
-			"Theetsumi-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Theetsumi-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2218, -- [11]
-			"Player-3391-0BDE637F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cTheetsumi|r",
-			[51] = 1612454549,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"<Nova> Selling Boost  M+10=175k / M+14 =300k / M+15= 485k / Keystone Master 2.85M /2 run 7.5% discount or Stack armor FREE / Selling CASTLE NATHRIA Full clear HC 700k and per Stack Armor 240k /Curve 160k  / NM Raid 210k / Torghast Boost / /w for info", -- [1]
-			"Vexblade-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vexblade-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2221, -- [11]
-			"Player-3391-0ABF2C1D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Vexblade|r",
-			[51] = 1612454561,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"Sellin Sire Denathrius HC every 30 mins for 220k! Get your |cffffff00|Hachievement:14460:Player-1305-08801C4A:0:0:0:0:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r and a chance at 220 ilvl loot!", -- [1]
-			"Koeks-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Koeks-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2222, -- [11]
-			"Player-3391-0AF85F07", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeKoeks|r",
-			[51] = 1612454561,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"NOVA is Offering CN 10/10HC 700k / Sire LastBoss 160k / +Mythic Castle  || CN NM 10/10 210k +100k Trader [ M+  0-18 Shared loot+Armorstack || M+7 155k|| M+10 175k || M+12 240k || M+14 265k || M+15 485k  / Torghast  [ KeystonMaster 2850k ] /w For More!", -- [1]
-			"Dreamymonkz-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dreamymonkz-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2225, -- [11]
-			"Player-3391-0BDE15AE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Dreamymonkz|r",
-			[51] = 1612454567,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"<RCU> is selling|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r  Heroic Full Run Also availble vip traders today at **20:00** ST for gold You can get Ahead of the Curve and 213-220 ilvl gear! /w to book a spot! or visit [ https://discord.gg/RCU ]", -- [1]
-			"Mordesayker-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mordesayker-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2226, -- [11]
-			"Player-3391-0B765CDF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeMordesayker|r",
-			[51] = 1612454568,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"<T R A N Q U I L I T Y> Semi-core raiding guild. 2/10 M Recruiting  for Mythic Raiding. Raid days Mon/Tues/Thurs, 19:00-2300st. Aiming for Cutting Edge. Come join like minded people to get shit done! PM for more details.", -- [1]
-			"Nearro-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nearro-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2231, -- [11]
-			"Player-3391-0BD1E332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNearro|r",
-			[51] = 1612454578,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"WTS |cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|r Heroic Kill For Gold Only ! Get Your |cffffff00|Hachievement:14460:Player-3391-0A6D9AE1:1:1:5:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r !", -- [1]
-			"Mendøza-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mendøza-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2232, -- [11]
-			"Player-3391-0A6D9AE1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Mendøza|r",
-			[51] = 1612454578,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<RCU Community> WTS  M+ 0-15 |||cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC Today || Vip Traders |||cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r || PVP  2v2 3v3 ||RBG ||/w for more info", -- [1]
-			"Dèvill-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dèvill-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2233, -- [11]
-			"Player-3391-0B9BECD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDèvill|r",
-			[51] = 1612454580,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"<NOVA> WTS Mythic Plus (0-18) IN TIME(Keystone Master 2850k)|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|rMythic/Heroic/Normal|cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|rHC 220k)(Torghast layers 0-8 ONLY FOR GOLD /w me :)", -- [1]
-			"Nbcseller-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcseller-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2235, -- [11]
-			"Player-3391-0BDAE916", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Nbcseller|r",
-			[51] = 1612454582,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS Torghast Layers 0-8 ( Only for Gold ) Whisper for (info)", -- [1]
-			"Jûbeto-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jûbeto-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2237, -- [11]
-			"Player-3391-0B821CD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Jûbeto|r",
-			[51] = 1612454588,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"WTS HEROIC |cff66bbff|Hjournal:1:2424:15|h[Sire Denathrius]|h|r READY TO START--summon ready!", -- [1]
-			"Boostmepls-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boostmepls-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2238, -- [11]
-			"Player-3391-09EADAB3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Boostmepls|r",
-			[51] = 1612454590,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"WTS |cffffffff|Hitem:171416::::::::51:73::66:2:6758:1532::::|h[Shadowghast Greaves]|h|r 190ilvl and 210ilvl cheaper than AH", -- [1]
-			"Lorcoth-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lorcoth-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2240, -- [11]
-			"Player-3391-0AB8CF97", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cLorcoth|r",
-			[51] = 1612454596,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"Until Dawn is recruiting! Looking for a laid back guild and having a fun time progressing Nathria (8/10 HC)? We're raiding Thursday, Sunday and Tuesday (19:00 server time). Give us a whisper and come join the ride!", -- [1]
-			"Evinco-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Evinco-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2241, -- [11]
-			"Player-3391-0AF6E450", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Evinco|r",
-			[51] = 1612454596,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"<NOVA>  ||Keystone Master (All 15s  = 2850k|| ||M+10=175k|| ||M+12=240k|| ||M+14=265k|| ||M+15  = 420k|| ||M+16=1.1M|| ||M+17=1.4M|| ||M+18=1.9M|| SHARELOOT+ARMORSTACK! [Castle Nathria HC Full = 700K , VIP Trader = 250 ||CURVE  160k /w info GOLD ONLY", -- [1]
-			"Mmumu-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mmumu-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2242, -- [11]
-			"Player-3391-0BDA6582", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Mmumu|r",
-			[51] = 1612454599,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"< NOVA > Offering [Mythic 0-18 In Time][+7 155k /+10 175k /+12  240k /+14 265k/+15 420k] [ArmorStack/Specify keys ] [All 15s in time 2.8M] - Castle Nathria HC 10/10 700k Last Boss 160k / CN NM 10/10 210k -  Also Mythic CN   /w More!", -- [1]
-			"Clairredfild-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Clairredfild-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2245, -- [11]
-			"Player-3391-0A796191", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Clairredfild|r",
-			[51] = 1612454602,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTB |cffffffff|Hitem:172316::::::::60:577:::2:1532:6758::::|h[Umbrahide Gauntlets]|h|r", -- [1]
-			"Greeniskeen-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Greeniskeen-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2247, -- [11]
-			"Player-3391-08C257F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Greeniskeen|r",
-			[51] = 1612454607,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<T R A N Q U I L I T Y> Semi-core raiding guild. 2/10 M Recruiting  for Mythic Raiding. Raid days Mon/Tues/Thurs, 19:00-2300st. Aiming for Cutting Edge. Come join like minded people to get shit done! PM for more details.", -- [1]
-			"Nearro-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nearro-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2249, -- [11]
-			"Player-3391-0BD1E332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaNearro|r",
-			[51] = 1612454637,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"<RCU Community> WTS  M+ 0-15 |||cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC Today || Vip Traders |||cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r || PVP  2v2 3v3 ||RBG ||/w for more info", -- [1]
-			"Dèvill-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dèvill-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2250, -- [11]
-			"Player-3391-0B9BECD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDèvill|r",
-			[51] = 1612454641,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
 			"WTB ALL  |cffffffff|Hitem:172089::::::::60:62:::::::|h[Desolate Leather]|h|r 440 per stack, |cffffffff|Hitem:173202::::::::60:62:::::::|h[Shrouded Cloth]|h|r 200 per stack C.O.D", -- [1]
 			"Liliputik-Silvermoon", -- [2]
 			"", -- [3]
@@ -572,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLiliputik|r",
 			[51] = 1612454643,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [1]
 		{
 			"[WTS] Fast Powerleveling to 60 lvl! World & Daily Questing, Renown weekly cap, Gear farming, NEW Mounts, and other boosts. We have over 13898 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
 			"Theetsumi-Silvermoon", -- [2]
@@ -594,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTheetsumi|r",
 			[51] = 1612454647,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [2]
 		{
 			"< NOVA > Offering [Mythic 0-18 In Time][+7 155k /+10 175k /+12  240k /+14 265k/+15 420k] [ArmorStack/Specify keys ] [All 15s in time 2.8M] - Castle Nathria HC 10/10 700k Last Boss 160k / CN NM 10/10 210k -  Also Mythic CN   /w More!", -- [1]
 			"Clairredfild-Silvermoon", -- [2]
@@ -616,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Clairredfild|r",
 			[51] = 1612454647,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [3]
 		{
 			"<Nova> WTS Boost RBG ||||Curv Last boss HC=160k!||||10-10 and specific|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r HC=700k &Nm=210k TRADER available FOR HC & NM ||||M+(2-18) Share loot & Armorstack for (2-11) W me for more info :D", -- [1]
 			"Deadlytrap-Silvermoon", -- [2]
@@ -638,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Deadlytrap|r",
 			[51] = 1612454648,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [4]
 		{
 			"NOVA is Offering CN 10/10HC 700k / Sire LastBoss 160k / +Mythic Castle  || CN NM 10/10 210k +100k Trader [ M+  0-18 Shared loot+Armorstack || M+7 155k|| M+10 175k || M+12 240k || M+14 265k || M+15 485k  / Torghast  [ KeystonMaster 2850k ] /w For More!", -- [1]
 			"Dreamymonkz-Silvermoon", -- [2]
@@ -660,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonkz|r",
 			[51] = 1612454650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [5]
 		{
 			"Until Dawn is recruiting! Looking for a laid back guild and having a fun time progressing Nathria (8/10 HC)? We're raiding Thursday, Sunday and Tuesday (19:00 server time). Give us a whisper and come join the ride!", -- [1]
 			"Evinco-Silvermoon", -- [2]
@@ -682,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Evinco|r",
 			[51] = 1612454658,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [6]
 		{
 			"WTS |cffffffff|Hitem:171416::::::::51:73::66:2:6758:1532::::|h[Shadowghast Greaves]|h|r 190ilvl 6K and 210ilvl 18K prices are  cheaper than AH", -- [1]
 			"Lorcoth-Silvermoon", -- [2]
@@ -704,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLorcoth|r",
 			[51] = 1612454669,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [7]
 		{
 			"WTS |cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|r Heroic Kill For Gold Only ! Get Your |cffffff00|Hachievement:14460:Player-3391-0A6D9AE1:1:1:5:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r !", -- [1]
 			"Mendøza-Silvermoon", -- [2]
@@ -726,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mendøza|r",
 			[51] = 1612454669,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [8]
 		{
 			"<NOVA> WTS Mythic Plus (0-18) IN TIME(Keystone Master 2850k)|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|rMythic/Heroic/Normal|cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|rHC 220k)(Torghast layers 0-8 ONLY FOR GOLD /w me :)", -- [1]
 			"Nbcseller-Silvermoon", -- [2]
@@ -748,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nbcseller|r",
 			[51] = 1612454671,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [9]
 		{
 			"WTS Torghast run, all layers - layer 8 - 50k /w :)", -- [1]
 			"Lenrai-Silvermoon", -- [2]
@@ -770,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLenrai|r",
 			[51] = 1612454673,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [10]
 		{
 			"WTS |cffa335ee|Hitem:184785::::::::60:265:::4:6652:7194:1472:6646:1:28:2060:::|h[Gaiazelle's Spiked Collar]|h|r /w me", -- [1]
 			"Zalakor-Silvermoon", -- [2]
@@ -792,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edZalakor|r",
 			[51] = 1612454676,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [11]
 		{
 			"WTS m+15 timed 250k|cffa335ee|Hkeystone:180653:382:16:10:122:124:121|h[Keystone: Theater of Pain (16)]|h|r", -- [1]
 			"Macìc-Silvermoon", -- [2]
@@ -814,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Macìc|r",
 			[51] = 1612454677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [12]
 		{
 			"Blood Adders is recruiting  for their mythic raiding team,  Progress: 10/10hc 1/10m  Looking for Healers and Range dps and a good Warrior  Raid days wednesday and saturday 20:00-23:00 ST /w for more info", -- [1]
 			"Cázza-Silvermoon", -- [2]
@@ -836,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cázza|r",
 			[51] = 1612454681,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [13]
 		{
 			"<RCU> is selling|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r  Heroic Full Run Also availble vip traders today at **20:00** ST for gold You can get Ahead of the Curve and 213-220 ilvl gear! /w to book a spot! or visit [ https://discord.gg/RCU ]", -- [1]
 			"Mordesayker-Silvermoon", -- [2]
@@ -858,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMordesayker|r",
 			[51] = 1612454687,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [14]
 		{
 			"WTS Torghast Layers 0-8 ( Only for Gold ) Whisper for (info)", -- [1]
 			"Jûbeto-Silvermoon", -- [2]
@@ -880,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Jûbeto|r",
 			[51] = 1612454691,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [15]
 		{
 			"WTB |cffffffff|Hitem:172316::::::::60:577:::2:1532:6758::::|h[Umbrahide Gauntlets]|h|r", -- [1]
 			"Greeniskeen-Silvermoon", -- [2]
@@ -902,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greeniskeen|r",
 			[51] = 1612454694,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [16]
 		{
 			"<T R A N Q U I L I T Y> Semi-core raiding guild. 2/10 M Recruiting  for Mythic Raiding. Raid days Mon/Tues/Thurs, 19:00-2300st. Aiming for Cutting Edge. Come join like minded people to get shit done! PM for more details.", -- [1]
 			"Nearro-Silvermoon", -- [2]
@@ -924,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNearro|r",
 			[51] = 1612454702,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [17]
 		{
 			"LF GUILD for pvp ", -- [1]
 			"Nastyya-Silvermoon", -- [2]
@@ -946,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nastyya|r",
 			[51] = 1612454718,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [18]
 		{
 			"<RCU Community> WTS  M+ 0-15 |||cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC Today || Vip Traders |||cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r || PVP  2v2 3v3 ||RBG ||/w for more info", -- [1]
 			"Dèvill-Silvermoon", -- [2]
@@ -968,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèvill|r",
 			[51] = 1612454720,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [19]
 		{
 			"LF PVP Guild", -- [1]
 			"Nastyya-Silvermoon", -- [2]
@@ -990,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nastyya|r",
 			[51] = 1612454730,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [20]
 		{
 			"WTS |cffa335ee|Hitem:184785::::::::60:265:::4:6652:7194:1472:6646:1:28:2060:::|h[Gaiazelle's Spiked Collar]|h|r /w me", -- [1]
 			"Zalakor-Silvermoon", -- [2]
@@ -1012,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edZalakor|r",
 			[51] = 1612454731,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [21]
 		{
 			"[WTS] Fast Powerleveling to 60 lvl! World & Daily Questing, Renown weekly cap, Gear farming, NEW Mounts, and other boosts. We have over 13898 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
 			"Theetsumi-Silvermoon", -- [2]
@@ -1034,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTheetsumi|r",
 			[51] = 1612454736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [22]
 		{
 			"NOVA is Offering CN 10/10HC 700k / Sire LastBoss 160k / +Mythic Castle  || CN NM 10/10 210k +100k Trader [ M+  0-18 Shared loot+Armorstack || M+7 155k|| M+10 175k || M+12 240k || M+14 265k || M+15 485k  / Torghast  [ KeystonMaster 2850k ] /w For More!", -- [1]
 			"Dreamymonkz-Silvermoon", -- [2]
@@ -1056,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonkz|r",
 			[51] = 1612454742,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [23]
 		{
 			"WTB ALL  |cffffffff|Hitem:172089::::::::60:62:::::::|h[Desolate Leather]|h|r 440 per stack, |cffffffff|Hitem:173202::::::::60:62:::::::|h[Shrouded Cloth]|h|r 200 per stack C.O.D", -- [1]
 			"Liliputik-Silvermoon", -- [2]
@@ -1078,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLiliputik|r",
 			[51] = 1612454750,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [24]
 		{
 			"WTS Torghast Layers 0-8 ( Only for Gold ) Whisper for (info)", -- [1]
 			"Jûbeto-Silvermoon", -- [2]
@@ -1100,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Jûbeto|r",
 			[51] = 1612454755,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [25]
 		{
 			"Are you a bitch? Do you wear pink on Wednesdays? Then get in loser, we're going raiding! <Mean Girls> 9/10HC is recruiting mage/lock/boomie to strengthen our future Mythic roster. Raid times: Wed/Sun 8-11 ST. Come sit with us!", -- [1]
 			"Sappho-Silvermoon", -- [2]
@@ -1122,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sappho|r",
 			[51] = 1612454755,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [26]
 		{
 			"<NOVA> WTS Mythic Plus (0-18) IN TIME(Keystone Master 2850k)|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|rMythic/Heroic/Normal|cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|rHC 220k)(Torghast layers 0-8 ONLY FOR GOLD /w me :)", -- [1]
 			"Nbcseller-Silvermoon", -- [2]
@@ -1144,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nbcseller|r",
 			[51] = 1612454758,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [27]
 		{
 			"Until Dawn is recruiting! Looking for a laid back guild and having a fun time progressing Nathria (8/10 HC)? We're raiding Thursday, Sunday and Tuesday (19:00 server time). Give us a whisper and come join the ride!", -- [1]
 			"Evinco-Silvermoon", -- [2]
@@ -1166,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Evinco|r",
 			[51] = 1612454765,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [28]
 		{
 			"<Irredeemable Idols> A Raiding guild with a focus on creating a close-knit & friendly community. Raid Days Thur-Sun 19.00-22.00 and pushing m+ daily! LF a few dps for the core raid team 10/10 Normal 7/10 HC /w me for a chat! :)", -- [1]
 			"Tiddywit-Silvermoon", -- [2]
@@ -1188,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tiddywit|r",
 			[51] = 1612454766,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [29]
 		{
 			"WTS |cffffffff|Hitem:171416::::::::51:73::66:2:6758:1532::::|h[Shadowghast Greaves]|h|r 190ilvl 6K and 210ilvl 18K prices are  cheaper than AH", -- [1]
 			"Lorcoth-Silvermoon", -- [2]
@@ -1210,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLorcoth|r",
 			[51] = 1612454769,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [30]
 		{
 			"<NOVA>  ||Keystone Master (All 15s  = 2850k|| ||M+10=175k|| ||M+12=240k|| ||M+14=265k|| ||M+15  = 420k|| ||M+16=1.1M|| ||M+17=1.4M|| ||M+18=1.9M|| SHARELOOT+ARMORSTACK! [Castle Nathria HC Full = 700K , VIP Trader = 250 ||CURVE  160k /w info GOLD ONLY", -- [1]
 			"Mmumu-Silvermoon", -- [2]
@@ -1232,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mmumu|r",
 			[51] = 1612454770,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [31]
 		{
 			"WTB |cffffffff|Hitem:172316::::::::60:577:::2:1532:6758::::|h[Umbrahide Gauntlets]|h|r", -- [1]
 			"Greeniskeen-Silvermoon", -- [2]
@@ -1254,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greeniskeen|r",
 			[51] = 1612454778,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [32]
 		{
 			"<T R A N Q U I L I T Y> Semi-core raiding guild. 2/10 M Recruiting  for Mythic Raiding. Raid days Mon/Tues/Thurs, 19:00-2300st. Aiming for Cutting Edge. Come join like minded people to get shit done! PM for more details.", -- [1]
 			"Nearro-Silvermoon", -- [2]
@@ -1276,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaNearro|r",
 			[51] = 1612454786,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [33]
 		{
 			"<Nova> WTS Boost RBG ||||Specific & 10/10  Castle Nathria NM=210k TRader +100 k ||||Castle Nathria HC=700k Trader +250k ||||M+(2-18) Shareloot & M+(2-11)+ARMORSTCK ||M+10=175k ||M+15=485k ||||Torghast Layer (1-8) & ...W me for more info :D", -- [1]
 			"Deadlytrap-Silvermoon", -- [2]
@@ -1298,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Deadlytrap|r",
 			[51] = 1612454789,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [34]
 		{
 			"<RCU> is selling|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r  Heroic Full Run Also availble vip traders today at **20:00** ST for gold You can get Ahead of the Curve and 213-220 ilvl gear! /w to book a spot! or visit [ https://discord.gg/RCU ]", -- [1]
 			"Mordesayker-Silvermoon", -- [2]
@@ -1320,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMordesayker|r",
 			[51] = 1612454792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [35]
 		{
 			"<RCU Community> WTS  M+ 0-15 |||cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC Today || Vip Traders |||cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r || PVP  2v2 3v3 ||RBG ||/w for more info", -- [1]
 			"Dèvill-Silvermoon", -- [2]
@@ -1342,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèvill|r",
 			[51] = 1612454797,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [36]
 		{
 			"We are Selling Sire Denathrius Heroic for 220k GOLD  every 15 minutes! Get|cffffff00|Hachievement:14460:Player-3391-0BDA6824:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r achievement before everyone else! Also selling M+0-15 intime || Thorgast & Castle Nathria HC available!  ", -- [1]
 			"Untibuggy-Silvermoon", -- [2]
@@ -1364,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Untibuggy|r",
 			[51] = 1612454798,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [37]
 		{
 			"WTS |cffa335ee|Hitem:183035::::::::60:105::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r Finger 226!!!!", -- [1]
 			"Redanger-Silvermoon", -- [2]
@@ -1386,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Redanger|r",
 			[51] = 1612454818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [38]
 		{
 			"< NOVA > Offering [Mythic 0-18 In Time][+7 155k /+10 175k /+12  240k /+14 265k/+15 420k] [ArmorStack/Specify keys ] [All 15s in time 2.8M] - Castle Nathria HC 10/10 700k Last Boss 160k / CN NM 10/10 210k -  Also Mythic CN   /w More!", -- [1]
 			"Clairredfild-Silvermoon", -- [2]
@@ -1408,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Clairredfild|r",
 			[51] = 1612454823,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [39]
 		{
 			"donbal team am kasi be heler niaz dare ?", -- [1]
 			"Deadevil-Silvermoon", -- [2]
@@ -1430,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Deadevil|r",
 			[51] = 1612454827,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [40]
 		{
 			"WTS|cffa335ee|Hitem:183035::::::::1:1450::6:5:7187:42:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r+Speed", -- [1]
 			"Toxicgirl-Silvermoon", -- [2]
@@ -1452,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Toxicgirl|r",
 			[51] = 1612454828,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [41]
 		{
 			"WTS |cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|r Heroic Kill For Gold Only ! Get Your |cffffff00|Hachievement:14460:Player-3391-0A6D9AE1:1:1:5:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r !", -- [1]
 			"Mendøza-Silvermoon", -- [2]
@@ -1474,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mendøza|r",
 			[51] = 1612454833,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [42]
 		{
 			"[WТS] Mythic +10/+11/+12/+13/+14/+15 key BOOST tonight! You will get NEW ilvl 203-226+ Gear, Achieves & RIO Score. We have over 13898 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
 			"Theetsumi-Silvermoon", -- [2]
@@ -1496,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTheetsumi|r",
 			[51] = 1612454835,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [43]
 		{
 			"NOVA is Offering CN 10/10HC 700k / Sire LastBoss 160k / +Mythic Castle  || CN NM 10/10 210k +100k Trader [ M+  0-18 Shared loot+Armorstack || M+7 155k|| M+10 175k || M+12 240k || M+14 265k || M+15 485k  / Torghast  [ KeystonMaster 2850k ] /w For More!", -- [1]
 			"Dreamymonkz-Silvermoon", -- [2]
@@ -1518,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dreamymonkz|r",
 			[51] = 1612454835,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [44]
 		{
 			"<Oriboys> 9/10 HC LF ranged DPS and a tank to bolster our roster and get down Sire before transitioning to Mythic. Raid days are wed/sun 19:00-23:00 /w for info", -- [1]
 			"Chiezy-Silvermoon", -- [2]
@@ -1540,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chiezy|r",
 			[51] = 1612454836,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [45]
 		{
 			"<NOVA> WTS Mythic Plus (0-18) IN TIME(Keystone Master 2850k)|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|rMythic/Heroic/Normal|cff66bbff|Hjournal:1:2424:14|h[Sire Denathrius]|h|rHC 220k)(Torghast layers 0-8 ONLY FOR GOLD /w me :)", -- [1]
 			"Nbcseller-Silvermoon", -- [2]
@@ -1562,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nbcseller|r",
 			[51] = 1612454839,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [46]
 		{
 			"Until Dawn is recruiting! Looking for a laid back guild and having a fun time progressing Nathria (8/10 HC)? We're raiding Thursday, Sunday and Tuesday (19:00 server time). Give us a whisper and come join the ride!", -- [1]
 			"Evinco-Silvermoon", -- [2]
@@ -1584,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Evinco|r",
 			[51] = 1612454840,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [47]
 		{
 			"Selling LAST BOSS |cff66bbff|Hjournal:1:2424:15|h[Sire Denathrius]|h|r Heroic Boost. Starting Now . 1Spot left (Gold Only) Get ur |cffffff00|Hachievement:14460:Player-3391-0A2180E0:1:1:6:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r and 220+ Loot", -- [1]
 			"Turoxas-Silvermoon", -- [2]
@@ -1606,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTuroxas|r",
 			[51] = 1612454841,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [48]
 		{
 			"WTS |cffffffff|Hitem:171416::::::::51:73::66:2:6758:1532::::|h[Shadowghast Greaves]|h|r 190ilvl 6K and 210ilvl 18K prices are  cheaper than AH", -- [1]
 			"Lorcoth-Silvermoon", -- [2]
@@ -1628,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLorcoth|r",
 			[51] = 1612454850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [49]
 		{
 			"WTS |cffa335ee|Hitem:184785::::::::60:265:::4:6652:7194:1472:6646:1:28:2060:::|h[Gaiazelle's Spiked Collar]|h|r /w me", -- [1]
 			"Zalakor-Silvermoon", -- [2]
@@ -1650,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edZalakor|r",
 			[51] = 1612454861,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [50]
 		{
 			"<RCU Community> WTS  M+ 0-15 |||cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC Today || Vip Traders |||cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r || PVP  2v2 3v3 ||RBG ||/w for more info", -- [1]
 			"Dèvill-Silvermoon", -- [2]
@@ -1672,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèvill|r",
 			[51] = 1612454862,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [51]
 		{
 			"<NOVA>  ||Keystone Master (All 15s  = 2850k|| ||M+10=175k|| ||M+12=240k|| ||M+14=265k|| ||M+15  = 420k|| ||M+16=1.1M|| ||M+17=1.4M|| ||M+18=1.9M|| SHARELOOT+ARMORSTACK! [Castle Nathria HC Full = 700K , VIP Trader = 250 ||CURVE  160k /w info GOLD ONLY", -- [1]
 			"Mmumu-Silvermoon", -- [2]
@@ -1694,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mmumu|r",
 			[51] = 1612454869,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [52]
 		{
 			"<Wasta> Semi-hardcore guild recruiting Healers & DPS [10/10HC, 2/10M], Raid days (Sat,Mon,Tues) 7pm, Also Recruiting Social/Casual players who just want to run the content together. /w for more info", -- [1]
 			"Elimp-Silvermoon", -- [2]
@@ -1716,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edElimp|r",
 			[51] = 1612532571,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [53]
 		{
 			"|cffffd000|Henchant:308899|h[Shadowlands Leatherworking: Heavy Desolate Leather]|h|r this one??", -- [1]
 			"Akatsúki-Silvermoon", -- [2]
@@ -1738,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Akatsúki|r",
 			[51] = 1612532574,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [54]
 		{
 			"WTB |cffffffff|Hitem:172089::::::::60:254:::::::|h[Desolate Leather]|h|r  IN BULK  ANY AMOUNT 2.40 GOLD EACH. COD OR TRADE ", -- [1]
 			"Winghunter-Silvermoon", -- [2]
@@ -1760,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Winghunter|r",
 			[51] = 1612532593,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [55]
 		{
 			"< NOVA > Offering [Mythic 0-18 In Time][+7 155k /+10 175k /+12  240k /+14 265k/+15 420k] [ArmorStack/Specify keys ] [All 15s in time 2.8M] - Castle Nathria HC 10/10 700k Last Boss 160k / CN NM 10/10 210k -  Also Mythic CN   /w More!", -- [1]
 			"Clairredfild-Silvermoon", -- [2]
@@ -1782,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Clairredfild|r",
 			[51] = 1612532594,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [56]
 		{
 			"no no", -- [1]
 			"Nestradh-Silvermoon", -- [2]
@@ -1804,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nestradh|r",
 			[51] = 1612532607,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [57]
 		{
 			"WTS Key M+10 170k  / +12 230k / +14 265k     /  Ez in time  / CHEAPEST /w me for info ", -- [1]
 			"Pinkstag-Silvermoon", -- [2]
@@ -1826,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pinkstag|r",
 			[51] = 1612532609,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [58]
 		{
 			"the actual kits", -- [1]
 			"Nestradh-Silvermoon", -- [2]
@@ -1848,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nestradh|r",
 			[51] = 1612532609,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [59]
 		{
 			"to increase health ;:p", -- [1]
 			"Nestradh-Silvermoon", -- [2]
@@ -1870,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nestradh|r",
 			[51] = 1612532612,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [60]
 		{
 			"WTS SO CHEAP |cffa335ee|Hitem:184778::::::::60:64::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r", -- [1]
 			"Gorubey-Silvermoon", -- [2]
@@ -1892,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGorubey|r",
 			[51] = 1612532613,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [61]
 		{
 			"WTS Level 25 guild.", -- [1]
 			"Sadex-Silvermoon", -- [2]
@@ -1914,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSadex|r",
 			[51] = 1612532613,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [62]
 		{
 			"|cffffffff|Hitem:172347::::::::60:581:::::::|h[Heavy Desolate Armor Kit]|h|r", -- [1]
 			"Nestradh-Silvermoon", -- [2]
@@ -1936,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nestradh|r",
 			[51] = 1612532619,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [63]
 		{
 			"<Nova> Selling Boost  M+10=175k / M+14=300k / M+15= 485k /Keystone Master 2.85M /2 run 7.5% discount or Stack armor FREE / RGB boost /Selling CASTLE NATHRIA Full HC 700k and per Stack Armor 240k /Curve 160k  / NM Raid 210k / Torghast Boost /w for info", -- [1]
 			"Vexblade-Silvermoon", -- [2]
@@ -1958,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Vexblade|r",
 			[51] = 1612532624,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [64]
 		{
 			"<RCU Community> WTS  M+ 0-15 |||cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 HC Today @19:00 ST|| Vip Traders |||cff66bbff|Hjournal:1:2424:16|h[Sire Denathrius]|h|r /w for more info", -- [1]
 			"Dèvill-Silvermoon", -- [2]
@@ -1980,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDèvill|r",
 			[51] = 1612532628,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [65]
 		{
 			"well yeah you still need to make the heavy desolaltes as well xd", -- [1]
 			"Nestradh-Silvermoon", -- [2]
@@ -2002,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nestradh|r",
 			[51] = 1612532628,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [66]
 		{
 			"ohh xD", -- [1]
 			"Akatsúki-Silvermoon", -- [2]
@@ -2024,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Akatsúki|r",
 			[51] = 1612532629,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [67]
 		{
 			"{RCU Community} WTS Boost Mythic +10-20 (Armor Stack and Specific Key) >>  Castle Nathria Hc/Mythic Full Run or Specific Boss >>  Pvp/ and Torgast Only For Gold /w me for more info", -- [1]
 			"Modoor-Silvermoon", -- [2]
@@ -2046,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Modoor|r",
 			[51] = 1612532630,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [68]
 		{
 			"WTB bulk |cff1eff00|Hitem:171831::::::::60:103:::::::|h[Phaedrum Ore]|h|r|cff1eff00|Hitem:171830::::::::60:103:::::::|h[Oxxein Ore]|h|r|cff1eff00|Hitem:171832::::::::60:103:::::::|h[Sinvyr Ore]|h|r", -- [1]
 			"Tchikita-Silvermoon", -- [2]
@@ -2068,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tchikita|r",
 			[51] = 1612532633,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [69]
 		{
 			"WTB bulk |cff1eff00|Hitem:171829::::::::60:103:::::::|h[Solenium Ore]|h|r|cff0070dd|Hitem:171833::::::::60:103:::::::|h[Elethium Ore]|h|r", -- [1]
 			"Tchikita-Silvermoon", -- [2]
@@ -2090,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tchikita|r",
 			[51] = 1612532633,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [70]
 		{
 			"never got any of the reps on my monk so I can't make them :(", -- [1]
 			"Akatsúki-Silvermoon", -- [2]
@@ -2112,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Akatsúki|r",
 			[51] = 1612532647,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [71]
 		{
 			"<Nova> WTS Boost RBG ||||Curv Last boss HC=160k!||||10-10 and specific|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r HC=700k &Nm=210k TRADER available FOR HC & NM ||||M+(2-18) Share loot & Armorstack for (2-11) W me for more info :D", -- [1]
 			"Deadlytrap-Silvermoon", -- [2]
@@ -2134,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Deadlytrap|r",
 			[51] = 1612532648,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [72]
 		{
 			"ah ok", -- [1]
 			"Nestradh-Silvermoon", -- [2]
@@ -2156,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nestradh|r",
 			[51] = 1612532653,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [73]
 		{
 			"dont sweat it", -- [1]
 			"Nestradh-Silvermoon", -- [2]
@@ -2178,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nestradh|r",
 			[51] = 1612532657,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [74]
 		{
 			"<NOVA> OFFERING  Keystone Master 2.8M/ Mythic  Dungeons+ 2 - 15 //  +10=175k // +12=240k   // +13 = 255k/ 14=265k/ 15=420k/Offering Armor STACK +/Bulk Discount  !!Full Run Castle Nathria HC VIP Trader /Last Boss HC  /only golds", -- [1]
 			"Novaboosty-Silvermoon", -- [2]
@@ -2199,6 +1671,534 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffef367Novaboosty|r",
 			[51] = 1612532664,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"|cffa335ee|Hitem:183013::::::::60:66::5:4:7188:6652:1485:6646:1:28:752:::|h[Fallen Templar's Gauntlets]|h|r on AH for 50k - cheapest around", -- [1]
+			"Deplore-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Deplore-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"Player-3391-0955A001", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Deplore|r",
+			[51] = 1613056364,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"WTS |cff0070dd|Hbattlepet:242:25:3:1319:305:289:BattlePet-0-00000DA30CBE:30409|h[Spectral Tiger Cub]|h|r Cheaper than AH! ", -- [1]
+			"Mergok-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mergok-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"Player-3391-0BB95573", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Mergok|r",
+			[51] = 1613056364,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"We are Selling Sire Denathrius Heroic for 160k GOLD  every 15 minutes! Get|cffffff00|Hachievement:14460:Player-3391-0BDA6824:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sire Denathrius]|h|r achievement before everyone else! Also selling M+0-15 intime || Thorgast & Castle Nathria HC available!  ", -- [1]
+			"Untibuggy-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Untibuggy-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			358, -- [11]
+			"Player-3391-0BDA6824", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Untibuggy|r",
+			[51] = 1613057429,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"|cffffd100|HclubTicket:0lvXAYCR37|h[Join: Mythic BoE Run Silvermoon 1]|h|r", -- [1]
+			"Instinctzz-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Instinctzz-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			359, -- [11]
+			"Player-3391-0B1B466C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaInstinctzz|r",
+			[51] = 1613057432,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"< Competitive Casuals > Currently recruiting people for our core team ( 1/10 Mythic ) and for our Casual Raid team. We need dps ( ranged )for the core team and we can use healers in the casual team. /w me if interested!", -- [1]
+			"Demonstbp-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Demonstbp-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			360, -- [11]
+			"Player-3391-0B1196EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Demonstbp|r",
+			[51] = 1613057439,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"<NOVA> BIG DISCOUNT ||Keystone Master (All 15s  = 2500k|| ||Castle Nathria HC Full = 500K , 1x VIP Trader = 200k , 2x Trader =360k || ||M+10=135k|| ||M+12=175k|| ||M+14=245k|| ||M+15  = 375k|| ||M+16=1.1M|| ||M+17=1.4M|| ||M+18=1.9M||  ||Curve=160k||", -- [1]
+			"Nbcjiren-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nbcjiren-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			361, -- [11]
+			"Player-3391-0BCFA8FE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Nbcjiren|r",
+			[51] = 1613057447,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"<T R A N Q U I L I T Y> Semi-core raiding guild. 10/10 HC  2/10 М Recruiting for Mythic Raiding. Raid days Mon/Tues/Thurs, 19:00-23:00st. Aiming for Cutting Edge. Come join like minded people to get shit done! PM for more details.", -- [1]
+			"Valrie-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Valrie-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			362, -- [11]
+			"Player-3391-0B97ECCE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Valrie|r",
+			[51] = 1613057448,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"WTS |cffa335ee|Hitem:183035::::::::60:252::6:5:7187:6652:6935:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r cheap", -- [1]
+			"Demondkk-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Demondkk-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-3391-0BD048F1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Demondkk|r",
+			[51] = 1613057452,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"<NBC> M+ (0-15) [10=135k] [12=175k] [Weekly 14=210k] [+15( in time): 375k] ||||All 15 timed 2500k|||| Castle Nathria NM=190k HC= 500k Curve = 160k |||| Mythic/HC specific bosses available ||||Torghast ALL layers |||| for gold only /w for info", -- [1]
+			"Shadowfüry-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shadowfüry-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			364, -- [11]
+			"Player-3391-0BC43F6A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Shadowfüry|r",
+			[51] = 1613057453,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"<Nova> Selling Boost  M+10=135k / M+14=245k / M+15= 375k /Keystone Master 2.5M /2 run 7.5% discount or Stack armor FREE / RBG boost /Selling CASTLE NATHRIA Full HC 500k and per Stack Armor 200k /Curve 160k  / NM Raid 190k / Torghast Boost /w for info", -- [1]
+			"Vexblade-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vexblade-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			365, -- [11]
+			"Player-3391-0ABF2C1D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Vexblade|r",
+			[51] = 1613057458,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"<Nova> Offering Castle Nathria HC 10/10 500k - Traders - 2 Last Boss 250k/ [Mythic 0-18 In Time][+10 135k /+12  175k /+14 245k/+15 375k] [ArmorStack/Specify keys ] [All 15s in time 2.5M]  / CN NM 10/10 190k Traders available / Also CN Mythic /w More!", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Clairredfild-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			366, -- [11]
+			"Player-3391-0A796191", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1613057460,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"MYTHIC BOE FARM/w min 190 lvl", -- [1]
+			"Äpocalipsee-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Äpocalipsee-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			367, -- [11]
+			"Player-3391-09AFE310", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Äpocalipsee|r",
+			[51] = 1613057460,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"WTS |cff0070dd|Hbattlepet:242:25:3:1319:305:289:BattlePet-0-00000DA30CBE:30409|h[Spectral Tiger Cub]|h|r Cheaper than AH! ", -- [1]
+			"Mergok-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mergok-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			369, -- [11]
+			"Player-3391-0BB95573", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Mergok|r",
+			[51] = 1613057461,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"<Army of the Snoepsh> (10/10 HC 2/10 M) is a newly formed raiding guild looking for good DPS and 1 healer (preferably Hpala/Disc priest) to complete our Mythic roster. Raid Times are Sunday and Wednesday from 8-11 PM server time. /w for more info.", -- [1]
+			"Yodakhiin-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yodakhiin-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			370, -- [11]
+			"Player-3391-079AC210", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaYodakhiin|r",
+			[51] = 1613057463,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"<< S T I G M A >>  Elliniko Guild psaxnei gia Dps gia to RAID group (guild run 10:00mm, Pempth Normal - Sav/riako HC). Psaxnoume gia atoma pou theloun na kanoun progress alla basiki mas proteraiotita  einai na perasoume kala. Eiste oloi euprosdektoi.", -- [1]
+			"Helianthe-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Helianthe-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			372, -- [11]
+			"Player-3391-0BBD7AEC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeHelianthe|r",
+			[51] = 1613057476,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"<Icecrown Community> Currently recuting more boosters for M+ & Raids , if you are interested join our community & meet the requirements , I will get in you 2 minutes  :)", -- [1]
+			"Iccyolo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Iccyolo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			373, -- [11]
+			"Player-3391-0BE17914", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Iccyolo|r",
+			[51] = 1613057482,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"WTS PVP boost 0-1,6k/weekly cap ///// MYTHIC BOOST M0-M13/ pm me or mail for INF!", -- [1]
+			"Feredisc-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Feredisc-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			374, -- [11]
+			"Player-3391-0BC672E6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeFeredisc|r",
+			[51] = 1613057483,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"{Selling Cheap} Dungeon (10-15-17) & torghast layer boost lvl 1-8 & PVP 2s and 3s- Whisper Me Fore More Info", -- [1]
+			"Stevenkileer-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stevenkileer-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			375, -- [11]
+			"Player-3391-0BE1A4FA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cStevenkileer|r",
+			[51] = 1613057486,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"<Nova> Selling Boost  M+10=135k / M+14=245k / M+15= 375k /Keystone Master 2.5M /2 run 7.5% discount or Stack armor FREE / RBG boost /Selling CASTLE NATHRIA Full HC 500k and per Stack Armor 200k /Curve 160k  / NM Raid 190k / Torghast Boost /w for info", -- [1]
+			"Exoservice-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Exoservice-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			378, -- [11]
+			"Player-3391-0BE1332A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaExoservice|r",
+			[51] = 1613057496,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"<Scribbly Bois> Newly formed 2/10 Mythic guild. We are looking for all roles currently mainly dps to join for mythic progression. Raid nights Wednesday/Sunday 8-11 server time. we also want to start a 2nd team for heroic. Mythic+ and socials also welcome", -- [1]
+			"Unbunga-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Unbunga-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			385, -- [11]
+			"Player-3391-0B7D8DDE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcUnbunga|r",
+			[51] = 1613057507,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"MYTHIC BOE FARM/w min 190 lvl", -- [1]
+			"Äpocalipsee-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Äpocalipsee-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			386, -- [11]
+			"Player-3391-09AFE310", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Äpocalipsee|r",
+			[51] = 1613057509,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"<NBC> M+ (0-15) [10=135k] [12=175k] [Weekly 14=210k] [+15( in time): 375k] ||||All 15 timed 2500k|||| Castle Nathria NM=190k HC= 500k Curve = 160k |||| Mythic/HC specific bosses available ||||Torghast ALL layers |||| for gold only /w for info", -- [1]
+			"Shadowfüry-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shadowfüry-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			389, -- [11]
+			"Player-3391-0BC43F6A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Shadowfüry|r",
+			[51] = 1613057514,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"<Oblivion>Selling Sire Denathrius Heroic for 160k GOLD now! Get the |cffffff00|Hachievement:14460:Player-3391-0A26F89A:1:1:17:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Achievement RIGHT NOW ongoing runs. Our team is at the Castle waiting for YOU ", -- [1]
+			"Fufrina-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fufrina-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			390, -- [11]
+			"Player-3391-0A26F89A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaFufrina|r",
+			[51] = 1613057515,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Are you tired of elitism? Do you want to do m+ and raiding in a casual and social setting? <Sacred Illusions> is a HC raiding guild looking for more people to join our community! Raids: wed/sun 8pm-23pm. /w for a chat <3 ", -- [1]
+			"Jenain-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jenain-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			391, -- [11]
+			"Player-3391-0BDBFB39", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcJenain|r",
+			[51] = 1613057517,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

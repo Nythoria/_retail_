@@ -64,7 +64,7 @@ MADB = {
 					},
 				},
 				["MinimapNorthTag"] = {
-					["hidden"] = true,
+					["name"] = "MinimapNorthTag",
 					["orgPos"] = {
 						"CENTER", -- [1]
 						"Minimap", -- [2]
@@ -72,7 +72,7 @@ MADB = {
 						0, -- [4]
 						67, -- [5]
 					},
-					["name"] = "MinimapNorthTag",
+					["hidden"] = true,
 					["pos"] = {
 						"CENTER", -- [1]
 						"Minimap", -- [2]
@@ -99,22 +99,22 @@ MADB = {
 						-2, -- [5]
 					},
 				},
-				["MinimapCluster"] = {
+				["MinimapZoomOut"] = {
 					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						0, -- [4]
-						0, -- [5]
+						"CENTER", -- [1]
+						"MinimapBackdrop", -- [2]
+						"CENTER", -- [3]
+						50, -- [4]
+						-43, -- [5]
 					},
-					["name"] = "MinimapCluster",
+					["name"] = "MinimapZoomOut",
 					["hidden"] = true,
 					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						0, -- [4]
-						0.000244140625, -- [5]
+						"CENTER", -- [1]
+						"MinimapBackdrop", -- [2]
+						"CENTER", -- [3]
+						50.00006103515625, -- [4]
+						-43, -- [5]
 					},
 				},
 				["MiniMapWorldMapButton"] = {
@@ -136,7 +136,7 @@ MADB = {
 					},
 				},
 				["MinimapBorderTop"] = {
-					["hidden"] = true,
+					["name"] = "MinimapBorderTop",
 					["orgPos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -144,7 +144,7 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "MinimapBorderTop",
+					["hidden"] = true,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -226,7 +226,7 @@ MADB = {
 					},
 				},
 				["MinimapBorder"] = {
-					["hidden"] = true,
+					["name"] = "MinimapBorder",
 					["orgPos"] = {
 						{
 							"TOPLEFT", -- [1]
@@ -243,7 +243,7 @@ MADB = {
 							0, -- [5]
 						}, -- [2]
 					},
-					["name"] = "MinimapBorder",
+					["hidden"] = true,
 					["pos"] = {
 						"TOPLEFT", -- [1]
 						"MinimapBackdrop", -- [2]
@@ -270,29 +270,29 @@ MADB = {
 						-16.9998779296875, -- [5]
 					},
 				},
-				["MinimapZoomOut"] = {
+				["MinimapCluster"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						"MinimapBackdrop", -- [2]
-						"CENTER", -- [3]
-						50, -- [4]
-						-43, -- [5]
+						"TOPRIGHT", -- [1]
+						"UIParent", -- [2]
+						"TOPRIGHT", -- [3]
+						0, -- [4]
+						0, -- [5]
 					},
-					["name"] = "MinimapZoomOut",
+					["name"] = "MinimapCluster",
 					["hidden"] = true,
 					["pos"] = {
-						"CENTER", -- [1]
-						"MinimapBackdrop", -- [2]
-						"CENTER", -- [3]
-						50.00006103515625, -- [4]
-						-43, -- [5]
+						"TOPRIGHT", -- [1]
+						"UIParent", -- [2]
+						"TOPRIGHT", -- [3]
+						0, -- [4]
+						0.000244140625, -- [5]
 					},
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["noMMMW"] = false,
-	["playSound"] = false,
 	["frameListRows"] = 18,
+	["playSound"] = false,
+	["noMMMW"] = false,
+	["closeGUIOnEscape"] = false,
 }

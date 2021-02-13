@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Feb 13 06:55:54 UTC 2021
+-- Generated from CurseForge on Sat Feb 13 18:46:37 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("frFR") then
@@ -162,7 +162,7 @@ L["RAID_BOSS_CN_10"] = "Sire Denathrius"
 L["RAID_BOSS_CN_2"] = "Altimor le Veneur"
 L["RAID_BOSS_CN_3"] = "Destructeur affamé"
 L["RAID_BOSS_CN_4"] = "Artificier Xy'mox"
-L["RAID_BOSS_CN_5"] = "Kael’thas Haut-Soleil"
+L["RAID_BOSS_CN_5"] = "Salut du roi-soleil"
 L["RAID_BOSS_CN_6"] = "Dame Inerva Sombreveine"
 L["RAID_BOSS_CN_7"] = "Le Conseil du Sang "
 L["RAID_BOSS_CN_8"] = "Fangepoing"

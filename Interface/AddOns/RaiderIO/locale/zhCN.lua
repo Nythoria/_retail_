@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Feb 13 06:56:00 UTC 2021
+-- Generated from CurseForge on Sat Feb 13 18:46:44 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("zhCN") then

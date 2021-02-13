@@ -1,0 +1,384 @@
+
+RCLootCouncilDB = {
+	["global"] = {
+		["log"] = {
+			"<11:32:55><INFO>	 Logged In", -- [1]
+			"<11:32:55>[ML]<INFO>	 Init", -- [2]
+			"<11:32:55><INFO>	 RCLootCouncil TradeUI enabled", -- [3]
+			"<11:32:58><Data.Player>	 CreatePlayer Player-3391-0B3793E9", -- [4]
+			"<11:32:58><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [5]
+			"<11:32:58><DEBUG>	 ActivateSkin bfa", -- [6]
+			"<11:32:59><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [7]
+			"<11:32:59><INFO>	 UpdatePlayersData()", -- [8]
+			"<11:33:00><DEBUG>	 GetPlayersGuildRank()", -- [9]
+			"<11:33:00><DEBUG>	 Found Guild Rank: Sunlight", -- [10]
+			"<11:33:01><DEBUG>	 GetML()", -- [11]
+			"<11:33:01><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [12]
+			"<11:34:01><INFO>	 Logged In", -- [13]
+			"<11:34:01>[ML]<INFO>	 Init", -- [14]
+			"<11:34:01><INFO>	 RCLootCouncil TradeUI enabled", -- [15]
+			"<11:34:04><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [16]
+			"<11:34:04><DEBUG>	 ActivateSkin bfa", -- [17]
+			"<11:34:08><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [18]
+			"<11:34:08><INFO>	 UpdatePlayersData()", -- [19]
+			"<11:34:09><DEBUG>	 GetPlayersGuildRank()", -- [20]
+			"<11:34:09><DEBUG>	 Found Guild Rank: Sunlight", -- [21]
+			"<11:34:09><DEBUG>	 GetML()", -- [22]
+			"<11:34:11><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [23]
+			"<11:42:31><INFO>	 Logged In", -- [24]
+			"<11:42:31>[ML]<INFO>	 Init", -- [25]
+			"<11:42:31><INFO>	 RCLootCouncil TradeUI enabled", -- [26]
+			"<11:42:37><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [27]
+			"<11:42:37><DEBUG>	 ActivateSkin bfa", -- [28]
+			"<11:42:40><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [29]
+			"<11:42:40><INFO>	 UpdatePlayersData()", -- [30]
+			"<11:42:41><DEBUG>	 GetPlayersGuildRank()", -- [31]
+			"<11:42:41><DEBUG>	 Found Guild Rank: Sunlight", -- [32]
+			"<11:42:41><DEBUG>	 GetML()", -- [33]
+			"<11:42:43><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [34]
+			"<12:10:27><INFO>	 Logged In", -- [35]
+			"<12:10:27>[ML]<INFO>	 Init", -- [36]
+			"<12:10:27><INFO>	 RCLootCouncil TradeUI enabled", -- [37]
+			"<12:10:34><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [38]
+			"<12:10:34><DEBUG>	 ActivateSkin bfa", -- [39]
+			"<12:10:36><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [40]
+			"<12:10:36><INFO>	 UpdatePlayersData()", -- [41]
+			"<12:10:37><DEBUG>	 GetPlayersGuildRank()", -- [42]
+			"<12:10:37><DEBUG>	 Found Guild Rank: Sunlight", -- [43]
+			"<12:10:37><DEBUG>	 GetML()", -- [44]
+			"<12:10:39><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [45]
+			"<12:11:33><INFO>	 Logged In", -- [46]
+			"<12:11:33>[ML]<INFO>	 Init", -- [47]
+			"<12:11:33><INFO>	 RCLootCouncil TradeUI enabled", -- [48]
+			"<12:11:39><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [49]
+			"<12:11:39><DEBUG>	 ActivateSkin bfa", -- [50]
+			"<12:11:42><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [51]
+			"<12:11:42><INFO>	 UpdatePlayersData()", -- [52]
+			"<12:11:43><DEBUG>	 GetPlayersGuildRank()", -- [53]
+			"<12:11:43><DEBUG>	 Found Guild Rank: Sunlight", -- [54]
+			"<12:11:43><DEBUG>	 GetML()", -- [55]
+			"<12:11:45><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [56]
+			"<12:12:55><INFO>	 Logged In", -- [57]
+			"<12:12:55>[ML]<INFO>	 Init", -- [58]
+			"<12:12:55><INFO>	 RCLootCouncil TradeUI enabled", -- [59]
+			"<12:13:01><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [60]
+			"<12:13:01><DEBUG>	 ActivateSkin bfa", -- [61]
+			"<12:13:04><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [62]
+			"<12:13:04><INFO>	 UpdatePlayersData()", -- [63]
+			"<12:13:05><DEBUG>	 GetPlayersGuildRank()", -- [64]
+			"<12:13:05><DEBUG>	 Found Guild Rank: Sunlight", -- [65]
+			"<12:13:05><DEBUG>	 GetML()", -- [66]
+			"<12:13:07><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [67]
+			"<12:14:22><INFO>	 Logged In", -- [68]
+			"<12:14:22>[ML]<INFO>	 Init", -- [69]
+			"<12:14:22><INFO>	 RCLootCouncil TradeUI enabled", -- [70]
+			"<12:14:28><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [71]
+			"<12:14:28><DEBUG>	 ActivateSkin bfa", -- [72]
+			"<12:14:31><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [73]
+			"<12:14:31><INFO>	 UpdatePlayersData()", -- [74]
+			"<12:14:32><DEBUG>	 GetPlayersGuildRank()", -- [75]
+			"<12:14:32><DEBUG>	 Found Guild Rank: Sunlight", -- [76]
+			"<12:14:32><DEBUG>	 GetML()", -- [77]
+			"<12:14:34><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [78]
+			"<12:15:15><INFO>	 Logged In", -- [79]
+			"<12:15:15>[ML]<INFO>	 Init", -- [80]
+			"<12:15:15><INFO>	 RCLootCouncil TradeUI enabled", -- [81]
+			"<12:15:21><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [82]
+			"<12:15:21><DEBUG>	 ActivateSkin bfa", -- [83]
+			"<12:15:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [84]
+			"<12:15:24><INFO>	 UpdatePlayersData()", -- [85]
+			"<12:15:25><DEBUG>	 GetPlayersGuildRank()", -- [86]
+			"<12:15:25><DEBUG>	 Found Guild Rank: Sunlight", -- [87]
+			"<12:15:25><DEBUG>	 GetML()", -- [88]
+			"<12:15:26><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [89]
+			"<12:16:08><INFO>	 Logged In", -- [90]
+			"<12:16:08>[ML]<INFO>	 Init", -- [91]
+			"<12:16:08><INFO>	 RCLootCouncil TradeUI enabled", -- [92]
+			"<12:16:14><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [93]
+			"<12:16:14><DEBUG>	 ActivateSkin bfa", -- [94]
+			"<12:16:17><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [95]
+			"<12:16:17><INFO>	 UpdatePlayersData()", -- [96]
+			"<12:16:18><DEBUG>	 GetPlayersGuildRank()", -- [97]
+			"<12:16:18><DEBUG>	 Found Guild Rank: Sunlight", -- [98]
+			"<12:16:18><DEBUG>	 GetML()", -- [99]
+			"<12:16:20><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [100]
+			"<12:17:21><INFO>	 Logged In", -- [101]
+			"<12:17:21>[ML]<INFO>	 Init", -- [102]
+			"<12:17:21><INFO>	 RCLootCouncil TradeUI enabled", -- [103]
+			"<12:17:28><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [104]
+			"<12:17:28><DEBUG>	 ActivateSkin bfa", -- [105]
+			"<12:17:32><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [106]
+			"<12:17:32><INFO>	 UpdatePlayersData()", -- [107]
+			"<12:17:32><DEBUG>	 GetPlayersGuildRank()", -- [108]
+			"<12:17:32><DEBUG>	 Found Guild Rank: Sunlight", -- [109]
+			"<12:17:32><DEBUG>	 GetML()", -- [110]
+			"<12:17:34><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [111]
+			"<12:19:42><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Flashii-Silvermoon", -- [112]
+			"<12:20:28><INFO>	 Logged In", -- [113]
+			"<12:20:28>[ML]<INFO>	 Init", -- [114]
+			"<12:20:28><INFO>	 RCLootCouncil TradeUI enabled", -- [115]
+			"<12:20:34><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [116]
+			"<12:20:34><DEBUG>	 ActivateSkin bfa", -- [117]
+			"<12:20:37><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [118]
+			"<12:20:37><INFO>	 UpdatePlayersData()", -- [119]
+			"<12:20:38><DEBUG>	 GetPlayersGuildRank()", -- [120]
+			"<12:20:38><DEBUG>	 Found Guild Rank: Sunlight", -- [121]
+			"<12:20:38><DEBUG>	 GetML()", -- [122]
+			"<12:20:40><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [123]
+			"<12:24:11><INFO>	 Logged In", -- [124]
+			"<12:24:11>[ML]<INFO>	 Init", -- [125]
+			"<12:24:11><INFO>	 RCLootCouncil TradeUI enabled", -- [126]
+			"<12:24:17><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [127]
+			"<12:24:17><DEBUG>	 ActivateSkin bfa", -- [128]
+			"<12:24:20><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [129]
+			"<12:24:20><INFO>	 UpdatePlayersData()", -- [130]
+			"<12:24:20><DEBUG>	 GetPlayersGuildRank()", -- [131]
+			"<12:24:20><DEBUG>	 Found Guild Rank: Sunlight", -- [132]
+			"<12:24:20><DEBUG>	 GetML()", -- [133]
+			"<12:24:22><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [134]
+			"<12:24:42><INFO>	 Logged In", -- [135]
+			"<12:24:42>[ML]<INFO>	 Init", -- [136]
+			"<12:24:42><INFO>	 RCLootCouncil TradeUI enabled", -- [137]
+			"<12:24:49><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [138]
+			"<12:24:49><DEBUG>	 ActivateSkin bfa", -- [139]
+			"<12:24:51><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [140]
+			"<12:24:51><INFO>	 UpdatePlayersData()", -- [141]
+			"<12:24:52><DEBUG>	 GetPlayersGuildRank()", -- [142]
+			"<12:24:52><DEBUG>	 Found Guild Rank: Sunlight", -- [143]
+			"<12:24:52><DEBUG>	 GetML()", -- [144]
+			"<12:24:54><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [145]
+			"<12:47:17><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Dallán-Silvermoon", -- [146]
+			"<12:55:15><Comm>	 ^1^Sv^T^N1^S3.0.1^t^^ GUILD Fabulosó-Silvermoon", -- [147]
+			"<12:57:47><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Dallán-Silvermoon", -- [148]
+			"<12:57:47><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Fabulosó-Silvermoon", -- [149]
+			"<13:02:31><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Asuri-Silvermoon", -- [150]
+			"<13:02:31><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Fabulosó-Silvermoon", -- [151]
+			"<13:56:31><INFO>	 Logged In", -- [152]
+			"<13:56:31>[ML]<INFO>	 Init", -- [153]
+			"<13:56:31><INFO>	 RCLootCouncil TradeUI enabled", -- [154]
+			"<13:56:38><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [155]
+			"<13:56:38><DEBUG>	 ActivateSkin bfa", -- [156]
+			"<13:56:41><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [157]
+			"<13:56:41><INFO>	 UpdatePlayersData()", -- [158]
+			"<13:56:42><DEBUG>	 GetPlayersGuildRank()", -- [159]
+			"<13:56:42><DEBUG>	 Found Guild Rank: Sunlight", -- [160]
+			"<13:56:42><DEBUG>	 GetML()", -- [161]
+			"<13:56:43><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [162]
+			"<14:08:31><INFO>	 Logged In", -- [163]
+			"<14:08:31>[ML]<INFO>	 Init", -- [164]
+			"<14:08:31><INFO>	 RCLootCouncil TradeUI enabled", -- [165]
+			"<14:08:37><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [166]
+			"<14:08:37><DEBUG>	 ActivateSkin bfa", -- [167]
+			"<14:08:40><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [168]
+			"<14:08:40><INFO>	 UpdatePlayersData()", -- [169]
+			"<14:08:41><DEBUG>	 GetPlayersGuildRank()", -- [170]
+			"<14:08:41><DEBUG>	 Found Guild Rank: Sunlight", -- [171]
+			"<14:08:41><DEBUG>	 GetML()", -- [172]
+			"<14:08:43><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [173]
+			"<14:14:56><INFO>	 Logged In", -- [174]
+			"<14:14:56>[ML]<INFO>	 Init", -- [175]
+			"<14:14:56><INFO>	 RCLootCouncil TradeUI enabled", -- [176]
+			"<14:15:03><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [177]
+			"<14:15:03><DEBUG>	 ActivateSkin bfa", -- [178]
+			"<14:15:06><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [179]
+			"<14:15:06><INFO>	 UpdatePlayersData()", -- [180]
+			"<14:15:06><DEBUG>	 GetPlayersGuildRank()", -- [181]
+			"<14:15:06><DEBUG>	 Found Guild Rank: Sunlight", -- [182]
+			"<14:15:07><DEBUG>	 GetML()", -- [183]
+			"<14:15:08><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [184]
+			"<15:29:43><INFO>	 Logged In", -- [185]
+			"<15:29:43>[ML]<INFO>	 Init", -- [186]
+			"<15:29:43><INFO>	 RCLootCouncil TradeUI enabled", -- [187]
+			"<15:29:50><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [188]
+			"<15:29:50><DEBUG>	 ActivateSkin bfa", -- [189]
+			"<15:29:53><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [190]
+			"<15:29:53><INFO>	 UpdatePlayersData()", -- [191]
+			"<15:29:53><DEBUG>	 GetPlayersGuildRank()", -- [192]
+			"<15:29:53><DEBUG>	 Found Guild Rank: Sunlight", -- [193]
+			"<15:29:53><DEBUG>	 GetML()", -- [194]
+			"<15:29:55><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [195]
+			"<15:29:55><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [196]
+			"<15:52:02><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Avalóen-Silvermoon", -- [197]
+			"<15:52:03><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [198]
+			"<16:12:57><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Angelicgirl-Silvermoon", -- [199]
+			"<16:12:57><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [200]
+			"<16:50:07><INFO>	 Logged In", -- [201]
+			"<16:50:07>[ML]<INFO>	 Init", -- [202]
+			"<16:50:07><INFO>	 RCLootCouncil TradeUI enabled", -- [203]
+			"<16:50:17><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [204]
+			"<16:50:17><DEBUG>	 ActivateSkin bfa", -- [205]
+			"<16:50:20><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [206]
+			"<16:50:20><INFO>	 UpdatePlayersData()", -- [207]
+			"<16:50:22><DEBUG>	 GetPlayersGuildRank()", -- [208]
+			"<16:50:22><DEBUG>	 Found Guild Rank: Sunlight", -- [209]
+			"<16:50:25><DEBUG>	 GetML()", -- [210]
+			"<17:22:17><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Teuanuca-Silvermoon", -- [211]
+			"<18:00:36><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Zárgothrax-Silvermoon", -- [212]
+			"<18:00:49><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Zárgothrax-Silvermoon", -- [213]
+			"<18:04:36><INFO>	 Logged In", -- [214]
+			"<18:04:36>[ML]<INFO>	 Init", -- [215]
+			"<18:04:36><INFO>	 RCLootCouncil TradeUI enabled", -- [216]
+			"<18:04:44><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [217]
+			"<18:04:44><DEBUG>	 ActivateSkin bfa", -- [218]
+			"<18:04:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [219]
+			"<18:04:47><INFO>	 UpdatePlayersData()", -- [220]
+			"<18:04:48><DEBUG>	 GetPlayersGuildRank()", -- [221]
+			"<18:04:48><DEBUG>	 Found Guild Rank: Sunlight", -- [222]
+			"<18:04:48><DEBUG>	 GetML()", -- [223]
+			"<18:04:50><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [224]
+			"<18:07:18><INFO>	 Logged In", -- [225]
+			"<18:07:18>[ML]<INFO>	 Init", -- [226]
+			"<18:07:18><INFO>	 RCLootCouncil TradeUI enabled", -- [227]
+			"<18:07:24><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [228]
+			"<18:07:24><DEBUG>	 ActivateSkin bfa", -- [229]
+			"<18:07:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [230]
+			"<18:07:27><INFO>	 UpdatePlayersData()", -- [231]
+			"<18:07:28><DEBUG>	 GetPlayersGuildRank()", -- [232]
+			"<18:07:28><DEBUG>	 Found Guild Rank: Sunlight", -- [233]
+			"<18:07:28><DEBUG>	 GetML()", -- [234]
+			"<18:07:30><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [235]
+			"<18:07:57><INFO>	 Logged In", -- [236]
+			"<18:07:57>[ML]<INFO>	 Init", -- [237]
+			"<18:07:57><INFO>	 RCLootCouncil TradeUI enabled", -- [238]
+			"<18:08:04><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [239]
+			"<18:08:04><DEBUG>	 ActivateSkin bfa", -- [240]
+			"<18:08:07><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [241]
+			"<18:08:07><INFO>	 UpdatePlayersData()", -- [242]
+			"<18:08:07><DEBUG>	 GetPlayersGuildRank()", -- [243]
+			"<18:08:07><DEBUG>	 Found Guild Rank: Sunlight", -- [244]
+			"<18:08:08><DEBUG>	 GetML()", -- [245]
+			"<18:08:09><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [246]
+			"<18:10:08><INFO>	 Logged In", -- [247]
+			"<18:10:08>[ML]<INFO>	 Init", -- [248]
+			"<18:10:08><INFO>	 RCLootCouncil TradeUI enabled", -- [249]
+			"<18:10:14><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [250]
+			"<18:10:14><DEBUG>	 ActivateSkin bfa", -- [251]
+			"<18:10:17><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [252]
+			"<18:10:17><INFO>	 UpdatePlayersData()", -- [253]
+			"<18:10:18><DEBUG>	 GetPlayersGuildRank()", -- [254]
+			"<18:10:18><DEBUG>	 Found Guild Rank: Sunlight", -- [255]
+			"<18:10:18><DEBUG>	 GetML()", -- [256]
+			"<18:10:20><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [257]
+		},
+		["locale"] = "enUS",
+		["verTestCandidates"] = {
+			["Avalóen-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1613231522, -- [3]
+			},
+			["Angelicgirl-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1613232777, -- [3]
+			},
+			["Asuri-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1613221351, -- [3]
+			},
+			["Fabulosó-Silvermoon"] = {
+				"3.0.1", -- [1]
+				nil, -- [2]
+				1613221351, -- [3]
+			},
+			["Teuanuca-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1613236937, -- [3]
+			},
+			["Dallán-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1613221067, -- [3]
+			},
+			["Zárgothrax-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1613239249, -- [3]
+			},
+			["Kanaì-Silvermoon"] = {
+				"3.0.1", -- [1]
+				nil, -- [2]
+				1613232777, -- [3]
+			},
+			["Flashii-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1613218782, -- [3]
+			},
+		},
+		["version"] = "3.1.4",
+		["regionID"] = 3,
+		["cache"] = {
+			["player"] = {
+				["Player-3391-0B3793E9"] = {
+					["name"] = "Ririchíyo-Silvermoon",
+					["guid"] = "Player-3391-0B3793E9",
+					["class"] = "PRIEST",
+					["cache_time"] = 1613239814,
+					["realm"] = "",
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Ririchíyo - Silvermoon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["UI"] = {
+				["tradeui"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["lootframe"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["default"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+			},
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
+	},
+}

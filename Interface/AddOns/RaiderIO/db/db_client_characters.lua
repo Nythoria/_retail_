@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-13T11:17:30Z
+-- RaiderIO Client Data. Generated on 2021-02-13T18:51:51Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {

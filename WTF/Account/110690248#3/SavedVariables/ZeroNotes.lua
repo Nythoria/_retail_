@@ -3,142 +3,6 @@ ZNotes = {
 	["SavedNotes"] = {
 	},
 	["BossTemplates"] = {
-		["artificer xy'mox mythic"] = {
-			{
-				["repeatAfter"] = 0,
-				["id"] = 325324,
-				["need"] = {
-					{
-						["type"] = "heal",
-					}, -- [1]
-				},
-				["repeatX"] = 1,
-				["prio"] = 1,
-				["name"] = "Glyph of Destruction",
-				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
-				["time"] = 35,
-			}, -- [1]
-			{
-				["repeatAfter"] = 60,
-				["id"] = 325324,
-				["need"] = {
-					{
-						["type"] = "heal",
-					}, -- [1]
-				},
-				["repeatX"] = 2,
-				["prio"] = 1,
-				["name"] = "Glyph of Destruction",
-				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
-				["time"] = 61,
-			}, -- [2]
-			{
-				["repeatAfter"] = 60,
-				["id"] = 325324,
-				["need"] = {
-					{
-						["type"] = "heal",
-					}, -- [1]
-				},
-				["repeatX"] = 2,
-				["prio"] = 1,
-				["name"] = "Glyph of Destruction",
-				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
-				["time"] = 183,
-			}, -- [3]
-			{
-				["repeatAfter"] = 60,
-				["id"] = 325324,
-				["need"] = {
-					{
-						["type"] = "heal",
-					}, -- [1]
-				},
-				["repeatX"] = 2,
-				["prio"] = 1,
-				["name"] = "Glyph of Destruction",
-				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
-				["time"] = 304,
-			}, -- [4]
-			{
-				["repeatAfter"] = 0,
-				["id"] = 325324,
-				["need"] = {
-					{
-						["type"] = "heal",
-					}, -- [1]
-				},
-				["repeatX"] = 1,
-				["prio"] = 1,
-				["name"] = "Glyph of Destruction",
-				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
-				["time"] = 425,
-			}, -- [5]
-			{
-				["trenner"] = true,
-				["prio"] = 9000,
-				["time"] = 0,
-				["phase"] = 1,
-				["no"] = 0,
-				["text"] = "Pull",
-				["duration"] = 0,
-				["raidicon"] = "{rt1}",
-			}, -- [6]
-			{
-				["repeatAfter"] = 77,
-				["id"] = 328789,
-				["need"] = {
-					{
-						["type"] = "heal",
-					}, -- [1]
-					{
-						["type"] = "util",
-					}, -- [2]
-					{
-						["type"] = "util",
-					}, -- [3]
-				},
-				["repeatX"] = 2,
-				["prio"] = 0,
-				["name"] = "Annihilate",
-				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = false,
-				["time"] = 161,
-			}, -- [7]
-			{
-				["repeatAfter"] = 0,
-				["id"] = 328789,
-				["need"] = {
-					{
-						["type"] = "heal",
-					}, -- [1]
-					{
-						["type"] = "util",
-					}, -- [2]
-					{
-						["type"] = "util",
-					}, -- [3]
-				},
-				["repeatX"] = 1,
-				["prio"] = 0,
-				["name"] = "Annihilate",
-				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = false,
-				["time"] = 364,
-			}, -- [8]
-		},
 		["hungering destroyer mythic"] = {
 			{
 				["repeatAfter"] = 36,
@@ -152,16 +16,16 @@ ZNotes = {
 				["prio"] = 1,
 				["name"] = "Desolate",
 				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
 				["time"] = 25,
+				["station"] = true,
+				["phase"] = 1,
 			}, -- [1]
 			{
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 0,
-				["phase"] = 1,
 				["no"] = 1,
+				["phase"] = 1,
 				["text"] = "Phase 1",
 				["duration"] = 93,
 				["raidicon"] = "{rt3}",
@@ -170,8 +34,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 93,
-				["no"] = 2,
 				["phase"] = 2,
+				["no"] = 2,
 				["text"] = "Consume 1",
 				["duration"] = 3,
 				["raidicon"] = "{rt1}",
@@ -180,8 +44,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 96,
-				["no"] = 3,
 				["phase"] = 1,
+				["no"] = 3,
 				["text"] = "Phase 1",
 				["duration"] = 93,
 				["raidicon"] = "{rt3}",
@@ -204,16 +68,16 @@ ZNotes = {
 				["prio"] = 2,
 				["name"] = "Consume",
 				["aoe"] = true,
-				["time"] = 0,
-				["station"] = false,
 				["phase"] = 2,
+				["station"] = false,
+				["time"] = 0,
 			}, -- [5]
 			{
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 189,
-				["no"] = 4,
 				["phase"] = 2,
+				["no"] = 4,
 				["text"] = "Consume 2",
 				["duration"] = 3,
 				["raidicon"] = "{rt1}",
@@ -222,8 +86,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 192,
-				["no"] = 5,
 				["phase"] = 3,
+				["no"] = 5,
 				["text"] = "Phase 1",
 				["duration"] = 88,
 				["raidicon"] = "{rt3}",
@@ -232,8 +96,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 280,
-				["no"] = 6,
 				["phase"] = 2,
+				["no"] = 6,
 				["text"] = "Consume 3",
 				["duration"] = 3,
 				["raidicon"] = "{rt1}",
@@ -242,8 +106,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 283,
-				["no"] = 7,
 				["phase"] = 4,
+				["no"] = 7,
 				["text"] = "Phase 1",
 				["duration"] = 87,
 				["raidicon"] = "{rt3}",
@@ -252,8 +116,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 370,
-				["no"] = 8,
 				["phase"] = 2,
+				["no"] = 8,
 				["text"] = "Consume 4",
 				["duration"] = 3,
 				["raidicon"] = "{rt1}",
@@ -262,8 +126,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 373,
-				["no"] = 8,
 				["phase"] = 5,
+				["no"] = 8,
 				["text"] = "Phase 1",
 				["duration"] = 0,
 				["raidicon"] = "{rt3}",
@@ -283,9 +147,9 @@ ZNotes = {
 				["prio"] = 1,
 				["name"] = "Desolate",
 				["aoe"] = true,
-				["time"] = 25,
-				["station"] = true,
 				["phase"] = 3,
+				["station"] = true,
+				["time"] = 25,
 			}, -- [12]
 			{
 				["repeatAfter"] = 32,
@@ -302,9 +166,9 @@ ZNotes = {
 				["prio"] = 1,
 				["name"] = "Desolate",
 				["aoe"] = true,
-				["time"] = 30,
-				["station"] = true,
 				["phase"] = 4,
+				["station"] = true,
+				["time"] = 30,
 			}, -- [13]
 			{
 				["repeatAfter"] = 60,
@@ -321,9 +185,9 @@ ZNotes = {
 				["prio"] = 1,
 				["name"] = "Desolate",
 				["aoe"] = true,
-				["time"] = 7,
-				["station"] = true,
 				["phase"] = 5,
+				["station"] = true,
+				["time"] = 7,
 			}, -- [14]
 			{
 				["repeatAfter"] = 36,
@@ -337,9 +201,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Expunge",
 				["aoe"] = true,
-				["time"] = 38,
-				["station"] = false,
 				["phase"] = 1,
+				["station"] = false,
+				["time"] = 38,
 			}, -- [15]
 			{
 				["repeatAfter"] = 35,
@@ -353,9 +217,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Expunge",
 				["aoe"] = true,
-				["time"] = 38,
-				["station"] = false,
 				["phase"] = 3,
+				["station"] = false,
+				["time"] = 38,
 			}, -- [16]
 			{
 				["repeatAfter"] = 35,
@@ -369,9 +233,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Expunge",
 				["aoe"] = true,
-				["time"] = 42,
-				["station"] = false,
 				["phase"] = 4,
+				["station"] = false,
+				["time"] = 42,
 			}, -- [17]
 			{
 				["repeatAfter"] = 0,
@@ -385,11 +249,147 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Expunge",
 				["aoe"] = true,
-				["time"] = 47,
-				["station"] = false,
 				["phase"] = 5,
+				["station"] = false,
+				["time"] = 47,
 			}, -- [18]
 			["NoteEnd"] = "Grp 1&3 on Star{star} -- Grp 2&4 on Blue{square}",
+		},
+		["artificer xy'mox mythic"] = {
+			{
+				["repeatAfter"] = 0,
+				["id"] = 325324,
+				["need"] = {
+					{
+						["type"] = "heal",
+					}, -- [1]
+				},
+				["repeatX"] = 1,
+				["prio"] = 1,
+				["name"] = "Glyph of Destruction",
+				["aoe"] = true,
+				["time"] = 35,
+				["station"] = true,
+				["phase"] = 1,
+			}, -- [1]
+			{
+				["repeatAfter"] = 60,
+				["id"] = 325324,
+				["need"] = {
+					{
+						["type"] = "heal",
+					}, -- [1]
+				},
+				["repeatX"] = 2,
+				["prio"] = 1,
+				["name"] = "Glyph of Destruction",
+				["aoe"] = true,
+				["time"] = 61,
+				["station"] = true,
+				["phase"] = 1,
+			}, -- [2]
+			{
+				["repeatAfter"] = 60,
+				["id"] = 325324,
+				["need"] = {
+					{
+						["type"] = "heal",
+					}, -- [1]
+				},
+				["repeatX"] = 2,
+				["prio"] = 1,
+				["name"] = "Glyph of Destruction",
+				["aoe"] = true,
+				["time"] = 183,
+				["station"] = true,
+				["phase"] = 1,
+			}, -- [3]
+			{
+				["repeatAfter"] = 60,
+				["id"] = 325324,
+				["need"] = {
+					{
+						["type"] = "heal",
+					}, -- [1]
+				},
+				["repeatX"] = 2,
+				["prio"] = 1,
+				["name"] = "Glyph of Destruction",
+				["aoe"] = true,
+				["time"] = 304,
+				["station"] = true,
+				["phase"] = 1,
+			}, -- [4]
+			{
+				["repeatAfter"] = 0,
+				["id"] = 325324,
+				["need"] = {
+					{
+						["type"] = "heal",
+					}, -- [1]
+				},
+				["repeatX"] = 1,
+				["prio"] = 1,
+				["name"] = "Glyph of Destruction",
+				["aoe"] = true,
+				["time"] = 425,
+				["station"] = true,
+				["phase"] = 1,
+			}, -- [5]
+			{
+				["trenner"] = true,
+				["prio"] = 9000,
+				["time"] = 0,
+				["no"] = 0,
+				["phase"] = 1,
+				["text"] = "Pull",
+				["duration"] = 0,
+				["raidicon"] = "{rt1}",
+			}, -- [6]
+			{
+				["repeatAfter"] = 77,
+				["id"] = 328789,
+				["need"] = {
+					{
+						["type"] = "heal",
+					}, -- [1]
+					{
+						["type"] = "util",
+					}, -- [2]
+					{
+						["type"] = "util",
+					}, -- [3]
+				},
+				["repeatX"] = 2,
+				["prio"] = 0,
+				["name"] = "Annihilate",
+				["aoe"] = true,
+				["time"] = 161,
+				["station"] = false,
+				["phase"] = 1,
+			}, -- [7]
+			{
+				["repeatAfter"] = 0,
+				["id"] = 328789,
+				["need"] = {
+					{
+						["type"] = "heal",
+					}, -- [1]
+					{
+						["type"] = "util",
+					}, -- [2]
+					{
+						["type"] = "util",
+					}, -- [3]
+				},
+				["repeatX"] = 1,
+				["prio"] = 0,
+				["name"] = "Annihilate",
+				["aoe"] = true,
+				["time"] = 364,
+				["station"] = false,
+				["phase"] = 1,
+			}, -- [8]
 		},
 		["shriekwing mythic"] = {
 			{
@@ -404,16 +404,16 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
 				["time"] = 39,
+				["station"] = true,
+				["phase"] = 1,
 			}, -- [1]
 			{
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 113,
-				["phase"] = 2,
 				["no"] = 2,
+				["phase"] = 2,
 				["text"] = "Phase 2",
 				["duration"] = 36,
 				["raidicon"] = "{rt3}",
@@ -422,8 +422,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 264,
-				["phase"] = 4,
 				["no"] = 4,
+				["phase"] = 4,
 				["text"] = "Phase 2",
 				["duration"] = 35,
 				["raidicon"] = "{rt3}",
@@ -432,8 +432,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 0,
-				["phase"] = 1,
 				["no"] = 1,
+				["phase"] = 1,
 				["text"] = "Pull",
 				["duration"] = 113,
 				["raidicon"] = "{rt1}",
@@ -442,8 +442,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 149,
-				["phase"] = 3,
 				["no"] = 3,
+				["phase"] = 3,
 				["text"] = "",
 				["duration"] = 115,
 				["raidicon"] = "{rt1}",
@@ -452,8 +452,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 299,
-				["phase"] = 5,
 				["no"] = 5,
+				["phase"] = 5,
 				["text"] = "",
 				["duration"] = 0,
 				["raidicon"] = "{rt1}",
@@ -470,9 +470,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 3,
-				["station"] = true,
 				["time"] = 39,
+				["station"] = true,
+				["phase"] = 3,
 			}, -- [7]
 			{
 				["repeatAfter"] = 0,
@@ -486,9 +486,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 3,
-				["station"] = true,
 				["time"] = 92,
+				["station"] = true,
+				["phase"] = 3,
 			}, -- [8]
 			{
 				["repeatAfter"] = 0,
@@ -502,9 +502,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 5,
-				["station"] = true,
 				["time"] = 11,
+				["station"] = true,
+				["phase"] = 5,
 			}, -- [9]
 			{
 				["repeatAfter"] = 0,
@@ -518,9 +518,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
 				["time"] = 67,
+				["station"] = true,
+				["phase"] = 1,
 			}, -- [10]
 			{
 				["repeatAfter"] = 0,
@@ -534,9 +534,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 3,
-				["station"] = true,
 				["time"] = 14,
+				["station"] = true,
+				["phase"] = 3,
 			}, -- [11]
 			{
 				["repeatAfter"] = 0,
@@ -550,9 +550,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 3,
-				["station"] = true,
 				["time"] = 67,
+				["station"] = true,
+				["phase"] = 3,
 			}, -- [12]
 			{
 				["repeatAfter"] = 0,
@@ -566,9 +566,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 5,
-				["station"] = true,
 				["time"] = 36,
+				["station"] = true,
+				["phase"] = 5,
 			}, -- [13]
 			{
 				["repeatAfter"] = 0,
@@ -582,9 +582,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
 				["time"] = 13,
+				["station"] = true,
+				["phase"] = 1,
 			}, -- [14]
 			{
 				["repeatAfter"] = 0,
@@ -598,9 +598,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Wave of Blood",
 				["aoe"] = true,
-				["phase"] = 1,
-				["station"] = true,
 				["time"] = 92,
+				["station"] = true,
+				["phase"] = 1,
 			}, -- [15]
 		},
 		["sun king's salvation mythic"] = {
@@ -608,8 +608,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 0,
-				["phase"] = 1,
 				["no"] = 1,
+				["phase"] = 1,
 				["text"] = "Healing",
 				["duration"] = 50,
 				["raidicon"] = "{rt3}",
@@ -618,8 +618,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 50,
-				["phase"] = 2,
 				["no"] = 2,
+				["phase"] = 2,
 				["text"] = "Shade",
 				["duration"] = 90,
 				["raidicon"] = "{rt8}",
@@ -628,8 +628,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 140,
-				["phase"] = 3,
 				["no"] = 3,
+				["phase"] = 3,
 				["text"] = "Healing",
 				["duration"] = 168,
 				["raidicon"] = "{rt3}",
@@ -638,8 +638,8 @@ ZNotes = {
 				["trenner"] = true,
 				["prio"] = 9000,
 				["time"] = 308,
-				["phase"] = 4,
 				["no"] = 4,
+				["phase"] = 4,
 				["text"] = "Shade",
 				["duration"] = 0,
 				["raidicon"] = "{rt8}",
@@ -662,9 +662,9 @@ ZNotes = {
 				["prio"] = 0,
 				["name"] = "Cloak of Flames",
 				["aoe"] = false,
-				["phase"] = 3,
-				["station"] = true,
 				["time"] = 0,
+				["station"] = true,
+				["phase"] = 3,
 			}, -- [5]
 			["bossid"] = 2402,
 		},
@@ -674,14 +674,14 @@ ZNotes = {
 			["type"] = "heal",
 			["id"] = 81782,
 			["class"] = "diszi",
-			["color"] = "ffffff",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "barrier",
-			["stackable"] = false,
-			["aoe"] = true,
 			["rating"] = 550,
+			["aoe"] = true,
+			["stackable"] = false,
 			["station"] = true,
-			["cd"] = 180,
+			["color"] = "ffffff",
 		}, -- [1]
 		{
 			["type"] = "util",
@@ -689,37 +689,37 @@ ZNotes = {
 			["class"] = "diszi",
 			["role"] = "heal",
 			["cd"] = 180,
-			["color"] = "ffffff",
+			["name"] = "painsup",
 			["aoe"] = false,
 			["rating"] = 370,
 			["station"] = false,
-			["name"] = "painsup",
+			["color"] = "ffffff",
 		}, -- [2]
 		{
 			["type"] = "heal",
 			["id"] = 740,
 			["class"] = "druid",
-			["color"] = "ff7d0a",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "tranq",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 460,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = true,
-			["cd"] = 180,
+			["color"] = "ff7d0a",
 		}, -- [3]
 		{
 			["type"] = "heal",
 			["id"] = 33891,
 			["class"] = "druid",
-			["color"] = "ff7d0a",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "tree",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 400,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = false,
-			["cd"] = 180,
+			["color"] = "ff7d0a",
 		}, -- [4]
 		{
 			["type"] = "util",
@@ -727,63 +727,63 @@ ZNotes = {
 			["class"] = "druid",
 			["role"] = "heal",
 			["cd"] = 60,
-			["color"] = "ff7d0a",
+			["name"] = "ironbark",
 			["aoe"] = false,
 			["rating"] = 350,
 			["station"] = false,
-			["name"] = "ironbark",
+			["color"] = "ff7d0a",
 		}, -- [5]
 		{
 			["type"] = "heal",
 			["id"] = 98008,
 			["class"] = "shaman",
-			["color"] = "0070de",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "slink",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 550,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = false,
-			["cd"] = 180,
+			["color"] = "0070de",
 		}, -- [6]
 		{
 			["type"] = "heal",
 			["id"] = 198838,
 			["class"] = "shaman",
-			["color"] = "0070de",
+			["cd"] = 60,
 			["role"] = "heal",
 			["name"] = "wall",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 380,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = true,
-			["cd"] = 60,
+			["color"] = "0070de",
 		}, -- [7]
 		{
 			["type"] = "heal",
 			["id"] = 108280,
 			["class"] = "shaman",
-			["color"] = "0070de",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "htide",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 550,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = true,
-			["cd"] = 180,
+			["color"] = "0070de",
 		}, -- [8]
 		{
 			["type"] = "heal",
 			["id"] = 115310,
 			["class"] = "monk",
-			["color"] = "00ff96",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "revival",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 390,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = false,
-			["cd"] = 180,
+			["color"] = "00ff96",
 		}, -- [9]
 		{
 			["type"] = "util",
@@ -791,37 +791,37 @@ ZNotes = {
 			["class"] = "monk",
 			["role"] = "heal",
 			["cd"] = 120,
-			["color"] = "00ff96",
+			["name"] = "cocoon",
 			["aoe"] = false,
 			["rating"] = 340,
 			["station"] = false,
-			["name"] = "cocoon",
+			["color"] = "00ff96",
 		}, -- [10]
 		{
 			["type"] = "heal",
 			["id"] = 64843,
 			["class"] = "priest",
-			["color"] = "ffffff",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "hymne",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 550,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = true,
-			["cd"] = 180,
+			["color"] = "ffffff",
 		}, -- [11]
 		{
 			["type"] = "heal",
 			["id"] = 265202,
 			["class"] = "priest",
-			["color"] = "ffffff",
+			["cd"] = 330,
 			["role"] = "heal",
 			["name"] = "salvation",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 550,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = true,
-			["cd"] = 330,
+			["color"] = "ffffff",
 		}, -- [12]
 		{
 			["type"] = "util",
@@ -829,24 +829,24 @@ ZNotes = {
 			["class"] = "priest",
 			["role"] = "heal",
 			["cd"] = 60,
-			["color"] = "ffffff",
+			["name"] = "engel",
 			["aoe"] = false,
 			["rating"] = 360,
 			["station"] = true,
-			["name"] = "engel",
+			["color"] = "ffffff",
 		}, -- [13]
 		{
 			["type"] = "heal",
 			["id"] = 31821,
 			["class"] = "paladin",
-			["color"] = "f58cba",
+			["cd"] = 180,
 			["role"] = "heal",
 			["name"] = "mastery",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 500,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = false,
-			["cd"] = 180,
+			["color"] = "f58cba",
 		}, -- [14]
 		{
 			["type"] = "util",
@@ -854,11 +854,11 @@ ZNotes = {
 			["class"] = "paladin",
 			["role"] = "heal",
 			["cd"] = 300,
-			["color"] = "f58cba",
+			["name"] = "sacrifice",
 			["aoe"] = false,
 			["rating"] = 300,
 			["station"] = false,
-			["name"] = "sacrifice",
+			["color"] = "f58cba",
 		}, -- [15]
 		{
 			["type"] = "imun",
@@ -866,11 +866,11 @@ ZNotes = {
 			["class"] = "paladin",
 			["role"] = "heal",
 			["cd"] = 300,
-			["color"] = "f58cba",
+			["name"] = "bubble",
 			["aoe"] = false,
 			["rating"] = 270,
 			["station"] = false,
-			["name"] = "bubble",
+			["color"] = "f58cba",
 		}, -- [16]
 		{
 			["type"] = "util",
@@ -878,11 +878,11 @@ ZNotes = {
 			["class"] = "warrior",
 			["role"] = "melee",
 			["cd"] = 180,
-			["color"] = "c79c6e",
+			["name"] = "rally",
 			["aoe"] = true,
 			["rating"] = 330,
 			["station"] = false,
-			["name"] = "rally",
+			["color"] = "c79c6e",
 		}, -- [17]
 		{
 			["type"] = "imun",
@@ -890,24 +890,24 @@ ZNotes = {
 			["class"] = "paladin",
 			["role"] = "melee",
 			["cd"] = 300,
-			["color"] = "c79c6e",
+			["name"] = "bubble",
 			["aoe"] = false,
 			["rating"] = 270,
 			["station"] = false,
-			["name"] = "bubble",
+			["color"] = "c79c6e",
 		}, -- [18]
 		{
 			["type"] = "util",
 			["id"] = 196718,
 			["class"] = "dh",
-			["color"] = "a330c9",
+			["cd"] = 180,
 			["role"] = "melee",
 			["name"] = "darkness",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 310,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = false,
-			["cd"] = 180,
+			["color"] = "a330c9",
 		}, -- [19]
 		{
 			["type"] = "imun",
@@ -915,37 +915,37 @@ ZNotes = {
 			["class"] = "rogue",
 			["role"] = "melee",
 			["cd"] = 120,
-			["color"] = "fff569",
+			["name"] = "cloak",
 			["aoe"] = false,
 			["rating"] = 260,
 			["station"] = false,
-			["name"] = "cloak",
+			["color"] = "fff569",
 		}, -- [20]
 		{
 			["type"] = "util",
 			["id"] = 51052,
 			["class"] = "dk",
-			["color"] = "c41f3b",
+			["cd"] = 120,
 			["role"] = "melee",
 			["name"] = "amz",
-			["stackable"] = false,
-			["aoe"] = true,
 			["rating"] = 320,
+			["aoe"] = true,
+			["stackable"] = false,
 			["station"] = false,
-			["cd"] = 120,
+			["color"] = "c41f3b",
 		}, -- [21]
 		{
 			["type"] = "util",
 			["id"] = 15286,
 			["class"] = "shadow",
-			["color"] = "ffffff",
+			["cd"] = 180,
 			["role"] = "range",
 			["name"] = "vamp",
-			["stackable"] = true,
-			["aoe"] = true,
 			["rating"] = 290,
+			["aoe"] = true,
+			["stackable"] = true,
 			["station"] = true,
-			["cd"] = 180,
+			["color"] = "ffffff",
 		}, -- [22]
 		{
 			["type"] = "imun",
@@ -953,11 +953,11 @@ ZNotes = {
 			["class"] = "hunter",
 			["role"] = "range",
 			["cd"] = 180,
-			["color"] = "abd473",
+			["name"] = "turtle",
 			["aoe"] = false,
 			["rating"] = 280,
 			["station"] = false,
-			["name"] = "turtle",
+			["color"] = "abd473",
 		}, -- [23]
 		{
 			["type"] = "imun",
@@ -965,11 +965,11 @@ ZNotes = {
 			["class"] = "mage",
 			["role"] = "range",
 			["cd"] = 240,
-			["color"] = "f58cba",
+			["name"] = "iceblock",
 			["aoe"] = false,
 			["rating"] = 250,
 			["station"] = true,
-			["name"] = "iceblock",
+			["color"] = "f58cba",
 		}, -- [24]
 		{
 			["type"] = "util",
@@ -977,11 +977,11 @@ ZNotes = {
 			["class"] = "warrior",
 			["role"] = "tank",
 			["cd"] = 180,
-			["color"] = "c79c6e",
+			["name"] = "rally",
 			["aoe"] = true,
 			["rating"] = 330,
 			["station"] = false,
-			["name"] = "rally",
+			["color"] = "c79c6e",
 		}, -- [25]
 		{
 			["type"] = "util",
@@ -989,11 +989,11 @@ ZNotes = {
 			["class"] = "paladin",
 			["role"] = "tank",
 			["cd"] = 300,
-			["color"] = "c79c6e",
+			["name"] = "sacrifice",
 			["aoe"] = false,
 			["rating"] = 300,
 			["station"] = false,
-			["name"] = "sacrifice",
+			["color"] = "c79c6e",
 		}, -- [26]
 		{
 			["type"] = "util",
@@ -1001,11 +1001,11 @@ ZNotes = {
 			["class"] = "paladin",
 			["role"] = "melee",
 			["cd"] = 300,
-			["color"] = "c79c6e",
+			["name"] = "sacrifice",
 			["aoe"] = false,
 			["rating"] = 300,
 			["station"] = false,
-			["name"] = "sacrifice",
+			["color"] = "c79c6e",
 		}, -- [27]
 		{
 			["type"] = "imun",
@@ -1013,24 +1013,24 @@ ZNotes = {
 			["class"] = "paladin",
 			["role"] = "tank",
 			["cd"] = 300,
-			["color"] = "c79c6e",
+			["name"] = "bubble",
 			["aoe"] = false,
 			["rating"] = 270,
 			["station"] = false,
-			["name"] = "bubble",
+			["color"] = "c79c6e",
 		}, -- [28]
 		{
 			["type"] = "util",
 			["id"] = 51052,
 			["class"] = "dk",
-			["color"] = "c41f3b",
+			["cd"] = 120,
 			["role"] = "tank",
 			["name"] = "amz",
-			["stackable"] = false,
-			["aoe"] = true,
 			["rating"] = 320,
+			["aoe"] = true,
+			["stackable"] = false,
 			["station"] = false,
-			["cd"] = 120,
+			["color"] = "c41f3b",
 		}, -- [29]
 		{
 			["type"] = "heal",
@@ -1038,11 +1038,11 @@ ZNotes = {
 			["class"] = "diszi",
 			["role"] = "heal",
 			["cd"] = 60,
-			["name"] = "Spirit Shell",
+			["stackable"] = "true",
 			["aoe"] = true,
 			["rating"] = 600,
 			["station"] = true,
-			["stackable"] = "true",
+			["name"] = "Spirit Shell",
 		}, -- [30]
 		{
 			["type"] = "heal",
@@ -1050,11 +1050,11 @@ ZNotes = {
 			["class"] = "diszi",
 			["role"] = "heal",
 			["cd"] = 60,
-			["name"] = "Power Word: Radiance",
+			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 540,
 			["station"] = true,
-			["stackable"] = true,
+			["name"] = "Power Word: Radiance",
 		}, -- [31]
 	},
 	["minimap"] = {
@@ -1062,13 +1062,13 @@ ZNotes = {
 	},
 	["lastTemplates"] = {
 		["lastGroupTemplate"] = "full team",
-		["homeSendCount"] = true,
-		["homeSendToZND"] = true,
+		["homeLastGroupTemplate"] = "Use Current Group",
+		["homeIncludeMissing"] = false,
 		["homeLastBossTemplate"] = "hungering destroyer mythic",
 		["homeSendToExRT"] = true,
+		["homeSendCount"] = true,
 		["lastBossTemplate"] = "hungering destroyer mythic",
-		["homeIncludeMissing"] = false,
-		["homeLastGroupTemplate"] = "Use Current Group",
+		["homeSendToZND"] = true,
 	},
 	["BossTemplatesMigrated"] = true,
 	["PlayerSpellsMigrated"] = true,

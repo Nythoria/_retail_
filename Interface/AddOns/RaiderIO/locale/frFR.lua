@@ -1,4 +1,4 @@
--- Generated from CurseForge on Sat Feb 13 18:46:37 UTC 2021
+-- Generated from CurseForge on Sun Feb 14 06:54:20 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("frFR") then

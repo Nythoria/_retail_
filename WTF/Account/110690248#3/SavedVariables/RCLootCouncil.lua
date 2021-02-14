@@ -1,8 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Ririchíyo - Silvermoon"] = "Default",
-	},
 	["global"] = {
 		["log"] = {
 			"<11:32:55><INFO>	 Logged In", -- [1]
@@ -309,6 +306,27 @@ RCLootCouncilDB = {
 			"<19:01:13><INFO>	 OnMLDBReceived", -- [302]
 			"<19:01:13><Comm>	 ^1^Scouncil^T^N1^T^S3391-0BA1A467^B^t^t^^ RAID Mìcha-Silvermoon", -- [303]
 			"<19:01:13><DEBUG>	 isCouncil false", -- [304]
+			"<08:23:08><INFO>	 Logged In", -- [305]
+			"<08:23:08>[ML]<INFO>	 Init", -- [306]
+			"<08:23:08><INFO>	 RCLootCouncil TradeUI enabled", -- [307]
+			"<08:23:20><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [308]
+			"<08:23:20><DEBUG>	 ActivateSkin bfa", -- [309]
+			"<08:23:23><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [310]
+			"<08:23:23><INFO>	 UpdatePlayersData()", -- [311]
+			"<08:23:23><DEBUG>	 GetPlayersGuildRank()", -- [312]
+			"<08:23:23><DEBUG>	 GetPlayersGuildRank()", -- [313]
+			"<08:23:23><DEBUG>	 Found Guild Rank: Sunlight", -- [314]
+			"<08:23:27><DEBUG>	 GetML()", -- [315]
+			"<08:37:40><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [316]
+			"<08:37:42><DEBUG>	 GetML()", -- [317]
+			"<08:38:44><DEBUG>	 Event: LOOT_READY true", -- [318]
+			"<08:38:44><DEBUG>	 Event: LOOT_READY true", -- [319]
+			"<08:40:17><DEBUG>	 Event: LOOT_READY true", -- [320]
+			"<08:40:18><DEBUG>	 Event: LOOT_READY true", -- [321]
+			"<08:40:42><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [322]
+			"<08:40:44><DEBUG>	 GetML()", -- [323]
+			"<09:01:11><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [324]
+			"<09:01:13><DEBUG>	 GetML()", -- [325]
 		},
 		["locale"] = "enUS",
 		["verTestCandidates"] = {
@@ -358,15 +376,15 @@ RCLootCouncilDB = {
 				1613218782, -- [3]
 			},
 		},
-		["regionID"] = 3,
 		["version"] = "3.1.4",
+		["regionID"] = 3,
 		["cache"] = {
 			["player"] = {
 				["Player-3391-0B3793E9"] = {
 					["name"] = "Ririchíyo-Silvermoon",
 					["guid"] = "Player-3391-0B3793E9",
 					["class"] = "PRIEST",
-					["cache_time"] = 1613240053,
+					["cache_time"] = 1613291001,
 					["realm"] = "",
 				},
 				["Player-3391-0BA1A467"] = {
@@ -378,6 +396,9 @@ RCLootCouncilDB = {
 				},
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Ririchíyo - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

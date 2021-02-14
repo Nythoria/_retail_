@@ -1,5 +1,8 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Ririchíyo - Silvermoon"] = "Default",
+	},
 	["global"] = {
 		["log"] = {
 			"<11:32:55><INFO>	 Logged In", -- [1]
@@ -259,6 +262,53 @@ RCLootCouncilDB = {
 			"<18:10:18><DEBUG>	 Found Guild Rank: Sunlight", -- [255]
 			"<18:10:18><DEBUG>	 GetML()", -- [256]
 			"<18:10:20><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [257]
+			"<18:14:06><INFO>	 Logged In", -- [258]
+			"<18:14:06>[ML]<INFO>	 Init", -- [259]
+			"<18:14:06><INFO>	 RCLootCouncil TradeUI enabled", -- [260]
+			"<18:14:13><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [261]
+			"<18:14:13><DEBUG>	 ActivateSkin bfa", -- [262]
+			"<18:14:16><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [263]
+			"<18:14:16><INFO>	 UpdatePlayersData()", -- [264]
+			"<18:14:16><DEBUG>	 GetPlayersGuildRank()", -- [265]
+			"<18:14:16><DEBUG>	 Found Guild Rank: Sunlight", -- [266]
+			"<18:14:17><DEBUG>	 GetML()", -- [267]
+			"<18:14:18><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [268]
+			"<18:59:25><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [269]
+			"<18:59:27><DEBUG>	 GetML()", -- [270]
+			"<18:59:27><Data.Player>	 CreatePlayer Player-3391-0BA1A467", -- [271]
+			"<18:59:27><DEBUG>	 Resetting council as we have a new ML!", -- [272]
+			"<18:59:27><INFO>	 MasterLooter =  Mìcha-Silvermoon", -- [273]
+			"<18:59:42><DEBUG>	 Timer MLdb_check passed", -- [274]
+			"<18:59:42><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^SMLdb_request^t^^ PARTY Ririchíyo-Silvermoon", -- [275]
+			"<18:59:42><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^Scouncil_request^t^^ PARTY Ririchíyo-Silvermoon", -- [276]
+			"<18:59:43><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Mìcha-Silvermoon", -- [277]
+			"<18:59:43><INFO>	 OnMLDBReceived", -- [278]
+			"<18:59:43><Comm>	 ^1^Scouncil^T^N1^T^S3391-0BA1A467^B^t^t^^ PARTY Mìcha-Silvermoon", -- [279]
+			"<18:59:43><DEBUG>	 isCouncil false", -- [280]
+			"<19:00:02><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^SMLdb_request^t^^ PARTY Sókén-Silvermoon", -- [281]
+			"<19:00:02><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^Scouncil_request^t^^ PARTY Sókén-Silvermoon", -- [282]
+			"<19:00:03><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Mìcha-Silvermoon", -- [283]
+			"<19:00:03><INFO>	 OnMLDBReceived", -- [284]
+			"<19:00:03><Comm>	 ^1^Scouncil^T^N1^T^S3391-0BA1A467^B^t^t^^ PARTY Mìcha-Silvermoon", -- [285]
+			"<19:00:03><DEBUG>	 isCouncil false", -- [286]
+			"<19:00:21><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^SMLdb_request^t^^ RAID êerie-Silvermoon", -- [287]
+			"<19:00:21><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^Scouncil_request^t^^ RAID êerie-Silvermoon", -- [288]
+			"<19:00:21><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Mìcha-Silvermoon", -- [289]
+			"<19:00:21><INFO>	 OnMLDBReceived", -- [290]
+			"<19:00:21><Comm>	 ^1^Scouncil^T^N1^T^S3391-0BA1A467^B^t^t^^ RAID Mìcha-Silvermoon", -- [291]
+			"<19:00:21><DEBUG>	 isCouncil false", -- [292]
+			"<19:00:46><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^SMLdb_request^t^^ RAID Avalóen-Silvermoon", -- [293]
+			"<19:00:46><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^Scouncil_request^t^^ RAID Avalóen-Silvermoon", -- [294]
+			"<19:00:46><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Mìcha-Silvermoon", -- [295]
+			"<19:00:46><INFO>	 OnMLDBReceived", -- [296]
+			"<19:00:46><Comm>	 ^1^Scouncil^T^N1^T^S3391-0BA1A467^B^t^t^^ RAID Mìcha-Silvermoon", -- [297]
+			"<19:00:46><DEBUG>	 isCouncil false", -- [298]
+			"<19:01:13><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^SMLdb_request^t^^ RAID Flashii-Silvermoon", -- [299]
+			"<19:01:13><Comm>	 ^1^Sxrealm^T^N1^SMìcha-Silvermoon^N2^Scouncil_request^t^^ RAID Flashii-Silvermoon", -- [300]
+			"<19:01:13><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Mìcha-Silvermoon", -- [301]
+			"<19:01:13><INFO>	 OnMLDBReceived", -- [302]
+			"<19:01:13><Comm>	 ^1^Scouncil^T^N1^T^S3391-0BA1A467^B^t^t^^ RAID Mìcha-Silvermoon", -- [303]
+			"<19:01:13><DEBUG>	 isCouncil false", -- [304]
 		},
 		["locale"] = "enUS",
 		["verTestCandidates"] = {
@@ -308,22 +358,26 @@ RCLootCouncilDB = {
 				1613218782, -- [3]
 			},
 		},
-		["version"] = "3.1.4",
 		["regionID"] = 3,
+		["version"] = "3.1.4",
 		["cache"] = {
 			["player"] = {
 				["Player-3391-0B3793E9"] = {
 					["name"] = "Ririchíyo-Silvermoon",
 					["guid"] = "Player-3391-0B3793E9",
 					["class"] = "PRIEST",
-					["cache_time"] = 1613239814,
+					["cache_time"] = 1613240053,
+					["realm"] = "",
+				},
+				["Player-3391-0BA1A467"] = {
+					["name"] = "Mìcha-Silvermoon",
+					["guid"] = "Player-3391-0BA1A467",
+					["class"] = "HUNTER",
+					["cache_time"] = 1613242873,
 					["realm"] = "",
 				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Ririchíyo - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

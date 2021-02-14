@@ -99,22 +99,22 @@ MADB = {
 						-2, -- [5]
 					},
 				},
-				["MinimapCluster"] = {
+				["MinimapBorderTop"] = {
+					["name"] = "MinimapBorderTop",
 					["orgPos"] = {
 						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
+						"MinimapCluster", -- [2]
 						"TOPRIGHT", -- [3]
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "MinimapCluster",
 					["hidden"] = true,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
+						"MinimapCluster", -- [2]
 						"TOPRIGHT", -- [3]
 						0, -- [4]
-						0.000244140625, -- [5]
+						0, -- [5]
 					},
 				},
 				["MiniMapWorldMapButton"] = {
@@ -270,29 +270,29 @@ MADB = {
 						-16.9998779296875, -- [5]
 					},
 				},
-				["MinimapBorderTop"] = {
-					["name"] = "MinimapBorderTop",
+				["MinimapCluster"] = {
 					["orgPos"] = {
 						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
+						"UIParent", -- [2]
 						"TOPRIGHT", -- [3]
 						0, -- [4]
 						0, -- [5]
 					},
+					["name"] = "MinimapCluster",
 					["hidden"] = true,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
+						"UIParent", -- [2]
 						"TOPRIGHT", -- [3]
 						0, -- [4]
-						0, -- [5]
+						0.000244140625, -- [5]
 					},
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["noMMMW"] = false,
-	["playSound"] = false,
 	["frameListRows"] = 18,
+	["playSound"] = false,
+	["noMMMW"] = false,
+	["closeGUIOnEscape"] = false,
 }

@@ -9,7 +9,7 @@ AstralKeys = {
 		["dungeon_id"] = 378,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 299662,
+		["time_stamp"] = 358575,
 	}, -- [1]
 	{
 		["source"] = "guild",
@@ -31,7 +31,7 @@ AstralKeys = {
 		["dungeon_id"] = 378,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 296441,
+		["time_stamp"] = 356458,
 	}, -- [3]
 	{
 		["source"] = "guild",
@@ -42,7 +42,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 2,
+		["time_stamp"] = 3,
 	}, -- [4]
 	{
 		["source"] = "guild",
@@ -53,7 +53,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 283948,
+		["time_stamp"] = 352032,
 	}, -- [5]
 	{
 		["source"] = "guild",
@@ -75,7 +75,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 9,
+		["time_stamp"] = 358449,
 	}, -- [7]
 	{
 		["source"] = "guild",
@@ -168,14 +168,14 @@ AstralKeys = {
 	}, -- [15]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 17,
 		["class"] = "DRUID",
-		["key_level"] = 17,
+		["key_level"] = 16,
 		["unit"] = "Firesnek-Silvermoon",
-		["dungeon_id"] = 380,
+		["dungeon_id"] = 381,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 295703,
+		["time_stamp"] = 357328,
 	}, -- [16]
 	{
 		["source"] = "guild",
@@ -219,7 +219,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 285532,
+		["time_stamp"] = 356516,
 	}, -- [20]
 	{
 		["source"] = "guild",
@@ -231,6 +231,7 @@ AstralKeys = {
 		["week"] = 186,
 		["faction"] = 0,
 		["time_stamp"] = 3,
+		["btag"] = "Zipper#2389",
 	}, -- [21]
 	{
 		["source"] = "guild",
@@ -256,14 +257,14 @@ AstralKeys = {
 	}, -- [23]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 13,
 		["class"] = "PRIEST",
 		["key_level"] = 15,
 		["unit"] = "Spankpriest-Silvermoon",
 		["dungeon_id"] = 377,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 4,
+		["time_stamp"] = 361930,
 	}, -- [24]
 	{
 		["source"] = "guild",
@@ -296,7 +297,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 4,
+		["time_stamp"] = 3,
 		["btag"] = "Kento#21136",
 	}, -- [27]
 	{
@@ -393,8 +394,8 @@ AstralCharacters = {
 	{
 		["weekly_best"] = 13,
 		["class"] = "PRIEST",
-		["faction"] = 0,
 		["unit"] = "Ririchíyo-Silvermoon",
+		["faction"] = 0,
 	}, -- [1]
 }
 AstralKeysSettings = {
@@ -408,10 +409,10 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["guild"] = false,
-			["raid"] = false,
-			["no_key"] = false,
 			["party"] = true,
+			["raid"] = false,
+			["guild"] = false,
+			["no_key"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -436,9 +437,7 @@ AstralKeysSettings = {
 			true, -- [9]
 			true, -- [10]
 		},
-		["show_offline"] = {
-			["isEnabled"] = true,
-		},
+		["current_list"] = "GUILD",
 		["isCollapsed"] = {
 			["isEnabled"] = false,
 		},
@@ -447,8 +446,11 @@ AstralKeysSettings = {
 			["isEnabled"] = false,
 		},
 		["sorth_method"] = "character_name",
-		["current_list"] = "GUILD",
+		["show_offline"] = {
+			["isEnabled"] = true,
+		},
 	},
+	["new_settings_config"] = true,
 	["friendOptions"] = {
 		["friend_sync"] = {
 			["isEnabled"] = true,
@@ -457,7 +459,6 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 	},
-	["new_settings_config"] = true,
 }
 AstralMinimap = {
 	["profileKeys"] = {
@@ -494,7 +495,7 @@ AstralLists = {
 			["Ichix-Silvermoon"] = true,
 			["Ririchíyo-Silvermoon"] = true,
 			["Winndie-Silvermoon"] = true,
-			["Yaganmage-Silvermoon"] = true,
+			["Yaganmage-Silvermoon"] = "Zipper#2389",
 			["Zárgothrax-Silvermoon"] = true,
 			["Sókén-Silvermoon"] = true,
 			["Avaloén-Silvermoon"] = true,
@@ -504,12 +505,12 @@ AstralLists = {
 			["Firesnek-Silvermoon"] = true,
 			["Khäleesy-Silvermoon"] = true,
 			["Mìcha-Silvermoon"] = true,
-			["Nosa-Silvermoon"] = true,
-			["Junî-Silvermoon"] = true,
+			["Dagand-Silvermoon"] = true,
+			["Jäc-Silvermoon"] = true,
 			["Kúsano-Silvermoon"] = true,
 			["Flashii-Silvermoon"] = true,
-			["Jäc-Silvermoon"] = true,
-			["Dagand-Silvermoon"] = true,
+			["Junî-Silvermoon"] = true,
+			["Nosa-Silvermoon"] = true,
 			["Zinicshaman-Silvermoon"] = true,
 			["Nestradh-Silvermoon"] = true,
 		},
@@ -520,6 +521,7 @@ AstralLists = {
 			["Níksa-Silvermoon"] = "Kento#21136",
 			["Ravenseb-Sylvanas"] = "RavenSeb#2210",
 			["Líliana-Silvermoon"] = "Dajawz#2585",
+			["Yaganmage-Silvermoon"] = "Zipper#2389",
 		},
 	}, -- [2]
 }

@@ -1,6 +1,5 @@
 SET deselectOnClick "1"
 SET autoDismountFlying "1"
-SET alwaysCompareItems "1"
 SET interactOnLeftClick "0"
 SET showTargetOfTarget "1"
 SET spellActivationOverlayOpacity "0.5"

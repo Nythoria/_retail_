@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-13T18:51:50Z
+-- RaiderIO Client Data. Generated on 2021-02-14T11:20:51Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -319,36 +319,36 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [5] = {
-        ["zone_id"] = 12837,
-        ["level"] = 16,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7959747099422084,
-        ["clear_time"] = "00:31:03.376",
+        ["zone_id"] = 12842,
+        ["level"] = 17,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.128662791004791,
+        ["clear_time"] = "00:46:17.638",
         ["party"] = {
           [1] = {
-            ["name"] = "Derpsugarpuf",
+            ["name"] = "Líliana",
             ["role"] = "tank",
-            ["class_id"] = 2
+            ["class_id"] = 6
           },
           [2] = {
-            ["name"] = "Stinckyshnak",
+            ["name"] = "Níina",
             ["role"] = "healer",
             ["class_id"] = 2
           },
           [3] = {
-            ["name"] = "Puffthemagic",
+            ["name"] = "Eloyà",
             ["role"] = "dps",
             ["class_id"] = 8
           },
           [4] = {
+            ["name"] = "Firesnek",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [5] = {
             ["name"] = "Scripé",
             ["role"] = "dps",
             ["class_id"] = 12
-          },
-          [5] = {
-            ["name"] = "Yuuyi",
-            ["role"] = "dps",
-            ["class_id"] = 7
           }
         }
       }

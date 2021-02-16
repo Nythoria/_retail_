@@ -32,10 +32,10 @@ ExecAssistDB = {
 				["code"] = "Lm",
 			},
 		},
-		["nextMidnightReset"] = 1613347200,
+		["nextMidnightReset"] = 1613520000,
 		["IsOldHat"] = true,
-		["nextWeeklyReset"] = 1613451600,
-		["nextDailyReset"] = 1613365200,
+		["nextWeeklyReset"] = 1614056400,
+		["nextDailyReset"] = 1613538000,
 		["taskWindow"] = {
 			["toggleState_ToggledOff"] = true,
 			["pos"] = {

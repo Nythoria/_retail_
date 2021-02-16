@@ -71,12 +71,17 @@ VExRT = {
 	},
 	["ExCD2"] = {
 		["gnGUIDs"] = {
-			["Peroping"] = 269,
-			["Mìcha"] = 253,
 			["Pársa"] = 253,
-			["Teuanuca"] = 252,
-			["Druidbeard"] = 102,
+			["Bagsforyou"] = 70,
 			["Ririchíyo"] = 256,
+			["Shínt"] = 269,
+			["Druidbeard"] = 102,
+			["Teuanuca"] = 252,
+			["Høcsa"] = 66,
+			["Nepenthé"] = 105,
+			["Mìcha"] = 253,
+			["Peroping"] = 269,
+			["Berserkire"] = 70,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {

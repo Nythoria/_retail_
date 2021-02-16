@@ -2,25 +2,25 @@
 AstralKeys = {
 	{
 		["source"] = "guild",
-		["weekly_best"] = 13,
+		["weekly_best"] = 14,
 		["class"] = "PRIEST",
 		["key_level"] = 14,
 		["unit"] = "Ririchíyo-Silvermoon",
 		["dungeon_id"] = 378,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 358575,
+		["time_stamp"] = 542038,
 	}, -- [1]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 14,
+		["weekly_best"] = 15,
 		["class"] = "MAGE",
 		["key_level"] = 15,
 		["unit"] = "Êerie-Silvermoon",
 		["dungeon_id"] = 380,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 301234,
+		["time_stamp"] = 537540,
 	}, -- [2]
 	{
 		["source"] = "guild",
@@ -53,7 +53,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 352032,
+		["time_stamp"] = 540283,
 	}, -- [5]
 	{
 		["source"] = "guild",
@@ -75,29 +75,30 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 358449,
+		["time_stamp"] = 518624,
 	}, -- [7]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 2,
+		["weekly_best"] = 17,
 		["class"] = "PALADIN",
-		["key_level"] = 17,
+		["key_level"] = 16,
 		["unit"] = "Níina-Silvermoon",
-		["dungeon_id"] = 376,
+		["dungeon_id"] = 375,
 		["week"] = 186,
 		["faction"] = 0,
 		["time_stamp"] = 5,
+		["btag"] = "Nina#24867",
 	}, -- [8]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 13,
+		["weekly_best"] = 17,
 		["class"] = "DEATHKNIGHT",
-		["key_level"] = 17,
+		["key_level"] = 15,
 		["unit"] = "Líliana-Silvermoon",
-		["dungeon_id"] = 379,
+		["dungeon_id"] = 380,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 3,
+		["time_stamp"] = 5,
 		["btag"] = "Dajawz#2585",
 	}, -- [9]
 	{
@@ -120,7 +121,8 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 3,
+		["time_stamp"] = 4,
+		["btag"] = "Nina#24867",
 	}, -- [11]
 	{
 		["source"] = "guild",
@@ -164,7 +166,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 297396,
+		["time_stamp"] = 537845,
 	}, -- [15]
 	{
 		["source"] = "guild",
@@ -186,7 +188,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 2,
+		["time_stamp"] = 4,
 	}, -- [17]
 	{
 		["source"] = "guild",
@@ -223,14 +225,14 @@ AstralKeys = {
 	}, -- [20]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 14,
 		["class"] = "MAGE",
-		["key_level"] = 16,
+		["key_level"] = 15,
 		["unit"] = "Yaganmage-Silvermoon",
-		["dungeon_id"] = 380,
+		["dungeon_id"] = 378,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 3,
+		["time_stamp"] = 4,
 		["btag"] = "Zipper#2389",
 	}, -- [21]
 	{
@@ -335,14 +337,14 @@ AstralKeys = {
 	}, -- [30]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 2,
 		["class"] = "MAGE",
 		["key_level"] = 2,
 		["unit"] = "Nånsi-Silvermoon",
 		["dungeon_id"] = 376,
 		["week"] = 186,
 		["faction"] = 0,
-		["time_stamp"] = 1,
+		["time_stamp"] = 532104,
 	}, -- [31]
 	{
 		["source"] = "guild",
@@ -370,12 +372,12 @@ AstralKeys = {
 		["btag"] = "RavenSeb#2210",
 		["weekly_best"] = 19,
 		["class"] = "DRUID",
-		["key_level"] = 17,
+		["key_level"] = 13,
 		["unit"] = "Ravenseb-Sylvanas",
 		["dungeon_id"] = 379,
 		["week"] = 186,
 		["faction"] = "0",
-		["time_stamp"] = 300638,
+		["time_stamp"] = 0,
 		["source"] = "friend",
 	}, -- [34]
 	{
@@ -389,10 +391,34 @@ AstralKeys = {
 		["faction"] = 0,
 		["time_stamp"] = 300414,
 	}, -- [35]
+	{
+		["btag"] = "RavenSeb#2210",
+		["weekly_best"] = 6,
+		["class"] = "DEMONHUNTER",
+		["key_level"] = 6,
+		["unit"] = "Ithuel-Sylvanas",
+		["dungeon_id"] = 375,
+		["week"] = 186,
+		["faction"] = "0",
+		["time_stamp"] = 0,
+		["source"] = "friend",
+	}, -- [36]
+	{
+		["btag"] = "RavenSeb#2210",
+		["weekly_best"] = 2,
+		["class"] = "MAGE",
+		["key_level"] = 5,
+		["unit"] = "Xnebine-Sylvanas",
+		["dungeon_id"] = 377,
+		["week"] = 186,
+		["faction"] = "0",
+		["time_stamp"] = 542146,
+		["source"] = "friend",
+	}, -- [37]
 }
 AstralCharacters = {
 	{
-		["weekly_best"] = 13,
+		["weekly_best"] = 14,
 		["class"] = "PRIEST",
 		["unit"] = "Ririchíyo-Silvermoon",
 		["faction"] = 0,
@@ -409,10 +435,10 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["party"] = true,
 			["raid"] = false,
-			["guild"] = false,
+			["party"] = true,
 			["no_key"] = false,
+			["guild"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -487,14 +513,14 @@ AstralLists = {
 			["Líliana-Silvermoon"] = "Dajawz#2585",
 			["Nånsi-Silvermoon"] = true,
 			["Emblair-Silvermoon"] = true,
-			["Níina-Silvermoon"] = true,
+			["Níina-Silvermoon"] = "Nina#24867",
 			["Lorint-Silvermoon"] = true,
 			["Eloyà-Silvermoon"] = true,
 			["Zinicdh-Silvermoon"] = true,
 			["Sooken-Silvermoon"] = true,
 			["Ichix-Silvermoon"] = true,
 			["Ririchíyo-Silvermoon"] = true,
-			["Winndie-Silvermoon"] = true,
+			["Winndie-Silvermoon"] = "Nina#24867",
 			["Yaganmage-Silvermoon"] = "Zipper#2389",
 			["Zárgothrax-Silvermoon"] = true,
 			["Sókén-Silvermoon"] = true,
@@ -518,10 +544,14 @@ AstralLists = {
 	{
 		["name"] = "FRIENDS",
 		["units"] = {
-			["Níksa-Silvermoon"] = "Kento#21136",
-			["Ravenseb-Sylvanas"] = "RavenSeb#2210",
-			["Líliana-Silvermoon"] = "Dajawz#2585",
+			["Winndie-Silvermoon"] = "Nina#24867",
 			["Yaganmage-Silvermoon"] = "Zipper#2389",
+			["Líliana-Silvermoon"] = "Dajawz#2585",
+			["Ravenseb-Sylvanas"] = "RavenSeb#2210",
+			["Níksa-Silvermoon"] = "Kento#21136",
+			["Níina-Silvermoon"] = "Nina#24867",
+			["Ithuel-Sylvanas"] = "RavenSeb#2210",
+			["Xnebine-Sylvanas"] = "RavenSeb#2210",
 		},
 	}, -- [2]
 }

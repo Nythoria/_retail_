@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 22,
 	["lastSanitation"] = 3,
+	["session"] = 29,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\AstralKeys\\MinimapButton.lua:29: attempt to index field 'general' (a nil value)",
@@ -12,8 +12,8 @@ BugGrabberDB = {
 		}, -- [1]
 		{
 			["message"] = "File Interface\\AddOns\\TradeSkillMaster_AppHelper\\AppData.lua is empty.",
-			["session"] = 1,
 			["time"] = "2021/02/13 11:33:01",
+			["session"] = 1,
 			["counter"] = 3,
 		}, -- [2]
 	},

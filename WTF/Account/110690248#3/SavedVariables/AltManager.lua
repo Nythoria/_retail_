@@ -8,8 +8,8 @@ MethodAltManagerDB = {
 			["run_history"] = {
 				{
 					["completed"] = true,
-					["mapChallengeModeID"] = 376,
-					["level"] = 10,
+					["mapChallengeModeID"] = 381,
+					["level"] = 12,
 					["thisWeek"] = true,
 				}, -- [1]
 				{
@@ -20,24 +20,54 @@ MethodAltManagerDB = {
 				}, -- [2]
 				{
 					["completed"] = true,
-					["mapChallengeModeID"] = 381,
+					["mapChallengeModeID"] = 380,
 					["level"] = 12,
 					["thisWeek"] = true,
 				}, -- [3]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 377,
+					["level"] = 8,
+					["thisWeek"] = true,
+				}, -- [4]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 376,
+					["level"] = 10,
+					["thisWeek"] = true,
+				}, -- [5]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 382,
+					["level"] = 11,
+					["thisWeek"] = true,
+				}, -- [6]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 378,
+					["level"] = 12,
+					["thisWeek"] = true,
+				}, -- [7]
+				{
+					["completed"] = false,
+					["mapChallengeModeID"] = 380,
+					["level"] = 14,
+					["thisWeek"] = true,
+				}, -- [8]
 			},
 			["dungeon"] = 378,
 			["conquest_earned"] = 200,
-			["stored_anima"] = 1706,
-			["ilevel"] = 216.6875,
+			["stored_anima"] = 2233,
+			["ilevel"] = 216.875,
 			["level"] = 14,
 			["worldboss"] = "Oranomoros",
 			["nathria_heroic"] = 4,
-			["time_until_reset"] = 79128,
+			["time_until_reset"] = 62769,
 			["charlevel"] = 60,
 			["max_conduit_charges"] = 10,
 			["nathria_mythic"] = 3,
 			["expires"] = 1613545199,
-			["data_obtained"] = 1613293271,
+			["data_obtained"] = 1613482430,
 			["renown"] = 32,
 			["name"] = "Ririchíyo",
 			["conquest_total"] = 200,

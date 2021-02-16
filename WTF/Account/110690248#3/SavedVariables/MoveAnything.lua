@@ -15,7 +15,7 @@ MADB = {
 						"MinimapBackdrop", -- [2]
 						"CENTER", -- [3]
 						72, -- [4]
-						-25, -- [5]
+						-25.00000190734863, -- [5]
 					},
 					["name"] = "MinimapZoomIn",
 					["hidden"] = true,
@@ -70,7 +70,7 @@ MADB = {
 						"Minimap", -- [2]
 						"CENTER", -- [3]
 						0, -- [4]
-						67, -- [5]
+						67.00000762939453, -- [5]
 					},
 					["hidden"] = true,
 					["pos"] = {
@@ -87,7 +87,7 @@ MADB = {
 						"Minimap", -- [2]
 						"TOPRIGHT", -- [3]
 						20, -- [4]
-						-1.99999988079071, -- [5]
+						-2, -- [5]
 					},
 					["name"] = "GameTimeFrame",
 					["hidden"] = true,
@@ -97,6 +97,42 @@ MADB = {
 						"TOPRIGHT", -- [3]
 						19.9998779296875, -- [4]
 						-2, -- [5]
+					},
+				},
+				["MinimapZoomOut"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"MinimapBackdrop", -- [2]
+						"CENTER", -- [3]
+						50.00000381469727, -- [4]
+						-43.00000381469727, -- [5]
+					},
+					["name"] = "MinimapZoomOut",
+					["hidden"] = true,
+					["pos"] = {
+						"CENTER", -- [1]
+						"MinimapBackdrop", -- [2]
+						"CENTER", -- [3]
+						50.00006103515625, -- [4]
+						-43, -- [5]
+					},
+				},
+				["MiniMapWorldMapButton"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						23, -- [5]
+					},
+					["name"] = "MiniMapWorldMapButton",
+					["hidden"] = true,
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						23, -- [5]
 					},
 				},
 				["MinimapBorderTop"] = {
@@ -117,49 +153,13 @@ MADB = {
 						0, -- [5]
 					},
 				},
-				["MiniMapWorldMapButton"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-1.99999988079071, -- [4]
-						23, -- [5]
-					},
-					["name"] = "MiniMapWorldMapButton",
-					["hidden"] = true,
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						23, -- [5]
-					},
-				},
-				["MinimapZoomOut"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"MinimapBackdrop", -- [2]
-						"CENTER", -- [3]
-						50, -- [4]
-						-43, -- [5]
-					},
-					["name"] = "MinimapZoomOut",
-					["hidden"] = true,
-					["pos"] = {
-						"CENTER", -- [1]
-						"MinimapBackdrop", -- [2]
-						"CENTER", -- [3]
-						50.00006103515625, -- [4]
-						-43, -- [5]
-					},
-				},
 				["MiniMapMailFrame"] = {
 					["orgPos"] = {
 						"TOPRIGHT", -- [1]
 						"Minimap", -- [2]
 						"TOPRIGHT", -- [3]
-						23.99999809265137, -- [4]
-						-37, -- [5]
+						24.00000190734863, -- [4]
+						-37.00000381469727, -- [5]
 					},
 					["name"] = "MiniMapMailFrame",
 					["hidden"] = true,
@@ -177,7 +177,7 @@ MADB = {
 						"Minimap", -- [2]
 						"CENTER", -- [3]
 						0, -- [4]
-						-75, -- [5]
+						-75.00000762939453, -- [5]
 					},
 					["name"] = "TimeManagerClockButton",
 					["hidden"] = true,

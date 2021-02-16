@@ -27,6 +27,118 @@ HekiliDB = {
 					["author"] = "SimC",
 					["desc"] = "# Shadow Priest\n# January 21, 2021\n\n# Tweak Void Torrent when target counts are forced.",
 					["lists"] = {
+						["cwc"] = {
+							{
+								["enabled"] = true,
+								["use_while_casting"] = 1,
+								["action"] = "searing_nightmare",
+								["cycle_targets"] = 1,
+								["criteria"] = "( variable.searing_nightmare_cutoff & ! variable.pool_for_cds ) || ( dot.shadow_word_pain.refreshable & spell_targets.mind_sear > 1 )",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["use_while_casting"] = 1,
+								["action"] = "searing_nightmare",
+								["cycle_targets"] = 1,
+								["criteria"] = "talent.searing_nightmare.enabled & dot.shadow_word_pain.refreshable & spell_targets.mind_sear > 2",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["only_cwc"] = "1",
+								["action"] = "mind_blast",
+							}, -- [3]
+						},
+						["dmg_trinkets"] = {
+							{
+								["enabled"] = true,
+								["name"] = "darkmoon_deck__putrescence",
+								["action"] = "darkmoon_deck__putrescence",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["name"] = "sunblood_amethyst",
+								["action"] = "sunblood_amethyst",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["name"] = "glyph_of_assimilation",
+								["action"] = "glyph_of_assimilation",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["name"] = "dreadfire_vessel",
+								["action"] = "dreadfire_vessel",
+							}, -- [4]
+						},
+						["default"] = {
+							{
+								["action"] = "silence",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.voidform.up || buff.power_infusion.up",
+								["action"] = "potion",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "dot.shadow_word_pain.ticking & dot.vampiric_touch.ticking",
+								["var_name"] = "dots_up",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "dot.shadow_word_pain.ticking & dot.vampiric_touch.ticking & dot.devouring_plague.ticking",
+								["var_name"] = "all_dots_up",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "spell_targets.mind_sear > 2 + buff.voidform.up",
+								["var_name"] = "searing_nightmare_cutoff",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "cooldown.void_eruption.up & ( ! raid_event.adds.up || raid_event.adds.duration <= 10 || raid_event.adds.remains >= 10 + 5 * ( talent.hungering_void.enabled || covenant.kyrian ) ) & ( ( raid_event.adds.in > 20 || spell_targets.void_eruption >= 5 ) || talent.hungering_void.enabled || covenant.kyrian )",
+								["var_name"] = "pool_for_cds",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.voidform.up",
+								["action"] = "fireblood",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.voidform.up",
+								["action"] = "berserking",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "spell_targets.lights_judgment >= 2 || ( ! raid_event.adds.exists || raid_event.adds.in > 75 )",
+								["action"] = "lights_judgment",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.voidform.up",
+								["action"] = "ancestral_call",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["list_name"] = "cwc",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["list_name"] = "main",
+							}, -- [12]
+						},
 						["precombat"] = {
 							{
 								["enabled"] = true,
@@ -55,27 +167,100 @@ HekiliDB = {
 								["enabled"] = true,
 							}, -- [5]
 						},
-						["dmg_trinkets"] = {
+						["trinkets"] = {
 							{
 								["enabled"] = true,
-								["name"] = "darkmoon_deck__putrescence",
-								["action"] = "darkmoon_deck__putrescence",
+								["action"] = "empyreal_ordnance",
+								["criteria"] = "cooldown.void_eruption.remains <= 12 || cooldown.void_eruption.remains > 27",
+								["name"] = "empyreal_ordnance",
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["name"] = "sunblood_amethyst",
-								["action"] = "sunblood_amethyst",
+								["action"] = "inscrutable_quantum_device",
+								["criteria"] = "cooldown.void_eruption.remains > 10",
+								["name"] = "inscrutable_quantum_device",
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["name"] = "glyph_of_assimilation",
-								["action"] = "glyph_of_assimilation",
+								["action"] = "macabre_sheet_music",
+								["criteria"] = "cooldown.void_eruption.remains > 10",
+								["name"] = "macabre_sheet_music",
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["name"] = "dreadfire_vessel",
-								["action"] = "dreadfire_vessel",
+								["name"] = "soulletting_ruby",
+								["cycle_targets"] = 1,
+								["criteria"] = "buff.power_infusion.up || ! priest.self_power_infusion",
+								["action"] = "soulletting_ruby",
 							}, -- [4]
+							{
+								["enabled"] = true,
+								["action"] = "sinful_gladiators_badge_of_ferocity",
+								["criteria"] = "cooldown.void_eruption.remains >= 10",
+								["name"] = "sinful_gladiators_badge_of_ferocity",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "( ! talent.hungering_void.enabled || debuff.hungering_void.up ) & ( buff.voidform.up || cooldown.void_eruption.remains > 10 )",
+								["action"] = "call_action_list",
+								["list_name"] = "dmg_trinkets",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.voidform.up || buff.power_infusion.up || cooldown.void_eruption.remains > 10",
+								["action"] = "use_items",
+							}, -- [7]
+						},
+						["cds"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "priest.self_power_infusion & ( buff.voidform.up || ! soulbind.grove_invigoration.enabled & ! soulbind.combat_meditation.enabled & cooldown.void_eruption.remains >= 10 || fight_remains < cooldown.void_eruption.remains || soulbind.grove_invigoration.enabled & ( buff.redirected_anima.stack >= 12 || cooldown.fae_guardians.remains > 10 ) )",
+								["action"] = "power_infusion",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["action"] = "sinful_gladiators_badge_of_ferocity",
+								["criteria"] = "buff.voidform.up || time > 10 & ( ! covenant.night_fae )",
+								["name"] = "sinful_gladiators_badge_of_ferocity",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.voidform.up & ( ! cooldown.void_torrent.up || ! talent.void_torrent.enabled ) || buff.voidform.up & ( soulbind.grove_invigoration.enabled || soulbind.field_of_blossoms.enabled )",
+								["action"] = "fae_guardians",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "mindgames",
+								["criteria"] = "insanity < 90 & ( ( variable.all_dots_up & ( ! cooldown.void_eruption.up || ! talent.hungering_void.enabled ) ) || buff.voidform.up ) & ( ! talent.hungering_void.enabled || debuff.hungering_void.up || ! buff.voidform.up ) & ( ! talent.searing_nightmare.enabled || spell_targets.mind_sear < 5 )",
+								["cycle_targets"] = 1,
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "( ( ! raid_event.adds.up & raid_event.adds.in > 20 ) || raid_event.adds.remains >= 15 || raid_event.adds.duration < 15 ) & ( buff.power_infusion.up || cooldown.power_infusion.remains >= 10 || ! priest.self_power_infusion ) & ( ! talent.hungering_void.enabled || debuff.hungering_void.up || ! buff.voidform.up )",
+								["action"] = "unholy_nova",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.voidform.up & ! cooldown.void_eruption.up & spell_targets.mind_sear > 1 & ! talent.searing_nightmare.enabled || ( buff.voidform.up & spell_targets.mind_sear < 2 & ! talent.searing_nightmare.enabled & ( prev_gcd.1.void_bolt & ( ! equipped.empyreal_ordnance || ! talent.hungering_void.enabled ) || equipped.empyreal_ordnance & cooldown.empyreal_ordnance.remains <= 162 & debuff.hungering_void.up ) ) || ( buff.voidform.up & talent.searing_nightmare.enabled )",
+								["action"] = "boon_of_the_ascended",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["list_name"] = "trinkets",
+							}, -- [7]
+						},
+						["boon"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "spell_targets.mind_sear <= 3",
+								["action"] = "ascended_blast",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "target.within8 & spell_targets.ascended_nova > 1 & spell_targets.mind_sear > 1 + talent.searing_nightmare.enabled",
+								["action"] = "ascended_nova",
+							}, -- [2]
 						},
 						["main"] = {
 							{
@@ -228,191 +413,6 @@ HekiliDB = {
 								["enabled"] = true,
 							}, -- [26]
 						},
-						["cwc"] = {
-							{
-								["enabled"] = true,
-								["use_while_casting"] = 1,
-								["action"] = "searing_nightmare",
-								["cycle_targets"] = 1,
-								["criteria"] = "( variable.searing_nightmare_cutoff & ! variable.pool_for_cds ) || ( dot.shadow_word_pain.refreshable & spell_targets.mind_sear > 1 )",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["use_while_casting"] = 1,
-								["action"] = "searing_nightmare",
-								["cycle_targets"] = 1,
-								["criteria"] = "talent.searing_nightmare.enabled & dot.shadow_word_pain.refreshable & spell_targets.mind_sear > 2",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["only_cwc"] = "1",
-								["action"] = "mind_blast",
-							}, -- [3]
-						},
-						["trinkets"] = {
-							{
-								["enabled"] = true,
-								["action"] = "empyreal_ordnance",
-								["criteria"] = "cooldown.void_eruption.remains <= 12 || cooldown.void_eruption.remains > 27",
-								["name"] = "empyreal_ordnance",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["action"] = "inscrutable_quantum_device",
-								["criteria"] = "cooldown.void_eruption.remains > 10",
-								["name"] = "inscrutable_quantum_device",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["action"] = "macabre_sheet_music",
-								["criteria"] = "cooldown.void_eruption.remains > 10",
-								["name"] = "macabre_sheet_music",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["name"] = "soulletting_ruby",
-								["cycle_targets"] = 1,
-								["criteria"] = "buff.power_infusion.up || ! priest.self_power_infusion",
-								["action"] = "soulletting_ruby",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["action"] = "sinful_gladiators_badge_of_ferocity",
-								["criteria"] = "cooldown.void_eruption.remains >= 10",
-								["name"] = "sinful_gladiators_badge_of_ferocity",
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["criteria"] = "( ! talent.hungering_void.enabled || debuff.hungering_void.up ) & ( buff.voidform.up || cooldown.void_eruption.remains > 10 )",
-								["action"] = "call_action_list",
-								["list_name"] = "dmg_trinkets",
-							}, -- [6]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.voidform.up || buff.power_infusion.up || cooldown.void_eruption.remains > 10",
-								["action"] = "use_items",
-							}, -- [7]
-						},
-						["cds"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "priest.self_power_infusion & ( buff.voidform.up || ! soulbind.grove_invigoration.enabled & ! soulbind.combat_meditation.enabled & cooldown.void_eruption.remains >= 10 || fight_remains < cooldown.void_eruption.remains || soulbind.grove_invigoration.enabled & ( buff.redirected_anima.stack >= 12 || cooldown.fae_guardians.remains > 10 ) )",
-								["action"] = "power_infusion",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["action"] = "sinful_gladiators_badge_of_ferocity",
-								["criteria"] = "buff.voidform.up || time > 10 & ( ! covenant.night_fae )",
-								["name"] = "sinful_gladiators_badge_of_ferocity",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "! buff.voidform.up & ( ! cooldown.void_torrent.up || ! talent.void_torrent.enabled ) || buff.voidform.up & ( soulbind.grove_invigoration.enabled || soulbind.field_of_blossoms.enabled )",
-								["action"] = "fae_guardians",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["action"] = "mindgames",
-								["criteria"] = "insanity < 90 & ( ( variable.all_dots_up & ( ! cooldown.void_eruption.up || ! talent.hungering_void.enabled ) ) || buff.voidform.up ) & ( ! talent.hungering_void.enabled || debuff.hungering_void.up || ! buff.voidform.up ) & ( ! talent.searing_nightmare.enabled || spell_targets.mind_sear < 5 )",
-								["cycle_targets"] = 1,
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["criteria"] = "( ( ! raid_event.adds.up & raid_event.adds.in > 20 ) || raid_event.adds.remains >= 15 || raid_event.adds.duration < 15 ) & ( buff.power_infusion.up || cooldown.power_infusion.remains >= 10 || ! priest.self_power_infusion ) & ( ! talent.hungering_void.enabled || debuff.hungering_void.up || ! buff.voidform.up )",
-								["action"] = "unholy_nova",
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["criteria"] = "! buff.voidform.up & ! cooldown.void_eruption.up & spell_targets.mind_sear > 1 & ! talent.searing_nightmare.enabled || ( buff.voidform.up & spell_targets.mind_sear < 2 & ! talent.searing_nightmare.enabled & ( prev_gcd.1.void_bolt & ( ! equipped.empyreal_ordnance || ! talent.hungering_void.enabled ) || equipped.empyreal_ordnance & cooldown.empyreal_ordnance.remains <= 162 & debuff.hungering_void.up ) ) || ( buff.voidform.up & talent.searing_nightmare.enabled )",
-								["action"] = "boon_of_the_ascended",
-							}, -- [6]
-							{
-								["enabled"] = true,
-								["action"] = "call_action_list",
-								["list_name"] = "trinkets",
-							}, -- [7]
-						},
-						["boon"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "spell_targets.mind_sear <= 3",
-								["action"] = "ascended_blast",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "target.within8 & spell_targets.ascended_nova > 1 & spell_targets.mind_sear > 1 + talent.searing_nightmare.enabled",
-								["action"] = "ascended_nova",
-							}, -- [2]
-						},
-						["default"] = {
-							{
-								["action"] = "silence",
-								["enabled"] = true,
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.voidform.up || buff.power_infusion.up",
-								["action"] = "potion",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "dot.shadow_word_pain.ticking & dot.vampiric_touch.ticking",
-								["var_name"] = "dots_up",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "dot.shadow_word_pain.ticking & dot.vampiric_touch.ticking & dot.devouring_plague.ticking",
-								["var_name"] = "all_dots_up",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "spell_targets.mind_sear > 2 + buff.voidform.up",
-								["var_name"] = "searing_nightmare_cutoff",
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "cooldown.void_eruption.up & ( ! raid_event.adds.up || raid_event.adds.duration <= 10 || raid_event.adds.remains >= 10 + 5 * ( talent.hungering_void.enabled || covenant.kyrian ) ) & ( ( raid_event.adds.in > 20 || spell_targets.void_eruption >= 5 ) || talent.hungering_void.enabled || covenant.kyrian )",
-								["var_name"] = "pool_for_cds",
-							}, -- [6]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.voidform.up",
-								["action"] = "fireblood",
-							}, -- [7]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.voidform.up",
-								["action"] = "berserking",
-							}, -- [8]
-							{
-								["enabled"] = true,
-								["criteria"] = "spell_targets.lights_judgment >= 2 || ( ! raid_event.adds.exists || raid_event.adds.in > 75 )",
-								["action"] = "lights_judgment",
-							}, -- [9]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.voidform.up",
-								["action"] = "ancestral_call",
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["action"] = "call_action_list",
-								["list_name"] = "cwc",
-							}, -- [11]
-							{
-								["enabled"] = true,
-								["action"] = "run_action_list",
-								["list_name"] = "main",
-							}, -- [12]
-						},
 					},
 					["version"] = 20210121,
 					["warnings"] = "WARNING:  The import for 'main' required some automated changes.\nLine 13: Corrected equality check from '==' to '=' (1x).\n\nWARNING:  The import for 'cds' required some automated changes.\nLine 6: Converted 'trinket.X.cooldown' to 'cooldown.X' (1x).\nThe following auras were used in the action list but were not found in the addon database:\n - redirected_anima\n\nImported 8 action lists.\n",
@@ -443,9 +443,9 @@ HekiliDB = {
 					["custom1Name"] = "Custom 1",
 					["petbased"] = false,
 					["potionsReset"] = 20180919.1,
-					["nameplateRange"] = 8,
-					["cycle_min"] = 6,
 					["cycle"] = false,
+					["cycle_min"] = 6,
+					["nameplateRange"] = 8,
 					["potion"] = "potion_of_phantom_fire",
 					["throttleTime"] = false,
 					["nameplates"] = false,

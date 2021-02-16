@@ -113,12 +113,12 @@ ZNotes = {
 			["class"] = "diszi",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "barrier",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 490,
 			["station"] = true,
-			["name"] = "barrier",
+			["cd"] = 180,
 		}, -- [1]
 		{
 			["type"] = "heal",
@@ -126,12 +126,12 @@ ZNotes = {
 			["class"] = "diszi",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["cd"] = 90,
+			["name"] = "rapture",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 430,
 			["station"] = false,
-			["name"] = "rapture",
+			["cd"] = 90,
 		}, -- [2]
 		{
 			["type"] = "heal",
@@ -139,12 +139,12 @@ ZNotes = {
 			["class"] = "diszi",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["cd"] = 90,
+			["name"] = "evang",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 420,
 			["station"] = false,
-			["name"] = "evang",
+			["cd"] = 90,
 		}, -- [3]
 		{
 			["type"] = "util",
@@ -164,12 +164,12 @@ ZNotes = {
 			["class"] = "druid",
 			["color"] = "ff7d0a",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "tranq",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 460,
 			["station"] = true,
-			["name"] = "tranq",
+			["cd"] = 180,
 		}, -- [5]
 		{
 			["type"] = "heal",
@@ -177,12 +177,12 @@ ZNotes = {
 			["class"] = "druid",
 			["color"] = "ff7d0a",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "tree",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 400,
 			["station"] = false,
-			["name"] = "tree",
+			["cd"] = 180,
 		}, -- [6]
 		{
 			["type"] = "util",
@@ -214,12 +214,12 @@ ZNotes = {
 			["class"] = "shaman",
 			["color"] = "0070de",
 			["role"] = "heal",
-			["cd"] = 60,
+			["name"] = "wall",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 380,
 			["station"] = true,
-			["name"] = "wall",
+			["cd"] = 60,
 		}, -- [9]
 		{
 			["type"] = "heal",
@@ -227,12 +227,12 @@ ZNotes = {
 			["class"] = "shaman",
 			["color"] = "0070de",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "htide",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 450,
 			["station"] = false,
-			["name"] = "htide",
+			["cd"] = 180,
 		}, -- [10]
 		{
 			["type"] = "heal",
@@ -240,12 +240,12 @@ ZNotes = {
 			["class"] = "monk",
 			["color"] = "00ff96",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "revival",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 390,
 			["station"] = false,
-			["name"] = "revival",
+			["cd"] = 180,
 		}, -- [11]
 		{
 			["type"] = "util",
@@ -265,12 +265,12 @@ ZNotes = {
 			["class"] = "priest",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "hymne",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 470,
 			["station"] = true,
-			["name"] = "hymne",
+			["cd"] = 180,
 		}, -- [13]
 		{
 			["type"] = "heal",
@@ -278,12 +278,12 @@ ZNotes = {
 			["class"] = "priest",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["cd"] = 720,
+			["name"] = "salvation",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 440,
 			["station"] = false,
-			["name"] = "salvation",
+			["cd"] = 720,
 		}, -- [14]
 		{
 			["type"] = "util",
@@ -303,12 +303,12 @@ ZNotes = {
 			["class"] = "paladin",
 			["color"] = "f58cba",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "mastery",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 500,
 			["station"] = false,
-			["name"] = "mastery",
+			["cd"] = 180,
 		}, -- [16]
 		{
 			["type"] = "heal",
@@ -316,12 +316,12 @@ ZNotes = {
 			["class"] = "paladin",
 			["color"] = "f58cba",
 			["role"] = "heal",
-			["cd"] = 180,
+			["name"] = "wings",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 410,
 			["station"] = false,
-			["name"] = "wings",
+			["cd"] = 180,
 		}, -- [17]
 		{
 			["type"] = "util",
@@ -377,12 +377,12 @@ ZNotes = {
 			["class"] = "dh",
 			["color"] = "a330c9",
 			["role"] = "melee",
-			["cd"] = 180,
+			["name"] = "darkness",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 310,
 			["station"] = true,
-			["name"] = "darkness",
+			["cd"] = 180,
 		}, -- [22]
 		{
 			["type"] = "imun",
@@ -402,12 +402,12 @@ ZNotes = {
 			["class"] = "dk",
 			["color"] = "c41f3b",
 			["role"] = "melee",
-			["cd"] = 120,
+			["name"] = "amz",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 320,
 			["station"] = true,
-			["name"] = "amz",
+			["cd"] = 120,
 		}, -- [24]
 		{
 			["type"] = "util",
@@ -415,12 +415,12 @@ ZNotes = {
 			["class"] = "shadow",
 			["color"] = "ffffff",
 			["role"] = "range",
-			["cd"] = 180,
+			["name"] = "vamp",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 290,
 			["station"] = false,
-			["name"] = "vamp",
+			["cd"] = 180,
 		}, -- [25]
 		{
 			["type"] = "imun",
@@ -500,12 +500,12 @@ ZNotes = {
 			["class"] = "dk",
 			["color"] = "c41f3b",
 			["role"] = "tank",
-			["cd"] = 120,
+			["name"] = "amz",
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 320,
 			["station"] = true,
-			["name"] = "amz",
+			["cd"] = 120,
 		}, -- [32]
 	},
 	["minimap"] = {
@@ -513,10 +513,10 @@ ZNotes = {
 	},
 	["lastTemplates"] = {
 		["lastGroupTemplate"] = "sample group",
-		["lastBossTemplate"] = "sampleboss",
+		["homeSendToZND"] = true,
 		["homeLastBossTemplate"] = "sampleboss",
 		["homeSendToExRT"] = true,
-		["homeSendToZND"] = true,
+		["lastBossTemplate"] = "sampleboss",
 		["homeIncludeMissing"] = true,
 		["homeLastGroupTemplate"] = "sample group",
 	},

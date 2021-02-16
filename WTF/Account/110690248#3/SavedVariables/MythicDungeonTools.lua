@@ -10,21 +10,557 @@ MythicDungeonToolsDB = {
 		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
 	},
 	["global"] = {
+		["tooltipInCorner"] = false,
+		["anchorTo"] = "TOP",
+		["colorPaletteInfo"] = {
+			["forceColorBlindMode"] = false,
+			["autoColoring"] = true,
+			["numberCustomColors"] = 12,
+			["colorPaletteIdx"] = 4,
+			["customPaletteValues"] = {
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [1]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [2]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [3]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [4]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [5]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [6]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [7]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [8]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [9]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [10]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [11]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [12]
+			},
+		},
+		["currentDifficulty"] = 30,
+		["minimap"] = {
+			["hide"] = false,
+		},
 		["nonFullscreenScale"] = 1,
 		["MDI"] = {
 		},
+		["currentExpansion"] = 3,
+		["defaultColor"] = "228b22",
 		["currentPreset"] = {
-			[29] = 2,
-			[30] = 2,
-			[36] = 2,
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+			1, -- [5]
+			1, -- [6]
+			1, -- [7]
+			1, -- [8]
+			1, -- [9]
+			1, -- [10]
+			1, -- [11]
+			1, -- [12]
+			1, -- [13]
+			1, -- [14]
+			1, -- [15]
+			1, -- [16]
+			1, -- [17]
+			1, -- [18]
+			1, -- [19]
+			1, -- [20]
+			1, -- [21]
+			1, -- [22]
+			1, -- [23]
+			1, -- [24]
+			1, -- [25]
+			1, -- [26]
+			1, -- [27]
+			1, -- [28]
+			2, -- [29]
+			2, -- [30]
+			1, -- [31]
+			1, -- [32]
+			2, -- [33]
+			1, -- [34]
+			1, -- [35]
+			2, -- [36]
+			1, -- [37]
 		},
 		["maximized"] = false,
+		["currentDungeonIdx"] = 33,
 		["presets"] = {
-			[29] = {
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [20]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [21]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [22]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [23]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [24]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [25]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [26]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [27]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [28]
+			{
 				{
 					["objects"] = {
 					},
 					["week"] = 3,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -43,12 +579,12 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
-					},
+					["text"] = "Default",
 					["difficulty"] = 10,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 				}, -- [1]
 				{
 					["objects"] = {
@@ -526,12 +1062,17 @@ MythicDungeonToolsDB = {
 					["value"] = 0,
 					["text"] = "<New Preset>",
 				}, -- [3]
-			},
-			[30] = {
+			}, -- [29]
+			{
 				{
 					["objects"] = {
 					},
 					["week"] = 3,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -550,12 +1091,12 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
+					["text"] = "Default",
 					["difficulty"] = 10,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 				}, -- [1]
 				{
 					["objects"] = {
@@ -866,11 +1407,16 @@ MythicDungeonToolsDB = {
 					["value"] = 0,
 					["text"] = "<New Preset>",
 				}, -- [3]
-			},
-			[31] = {
+			}, -- [30]
+			{
 				{
 					["difficulty"] = 10,
 					["week"] = 3,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -889,21 +1435,534 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
+					["text"] = "Default",
 					["objects"] = {
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 				}, -- [1]
-			},
-			[36] = {
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [31]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [32]
+			{
+				{
+					["objects"] = {
+					},
+					["week"] = 10,
+					["difficulty"] = 10,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+						["currentDungeonIdx"] = 33,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[10] = {
+							},
+						},
+					},
+					["text"] = "Default",
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["objects"] = {
+						{
+							["n"] = true,
+							["d"] = {
+								282.7376726034471, -- [1]
+								-132.8148289175464, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Wait for a good spot in the patrol then walk by", -- [5]
+							},
+						}, -- [1]
+						{
+							["n"] = true,
+							["d"] = {
+								532.3679436204903, -- [1]
+								-460.1033877096353, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"This may be in a different spot, watch out!", -- [5]
+							},
+						}, -- [2]
+					},
+					["week"] = 10,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["value"] = {
+						["currentPull"] = 4,
+						["currentSublevel"] = 2,
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+								[2] = {
+									1, -- [1]
+									2, -- [2]
+								},
+								[3] = {
+									1, -- [1]
+								},
+							}, -- [1]
+							{
+								[5] = {
+									1, -- [1]
+								},
+								[2] = {
+									4, -- [1]
+									3, -- [2]
+								},
+								["color"] = "3eff9e",
+								[3] = {
+									2, -- [1]
+									3, -- [2]
+								},
+							}, -- [2]
+							{
+								[5] = {
+									2, -- [1]
+									3, -- [2]
+								},
+								[6] = {
+									1, -- [1]
+								},
+								[7] = {
+								},
+								["color"] = "ff3e3e",
+							}, -- [3]
+							{
+								{
+								}, -- [1]
+								["color"] = "3e9eff",
+								[7] = {
+									1, -- [1]
+								},
+								[4] = {
+									2, -- [1]
+								},
+							}, -- [4]
+							{
+								["color"] = "fffb3e",
+								[2] = {
+									5, -- [1]
+									6, -- [2]
+								},
+								[4] = {
+									6, -- [1]
+									4, -- [2]
+									5, -- [3]
+								},
+							}, -- [5]
+							{
+								["color"] = "3eff3e",
+								[2] = {
+									7, -- [1]
+									8, -- [2]
+									9, -- [3]
+									10, -- [4]
+									11, -- [5]
+								},
+								[4] = {
+									7, -- [1]
+									8, -- [2]
+								},
+								[7] = {
+									3, -- [1]
+								},
+							}, -- [6]
+							{
+								["color"] = "ff3e9e",
+								[8] = {
+									1, -- [1]
+								},
+							}, -- [7]
+							{
+								["color"] = "3effff",
+								[10] = {
+									1, -- [1]
+									7, -- [2]
+									2, -- [3]
+									4, -- [4]
+									8, -- [5]
+									5, -- [6]
+									3, -- [7]
+									6, -- [8]
+								},
+								[9] = {
+									2, -- [1]
+									1, -- [2]
+								},
+								[11] = {
+								},
+							}, -- [8]
+							{
+								[11] = {
+									2, -- [1]
+									1, -- [2]
+									4, -- [3]
+									3, -- [4]
+								},
+								[9] = {
+									3, -- [1]
+								},
+								["color"] = "ff9b3e",
+							}, -- [9]
+							{
+								["color"] = "3e3eff",
+								[12] = {
+									1, -- [1]
+								},
+							}, -- [10]
+							{
+								["color"] = "a1ff3e",
+								[13] = {
+									1, -- [1]
+								},
+								[9] = {
+									4, -- [1]
+									5, -- [2]
+								},
+							}, -- [11]
+							{
+								["color"] = "ff3eff",
+								[13] = {
+									2, -- [1]
+								},
+								[9] = {
+									6, -- [1]
+									7, -- [2]
+								},
+							}, -- [12]
+							{
+								["color"] = "3eff9e",
+								[13] = {
+									6, -- [1]
+								},
+								[9] = {
+									10, -- [1]
+									11, -- [2]
+								},
+							}, -- [13]
+							{
+								{
+									7, -- [1]
+									8, -- [2]
+									9, -- [3]
+									10, -- [4]
+									11, -- [5]
+								}, -- [1]
+								[15] = {
+									1, -- [1]
+								},
+								["color"] = "ff3e3e",
+							}, -- [14]
+							{
+								["color"] = "3e9eff",
+								[16] = {
+									2, -- [1]
+									1, -- [2]
+								},
+								[17] = {
+									1, -- [1]
+								},
+							}, -- [15]
+							{
+								[20] = {
+									5, -- [1]
+								},
+								[21] = {
+								},
+								[18] = {
+									4, -- [1]
+								},
+								["color"] = "fffb3e",
+								[16] = {
+									12, -- [1]
+								},
+							}, -- [16]
+							{
+								[20] = {
+									1, -- [1]
+								},
+								[18] = {
+									1, -- [1]
+								},
+								["color"] = "3eff3e",
+								[19] = {
+									1, -- [1]
+								},
+								[16] = {
+									3, -- [1]
+								},
+							}, -- [17]
+							{
+								["color"] = "ff3e9e",
+								[16] = {
+									4, -- [1]
+								},
+								[20] = {
+									2, -- [1]
+								},
+								[19] = {
+									2, -- [1]
+								},
+							}, -- [18]
+							{
+								[20] = {
+									3, -- [1]
+								},
+								[18] = {
+									2, -- [1]
+								},
+								["color"] = "3effff",
+								[16] = {
+									5, -- [1]
+								},
+								[12] = {
+									3, -- [1]
+								},
+							}, -- [19]
+							{
+								["color"] = "ff9b3e",
+								[19] = {
+									3, -- [1]
+								},
+								[17] = {
+									2, -- [1]
+								},
+								[16] = {
+									6, -- [1]
+								},
+							}, -- [20]
+							{
+								["color"] = "3e3eff",
+								[22] = {
+									1, -- [1]
+								},
+							}, -- [21]
+							{
+								["color"] = "a1ff3e",
+								[9] = {
+									12, -- [1]
+									13, -- [2]
+								},
+								[20] = {
+									6, -- [1]
+								},
+							}, -- [22]
+							{
+								["color"] = "ff3eff",
+								[9] = {
+									15, -- [1]
+									14, -- [2]
+								},
+							}, -- [23]
+							{
+								["color"] = "3eff9e",
+								[23] = {
+									1, -- [1]
+								},
+							}, -- [24]
+							{
+								["color"] = "ff3e3e",
+								[24] = {
+									1, -- [1]
+									2, -- [2]
+								},
+								[9] = {
+									16, -- [1]
+									17, -- [2]
+								},
+								[5] = {
+									4, -- [1]
+									5, -- [2]
+								},
+							}, -- [25]
+							{
+								["color"] = "3e9eff",
+								[6] = {
+									6, -- [1]
+								},
+								[12] = {
+									5, -- [1]
+								},
+								[13] = {
+									7, -- [1]
+								},
+							}, -- [26]
+							{
+								[11] = {
+									16, -- [1]
+									17, -- [2]
+									15, -- [3]
+									22, -- [4]
+									18, -- [5]
+									20, -- [6]
+									21, -- [7]
+									19, -- [8]
+									24, -- [9]
+									23, -- [10]
+								},
+								[10] = {
+									9, -- [1]
+									10, -- [2]
+									12, -- [3]
+									11, -- [4]
+									13, -- [5]
+									14, -- [6]
+								},
+								["color"] = "fffb3e",
+								[26] = {
+									1, -- [1]
+									2, -- [2]
+									4, -- [3]
+									5, -- [4]
+									3, -- [5]
+									6, -- [6]
+									7, -- [7]
+									8, -- [8]
+									9, -- [9]
+								},
+								[12] = {
+									6, -- [1]
+								},
+								[3] = {
+									6, -- [1]
+									5, -- [2]
+								},
+							}, -- [27]
+							{
+								["color"] = "3eff3e",
+								[24] = {
+									7, -- [1]
+									6, -- [2]
+									8, -- [3]
+									3, -- [4]
+									4, -- [5]
+									5, -- [6]
+								},
+								[5] = {
+									6, -- [1]
+									7, -- [2]
+								},
+							}, -- [28]
+							{
+								["color"] = "ff3e9e",
+								[25] = {
+									1, -- [1]
+								},
+							}, -- [29]
+						},
+						["currentDungeonIdx"] = 33,
+						["teeming"] = false,
+						["selection"] = {
+							4, -- [1]
+						},
+						["riftOffsets"] = {
+							[6] = {
+							},
+							[7] = {
+							},
+							[10] = {
+							},
+							[4] = {
+							},
+							[5] = {
+							},
+							[9] = {
+							},
+						},
+					},
+					["text"] = "1.10 SD No Skips by Dratnos",
+					["difficulty"] = 30,
+					["mdi"] = {
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+					},
+				}, -- [2]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [3]
+			}, -- [33]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [34]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [35]
+			{
 				{
 					["value"] = {
 						["currentSublevel"] = 1,
 						["selection"] = {
 						},
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 				}, -- [1]
 				{
@@ -1259,8 +2318,36 @@ MythicDungeonToolsDB = {
 					["value"] = 0,
 					["text"] = "<New Preset>",
 				}, -- [3]
-			},
+			}, -- [36]
+			{
+				{
+					["value"] = {
+					},
+					["text"] = "Default",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+				}, -- [1]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [2]
+			}, -- [37]
 		},
+		["currentSeason"] = 5,
+		["toolbar"] = {
+			["color"] = {
+				["a"] = 1,
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["brushSize"] = 3,
+		},
+		["toolbarExpanded"] = true,
+		["enemyStyle"] = 1,
+		["anchorFrom"] = "TOP",
 		["dungeonImport"] = {
 			[36] = {
 				{
@@ -5495,15 +6582,15 @@ MythicDungeonToolsDB = {
 						},
 						[321020] = {
 						},
-						[321019] = {
+						[132951] = {
 						},
 						[121308] = {
 						},
-						[240443] = {
-						},
 						[320991] = {
 						},
-						[132951] = {
+						[240443] = {
+						},
+						[321019] = {
 						},
 					},
 					["scale"] = 1,
@@ -17381,13 +18468,13 @@ MythicDungeonToolsDB = {
 						},
 						[333482] = {
 						},
-						[132951] = {
-						},
-						[338456] = {
+						[333479] = {
 						},
 						[240443] = {
 						},
-						[333479] = {
+						[338456] = {
+						},
+						[132951] = {
 						},
 					},
 					["characteristics"] = {
@@ -20021,71 +21108,12 @@ MythicDungeonToolsDB = {
 				}, -- [18]
 			},
 		},
+		["dataCollectionActive"] = false,
 		["version"] = 347,
-		["colorPaletteInfo"] = {
-			["customPaletteValues"] = {
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [1]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [2]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [3]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [4]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [5]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [6]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [7]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [8]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [9]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [10]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [11]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [12]
-			},
-		},
-		["currentDungeonIdx"] = 30,
+		["enemyForcesFormat"] = 2,
+		["xoffset"] = 0,
+		["scale"] = 1,
+		["language"] = 1,
+		["yoffset"] = -150,
 	},
 }

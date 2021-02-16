@@ -2,6 +2,10 @@
 BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Alt Power"] = {
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
 		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
@@ -119,12 +123,6 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_Wipe"] = {
-			["profiles"] = {
-				["Default"] = {
-					["wipeSound"] = "None",
-					["respawnBar"] = true,
-				},
-			},
 		},
 		["BigWigs_Bosses_Mistcaller"] = {
 			["profiles"] = {
@@ -201,16 +199,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_High Adjudicator Aleez"] = {
-			["profiles"] = {
-				["Default"] = {
-					[323650] = 3064055,
-					[323552] = 3064055,
-					[323538] = 3064055,
-					[329340] = 3064055,
-				},
-			},
-		},
 		["BigWigs_Bosses_Huntsman Altimor"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -260,11 +248,83 @@ BigWigs3DB = {
 						["Info"] = "BigWigs: Info",
 						["Alarm"] = "BigWigs: Alarm",
 						["onyou"] = "BigWigs: Spell on you",
-						["underyou"] = "BigWigs: Spell under you",
 						["Alert"] = "BigWigs: Alert",
+						["underyou"] = "BigWigs: Spell under you",
 					},
 				},
 			},
+		},
+		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
+			["profiles"] = {
+				["Default"] = {
+					[326046] = 3072247,
+					[324923] = 3064055,
+					[324776] = 3064055,
+					[340160] = 3064055,
+					[340300] = 3068151,
+					[324909] = 3064055,
+					[322569] = 3065079,
+					[340208] = 3068151,
+					[340279] = 3072247,
+					[322938] = 3064055,
+					[325224] = 3072247,
+					[331743] = 3064055,
+					[322486] = 3064055,
+					[331718] = 3064055,
+					[340544] = 3064055,
+					[340304] = 3064055,
+					[322557] = 3072247,
+					[321968] = 3064055,
+					[340289] = 3068151,
+					[340305] = 3064055,
+					[340189] = 3064055,
+					[324914] = 3072247,
+					[325418] = 3064311,
+					[324987] = 3064055,
+				},
+			},
+		},
+		["BigWigs_Bosses_Halkias, the Sin-Stained Goliath"] = {
+			["profiles"] = {
+				["Default"] = {
+					[322943] = 3064055,
+					[323001] = 3064055,
+					[322977] = 3064055,
+					[322936] = 3065079,
+					[322711] = 3064055,
+				},
+			},
+		},
+		["BigWigs_Plugins_Countdown"] = {
+		},
+		["BigWigs_Bosses_Mueh'zala"] = {
+			["profiles"] = {
+				["Default"] = {
+					[325258] = 3064055,
+					[327646] = 3068151,
+					[326171] = 3064567,
+					[325725] = 3064055,
+					[334970] = 3064055,
+				},
+			},
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disableSfx"] = false,
+					["blockGarrison"] = true,
+					["blockGuildChallenge"] = true,
+					["blockTooltipQuests"] = true,
+					["disableMusic"] = false,
+					["blockObjectiveTracker"] = true,
+					["blockEmotes"] = true,
+					["blockSpellErrors"] = true,
+					["disableAmbience"] = false,
+					["blockMovies"] = true,
+				},
+			},
+		},
+		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Bosses_Lady Inerva Darkvein"] = {
 			["profiles"] = {
@@ -287,56 +347,6 @@ BigWigs3DB = {
 					["custom_on_stop_timers"] = true,
 					["custom_off_332664"] = false,
 					["anima_adds"] = 3064055,
-				},
-			},
-		},
-		["BigWigs_Bosses_Sire Denathrius"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Countdown"] = {
-		},
-		["BigWigs_Bosses_Mueh'zala"] = {
-			["profiles"] = {
-				["Default"] = {
-					[325258] = 3064055,
-					[327646] = 3068151,
-					[326171] = 3064567,
-					[325725] = 3064055,
-					[334970] = 3064055,
-				},
-			},
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Bosses_Castle Nathria Trash"] = {
-			["profiles"] = {
-				["Default"] = {
-					[340630] = 3072247,
-					[339528] = 3065079,
-					[329298] = 3064055,
-					[343155] = 3064055,
-					[343316] = 3064055,
-					[343320] = 3064055,
-					[329989] = 3072247,
-					[339557] = 3064055,
-					[343302] = 3064055,
-					[341352] = 3064055,
-					[343325] = 3064055,
-					[341735] = 3064055,
-					[339553] = 3064055,
-					[343322] = 3064055,
-					[339525] = 3064055,
-					[341441] = 3064055,
-				},
-			},
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-			["profiles"] = {
-				["Default"] = {
-					["secondIcon"] = 7,
-					["disabled"] = false,
-					["icon"] = 8,
 				},
 			},
 		},
@@ -384,55 +394,43 @@ BigWigs3DB = {
 					["text"] = true,
 					["texture"] = "ElvUI Blank",
 					["barStyle"] = "ElvUI",
-					["BigWigsAnchor_x"] = 1181.155584156513,
 					["BigWigsEmphasizeAnchor_y"] = 706.1333504319191,
+					["MiddleButton"] = "remove",
 					["emphasizeTime"] = 11,
 					["fill"] = false,
-					["fontSizeEmph"] = 11,
+					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
 					["BigWigsEmphasizeAnchor_x"] = 571.7335207886208,
 					["alignText"] = "LEFT",
 					["nameplateWidth"] = 100,
 					["nameplateHeight"] = 12,
 					["emphasizeRestart"] = true,
+					["fontSizeEmph"] = 11,
 					["interceptKey"] = "CTRL",
-					["MiddleButton"] = "remove",
 					["onlyInterceptOnKeypress"] = true,
 					["emphasizeMultiplier"] = 1.1,
-					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
+					["BigWigsAnchor_x"] = 1181.155584156513,
 				},
 			},
 		},
-		["BigWigs_Bosses_Stone Legion Generals"] = {
+		["BigWigs_Plugins_AutoReply"] = {
+			["profiles"] = {
+				["Default"] = {
+					["exitCombatOther"] = 2,
+					["disabled"] = true,
+					["exitCombat"] = 3,
+					["mode"] = 2,
+					["modeOther"] = 1,
+				},
+			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
+		["BigWigs_Plugins_Victory"] = {
 			["profiles"] = {
 				["Default"] = {
-					[326046] = 3072247,
-					[324923] = 3064055,
-					[324776] = 3064055,
-					[340160] = 3064055,
-					[340300] = 3068151,
-					[324909] = 3064055,
-					[322569] = 3065079,
-					[340208] = 3068151,
-					[340279] = 3072247,
-					[322938] = 3064055,
-					[325224] = 3072247,
-					[331743] = 3064055,
-					[322486] = 3064055,
-					[331718] = 3064055,
-					[340544] = 3064055,
-					[340304] = 3064055,
-					[322557] = 3072247,
-					[321968] = 3064055,
-					[340289] = 3068151,
-					[340305] = 3064055,
-					[340189] = 3064055,
-					[324914] = 3072247,
-					[325418] = 3064311,
-					[324987] = 3064055,
+					["bigwigsMsg"] = false,
+					["soundName"] = "BigWigs: Victory",
+					["blizzMsg"] = true,
 				},
 			},
 		},
@@ -464,40 +462,44 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Colors"] = {
+		["BigWigs_Bosses_Castle Nathria Trash"] = {
+			["profiles"] = {
+				["Default"] = {
+					[340630] = 3072247,
+					[339528] = 3065079,
+					[329298] = 3064055,
+					[343155] = 3064055,
+					[343316] = 3064055,
+					[343320] = 3064055,
+					[329989] = 3072247,
+					[339557] = 3064055,
+					[343302] = 3064055,
+					[341352] = 3064055,
+					[343325] = 3064055,
+					[341735] = 3064055,
+					[339553] = 3064055,
+					[343322] = 3064055,
+					[339525] = 3064055,
+					[341441] = 3064055,
+				},
+			},
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
-					["soundDelay"] = 1,
-					["fontSize"] = 20,
-					["soundName"] = "BigWigs: Alarm",
-					["fontName"] = "Noto Sans Regular",
-					["width"] = 139.9999847412109,
-					["objects"] = {
-						["title"] = true,
-						["close"] = true,
-						["ability"] = true,
-						["tooltip"] = true,
-						["sound"] = true,
-						["background"] = true,
-					},
-					["posy"] = 524.8001863188256,
-					["disabled"] = false,
-					["textMode"] = true,
 					["height"] = 119.9999694824219,
-					["proximity"] = true,
-					["sound"] = false,
+					["posy"] = 524.8001863188256,
 					["posx"] = 1050.311396960424,
+					["width"] = 139.9999847412109,
 				},
 			},
 		},
-		["BigWigs_Plugins_Victory"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 			["profiles"] = {
 				["Default"] = {
-					["bigwigsMsg"] = false,
-					["soundName"] = "BigWigs: Victory",
-					["blizzMsg"] = true,
+					["secondIcon"] = 7,
+					["disabled"] = false,
+					["icon"] = 8,
 				},
 			},
 		},
@@ -508,8 +510,8 @@ BigWigs3DB = {
 					["engageSound"] = "None",
 					["endPullSound"] = "BigWigs: Alarm",
 					["countType"] = "emphasized",
-					["voice"] = "English: Amy",
 					["startPullSound"] = "BigWigs: Long",
+					["voice"] = "English: Amy",
 				},
 			},
 		},
@@ -533,6 +535,9 @@ BigWigs3DB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["showZoneMessages"] = true,
+			["flash"] = true,
+			["fakeDBMVersion"] = false,
 		},
 	},
 }

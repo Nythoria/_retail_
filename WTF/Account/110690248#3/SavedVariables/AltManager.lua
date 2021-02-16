@@ -58,18 +58,18 @@ MethodAltManagerDB = {
 			["stored_anima"] = 190,
 			["ilevel"] = 191.5,
 			["level"] = "?",
-			["time_until_reset"] = 77354,
+			["time_until_reset"] = 15177,
 			["charlevel"] = 60,
 			["max_conduit_charges"] = 10,
-			["data_obtained"] = 1613208645,
-			["conduit_charges"] = 10,
-			["class"] = "PALADIN",
+			["worldboss"] = false,
+			["expires"] = 1613545199,
+			["data_obtained"] = 1613443622,
+			["renown"] = 10,
 			["name"] = "Yóshino",
 			["conquest_total"] = 0,
 			["soul_ash"] = 475,
-			["renown"] = 10,
-			["expires"] = 1613545199,
-			["worldboss"] = false,
+			["class"] = "PALADIN",
+			["conduit_charges"] = 10,
 		},
 		["Player-3391-0B3793E3"] = {
 			["stygia"] = 33,
@@ -99,9 +99,9 @@ MethodAltManagerDB = {
 			["guid"] = "Player-3391-0B3793E9",
 			["run_history"] = {
 				{
-					["completed"] = true,
-					["mapChallengeModeID"] = 381,
-					["level"] = 12,
+					["completed"] = false,
+					["mapChallengeModeID"] = 380,
+					["level"] = 14,
 					["thisWeek"] = true,
 				}, -- [1]
 				{
@@ -112,27 +112,57 @@ MethodAltManagerDB = {
 				}, -- [2]
 				{
 					["completed"] = true,
+					["mapChallengeModeID"] = 380,
+					["level"] = 12,
+					["thisWeek"] = true,
+				}, -- [3]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 381,
+					["level"] = 12,
+					["thisWeek"] = true,
+				}, -- [4]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 378,
+					["level"] = 12,
+					["thisWeek"] = true,
+				}, -- [5]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 382,
+					["level"] = 11,
+					["thisWeek"] = true,
+				}, -- [6]
+				{
+					["completed"] = true,
 					["mapChallengeModeID"] = 376,
 					["level"] = 10,
 					["thisWeek"] = true,
-				}, -- [3]
+				}, -- [7]
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 377,
+					["level"] = 8,
+					["thisWeek"] = true,
+				}, -- [8]
 			},
 			["dungeon"] = 378,
 			["conquest_earned"] = 200,
-			["stored_anima"] = 1814,
-			["ilevel"] = 216.6875,
+			["stored_anima"] = 2233,
+			["ilevel"] = 216.875,
 			["level"] = 14,
-			["worldboss"] = "Oranomoros",
 			["nathria_heroic"] = 4,
-			["time_until_reset"] = 29256,
 			["charlevel"] = 60,
 			["max_conduit_charges"] = 10,
+			["worldboss"] = "Oranomoros",
+			["time_until_reset"] = 18956,
+			["data_obtained"] = 1613439843,
 			["nathria_mythic"] = 3,
 			["expires"] = 1613545199,
-			["data_obtained"] = 1613256743,
-			["renown"] = 32,
 			["name"] = "Ririchíyo",
 			["conquest_total"] = 200,
+			["renown"] = 32,
 			["soul_ash"] = 615,
 			["class"] = "PRIEST",
 			["conduit_charges"] = 10,
@@ -141,16 +171,22 @@ MethodAltManagerDB = {
 			["stygia"] = 478,
 			["guid"] = "Player-3391-0BB2FD3A",
 			["run_history"] = {
+				{
+					["completed"] = true,
+					["mapChallengeModeID"] = 377,
+					["level"] = 12,
+					["thisWeek"] = true,
+				}, -- [1]
 			},
-			["dungeon"] = 377,
+			["dungeon"] = 382,
 			["conquest_earned"] = 0,
 			["stored_anima"] = 201,
 			["ilevel"] = 208.75,
-			["level"] = 12,
-			["time_until_reset"] = 77385,
+			["level"] = 13,
+			["time_until_reset"] = 48176,
 			["charlevel"] = 60,
 			["max_conduit_charges"] = 10,
-			["data_obtained"] = 1613208614,
+			["data_obtained"] = 1613324223,
 			["worldboss"] = false,
 			["expires"] = 1613545199,
 			["name"] = "Kúsano",

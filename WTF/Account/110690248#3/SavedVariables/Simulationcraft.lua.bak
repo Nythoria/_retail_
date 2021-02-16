@@ -7,13 +7,13 @@ SimulationCraftDB = {
 		["Eléonóra - Silvermoon"] = "Eléonóra - Silvermoon",
 		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
 		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Santáshelper - Silvermoon"] = "Santáshelper - Silvermoon",
+		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
 		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
-		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
+		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
+		["Santáshelper - Silvermoon"] = "Santáshelper - Silvermoon",
 	},
 	["profiles"] = {
 		["Sharutía - Silvermoon"] = {
@@ -30,20 +30,39 @@ SimulationCraftDB = {
 			},
 		},
 		["Yóshino - Silvermoon"] = {
+			["minimap"] = {
+				["hide"] = false,
+			},
+			["frame"] = {
+				["ofsx"] = 0,
+				["point"] = "CENTER",
+				["relativePoint"] = "CENTER",
+				["height"] = 400,
+				["ofsy"] = 0,
+				["width"] = 750,
+			},
 		},
-		["Santáshelper - Silvermoon"] = {
+		["Iríya - Ravencrest"] = {
 		},
 		["Ririchíyo - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
-		},
-		["Aryenís - Silvermoon"] = {
+			["frame"] = {
+				["ofsx"] = 0,
+				["point"] = "CENTER",
+				["relativePoint"] = "CENTER",
+				["height"] = 400,
+				["ofsy"] = 0,
+				["width"] = 750,
+			},
 		},
 		["Victoríque - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
+		},
+		["Aryenís - Silvermoon"] = {
 		},
 		["Mítsukí - Silvermoon"] = {
 			["minimap"] = {
@@ -52,7 +71,7 @@ SimulationCraftDB = {
 		},
 		["Rangii - Ravencrest"] = {
 		},
-		["Iríya - Ravencrest"] = {
+		["Santáshelper - Silvermoon"] = {
 		},
 	},
 }

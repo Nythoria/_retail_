@@ -28,3 +28,4 @@ LittleWigs: enabled
 BigWigs_Shadowlands: enabled
 BigWigs_CastleNathria: enabled
 AAP-Core: disabled
+TradeSkillMaster: disabled

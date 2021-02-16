@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-14T07:56:02Z
+-- RaiderIO Client Data. Generated on 2021-02-16T05:13:27Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -137,7 +137,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 873.4,
+        ["score"] = 957.9,
         ["best"] = {
           ["zone_id"] = 13309,
           ["level"] = 15,
@@ -150,10 +150,10 @@ ns.CLIENT_CHARACTERS = {
           [1] = {
             ["zone_id"] = 12831,
             ["level"] = 12,
-            ["upgrades"] = 0,
-            ["fraction"] = 1.122,
-            ["score"] = 104.77990184912626,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/10232759-12-halls-of-atonement?utm_source=client"
+            ["upgrades"] = 1,
+            ["fraction"] = 0.905,
+            ["score"] = 121.96164087906767,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/18305413-12-halls-of-atonement?utm_source=client"
           },
           [2] = {
             ["zone_id"] = 12837,
@@ -166,18 +166,18 @@ ns.CLIENT_CHARACTERS = {
           [3] = {
             ["zone_id"] = 12841,
             ["level"] = 11,
-            ["upgrades"] = 0,
-            ["fraction"] = 1.137,
-            ["score"] = 94.7036445107156,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/5821065-11-theater-of-pain?utm_source=client"
+            ["upgrades"] = 1,
+            ["fraction"] = 0.8,
+            ["score"] = 111.84826021461917,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/18261368-11-theater-of-pain?utm_source=client"
           },
           [4] = {
             ["zone_id"] = 12842,
-            ["level"] = 7,
-            ["upgrades"] = 2,
-            ["fraction"] = 0.797,
-            ["score"] = 73.27778668337534,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/2524829-7-sanguine-depths?utm_source=client"
+            ["level"] = 14,
+            ["upgrades"] = 0,
+            ["fraction"] = 1.193,
+            ["score"] = 123.4749417261811,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/18287901-14-sanguine-depths?utm_source=client"
           },
           [5] = {
             ["zone_id"] = 12916,
@@ -243,7 +243,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 365.9,
+        ["score"] = 488,
         ["best"] = {
           ["zone_id"] = 13334,
           ["level"] = 13,
@@ -303,11 +303,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [7] = {
             ["zone_id"] = 13309,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 12,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.897,
+            ["score"] = 122.04381509566619,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/18296716-12-de-other-side?utm_source=client"
           },
           [8] = {
             ["zone_id"] = 13334,

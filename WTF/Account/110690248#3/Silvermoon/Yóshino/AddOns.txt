@@ -26,3 +26,4 @@ RaiderIO_DB_KR_A: disabled
 ElvUI_OptionsUI: enabled
 BigWigs_CastleNathria: enabled
 LittleWigs: enabled
+TradeSkillMaster: disabled

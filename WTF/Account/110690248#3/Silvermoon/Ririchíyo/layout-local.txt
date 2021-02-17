@@ -6,6 +6,13 @@ X: -28
 Y: 89
 W: 235
 H: 480
+Frame: PremadeGroupsFilterDialog
+FrameLevel: 2
+Anchor: TOPLEFT
+X: 20
+Y: -142
+W: 300
+H: 427
 Frame: ScriptErrorsFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -55,10 +62,3 @@ X: -393
 Y: 80
 W: 320
 H: 150
-Frame: PremadeGroupsFilterDialog
-FrameLevel: 2
-Anchor: BOTTOM
-X: -311
-Y: 27
-W: 300
-H: 427

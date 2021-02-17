@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-16T05:03:24Z
+-- RaiderIO Client Data. Generated on 2021-02-17T06:37:08Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -251,6 +251,40 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [3] = {
+        ["zone_id"] = 13228,
+        ["level"] = 18,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.9942674240541096,
+        ["clear_time"] = "00:37:47.923",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Lorinfortuna",
+            ["role"] = "tank",
+            ["class_id"] = 12
+          },
+          [2] = {
+            ["name"] = "Vadimteodor",
+            ["role"] = "healer",
+            ["class_id"] = 7
+          },
+          [3] = {
+            ["name"] = "Ciresar",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [4] = {
+            ["name"] = "Denarr",
+            ["role"] = "dps",
+            ["class_id"] = 2
+          },
+          [5] = {
+            ["name"] = "Icefwry",
+            ["role"] = "dps",
+            ["class_id"] = 8
+          }
+        }
+      },
+      [4] = {
         ["zone_id"] = 12842,
         ["level"] = 18,
         ["upgrades"] = 0,
@@ -284,7 +318,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [4] = {
+      [5] = {
         ["zone_id"] = 12916,
         ["level"] = 17,
         ["upgrades"] = 2,
@@ -315,40 +349,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Scripé",
             ["role"] = "dps",
             ["class_id"] = 12
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 12841,
-        ["level"] = 17,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.8572525246521948,
-        ["clear_time"] = "00:31:43.957",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Notshara",
-            ["role"] = "tank",
-            ["class_id"] = 12
-          },
-          [2] = {
-            ["name"] = "Vadimteodor",
-            ["role"] = "healer",
-            ["class_id"] = 7
-          },
-          [3] = {
-            ["name"] = "Ciresar",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          },
-          [4] = {
-            ["name"] = "Denarr",
-            ["role"] = "dps",
-            ["class_id"] = 2
-          },
-          [5] = {
-            ["name"] = "Icefwry",
-            ["role"] = "dps",
-            ["class_id"] = 8
           }
         }
       }

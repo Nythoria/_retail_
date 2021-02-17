@@ -153,18 +153,18 @@ WanderersGambling = {
 	["whispers"] = false,
 	["active"] = 0,
 	["guildCutPercentage"] = 0.1,
-	["strings"] = {
+	["joinstats"] = {
 	},
 	["chat"] = true,
 	["house"] = 2826,
 	["loser"] = 0,
 	["UUID"] = "c6872e79-88db-4170-b07e-853edf4428b1",
-	["lastroll"] = "100000",
+	["isHouseCut"] = 0,
 	["hightie"] = {
 	},
-	["isHouseCut"] = 0,
+	["lastroll"] = "100000",
 	["lowtie"] = {
 	},
-	["joinstats"] = {
+	["strings"] = {
 	},
 }

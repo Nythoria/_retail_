@@ -8,9 +8,9 @@ W: 235
 H: 480
 Frame: PremadeGroupsFilterDialog
 FrameLevel: 2
-Anchor: TOPLEFT
-X: 20
-Y: -142
+Anchor: LEFT
+X: 120
+Y: 100
 W: 300
 H: 427
 Frame: ScriptErrorsFrame

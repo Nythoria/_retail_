@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 110,
 	["lastSanitation"] = 3,
-	["session"] = 103,
 	["errors"] = {
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
@@ -45,8 +45,8 @@ BugGrabberDB = {
 		}, -- [5]
 		{
 			["message"] = "File Interface\\AddOns\\TradeSkillMaster_AppHelper\\AppData.lua is empty.",
-			["session"] = 90,
 			["time"] = "2021/02/14 11:46:06",
+			["session"] = 90,
 			["counter"] = 3,
 		}, -- [6]
 		{
@@ -68,8 +68,8 @@ BugGrabberDB = {
 			["time"] = "2021/02/03 11:57:21",
 			["locals"] = "(*temporary) = \"0\"\n(*temporary) = \"table expected, got string\"\n = <function> defined =[C]:-1\n",
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0-27.lua\"]:372: in function <Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0.lua:359>",
-			["session"] = 103,
-			["counter"] = 77,
+			["session"] = 104,
+			["counter"] = 78,
 		}, -- [9]
 	},
 }

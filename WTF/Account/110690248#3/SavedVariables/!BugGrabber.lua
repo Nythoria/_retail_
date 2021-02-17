@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 104,
 	["lastSanitation"] = 3,
+	["session"] = 111,
 	["errors"] = {
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
@@ -45,8 +45,8 @@ BugGrabberDB = {
 		}, -- [5]
 		{
 			["message"] = "File Interface\\AddOns\\TradeSkillMaster_AppHelper\\AppData.lua is empty.",
-			["time"] = "2021/02/14 11:46:06",
 			["session"] = 90,
+			["time"] = "2021/02/14 11:46:06",
 			["counter"] = 3,
 		}, -- [6]
 		{

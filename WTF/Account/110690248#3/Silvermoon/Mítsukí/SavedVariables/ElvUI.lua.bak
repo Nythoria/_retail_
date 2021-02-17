@@ -24,160 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"3", -- [1]
-			"Dazzleboss-Hellfire", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dazzleboss-Hellfire", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			814, -- [11]
-			"Player-1587-0B306052", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dazzleboss-Hellfire|r",
-			[51] = 1612565477,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"Embalming Ichor on Bang", -- [1]
-			"Bang-GrimBatol", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Bang-GrimBatol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			815, -- [11]
-			"Player-1303-0BC080CD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Bang-GrimBatol|r",
-			[51] = 1612565478,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"2", -- [1]
-			"Dazzleboss-Hellfire", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dazzleboss-Hellfire", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			816, -- [11]
-			"Player-1587-0B306052", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dazzleboss-Hellfire|r",
-			[51] = 1612565478,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"1", -- [1]
-			"Dazzleboss-Hellfire", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Dazzleboss-Hellfire", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			817, -- [11]
-			"Player-1587-0B306052", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dazzleboss-Hellfire|r",
-			[51] = 1612565479,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"ok keep that add not so close to green poison ground so we wont die", -- [1]
-			"Farlok-AzjolNerub", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Farlok-AzjolNerub", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			820, -- [11]
-			"Player-1396-089062B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edFarlok-AzjolNerub|r",
-			[51] = 1612565483,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"wtf ", -- [1]
-			"Dazzleboss-Hellfire", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dazzleboss-Hellfire", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			828, -- [11]
-			"Player-1587-0B306052", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dazzleboss-Hellfire|r",
-			[51] = 1612565498,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
-		{
-			"add on blue", -- [1]
-			"Farlok-AzjolNerub", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Farlok-AzjolNerub", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			829, -- [11]
-			"Player-1396-089062B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edFarlok-AzjolNerub|r",
-			[51] = 1612565531,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
-		{
 			"on blue", -- [1]
 			"Farlok-AzjolNerub", -- [2]
 			"", -- [3]
@@ -198,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edFarlok-AzjolNerub|r",
 			[51] = 1612565552,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [8]
+		}, -- [1]
 		{
 			"Meat Hook on Mítsukí", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -220,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565555,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
+		}, -- [2]
 		{
 			"3", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -242,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565556,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [3]
 		{
 			"2", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -264,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565557,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [4]
 		{
 			"1", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -286,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565559,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [5]
 		{
 			"Meat Hook on Mítsukí", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -308,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [6]
 		{
 			"3", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -330,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565575,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [7]
 		{
 			"2", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -352,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565576,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [8]
 		{
 			"1", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -374,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565577,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [9]
 		{
 			"Embalming Ichor on Lelethis", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -396,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612565606,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [10]
 		{
 			"Meat Hook on Mítsukí", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -418,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565611,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [11]
 		{
 			"3", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -440,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565612,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [12]
 		{
 			"2", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -462,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565613,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [13]
 		{
 			"1", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -484,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [14]
 		{
 			"Meat Hook on Bang", -- [1]
 			"Bang-GrimBatol", -- [2]
@@ -506,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bang-GrimBatol|r",
 			[51] = 1612565629,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [15]
 		{
 			"3", -- [1]
 			"Bang-GrimBatol", -- [2]
@@ -528,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bang-GrimBatol|r",
 			[51] = 1612565631,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [16]
 		{
 			"2", -- [1]
 			"Bang-GrimBatol", -- [2]
@@ -550,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bang-GrimBatol|r",
 			[51] = 1612565631,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [17]
 		{
 			"1", -- [1]
 			"Bang-GrimBatol", -- [2]
@@ -572,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bang-GrimBatol|r",
 			[51] = 1612565633,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [18]
 		{
 			"NEED ?", -- [1]
 			"Dazzleboss-Hellfire", -- [2]
@@ -594,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dazzleboss-Hellfire|r",
 			[51] = 1612565662,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
+		}, -- [19]
 		{
 			"it doesn't really matter where the mob is as long as you are close enough to the platform the add can pull the boss in from the other side of the room", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -616,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565671,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [27]
+		}, -- [20]
 		{
 			"Frozen Binds", -- [1]
 			"Dazzleboss-Hellfire", -- [2]
@@ -638,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dazzleboss-Hellfire|r",
 			[51] = 1612565677,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [21]
 		{
 			"Frozen Binds on Bang", -- [1]
 			"Bang-GrimBatol", -- [2]
@@ -660,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Bang-GrimBatol|r",
 			[51] = 1612565693,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [22]
 		{
 			"Frozen Binds on Mítsukí", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -682,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565718,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14285:Player-3391-0BB2FD4D:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Ready for Raiding VII]|h|r!", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -704,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565766,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14367:Player-3391-0BB2FD4D:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Necrotic Wake]|h|r!", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -726,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565766,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14368:Player-3391-0BB2FD4D:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Necrotic Wake]|h|r!", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -748,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565766,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14366:Player-3391-0BD7B6BA:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[The Necrotic Wake]|h|r!", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -770,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612565766,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [27]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14367:Player-3391-0BD7B6BA:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Necrotic Wake]|h|r!", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -792,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612565766,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14368:Player-3391-0BD7B6BA:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Necrotic Wake]|h|r!", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -814,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612565766,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
+		}, -- [29]
 		{
 			"thanx", -- [1]
 			"Farlok-AzjolNerub", -- [2]
@@ -836,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edFarlok-AzjolNerub|r",
 			[51] = 1612565788,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
+		}, -- [30]
 		{
 			"thanks for coming :)", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -858,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565797,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
+		}, -- [31]
 		{
 			"again ?", -- [1]
 			"Dazzleboss-Hellfire", -- [2]
@@ -880,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dazzleboss-Hellfire|r",
 			[51] = 1612565832,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [32]
 		{
 			"nah we taking a break now]", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -902,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612565871,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [40]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:626:Player-3391-0BC1EC3F:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Lunar Festival Finery]|h|r!", -- [1]
 			"Angelicgirl-Silvermoon", -- [2]
@@ -924,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Angelicgirl|r",
 			[51] = 1612566514,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [34]
 		{
 			"hi", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -946,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612566753,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
+		}, -- [35]
 		{
 			"sorry crash", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -968,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612567022,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
+		}, -- [36]
 		{
 			"nws xD", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -990,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612567056,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [44]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8304:Player-3391-0BBAF573:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Mount Parade]|h|r!", -- [1]
 			"Dagand-Silvermoon", -- [2]
@@ -1012,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDagand|r",
 			[51] = 1612567159,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [38]
 		{
 			"Lance chargée sur Sînshinekai!", -- [1]
 			"Sînshinekai-LesSentinelles", -- [2]
@@ -1034,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sînshinekai-LesSentinelles|r",
 			[51] = 1612567186,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [39]
 		{
 			"Charged Spear on Lelethis", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1056,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612567197,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [40]
 		{
 			"2", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1078,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612567198,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [41]
 		{
 			"1", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1100,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612567199,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [42]
 		{
 			"you need staf?", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -1122,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612567258,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [50]
+		}, -- [43]
 		{
 			"Confession forcée sur Riveria!", -- [1]
 			"Riveria-LesSentinelles", -- [2]
@@ -1144,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Riveria-LesSentinelles|r",
 			[51] = 1612567874,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [44]
 		{
 			"ty", -- [1]
 			"Riveria-LesSentinelles", -- [2]
@@ -1166,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Riveria-LesSentinelles|r",
 			[51] = 1612567965,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
+		}, -- [45]
 		{
 			"follow", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -1188,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612567977,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [53]
+		}, -- [46]
 		{
 			"Déflagration purificatrice sur Starduheal!", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -1210,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612568029,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [47]
 		{
 			"Purifying Blast on Mítsukí", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -1232,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568049,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [48]
 		{
 			"Déflagration purificatrice sur Sînshinekai!", -- [1]
 			"Sînshinekai-LesSentinelles", -- [2]
@@ -1254,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sînshinekai-LesSentinelles|r",
 			[51] = 1612568062,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [49]
 		{
 			"Purifying Blast on Mítsukí", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -1276,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568078,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [50]
 		{
 			"Déflagration purificatrice sur Riveria!", -- [1]
 			"Riveria-LesSentinelles", -- [2]
@@ -1298,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Riveria-LesSentinelles|r",
 			[51] = 1612568091,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [51]
 		{
 			"Déflagration purificatrice sur Starduheal!", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -1320,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612568107,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [52]
 		{
 			"need ?", -- [1]
 			"Riveria-LesSentinelles", -- [2]
@@ -1342,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Riveria-LesSentinelles|r",
 			[51] = 1612568155,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [53]
 		{
 			"yea", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1364,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568169,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
+		}, -- [54]
 		{
 			"Run Through on Mítsukí", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -1386,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568406,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [55]
 		{
 			"Lost Confidence on Lelethis", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1408,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568419,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [56]
 		{
 			"Perte de confiance sur Riveria!", -- [1]
 			"Riveria-LesSentinelles", -- [2]
@@ -1430,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Riveria-LesSentinelles|r",
 			[51] = 1612568420,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [57]
 		{
 			"Run Through on Lelethis", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1452,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568426,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [58]
 		{
 			"3", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1474,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568431,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [66]
+		}, -- [59]
 		{
 			"2", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1496,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568432,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [67]
+		}, -- [60]
 		{
 			"1", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1518,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568433,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [68]
+		}, -- [61]
 		{
 			"Percée sur Starduheal!", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -1540,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612568483,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [62]
 		{
 			"Lost Confidence on Lelethis", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1562,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568497,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [63]
 		{
 			"Perte de confiance sur Riveria!", -- [1]
 			"Riveria-LesSentinelles", -- [2]
@@ -1584,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Riveria-LesSentinelles|r",
 			[51] = 1612568497,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [64]
 		{
 			"3", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1606,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568509,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [72]
+		}, -- [65]
 		{
 			"2", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1628,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568510,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [73]
+		}, -- [66]
 		{
 			"1", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1650,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568511,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [74]
+		}, -- [67]
 		{
 			"Run Through on Lelethis", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1672,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568552,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14326:Player-3391-0BB2FD4D:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Spires of Ascension]|h|r!", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -1694,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [69]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14324:Player-3391-0BB2FD4D:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Spires of Ascension]|h|r!", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -1716,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14325:Player-3391-0BB2FD4D:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spires of Ascension]|h|r!", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -1738,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14326:Player-3391-0BD7B6BA:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Spires of Ascension]|h|r!", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1760,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [72]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14324:Player-3391-0BD7B6BA:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Spires of Ascension]|h|r!", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1782,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14325:Player-3391-0BD7B6BA:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spires of Ascension]|h|r!", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -1804,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568562,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [74]
 		{
 			"ypi need?", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -1826,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612568595,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [82]
+		}, -- [75]
 		{
 			"I do the one I have equipped is a ele trinket", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -1848,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612568632,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [76]
 		{
 			"ok", -- [1]
 			"Starduheal-Elune", -- [2]
@@ -1870,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starduheal-Elune|r",
 			[51] = 1612568651,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [84]
+		}, -- [77]
 		{
 			"Looking for lvl 60 Tank for a quick Odyn Kill (1st boss in the ToV raid) - Offer 5K for the assist -- /w me", -- [1]
 			"Monsterbacke-Silvermoon", -- [2]
@@ -1892,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMonsterbacke|r",
 			[51] = 1612568672,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [78]
 		{
 			"wts |cffa335ee|Hitem:183031::::::::60:70::6:5:7187:41:7193:1498:6646:1:28:753:::|h[Soldier's Stoneband Wristguards]|h|r", -- [1]
 			"Floraa-Silvermoon", -- [2]
@@ -1914,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Floraa|r",
 			[51] = 1612568675,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [79]
 		{
 			"WTS Key 10=150k --12= 190k -- 14  =240k   - 15= 350K  Boost Pvp Arena And RBG       boost lvlup 50-60 under 4h Boost           only 2000k gold and 100% guarantee For In time.... Whisper Me For More Info", -- [1]
 			"Firewavee-Silvermoon", -- [2]
@@ -1936,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFirewavee|r",
 			[51] = 1612568678,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [80]
 		{
 			"Are you a bitch? Do you wear pink on Wednesdays? Then get in loser, we're going raiding! <Mean Girls> 9/10HC is recruiting mage/lock/boomie to strengthen our future Mythic roster. Raid times: Wed/Sun 8-11 ST. Come sit with us!", -- [1]
 			"Sappho-Silvermoon", -- [2]
@@ -1958,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sappho|r",
 			[51] = 1612568687,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [81]
 		{
 			"<NOVA>  MEGA SALE  ||Keystone Master (All 15s  = 2550k|| ||M+10=150k|| ||M+12=190k|| ||M+14=260k|| ||M+15  = 400k|| ||M+16=1.1M|| ||M+17=1.4M|| ||M+18=1.9M|| [Castle Nathria HC Full = 500K , VIP Trader = 200k , 2x Trader = 360k|| ||Curve=160k||", -- [1]
 			"Novajiiren-Silvermoon", -- [2]
@@ -1980,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novajiiren|r",
 			[51] = 1612568693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [82]
 		{
 			"anyone kind enough to boost me to 1.8 (2s) with 200k gold?(current rank 1,6)", -- [1]
 			"Kotass-Silvermoon", -- [2]
@@ -2002,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kotass|r",
 			[51] = 1612568706,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [83]
 		{
 			"<Moosebar> 10/10HC 3/10M is a semi-hardcore guild going for Mythic progression. Looking for dedicated players that share our mythic mindset! Raid days are Wed/Sat/Mon 8PM-11PM ST. /w me for more info", -- [1]
 			"Kalytha-Silvermoon", -- [2]
@@ -2024,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKalytha|r",
 			[51] = 1612568709,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [84]
 		{
 			"[WTS] Fast Powerleveling to 60 lvl! World & Daily Questing, Renown weekly cap, Gear farming, NEW Mounts, and other boosts. We have over 13898 Trustpilot reviews. Please, visit WowVendor.net for more info!", -- [1]
 			"Tashtarka-Silvermoon", -- [2]
@@ -2046,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTashtarka|r",
 			[51] = 1612568711,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [85]
 		{
 			"WTS |cffa335ee|Hitem:163577::::::::1:1446:::::::|h[Conqueror's Scythemaw]|h|r |cffa335ee|Hitem:142369::::::::1:1446:::::::|h[Ivory Hawkstrider]|h|r |cffa335ee|Hitem:103638::::::::1:1446:::::::|h[Reins of the Ashhide Mushan Beast]|h|r for gold!", -- [1]
 			"Lolipeep-Silvermoon", -- [2]
@@ -2068,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLolipeep|r",
 			[51] = 1612568726,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [86]
 		{
 			"also selling |cffffff00|Hachievement:14513:Player-3391-0BA8455F:1:11:27:20:4294967295:4294967295:4294967295:4294967295|h[Tour of Duty: Maldraxxus]|h|r |cffffff00|Hachievement:12567:Player-3391-0BA8455F:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[The Horde Slayer]|h|r. /w me for price!", -- [1]
 			"Lolipeep-Silvermoon", -- [2]
@@ -2090,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLolipeep|r",
 			[51] = 1612568726,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [87]
 		{
 			"thanks for coming", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -2112,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568727,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [95]
+		}, -- [88]
 		{
 			"Looking for lvl 60 Tank for a quick Odyn Kill (1st boss in the ToV raid) - Offer 5K for the assist -- /w me", -- [1]
 			"Monsterbacke-Silvermoon", -- [2]
@@ -2134,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMonsterbacke|r",
 			[51] = 1612568729,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:964:Player-3391-0BD7B6BA:1:2:5:21:4294967295:4294967295:4294967295:4294967295|h[Going Down?]|h|r!", -- [1]
 			"Lelethis-Silvermoon", -- [2]
@@ -2156,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lelethis|r",
 			[51] = 1612568730,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [90]
 		{
 			"switching to mains to do M+ now :)", -- [1]
 			"Mítsukí-Silvermoon", -- [2]
@@ -2178,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMítsukí|r",
 			[51] = 1612568734,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [91]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::50:102:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r", -- [1]
 			"Neutical-Silvermoon", -- [2]
@@ -2199,6 +2045,160 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffe7b09Neutical|r",
 			[51] = 1612568744,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"< Competitive Casuals > Currently recruiting people for our core team ( 1/10 Mythic ) and for our Casual Raid team ( Will start on HC this week ). We need dps ( ranged )for the core team and we can use healers in the casual team. /w me if interested!", -- [1]
+			"Demonstbp-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Demonstbp-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"Player-3391-0B1196EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Demonstbp|r",
+			[51] = 1613056391,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"WTS |cff71d5ff|Hspell:102350:0|h[Swift Lovebird]|h|r Cheap", -- [1]
+			"Deâthlord-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Deâthlord-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"Player-3391-0B8955D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Deâthlord|r",
+			[51] = 1613056395,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"WTB |cffa335ee|Hitem:183035::::::::60:577::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r", -- [1]
+			"Qkt-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Qkt-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			58, -- [11]
+			"Player-3391-0B3F2210", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Qkt|r",
+			[51] = 1613056399,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"mythic boe farm/w min 190 lvl", -- [1]
+			"Äpocalipsee-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Äpocalipsee-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"Player-3391-09AFE310", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Äpocalipsee|r",
+			[51] = 1613056400,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"<Nova> Offering Castle Nathria HC 10/10 500k - Traders - 2 Last Boss 250k/ [Mythic 0-18 In Time][+10 135k /+12  175k /+14 245k/+15 375k] [ArmorStack/Specify keys ] [All 15s in time 2.5M]  / CN NM 10/10 190k Traders available / Also CN Mythic /w More!", -- [1]
+			"Clairredfild-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Clairredfild-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"Player-3391-0A796191", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Clairredfild|r",
+			[51] = 1613056400,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"<Icecrown Community> Currently recuting more boosters for M+ & Raids , if you are interested join our community or wanna learn more info you can PM me for more info :)", -- [1]
+			"Iccyolo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Iccyolo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-3391-0BE17914", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Iccyolo|r",
+			[51] = 1613056401,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"wts |cffffffff|Hitem:172321::::::::60:577::66:3:6758:7194:1532::::|h[Umbrahide Armguards]|h|r cheaper than ah!", -- [1]
+			"Quia-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Quia-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-3391-0BDB7AEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Quia|r",
+			[51] = 1613056402,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

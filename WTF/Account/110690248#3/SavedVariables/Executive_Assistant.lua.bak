@@ -1,15 +1,117 @@
 
 ExecAssistDB = {
 	["char"] = {
-		["Iríya - Ravencrest"] = {
+		["Mítsukí - Silvermoon"] = {
 			["map"] = {
+				["GTP"] = {
+					["g962072"] = {
+						["p"] = "g67281",
+						["sibMap"] = {
+							"t866548", -- [1]
+							"t138408", -- [2]
+						},
+						["isCollapsed"] = true,
+					},
+					["g915302"] = {
+						["p"] = "g67281",
+						["sibMap"] = {
+							"t336891", -- [1]
+							"t661502", -- [2]
+							"t286667", -- [3]
+						},
+						["isCollapsed"] = false,
+					},
+					["t336891"] = {
+						["isCollapsed"] = true,
+						["p"] = "g915302",
+					},
+					["t138408"] = {
+						["isCollapsed"] = true,
+						["p"] = "g962072",
+					},
+					["t34248"] = {
+						["isCollapsed"] = true,
+						["p"] = "g467930",
+					},
+					["t866548"] = {
+						["isCollapsed"] = true,
+						["p"] = "g962072",
+					},
+					["g134805"] = {
+						["p"] = "g67281",
+						["sibMap"] = {
+							"t650156", -- [1]
+							"t669042", -- [2]
+						},
+						["isCollapsed"] = true,
+					},
+					["t92876"] = {
+						["isCollapsed"] = true,
+						["p"] = "g467930",
+					},
+					["t661502"] = {
+						["isCollapsed"] = true,
+						["p"] = "g915302",
+					},
+					["t317784"] = {
+						["isCollapsed"] = true,
+						["p"] = "g467930",
+					},
+					["t117838"] = {
+						["isCollapsed"] = true,
+						["p"] = "g446130",
+					},
+					["__garden"] = {
+						["sibMap"] = {
+							"g67281", -- [1]
+							"g446130", -- [2]
+						},
+					},
+					["t669042"] = {
+						["isCollapsed"] = true,
+						["p"] = "g134805",
+					},
+					["g467930"] = {
+						["p"] = "g67281",
+						["sibMap"] = {
+							"t92876", -- [1]
+							"t317784", -- [2]
+							"t34248", -- [3]
+						},
+						["isCollapsed"] = false,
+					},
+					["t650156"] = {
+						["isCollapsed"] = true,
+						["p"] = "g134805",
+					},
+					["g446130"] = {
+						["p"] = "__garden",
+						["sibMap"] = {
+							"t117838", -- [1]
+							"t677226", -- [2]
+						},
+						["isCollapsed"] = false,
+					},
+					["t286667"] = {
+						["isCollapsed"] = true,
+						["p"] = "g915302",
+					},
+					["t677226"] = {
+						["isCollapsed"] = true,
+						["p"] = "g446130",
+					},
+					["g67281"] = {
+						["p"] = "__garden",
+						["sibMap"] = {
+							"g134805", -- [1]
+							"g962072", -- [2]
+							"g915302", -- [3]
+							"g467930", -- [4]
+						},
+						["isCollapsed"] = false,
+					},
+				},
 			},
-			["DBIconTable"] = {
-				["hide"] = false,
-			},
-			["useTaskWindow"] = true,
-			["charSpecificCmdLineTarget"] = false,
-			["useDataBrokerTooltip"] = true,
 		},
 		["Kúsano - Silvermoon"] = {
 			["map"] = {
@@ -35,12 +137,8 @@ ExecAssistDB = {
 						},
 					},
 					["t117838"] = {
+						["isCollapsed"] = true,
 						["p"] = "g446130",
-						["isCollapsed"] = true,
-					},
-					["t138408"] = {
-						["p"] = "g962072",
-						["isCollapsed"] = true,
 					},
 					["g446130"] = {
 						["p"] = "__garden",
@@ -48,6 +146,10 @@ ExecAssistDB = {
 							"t117838", -- [1]
 						},
 						["isCollapsed"] = false,
+					},
+					["t138408"] = {
+						["isCollapsed"] = true,
+						["p"] = "g962072",
 					},
 					["g67281"] = {
 						["p"] = "__garden",
@@ -57,13 +159,12 @@ ExecAssistDB = {
 						["isCollapsed"] = false,
 					},
 					["t866548"] = {
-						["p"] = "g962072",
 						["isCollapsed"] = false,
+						["p"] = "g962072",
 					},
 				},
 				["char"] = {
 					["p"] = "player",
-					["isCollapsed"] = false,
 					["PGT"] = {
 						["g134805"] = {
 							["p"] = "g67281",
@@ -95,12 +196,6 @@ ExecAssistDB = {
 							},
 							["isCollapsed"] = false,
 						},
-						["g962072"] = {
-							["p"] = "g67281",
-							["sibMap"] = {
-							},
-							["isCollapsed"] = false,
-						},
 						["g67281"] = {
 							["p"] = "__garden",
 							["sibMap"] = {
@@ -111,124 +206,19 @@ ExecAssistDB = {
 							},
 							["isCollapsed"] = false,
 						},
+						["g962072"] = {
+							["p"] = "g67281",
+							["sibMap"] = {
+							},
+							["isCollapsed"] = false,
+						},
 					},
+					["isCollapsed"] = false,
 				},
 			},
 			["useTaskWindow"] = false,
 		},
-		["Mítsukí - Silvermoon"] = {
-			["map"] = {
-				["GTP"] = {
-					["g962072"] = {
-						["p"] = "g67281",
-						["sibMap"] = {
-							"t866548", -- [1]
-							"t138408", -- [2]
-						},
-						["isCollapsed"] = true,
-					},
-					["g915302"] = {
-						["p"] = "g67281",
-						["sibMap"] = {
-							"t336891", -- [1]
-							"t661502", -- [2]
-							"t286667", -- [3]
-						},
-						["isCollapsed"] = false,
-					},
-					["t336891"] = {
-						["p"] = "g915302",
-						["isCollapsed"] = true,
-					},
-					["t138408"] = {
-						["p"] = "g962072",
-						["isCollapsed"] = true,
-					},
-					["t34248"] = {
-						["p"] = "g467930",
-						["isCollapsed"] = true,
-					},
-					["t866548"] = {
-						["p"] = "g962072",
-						["isCollapsed"] = true,
-					},
-					["g134805"] = {
-						["p"] = "g67281",
-						["sibMap"] = {
-							"t650156", -- [1]
-							"t669042", -- [2]
-						},
-						["isCollapsed"] = true,
-					},
-					["t92876"] = {
-						["p"] = "g467930",
-						["isCollapsed"] = true,
-					},
-					["t661502"] = {
-						["p"] = "g915302",
-						["isCollapsed"] = true,
-					},
-					["t317784"] = {
-						["p"] = "g467930",
-						["isCollapsed"] = true,
-					},
-					["g67281"] = {
-						["p"] = "__garden",
-						["sibMap"] = {
-							"g134805", -- [1]
-							"g962072", -- [2]
-							"g915302", -- [3]
-							"g467930", -- [4]
-						},
-						["isCollapsed"] = false,
-					},
-					["t669042"] = {
-						["p"] = "g134805",
-						["isCollapsed"] = true,
-					},
-					["t677226"] = {
-						["p"] = "g446130",
-						["isCollapsed"] = true,
-					},
-					["g467930"] = {
-						["p"] = "g67281",
-						["sibMap"] = {
-							"t92876", -- [1]
-							"t317784", -- [2]
-							"t34248", -- [3]
-						},
-						["isCollapsed"] = false,
-					},
-					["t650156"] = {
-						["p"] = "g134805",
-						["isCollapsed"] = true,
-					},
-					["t286667"] = {
-						["p"] = "g915302",
-						["isCollapsed"] = true,
-					},
-					["g446130"] = {
-						["p"] = "__garden",
-						["sibMap"] = {
-							"t117838", -- [1]
-							"t677226", -- [2]
-						},
-						["isCollapsed"] = false,
-					},
-					["__garden"] = {
-						["sibMap"] = {
-							"g67281", -- [1]
-							"g446130", -- [2]
-						},
-					},
-					["t117838"] = {
-						["p"] = "g446130",
-						["isCollapsed"] = true,
-					},
-				},
-			},
-		},
-		["Yóshino - Silvermoon"] = {
+		["Iríya - Ravencrest"] = {
 			["map"] = {
 			},
 			["DBIconTable"] = {
@@ -316,41 +306,41 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t336891",
-					["p"] = "g915302",
-					["taskName"] = "1 Done",
 					["isTask"] = true,
+					["id"] = "t336891",
+					["taskName"] = "1 Done",
+					["p"] = "g915302",
+					["defaultEnabled"] = true,
 				},
 				["t138408"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t138408",
-					["p"] = "g962072",
-					["taskName"] = "Wing 2",
 					["isTask"] = true,
+					["id"] = "t138408",
+					["taskName"] = "Wing 2",
+					["p"] = "g962072",
+					["defaultEnabled"] = true,
 				},
 				["t34248"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t34248",
-					["p"] = "g467930",
-					["taskName"] = "10 Bosses",
 					["isTask"] = true,
+					["id"] = "t34248",
+					["taskName"] = "10 Bosses",
+					["p"] = "g467930",
+					["defaultEnabled"] = true,
 				},
 				["t866548"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t866548",
-					["p"] = "g962072",
-					["taskName"] = "Wing 1",
 					["isTask"] = true,
+					["id"] = "t866548",
+					["taskName"] = "Wing 1",
+					["p"] = "g962072",
+					["defaultEnabled"] = true,
 				},
 				["g134805"] = {
 					["hideDays"] = {
@@ -379,11 +369,11 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t92876",
-					["p"] = "g467930",
-					["taskName"] = "3 Bosses",
 					["isTask"] = true,
+					["id"] = "t92876",
+					["taskName"] = "3 Bosses",
+					["p"] = "g467930",
+					["defaultEnabled"] = true,
 				},
 				["garden"] = {
 					["DO"] = {
@@ -395,63 +385,51 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t661502",
-					["p"] = "g915302",
-					["taskName"] = "4 Done",
 					["isTask"] = true,
+					["id"] = "t661502",
+					["taskName"] = "4 Done",
+					["p"] = "g915302",
+					["defaultEnabled"] = true,
 				},
 				["t317784"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
+					["isTask"] = true,
 					["id"] = "t317784",
-					["p"] = "g467930",
 					["taskName"] = "7 Bosses",
-					["isTask"] = true,
-				},
-				["g67281"] = {
-					["hideDays"] = {
-					},
-					["p"] = "garden",
-					["DO"] = {
-						"g134805", -- [1]
-						"g962072", -- [2]
-						"g915302", -- [3]
-						"g467930", -- [4]
-						"t118929", -- [5]
-					},
-					["isGroup"] = true,
-					["id"] = "g67281",
-					["listName"] = "Weekly",
-					["G"] = {
-						{
-							["id"] = "g67281",
-							["oo"] = 10,
-						}, -- [1]
-					},
+					["p"] = "g467930",
 					["defaultEnabled"] = true,
 				},
-				["t117838"] = {
+				["t118929"] = {
 					["hideDays"] = {
 					},
-					["resetType"] = "Daily Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t117838",
-					["p"] = "g446130",
-					["taskName"] = "Calling",
+					["resetType"] = "Weekly Automatic",
 					["isTask"] = true,
+					["id"] = "t118929",
+					["taskName"] = "Favors",
+					["p"] = "g67281",
+					["defaultEnabled"] = true,
 				},
 				["t669042"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t669042",
-					["p"] = "g134805",
-					["taskName"] = "Souls",
 					["isTask"] = true,
+					["id"] = "t669042",
+					["taskName"] = "Souls",
+					["p"] = "g134805",
+					["defaultEnabled"] = true,
+				},
+				["t677226"] = {
+					["hideDays"] = {
+					},
+					["resetType"] = "Daily Automatic",
+					["isTask"] = true,
+					["id"] = "t677226",
+					["taskName"] = "Anima Conductor",
+					["p"] = "g446130",
+					["defaultEnabled"] = true,
 				},
 				["g467930"] = {
 					["hideDays"] = {
@@ -481,11 +459,21 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t650156",
-					["p"] = "g134805",
-					["taskName"] = "1k Anima",
 					["isTask"] = true,
+					["id"] = "t650156",
+					["taskName"] = "1k Anima",
+					["p"] = "g134805",
+					["defaultEnabled"] = true,
+				},
+				["t286667"] = {
+					["hideDays"] = {
+					},
+					["resetType"] = "Weekly Automatic",
+					["isTask"] = true,
+					["id"] = "t286667",
+					["taskName"] = "10 Done",
+					["p"] = "g915302",
+					["defaultEnabled"] = true,
 				},
 				["g446130"] = {
 					["hideDays"] = {
@@ -506,35 +494,37 @@ ExecAssistDB = {
 					},
 					["defaultEnabled"] = true,
 				},
-				["t286667"] = {
-					["hideDays"] = {
-					},
-					["resetType"] = "Weekly Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t286667",
-					["p"] = "g915302",
-					["taskName"] = "10 Done",
-					["isTask"] = true,
-				},
-				["t677226"] = {
+				["t117838"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Daily Automatic",
-					["defaultEnabled"] = true,
-					["id"] = "t677226",
-					["p"] = "g446130",
-					["taskName"] = "Anima Conductor",
 					["isTask"] = true,
+					["id"] = "t117838",
+					["taskName"] = "Calling",
+					["p"] = "g446130",
+					["defaultEnabled"] = true,
 				},
-				["t118929"] = {
+				["g67281"] = {
 					["hideDays"] = {
 					},
-					["resetType"] = "Weekly Automatic",
+					["p"] = "garden",
+					["DO"] = {
+						"g134805", -- [1]
+						"g962072", -- [2]
+						"g915302", -- [3]
+						"g467930", -- [4]
+						"t118929", -- [5]
+					},
+					["isGroup"] = true,
+					["id"] = "g67281",
+					["listName"] = "Weekly",
+					["G"] = {
+						{
+							["id"] = "g67281",
+							["oo"] = 10,
+						}, -- [1]
+					},
 					["defaultEnabled"] = true,
-					["id"] = "t118929",
-					["p"] = "g67281",
-					["taskName"] = "Favors",
-					["isTask"] = true,
 				},
 			},
 		},
@@ -542,13 +532,13 @@ ExecAssistDB = {
 			["ldbIcon"] = "enabled",
 			["WeeklyResetDay"] = 4,
 			["cfg_groupColor"] = {
-				["b"] = 1,
-				["g"] = 0.9490196078431372,
 				["r"] = 0,
+				["g"] = 0.9490196078431372,
+				["b"] = 1,
 			},
 			["DailyResetTime"] = 8,
 		},
-		["nextMidnightReset"] = 1613520000,
+		["nextMidnightReset"] = 1613606400,
 		["tooltip"] = {
 			["standard_size"] = 11,
 			["header_size"] = 11,
@@ -563,9 +553,9 @@ ExecAssistDB = {
 			},
 			["rightMouse_togglesShowChecked"] = false,
 			["color_taskCounts"] = {
-				["b"] = 1,
-				["g"] = 0.7568627450980392,
 				["r"] = 0,
+				["g"] = 0.7568627450980392,
+				["b"] = 1,
 			},
 			["OnlyCurrentChar"] = false,
 			["tooltipStyle"] = {
@@ -574,18 +564,18 @@ ExecAssistDB = {
 					["a"] = 0.6579812169075012,
 				},
 				["useStyle"] = true,
-				["bdrcolor"] = {
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
 				["edgeFile"] = "1 Pixel",
+				["bdrcolor"] = {
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
+				},
 				["insets"] = 1,
 			},
 			["color_Group"] = {
-				["b"] = 1,
-				["g"] = 0.9882352941176471,
 				["r"] = 0,
+				["g"] = 0.9882352941176471,
+				["b"] = 1,
 			},
 			["showChecked"] = false,
 			["displayType_onHeaders"] = 4,
@@ -593,8 +583,8 @@ ExecAssistDB = {
 			["AutoHideDelay"] = 0.5,
 			["snowflake_size"] = 11,
 		},
-		["nextWeeklyReset"] = 1613545200,
-		["nextDailyReset"] = 1613545200,
+		["nextWeeklyReset"] = 1614150000,
+		["nextDailyReset"] = 1613631600,
 		["taskWindow"] = {
 			["locked"] = true,
 			["toggleState_ToggledOff"] = true,
@@ -614,10 +604,8 @@ ExecAssistDB = {
 			["Kúsano - Silvermoon"] = {
 				["agg"] = {
 					["t336891"] = {
-						["checked"] = true,
 					},
 					["t650156"] = {
-						["checked"] = true,
 					},
 				},
 				["charClass"] = "DRUID",
@@ -625,21 +613,16 @@ ExecAssistDB = {
 			["Ririchíyo - Silvermoon"] = {
 				["agg"] = {
 					["t669042"] = {
-						["checked"] = true,
 					},
 					["t650156"] = {
-						["checked"] = true,
 					},
 					["t336891"] = {
-						["checked"] = true,
-					},
-					["t677226"] = {
-					},
-					["t92876"] = {
-						["checked"] = true,
 					},
 					["t118929"] = {
-						["checked"] = true,
+					},
+					["t92876"] = {
+					},
+					["t677226"] = {
 					},
 				},
 				["charClass"] = "PRIEST",
@@ -647,31 +630,28 @@ ExecAssistDB = {
 			["Victoríque - Silvermoon"] = {
 				["agg"] = {
 					["t669042"] = {
-						["checked"] = true,
-					},
-					["t650156"] = {
-						["checked"] = true,
 					},
 					["t118929"] = {
-						["checked"] = true,
+					},
+					["t650156"] = {
 					},
 				},
 				["charClass"] = "WARLOCK",
 			},
-			["Iríya - Ravencrest"] = {
+			["Mítsukí - Silvermoon"] = {
 				["agg"] = {
 				},
-				["charClass"] = "MAGE",
+				["charClass"] = "SHAMAN",
 			},
 			["Akatsúki - Silvermoon"] = {
 				["agg"] = {
 				},
 				["charClass"] = "MONK",
 			},
-			["Mítsukí - Silvermoon"] = {
+			["Iríya - Ravencrest"] = {
 				["agg"] = {
 				},
-				["charClass"] = "SHAMAN",
+				["charClass"] = "MAGE",
 			},
 		},
 		["IsOldHat"] = true,
@@ -681,8 +661,8 @@ ExecAssistDB = {
 		["Kúsano - Silvermoon"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
-		["Iríya - Ravencrest"] = "Default",
-		["Akatsúki - Silvermoon"] = "Default",
 		["Mítsukí - Silvermoon"] = "Default",
+		["Akatsúki - Silvermoon"] = "Default",
+		["Iríya - Ravencrest"] = "Default",
 	},
 }

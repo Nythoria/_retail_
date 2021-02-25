@@ -1,13 +1,17 @@
 # LittleWigs
 
-## [v9.0.28](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.28) (2021-02-07)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.27...v9.0.28) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.0.30](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.30) (2021-02-25)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.29...v9.0.30) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Shadowlands/TheNecroticWake/Nalthor: Add an early warning for "Frozen Binds", mark its target (#552)  
-- Update zhTW/zhCN (#581)  
-- Shadowlands/Plaguefall/Trash: Add warnings for "Beckon Slime" (#562)  
-- Update deDE (#580)  
-- Shadowlands/SpiresOfAscension/Oryphrion: Fix locale  
-- Update ruRU (#579)  
-- Update ruRU (#578)  
-- Update ptBR (#577)  
+- MoP/MogushanPalace/Gekkan: Use a different method to detect the encounter, disable warnings for casts done by trash, clean up options (#590)  
+- Update deDE (#589)  
+- Update ptBR (#588)  
+- Shadowlands/Plaguefall/Trash: Change the description for "Stealthlings" slightly  
+- Shadowlands/Plaguefall/Trash: Fix the description for "Stealthlings"  
+- Shadowlands/Plaguefall/Trash: Warn when Stealthlings spawn (#584)  
+- Shadowlands/MistsOfTirnaScithe: Various warning and timer improvements  
+- Shadowlands/HallsOfAtonement/Aleez: Fix interrupt filter  
+- Shadowlands/TheNecroticWake/Trash: Add some throttles  
+- Update zhTW  
+- Update zhTW (#585)  
+- Update zhTW (#586)  

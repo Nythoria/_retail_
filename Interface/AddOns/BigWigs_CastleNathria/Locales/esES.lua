@@ -29,8 +29,6 @@ end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "esES")
 if L then
-	-- L.stage2_yell = "The anticipation to use this relic is killing me! Though, it will more likely kill you."
-	-- L.stage3_yell = "I hope this wondrous item is as lethal as it looks!"
 	L.tear = "Rasgadura" -- Short for Dimensional Tear
 	L.spirits = "Espíritus" -- Short for Fleeting Spirits
 	L.seeds = "Semillas" -- Short for Seeds of Extinction
@@ -104,6 +102,7 @@ if L then
 	-- L.second_blade = "Second Blade"
 
 	-- L.skirmishers = "Skirmishers" -- Short for Stone Legion Skirmishers
+	L.eruption = "Erupción" -- Short for Reverberating Eruption
 
 	-- L.custom_on_stop_timers = "Always show ability bars"
 	-- L.custom_on_stop_timers_desc = "Just for testing right now"

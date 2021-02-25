@@ -1,7 +1,16 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+		["Sharutía - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Kúsano - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Eléonóra - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Akatsúki - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Mítsukí - Silvermoon"] = "Ririchíyo - Silvermoon",
 		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Victoríque - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Aryenís - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Yóshino - Silvermoon"] = "Ririchíyo - Silvermoon",
+		["Alyettes - Ravencrest"] = "Ririchíyo - Silvermoon",
 	},
 	["profiles"] = {
 		["Ririchíyo - Silvermoon"] = {
@@ -28,7 +37,7 @@ Details_StreamerDB = {
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
 			["author"] = "Details! Team",
-			["y"] = 4.57763671875e-05,
+			["font_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
@@ -38,6 +47,16 @@ Details_StreamerDB = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -49,17 +68,7 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["font_size"] = 10,
+			["y"] = 4.57763671875e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,

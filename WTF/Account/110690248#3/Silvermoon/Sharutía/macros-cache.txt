@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "brez" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help][@target, help]Raise Ally; Raise Ally
+END

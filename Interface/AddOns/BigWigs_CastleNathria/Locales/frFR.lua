@@ -31,8 +31,6 @@ end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "frFR")
 if L then
-	L.stage2_yell = "Oh, celle-là, je meurs d'envie de la voir en action. Mais c'est plutôt vous qui allez mourir."
-	L.stage3_yell = "J'espère que cette petite merveille sera aussi meurtrière qu'elle en a l'air."
 	L.tear = "Déchirure" -- Short for Dimensional Tear
 	L.spirits = "Esprits" -- Short for Fleeting Spirits
 	L.seeds = "Graines" -- Short for Seeds of Extinction
@@ -106,6 +104,7 @@ if L then
 	L.second_blade = "Deuxième rebond"
 
 	L.skirmishers = "Tirailleuses" -- Short for Stone Legion Skirmishers (Tirailleuse de la Légion de pierre)
+	L.eruption = "Éruption" -- Short for Reverberating Eruption
 
 	L.custom_on_stop_timers = "Toujours montrer les barres de techniques"
 	L.custom_on_stop_timers_desc = "En cours de test"

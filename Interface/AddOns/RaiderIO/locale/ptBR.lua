@@ -1,4 +1,4 @@
--- Generated from CurseForge on Tue Feb 16 07:00:13 UTC 2021
+-- Generated from CurseForge on Thu Feb 25 06:59:36 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("ptBR") then

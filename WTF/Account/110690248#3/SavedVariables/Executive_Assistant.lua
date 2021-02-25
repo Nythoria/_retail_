@@ -192,13 +192,15 @@ ExecAssistDB = {
 						["isCollapsed"] = true,
 						["p"] = "g446130",
 					},
-					["t669042"] = {
-						["isCollapsed"] = true,
-						["p"] = "g134805",
-					},
 					["t677226"] = {
 						["isCollapsed"] = true,
 						["p"] = "g446130",
+					},
+					["__garden"] = {
+						["sibMap"] = {
+							"g67281", -- [1]
+							"g446130", -- [2]
+						},
 					},
 					["g467930"] = {
 						["p"] = "g67281",
@@ -225,11 +227,9 @@ ExecAssistDB = {
 						["isCollapsed"] = true,
 						["p"] = "g915302",
 					},
-					["__garden"] = {
-						["sibMap"] = {
-							"g67281", -- [1]
-							"g446130", -- [2]
-						},
+					["t669042"] = {
+						["isCollapsed"] = true,
+						["p"] = "g134805",
 					},
 					["g67281"] = {
 						["p"] = "__garden",
@@ -248,25 +248,116 @@ ExecAssistDB = {
 	["global"] = {
 		["clickmap"] = {
 			["ClickMap_Config"] = {
+				["name"] = "|cffff9966Cfg|r: Open |cff87d8deClick Map Config Dialog|r",
 				["c"] = true,
 				["s"] = true,
 				["code"] = "Rmsc",
 				["m"] = "RightButton",
+				["notify"] = true,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens Click Map Configuration Dialog",
+			},
+			["TASKWIN CONFIG"] = {
+				["name"] = "|cffff9966Cfg|r: Open Task Window Display Configuration",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens the Task Window Display Configuration configuration page",
+			},
+			["RESET"] = {
+				["name"] = "|cffff9966Cfg|r: Open Reset Panel",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens the Reset / Auto-Reset Options panel",
 			},
 			["HELP"] = {
+				["name"] = "Open |cffff9966Executive Assistant|r Help",
 				["s"] = true,
 				["code"] = "Rms",
 				["m"] = "RightButton",
+				["notify"] = true,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens the |cffff9966Executive Assistant|r Help Panel",
 			},
-			["CONFIG"] = {
-				["notify"] = false,
-				["m"] = "LeftButton",
-				["code"] = "Lm",
+			["ToggleShowTWControlButtons"] = {
+				["name"] = "Toggle Hide Task Window Control Buttons",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Toggles Hide Task Window Control Buttons when Not Moving",
+			},
+			["STYLEMGR"] = {
+				["name"] = "|cffff9966Cfg|r: Open Style Manger",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens Style Manager configuration page",
+			},
+			["reset_Manual"] = {
+				["name"] = "Reset Manual Tasks",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Resets all Manual-Reset Tasks",
+			},
+			["purgePurgables"] = {
+				["name"] = "Delete Completed Purgable Tasks",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Deletes Completed Purgable Tasks -- if you use Executive Assistant as a general, on-the-fly to-do list, this may be for you.",
+			},
+			["ToggleTooltipTips"] = {
+				["name"] = "Toggle Tooltip Tips",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Toggles Tooltips on DataBroker Tooltip Buttons",
+			},
+			["ShowDataBrokerTT"] = {
+				["name"] = "Show DataBroker Tooltip Display",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Useful if showing the display on Mouseover is disabled but you still want to occasionally open it",
+			},
+			["TOOLTIP CONFIG"] = {
+				["name"] = "|cffff9966Cfg|r: Open DataBroker Tooltip Display Configuration",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens the DataBroker Tooltip Display Configuration page",
 			},
 			["TACM"] = {
+				["name"] = "|cffff9966Cfg|r: Open Task Management",
 				["notify"] = false,
 				["m"] = "RightButton",
 				["code"] = "Rm",
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens the Task Management configuration page",
+			},
+			["ToggleTaskWindow"] = {
+				["name"] = "Toggle Task Window Display",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Toggle Task Window Display",
+			},
+			["CLICKMAP"] = {
+				["name"] = "|cffff9966Cfg|r: Open Click Map",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens Click Map page",
+			},
+			["CONFIG"] = {
+				["name"] = "|cffff9966Cfg|r: Open |cffff9966Executive Assistant|r Main Config",
+				["notify"] = false,
+				["m"] = "LeftButton",
+				["code"] = "Lm",
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens the main |cffff9966Executive Assistant|r configuration panel (this page)",
 			},
 		},
 		["groupStem"] = {
@@ -392,10 +483,12 @@ ExecAssistDB = {
 					["defaultEnabled"] = true,
 				},
 				["garden"] = {
+					["id"] = "garden",
 					["DO"] = {
 						"g67281", -- [1]
 						"g446130", -- [2]
 					},
+					["listName"] = "garden",
 				},
 				["t661502"] = {
 					["hideDays"] = {
@@ -427,16 +520,6 @@ ExecAssistDB = {
 					["p"] = "g67281",
 					["defaultEnabled"] = true,
 				},
-				["t677226"] = {
-					["hideDays"] = {
-					},
-					["resetType"] = "Daily Automatic",
-					["isTask"] = true,
-					["id"] = "t677226",
-					["taskName"] = "Anima Conductor",
-					["p"] = "g446130",
-					["defaultEnabled"] = true,
-				},
 				["t669042"] = {
 					["hideDays"] = {
 					},
@@ -445,6 +528,16 @@ ExecAssistDB = {
 					["id"] = "t669042",
 					["taskName"] = "Souls",
 					["p"] = "g134805",
+					["defaultEnabled"] = true,
+				},
+				["t677226"] = {
+					["hideDays"] = {
+					},
+					["resetType"] = "Daily Automatic",
+					["isTask"] = true,
+					["id"] = "t677226",
+					["taskName"] = "Anima Conductor",
+					["p"] = "g446130",
 					["defaultEnabled"] = true,
 				},
 				["g467930"] = {
@@ -543,46 +636,78 @@ ExecAssistDB = {
 					["defaultEnabled"] = true,
 				},
 			},
+			["garden"] = {
+			},
 		},
 		["Options"] = {
+			["AllowAPI"] = false,
 			["ldbIcon"] = "enabled",
 			["WeeklyResetDay"] = 4,
+			["ldbLabel"] = "Executive Assistant",
+			["showLoginAlerts"] = false,
 			["cfg_groupColor"] = {
 				["r"] = 0,
 				["g"] = 0.9490196078431372,
 				["b"] = 1,
 			},
 			["DailyResetTime"] = 8,
+			["configConfig"] = {
+				["height"] = 700,
+				["scale"] = 1,
+				["width"] = 800,
+			},
+			["SaveCollapseMap"] = true,
 		},
 		["nextMidnightReset"] = 1614297600,
 		["tooltip"] = {
+			["standard_font"] = "Friz Quadrata TT",
 			["standard_size"] = 11,
+			["default_GroupDisplayMode_PGT"] = 1,
 			["header_size"] = 11,
+			["ShowAllGroups_PGT"] = true,
+			["AllChar_GroupCharNames"] = true,
+			["useMouseoverHighlight"] = true,
+			["HideGroupNames_GTP"] = true,
+			["ShowAllGroups_GTP"] = true,
+			["defaultCollapse"] = false,
 			["fontshadow"] = {
 				["shadowcolor"] = {
 					["a"] = 0.5,
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
 				},
 				["offset"] = {
 					["y"] = -2,
 					["x"] = 2,
 				},
 			},
+			["defaultExpandSelf"] = true,
 			["rightMouse_togglesShowChecked"] = false,
+			["enableTooltipTooltips"] = true,
+			["header_font"] = "Friz Quadrata TT",
+			["default_tooltipType"] = "PGT",
 			["color_taskCounts"] = {
 				["r"] = 0,
 				["g"] = 0.7568627450980392,
 				["b"] = 1,
 			},
 			["OnlyCurrentChar"] = false,
-			["snowflake_size"] = 11,
+			["HideEmptyGroups"] = true,
+			["snowflake_font"] = "Friz Quadrata TT",
 			["tooltipStyle"] = {
 				["edgeSize"] = 1,
 				["bgcolor"] = {
 					["a"] = 0.6579812169075012,
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
 				},
 				["useStyle"] = true,
+				["bgFile"] = "Solid",
 				["edgeFile"] = "1 Pixel",
 				["bdrcolor"] = {
+					["a"] = 1,
 					["r"] = 0,
 					["g"] = 0,
 					["b"] = 0,
@@ -594,21 +719,150 @@ ExecAssistDB = {
 				["g"] = 0.9882352941176471,
 				["b"] = 1,
 			},
-			["AutoHideDelay"] = 0.5,
+			["npc"] = {
+				["npcColor"] = {
+					["a"] = 1,
+					["r"] = 0.4,
+					["g"] = 0.4,
+					["b"] = 0.4,
+				},
+			},
+			["HideChar_ifNoIncomplete"] = false,
+			["default_GroupDisplayMode_GTP"] = 1,
 			["showChecked"] = false,
+			["ShowGroupNames_PGT"] = true,
+			["useCounts_onHeaders"] = true,
+			["useCounts_onLDB"] = true,
+			["ShowOnlySelectedGroup_PGT"] = true,
 			["displayType_onHeaders"] = 4,
 			["displayType_onLDB"] = 4,
+			["HideGroupNames_PGT"] = true,
+			["tooltipButtonPos"] = 1,
+			["AutoHideDelay"] = 0.5,
+			["SM"] = {
+				["cmdLineTarget"] = {
+					["useText_text"] = "(c)",
+					["useStyle"] = true,
+					["useColor"] = 2,
+					["useText"] = 2,
+					["color"] = {
+						["r"] = 0.33,
+						["g"] = 0.54,
+						["b"] = 0.52,
+					},
+				},
+				["acctwide"] = {
+					["useText_text"] = "*",
+					["useStyle"] = true,
+					["useColor"] = 2,
+					["useText"] = 2,
+					["color"] = {
+						["r"] = 0,
+						["g"] = 0.94,
+						["b"] = 0.94,
+					},
+				},
+				["purgable"] = {
+					["useText_text"] = "(p)",
+					["useStyle"] = true,
+					["useColor"] = 2,
+					["useText"] = 2,
+					["color"] = {
+						["r"] = 1,
+						["g"] = 0,
+						["b"] = 0.5,
+					},
+				},
+				["hidden"] = {
+					["useText_text"] = "(i)",
+					["useStyle"] = true,
+					["useColor"] = 2,
+					["useText"] = 2,
+					["color"] = {
+						["r"] = 0.73,
+						["g"] = 0.61,
+						["b"] = 0.78,
+					},
+				},
+				["snowflake"] = {
+					["useText_text"] = "[Z]",
+					["useStyle"] = true,
+					["useColor"] = 2,
+					["useText"] = 2,
+					["color"] = {
+						["r"] = 1,
+						["g"] = 0.49,
+						["b"] = 0.4,
+					},
+				},
+			},
+			["ShowServerNames"] = true,
+			["snowflake_size"] = 11,
+			["color_TaskName"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
 		},
 		["nextWeeklyReset"] = 1614754800,
 		["nextDailyReset"] = 1614322800,
 		["taskWindow"] = {
+			["strata"] = "LOW",
+			["enableTooltipTooltips"] = true,
+			["useRemembered_toggleState"] = true,
+			["HideEmptyGroups"] = true,
 			["locked"] = true,
 			["toggleState_ToggledOff"] = true,
+			["widthMethod"] = 1,
+			["FixedWidth_FontString"] = 380,
+			["MinWidth_FontString"] = 120,
+			["useMouseoverHighlight"] = true,
+			["showChecked"] = true,
+			["opacity_faded"] = 1,
+			["hideincombat"] = false,
+			["ButtonPos"] = 2,
+			["useDragFrame"] = true,
+			["useCounts_onHeaders"] = true,
+			["displayType_onHeaders"] = 1,
+			["defaultCollapse"] = false,
+			["fontshadow"] = {
+				["shadowcolor"] = {
+					["a"] = 0.75,
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
+				},
+				["offset"] = {
+					["y"] = -1,
+					["x"] = 1,
+				},
+			},
+			["rightMouse_togglesShowChecked"] = true,
+			["hidebuttons"] = false,
+			["style"] = {
+				["border"] = "Blizzard Tooltip",
+				["background"] = "Solid",
+				["bgcolor"] = {
+					["a"] = 1,
+					["r"] = 0.01,
+					["g"] = 0.01,
+					["b"] = 0.01,
+				},
+				["bdrcolor"] = {
+					["a"] = 1,
+					["r"] = 0.01,
+					["g"] = 0.01,
+					["b"] = 0.01,
+				},
+			},
+			["opacity_mouseover"] = 1,
 			["pos"] = {
 				["posW_relP"] = "TOPLEFT",
 				["posW_rel"] = "TOPLEFT",
-				["xOff"] = 198.9994812011719,
+				["relTW"] = "CENTER",
+				["idx"] = 1,
 				["yOff"] = -48.00009536743164,
+				["xOff"] = 198.9994812011719,
 			},
 		},
 		["charStem"] = {
@@ -673,6 +927,10 @@ ExecAssistDB = {
 				["agg"] = {
 				},
 				["charClass"] = "MAGE",
+			},
+		},
+		["acctwideStem"] = {
+			["agg"] = {
 			},
 		},
 		["IsOldHat"] = true,

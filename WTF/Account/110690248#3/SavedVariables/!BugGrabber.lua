@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 160,
+	["session"] = 162,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -76,8 +76,8 @@ BugGrabberDB = {
 			["time"] = "2021/02/03 11:57:21",
 			["locals"] = "(*temporary) = \"0\"\n(*temporary) = \"table expected, got string\"\n = <function> defined =[C]:-1\n",
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0-27.lua\"]:372: in function <Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0.lua:359>",
-			["session"] = 159,
-			["counter"] = 118,
+			["session"] = 162,
+			["counter"] = 120,
 		}, -- [10]
 	},
 }

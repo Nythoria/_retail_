@@ -9,7 +9,7 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 91723,
+		["time_stamp"] = 138779,
 	}, -- [1]
 	{
 		["source"] = "guild",
@@ -76,7 +76,7 @@ AstralKeys = {
 		["dungeon_id"] = 375,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 50492,
+		["time_stamp"] = 135301,
 	}, -- [7]
 	{
 		["source"] = "guild",
@@ -131,7 +131,7 @@ AstralKeys = {
 		["dungeon_id"] = 375,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 41719,
+		["time_stamp"] = 128127,
 	}, -- [12]
 	{
 		["source"] = "guild",
@@ -142,7 +142,7 @@ AstralKeys = {
 		["dungeon_id"] = 379,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 5,
+		["time_stamp"] = 138768,
 	}, -- [13]
 	{
 		["btag"] = "RavenSeb#2210",
@@ -165,7 +165,7 @@ AstralKeys = {
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 12683,
+		["time_stamp"] = 137082,
 	}, -- [15]
 	{
 		["btag"] = "Nina#24867",
@@ -176,7 +176,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 4,
+		["time_stamp"] = 1,
 		["source"] = "friend",
 	}, -- [16]
 	{
@@ -188,7 +188,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 5,
+		["time_stamp"] = 3,
 		["source"] = "friend",
 	}, -- [17]
 	{
@@ -217,14 +217,14 @@ AstralKeys = {
 	}, -- [19]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 14,
 		["class"] = "SHAMAN",
 		["key_level"] = 14,
 		["unit"] = "Zinicshaman-Silvermoon",
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 15339,
+		["time_stamp"] = 131166,
 	}, -- [20]
 	{
 		["btag"] = "Macama#2896",
@@ -259,18 +259,18 @@ AstralKeys = {
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 96770,
+		["time_stamp"] = 138230,
 	}, -- [23]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 14,
 		["class"] = "MAGE",
 		["key_level"] = 14,
 		["unit"] = "Flashii-Silvermoon",
 		["dungeon_id"] = 376,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 51765,
+		["time_stamp"] = 134879,
 	}, -- [24]
 	{
 		["source"] = "guild",
@@ -325,7 +325,7 @@ AstralKeys = {
 		["dungeon_id"] = 378,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 50355,
+		["time_stamp"] = 138799,
 	}, -- [29]
 	{
 		["source"] = "guild",
@@ -347,7 +347,7 @@ AstralKeys = {
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 9,
+		["time_stamp"] = 1,
 		["source"] = "friend",
 	}, -- [31]
 	{
@@ -371,7 +371,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 33111,
+		["time_stamp"] = 3,
 		["source"] = "friend",
 	}, -- [33]
 	{
@@ -394,7 +394,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 37177,
+		["time_stamp"] = 130947,
 	}, -- [35]
 	{
 		["source"] = "guild",
@@ -416,7 +416,7 @@ AstralKeys = {
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 38167,
+		["time_stamp"] = 136792,
 	}, -- [37]
 	{
 		["source"] = "guild",
@@ -427,7 +427,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 36793,
+		["time_stamp"] = 136001,
 	}, -- [38]
 	{
 		["btag"] = "SpiritWolf#2675",
@@ -462,8 +462,42 @@ AstralKeys = {
 		["dungeon_id"] = 378,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 47729,
+		["time_stamp"] = 131138,
 	}, -- [41]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 4,
+		["class"] = "MAGE",
+		["key_level"] = 4,
+		["unit"] = "Zinicmage-Silvermoon",
+		["dungeon_id"] = 379,
+		["week"] = 188,
+		["faction"] = 0,
+		["time_stamp"] = 1,
+	}, -- [42]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 2,
+		["class"] = "HUNTER",
+		["key_level"] = 2,
+		["unit"] = "Flashiihunt-Silvermoon",
+		["dungeon_id"] = 380,
+		["week"] = 188,
+		["faction"] = 0,
+		["time_stamp"] = 134754,
+	}, -- [43]
+	{
+		["btag"] = "Xyfy#21180",
+		["weekly_best"] = 3,
+		["class"] = "WARRIOR",
+		["key_level"] = 2,
+		["unit"] = "Oniguy-Ravencrest",
+		["dungeon_id"] = 382,
+		["week"] = 188,
+		["faction"] = "0",
+		["time_stamp"] = 138307,
+		["source"] = "friend",
+	}, -- [44]
 }
 AstralCharacters = {
 	{
@@ -502,10 +536,10 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["raid"] = false,
 			["party"] = true,
-			["no_key"] = false,
+			["raid"] = false,
 			["guild"] = false,
+			["no_key"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -588,9 +622,6 @@ AstralMinimap = {
 			},
 		},
 		["Ririchíyo - Silvermoon"] = {
-			["minimap"] = {
-				["hide"] = false,
-			},
 		},
 		["Yóshino - Silvermoon"] = {
 		},
@@ -641,6 +672,7 @@ AstralLists = {
 			["Eldorax-Silvermoon"] = "TheOyabun#2412",
 			["Kúsano-Silvermoon"] = true,
 			["Toeme-Silvermoon"] = true,
+			["Zinicmage-Silvermoon"] = true,
 			["Naughtyslam-Silvermoon"] = true,
 			["Spankpriest-Silvermoon"] = true,
 			["Simplè-Silvermoon"] = true,
@@ -680,10 +712,10 @@ AstralLists = {
 			["Avaloén-Silvermoon"] = true,
 			["Maxnoon-Silvermoon"] = true,
 			["Yaganmage-Silvermoon"] = "Zipper#2389",
-			["Warlockzz-Silvermoon"] = true,
-			["Sókén-Silvermoon"] = true,
-			["Zárgothrax-Silvermoon"] = true,
 			["Firesnek-Silvermoon"] = true,
+			["Warlockzz-Silvermoon"] = true,
+			["Zárgothrax-Silvermoon"] = true,
+			["Sókén-Silvermoon"] = true,
 			["Djac-Silvermoon"] = true,
 			["Hìmí-Silvermoon"] = "Kento#21136",
 			["Nestravoid-Silvermoon"] = true,
@@ -715,6 +747,7 @@ AstralLists = {
 			["Nìksa-Silvermoon"] = "Kento#21136",
 			["Líliana-Silvermoon"] = "Dajawz#2585",
 			["Holykaktus-Blackmoore"] = "Macama#2896",
+			["Oniguy-Ravencrest"] = "Xyfy#21180",
 			["Rãg-Silvermoon"] = "fill3rz#2977",
 			["Níina-Silvermoon"] = "Nina#24867",
 			["Icunibbler-Sylvanas"] = "RavenSeb#2210",

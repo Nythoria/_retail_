@@ -14,6 +14,9 @@ NameplateSCTDB = {
 	},
 	["global"] = {
 		["showIcon"] = false,
+		["formatting"] = {
+			["size"] = 13,
+		},
 		["offTargetFormatting"] = {
 			["size"] = 11,
 		},
@@ -21,16 +24,13 @@ NameplateSCTDB = {
 			["autoattack"] = "rainfall",
 			["miss"] = "rainfall",
 			["ability"] = "rainfall",
-			["crit"] = "rainfall",
 			["autoattackcrit"] = "rainfall",
+			["crit"] = "rainfall",
 		},
 		["sizing"] = {
 			["crits"] = false,
 			["autoattackcritsizing"] = false,
 			["smallHits"] = false,
-		},
-		["formatting"] = {
-			["size"] = 13,
 		},
 	},
 }

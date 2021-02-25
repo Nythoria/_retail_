@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-25T09:45:00Z
+-- RaiderIO Client Data. Generated on 2021-02-25T21:24:32Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -217,6 +217,40 @@ ns.GUILD_BEST_DATA = {
         }
       },
       [2] = {
+        ["zone_id"] = 12916,
+        ["level"] = 15,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.7597870244271284,
+        ["clear_time"] = "00:27:21.899",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Caacrinolas",
+            ["role"] = "tank",
+            ["class_id"] = 12
+          },
+          [2] = {
+            ["name"] = "Saorise",
+            ["role"] = "healer",
+            ["class_id"] = 2
+          },
+          [3] = {
+            ["name"] = "Lorint",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [4] = {
+            ["name"] = "Mattdæmön",
+            ["role"] = "dps",
+            ["class_id"] = 12
+          },
+          [5] = {
+            ["name"] = "Novasix",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          }
+        }
+      },
+      [3] = {
         ["zone_id"] = 12837,
         ["level"] = 15,
         ["upgrades"] = 2,
@@ -250,7 +284,41 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
+      [4] = {
+        ["zone_id"] = 13309,
+        ["level"] = 15,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.0710841034808616,
+        ["clear_time"] = "00:46:04.467",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Nophtalya",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Blumpkuh",
+            ["role"] = "healer",
+            ["class_id"] = 11
+          },
+          [3] = {
+            ["name"] = "Mahado",
+            ["role"] = "dps",
+            ["class_id"] = 8
+          },
+          [4] = {
+            ["name"] = "Yourk",
+            ["role"] = "dps",
+            ["class_id"] = 4
+          },
+          [5] = {
+            ["name"] = "Диоринка",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          }
+        }
+      },
+      [5] = {
         ["zone_id"] = 13334,
         ["level"] = 14,
         ["upgrades"] = 2,
@@ -279,74 +347,6 @@ ns.GUILD_BEST_DATA = {
           },
           [5] = {
             ["name"] = "Ларкингроу",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          }
-        }
-      },
-      [4] = {
-        ["zone_id"] = 13228,
-        ["level"] = 14,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7630967834707512,
-        ["clear_time"] = "00:29:00.623",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Moncsi",
-            ["role"] = "tank",
-            ["class_id"] = 12
-          },
-          [2] = {
-            ["name"] = "Zappiethot",
-            ["role"] = "healer",
-            ["class_id"] = 7
-          },
-          [3] = {
-            ["name"] = "Angelicgirl",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [4] = {
-            ["name"] = "Frostydogqt",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [5] = {
-            ["name"] = "Мундринчик",
-            ["role"] = "dps",
-            ["class_id"] = 11
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 12842,
-        ["level"] = 14,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.86205805040961,
-        ["clear_time"] = "00:35:21.524",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Nespite",
-            ["role"] = "tank",
-            ["class_id"] = 2
-          },
-          [2] = {
-            ["name"] = "Zappiethot",
-            ["role"] = "healer",
-            ["class_id"] = 7
-          },
-          [3] = {
-            ["name"] = "Angelicgirl",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [4] = {
-            ["name"] = "Gretathunbrg",
-            ["role"] = "dps",
-            ["class_id"] = 1
-          },
-          [5] = {
-            ["name"] = "Mojoon",
             ["role"] = "dps",
             ["class_id"] = 11
           }

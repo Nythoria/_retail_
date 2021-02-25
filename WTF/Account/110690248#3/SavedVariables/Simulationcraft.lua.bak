@@ -59,14 +59,6 @@ SimulationCraftDB = {
 			["minimap"] = {
 				["hide"] = true,
 			},
-			["frame"] = {
-				["ofsx"] = 0,
-				["point"] = "CENTER",
-				["relativePoint"] = "CENTER",
-				["height"] = 400,
-				["ofsy"] = 0,
-				["width"] = 750,
-			},
 		},
 		["Aryenís - Silvermoon"] = {
 		},

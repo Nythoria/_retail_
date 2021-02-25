@@ -676,12 +676,12 @@ ZNotes = {
 			["class"] = "diszi",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["name"] = "barrier",
+			["cd"] = 180,
 			["stackable"] = false,
 			["aoe"] = true,
 			["rating"] = 550,
 			["station"] = true,
-			["cd"] = 180,
+			["name"] = "barrier",
 		}, -- [1]
 		{
 			["type"] = "util",
@@ -701,12 +701,12 @@ ZNotes = {
 			["class"] = "druid",
 			["color"] = "ff7d0a",
 			["role"] = "heal",
-			["name"] = "tranq",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 460,
 			["station"] = true,
-			["cd"] = 180,
+			["name"] = "tranq",
 		}, -- [3]
 		{
 			["type"] = "heal",
@@ -714,12 +714,12 @@ ZNotes = {
 			["class"] = "druid",
 			["color"] = "ff7d0a",
 			["role"] = "heal",
-			["name"] = "tree",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 400,
 			["station"] = false,
-			["cd"] = 180,
+			["name"] = "tree",
 		}, -- [4]
 		{
 			["type"] = "util",
@@ -739,12 +739,12 @@ ZNotes = {
 			["class"] = "shaman",
 			["color"] = "0070de",
 			["role"] = "heal",
-			["name"] = "slink",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 550,
 			["station"] = false,
-			["cd"] = 180,
+			["name"] = "slink",
 		}, -- [6]
 		{
 			["type"] = "heal",
@@ -752,12 +752,12 @@ ZNotes = {
 			["class"] = "shaman",
 			["color"] = "0070de",
 			["role"] = "heal",
-			["name"] = "wall",
+			["cd"] = 60,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 380,
 			["station"] = true,
-			["cd"] = 60,
+			["name"] = "wall",
 		}, -- [7]
 		{
 			["type"] = "heal",
@@ -765,12 +765,12 @@ ZNotes = {
 			["class"] = "shaman",
 			["color"] = "0070de",
 			["role"] = "heal",
-			["name"] = "htide",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 550,
 			["station"] = true,
-			["cd"] = 180,
+			["name"] = "htide",
 		}, -- [8]
 		{
 			["type"] = "heal",
@@ -778,12 +778,12 @@ ZNotes = {
 			["class"] = "monk",
 			["color"] = "00ff96",
 			["role"] = "heal",
-			["name"] = "revival",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 390,
 			["station"] = false,
-			["cd"] = 180,
+			["name"] = "revival",
 		}, -- [9]
 		{
 			["type"] = "util",
@@ -803,12 +803,12 @@ ZNotes = {
 			["class"] = "priest",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["name"] = "hymne",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 550,
 			["station"] = true,
-			["cd"] = 180,
+			["name"] = "hymne",
 		}, -- [11]
 		{
 			["type"] = "heal",
@@ -816,12 +816,12 @@ ZNotes = {
 			["class"] = "priest",
 			["color"] = "ffffff",
 			["role"] = "heal",
-			["name"] = "salvation",
+			["cd"] = 330,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 550,
 			["station"] = true,
-			["cd"] = 330,
+			["name"] = "salvation",
 		}, -- [12]
 		{
 			["type"] = "util",
@@ -841,12 +841,12 @@ ZNotes = {
 			["class"] = "paladin",
 			["color"] = "f58cba",
 			["role"] = "heal",
-			["name"] = "mastery",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 500,
 			["station"] = false,
-			["cd"] = 180,
+			["name"] = "mastery",
 		}, -- [14]
 		{
 			["type"] = "util",
@@ -902,12 +902,12 @@ ZNotes = {
 			["class"] = "dh",
 			["color"] = "a330c9",
 			["role"] = "melee",
-			["name"] = "darkness",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 310,
 			["station"] = false,
-			["cd"] = 180,
+			["name"] = "darkness",
 		}, -- [19]
 		{
 			["type"] = "imun",
@@ -927,12 +927,12 @@ ZNotes = {
 			["class"] = "dk",
 			["color"] = "c41f3b",
 			["role"] = "melee",
-			["name"] = "amz",
+			["cd"] = 120,
 			["stackable"] = false,
 			["aoe"] = true,
 			["rating"] = 320,
 			["station"] = false,
-			["cd"] = 120,
+			["name"] = "amz",
 		}, -- [21]
 		{
 			["type"] = "util",
@@ -940,12 +940,12 @@ ZNotes = {
 			["class"] = "shadow",
 			["color"] = "ffffff",
 			["role"] = "range",
-			["name"] = "vamp",
+			["cd"] = 180,
 			["stackable"] = true,
 			["aoe"] = true,
 			["rating"] = 290,
 			["station"] = true,
-			["cd"] = 180,
+			["name"] = "vamp",
 		}, -- [22]
 		{
 			["type"] = "imun",
@@ -1025,12 +1025,12 @@ ZNotes = {
 			["class"] = "dk",
 			["color"] = "c41f3b",
 			["role"] = "tank",
-			["name"] = "amz",
+			["cd"] = 120,
 			["stackable"] = false,
 			["aoe"] = true,
 			["rating"] = 320,
 			["station"] = false,
-			["cd"] = 120,
+			["name"] = "amz",
 		}, -- [29]
 		{
 			["type"] = "heal",
@@ -1040,9 +1040,9 @@ ZNotes = {
 			["cd"] = 60,
 			["name"] = "Spirit Shell",
 			["aoe"] = true,
-			["rating"] = 600,
-			["station"] = true,
 			["stackable"] = "true",
+			["station"] = true,
+			["rating"] = 600,
 		}, -- [30]
 		{
 			["type"] = "heal",
@@ -1052,9 +1052,9 @@ ZNotes = {
 			["cd"] = 60,
 			["name"] = "Power Word: Radiance",
 			["aoe"] = true,
-			["rating"] = 540,
-			["station"] = true,
 			["stackable"] = true,
+			["station"] = true,
+			["rating"] = 540,
 		}, -- [31]
 	},
 	["minimap"] = {
@@ -1062,11 +1062,11 @@ ZNotes = {
 	},
 	["lastTemplates"] = {
 		["lastGroupTemplate"] = "full team",
-		["homeSendCount"] = true,
 		["homeSendToZND"] = true,
+		["lastBossTemplate"] = "artificer xy'mox mythic",
 		["homeLastBossTemplate"] = "hungering destroyer mythic",
 		["homeSendToExRT"] = true,
-		["lastBossTemplate"] = "artificer xy'mox mythic",
+		["homeSendCount"] = true,
 		["homeIncludeMissing"] = false,
 		["homeLastGroupTemplate"] = "Use Current Group",
 	},

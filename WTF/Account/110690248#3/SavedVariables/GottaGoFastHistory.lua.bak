@@ -31,16 +31,16 @@ GottaGoFastHistoryDB = {
 					["runs"] = {
 					},
 				},
-				[2284] = {
+				[2291] = {
 					["runs"] = {
 					},
-					["name"] = "Sanguine Depths",
-					["zoneID"] = 2284,
+					["name"] = "De Other Side",
+					["zoneID"] = 2291,
 					["objectives"] = {
-						"Kryxis the Voracious", -- [1]
-						"Executor Tarvold", -- [2]
-						"Grand Proctor Beryllia", -- [3]
-						"General Kaal", -- [4]
+						"Hakkar the Soulflayer", -- [1]
+						"The Manastorms", -- [2]
+						"Dealer Xy'exa", -- [3]
+						"Mueh'zala", -- [4]
 						"Enemy Forces", -- [5]
 					},
 				},
@@ -69,16 +69,16 @@ GottaGoFastHistoryDB = {
 					["runs"] = {
 					},
 				},
-				[2291] = {
+				[2284] = {
 					["runs"] = {
 					},
-					["name"] = "De Other Side",
-					["zoneID"] = 2291,
+					["name"] = "Sanguine Depths",
+					["zoneID"] = 2284,
 					["objectives"] = {
-						"Hakkar the Soulflayer", -- [1]
-						"The Manastorms", -- [2]
-						"Dealer Xy'exa", -- [3]
-						"Mueh'zala", -- [4]
+						"Kryxis the Voracious", -- [1]
+						"Executor Tarvold", -- [2]
+						"Grand Proctor Beryllia", -- [3]
+						"General Kaal", -- [4]
 						"Enemy Forces", -- [5]
 					},
 				},
@@ -95,19 +95,6 @@ GottaGoFastHistoryDB = {
 						"Enemy Forces", -- [5]
 					},
 				},
-				[2286] = {
-					["objectives"] = {
-						"Blightbone", -- [1]
-						"Amarth", -- [2]
-						"Surgeon Stitchflesh", -- [3]
-						"Nalthor the Rimebinder", -- [4]
-						"Enemy Forces", -- [5]
-					},
-					["zoneID"] = 2286,
-					["name"] = "The Necrotic Wake",
-					["runs"] = {
-					},
-				},
 				[2293] = {
 					["objectives"] = {
 						"Affront of Challengers", -- [1]
@@ -119,6 +106,19 @@ GottaGoFastHistoryDB = {
 					},
 					["zoneID"] = 2293,
 					["name"] = "Theater of Pain",
+					["runs"] = {
+					},
+				},
+				[2286] = {
+					["objectives"] = {
+						"Blightbone", -- [1]
+						"Amarth", -- [2]
+						"Surgeon Stitchflesh", -- [3]
+						"Nalthor the Rimebinder", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 2286,
+					["name"] = "The Necrotic Wake",
 					["runs"] = {
 					},
 				},

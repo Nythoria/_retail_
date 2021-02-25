@@ -13,2007 +13,2008 @@ RCLootCouncilDB = {
 		["Iríya - Ravencrest"] = "Default",
 	},
 	["global"] = {
+		["logMaxEntries"] = 2000,
 		["log"] = {
-			"<19:10:09><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Avaloén-Silvermoon", -- [1]
-			"<19:11:49><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [2]
-			"<19:15:38><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [3]
-			"<19:15:38><INFO>	 UpdatePlayersData()", -- [4]
-			"<19:19:15><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [5]
-			"<19:21:01><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [6]
-			"<19:21:01><INFO>	 UpdatePlayersData()", -- [7]
-			"<19:24:44><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [8]
-			"<19:26:12><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [9]
-			"<19:26:12><INFO>	 UpdatePlayersData()", -- [10]
-			"<19:29:35><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [11]
-			"<19:31:17><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [12]
-			"<19:31:17><INFO>	 UpdatePlayersData()", -- [13]
-			"<19:35:53><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [14]
-			"<19:39:02><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [15]
-			"<19:39:02><INFO>	 UpdatePlayersData()", -- [16]
-			"<19:39:12><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [17]
-			"<19:40:29><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [18]
-			"<19:40:29><INFO>	 UpdatePlayersData()", -- [19]
-			"<19:44:56><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [20]
-			"<19:49:13><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [21]
-			"<19:49:13><INFO>	 UpdatePlayersData()", -- [22]
-			"<19:54:32><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [23]
-			"<19:55:01><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Níina-Silvermoon", -- [24]
-			"<19:55:01><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [25]
-			"<19:56:16><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [26]
-			"<19:56:16><INFO>	 UpdatePlayersData()", -- [27]
-			"<20:01:58><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [28]
-			"<20:06:54><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Gooselle-Silvermoon", -- [29]
-			"<20:06:54><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Gooselle-Silvermoon", -- [30]
-			"<20:06:55><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [31]
-			"<20:06:55><INFO>	 OnMLDBReceived", -- [32]
-			"<20:06:55><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [33]
-			"<20:06:55><DEBUG>	 isCouncil false", -- [34]
-			"<20:18:35><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [35]
-			"<20:18:35><INFO>	 UpdatePlayersData()", -- [36]
-			"<20:22:34><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [37]
-			"<20:24:16><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [38]
-			"<20:24:16><INFO>	 UpdatePlayersData()", -- [39]
-			"<20:27:34><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [40]
-			"<20:30:09><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [41]
-			"<20:30:09><INFO>	 UpdatePlayersData()", -- [42]
-			"<20:35:06><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [43]
-			"<20:39:06><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [44]
-			"<20:39:06><INFO>	 UpdatePlayersData()", -- [45]
-			"<20:43:56><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [46]
-			"<20:44:28><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Spankpriest-Silvermoon", -- [47]
-			"<20:46:16><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [48]
-			"<20:46:16><INFO>	 UpdatePlayersData()", -- [49]
-			"<20:49:57><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [50]
-			"<20:52:34><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [51]
-			"<20:52:34><INFO>	 UpdatePlayersData()", -- [52]
-			"<20:54:18><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [53]
-			"<20:57:03><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [54]
-			"<20:57:03><INFO>	 UpdatePlayersData()", -- [55]
-			"<21:02:36><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [56]
-			"<21:04:06><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [57]
-			"<21:04:06><INFO>	 UpdatePlayersData()", -- [58]
-			"<21:07:18><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [59]
-			"<21:10:14><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [60]
-			"<21:10:14><INFO>	 UpdatePlayersData()", -- [61]
-			"<21:13:36><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [62]
-			"<21:17:45><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [63]
-			"<21:17:45><INFO>	 UpdatePlayersData()", -- [64]
-			"<21:22:17><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [65]
-			"<21:24:23><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [66]
-			"<21:24:23><INFO>	 UpdatePlayersData()", -- [67]
-			"<21:28:33><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [68]
-			"<21:30:12><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [69]
-			"<21:30:12><INFO>	 UpdatePlayersData()", -- [70]
-			"<21:32:28><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [71]
-			"<21:33:06><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [72]
-			"<21:33:08><DEBUG>	 GetML()", -- [73]
-			"<21:33:43><DEBUG>	 Event: GROUP_LEFT 1 Party-3391-1-000054596FF9", -- [74]
-			"<21:33:43><DEBUG>	 GetML()", -- [75]
-			"<21:34:12><INFO>	 Logged In", -- [76]
-			"<21:34:12>[ML]<INFO>	 Init", -- [77]
-			"<21:34:12><INFO>	 RCLootCouncil TradeUI enabled", -- [78]
-			"<21:34:20><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [79]
-			"<21:34:20><DEBUG>	 ActivateSkin bfa", -- [80]
-			"<21:34:23><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [81]
-			"<21:34:23><INFO>	 UpdatePlayersData()", -- [82]
-			"<21:34:24><DEBUG>	 GetPlayersGuildRank()", -- [83]
-			"<21:34:24><DEBUG>	 GetPlayersGuildRank()", -- [84]
-			"<21:34:24><DEBUG>	 Found Guild Rank: Sunlight", -- [85]
-			"<21:34:26><DEBUG>	 GetML()", -- [86]
-			"<21:35:14><INFO>	 Logged In", -- [87]
-			"<21:35:14>[ML]<INFO>	 Init", -- [88]
-			"<21:35:14><INFO>	 RCLootCouncil TradeUI enabled", -- [89]
-			"<21:35:22><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [90]
-			"<21:35:22><DEBUG>	 ActivateSkin bfa", -- [91]
-			"<21:35:25><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [92]
-			"<21:35:25><INFO>	 UpdatePlayersData()", -- [93]
-			"<21:35:27><DEBUG>	 GetPlayersGuildRank()", -- [94]
-			"<21:35:27><DEBUG>	 GetPlayersGuildRank()", -- [95]
-			"<21:35:27><DEBUG>	 Found Guild Rank: Alt", -- [96]
-			"<21:35:30><DEBUG>	 GetML()", -- [97]
-			"<21:37:35><INFO>	 Logged In", -- [98]
-			"<21:37:35>[ML]<INFO>	 Init", -- [99]
-			"<21:37:35><INFO>	 RCLootCouncil TradeUI enabled", -- [100]
-			"<21:37:43><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [101]
-			"<21:37:43><DEBUG>	 ActivateSkin bfa", -- [102]
-			"<21:37:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [103]
-			"<21:37:47><INFO>	 UpdatePlayersData()", -- [104]
-			"<21:37:48><DEBUG>	 GetPlayersGuildRank()", -- [105]
-			"<21:37:48><DEBUG>	 GetPlayersGuildRank()", -- [106]
-			"<21:37:49><DEBUG>	 GetPlayersGuildRank()", -- [107]
-			"<21:37:49><DEBUG>	 Found Guild Rank: Sunlight", -- [108]
-			"<21:37:50><DEBUG>	 GetML()", -- [109]
-			"<21:44:20><INFO>	 Logged In", -- [110]
-			"<21:44:20>[ML]<INFO>	 Init", -- [111]
-			"<21:44:20><INFO>	 RCLootCouncil TradeUI enabled", -- [112]
-			"<21:44:28><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [113]
-			"<21:44:28><DEBUG>	 ActivateSkin bfa", -- [114]
-			"<21:44:31><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [115]
-			"<21:44:31><INFO>	 UpdatePlayersData()", -- [116]
-			"<21:44:35><DEBUG>	 GetPlayersGuildRank()", -- [117]
-			"<21:44:35><DEBUG>	 GetPlayersGuildRank()", -- [118]
-			"<21:44:35><DEBUG>	 Found Guild Rank: Alt", -- [119]
-			"<21:44:36><DEBUG>	 GetML()", -- [120]
-			"<21:53:46><INFO>	 Logged In", -- [121]
-			"<21:53:46>[ML]<INFO>	 Init", -- [122]
-			"<21:53:46><INFO>	 RCLootCouncil TradeUI enabled", -- [123]
-			"<21:53:53><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [124]
-			"<21:53:53><DEBUG>	 ActivateSkin bfa", -- [125]
-			"<21:53:56><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [126]
-			"<21:53:56><INFO>	 UpdatePlayersData()", -- [127]
-			"<21:53:57><DEBUG>	 GetPlayersGuildRank()", -- [128]
-			"<21:53:57><DEBUG>	 Found Guild Rank: Sunlight", -- [129]
-			"<21:53:59><DEBUG>	 GetML()", -- [130]
-			"<21:56:23><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Peroping-Silvermoon", -- [131]
-			"<22:26:36><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Sókén-Silvermoon", -- [132]
-			"<08:10:18><INFO>	 Logged In", -- [133]
-			"<08:10:18>[ML]<INFO>	 Init", -- [134]
-			"<08:10:18><INFO>	 RCLootCouncil TradeUI enabled", -- [135]
-			"<08:10:26><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [136]
-			"<08:10:26><DEBUG>	 ActivateSkin bfa", -- [137]
-			"<08:10:29><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [138]
-			"<08:10:29><INFO>	 UpdatePlayersData()", -- [139]
-			"<08:10:30><DEBUG>	 GetPlayersGuildRank()", -- [140]
-			"<08:10:30><DEBUG>	 Found Guild Rank: Sunlight", -- [141]
-			"<08:10:36><DEBUG>	 GetML()", -- [142]
-			"<08:12:43><INFO>	 Logged In", -- [143]
-			"<08:12:43>[ML]<INFO>	 Init", -- [144]
-			"<08:12:43><INFO>	 RCLootCouncil TradeUI enabled", -- [145]
-			"<08:12:49><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [146]
-			"<08:12:49><DEBUG>	 ActivateSkin bfa", -- [147]
-			"<08:12:52><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [148]
-			"<08:12:52><INFO>	 UpdatePlayersData()", -- [149]
-			"<08:12:53><DEBUG>	 GetPlayersGuildRank()", -- [150]
-			"<08:12:53><DEBUG>	 Found Guild Rank: Alt", -- [151]
-			"<08:12:56><DEBUG>	 GetML()", -- [152]
-			"<08:15:00><INFO>	 Logged In", -- [153]
-			"<08:15:00>[ML]<INFO>	 Init", -- [154]
-			"<08:15:00><INFO>	 RCLootCouncil TradeUI enabled", -- [155]
-			"<08:15:07><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [156]
-			"<08:15:07><DEBUG>	 ActivateSkin bfa", -- [157]
-			"<08:15:10><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [158]
-			"<08:15:10><INFO>	 UpdatePlayersData()", -- [159]
-			"<08:15:10><DEBUG>	 GetPlayersGuildRank()", -- [160]
-			"<08:15:11><DEBUG>	 GetPlayersGuildRank()", -- [161]
-			"<08:15:11><DEBUG>	 Found Guild Rank: Sunlight", -- [162]
-			"<08:15:12><DEBUG>	 GetML()", -- [163]
-			"<08:33:15><INFO>	 Logged In", -- [164]
-			"<08:33:15>[ML]<INFO>	 Init", -- [165]
-			"<08:33:15><INFO>	 RCLootCouncil TradeUI enabled", -- [166]
-			"<08:33:22><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [167]
-			"<08:33:22><DEBUG>	 ActivateSkin bfa", -- [168]
-			"<08:33:25><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [169]
-			"<08:33:25><INFO>	 UpdatePlayersData()", -- [170]
-			"<08:33:27><DEBUG>	 GetPlayersGuildRank()", -- [171]
-			"<08:33:28><DEBUG>	 GetPlayersGuildRank()", -- [172]
-			"<08:33:28><DEBUG>	 Found Guild Rank: Alt", -- [173]
-			"<08:33:30><DEBUG>	 GetML()", -- [174]
-			"<08:34:23><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [175]
-			"<08:34:25><DEBUG>	 GetML()", -- [176]
-			"<09:14:09><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Blumpkuh-Silvermoon", -- [177]
-			"<09:33:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [178]
-			"<09:33:05><DEBUG>	 GetML()", -- [179]
-			"<09:37:17><INFO>	 Logged In", -- [180]
-			"<09:37:17>[ML]<INFO>	 Init", -- [181]
-			"<09:37:17><INFO>	 RCLootCouncil TradeUI enabled", -- [182]
-			"<09:37:25><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [183]
-			"<09:37:25><DEBUG>	 ActivateSkin bfa", -- [184]
-			"<09:37:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [185]
-			"<09:37:27><INFO>	 UpdatePlayersData()", -- [186]
-			"<09:37:28><DEBUG>	 GetPlayersGuildRank()", -- [187]
-			"<09:37:28><DEBUG>	 GetPlayersGuildRank()", -- [188]
-			"<09:37:28><DEBUG>	 Found Guild Rank: Sunlight", -- [189]
-			"<09:37:31><DEBUG>	 GetML()", -- [190]
-			"<09:42:19><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [191]
-			"<09:42:21><DEBUG>	 GetML()", -- [192]
-			"<09:42:21><Data.Player>	 CreatePlayer Player-3391-0A6D9AE1", -- [193]
-			"<09:42:21><DEBUG>	 Resetting council as we have a new ML!", -- [194]
-			"<09:42:21><INFO>	 MasterLooter =  Mendøza-Silvermoon", -- [195]
-			"<09:42:34><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Alirra-Outland", -- [196]
-			"<09:42:34><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^Scouncil_request^t^^ RAID Alirra-Outland", -- [197]
-			"<09:42:36><DEBUG>	 Timer MLdb_check passed", -- [198]
-			"<09:42:36><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Ririchíyo-Silvermoon", -- [199]
-			"<09:42:36><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^Scouncil_request^t^^ RAID Ririchíyo-Silvermoon", -- [200]
-			"<09:43:46><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Andâløy-DunModr", -- [201]
-			"<09:43:50><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Deathsymbol-Silvermoon", -- [202]
-			"<09:43:50><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^Scouncil_request^t^^ RAID Deathsymbol-Silvermoon", -- [203]
-			"<09:45:31><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Heroic) 594868 0 0", -- [204]
-			"<09:45:31><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [205]
-			"<09:45:33><DEBUG>	 GetML()", -- [206]
-			"<09:47:28><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Jancey-DunModr", -- [207]
-			"<09:47:28><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^Scouncil_request^t^^ RAID Jancey-DunModr", -- [208]
-			"<09:52:13><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Ogrïmhunter-DunModr", -- [209]
-			"<09:52:13><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^Scouncil_request^t^^ RAID Ogrïmhunter-DunModr", -- [210]
-			"<09:52:31><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Dottyxqt-Outland", -- [211]
-			"<09:52:31><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^Scouncil_request^t^^ RAID Dottyxqt-Outland", -- [212]
-			"<09:52:44><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^SMLdb_request^t^^ RAID Hyroda-Dalaran", -- [213]
-			"<09:52:44><Comm>	 ^1^Sxrealm^T^N1^SMendøza-Silvermoon^N2^Scouncil_request^t^^ RAID Hyroda-Dalaran", -- [214]
-			"<10:00:33><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [215]
-			"<10:00:35><DEBUG>	 GetML()", -- [216]
-			"<10:00:35><Data.Player>	 CreatePlayer Player-3391-0A2180E0", -- [217]
-			"<10:00:35><DEBUG>	 Resetting council as we have a new ML!", -- [218]
-			"<10:00:35><INFO>	 MasterLooter =  Turoxas-Silvermoon", -- [219]
-			"<10:00:50><DEBUG>	 Timer MLdb_check passed", -- [220]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Hyroda-Dalaran", -- [221]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Hyroda-Dalaran", -- [222]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Ririchíyo-Silvermoon", -- [223]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Ririchíyo-Silvermoon", -- [224]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Jancey-DunModr", -- [225]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Jancey-DunModr", -- [226]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Andâløy-DunModr", -- [227]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Alirra-Outland", -- [228]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Alirra-Outland", -- [229]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Ogrïmhunter-DunModr", -- [230]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Ogrïmhunter-DunModr", -- [231]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Deathsymbol-Silvermoon", -- [232]
-			"<10:00:51><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Deathsymbol-Silvermoon", -- [233]
-			"<10:09:27><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 24", -- [234]
-			"<10:09:27><INFO>	 UpdatePlayersData()", -- [235]
-			"<10:15:56><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 24 0", -- [236]
-			"<10:17:43><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Alirra-Outland", -- [237]
-			"<10:17:43><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Alirra-Outland", -- [238]
-			"<10:19:32><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Alirra-Outland", -- [239]
-			"<10:19:32><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Alirra-Outland", -- [240]
-			"<10:20:29><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 24", -- [241]
-			"<10:20:29><INFO>	 UpdatePlayersData()", -- [242]
-			"<10:26:04><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 24 0", -- [243]
-			"<10:28:01><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 24", -- [244]
-			"<10:28:01><INFO>	 UpdatePlayersData()", -- [245]
-			"<10:33:25><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 24 0", -- [246]
-			"<10:34:23><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Jancey-DunModr", -- [247]
-			"<10:34:23><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Jancey-DunModr", -- [248]
-			"<10:35:06><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 23", -- [249]
-			"<10:35:06><INFO>	 UpdatePlayersData()", -- [250]
-			"<10:40:30><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 23 0", -- [251]
-			"<10:42:40><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Délen-Silvermoon", -- [252]
-			"<10:42:40><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Délen-Silvermoon", -- [253]
-			"<10:44:52><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^SMLdb_request^t^^ RAID Seraphks-Silvermoon", -- [254]
-			"<10:44:52><Comm>	 ^1^Sxrealm^T^N1^STuroxas-Silvermoon^N2^Scouncil_request^t^^ RAID Seraphks-Silvermoon", -- [255]
-			"<10:49:46><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 25", -- [256]
-			"<10:49:46><INFO>	 UpdatePlayersData()", -- [257]
-			"<10:58:11><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 25 1", -- [258]
-			"<10:58:50><DEBUG>	 Event: LOOT_READY true", -- [259]
-			"<10:58:50><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4242-2296-2235-167406-0000362D3D 755110", -- [260]
-			"<10:58:50><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 184030 |cffa335ee|Hitem:184030::::::::60:257::84:4:7188:6652:1485:6646:1:28:752:::|h[Dreadfire Vessel]|h|r 1 Siizzle-Malygos WARRIOR", -- [261]
-			"<10:58:50><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 184286 |cff0070dd|Hitem:184286::::::::60:257:::::::|h[Extinguished Soul Anima]|h|r 5 Ririchíyo PRIEST", -- [262]
-			"<10:58:50><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [263]
-			"<10:58:50><DEBUG>	 Event: LOOT_CLOSED", -- [264]
-			"<10:58:50><DEBUG>	 Event: LOOT_CLOSED", -- [265]
-			"<10:58:50><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 183395 |cffa335ee|Hitem:183395::::::::60:257::5::1:28:373:::|h[Pommel Jewel of Remornia]|h|r 1 Siizzle-Malygos WARRIOR", -- [266]
-			"<10:58:50><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Ririchíyo-Silvermoon", -- [267]
-			"<10:58:50><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Ririchíyo-Silvermoon", -- [268]
-			"<10:58:51><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 183395 |cffa335ee|Hitem:183395::::::::60:257::5::1:28:373:::|h[Pommel Jewel of Remornia]|h|r 1 Hyroda-Dalaran MAGE", -- [269]
-			"<10:58:51><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Hyroda-Dalaran", -- [270]
-			"<10:58:51><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Hyroda-Dalaran", -- [271]
-			"<10:58:52><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 183898 |cffa335ee|Hitem:183898::::::::60:257::84:3:7188:1485:6646:1:28:752:::|h[Venerated Anima Spherule]|h|r 1 Snifzn-Ravencrest PRIEST", -- [272]
-			"<10:58:53><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Délen-Silvermoon", -- [273]
-			"<10:58:53><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Délen-Silvermoon", -- [274]
-			"<10:58:54><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 181469 |cffa335ee|Hitem:181469::::::::60:257::5:2:1540:7245:2:28:752:37:6:::|h[Indelible Victory]|h|r 1 Seraphks WARRIOR", -- [275]
-			"<10:58:54><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Andâløy-DunModr", -- [276]
-			"<10:58:54><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Andâløy-DunModr", -- [277]
-			"<10:58:54><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:183395::::::::60:63::5::1:28:373:::|h[Précieux~`pommeau~`de~`Rémornia]|h|r^N2^S167406^t^^ RAID Hyroda-Dalaran", -- [278]
-			"<10:58:54><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 183384 |cffff8000|Hitem:183384::::::::60:257::5::1:28:752:::|h[Memory of the Exploiter]|h|r 1 Seraphks WARRIOR", -- [279]
-			"<10:58:54><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 179358 |cffe6cc80|Hitem:179358::::::::60:257::::1:28:752:::|h[Remornia]|h|r 1 Seraphks WARRIOR", -- [280]
-			"<10:58:54><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Seraphks-Silvermoon", -- [281]
-			"<10:58:54><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Seraphks-Silvermoon", -- [282]
-			"<10:58:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 183036 |cffa335ee|Hitem:183036::::::::60:257::84:5:7188:6652:6935:1485:6646:1:28:752:::|h[Most Regal Signet of Sire Denathrius]|h|r 1 Raícoon-Blackmoore DEMONHUNTER", -- [283]
-			"<10:58:59><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 184030 |cffa335ee|Hitem:184030::::::::60:257::84:4:7188:6652:1485:6646:1:28:752:::|h[Dreadfire Vessel]|h|r 1 Nikuya-Malfurion DEMONHUNTER", -- [284]
-			"<10:59:00><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 182318 |cffa335ee|Hitem:182318::::::::60:257::5:2:1540:7245:2:28:752:37:6:::|h[Viscous Ink]|h|r 1 Nikuya-Malfurion DEMONHUNTER", -- [285]
-			"<10:59:03><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 182105 |cffa335ee|Hitem:182105::::::::60:257::5:2:1540:7245:2:28:752:37:6:::|h[Astral Protection]|h|r 1 Youngster SHAMAN", -- [286]
-			"<10:59:10><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [287]
-			"<10:59:12><DEBUG>	 GetML()", -- [288]
-			"<10:59:12><Data.Player>	 CreatePlayer Player-3391-0B3CEFBF", -- [289]
-			"<10:59:12><DEBUG>	 Resetting council as we have a new ML!", -- [290]
-			"<10:59:12><INFO>	 MasterLooter =  Délen-Silvermoon", -- [291]
-			"<10:59:12><Comm>	 ^1^SplayerInfoRequest^T^t^^ RAID Délen-Silvermoon", -- [292]
-			"<10:59:12><DEBUG>	 I'm an enchanter", -- [293]
-			"<10:59:12><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Délen-Silvermoon", -- [294]
-			"<10:59:12><INFO>	 OnMLDBReceived", -- [295]
-			"<10:59:12><Comm>	 ^1^Sxrealm^T^N1^SDélen-Silvermoon^N2^SpI^N3^SHEALER^N4^SSunlight^N5^B^N6^N115^N7^N216.75^N8^N257^t^^ RAID Ririchíyo-Silvermoon", -- [296]
-			"<10:59:12><Comm>	 ^1^Sxrealm^T^N1^SDélen-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N6^N0^N7^N224.4375^N8^N265^t^^ RAID Délen-Silvermoon", -- [297]
-			"<10:59:12><Comm>	 ^1^Sxrealm^T^N1^SDélen-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SInitiate^N6^N0^N7^N201.1875^N8^N72^t^^ RAID Seraphks-Silvermoon", -- [298]
-			"<10:59:12><Comm>	 ^1^Sxrealm^T^N1^SDélen-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SRaider~`^N6^N0^N7^N218.375^N8^N63^t^^ RAID Hyroda-Dalaran", -- [299]
-			"<10:59:12><Comm>	 ^1^Sxrealm^T^N1^SDélen-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SMaestro^N6^N0^N7^N216.625^N8^N102^t^^ RAID Andâløy-DunModr", -- [300]
-			"<10:59:14><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3CEFBF^B^t^t^^ RAID Délen-Silvermoon", -- [301]
-			"<10:59:14><DEBUG>	 isCouncil false", -- [302]
-			"<10:59:27><DEBUG>	 Timer MLdb_check passed", -- [303]
-			"<10:59:57><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [304]
-			"<10:59:57><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [305]
-			"<10:59:58><DEBUG>	 GetML()", -- [306]
-			"<10:59:58><Data.Player>	 CreatePlayer Player-1097-0A2DF0B4", -- [307]
-			"<10:59:58><DEBUG>	 Resetting council as we have a new ML!", -- [308]
-			"<10:59:58><INFO>	 MasterLooter =  Exxe-Malorne", -- [309]
-			"<10:59:59><DEBUG>	 GetML()", -- [310]
-			"<11:00:13><DEBUG>	 Timer MLdb_check passed", -- [311]
-			"<11:01:02><DEBUG>	 Event: GROUP_LEFT 1 Party-3391-1-0000545E8437", -- [312]
-			"<11:01:02><DEBUG>	 GetML()", -- [313]
-			"<11:05:57><DEBUG>	 Event: LOOT_READY true", -- [314]
-			"<11:05:58><DEBUG>	 Event: LOOT_READY true", -- [315]
-			"<11:05:59><DEBUG>	 Event: LOOT_READY true", -- [316]
-			"<11:06:02><DEBUG>	 Event: LOOT_READY true", -- [317]
-			"<11:06:03><DEBUG>	 Event: LOOT_READY true", -- [318]
-			"<11:06:03><DEBUG>	 Event: LOOT_READY true", -- [319]
-			"<11:06:04><DEBUG>	 Event: LOOT_READY true", -- [320]
-			"<11:06:04><DEBUG>	 Event: LOOT_READY true", -- [321]
-			"<11:40:08><INFO>	 Logged In", -- [322]
-			"<11:40:08>[ML]<INFO>	 Init", -- [323]
-			"<11:40:08><INFO>	 RCLootCouncil TradeUI enabled", -- [324]
-			"<11:40:15><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [325]
-			"<11:40:15><DEBUG>	 ActivateSkin bfa", -- [326]
-			"<11:40:18><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [327]
-			"<11:40:18><INFO>	 UpdatePlayersData()", -- [328]
-			"<11:40:19><DEBUG>	 GetPlayersGuildRank()", -- [329]
-			"<11:40:19><DEBUG>	 GetPlayersGuildRank()", -- [330]
-			"<11:40:19><DEBUG>	 Found Guild Rank: Alt", -- [331]
-			"<11:40:22><DEBUG>	 GetML()", -- [332]
-			"<12:37:28><INFO>	 Logged In", -- [333]
-			"<12:37:28>[ML]<INFO>	 Init", -- [334]
-			"<12:37:28><INFO>	 RCLootCouncil TradeUI enabled", -- [335]
-			"<12:37:38><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [336]
-			"<12:37:38><DEBUG>	 ActivateSkin bfa", -- [337]
-			"<12:37:41><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [338]
-			"<12:37:41><INFO>	 UpdatePlayersData()", -- [339]
-			"<12:37:42><DEBUG>	 GetPlayersGuildRank()", -- [340]
-			"<12:37:42><DEBUG>	 GetPlayersGuildRank()", -- [341]
-			"<12:37:42><DEBUG>	 Found Guild Rank: Sunlight", -- [342]
-			"<12:37:43><DEBUG>	 GetML()", -- [343]
-			"<13:17:13><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Líliana-Silvermoon", -- [344]
-			"<13:27:38><INFO>	 Logged In", -- [345]
-			"<13:27:38>[ML]<INFO>	 Init", -- [346]
-			"<13:27:38><INFO>	 RCLootCouncil TradeUI enabled", -- [347]
-			"<13:27:45><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [348]
-			"<13:27:45><DEBUG>	 ActivateSkin bfa", -- [349]
-			"<13:27:48><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [350]
-			"<13:27:48><INFO>	 UpdatePlayersData()", -- [351]
-			"<13:27:51><DEBUG>	 GetPlayersGuildRank()", -- [352]
-			"<13:27:51><DEBUG>	 Found Guild Rank: Alt", -- [353]
-			"<13:27:53><DEBUG>	 GetML()", -- [354]
-			"<13:59:00><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [355]
-			"<13:59:02><DEBUG>	 GetML()", -- [356]
-			"<13:59:02><DEBUG>	 Resetting council as we have a new ML!", -- [357]
-			"<13:59:02><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [358]
-			"<13:59:02>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [359]
-			"<13:59:02>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [360]
-			"<13:59:02>[ML]<DEBUG>	 UpdateMLdb", -- [361]
-			"<13:59:02><INFO>	 OnMLDBReceived", -- [362]
-			"<13:59:02><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [363]
-			"<13:59:02><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [364]
-			"<13:59:02><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N193.75^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [365]
-			"<13:59:04>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [366]
-			"<13:59:04><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [367]
-			"<13:59:04><DEBUG>	 isCouncil true", -- [368]
-			"<13:59:04><DEBUG>	 GetLootDBStatistics()", -- [369]
-			"<13:59:04><DEBUG>	 GetGuildRankNum()", -- [370]
-			"<13:59:04><INFO>	 RCVotingFrame enabled", -- [371]
-			"<13:59:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [372]
-			"<13:59:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [373]
-			"<13:59:17><DEBUG>	 Timer MLdb_check passed", -- [374]
-			"<13:59:25><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SMLdb_request^t^^ PARTY Lelethis-Silvermoon", -- [375]
-			"<13:59:25><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^Scouncil_request^t^^ PARTY Lelethis-Silvermoon", -- [376]
-			"<13:59:25>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [377]
-			"<13:59:25><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [378]
-			"<13:59:25><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [379]
-			"<13:59:25><DEBUG>	 isCouncil true", -- [380]
-			"<14:28:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [381]
-			"<14:29:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [382]
-			"<14:29:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [383]
-			"<14:34:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [384]
-			"<14:34:05><DEBUG>	 GetML()", -- [385]
-			"<14:34:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [386]
-			"<15:34:57><DEBUG>	 Event: GROUP_LEFT 1 Party-3391-1-00005460D1AD", -- [387]
-			"<15:34:57><DEBUG>	 GetML()", -- [388]
-			"<15:34:57><INFO>	 Stop handling loot", -- [389]
-			"<15:34:57>[ML]<INFO>	 Disabled", -- [390]
-			"<15:34:57><Comm>	 ^1^SStopHandleLoot^T^t^^ WHISPER Yóshino-Silvermoon", -- [391]
-			"<15:35:19><INFO>	 Logged In", -- [392]
-			"<15:35:19>[ML]<INFO>	 Init", -- [393]
-			"<15:35:19><INFO>	 RCLootCouncil TradeUI enabled", -- [394]
-			"<15:35:26><INFO>	 Iríya-Ravencrest 3.1.4 nil", -- [395]
-			"<15:35:26><DEBUG>	 ActivateSkin bfa", -- [396]
-			"<15:35:29><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [397]
-			"<15:35:29><INFO>	 UpdatePlayersData()", -- [398]
-			"<15:35:33><DEBUG>	 GetML()", -- [399]
-			"<15:45:48><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [400]
-			"<15:45:50><DEBUG>	 GetML()", -- [401]
-			"<15:45:50><Data.Player>	 CreatePlayer Player-3391-0B93314E", -- [402]
-			"<15:45:50><DEBUG>	 Resetting council as we have a new ML!", -- [403]
-			"<15:45:50><INFO>	 MasterLooter =  Yaganprayer-Silvermoon", -- [404]
-			"<15:46:05><DEBUG>	 Timer MLdb_check passed", -- [405]
-			"<15:46:05><Comm>	 ^1^Sxrealm^T^N1^SYaganprayer-Silvermoon^N2^SMLdb_request^t^^ PARTY Iríya-Ravencrest", -- [406]
-			"<15:46:05><Comm>	 ^1^Sxrealm^T^N1^SYaganprayer-Silvermoon^N2^Scouncil_request^t^^ PARTY Iríya-Ravencrest", -- [407]
-			"<15:47:46><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [408]
-			"<15:47:48><DEBUG>	 GetML()", -- [409]
-			"<15:47:48><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [410]
-			"<15:47:50><DEBUG>	 GetML()", -- [411]
-			"<15:48:58><DEBUG>	 Event: LOOT_READY true", -- [412]
-			"<15:48:58><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165414-0000B6751D 33688 Creature-0-4247-2287-14861-164562-000236751C 56394", -- [413]
-			"<15:48:58><DEBUG>	 Ignoring |cffffffff|Hcurrency:1820:1|h[Infused Ruby]|h|r as it's a currency", -- [414]
-			"<15:48:58><DEBUG>	 Adding to self.lootSlotInfo 4 |cff9d9d9d|Hitem:178114::::::::50:64:::::::|h[Stone Haunch]|h|r 0 1 Creature-0-4247-2287-14861-164563-0004B6751C 1", -- [415]
-			"<15:48:59><DEBUG>	 OnLootSlotCleared() 4 |cff9d9d9d|Hitem:178114::::::::50:64:::::::|h[Stone Haunch]|h|r 0", -- [416]
-			"<15:48:59><DEBUG>	 Event: LOOT_READY true", -- [417]
-			"<15:48:59><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165414-0000B6751D 33688 Creature-0-4247-2287-14861-164562-000236751C 56394", -- [418]
-			"<15:48:59><DEBUG>	 Ignoring |cffffffff|Hcurrency:1820:1|h[Infused Ruby]|h|r as it's a currency", -- [419]
-			"<15:48:59><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [420]
-			"<15:48:59><DEBUG>	 Event: LOOT_CLOSED", -- [421]
-			"<15:48:59><DEBUG>	 Event: LOOT_CLOSED", -- [422]
-			"<15:48:59><Comm>	 ^1^Sl^T^N1^S165414^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [423]
-			"<15:48:59><Comm>	 ^1^Sl^T^N1^S165414^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [424]
-			"<15:49:32><DEBUG>	 Event: LOOT_READY true", -- [425]
-			"<15:49:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165414-0002B6751D 14524 Creature-0-4247-2287-14861-165414-000336751D 27925", -- [426]
-			"<15:49:32><DEBUG>	 Adding to self.lootSlotInfo 5 |cff9d9d9d|Hitem:177733::::::::50:64::17:1:6909:1:28:747:::|h[Crumbling Plate Warboots]|h|r 0 1 Creature-0-4247-2287-14861-165414-000336751D 1", -- [427]
-			"<15:49:32><DEBUG>	 OnLootSlotCleared() 5 |cff9d9d9d|Hitem:177733::::::::50:64::17:1:6909:1:28:747:::|h[Crumbling Plate Warboots]|h|r 0", -- [428]
-			"<15:49:32><DEBUG>	 Event: LOOT_READY true", -- [429]
-			"<15:49:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165414-0002B6751D 14524 Creature-0-4247-2287-14861-165414-000336751D 27925", -- [430]
-			"<15:49:32><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [431]
-			"<15:49:32><DEBUG>	 Event: LOOT_CLOSED", -- [432]
-			"<15:49:32><DEBUG>	 Event: LOOT_CLOSED", -- [433]
-			"<15:49:33><Comm>	 ^1^Sl^T^N1^S165414^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [434]
-			"<15:49:33><Comm>	 ^1^Sl^T^N1^S165414^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [435]
-			"<15:50:17><DEBUG>	 Event: LOOT_READY true", -- [436]
-			"<15:50:17><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165414-000236751D 60653", -- [437]
-			"<15:50:17><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [438]
-			"<15:50:17><DEBUG>	 Event: LOOT_CLOSED", -- [439]
-			"<15:50:17><DEBUG>	 Event: LOOT_CLOSED", -- [440]
-			"<15:50:18><Comm>	 ^1^Sl^T^N1^S165414^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [441]
-			"<15:50:18><Comm>	 ^1^Sl^T^N1^S165414^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [442]
-			"<15:51:19><DEBUG>	 Event: LOOT_READY true", -- [443]
-			"<15:51:19><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:178173::::::::50:64:::::::|h[Crumbling Sandstone]|h|r 0 1 Creature-0-4247-2287-14861-164557-000036751B 1", -- [444]
-			"<15:51:19><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:178173::::::::50:64:::::::|h[Crumbling Sandstone]|h|r 0", -- [445]
-			"<15:51:19><DEBUG>	 Event: LOOT_CLOSED", -- [446]
-			"<15:51:19><DEBUG>	 Event: LOOT_CLOSED", -- [447]
-			"<15:51:19><Comm>	 ^1^Sl^T^N1^S164557^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [448]
-			"<15:51:19><Comm>	 ^1^Sl^T^N1^S164557^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [449]
-			"<15:51:59><DEBUG>	 Event: ENCOUNTER_START 2401 Halkias, the Sin-Stained Goliath 1 5", -- [450]
-			"<15:51:59><INFO>	 UpdatePlayersData()", -- [451]
-			"<15:52:33><DEBUG>	 Event: ENCOUNTER_END 2401 Halkias, the Sin-Stained Goliath 1 5 1", -- [452]
-			"<15:52:34><DEBUG>	 Event: LOOT_READY true", -- [453]
-			"<15:52:34><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165408-000036751B 61225 Creature-0-4247-2287-14861-165515-0000B6751D 35287", -- [454]
-			"<15:52:34><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:178114::::::::50:64:::::::|h[Stone Haunch]|h|r 0 1 Creature-0-4247-2287-14861-164563-000136751D 1", -- [455]
-			"<15:52:34><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2401 178818 |cff0070dd|Hitem:178818::::::::50:64::17:3:7217:6771:6652:2:28:747:9:57:::|h[Halkias's Towering Pillars]|h|r 1 Davids-Khadgar DEATHKNIGHT", -- [456]
-			"<15:52:35><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:178114::::::::50:64:::::::|h[Stone Haunch]|h|r 0", -- [457]
-			"<15:52:35><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [458]
-			"<15:52:35><DEBUG>	 Event: LOOT_CLOSED", -- [459]
-			"<15:52:35><DEBUG>	 Event: LOOT_CLOSED", -- [460]
-			"<15:52:35><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2401 181736 |cff0070dd|Hitem:181736::::::::50:64::1:2:1485:7244:2:28:747:37:2:::|h[Flame Accretion]|h|r 1 Hcpma-Quel'Thalas MAGE", -- [461]
-			"<15:52:35><Comm>	 ^1^Sl^T^N1^S164563^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [462]
-			"<15:52:35><Comm>	 ^1^Sl^T^N1^S164563^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [463]
-			"<15:53:04><DEBUG>	 Event: LOOT_READY true", -- [464]
-			"<15:53:04><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165515-0001B6751D 24205", -- [465]
-			"<15:53:04><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:178114::::::::51:64:::::::|h[Stone Haunch]|h|r 0 1 Creature-0-4247-2287-14861-164563-000036751D 1", -- [466]
-			"<15:53:04><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:178114::::::::51:64:::::::|h[Stone Haunch]|h|r 0", -- [467]
-			"<15:53:04><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [468]
-			"<15:53:04><DEBUG>	 Event: LOOT_CLOSED", -- [469]
-			"<15:53:04><DEBUG>	 Event: LOOT_CLOSED", -- [470]
-			"<15:53:05><Comm>	 ^1^Sl^T^N1^S164563^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [471]
-			"<15:53:05><Comm>	 ^1^Sl^T^N1^S164563^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [472]
-			"<15:54:34><DEBUG>	 Event: ENCOUNTER_START 2380 Echelon 1 5", -- [473]
-			"<15:54:34><INFO>	 UpdatePlayersData()", -- [474]
-			"<15:55:14><DEBUG>	 Event: ENCOUNTER_END 2380 Echelon 1 5 1", -- [475]
-			"<15:55:16><DEBUG>	 Event: LOOT_READY true", -- [476]
-			"<15:55:16><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-164185-000036751B 66317", -- [477]
-			"<15:55:16><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [478]
-			"<15:55:16><DEBUG>	 Event: LOOT_CLOSED", -- [479]
-			"<15:55:16><DEBUG>	 Event: LOOT_CLOSED", -- [480]
-			"<15:55:17><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2380 178815 |cff0070dd|Hitem:178815::::::::51:64::17:3:7217:6771:6652:2:28:747:9:51:::|h[Soaring Decimator's Hauberk]|h|r 1 Jêssâ-Silvermoon HUNTER", -- [481]
-			"<15:55:17><Comm>	 ^1^Sl^T^N1^S164185^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [482]
-			"<15:55:17><Comm>	 ^1^Sl^T^N1^S164185^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [483]
-			"<15:55:54><DEBUG>	 Event: LOOT_READY true", -- [484]
-			"<15:55:54><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-164562-00003676E4 40580", -- [485]
-			"<15:55:54><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:178114::::::::51:64:::::::|h[Stone Haunch]|h|r 0 1 Creature-0-4247-2287-14861-164563-0000B676E4 1", -- [486]
-			"<15:55:54><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:178114::::::::51:64:::::::|h[Stone Haunch]|h|r 0", -- [487]
-			"<15:55:54><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [488]
-			"<15:55:54><DEBUG>	 Event: LOOT_CLOSED", -- [489]
-			"<15:55:54><DEBUG>	 Event: LOOT_CLOSED", -- [490]
-			"<15:55:54><Comm>	 ^1^Sl^T^N1^S164563^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [491]
-			"<15:55:54><Comm>	 ^1^Sl^T^N1^S164563^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [492]
-			"<15:56:31><DEBUG>	 Event: LOOT_READY true", -- [493]
-			"<15:56:31><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-167615-00003676E4 27815", -- [494]
-			"<15:56:32><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [495]
-			"<15:56:32><DEBUG>	 Event: LOOT_CLOSED", -- [496]
-			"<15:56:32><DEBUG>	 Event: LOOT_CLOSED", -- [497]
-			"<15:56:32><Comm>	 ^1^Sl^T^N1^S167615^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [498]
-			"<15:56:32><Comm>	 ^1^Sl^T^N1^S167615^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [499]
-			"<15:56:49><DEBUG>	 Event: ENCOUNTER_START 2403 High Adjudicator Aleez 1 5", -- [500]
-			"<15:56:49><INFO>	 UpdatePlayersData()", -- [501]
-			"<15:57:23><DEBUG>	 Event: ENCOUNTER_END 2403 High Adjudicator Aleez 1 5 1", -- [502]
-			"<15:57:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2403 178814 |cff0070dd|Hitem:178814::::::::51:64::17:3:7217:6771:6652:2:28:747:9:57:::|h[Breastplate of Otherworldly Influence]|h|r 1 Davids-Khadgar DEATHKNIGHT", -- [503]
-			"<15:57:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2403 178828 |cff0070dd|Hitem:178828::::::::51:64::17:3:7217:6771:6652:2:28:747:9:55:::|h[Nathrian Tabernacle]|h|r 1 Yaganprayer-Silvermoon PRIEST", -- [504]
-			"<15:57:26><DEBUG>	 Event: LOOT_READY true", -- [505]
-			"<15:57:26><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-165410-000036751B 61900", -- [506]
-			"<15:57:26><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [507]
-			"<15:57:26><DEBUG>	 Event: LOOT_CLOSED", -- [508]
-			"<15:57:26><DEBUG>	 Event: LOOT_CLOSED", -- [509]
-			"<15:57:26><Comm>	 ^1^Sl^T^N1^S165410^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [510]
-			"<15:57:26><Comm>	 ^1^Sl^T^N1^S165410^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [511]
-			"<15:58:10><DEBUG>	 Event: ENCOUNTER_START 2381 Lord Chamberlain 1 5", -- [512]
-			"<15:58:10><INFO>	 UpdatePlayersData()", -- [513]
-			"<15:59:05><DEBUG>	 Event: ENCOUNTER_END 2381 Lord Chamberlain 1 5 1", -- [514]
-			"<15:59:08><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2381 178824 |cff0070dd|Hitem:178824::::::::51:64::17:4:7217:6771:6652:7193:2:28:747:9:51:::|h[Signet of the False Accuser]|h|r 1 Jêssâ-Silvermoon HUNTER", -- [515]
-			"<15:59:08><DEBUG>	 Event: LOOT_READY true", -- [516]
-			"<15:59:08><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4247-2287-14861-164218-000036751B 130992", -- [517]
-			"<15:59:08><DEBUG>	 Adding to self.lootSlotInfo 2 |cff0070dd|Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Nathrian Ferula]|h|r 3 1 Creature-0-4247-2287-14861-164218-000036751B 1", -- [518]
-			"<15:59:08><DEBUG>	 OnLootSlotCleared() 2 |cff0070dd|Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Nathrian Ferula]|h|r 3", -- [519]
-			"<15:59:08><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2381 178829 |cff0070dd|Hitem:178829::::::::51:64::17:3:7217:6771:6652:2:28:747:9:51:::|h[Nathrian Ferula]|h|r 1 Iríya MAGE", -- [520]
-			"<15:59:08><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [521]
-			"<15:59:08><DEBUG>	 Event: LOOT_CLOSED", -- [522]
-			"<15:59:08><DEBUG>	 Event: LOOT_CLOSED", -- [523]
-			"<15:59:09><Comm>	 ^1^Sl^T^N1^S164218^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [524]
-			"<15:59:09><Comm>	 ^1^Sl^T^N1^S164218^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [525]
-			"<15:59:10><DEBUG>	 Storage:New |cff0070dd|Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Nathrian Ferula]|h|r temp", -- [526]
-			"<15:59:10><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Nathrian Ferula]||h||r 5", -- [527]
-			"<15:59:10><DEBUG>	 Found: nil nil nil", -- [528]
-			"<15:59:11><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Nathrian Ferula]||h||r 5", -- [529]
-			"<15:59:11><DEBUG>	 Found: nil nil nil", -- [530]
-			"<15:59:12><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Nathrian Ferula]||h||r 5", -- [531]
-			"<15:59:12><DEBUG>	 Found: nil nil nil", -- [532]
-			"<15:59:13><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Nathrian Ferula]||h||r 5", -- [533]
-			"<15:59:13><DEBUG>	 Found: nil nil nil", -- [534]
-			"<15:59:13><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:178829::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Nathrian Ferula]|h|r not found in bags", -- [535]
-			"<16:00:52><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [536]
-			"<16:00:52><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056EEAAEA", -- [537]
-			"<16:00:52><DEBUG>	 GetML()", -- [538]
-			"<16:00:52><DEBUG>	 Resetting council as we have a new ML!", -- [539]
-			"<16:00:52><INFO>	 MasterLooter =  Yaganprayer-Silvermoon", -- [540]
-			"<16:00:52><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [541]
-			"<16:00:55><DEBUG>	 GetML()", -- [542]
-			"<16:00:55><DEBUG>	 GetML()", -- [543]
-			"<16:00:56><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [544]
-			"<16:00:57><DEBUG>	 GetML()", -- [545]
-			"<16:01:07><DEBUG>	 Timer MLdb_check passed", -- [546]
-			"<16:01:36><DEBUG>	 Event: LOOT_READY true", -- [547]
-			"<16:01:36><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 1 Vehicle-0-4253-2286-28352-162729-0001B67832 1", -- [548]
-			"<16:01:36><DEBUG>	 Event: LOOT_READY true", -- [549]
-			"<16:01:36><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 2 Vehicle-0-4253-2286-28352-162729-0004367831 1 Vehicle-0-4253-2286-28352-162729-0001B67832 1", -- [550]
-			"<16:01:36><DEBUG>	 Event: LOOT_READY true", -- [551]
-			"<16:01:36><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 1 Vehicle-0-4253-2286-28352-162729-0004367831 1", -- [552]
-			"<16:01:36><DEBUG>	 Event: LOOT_CLOSED", -- [553]
-			"<16:01:36><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0", -- [554]
-			"<16:01:36><DEBUG>	 Event: LOOT_CLOSED", -- [555]
-			"<16:01:36><Comm>	 ^1^Sl^T^N1^S162729^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [556]
-			"<16:02:08><DEBUG>	 Event: ENCOUNTER_START 2387 Blightbone 1 5", -- [557]
-			"<16:02:08><INFO>	 UpdatePlayersData()", -- [558]
-			"<16:02:41><DEBUG>	 Event: ENCOUNTER_END 2387 Blightbone 1 5 1", -- [559]
-			"<16:02:43><DEBUG>	 Event: LOOT_READY true", -- [560]
-			"<16:02:43><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4253-2286-28352-162691-0000367831 68249", -- [561]
-			"<16:02:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [562]
-			"<16:02:43><DEBUG>	 Event: LOOT_CLOSED", -- [563]
-			"<16:02:43><DEBUG>	 Event: LOOT_CLOSED", -- [564]
-			"<16:02:44><Comm>	 ^1^Sl^T^N1^S162691^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [565]
-			"<16:02:44><Comm>	 ^1^Sl^T^N1^S162691^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [566]
-			"<16:02:44><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2387 178732 |cff0070dd|Hitem:178732::::::::51:64::17:4:7217:6771:6652:7194:2:28:747:9:55:::|h[Abominable Visage]|h|r 1 Yaganprayer-Silvermoon PRIEST", -- [567]
-			"<16:02:44><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2387 178736 |cff0070dd|Hitem:178736::::::::51:64::1:5:6805:6652:7193:1472:4785:1:28:747:::|h[Stitchflesh's Misplaced Signet]|h|r 1 Nelak-Ravenholdt MAGE", -- [568]
-			"<16:04:25><DEBUG>	 Event: LOOT_READY true", -- [569]
-			"<16:04:25><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4253-2286-28352-163619-0000B678A2 33749", -- [570]
-			"<16:04:25><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [571]
-			"<16:04:25><DEBUG>	 Event: LOOT_CLOSED", -- [572]
-			"<16:04:25><DEBUG>	 Event: LOOT_CLOSED", -- [573]
-			"<16:04:25><Comm>	 ^1^Sl^T^N1^S163619^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [574]
-			"<16:04:25><Comm>	 ^1^Sl^T^N1^S163619^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [575]
-			"<16:05:01><DEBUG>	 Event: LOOT_READY true", -- [576]
-			"<16:05:01><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:176869::::::::51:64:::::::|h[Bone Chip]|h|r 0 1 Creature-0-4253-2286-28352-165919-0000B678A2 1", -- [577]
-			"<16:05:01><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:176869::::::::51:64:::::::|h[Bone Chip]|h|r 0", -- [578]
-			"<16:05:01><DEBUG>	 Event: LOOT_CLOSED", -- [579]
-			"<16:05:01><DEBUG>	 Event: LOOT_CLOSED", -- [580]
-			"<16:05:02><Comm>	 ^1^Sl^T^N1^S165919^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [581]
-			"<16:05:02><Comm>	 ^1^Sl^T^N1^S165919^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [582]
-			"<16:06:22><DEBUG>	 Event: ENCOUNTER_START 2388 Amarth, The Harvester 1 5", -- [583]
-			"<16:06:22><INFO>	 UpdatePlayersData()", -- [584]
-			"<16:06:59><DEBUG>	 Event: ENCOUNTER_END 2388 Amarth, The Harvester 1 5 1", -- [585]
-			"<16:07:01><DEBUG>	 Event: LOOT_READY true", -- [586]
-			"<16:07:01><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Vehicle-0-4253-2286-28352-163157-0000367831 66723", -- [587]
-			"<16:07:01><DEBUG>	 Adding to self.lootSlotInfo 2 |cff1eff00|Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::|h[Ritual Bell of the Fireflash]|h|r 2 1 Vehicle-0-4253-2286-28352-163157-0000367831 1", -- [588]
-			"<16:07:01><DEBUG>	 OnLootSlotCleared() 2 |cff1eff00|Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::|h[Ritual Bell of the Fireflash]|h|r 2", -- [589]
-			"<16:07:01><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [590]
-			"<16:07:01><DEBUG>	 Event: LOOT_CLOSED", -- [591]
-			"<16:07:01><DEBUG>	 Event: LOOT_CLOSED", -- [592]
-			"<16:07:01><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2388 178741 |cff0070dd|Hitem:178741::::::::51:64::1:5:6805:6652:7193:1472:4785:1:28:747:::|h[Risen Monstrosity Cuffs]|h|r 1 Markias-DefiasBrotherhood DRUID", -- [593]
-			"<16:07:01><Comm>	 ^1^Sl^T^N1^S163157^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [594]
-			"<16:07:01><Comm>	 ^1^Sl^T^N1^S163157^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [595]
-			"<16:07:03><DEBUG>	 Storage:New |cff1eff00|Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::|h[Ritual Bell of the Fireflash]|h|r temp", -- [596]
-			"<16:07:03><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::||h[Ritual Bell of the Fireflash]||h||r 5", -- [597]
-			"<16:07:03><DEBUG>	 Found: nil nil nil", -- [598]
-			"<16:07:04><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::||h[Ritual Bell of the Fireflash]||h||r 5", -- [599]
-			"<16:07:04><DEBUG>	 Found: nil nil nil", -- [600]
-			"<16:07:05><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::||h[Ritual Bell of the Fireflash]||h||r 5", -- [601]
-			"<16:07:05><DEBUG>	 Found: nil nil nil", -- [602]
-			"<16:07:06><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::||h[Ritual Bell of the Fireflash]||h||r 5", -- [603]
-			"<16:07:06><DEBUG>	 Found: nil nil nil", -- [604]
-			"<16:07:06><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:176797::::::::51:64::17:3:6908:6652:1696:1:28:747:::|h[Ritual Bell of the Fireflash]|h|r not found in bags", -- [605]
-			"<16:07:59><DEBUG>	 Event: LOOT_READY true", -- [606]
-			"<16:07:59><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 1 Creature-0-4253-2286-28352-172981-0000B679A4 1", -- [607]
-			"<16:07:59><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:176869::::::::51:64:::::::|h[Bone Chip]|h|r 0 2 Creature-0-4253-2286-28352-166264-0000B679A4 1 Creature-0-4253-2286-28352-166264-00033679A4 1", -- [608]
-			"<16:07:59><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:176874::::::::51:64:::::::|h[Desiccated Humerus]|h|r 0 2 Creature-0-4253-2286-28352-172981-00003679A4 1 Vehicle-0-4253-2286-28352-162729-0000B679A4 1", -- [609]
-			"<16:07:59><DEBUG>	 Adding to self.lootSlotInfo 4 |cff9d9d9d|Hitem:176853::::::::51:64:::::::|h[Spindly Flesh]|h|r 0 1 Creature-0-4253-2286-28352-165911-00003679A4 1", -- [610]
-			"<16:07:59><DEBUG>	 OnLootSlotCleared() 4 |cff9d9d9d|Hitem:176853::::::::51:64:::::::|h[Spindly Flesh]|h|r 0", -- [611]
-			"<16:07:59><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:176874::::::::51:64:::::::|h[Desiccated Humerus]|h|r 0", -- [612]
-			"<16:07:59><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:176869::::::::51:64:::::::|h[Bone Chip]|h|r 0", -- [613]
-			"<16:07:59><DEBUG>	 Event: LOOT_READY true", -- [614]
-			"<16:07:59><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 1 Creature-0-4253-2286-28352-172981-0000B679A4 1", -- [615]
-			"<16:07:59><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0", -- [616]
-			"<16:07:59><DEBUG>	 Event: LOOT_CLOSED", -- [617]
-			"<16:07:59><DEBUG>	 Event: LOOT_CLOSED", -- [618]
-			"<16:07:59><Comm>	 ^1^Sl^T^N1^S172981^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [619]
-			"<16:07:59><Comm>	 ^1^Sl^T^N1^S172981^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [620]
-			"<16:08:59><DEBUG>	 Event: LOOT_READY true", -- [621]
-			"<16:08:59><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 1 Creature-0-4253-2286-28352-167731-00003679FB 1", -- [622]
-			"<16:08:59><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0", -- [623]
-			"<16:08:59><DEBUG>	 Event: LOOT_CLOSED", -- [624]
-			"<16:08:59><DEBUG>	 Event: LOOT_CLOSED", -- [625]
-			"<16:08:59><Comm>	 ^1^Sl^T^N1^S167731^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [626]
-			"<16:08:59><Comm>	 ^1^Sl^T^N1^S167731^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [627]
-			"<16:09:57><DEBUG>	 Event: LOOT_READY true", -- [628]
-			"<16:09:57><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 2 Creature-0-4253-2286-28352-163620-00003679A4 1 Creature-0-4253-2286-28352-163623-0001367A3A 1", -- [629]
-			"<16:09:57><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0", -- [630]
-			"<16:09:57><DEBUG>	 Event: LOOT_CLOSED", -- [631]
-			"<16:09:57><DEBUG>	 Event: LOOT_CLOSED", -- [632]
-			"<16:09:57><Comm>	 ^1^Sl^T^N1^S163620^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [633]
-			"<16:09:57><Comm>	 ^1^Sl^T^N1^S163620^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [634]
-			"<16:10:01><DEBUG>	 Event: ENCOUNTER_START 2389 Stichflesh 1 5", -- [635]
-			"<16:10:01><INFO>	 UpdatePlayersData()", -- [636]
-			"<16:10:37><DEBUG>	 Event: ENCOUNTER_END 2389 Stichflesh 1 5 1", -- [637]
-			"<16:10:38><DEBUG>	 Event: LOOT_READY true", -- [638]
-			"<16:10:38><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4253-2286-28352-162689-00003679A4 62472", -- [639]
-			"<16:10:38><DEBUG>	 Adding to self.lootSlotInfo 2 |cff0070dd|Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Gory Surgeon's Gloves]|h|r 3 1 Creature-0-4253-2286-28352-162689-00003679A4 1", -- [640]
-			"<16:10:38><DEBUG>	 OnLootSlotCleared() 2 |cff0070dd|Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Gory Surgeon's Gloves]|h|r 3", -- [641]
-			"<16:10:38><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2389 178748 |cff0070dd|Hitem:178748::::::::51:64::17:3:7217:6771:6652:2:28:747:9:51:::|h[Gory Surgeon's Gloves]|h|r 1 Iríya MAGE", -- [642]
-			"<16:10:38><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [643]
-			"<16:10:38><DEBUG>	 Event: LOOT_CLOSED", -- [644]
-			"<16:10:38><DEBUG>	 Event: LOOT_CLOSED", -- [645]
-			"<16:10:38><Comm>	 ^1^Sl^T^N1^S162689^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [646]
-			"<16:10:38><Comm>	 ^1^Sl^T^N1^S162689^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [647]
-			"<16:10:40><DEBUG>	 Storage:New |cff0070dd|Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Gory Surgeon's Gloves]|h|r temp", -- [648]
-			"<16:10:40><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Gory Surgeon's Gloves]||h||r 5", -- [649]
-			"<16:10:40><DEBUG>	 Found: nil nil nil", -- [650]
-			"<16:10:41><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Gory Surgeon's Gloves]||h||r 5", -- [651]
-			"<16:10:41><DEBUG>	 Found: nil nil nil", -- [652]
-			"<16:10:42><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Gory Surgeon's Gloves]||h||r 5", -- [653]
-			"<16:10:42><DEBUG>	 Found: nil nil nil", -- [654]
-			"<16:10:43><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::||h[Gory Surgeon's Gloves]||h||r 5", -- [655]
-			"<16:10:43><DEBUG>	 Found: nil nil nil", -- [656]
-			"<16:10:43><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:178748::::::::51:64::17:3:7217:6771:6652:1:28:747:::|h[Gory Surgeon's Gloves]|h|r not found in bags", -- [657]
-			"<16:10:55><DEBUG>	 Event: ENCOUNTER_START 2390 Nalthor the Rimebinder 1 5", -- [658]
-			"<16:10:55><INFO>	 UpdatePlayersData()", -- [659]
-			"<16:11:27><DEBUG>	 Event: ENCOUNTER_END 2390 Nalthor the Rimebinder 1 5 1", -- [660]
-			"<16:11:30><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2390 178779 |cff0070dd|Hitem:178779::::::::51:64::1:4:6805:6652:1472:4785:1:28:747:::|h[Undying Chill Shoulderpads]|h|r 1 Markias-DefiasBrotherhood DRUID", -- [661]
-			"<16:11:31><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2390 178779 |cff0070dd|Hitem:178779::::::::51:64::1:4:6805:6652:1472:4785:1:28:747:::|h[Undying Chill Shoulderpads]|h|r 1 Huda-Dragonblight ROGUE", -- [662]
-			"<16:11:33><DEBUG>	 Event: LOOT_READY true", -- [663]
-			"<16:11:33><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4253-2286-28352-162693-0000367831 133321", -- [664]
-			"<16:11:33><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [665]
-			"<16:11:33><DEBUG>	 Event: LOOT_CLOSED", -- [666]
-			"<16:11:33><DEBUG>	 Event: LOOT_CLOSED", -- [667]
-			"<16:11:33><Comm>	 ^1^Sl^T^N1^S162693^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [668]
-			"<16:11:33><Comm>	 ^1^Sl^T^N1^S162693^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [669]
-			"<16:12:07><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [670]
-			"<16:12:09><DEBUG>	 GetML()", -- [671]
-			"<16:19:16><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-2-000056EEE297", -- [672]
-			"<16:19:16><DEBUG>	 GetML()", -- [673]
-			"<16:19:16><DEBUG>	 Resetting council as we have a new ML!", -- [674]
-			"<16:19:16><INFO>	 MasterLooter =  Yaganprayer-Silvermoon", -- [675]
-			"<16:19:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [676]
-			"<16:19:25><DEBUG>	 GetML()", -- [677]
-			"<16:19:31><DEBUG>	 Timer MLdb_check passed", -- [678]
-			"<16:19:32><Comm>	 ^1^Sxrealm^T^N1^SYaganprayer-Silvermoon^N2^SMLdb_request^t^^ PARTY Iríya-Ravencrest", -- [679]
-			"<16:19:32><Comm>	 ^1^Sxrealm^T^N1^SYaganprayer-Silvermoon^N2^Scouncil_request^t^^ PARTY Iríya-Ravencrest", -- [680]
-			"<16:20:21><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [681]
-			"<16:20:27><DEBUG>	 GetML()", -- [682]
-			"<16:20:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [683]
-			"<16:20:29><DEBUG>	 GetML()", -- [684]
-			"<16:23:01><DEBUG>	 Event: ENCOUNTER_START 2382 Globgrog 1 5", -- [685]
-			"<16:23:01><INFO>	 UpdatePlayersData()", -- [686]
-			"<16:23:38><DEBUG>	 Event: ENCOUNTER_END 2382 Globgrog 1 5 1", -- [687]
-			"<16:23:39><DEBUG>	 Event: LOOT_READY true", -- [688]
-			"<16:23:39><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4237-2289-21733-164255-0000367CBE 67227", -- [689]
-			"<16:23:39><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0 2 Creature-0-4237-2289-21733-168969-0000367CC3 1 Creature-0-4237-2289-21733-168969-0000B67CBE 1", -- [690]
-			"<16:23:39><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:176866::::::::51:64:::::::|h[Putrid Sludge]|h|r 0", -- [691]
-			"<16:23:39><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [692]
-			"<16:23:39><DEBUG>	 Event: LOOT_CLOSED", -- [693]
-			"<16:23:39><DEBUG>	 Event: LOOT_CLOSED", -- [694]
-			"<16:23:40><Comm>	 ^1^Sl^T^N1^S168969^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [695]
-			"<16:23:40><Comm>	 ^1^Sl^T^N1^S168969^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [696]
-			"<16:24:13><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 172097 |cff0070dd|Hitem:172097::::::::51:64:::::::|h[Heavy Callous Hide]|h|r 1 Sinner-Sylvanas DEMONHUNTER", -- [697]
-			"<16:26:03><DEBUG>	 Event: ENCOUNTER_START 2384 Doctor Ickus 1 5", -- [698]
-			"<16:26:03><INFO>	 UpdatePlayersData()", -- [699]
-			"<16:27:09><DEBUG>	 Event: ENCOUNTER_END 2384 Doctor Ickus 1 5 1", -- [700]
-			"<16:27:11><DEBUG>	 Event: LOOT_READY true", -- [701]
-			"<16:27:11><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4237-2289-21733-164967-0000367CBE 61864", -- [702]
-			"<16:27:11><DEBUG>	 Adding to self.lootSlotInfo 2 |cff0070dd|Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::|h[Depraved Physician's Mask]|h|r 3 1 Creature-0-4237-2289-21733-164967-0000367CBE 1", -- [703]
-			"<16:27:11><DEBUG>	 OnLootSlotCleared() 2 |cff0070dd|Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::|h[Depraved Physician's Mask]|h|r 3", -- [704]
-			"<16:27:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2384 178759 |cff0070dd|Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:2:28:747:9:51:::|h[Depraved Physician's Mask]|h|r 1 Iríya MAGE", -- [705]
-			"<16:27:11><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [706]
-			"<16:27:11><DEBUG>	 Event: LOOT_CLOSED", -- [707]
-			"<16:27:11><DEBUG>	 Event: LOOT_CLOSED", -- [708]
-			"<16:27:11><Comm>	 ^1^Sl^T^N1^S164967^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [709]
-			"<16:27:11><Comm>	 ^1^Sl^T^N1^S164967^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [710]
-			"<16:27:13><DEBUG>	 Storage:New |cff0070dd|Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::|h[Depraved Physician's Mask]|h|r temp", -- [711]
-			"<16:27:13><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::||h[Depraved Physician's Mask]||h||r 5", -- [712]
-			"<16:27:13><DEBUG>	 Found: nil nil nil", -- [713]
-			"<16:27:14><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::||h[Depraved Physician's Mask]||h||r 5", -- [714]
-			"<16:27:14><DEBUG>	 Found: nil nil nil", -- [715]
-			"<16:27:15><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::||h[Depraved Physician's Mask]||h||r 5", -- [716]
-			"<16:27:15><DEBUG>	 Found: nil nil nil", -- [717]
-			"<16:27:16><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::||h[Depraved Physician's Mask]||h||r 5", -- [718]
-			"<16:27:16><DEBUG>	 Found: nil nil nil", -- [719]
-			"<16:27:16><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:178759::::::::51:64::17:4:7217:6771:6652:7193:1:28:747:::|h[Depraved Physician's Mask]|h|r not found in bags", -- [720]
-			"<16:29:19><DEBUG>	 Event: ENCOUNTER_START 2385 Domina Venomblade 1 5", -- [721]
-			"<16:29:19><INFO>	 UpdatePlayersData()", -- [722]
-			"<16:29:55><DEBUG>	 Event: ENCOUNTER_END 2385 Domina Venomblade 1 5 1", -- [723]
-			"<16:29:59><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2385 178933 |cff0070dd|Hitem:178933::::::::52:64::17:4:7217:6771:6652:7193:2:28:747:9:54:::|h[Arachnid Cipher Ring]|h|r 1 Sinner-Sylvanas DEMONHUNTER", -- [724]
-			"<16:29:59><DEBUG>	 Event: LOOT_READY true", -- [725]
-			"<16:29:59><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4237-2289-21733-164266-0000367CBE 60021", -- [726]
-			"<16:29:59><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [727]
-			"<16:29:59><DEBUG>	 Event: LOOT_CLOSED", -- [728]
-			"<16:29:59><DEBUG>	 Event: LOOT_CLOSED", -- [729]
-			"<16:29:59><Comm>	 ^1^Sl^T^N1^S164266^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [730]
-			"<16:29:59><Comm>	 ^1^Sl^T^N1^S164266^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [731]
-			"<16:30:14><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2385 178934 |cff0070dd|Hitem:178934::::::::52:64::17:4:7217:6771:6652:7193:2:28:747:9:55:::|h[Fastened Venombarb Binds]|h|r 1 Amuini-Magtheridon DRUID", -- [732]
-			"<16:31:02><DEBUG>	 Event: LOOT_READY true", -- [733]
-			"<16:31:02><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176869::::::::52:64:::::::|h[Bone Chip]|h|r 0 2 Creature-0-4237-2289-21733-163857-0001367F04 1 Creature-0-4237-2289-21733-163857-0005B67F04 1", -- [734]
-			"<16:31:02><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176869::::::::52:64:::::::|h[Bone Chip]|h|r 0", -- [735]
-			"<16:31:02><DEBUG>	 Event: LOOT_CLOSED", -- [736]
-			"<16:31:02><DEBUG>	 Event: LOOT_CLOSED", -- [737]
-			"<16:31:02><Comm>	 ^1^Sl^T^N1^S163857^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [738]
-			"<16:31:02><Comm>	 ^1^Sl^T^N1^S163857^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [739]
-			"<16:31:15><DEBUG>	 Event: ENCOUNTER_START 2386 Stradama Margrave 1 5", -- [740]
-			"<16:31:15><INFO>	 UpdatePlayersData()", -- [741]
-			"<16:32:44><DEBUG>	 Event: ENCOUNTER_END 2386 Stradama Margrave 1 5 1", -- [742]
-			"<16:32:45><DEBUG>	 Event: LOOT_READY true", -- [743]
-			"<16:32:45><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4237-2289-21733-164267-0000367F4C 130743 Creature-0-4237-2289-21733-169861-0000367F04 30462", -- [744]
-			"<16:32:45><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [745]
-			"<16:32:45><DEBUG>	 Event: LOOT_CLOSED", -- [746]
-			"<16:32:46><DEBUG>	 Event: LOOT_CLOSED", -- [747]
-			"<16:32:46><Comm>	 ^1^Sl^T^N1^S164267^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [748]
-			"<16:32:46><Comm>	 ^1^Sl^T^N1^S164267^t^^ INSTANCE_CHAT Iríya-Ravencrest", -- [749]
-			"<16:32:46><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2386 178761 |cff0070dd|Hitem:178761::::::::52:64::17:3:7217:6771:6652:2:28:747:9:55:::|h[Leggings of the Erudite Scholar]|h|r 1 Yaganprayer-Silvermoon PRIEST", -- [750]
-			"<16:32:49><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2386 178757 |cff0070dd|Hitem:178757::::::::52:64::17:3:7217:6771:6652:2:28:747:9:54:::|h[Gloves of Obscure Rituals]|h|r 1 Sinner-Sylvanas DEMONHUNTER", -- [751]
-			"<16:32:56><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [752]
-			"<16:32:58><DEBUG>	 GetML()", -- [753]
-			"<16:32:58><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [754]
-			"<16:33:00><DEBUG>	 GetML()", -- [755]
-			"<16:33:21><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056EF388C", -- [756]
-			"<16:33:21><DEBUG>	 GetML()", -- [757]
-			"<16:33:21><DEBUG>	 Resetting council as we have a new ML!", -- [758]
-			"<16:33:21><INFO>	 MasterLooter =  Yaganprayer-Silvermoon", -- [759]
-			"<16:33:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [760]
-			"<16:33:29><DEBUG>	 GetML()", -- [761]
-			"<16:33:36><DEBUG>	 Timer MLdb_check passed", -- [762]
-			"<16:33:36><Comm>	 ^1^Sxrealm^T^N1^SYaganprayer-Silvermoon^N2^SMLdb_request^t^^ PARTY Iríya-Ravencrest", -- [763]
-			"<16:33:36><Comm>	 ^1^Sxrealm^T^N1^SYaganprayer-Silvermoon^N2^Scouncil_request^t^^ PARTY Iríya-Ravencrest", -- [764]
-			"<16:33:41><DEBUG>	 Event: GROUP_LEFT 1 Party-3391-1-00005461F101", -- [765]
-			"<16:33:41><DEBUG>	 GetML()", -- [766]
-			"<17:03:40><INFO>	 Logged In", -- [767]
-			"<17:03:40>[ML]<INFO>	 Init", -- [768]
-			"<17:03:40><INFO>	 RCLootCouncil TradeUI enabled", -- [769]
-			"<17:03:48><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [770]
-			"<17:03:48><DEBUG>	 ActivateSkin bfa", -- [771]
-			"<17:03:51><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [772]
-			"<17:03:51><INFO>	 UpdatePlayersData()", -- [773]
-			"<17:03:52><DEBUG>	 GetPlayersGuildRank()", -- [774]
-			"<17:03:52><DEBUG>	 GetPlayersGuildRank()", -- [775]
-			"<17:03:52><DEBUG>	 Found Guild Rank: Sunlight", -- [776]
-			"<17:03:57><DEBUG>	 GetML()", -- [777]
-			"<17:05:05><INFO>	 Logged In", -- [778]
-			"<17:05:05>[ML]<INFO>	 Init", -- [779]
-			"<17:05:05><INFO>	 RCLootCouncil TradeUI enabled", -- [780]
-			"<17:05:13><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [781]
-			"<17:05:13><DEBUG>	 ActivateSkin bfa", -- [782]
-			"<17:05:17><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [783]
-			"<17:05:17><INFO>	 UpdatePlayersData()", -- [784]
-			"<17:05:18><DEBUG>	 GetPlayersGuildRank()", -- [785]
-			"<17:05:18><DEBUG>	 GetPlayersGuildRank()", -- [786]
-			"<17:05:18><DEBUG>	 Found Guild Rank: Alt", -- [787]
-			"<17:05:21><DEBUG>	 GetML()", -- [788]
-			"<17:08:03><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [789]
-			"<17:08:05><DEBUG>	 GetML()", -- [790]
-			"<17:08:05><DEBUG>	 Resetting council as we have a new ML!", -- [791]
-			"<17:08:05><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [792]
-			"<17:08:05>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [793]
-			"<17:08:05>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [794]
-			"<17:08:05>[ML]<DEBUG>	 UpdateMLdb", -- [795]
-			"<17:08:05><INFO>	 OnMLDBReceived", -- [796]
-			"<17:08:05><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [797]
-			"<17:08:05><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [798]
-			"<17:08:05><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N193.75^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [799]
-			"<17:08:07>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [800]
-			"<17:08:07><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [801]
-			"<17:08:07><DEBUG>	 isCouncil true", -- [802]
-			"<17:08:07><DEBUG>	 GetLootDBStatistics()", -- [803]
-			"<17:08:07><DEBUG>	 GetGuildRankNum()", -- [804]
-			"<17:08:07><INFO>	 RCVotingFrame enabled", -- [805]
-			"<17:08:11><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [806]
-			"<17:08:20><DEBUG>	 Timer MLdb_check passed", -- [807]
-			"<17:10:21><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [808]
-			"<17:10:22><DEBUG>	 GetML()", -- [809]
-			"<17:10:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [810]
-			"<17:13:58><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [811]
-			"<17:14:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [812]
-			"<17:14:00><DEBUG>	 Event: RAID_INSTANCE_WELCOME Tempest Keep: The Arcatraz (Heroic) 49559 0 0", -- [813]
-			"<17:14:01><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [814]
-			"<17:14:03><DEBUG>	 GetML()", -- [815]
-			"<17:14:03><INFO>	 Stop handling loot", -- [816]
-			"<17:14:03>[ML]<INFO>	 Disabled", -- [817]
-			"<17:14:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [818]
-			"<17:14:03><DEBUG>	 GetML()", -- [819]
-			"<17:14:03><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [820]
-			"<17:14:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [821]
-			"<17:14:06><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [822]
-			"<17:19:24><DEBUG>	 Event: ENCOUNTER_START 1916 Zereketh the Unbound 2 5", -- [823]
-			"<17:19:24><INFO>	 UpdatePlayersData()", -- [824]
-			"<17:20:08><DEBUG>	 Event: ENCOUNTER_END 1916 Zereketh the Unbound 2 5 1", -- [825]
-			"<17:20:09><DEBUG>	 Event: LOOT_READY true", -- [826]
-			"<17:20:09><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20870-000036894D 73520", -- [827]
-			"<17:20:09><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [828]
-			"<17:20:09><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::|h[Expedition Girdle of the Aurora]|h|r 2 1 Creature-0-4248-552-7444-20868-000036894D 1", -- [829]
-			"<17:20:09><DEBUG>	 Adding to self.lootSlotInfo 4 |cff9d9d9d|Hitem:29799::::::::60:65:::::::|h[Lifeless Tendril]|h|r 0 5 Creature-0-4248-552-7444-20867-000036894D 3 Creature-0-4248-552-7444-20868-000036894D 2", -- [830]
-			"<17:20:09><DEBUG>	 Adding to self.lootSlotInfo 6 |cff0070dd|Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::|h[Rubium War-Girdle]|h|r 3 1 Creature-0-4248-552-7444-20870-000036894D 1", -- [831]
-			"<17:20:10><DEBUG>	 OnLootSlotCleared() 6 |cff0070dd|Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::|h[Rubium War-Girdle]|h|r 3", -- [832]
-			"<17:20:10><DEBUG>	 OnLootSlotCleared() 4 |cff9d9d9d|Hitem:29799::::::::60:65:::::::|h[Lifeless Tendril]|h|r 0", -- [833]
-			"<17:20:10><DEBUG>	 Event: LOOT_READY true", -- [834]
-			"<17:20:10><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20870-000036894D 73520", -- [835]
-			"<17:20:10><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [836]
-			"<17:20:10><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::|h[Expedition Girdle of the Aurora]|h|r 2 1 Creature-0-4248-552-7444-20868-000036894D 1", -- [837]
-			"<17:20:10><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::|h[Expedition Girdle of the Aurora]|h|r 2", -- [838]
-			"<17:20:10><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1916 127153 |cff0070dd|Hitem:127153::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Rubium War-Girdle]|h|r 1 Yóshino PALADIN", -- [839]
-			"<17:20:10><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [840]
-			"<17:20:10><DEBUG>	 Event: LOOT_CLOSED", -- [841]
-			"<17:20:10><DEBUG>	 Event: LOOT_CLOSED", -- [842]
-			"<17:20:10><Comm>	 ^1^Sl^T^N1^S20868^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [843]
-			"<17:20:10><Comm>	 ^1^Sl^T^N1^S20868^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [844]
-			"<17:20:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1916 127162 |cff0070dd|Hitem:127162::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Gloves of the Unbound]|h|r 1 Dedrel-Aszune ROGUE", -- [845]
-			"<17:20:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1916 30581 |cffa335ee|Hitem:30581::::::::60:65:::::::|h[Willful Fire Opal]|h|r 1 Nalfeshnee DEMONHUNTER", -- [846]
-			"<17:20:12><DEBUG>	 Storage:New |cff0070dd|Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::|h[Rubium War-Girdle]|h|r temp", -- [847]
-			"<17:20:12><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::||h[Rubium War-Girdle]||h||r 5", -- [848]
-			"<17:20:12><DEBUG>	 Found: nil nil nil", -- [849]
-			"<17:20:12><DEBUG>	 Storage:New |cff1eff00|Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::|h[Expedition Girdle of the Aurora]|h|r temp", -- [850]
-			"<17:20:12><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::||h[Expedition Girdle of the Aurora]||h||r 5", -- [851]
-			"<17:20:12><DEBUG>	 Found: nil nil nil", -- [852]
-			"<17:20:13><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::||h[Rubium War-Girdle]||h||r 5", -- [853]
-			"<17:20:13><DEBUG>	 Found: nil nil nil", -- [854]
-			"<17:20:13><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::||h[Expedition Girdle of the Aurora]||h||r 5", -- [855]
-			"<17:20:13><DEBUG>	 Found: nil nil nil", -- [856]
-			"<17:20:14><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::||h[Rubium War-Girdle]||h||r 5", -- [857]
-			"<17:20:14><DEBUG>	 Found: nil nil nil", -- [858]
-			"<17:20:14><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::||h[Expedition Girdle of the Aurora]||h||r 5", -- [859]
-			"<17:20:14><DEBUG>	 Found: nil nil nil", -- [860]
-			"<17:20:15><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::||h[Rubium War-Girdle]||h||r 5", -- [861]
-			"<17:20:15><DEBUG>	 Found: nil nil nil", -- [862]
-			"<17:20:15><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127153::::::::60:65::22:2:7191:6652:1:28:181:::|h[Rubium War-Girdle]|h|r not found in bags", -- [863]
-			"<17:20:15><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::||h[Expedition Girdle of the Aurora]||h||r 5", -- [864]
-			"<17:20:15><DEBUG>	 Found: nil nil nil", -- [865]
-			"<17:20:15><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:24790::::::::60:65::22:2:6654:1707:1:28:1070:::|h[Expedition Girdle of the Aurora]|h|r not found in bags", -- [866]
-			"<17:20:17><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1916 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Selalara HUNTER", -- [867]
-			"<17:21:34><DEBUG>	 Event: LOOT_READY true", -- [868]
-			"<17:21:34><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20875-000136894D 4795 Creature-0-4248-552-7444-20875-000036894D 10649", -- [869]
-			"<17:21:34><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:25373::::::::60:65::22:1:6656:1:28:1070:::|h[Corroded Mail Armor]|h|r 0 1 Creature-0-4248-552-7444-20875-000136894D 1", -- [870]
-			"<17:21:34><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:25373::::::::60:65::22:1:6656:1:28:1070:::|h[Corroded Mail Armor]|h|r 0", -- [871]
-			"<17:21:34><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [872]
-			"<17:21:34><DEBUG>	 Event: LOOT_CLOSED", -- [873]
-			"<17:21:34><DEBUG>	 Event: LOOT_CLOSED", -- [874]
-			"<17:21:34><Comm>	 ^1^Sl^T^N1^S20875^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [875]
-			"<17:21:35><Comm>	 ^1^Sl^T^N1^S20875^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [876]
-			"<17:23:48><DEBUG>	 Event: LOOT_READY true", -- [877]
-			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20879-000036894D 9453", -- [878]
-			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25418::::::::60:65:::::::|h[Razor Sharp Fang]|h|r 0 1 Creature-0-4248-552-7444-20865-000EB6894D 1", -- [879]
-			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r 2 1 Creature-0-4248-552-7444-20879-000036894D 1", -- [880]
-			"<17:23:48><DEBUG>	 Event: LOOT_READY true", -- [881]
-			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20879-000036894D 9453", -- [882]
-			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25418::::::::60:65:::::::|h[Razor Sharp Fang]|h|r 0 1 Creature-0-4248-552-7444-20865-000EB6894D 1", -- [883]
-			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r 2 1 Creature-0-4248-552-7444-20879-000036894D 1", -- [884]
-			"<17:23:48><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r 2", -- [885]
-			"<17:23:48><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:25418::::::::60:65:::::::|h[Razor Sharp Fang]|h|r 0", -- [886]
-			"<17:23:48><DEBUG>	 Event: LOOT_CLOSED", -- [887]
-			"<17:23:49><Comm>	 ^1^Sl^T^N1^S20879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [888]
-			"<17:23:49><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 31291 |cff0070dd|Hitem:31291::::::::60:65::22:1:6659:2:28:1070:9:30:::|h[Crystalforged War Axe]|h|r 1 Dedrel-Aszune ROGUE", -- [889]
-			"<17:23:50><DEBUG>	 Storage:New |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r temp", -- [890]
-			"<17:23:50><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [891]
-			"<17:23:50><DEBUG>	 Found: nil nil nil", -- [892]
-			"<17:23:51><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [893]
-			"<17:23:51><DEBUG>	 Found: nil nil nil", -- [894]
-			"<17:23:52><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [895]
-			"<17:23:52><DEBUG>	 Found: nil nil nil", -- [896]
-			"<17:23:53><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [897]
-			"<17:23:53><DEBUG>	 Found: nil nil nil", -- [898]
-			"<17:23:53><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r not found in bags", -- [899]
-			"<17:24:53><DEBUG>	 Event: LOOT_READY true", -- [900]
-			"<17:24:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20881-000036894D 7264", -- [901]
-			"<17:24:53><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [902]
-			"<17:24:53><DEBUG>	 Event: LOOT_CLOSED", -- [903]
-			"<17:24:53><DEBUG>	 Event: LOOT_CLOSED", -- [904]
-			"<17:24:53><Comm>	 ^1^Sl^T^N1^S20881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [905]
-			"<17:24:53><Comm>	 ^1^Sl^T^N1^S20881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [906]
-			"<17:26:09><DEBUG>	 Event: ENCOUNTER_START 1913 Dalliah the Doomsayer 2 5", -- [907]
-			"<17:26:09><INFO>	 UpdatePlayersData()", -- [908]
-			"<17:26:56><DEBUG>	 Event: ENCOUNTER_END 1913 Dalliah the Doomsayer 2 5 1", -- [909]
-			"<17:26:57><DEBUG>	 Event: LOOT_READY true", -- [910]
-			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20885-000036894D 70918", -- [911]
-			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4 1 Creature-0-4248-552-7444-20885-000036894D 1", -- [912]
-			"<17:26:57><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [913]
-			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 5 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r 3 1 Creature-0-4248-552-7444-20885-000036894D 1", -- [914]
-			"<17:26:57><DEBUG>	 OnLootSlotCleared() 5 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r 3", -- [915]
-			"<17:26:57><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4", -- [916]
-			"<17:26:57><DEBUG>	 Event: LOOT_READY true", -- [917]
-			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20885-000036894D 70918", -- [918]
-			"<17:26:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 127157 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Thatia's Self-Correcting Gauntlets]|h|r 1 Yóshino PALADIN", -- [919]
-			"<17:26:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Yóshino PALADIN", -- [920]
-			"<17:26:57><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [921]
-			"<17:26:57><DEBUG>	 Event: LOOT_CLOSED", -- [922]
-			"<17:26:57><DEBUG>	 Event: LOOT_CLOSED", -- [923]
-			"<17:26:57><Comm>	 ^1^Sl^T^N1^S20885^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [924]
-			"<17:26:57><Comm>	 ^1^Sl^T^N1^S20885^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [925]
-			"<17:26:58><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 127157 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Thatia's Self-Correcting Gauntlets]|h|r 1 Tervania-Ravencrest PALADIN", -- [926]
-			"<17:26:59><DEBUG>	 Storage:New |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r temp", -- [927]
-			"<17:26:59><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [928]
-			"<17:26:59><DEBUG>	 Found: nil nil nil", -- [929]
-			"<17:26:59><DEBUG>	 Storage:New |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r temp", -- [930]
-			"<17:26:59><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [931]
-			"<17:26:59><DEBUG>	 Found item at 1 10", -- [932]
-			"<17:26:59><DEBUG>	 Found: 1 10 0", -- [933]
-			"<17:27:00><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [934]
-			"<17:27:00><DEBUG>	 Found: nil nil nil", -- [935]
-			"<17:27:00><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [936]
-			"<17:27:00><DEBUG>	 Found item at 1 10", -- [937]
-			"<17:27:00><DEBUG>	 Found: 1 10 0", -- [938]
-			"<17:27:00><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Dedrel-Aszune ROGUE", -- [939]
-			"<17:27:00><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly~`Fire~`Opal]|h|r^N2^S20885^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [940]
-			"<17:27:01><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [941]
-			"<17:27:01><DEBUG>	 Found: nil nil nil", -- [942]
-			"<17:27:02><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [943]
-			"<17:27:02><DEBUG>	 Found: nil nil nil", -- [944]
-			"<17:27:02><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r not found in bags", -- [945]
-			"<17:27:07><DEBUG>	 Event: ENCOUNTER_START 1915 Wrath-Scryer Soccothrates 2 5", -- [946]
-			"<17:27:07><INFO>	 UpdatePlayersData()", -- [947]
-			"<17:28:10><DEBUG>	 Event: ENCOUNTER_END 1915 Wrath-Scryer Soccothrates 2 5 1", -- [948]
-			"<17:28:13><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Dedrel-Aszune ROGUE", -- [949]
-			"<17:28:13><DEBUG>	 Event: LOOT_READY true", -- [950]
-			"<17:28:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20886-000036894D 73370", -- [951]
-			"<17:28:13><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [952]
-			"<17:28:13><DEBUG>	 Adding to self.lootSlotInfo 4 |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4 1 Creature-0-4248-552-7444-20886-000036894D 1", -- [953]
-			"<17:28:13><DEBUG>	 OnLootSlotCleared() 4 |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4", -- [954]
-			"<17:28:14><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 30575 |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Yóshino PALADIN", -- [955]
-			"<17:28:14><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [956]
-			"<17:28:14><DEBUG>	 Event: LOOT_CLOSED", -- [957]
-			"<17:28:14><DEBUG>	 Event: LOOT_CLOSED", -- [958]
-			"<17:28:14><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 127165 |cff0070dd|Hitem:127165::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Doomplate Chestguard]|h|r 1 Tervania-Ravencrest PALADIN", -- [959]
-			"<17:28:14><Comm>	 ^1^Sl^T^N1^S20886^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [960]
-			"<17:28:14><Comm>	 ^1^Sl^T^N1^S20886^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [961]
-			"<17:28:15><DEBUG>	 Storage:New |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r temp", -- [962]
-			"<17:28:15><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30575::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [963]
-			"<17:28:15><DEBUG>	 Found item at 1 11", -- [964]
-			"<17:28:15><DEBUG>	 Found: 1 11 0", -- [965]
-			"<17:28:16><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30575::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [966]
-			"<17:28:16><DEBUG>	 Found item at 1 11", -- [967]
-			"<17:28:16><DEBUG>	 Found: 1 11 0", -- [968]
-			"<17:28:17><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble~`Chrysoprase]|h|r^N2^S20886^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [969]
-			"<17:28:20><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 127163 |cff0070dd|Hitem:127163::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Emberhawk Crossbow]|h|r 1 Selalara HUNTER", -- [970]
-			"<17:28:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [971]
-			"<17:28:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [972]
-			"<17:30:21><DEBUG>	 Event: LOOT_READY true", -- [973]
-			"<17:30:21><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-21702-000036894D 9416", -- [974]
-			"<17:30:21><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [975]
-			"<17:30:21><DEBUG>	 Event: LOOT_CLOSED", -- [976]
-			"<17:30:21><DEBUG>	 Event: LOOT_CLOSED", -- [977]
-			"<17:30:21><Comm>	 ^1^Sl^T^N1^S21702^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [978]
-			"<17:30:21><Comm>	 ^1^Sl^T^N1^S21702^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [979]
-			"<17:33:15><DEBUG>	 Event: LOOT_READY true", -- [980]
-			"<17:33:15><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20900-0000B6894D 4698", -- [981]
-			"<17:33:15><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [982]
-			"<17:33:15><DEBUG>	 Event: LOOT_CLOSED", -- [983]
-			"<17:33:15><DEBUG>	 Event: LOOT_CLOSED", -- [984]
-			"<17:33:16><Comm>	 ^1^Sl^T^N1^S20900^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [985]
-			"<17:33:16><Comm>	 ^1^Sl^T^N1^S20900^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [986]
-			"<17:39:20><DEBUG>	 Event: ENCOUNTER_START 1914 Harbinger Skyriss 2 5", -- [987]
-			"<17:39:20><INFO>	 UpdatePlayersData()", -- [988]
-			"<17:41:07><DEBUG>	 Event: ENCOUNTER_END 1914 Harbinger Skyriss 2 5 1", -- [989]
-			"<17:41:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [990]
-			"<17:41:09><DEBUG>	 Event: LOOT_READY true", -- [991]
-			"<17:41:09><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20912-0000368F2A 169057", -- [992]
-			"<17:41:09><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4 1 Creature-0-4248-552-7444-20912-0000368F2A 1", -- [993]
-			"<17:41:09><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [994]
-			"<17:41:09><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4", -- [995]
-			"<17:41:09><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1070:::|h[Swirling Timewarped Vial]|h|r 1 Yóshino PALADIN", -- [996]
-			"<17:41:09><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Yóshino PALADIN", -- [997]
-			"<17:41:09><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [998]
-			"<17:41:09><DEBUG>	 Event: LOOT_CLOSED", -- [999]
-			"<17:41:09><DEBUG>	 Event: LOOT_CLOSED", -- [1000]
-			"<17:41:09><Comm>	 ^1^Sl^T^N1^S20912^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1001]
-			"<17:41:09><Comm>	 ^1^Sl^T^N1^S20912^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1002]
-			"<17:41:10><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 127178 |cff0070dd|Hitem:127178::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Vileblade of the Betrayer]|h|r 1 Dedrel-Aszune ROGUE", -- [1003]
-			"<17:41:11><DEBUG>	 Storage:New |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r temp", -- [1004]
-			"<17:41:11><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [1005]
-			"<17:41:11><DEBUG>	 Found item at 1 10", -- [1006]
-			"<17:41:11><DEBUG>	 Found: 1 10 0", -- [1007]
-			"<17:41:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Dedrel-Aszune ROGUE", -- [1008]
-			"<17:41:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1070:::|h[Swirling Timewarped Vial]|h|r 1 Selalara HUNTER", -- [1009]
-			"<17:41:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 127150 |cff0070dd|Hitem:127150::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Tidefury Chestpiece]|h|r 1 Selalara HUNTER", -- [1010]
-			"<17:41:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 30581 |cffa335ee|Hitem:30581::::::::60:65:::::::|h[Willful Fire Opal]|h|r 1 Tervania-Ravencrest PALADIN", -- [1011]
-			"<17:41:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 31882 |cff0070dd|Hitem:31882::::::::60:65:::::::|h[Ace of Blessings]|h|r 1 Tervania-Ravencrest PALADIN", -- [1012]
-			"<17:41:12><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [1013]
-			"<17:41:12><DEBUG>	 Found item at 1 10", -- [1014]
-			"<17:41:12><DEBUG>	 Found: 1 10 0", -- [1015]
-			"<17:41:12><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly~`Fire~`Opal]|h|r^N2^S20912^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1016]
-			"<17:41:27><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1017]
-			"<17:41:29><DEBUG>	 GetML()", -- [1018]
-			"<17:41:54><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F02DBF", -- [1019]
-			"<17:41:54><DEBUG>	 GetML()", -- [1020]
-			"<17:41:54><DEBUG>	 Resetting council as we have a new ML!", -- [1021]
-			"<17:41:54><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1022]
-			"<17:41:54>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1023]
-			"<17:41:54>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1024]
-			"<17:41:54>[ML]<DEBUG>	 UpdateMLdb", -- [1025]
-			"<17:41:54><INFO>	 OnMLDBReceived", -- [1026]
-			"<17:41:54><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1027]
-			"<17:41:54><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1028]
-			"<17:41:54><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N193.75^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1029]
-			"<17:41:56>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1030]
-			"<17:41:56><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1031]
-			"<17:41:56><DEBUG>	 isCouncil true", -- [1032]
-			"<17:42:00><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1033]
-			"<17:42:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1034]
-			"<17:42:03><DEBUG>	 GetML()", -- [1035]
-			"<17:42:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1036]
-			"<17:42:09><DEBUG>	 Timer MLdb_check passed", -- [1037]
-			"<17:42:45><INFO>	 Logged In", -- [1038]
-			"<17:42:45>[ML]<INFO>	 Init", -- [1039]
-			"<17:42:45><INFO>	 RCLootCouncil TradeUI enabled", -- [1040]
-			"<17:42:47><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [1041]
-			"<17:42:47><DEBUG>	 ActivateSkin bfa", -- [1042]
-			"<17:42:50><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1043]
-			"<17:42:50><INFO>	 UpdatePlayersData()", -- [1044]
-			"<17:42:51><DEBUG>	 GetPlayersGuildRank()", -- [1045]
-			"<17:42:51><DEBUG>	 Found Guild Rank: Alt", -- [1046]
-			"<17:42:51><DEBUG>	 GetML()", -- [1047]
-			"<17:42:51><DEBUG>	 Resetting council as we have a new ML!", -- [1048]
-			"<17:42:51><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1049]
-			"<17:42:51>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1050]
-			"<17:42:51>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1051]
-			"<17:42:51>[ML]<DEBUG>	 UpdateMLdb", -- [1052]
-			"<17:42:51><INFO>	 OnMLDBReceived", -- [1053]
-			"<17:42:52><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Yóshino-Silvermoon", -- [1054]
-			"<17:42:52><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1055]
-			"<17:42:52><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1056]
-			"<17:42:52><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N193.75^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1057]
-			"<17:42:53>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1058]
-			"<17:42:53><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1059]
-			"<17:42:53><DEBUG>	 isCouncil true", -- [1060]
-			"<17:42:53><DEBUG>	 GetLootDBStatistics()", -- [1061]
-			"<17:42:53><DEBUG>	 GetGuildRankNum()", -- [1062]
-			"<17:42:53><INFO>	 RCVotingFrame enabled", -- [1063]
-			"<17:43:06><DEBUG>	 Timer MLdb_check passed", -- [1064]
-			"<17:51:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1065]
-			"<17:51:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1066]
-			"<17:51:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1067]
-			"<17:52:02><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1068]
-			"<17:52:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1069]
-			"<17:52:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1070]
-			"<17:52:34><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1071]
-			"<17:52:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1072]
-			"<17:52:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1073]
-			"<17:52:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1074]
-			"<17:53:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1075]
-			"<17:53:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1076]
-			"<17:53:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1077]
-			"<17:54:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1078]
-			"<17:55:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1079]
-			"<17:55:44><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1080]
-			"<17:59:51><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1081]
-			"<17:59:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1082]
-			"<17:59:53><DEBUG>	 GetML()", -- [1083]
-			"<17:59:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1084]
-			"<18:01:36><DEBUG>	 TradeUI: Traded item(s) to Selalara-Silvermoon", -- [1085]
-			"<18:01:36><DEBUG>	 TradeUI:Show() nil", -- [1086]
-			"<18:01:36><DEBUG>	 TradeUI:Hide()", -- [1087]
-			"<18:05:31><INFO>	 Logged In", -- [1088]
-			"<18:05:31>[ML]<INFO>	 Init", -- [1089]
-			"<18:05:31><INFO>	 RCLootCouncil TradeUI enabled", -- [1090]
-			"<18:05:40><INFO>	 Kúsano-Silvermoon 3.1.4 nil", -- [1091]
-			"<18:05:40><DEBUG>	 ActivateSkin bfa", -- [1092]
-			"<18:05:44><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1093]
-			"<18:05:44><INFO>	 UpdatePlayersData()", -- [1094]
-			"<18:05:46><DEBUG>	 GetPlayersGuildRank()", -- [1095]
-			"<18:05:46><DEBUG>	 Found Guild Rank: Members", -- [1096]
-			"<18:05:49><DEBUG>	 GetML()", -- [1097]
-			"<18:07:11><INFO>	 Logged In", -- [1098]
-			"<18:07:11>[ML]<INFO>	 Init", -- [1099]
-			"<18:07:11><INFO>	 RCLootCouncil TradeUI enabled", -- [1100]
-			"<18:07:23><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [1101]
-			"<18:07:23><DEBUG>	 ActivateSkin bfa", -- [1102]
-			"<18:07:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1103]
-			"<18:07:27><INFO>	 UpdatePlayersData()", -- [1104]
-			"<18:07:31><DEBUG>	 GetPlayersGuildRank()", -- [1105]
-			"<18:07:31><DEBUG>	 Found Guild Rank: Alt", -- [1106]
-			"<18:07:33><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1107]
-			"<18:07:34><DEBUG>	 GetML()", -- [1108]
-			"<18:07:34><DEBUG>	 Resetting council as we have a new ML!", -- [1109]
-			"<18:07:34><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1110]
-			"<18:07:34>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1111]
-			"<18:07:34>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1112]
-			"<18:07:34>[ML]<DEBUG>	 UpdateMLdb", -- [1113]
-			"<18:07:34><INFO>	 OnMLDBReceived", -- [1114]
-			"<18:07:34><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1115]
-			"<18:07:34><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1116]
-			"<18:07:35><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1117]
-			"<18:07:35><DEBUG>	 GetML()", -- [1118]
-			"<18:07:35>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1119]
-			"<18:07:35><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1120]
-			"<18:07:35><DEBUG>	 isCouncil true", -- [1121]
-			"<18:07:35><DEBUG>	 GetLootDBStatistics()", -- [1122]
-			"<18:07:35><DEBUG>	 GetGuildRankNum()", -- [1123]
-			"<18:07:35><INFO>	 RCVotingFrame enabled", -- [1124]
-			"<18:07:48><DEBUG>	 Timer MLdb_check passed", -- [1125]
-			"<18:08:54><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Zinicmage-Silvermoon", -- [1126]
-			"<18:20:34><INFO>	 Logged In", -- [1127]
-			"<18:20:34>[ML]<INFO>	 Init", -- [1128]
-			"<18:20:34><INFO>	 RCLootCouncil TradeUI enabled", -- [1129]
-			"<18:20:44><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [1130]
-			"<18:20:44><DEBUG>	 ActivateSkin bfa", -- [1131]
-			"<18:20:48><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1132]
-			"<18:20:48><INFO>	 UpdatePlayersData()", -- [1133]
-			"<18:20:53><DEBUG>	 GetPlayersGuildRank()", -- [1134]
-			"<18:20:53><DEBUG>	 GetPlayersGuildRank()", -- [1135]
-			"<18:20:53><DEBUG>	 Found Guild Rank: Alt", -- [1136]
-			"<18:20:54><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1137]
-			"<18:20:55><DEBUG>	 GetML()", -- [1138]
-			"<18:20:55><DEBUG>	 Resetting council as we have a new ML!", -- [1139]
-			"<18:20:55><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1140]
-			"<18:20:55>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1141]
-			"<18:20:55>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1142]
-			"<18:20:55>[ML]<DEBUG>	 UpdateMLdb", -- [1143]
-			"<18:20:55><INFO>	 OnMLDBReceived", -- [1144]
-			"<18:20:55><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1145]
-			"<18:20:55><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1146]
-			"<18:20:56><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1147]
-			"<18:20:56>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1148]
-			"<18:20:56><DEBUG>	 GetML()", -- [1149]
-			"<18:20:56><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1150]
-			"<18:20:56><DEBUG>	 isCouncil true", -- [1151]
-			"<18:20:56><DEBUG>	 GetLootDBStatistics()", -- [1152]
-			"<18:20:56><DEBUG>	 GetGuildRankNum()", -- [1153]
-			"<18:20:56><INFO>	 RCVotingFrame enabled", -- [1154]
-			"<18:21:09><DEBUG>	 Timer MLdb_check passed", -- [1155]
-			"<18:21:30><INFO>	 Logged In", -- [1156]
-			"<18:21:30>[ML]<INFO>	 Init", -- [1157]
-			"<18:21:30><INFO>	 RCLootCouncil TradeUI enabled", -- [1158]
-			"<18:21:39><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [1159]
-			"<18:21:39><DEBUG>	 ActivateSkin bfa", -- [1160]
-			"<18:21:43><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1161]
-			"<18:21:43><INFO>	 UpdatePlayersData()", -- [1162]
-			"<18:21:44><DEBUG>	 GetPlayersGuildRank()", -- [1163]
-			"<18:21:44><DEBUG>	 GetPlayersGuildRank()", -- [1164]
-			"<18:21:44><DEBUG>	 GetPlayersGuildRank()", -- [1165]
-			"<18:21:44><DEBUG>	 Found Guild Rank: Sunlight", -- [1166]
-			"<18:21:48><DEBUG>	 GetML()", -- [1167]
-			"<18:22:20><INFO>	 Logged In", -- [1168]
-			"<18:22:20>[ML]<INFO>	 Init", -- [1169]
-			"<18:22:20><INFO>	 RCLootCouncil TradeUI enabled", -- [1170]
-			"<18:22:31><INFO>	 Kúsano-Silvermoon 3.1.4 nil", -- [1171]
-			"<18:22:31><DEBUG>	 ActivateSkin bfa", -- [1172]
-			"<18:22:36><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1173]
-			"<18:22:36><INFO>	 UpdatePlayersData()", -- [1174]
-			"<18:22:38><DEBUG>	 GetPlayersGuildRank()", -- [1175]
-			"<18:22:38><DEBUG>	 GetPlayersGuildRank()", -- [1176]
-			"<18:22:38><DEBUG>	 Found Guild Rank: Members", -- [1177]
-			"<18:22:41><DEBUG>	 GetML()", -- [1178]
-			"<18:23:20><INFO>	 Logged In", -- [1179]
-			"<18:23:20>[ML]<INFO>	 Init", -- [1180]
-			"<18:23:20><INFO>	 RCLootCouncil TradeUI enabled", -- [1181]
-			"<18:23:31><INFO>	 Mítsukí-Silvermoon 3.1.4 nil", -- [1182]
-			"<18:23:31><DEBUG>	 ActivateSkin bfa", -- [1183]
-			"<18:23:36><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1184]
-			"<18:23:36><INFO>	 UpdatePlayersData()", -- [1185]
-			"<18:23:36><DEBUG>	 GetPlayersGuildRank()", -- [1186]
-			"<18:23:36><DEBUG>	 GetPlayersGuildRank()", -- [1187]
-			"<18:23:36><DEBUG>	 Found Guild Rank: Alt", -- [1188]
-			"<18:23:40><DEBUG>	 GetML()", -- [1189]
-			"<18:30:02><INFO>	 Logged In", -- [1190]
-			"<18:30:02>[ML]<INFO>	 Init", -- [1191]
-			"<18:30:02><INFO>	 RCLootCouncil TradeUI enabled", -- [1192]
-			"<18:30:14><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [1193]
-			"<18:30:14><DEBUG>	 ActivateSkin bfa", -- [1194]
-			"<18:30:18><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1195]
-			"<18:30:18><INFO>	 UpdatePlayersData()", -- [1196]
-			"<18:30:20><DEBUG>	 GetPlayersGuildRank()", -- [1197]
-			"<18:30:20><DEBUG>	 GetPlayersGuildRank()", -- [1198]
-			"<18:30:20><DEBUG>	 Found Guild Rank: Alt", -- [1199]
-			"<18:30:23><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1200]
-			"<18:30:26><DEBUG>	 GetML()", -- [1201]
-			"<18:30:26><DEBUG>	 Resetting council as we have a new ML!", -- [1202]
-			"<18:30:26><INFO>	 MasterLooter =  Selalara-Silvermoon", -- [1203]
-			"<18:30:26><DEBUG>	 GetML()", -- [1204]
-			"<18:30:38><DEBUG>	 Timer MLdb_check passed", -- [1205]
-			"<18:30:38><Comm>	 ^1^Sxrealm^T^N1^SSelalara-Silvermoon^N2^SMLdb_request^t^^ PARTY Yóshino-Silvermoon", -- [1206]
-			"<18:30:38><Comm>	 ^1^Sxrealm^T^N1^SSelalara-Silvermoon^N2^Scouncil_request^t^^ PARTY Yóshino-Silvermoon", -- [1207]
-			"<18:43:02><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1208]
-			"<18:43:04><DEBUG>	 GetML()", -- [1209]
-			"<18:43:04><DEBUG>	 Resetting council as we have a new ML!", -- [1210]
-			"<18:43:04><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1211]
-			"<18:43:04>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1212]
-			"<18:43:04>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1213]
-			"<18:43:04>[ML]<DEBUG>	 UpdateMLdb", -- [1214]
-			"<18:43:04><INFO>	 OnMLDBReceived", -- [1215]
-			"<18:43:04><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1216]
-			"<18:43:04><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1217]
-			"<18:43:04><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1218]
-			"<18:43:06>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1219]
-			"<18:43:06><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1220]
-			"<18:43:06><DEBUG>	 isCouncil true", -- [1221]
-			"<18:43:06><DEBUG>	 GetLootDBStatistics()", -- [1222]
-			"<18:43:06><DEBUG>	 GetGuildRankNum()", -- [1223]
-			"<18:43:06><INFO>	 RCVotingFrame enabled", -- [1224]
-			"<18:43:19><DEBUG>	 Timer MLdb_check passed", -- [1225]
-			"<18:50:21><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Níina-Silvermoon", -- [1226]
-			"<18:50:21><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1227]
-			"<18:53:03><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Dallán-Silvermoon", -- [1228]
-			"<18:53:03><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1229]
-			"<18:53:15><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1230]
-			"<18:53:17><DEBUG>	 GetML()", -- [1231]
-			"<18:53:17><INFO>	 Stop handling loot", -- [1232]
-			"<18:53:17>[ML]<INFO>	 Disabled", -- [1233]
-			"<18:53:17><DEBUG>	 Event: RAID_INSTANCE_WELCOME Hellfire Citadel: The Shattered Halls (Heroic) 43602 0 0", -- [1234]
-			"<18:53:18><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1235]
-			"<18:53:18><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1236]
-			"<18:53:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1237]
-			"<18:53:20><DEBUG>	 GetML()", -- [1238]
-			"<18:53:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1239]
-			"<18:55:48><DEBUG>	 Event: LOOT_READY true", -- [1240]
-			"<18:55:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16700-0000B6A095 1656 Creature-0-3896-540-9864-16594-0000B6A095 8338", -- [1241]
-			"<18:55:48><DEBUG>	 Event: LOOT_READY true", -- [1242]
-			"<18:55:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16700-0000B6A095 1656 Creature-0-3896-540-9864-16594-0000B6A095 8338", -- [1243]
-			"<18:55:48><DEBUG>	 Event: LOOT_CLOSED", -- [1244]
-			"<18:55:49><Comm>	 ^1^Sl^T^N1^S16700^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1245]
-			"<18:56:21><DEBUG>	 Event: LOOT_READY true", -- [1246]
-			"<18:56:21><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16700-000036A134 2325", -- [1247]
-			"<18:56:21><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1248]
-			"<18:56:21><DEBUG>	 Event: LOOT_CLOSED", -- [1249]
-			"<18:56:21><DEBUG>	 Event: LOOT_CLOSED", -- [1250]
-			"<18:56:21><Comm>	 ^1^Sl^T^N1^S16700^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1251]
-			"<18:56:21><Comm>	 ^1^Sl^T^N1^S16700^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1252]
-			"<18:58:06><DEBUG>	 Event: LOOT_READY true", -- [1253]
-			"<18:58:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-17694-000036A095 3109 Creature-0-3896-540-9864-16523-000036A095 5098", -- [1254]
-			"<18:58:06><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1255]
-			"<18:58:06><DEBUG>	 Event: LOOT_CLOSED", -- [1256]
-			"<18:58:06><DEBUG>	 Event: LOOT_CLOSED", -- [1257]
-			"<18:58:06><Comm>	 ^1^Sl^T^N1^S17694^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1258]
-			"<18:58:06><Comm>	 ^1^Sl^T^N1^S17694^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1259]
-			"<18:59:54><DEBUG>	 Event: ENCOUNTER_START 1936 Grand Warlock Nethekurse 2 5", -- [1260]
-			"<18:59:54><INFO>	 UpdatePlayersData()", -- [1261]
-			"<19:00:40><DEBUG>	 Event: ENCOUNTER_END 1936 Grand Warlock Nethekurse 2 5 1", -- [1262]
-			"<19:00:41><DEBUG>	 Event: LOOT_READY true", -- [1263]
-			"<19:00:41><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16807-000036A095 70827 Creature-0-3896-540-9864-17083-000236A095 2759", -- [1264]
-			"<19:00:41><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1265]
-			"<19:00:41><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1266]
-			"<19:00:41><DEBUG>	 Event: LOOT_CLOSED", -- [1267]
-			"<19:00:41><DEBUG>	 Event: LOOT_CLOSED", -- [1268]
-			"<19:00:41><Comm>	 ^1^Sl^T^N1^S16807^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1269]
-			"<19:00:41><Comm>	 ^1^Sl^T^N1^S16807^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1270]
-			"<19:00:44><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1936 123983 |cff0070dd|Hitem:123983::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Cloak of Malice]|h|r 1 Selalara HUNTER", -- [1271]
-			"<19:01:41><DEBUG>	 Event: ENCOUNTER_START 1935 Blood Guard Porung 2 5", -- [1272]
-			"<19:01:41><INFO>	 UpdatePlayersData()", -- [1273]
-			"<19:02:31><DEBUG>	 Event: ENCOUNTER_END 1935 Blood Guard Porung 2 5 1", -- [1274]
-			"<19:02:32><DEBUG>	 Event: LOOT_READY true", -- [1275]
-			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-20923-000036A095 67569", -- [1276]
-			"<19:02:32><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1277]
-			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r 3 1 Creature-0-3896-540-9864-20923-000036A095 1", -- [1278]
-			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 5 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4 1 Creature-0-3896-540-9864-20923-000036A095 1", -- [1279]
-			"<19:02:32><DEBUG>	 OnLootSlotCleared() 5 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4", -- [1280]
-			"<19:02:32><DEBUG>	 OnLootSlotCleared() 4 |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r 3", -- [1281]
-			"<19:02:32><DEBUG>	 Event: LOOT_READY true", -- [1282]
-			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-20923-000036A095 67569", -- [1283]
-			"<19:02:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1935 30546 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 1 Yóshino PALADIN", -- [1284]
-			"<19:02:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1935 124000 |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Justice Bearer's Pauldrons]|h|r 1 Yóshino PALADIN", -- [1285]
-			"<19:02:32><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1286]
-			"<19:02:32><DEBUG>	 Event: LOOT_CLOSED", -- [1287]
-			"<19:02:32><DEBUG>	 Event: LOOT_CLOSED", -- [1288]
-			"<19:02:33><Comm>	 ^1^Sl^T^N1^S20923^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1289]
-			"<19:02:33><Comm>	 ^1^Sl^T^N1^S20923^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1290]
-			"<19:02:33><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1935 124013 |cff0070dd|Hitem:124013::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Belt of Flowing Thought]|h|r 1 Klaidas-Kazzak HUNTER", -- [1291]
-			"<19:02:34><DEBUG>	 Storage:New |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r temp", -- [1292]
-			"<19:02:34><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [1293]
-			"<19:02:34><DEBUG>	 Found item at 1 8", -- [1294]
-			"<19:02:34><DEBUG>	 Found: 1 8 0", -- [1295]
-			"<19:02:34><DEBUG>	 Storage:New |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r temp", -- [1296]
-			"<19:02:34><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [1297]
-			"<19:02:34><DEBUG>	 Found: nil nil nil", -- [1298]
-			"<19:02:35><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [1299]
-			"<19:02:35><DEBUG>	 Found item at 1 8", -- [1300]
-			"<19:02:35><DEBUG>	 Found: 1 8 0", -- [1301]
-			"<19:02:35><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [1302]
-			"<19:02:35><DEBUG>	 Found: nil nil nil", -- [1303]
-			"<19:02:36><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign~`Tanzanite]|h|r^N2^S20923^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1304]
-			"<19:02:36><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [1305]
-			"<19:02:36><DEBUG>	 Found: nil nil nil", -- [1306]
-			"<19:02:37><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [1307]
-			"<19:02:37><DEBUG>	 Found: nil nil nil", -- [1308]
-			"<19:02:37><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r not found in bags", -- [1309]
-			"<19:04:36><DEBUG>	 Event: LOOT_READY true", -- [1310]
-			"<19:04:36><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16523-000236A095 2875", -- [1311]
-			"<19:04:36><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:25377::::::::60:65::22:1:6656:1:28:1075:::|h[Corroded Mail Circlet]|h|r 0 1 Creature-0-3896-540-9864-16523-000236A095 1", -- [1312]
-			"<19:04:36><DEBUG>	 Adding to self.lootSlotInfo 4 |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r 2 1 Creature-0-3896-540-9864-16523-000236A095 1", -- [1313]
-			"<19:04:36><DEBUG>	 OnLootSlotCleared() 4 |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r 2", -- [1314]
-			"<19:04:37><DEBUG>	 Event: LOOT_READY true", -- [1315]
-			"<19:04:37><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16523-000236A095 2875", -- [1316]
-			"<19:04:37><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:25377::::::::60:65::22:1:6656:1:28:1075:::|h[Corroded Mail Circlet]|h|r 0 1 Creature-0-3896-540-9864-16523-000236A095 1", -- [1317]
-			"<19:04:37><DEBUG>	 Event: LOOT_CLOSED", -- [1318]
-			"<19:04:37><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:25377::::::::60:65::22:1:6656:1:28:1075:::|h[Corroded Mail Circlet]|h|r 0", -- [1319]
-			"<19:04:37><DEBUG>	 Event: LOOT_CLOSED", -- [1320]
-			"<19:04:37><Comm>	 ^1^Sl^T^N1^S16523^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1321]
-			"<19:04:38><DEBUG>	 Storage:New |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r temp", -- [1322]
-			"<19:04:38><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [1323]
-			"<19:04:38><DEBUG>	 Found: nil nil nil", -- [1324]
-			"<19:04:39><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [1325]
-			"<19:04:39><DEBUG>	 Found: nil nil nil", -- [1326]
-			"<19:04:40><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [1327]
-			"<19:04:40><DEBUG>	 Found: nil nil nil", -- [1328]
-			"<19:04:41><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [1329]
-			"<19:04:41><DEBUG>	 Found: nil nil nil", -- [1330]
-			"<19:04:41><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r not found in bags", -- [1331]
-			"<19:05:18><DEBUG>	 Event: LOOT_READY true", -- [1332]
-			"<19:05:18><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-17670-0000B6A095 8784", -- [1333]
-			"<19:05:18><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1334]
-			"<19:05:18><DEBUG>	 Event: LOOT_CLOSED", -- [1335]
-			"<19:05:18><DEBUG>	 Event: LOOT_CLOSED", -- [1336]
-			"<19:05:18><Comm>	 ^1^Sl^T^N1^S17670^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1337]
-			"<19:05:18><Comm>	 ^1^Sl^T^N1^S17670^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1338]
-			"<19:06:15><DEBUG>	 Event: ENCOUNTER_START 1937 Warbringer O'mrogg 2 5", -- [1339]
-			"<19:06:15><INFO>	 UpdatePlayersData()", -- [1340]
-			"<19:07:09><DEBUG>	 Event: ENCOUNTER_END 1937 Warbringer O'mrogg 2 5 1", -- [1341]
-			"<19:07:11><DEBUG>	 Event: LOOT_READY true", -- [1342]
-			"<19:07:11><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16809-000036A095 77591", -- [1343]
-			"<19:07:11><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1344]
-			"<19:07:11><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:25401::::::::60:65::22:1:6657:1:28:1075:::|h[Corroded Mace]|h|r 0 1 Creature-0-3896-540-9864-16809-000036A095 1", -- [1345]
-			"<19:07:11><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:25401::::::::60:65::22:1:6657:1:28:1075:::|h[Corroded Mace]|h|r 0", -- [1346]
-			"<19:07:11><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1347]
-			"<19:07:11><DEBUG>	 Event: LOOT_CLOSED", -- [1348]
-			"<19:07:11><DEBUG>	 Event: LOOT_CLOSED", -- [1349]
-			"<19:07:11><Comm>	 ^1^Sl^T^N1^S16809^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1350]
-			"<19:07:11><Comm>	 ^1^Sl^T^N1^S16809^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1351]
-			"<19:07:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1937 124002 |cff0070dd|Hitem:124002::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Runesong Dagger]|h|r 1 Killedbylagg WARLOCK", -- [1352]
-			"<19:07:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1937 123986 |cff0070dd|Hitem:123986::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[World's End Bracers]|h|r 1 Selalara HUNTER", -- [1353]
-			"<19:07:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1354]
-			"<19:09:43><DEBUG>	 Event: LOOT_READY true", -- [1355]
-			"<19:09:43><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-17695-0001B6A095 7815", -- [1356]
-			"<19:09:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1357]
-			"<19:09:43><DEBUG>	 Event: LOOT_CLOSED", -- [1358]
-			"<19:09:43><DEBUG>	 Event: LOOT_CLOSED", -- [1359]
-			"<19:09:43><Comm>	 ^1^Sl^T^N1^S17695^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1360]
-			"<19:09:43><Comm>	 ^1^Sl^T^N1^S17695^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1361]
-			"<19:09:46><DEBUG>	 Event: ENCOUNTER_START 1938 Warchief Kargath Bladefist 2 5", -- [1362]
-			"<19:09:46><INFO>	 UpdatePlayersData()", -- [1363]
-			"<19:10:52><DEBUG>	 Event: ENCOUNTER_END 1938 Warchief Kargath Bladefist 2 5 1", -- [1364]
-			"<19:10:53><DEBUG>	 Event: LOOT_READY true", -- [1365]
-			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16808-000036A095 168096", -- [1366]
-			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4 1 Creature-0-3896-540-9864-16808-000036A095 1", -- [1367]
-			"<19:10:53><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [1368]
-			"<19:10:53><DEBUG>	 Event: LOOT_READY true", -- [1369]
-			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16808-000036A095 168096", -- [1370]
-			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4 1 Creature-0-3896-540-9864-16808-000036A095 1", -- [1371]
-			"<19:10:53><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4", -- [1372]
-			"<19:10:53><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1938 30546 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 1 Yóshino PALADIN", -- [1373]
-			"<19:10:53><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1374]
-			"<19:10:53><DEBUG>	 Event: LOOT_CLOSED", -- [1375]
-			"<19:10:53><DEBUG>	 Event: LOOT_CLOSED", -- [1376]
-			"<19:10:53><Comm>	 ^1^Sl^T^N1^S16808^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1377]
-			"<19:10:54><Comm>	 ^1^Sl^T^N1^S16808^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1378]
-			"<19:10:55><DEBUG>	 Storage:New |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r temp", -- [1379]
-			"<19:10:55><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [1380]
-			"<19:10:55><DEBUG>	 Found item at 1 8", -- [1381]
-			"<19:10:55><DEBUG>	 Found: 1 8 0", -- [1382]
-			"<19:10:56><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [1383]
-			"<19:10:56><DEBUG>	 Found item at 1 8", -- [1384]
-			"<19:10:56><DEBUG>	 Found: 1 8 0", -- [1385]
-			"<19:10:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1938 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Klaidas-Kazzak HUNTER", -- [1386]
-			"<19:10:57><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign~`Tanzanite]|h|r^N2^S16808^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1387]
-			"<19:11:06><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F206CD", -- [1388]
-			"<19:11:06><DEBUG>	 GetML()", -- [1389]
-			"<19:11:06><DEBUG>	 Resetting council as we have a new ML!", -- [1390]
-			"<19:11:06><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1391]
-			"<19:11:06>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1392]
-			"<19:11:06>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1393]
-			"<19:11:06>[ML]<DEBUG>	 UpdateMLdb", -- [1394]
-			"<19:11:06><INFO>	 OnMLDBReceived", -- [1395]
-			"<19:11:06><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1396]
-			"<19:11:06><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1397]
-			"<19:11:06><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1398]
-			"<19:11:08>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1399]
-			"<19:11:15><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1400]
-			"<19:11:15><DEBUG>	 isCouncil true", -- [1401]
-			"<19:11:15><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1402]
-			"<19:11:17><DEBUG>	 GetML()", -- [1403]
-			"<19:11:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1404]
-			"<19:11:21><DEBUG>	 Timer MLdb_check passed", -- [1405]
-			"<19:17:12><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1406]
-			"<19:17:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1407]
-			"<19:17:14><DEBUG>	 Event: RAID_INSTANCE_WELCOME Opening of the Dark Portal (Heroic) 42165 0 0", -- [1408]
-			"<19:17:14><DEBUG>	 GetML()", -- [1409]
-			"<19:17:14><INFO>	 Stop handling loot", -- [1410]
-			"<19:17:14>[ML]<INFO>	 Disabled", -- [1411]
-			"<19:17:15><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1412]
-			"<19:17:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1413]
-			"<19:17:17><DEBUG>	 GetML()", -- [1414]
-			"<19:17:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1415]
-			"<19:17:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1416]
-			"<19:17:24><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1417]
-			"<19:17:26><DEBUG>	 GetML()", -- [1418]
-			"<19:17:58><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F27739", -- [1419]
-			"<19:17:58><DEBUG>	 GetML()", -- [1420]
-			"<19:17:58><DEBUG>	 Resetting council as we have a new ML!", -- [1421]
-			"<19:17:58><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1422]
-			"<19:17:58>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1423]
-			"<19:17:58>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1424]
-			"<19:17:58>[ML]<DEBUG>	 UpdateMLdb", -- [1425]
-			"<19:17:58><INFO>	 OnMLDBReceived", -- [1426]
-			"<19:17:58><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1427]
-			"<19:17:58><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1428]
-			"<19:17:58><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1429]
-			"<19:18:00>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1430]
-			"<19:18:00><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1431]
-			"<19:18:00><DEBUG>	 isCouncil true", -- [1432]
-			"<19:18:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1433]
-			"<19:18:05><DEBUG>	 GetML()", -- [1434]
-			"<19:18:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1435]
-			"<19:18:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1436]
-			"<19:18:13><DEBUG>	 Timer MLdb_check passed", -- [1437]
-			"<19:51:53><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Peroping-Silvermoon", -- [1438]
-			"<19:51:53><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1439]
-			"<19:55:06><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1440]
-			"<19:55:07><DEBUG>	 Event: RAID_INSTANCE_WELCOME Coilfang: The Slave Pens (Heroic) 39892 0 0", -- [1441]
-			"<19:55:07><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1442]
-			"<19:55:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1443]
-			"<19:55:09><DEBUG>	 GetML()", -- [1444]
-			"<19:55:09><INFO>	 Stop handling loot", -- [1445]
-			"<19:55:09>[ML]<INFO>	 Disabled", -- [1446]
-			"<19:55:09><DEBUG>	 GetML()", -- [1447]
-			"<19:55:10><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1448]
-			"<19:56:09><DEBUG>	 Event: LOOT_READY true", -- [1449]
-			"<19:56:09><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17817-000136AF04 7067", -- [1450]
-			"<19:56:09><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1451]
-			"<19:56:09><DEBUG>	 Event: LOOT_CLOSED", -- [1452]
-			"<19:56:09><DEBUG>	 Event: LOOT_CLOSED", -- [1453]
-			"<19:56:09><Comm>	 ^1^Sl^T^N1^S17817^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1454]
-			"<19:56:09><Comm>	 ^1^Sl^T^N1^S17817^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1455]
-			"<19:58:32><DEBUG>	 Event: LOOT_CLOSED", -- [1456]
-			"<19:58:33><Comm>	 ^1^Sl^T^N1^S17817^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1457]
-			"<19:59:18><DEBUG>	 Event: ENCOUNTER_START 1939 Mennu the Betrayer 2 5", -- [1458]
-			"<19:59:18><INFO>	 UpdatePlayersData()", -- [1459]
-			"<20:00:04><DEBUG>	 Event: ENCOUNTER_END 1939 Mennu the Betrayer 2 5 1", -- [1460]
-			"<20:00:06><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1939 30605 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Nalgoth DEATHKNIGHT", -- [1461]
-			"<20:00:12><DEBUG>	 Event: LOOT_READY true", -- [1462]
-			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17941-000036AF04 72490 Creature-0-3770-547-13183-17940-000136AF04 10812 Creature-0-3770-547-13183-17962-000536AF04 7627 Creature-0-3770-547-13183-17962-0005B6AF04 5929", -- [1463]
-			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4 1 Creature-0-3770-547-13183-17941-000036AF04 1", -- [1464]
-			"<20:00:12><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1465]
-			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r 3 1 Creature-0-3770-547-13183-17941-000036AF04 1", -- [1466]
-			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 5 |cff9d9d9d|Hitem:25372::::::::60:65::22:1:6656:1:28:1076:::|h[Eroded Mail Shoulderpads]|h|r 0 1 Creature-0-3770-547-13183-17962-0005B6AF04 1", -- [1467]
-			"<20:00:12><DEBUG>	 OnLootSlotCleared() 5 |cff9d9d9d|Hitem:25372::::::::60:65::22:1:6656:1:28:1076:::|h[Eroded Mail Shoulderpads]|h|r 0", -- [1468]
-			"<20:00:12><DEBUG>	 OnLootSlotCleared() 4 |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r 3", -- [1469]
-			"<20:00:12><DEBUG>	 Event: LOOT_READY true", -- [1470]
-			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17941-000036AF04 72490 Creature-0-3770-547-13183-17940-000136AF04 10812 Creature-0-3770-547-13183-17962-000536AF04 7627 Creature-0-3770-547-13183-17962-0005B6AF04 5929", -- [1471]
-			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4 1 Creature-0-3770-547-13183-17941-000036AF04 1", -- [1472]
-			"<20:00:12><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4", -- [1473]
-			"<20:00:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1939 127195 |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Girdle of Many Blessings]|h|r 1 Yóshino PALADIN", -- [1474]
-			"<20:00:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1939 30605 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Yóshino PALADIN", -- [1475]
-			"<20:00:12><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1476]
-			"<20:00:12><DEBUG>	 Event: LOOT_CLOSED", -- [1477]
-			"<20:00:12><DEBUG>	 Event: LOOT_CLOSED", -- [1478]
-			"<20:00:13><Comm>	 ^1^Sl^T^N1^S17941^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1479]
-			"<20:00:13><Comm>	 ^1^Sl^T^N1^S17941^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1480]
-			"<20:00:14><DEBUG>	 Storage:New |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r temp", -- [1481]
-			"<20:00:14><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [1482]
-			"<20:00:14><DEBUG>	 Found: nil nil nil", -- [1483]
-			"<20:00:14><DEBUG>	 Storage:New |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r temp", -- [1484]
-			"<20:00:14><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30605::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [1485]
-			"<20:00:14><DEBUG>	 Found item at 1 9", -- [1486]
-			"<20:00:14><DEBUG>	 Found: 1 9 0", -- [1487]
-			"<20:00:15><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [1488]
-			"<20:00:15><DEBUG>	 Found: nil nil nil", -- [1489]
-			"<20:00:16><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30605::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [1490]
-			"<20:00:16><DEBUG>	 Found item at 1 9", -- [1491]
-			"<20:00:16><DEBUG>	 Found: 1 9 0", -- [1492]
-			"<20:00:16><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble~`Chrysoprase]|h|r^N2^S17941^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1493]
-			"<20:00:16><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [1494]
-			"<20:00:16><DEBUG>	 Found: nil nil nil", -- [1495]
-			"<20:00:17><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [1496]
-			"<20:00:17><DEBUG>	 Found: nil nil nil", -- [1497]
-			"<20:00:17><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r not found in bags", -- [1498]
-			"<20:02:07><DEBUG>	 Event: ENCOUNTER_START 1941 Rokmar the Crackler 2 5", -- [1499]
-			"<20:02:07><INFO>	 UpdatePlayersData()", -- [1500]
-			"<20:03:03><DEBUG>	 Event: ENCOUNTER_END 1941 Rokmar the Crackler 2 5 1", -- [1501]
-			"<20:03:04><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 30603 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 1 Kimuraii-AzjolNerub PALADIN", -- [1502]
-			"<20:03:05><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Blumpkuh-Silvermoon", -- [1503]
-			"<20:03:05><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1504]
-			"<20:03:06><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 30605 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Selalara HUNTER", -- [1505]
-			"<20:03:06><DEBUG>	 Event: LOOT_READY true", -- [1506]
-			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17991-000036AF04 73107 Creature-0-3770-547-13183-17816-0004B6AF04 5915", -- [1507]
-			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 4 1 Creature-0-3770-547-13183-17991-000036AF04 1", -- [1508]
-			"<20:03:06><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1509]
-			"<20:03:06><DEBUG>	 Event: LOOT_READY true", -- [1510]
-			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17991-000036AF04 73107 Creature-0-3770-547-13183-17816-0004B6AF04 5915", -- [1511]
-			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 4 1 Creature-0-3770-547-13183-17991-000036AF04 1", -- [1512]
-			"<20:03:10><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 4", -- [1513]
-			"<20:03:10><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 30603 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 1 Yóshino PALADIN", -- [1514]
-			"<20:03:10><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1515]
-			"<20:03:10><DEBUG>	 Event: LOOT_CLOSED", -- [1516]
-			"<20:03:10><DEBUG>	 Event: LOOT_CLOSED", -- [1517]
-			"<20:03:10><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 127186 |cff0070dd|Hitem:127186::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Bogstrok Scale Cloak]|h|r 1 Selalara HUNTER", -- [1518]
-			"<20:03:11><Comm>	 ^1^Sl^T^N1^S17991^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1519]
-			"<20:03:11><Comm>	 ^1^Sl^T^N1^S17991^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1520]
-			"<20:03:12><DEBUG>	 Storage:New |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r temp", -- [1521]
-			"<20:03:12><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30603::::::::60:65:::::::||h[Purified Tanzanite]||h||r 5", -- [1522]
-			"<20:03:12><DEBUG>	 Found item at 1 10", -- [1523]
-			"<20:03:12><DEBUG>	 Found: 1 10 0", -- [1524]
-			"<20:03:13><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30603::::::::60:65:::::::||h[Purified Tanzanite]||h||r 5", -- [1525]
-			"<20:03:13><DEBUG>	 Found item at 1 10", -- [1526]
-			"<20:03:13><DEBUG>	 Found: 1 10 0", -- [1527]
-			"<20:03:13><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified~`Tanzanite]|h|r^N2^S17991^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1528]
-			"<20:05:44><DEBUG>	 Event: ENCOUNTER_START 1940 Quagmirran 2 5", -- [1529]
-			"<20:05:44><INFO>	 UpdatePlayersData()", -- [1530]
-			"<20:06:24><DEBUG>	 Event: ENCOUNTER_END 1940 Quagmirran 2 5 1", -- [1531]
-			"<20:06:26><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1940 127199 |cff0070dd|Hitem:127199::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Girdle of the Immovable]|h|r 1 Kimuraii-AzjolNerub PALADIN", -- [1532]
-			"<20:06:28><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1940 127199 |cff0070dd|Hitem:127199::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Girdle of the Immovable]|h|r 1 Nalgoth DEATHKNIGHT", -- [1533]
-			"<20:06:30><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1940 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1076:::|h[Swirling Timewarped Vial]|h|r 1 Avalar-AzjolNerub MAGE", -- [1534]
-			"<20:06:32><DEBUG>	 Event: LOOT_READY true", -- [1535]
-			"<20:06:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17942-000036AF04 171835", -- [1536]
-			"<20:06:32><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [1537]
-			"<20:06:32><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1538]
-			"<20:06:32><DEBUG>	 Event: LOOT_CLOSED", -- [1539]
-			"<20:06:32><DEBUG>	 Event: LOOT_CLOSED", -- [1540]
-			"<20:06:32><Comm>	 ^1^Sl^T^N1^S17942^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1541]
-			"<20:06:32><Comm>	 ^1^Sl^T^N1^S17942^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1542]
-			"<20:06:35><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1543]
-			"<20:06:37><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F326E2", -- [1544]
-			"<20:06:37><DEBUG>	 GetML()", -- [1545]
-			"<20:06:37><DEBUG>	 Resetting council as we have a new ML!", -- [1546]
-			"<20:06:37><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1547]
-			"<20:06:37>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1548]
-			"<20:06:37>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1549]
-			"<20:06:37>[ML]<DEBUG>	 UpdateMLdb", -- [1550]
-			"<20:06:37><INFO>	 OnMLDBReceived", -- [1551]
-			"<20:06:37><DEBUG>	 GetML()", -- [1552]
-			"<20:06:37><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1553]
-			"<20:06:37><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1554]
-			"<20:06:38><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1555]
-			"<20:06:39>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1556]
-			"<20:06:39><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1557]
-			"<20:06:39><DEBUG>	 isCouncil true", -- [1558]
-			"<20:06:42><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1559]
-			"<20:06:44><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1560]
-			"<20:06:44><DEBUG>	 GetML()", -- [1561]
-			"<20:06:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1562]
-			"<20:06:52><DEBUG>	 Timer MLdb_check passed", -- [1563]
-			"<20:06:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1564]
-			"<20:07:57><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Blumpkuh-Silvermoon", -- [1565]
-			"<20:07:57><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1566]
-			"<20:09:11><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Rødekineser-Silvermoon", -- [1567]
-			"<20:09:11><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1568]
-			"<20:10:03><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1569]
-			"<20:10:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1570]
-			"<20:10:05><DEBUG>	 GetML()", -- [1571]
-			"<20:10:05><INFO>	 Stop handling loot", -- [1572]
-			"<20:10:05>[ML]<INFO>	 Disabled", -- [1573]
-			"<20:10:05><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1574]
-			"<20:10:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1575]
-			"<20:10:17><DEBUG>	 Event: RAID_INSTANCE_WELCOME Auchindoun: Mana-Tombs (Heroic) 38982 0 0", -- [1576]
-			"<20:10:17><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1577]
-			"<20:10:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1578]
-			"<20:10:20><DEBUG>	 GetML()", -- [1579]
-			"<20:10:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1580]
-			"<20:10:25><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Blumpkuh-Silvermoon", -- [1581]
-			"<20:10:25><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1582]
-			"<20:11:18><DEBUG>	 Event: LOOT_READY true", -- [1583]
-			"<20:11:18><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18311-0003B6B297 5269", -- [1584]
-			"<20:11:18><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1585]
-			"<20:11:18><DEBUG>	 Event: LOOT_CLOSED", -- [1586]
-			"<20:11:18><DEBUG>	 Event: LOOT_CLOSED", -- [1587]
-			"<20:11:18><Comm>	 ^1^Sl^T^N1^S18311^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1588]
-			"<20:11:18><Comm>	 ^1^Sl^T^N1^S18311^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1589]
-			"<20:11:29><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Firesnek-Silvermoon", -- [1590]
-			"<20:11:29><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1591]
-			"<20:11:39><DEBUG>	 Event: LOOT_READY true", -- [1592]
-			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18313-000136B297 9325", -- [1593]
-			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25403::::::::60:65::22:1:6657:1:28:1066:::|h[Sharpened Stilleto]|h|r 0 1 Creature-0-4251-557-4132-18313-000136B297 1", -- [1594]
-			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r 2 1 Creature-0-4251-557-4132-18313-000136B297 1", -- [1595]
-			"<20:11:39><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r 2", -- [1596]
-			"<20:11:39><DEBUG>	 Event: LOOT_READY true", -- [1597]
-			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18313-000136B297 9325", -- [1598]
-			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25403::::::::60:65::22:1:6657:1:28:1066:::|h[Sharpened Stilleto]|h|r 0 1 Creature-0-4251-557-4132-18313-000136B297 1", -- [1599]
-			"<20:11:41><DEBUG>	 Storage:New |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r temp", -- [1600]
-			"<20:11:41><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [1601]
-			"<20:11:41><DEBUG>	 Found: nil nil nil", -- [1602]
-			"<20:11:42><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [1603]
-			"<20:11:42><DEBUG>	 Found: nil nil nil", -- [1604]
-			"<20:11:43><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [1605]
-			"<20:11:43><DEBUG>	 Found: nil nil nil", -- [1606]
-			"<20:11:44><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [1607]
-			"<20:11:44><DEBUG>	 Found: nil nil nil", -- [1608]
-			"<20:11:44><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r not found in bags", -- [1609]
-			"<20:11:52><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:25403::::::::60:65::22:1:6657:1:28:1066:::|h[Sharpened Stilleto]|h|r 0", -- [1610]
-			"<20:11:53><DEBUG>	 Event: LOOT_CLOSED", -- [1611]
-			"<20:11:54><Comm>	 ^1^Sl^T^N1^S18313^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1612]
-			"<20:12:05><DEBUG>	 Event: ENCOUNTER_START 1900 Pandemonius 2 5", -- [1613]
-			"<20:12:05><INFO>	 UpdatePlayersData()", -- [1614]
-			"<20:12:25><DEBUG>	 Event: ENCOUNTER_END 1900 Pandemonius 2 5 1", -- [1615]
-			"<20:12:29><DEBUG>	 Event: LOOT_READY true", -- [1616]
-			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18341-000036B297 72107", -- [1617]
-			"<20:12:29><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1618]
-			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 3 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r 3 1 Creature-0-4251-557-4132-18341-000036B297 1", -- [1619]
-			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 4 |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r 4 1 Creature-0-4251-557-4132-18341-000036B297 1", -- [1620]
-			"<20:12:29><DEBUG>	 OnLootSlotCleared() 4 |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r 4", -- [1621]
-			"<20:12:29><DEBUG>	 Event: LOOT_READY true", -- [1622]
-			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18341-000036B297 72107", -- [1623]
-			"<20:12:29><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1624]
-			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 3 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r 3 1 Creature-0-4251-557-4132-18341-000036B297 1", -- [1625]
-			"<20:12:31><DEBUG>	 Storage:New |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r temp", -- [1626]
-			"<20:12:31><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [1627]
-			"<20:12:31><DEBUG>	 Found: nil nil nil", -- [1628]
-			"<20:12:32><DEBUG>	 OnLootSlotCleared() 3 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r 3", -- [1629]
-			"<20:12:32><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [1630]
-			"<20:12:32><DEBUG>	 Found: nil nil nil", -- [1631]
-			"<20:12:33><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [1632]
-			"<20:12:33><DEBUG>	 Found: nil nil nil", -- [1633]
-			"<20:12:34><DEBUG>	 Storage:New |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r temp", -- [1634]
-			"<20:12:34><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [1635]
-			"<20:12:34><DEBUG>	 Found: nil nil nil", -- [1636]
-			"<20:12:34><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [1637]
-			"<20:12:34><DEBUG>	 Found: nil nil nil", -- [1638]
-			"<20:12:34><ERROR>	 UpdateAndSendRecentTradableItem: |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r not found in bags", -- [1639]
-			"<20:12:35><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [1640]
-			"<20:12:35><DEBUG>	 Found: nil nil nil", -- [1641]
-			"<20:12:36><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [1642]
-			"<20:12:36><DEBUG>	 Found: nil nil nil", -- [1643]
-			"<20:12:37><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [1644]
-			"<20:12:37><DEBUG>	 Found: nil nil nil", -- [1645]
-			"<20:12:37><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r not found in bags", -- [1646]
-			"<20:12:42><DEBUG>	 Event: LOOT_CLOSED", -- [1647]
-			"<20:12:43><Comm>	 ^1^Sl^T^N1^S18341^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1648]
-			"<20:12:43><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1900 30585 |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r 1 Yóshino PALADIN", -- [1649]
-			"<20:12:43><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1900 127218 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Faith Bearer's Gauntlets]|h|r 1 Yóshino PALADIN", -- [1650]
-			"<20:12:43><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1900 127236 |cff0070dd|Hitem:127236::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Starbolt Longbow]|h|r 1 Selalara HUNTER", -- [1651]
-			"<20:14:50><INFO>	 Logged In", -- [1652]
-			"<20:14:50>[ML]<INFO>	 Init", -- [1653]
-			"<20:14:50><INFO>	 RCLootCouncil TradeUI enabled", -- [1654]
-			"<20:15:06><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [1655]
-			"<20:15:06><DEBUG>	 ActivateSkin bfa", -- [1656]
-			"<20:15:09><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1657]
-			"<20:15:09><INFO>	 UpdatePlayersData()", -- [1658]
-			"<20:15:10><DEBUG>	 GetPlayersGuildRank()", -- [1659]
-			"<20:15:11><DEBUG>	 GetPlayersGuildRank()", -- [1660]
-			"<20:15:11><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1661]
-			"<20:15:13><DEBUG>	 GetML()", -- [1662]
-			"<20:15:13><DEBUG>	 GetPlayersGuildRank()", -- [1663]
-			"<20:15:13><DEBUG>	 Found Guild Rank: Alt", -- [1664]
-			"<20:15:14><DEBUG>	 GetML()", -- [1665]
-			"<20:15:17><DEBUG>	 Event: LOOT_READY true", -- [1666]
-			"<20:15:17><DEBUG>	 Event: LOOT_CLOSED", -- [1667]
-			"<20:15:17><DEBUG>	 Event: LOOT_CLOSED", -- [1668]
-			"<20:15:40><DEBUG>	 Event: ENCOUNTER_START 1901 Tavarok 2 5", -- [1669]
-			"<20:15:40><INFO>	 UpdatePlayersData()", -- [1670]
-			"<20:16:03><DEBUG>	 Event: ENCOUNTER_END 1901 Tavarok 2 5 1", -- [1671]
-			"<20:16:04><DEBUG>	 Event: LOOT_READY true", -- [1672]
-			"<20:16:04><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18343-000036B297 74604", -- [1673]
-			"<20:16:04><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1674]
-			"<20:16:04><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 4 1 Creature-0-4251-557-4132-18343-000036B297 1", -- [1675]
-			"<20:16:04><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 4", -- [1676]
-			"<20:16:04><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 30583 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 1 Yóshino PALADIN", -- [1677]
-			"<20:16:04><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1678]
-			"<20:16:04><DEBUG>	 Event: LOOT_CLOSED", -- [1679]
-			"<20:16:04><DEBUG>	 Event: LOOT_CLOSED", -- [1680]
-			"<20:16:05><Comm>	 ^1^Sl^T^N1^S18343^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1681]
-			"<20:16:05><Comm>	 ^1^Sl^T^N1^S18343^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1682]
-			"<20:16:05><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 127242 |cff0070dd|Hitem:127242::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Predatory Gloves]|h|r 1 Allyiepireé MONK", -- [1683]
-			"<20:16:06><DEBUG>	 Storage:New |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r temp", -- [1684]
-			"<20:16:06><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30583::::::::60:65:::::::||h[Timeless Tanzanite]||h||r 5", -- [1685]
-			"<20:16:06><DEBUG>	 Found item at 1 14", -- [1686]
-			"<20:16:06><DEBUG>	 Found: 1 14 0", -- [1687]
-			"<20:16:06><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 30584 |cffa335ee|Hitem:30584::::::::60:65:::::::|h[Inscribed Fire Opal]|h|r 1 Selalara HUNTER", -- [1688]
-			"<20:16:07><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30583::::::::60:65:::::::||h[Timeless Tanzanite]||h||r 5", -- [1689]
-			"<20:16:07><DEBUG>	 Found item at 1 14", -- [1690]
-			"<20:16:07><DEBUG>	 Found: 1 14 0", -- [1691]
-			"<20:16:08><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless~`Tanzanite]|h|r^N2^S18343^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1692]
-			"<20:16:09><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 30583 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 1 Hunterkaa HUNTER", -- [1693]
-			"<20:16:31><DEBUG>	 Event: LOOT_READY true", -- [1694]
-			"<20:16:31><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0 3 Creature-0-4251-557-4132-19306-000AB6B297 1 Creature-0-4251-557-4132-19306-000B36B297 1 Creature-0-4251-557-4132-19306-000BB6B297 1", -- [1695]
-			"<20:16:31><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0", -- [1696]
-			"<20:16:31><DEBUG>	 Event: LOOT_CLOSED", -- [1697]
-			"<20:16:31><DEBUG>	 Event: LOOT_CLOSED", -- [1698]
-			"<20:16:31><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1699]
-			"<20:16:31><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1700]
-			"<20:17:22><DEBUG>	 Event: LOOT_READY true", -- [1701]
-			"<20:17:22><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18313-0009B6B297 8675 Creature-0-4251-557-4132-18312-000436B297 9931 Creature-0-4251-557-4132-18331-0005B6B297 9533", -- [1702]
-			"<20:17:23><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1703]
-			"<20:17:23><DEBUG>	 Event: LOOT_CLOSED", -- [1704]
-			"<20:17:23><DEBUG>	 Event: LOOT_CLOSED", -- [1705]
-			"<20:17:23><Comm>	 ^1^Sl^T^N1^S18313^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1706]
-			"<20:17:23><Comm>	 ^1^Sl^T^N1^S18313^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1707]
-			"<20:19:22><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Zinicmage-Silvermoon", -- [1708]
-			"<20:19:23><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1709]
-			"<20:20:01><DEBUG>	 Event: LOOT_READY true", -- [1710]
-			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18312-0004B6B297 11091", -- [1711]
-			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25354::::::::60:65::22:1:6656:1:28:1066:::|h[Moldy Leather Helmet]|h|r 0 1 Creature-0-4251-557-4132-18312-0004B6B297 1", -- [1712]
-			"<20:20:01><DEBUG>	 Event: LOOT_READY true", -- [1713]
-			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18312-0004B6B297 11091", -- [1714]
-			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25354::::::::60:65::22:1:6656:1:28:1066:::|h[Moldy Leather Helmet]|h|r 0 1 Creature-0-4251-557-4132-18312-0004B6B297 1", -- [1715]
-			"<20:20:01><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:25354::::::::60:65::22:1:6656:1:28:1066:::|h[Moldy Leather Helmet]|h|r 0", -- [1716]
-			"<20:20:01><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1717]
-			"<20:20:01><DEBUG>	 Event: LOOT_CLOSED", -- [1718]
-			"<20:20:01><DEBUG>	 Event: LOOT_CLOSED", -- [1719]
-			"<20:20:01><Comm>	 ^1^Sl^T^N1^S18312^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1720]
-			"<20:20:01><Comm>	 ^1^Sl^T^N1^S18312^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1721]
-			"<20:21:13><DEBUG>	 Event: LOOT_READY true", -- [1722]
-			"<20:21:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18315-0000B6B297 9032 Creature-0-4251-557-4132-18312-000036B297 11816", -- [1723]
-			"<20:21:13><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1724]
-			"<20:21:13><DEBUG>	 Event: LOOT_CLOSED", -- [1725]
-			"<20:21:13><DEBUG>	 Event: LOOT_CLOSED", -- [1726]
-			"<20:21:14><Comm>	 ^1^Sl^T^N1^S18315^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1727]
-			"<20:21:14><Comm>	 ^1^Sl^T^N1^S18315^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1728]
-			"<20:21:52><DEBUG>	 Event: LOOT_READY true", -- [1729]
-			"<20:21:52><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0 7 Creature-0-4251-557-4132-19306-0003B6B297 1 Creature-0-4251-557-4132-19306-000036B297 1 Creature-0-4251-557-4132-19306-000136B297 1 Creature-0-4251-557-4132-19306-0001B6B297 1 Creature-0-4251-557-4132-19306-0002B6B297 1 Creature-0-4251-557-4132-19306-000436B297 1 Creature-0-4251-557-4132-19306-0004B6B297 1", -- [1730]
-			"<20:21:52><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:24511::::::::60:65:::::::|h[Primordial Essence]|h|r 0 3 Creature-0-4251-557-4132-19306-0000B6B297 1 Creature-0-4251-557-4132-19306-000236B297 1 Creature-0-4251-557-4132-19306-000336B297 1", -- [1731]
-			"<20:21:53><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:24511::::::::60:65:::::::|h[Primordial Essence]|h|r 0", -- [1732]
-			"<20:21:53><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0", -- [1733]
-			"<20:21:53><DEBUG>	 Event: LOOT_CLOSED", -- [1734]
-			"<20:21:53><DEBUG>	 Event: LOOT_CLOSED", -- [1735]
-			"<20:21:53><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1736]
-			"<20:21:53><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1737]
-			"<20:21:55><DEBUG>	 Event: ENCOUNTER_START 1899 Nexus-Prince Shaffar 2 5", -- [1738]
-			"<20:21:55><INFO>	 UpdatePlayersData()", -- [1739]
-			"<20:22:26><DEBUG>	 Event: ENCOUNTER_END 1899 Nexus-Prince Shaffar 2 5 1", -- [1740]
-			"<20:22:27><DEBUG>	 Event: LOOT_READY true", -- [1741]
-			"<20:22:27><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18344-000036B297 167221", -- [1742]
-			"<20:22:27><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [1743]
-			"<20:22:28><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1744]
-			"<20:22:28><DEBUG>	 Event: LOOT_CLOSED", -- [1745]
-			"<20:22:28><DEBUG>	 Event: LOOT_CLOSED", -- [1746]
-			"<20:22:28><Comm>	 ^1^Sl^T^N1^S18344^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1747]
-			"<20:22:28><Comm>	 ^1^Sl^T^N1^S18344^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1748]
-			"<20:22:28><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Selalara HUNTER", -- [1749]
-			"<20:22:29><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1066:::|h[Swirling Timewarped Vial]|h|r 1 Pilinpal-Aggra(Português) PALADIN", -- [1750]
-			"<20:22:29><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Pilinpal-Aggra(Português) PALADIN", -- [1751]
-			"<20:22:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 127228 |cff0070dd|Hitem:127228::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Mask of the Howling Storm]|h|r 1 Hunterkaa HUNTER", -- [1752]
-			"<20:22:35><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 127244 |cff0070dd|Hitem:127244::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Lucid Dream Bracers]|h|r 1 Allyiepireé MONK", -- [1753]
-			"<20:22:38><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F35E22", -- [1754]
-			"<20:22:38><DEBUG>	 GetML()", -- [1755]
-			"<20:22:38><DEBUG>	 Resetting council as we have a new ML!", -- [1756]
-			"<20:22:38><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1757]
-			"<20:22:38>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1758]
-			"<20:22:38>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1759]
-			"<20:22:38>[ML]<DEBUG>	 UpdateMLdb", -- [1760]
-			"<20:22:38><INFO>	 OnMLDBReceived", -- [1761]
-			"<20:22:38><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1762]
-			"<20:22:38><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1763]
-			"<20:22:38><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1764]
-			"<20:22:40>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1765]
-			"<20:22:40><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1766]
-			"<20:22:40><DEBUG>	 isCouncil true", -- [1767]
-			"<20:22:40><DEBUG>	 GetLootDBStatistics()", -- [1768]
-			"<20:22:40><DEBUG>	 GetGuildRankNum()", -- [1769]
-			"<20:22:40><INFO>	 RCVotingFrame enabled", -- [1770]
-			"<20:22:42><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1771]
-			"<20:22:44><DEBUG>	 GetML()", -- [1772]
-			"<20:22:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1773]
-			"<20:22:53><DEBUG>	 Timer MLdb_check passed", -- [1774]
-			"<20:22:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1775]
-			"<20:32:35><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1776]
-			"<20:32:36><DEBUG>	 Event: RAID_INSTANCE_WELCOME Opening of the Dark Portal (Heroic) 37643 0 0", -- [1777]
-			"<20:32:37><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1778]
-			"<20:32:38><DEBUG>	 GetML()", -- [1779]
-			"<20:32:38><INFO>	 Stop handling loot", -- [1780]
-			"<20:32:38>[ML]<INFO>	 Disabled", -- [1781]
-			"<20:32:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1782]
-			"<20:32:38><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1783]
-			"<20:32:38><DEBUG>	 GetML()", -- [1784]
-			"<20:32:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1785]
-			"<20:33:33><DEBUG>	 Event: LOOT_READY true", -- [1786]
-			"<20:33:33><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:25421::::::::60:65:::::::|h[Gnarled Claw]|h|r 0 1 Creature-0-3772-269-29377-17952-0006B6B7DF 1", -- [1787]
-			"<20:33:33><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:25421::::::::60:65:::::::|h[Gnarled Claw]|h|r 0", -- [1788]
-			"<20:33:33><DEBUG>	 Event: LOOT_CLOSED", -- [1789]
-			"<20:33:33><DEBUG>	 Event: LOOT_CLOSED", -- [1790]
-			"<20:33:33><Comm>	 ^1^Sl^T^N1^S17952^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1791]
-			"<20:33:33><Comm>	 ^1^Sl^T^N1^S17952^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1792]
-			"<20:35:06><DEBUG>	 Event: LOOT_READY true", -- [1793]
-			"<20:35:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21140-000036B85C 8025", -- [1794]
-			"<20:35:06><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1795]
-			"<20:35:06><DEBUG>	 Event: LOOT_CLOSED", -- [1796]
-			"<20:35:06><DEBUG>	 Event: LOOT_CLOSED", -- [1797]
-			"<20:35:06><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1798]
-			"<20:35:06><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1799]
-			"<20:36:25><DEBUG>	 Event: LOOT_READY true", -- [1800]
-			"<20:36:25><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21104-000036B8AA 5046", -- [1801]
-			"<20:36:25><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r 2 1 Creature-0-3772-269-29377-21104-000036B8AA 1", -- [1802]
-			"<20:36:25><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r 2", -- [1803]
-			"<20:36:25><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1804]
-			"<20:36:25><DEBUG>	 Event: LOOT_CLOSED", -- [1805]
-			"<20:36:25><DEBUG>	 Event: LOOT_CLOSED", -- [1806]
-			"<20:36:26><Comm>	 ^1^Sl^T^N1^S21104^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1807]
-			"<20:36:26><Comm>	 ^1^Sl^T^N1^S21104^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1808]
-			"<20:36:27><DEBUG>	 Storage:New |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r temp", -- [1809]
-			"<20:36:27><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [1810]
-			"<20:36:27><DEBUG>	 Found: nil nil nil", -- [1811]
-			"<20:36:28><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [1812]
-			"<20:36:28><DEBUG>	 Found: nil nil nil", -- [1813]
-			"<20:36:29><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [1814]
-			"<20:36:29><DEBUG>	 Found: nil nil nil", -- [1815]
-			"<20:36:30><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [1816]
-			"<20:36:30><DEBUG>	 Found: nil nil nil", -- [1817]
-			"<20:36:30><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r not found in bags", -- [1818]
-			"<20:37:43><DEBUG>	 Event: LOOT_READY true", -- [1819]
-			"<20:37:43><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21140-000036B8FB 2869", -- [1820]
-			"<20:37:43><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r 2 1 Creature-0-3772-269-29377-21140-000036B8FB 1", -- [1821]
-			"<20:37:43><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r 2", -- [1822]
-			"<20:37:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1823]
-			"<20:37:43><DEBUG>	 Event: LOOT_CLOSED", -- [1824]
-			"<20:37:43><DEBUG>	 Event: LOOT_CLOSED", -- [1825]
-			"<20:37:43><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1826]
-			"<20:37:43><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1827]
-			"<20:37:45><DEBUG>	 Storage:New |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r temp", -- [1828]
-			"<20:37:45><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [1829]
-			"<20:37:45><DEBUG>	 Found: nil nil nil", -- [1830]
-			"<20:37:46><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [1831]
-			"<20:37:46><DEBUG>	 Found: nil nil nil", -- [1832]
-			"<20:37:47><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [1833]
-			"<20:37:47><DEBUG>	 Found: nil nil nil", -- [1834]
-			"<20:37:48><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [1835]
-			"<20:37:48><DEBUG>	 Found: nil nil nil", -- [1836]
-			"<20:37:48><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r not found in bags", -- [1837]
-			"<20:37:55><DEBUG>	 Event: ENCOUNTER_START 1920 Chrono Lord Deja 2 5", -- [1838]
-			"<20:37:55><INFO>	 UpdatePlayersData()", -- [1839]
-			"<20:38:50><DEBUG>	 Event: ENCOUNTER_END 1920 Chrono Lord Deja 2 5 1", -- [1840]
-			"<20:38:51><DEBUG>	 Event: LOOT_READY true", -- [1841]
-			"<20:38:51><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17879-000036B924 68694", -- [1842]
-			"<20:38:51><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1843]
-			"<20:38:51><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [1844]
-			"<20:38:51><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r 3 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [1845]
-			"<20:38:52><DEBUG>	 Event: LOOT_READY true", -- [1846]
-			"<20:38:52><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17879-000036B924 68694", -- [1847]
-			"<20:38:52><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1848]
-			"<20:38:52><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [1849]
-			"<20:38:52><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r 3 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [1850]
-			"<20:38:52><DEBUG>	 OnLootSlotCleared() 4 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r 3", -- [1851]
-			"<20:38:52><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4", -- [1852]
-			"<20:38:52><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 127435 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Burnoose of Shifting Ages]|h|r 1 Yóshino PALADIN", -- [1853]
-			"<20:38:52><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 30558 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 1 Yóshino PALADIN", -- [1854]
-			"<20:38:52><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1855]
-			"<20:38:52><DEBUG>	 Event: LOOT_CLOSED", -- [1856]
-			"<20:38:52><DEBUG>	 Event: LOOT_CLOSED", -- [1857]
-			"<20:38:52><Comm>	 ^1^Sl^T^N1^S17879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1858]
-			"<20:38:52><Comm>	 ^1^Sl^T^N1^S17879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1859]
-			"<20:38:53><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 127436 |cff0070dd|Hitem:127436::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Mask of Inner Fire]|h|r 1 Selalara HUNTER", -- [1860]
-			"<20:38:54><DEBUG>	 Storage:New |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r temp", -- [1861]
-			"<20:38:54><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [1862]
-			"<20:38:54><DEBUG>	 Found item at 1 19", -- [1863]
-			"<20:38:54><DEBUG>	 Found: 1 19 0", -- [1864]
-			"<20:38:54><DEBUG>	 Storage:New |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r temp", -- [1865]
-			"<20:38:54><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [1866]
-			"<20:38:54><DEBUG>	 Found: nil nil nil", -- [1867]
-			"<20:38:55><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [1868]
-			"<20:38:55><DEBUG>	 Found item at 1 19", -- [1869]
-			"<20:38:55><DEBUG>	 Found: 1 19 0", -- [1870]
-			"<20:38:55><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [1871]
-			"<20:38:55><DEBUG>	 Found: nil nil nil", -- [1872]
-			"<20:38:55><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart~`Fire~`Opal]|h|r^N2^S17879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1873]
-			"<20:38:56><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [1874]
-			"<20:38:56><DEBUG>	 Found: nil nil nil", -- [1875]
-			"<20:38:57><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [1876]
-			"<20:38:57><DEBUG>	 Found: nil nil nil", -- [1877]
-			"<20:38:57><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r not found in bags", -- [1878]
-			"<20:38:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 30558 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 1 Klaussambo-Kilrogg HUNTER", -- [1879]
-			"<20:40:04><DEBUG>	 Event: LOOT_READY true", -- [1880]
-			"<20:40:04><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17839-000036B988 5862", -- [1881]
-			"<20:40:04><DEBUG>	 Event: LOOT_READY true", -- [1882]
-			"<20:40:04><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17839-000036B988 5862", -- [1883]
-			"<20:40:04><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1884]
-			"<20:40:04><DEBUG>	 Event: LOOT_CLOSED", -- [1885]
-			"<20:40:04><DEBUG>	 Event: LOOT_CLOSED", -- [1886]
-			"<20:40:04><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1887]
-			"<20:40:04><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1888]
-			"<20:40:45><DEBUG>	 Event: LOOT_READY true", -- [1889]
-			"<20:40:45><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21140-000036B9AB 11393", -- [1890]
-			"<20:40:45><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1891]
-			"<20:40:45><DEBUG>	 Event: LOOT_CLOSED", -- [1892]
-			"<20:40:45><DEBUG>	 Event: LOOT_CLOSED", -- [1893]
-			"<20:40:45><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1894]
-			"<20:40:45><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1895]
-			"<20:43:11><DEBUG>	 Event: ENCOUNTER_START 1921 Temporus 2 5", -- [1896]
-			"<20:43:11><INFO>	 UpdatePlayersData()", -- [1897]
-			"<20:44:11><DEBUG>	 Event: ENCOUNTER_END 1921 Temporus 2 5 1", -- [1898]
-			"<20:44:13><DEBUG>	 Event: LOOT_READY true", -- [1899]
-			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17880-000036BA5D 74097", -- [1900]
-			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17880-000036BA5D 1", -- [1901]
-			"<20:44:13><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1902]
-			"<20:44:13><DEBUG>	 Event: LOOT_READY true", -- [1903]
-			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17880-000036BA5D 74097", -- [1904]
-			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17880-000036BA5D 1", -- [1905]
-			"<20:44:13><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4", -- [1906]
-			"<20:44:13><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 30558 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 1 Yóshino PALADIN", -- [1907]
-			"<20:44:13><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1908]
-			"<20:44:13><DEBUG>	 Event: LOOT_CLOSED", -- [1909]
-			"<20:44:13><DEBUG>	 Event: LOOT_CLOSED", -- [1910]
-			"<20:44:13><Comm>	 ^1^Sl^T^N1^S17880^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1911]
-			"<20:44:13><Comm>	 ^1^Sl^T^N1^S17880^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1912]
-			"<20:44:15><DEBUG>	 Storage:New |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r temp", -- [1913]
-			"<20:44:15><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [1914]
-			"<20:44:15><DEBUG>	 Found item at 1 19", -- [1915]
-			"<20:44:15><DEBUG>	 Found: 1 19 0", -- [1916]
-			"<20:44:16><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [1917]
-			"<20:44:16><DEBUG>	 Found item at 1 19", -- [1918]
-			"<20:44:16><DEBUG>	 Found: 1 19 0", -- [1919]
-			"<20:44:16><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart~`Fire~`Opal]|h|r^N2^S17880^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1920]
-			"<20:44:18><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 30556 |cffa335ee|Hitem:30556::::::::60:65:::::::|h[Glinting Tanzanite]|h|r 1 Inal-Arathor WARLOCK", -- [1921]
-			"<20:44:19><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 127445 |cff0070dd|Hitem:127445::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Star-Heart Lamp]|h|r 1 Inal-Arathor WARLOCK", -- [1922]
-			"<20:44:19><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 30556 |cffa335ee|Hitem:30556::::::::60:65:::::::|h[Glinting Tanzanite]|h|r 1 Klaussambo-Kilrogg HUNTER", -- [1923]
-			"<20:44:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 127441 |cff0070dd|Hitem:127441::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Hourglass of the Unraveller]|h|r 1 Selalara HUNTER", -- [1924]
-			"<20:47:39><DEBUG>	 Event: LOOT_READY true", -- [1925]
-			"<20:47:39><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17839-000036BB4F 6338", -- [1926]
-			"<20:47:40><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1927]
-			"<20:47:40><DEBUG>	 Event: LOOT_CLOSED", -- [1928]
-			"<20:47:40><DEBUG>	 Event: LOOT_CLOSED", -- [1929]
-			"<20:47:40><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1930]
-			"<20:47:40><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1931]
-			"<20:48:27><DEBUG>	 Event: LOOT_READY true", -- [1932]
-			"<20:48:27><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21148-000036BB76 9200", -- [1933]
-			"<20:48:27><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1934]
-			"<20:48:27><DEBUG>	 Event: LOOT_CLOSED", -- [1935]
-			"<20:48:27><DEBUG>	 Event: LOOT_CLOSED", -- [1936]
-			"<20:48:27><Comm>	 ^1^Sl^T^N1^S21148^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1937]
-			"<20:48:27><Comm>	 ^1^Sl^T^N1^S21148^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1938]
-			"<20:48:33><DEBUG>	 Event: ENCOUNTER_START 1919 Aeonus 2 5", -- [1939]
-			"<20:48:33><INFO>	 UpdatePlayersData()", -- [1940]
-			"<20:49:47><DEBUG>	 Event: ENCOUNTER_END 1919 Aeonus 2 5 1", -- [1941]
-			"<20:49:48><DEBUG>	 Event: LOOT_READY true", -- [1942]
-			"<20:49:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17881-000036BBA0 167193", -- [1943]
-			"<20:49:48><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [1944]
-			"<20:49:48><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1945]
-			"<20:49:48><DEBUG>	 Event: LOOT_CLOSED", -- [1946]
-			"<20:49:48><DEBUG>	 Event: LOOT_CLOSED", -- [1947]
-			"<20:49:48><Comm>	 ^1^Sl^T^N1^S17881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1948]
-			"<20:49:48><Comm>	 ^1^Sl^T^N1^S17881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1949]
-			"<20:49:52><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F3C75C", -- [1950]
-			"<20:49:52><DEBUG>	 GetML()", -- [1951]
-			"<20:49:52><DEBUG>	 Resetting council as we have a new ML!", -- [1952]
-			"<20:49:52><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1953]
-			"<20:49:52>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1954]
-			"<20:49:52>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1955]
-			"<20:49:52>[ML]<DEBUG>	 UpdateMLdb", -- [1956]
-			"<20:49:52><INFO>	 OnMLDBReceived", -- [1957]
-			"<20:49:53><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1958]
-			"<20:49:53><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1959]
-			"<20:49:53><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1960]
-			"<20:49:54>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1961]
-			"<20:49:55><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1962]
-			"<20:49:55><DEBUG>	 isCouncil true", -- [1963]
-			"<20:49:56><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1964]
-			"<20:49:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1965]
-			"<20:49:58><DEBUG>	 GetML()", -- [1966]
-			"<20:49:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1967]
-			"<20:50:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1968]
-			"<20:50:07><DEBUG>	 Timer MLdb_check passed", -- [1969]
-			"<21:02:51><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Nestradh-Silvermoon", -- [1970]
-			"<21:02:51><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1971]
-			"<21:08:10><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Asuri-Silvermoon", -- [1972]
-			"<21:08:10><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1973]
-			"<21:09:31><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Lamped-Silvermoon", -- [1974]
-			"<21:09:31><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1975]
-			"<21:18:17><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Peroping-Silvermoon", -- [1976]
-			"<21:18:17><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1977]
-			"<08:25:39><INFO>	 Logged In", -- [1978]
-			"<08:25:39>[ML]<INFO>	 Init", -- [1979]
-			"<08:25:39><INFO>	 RCLootCouncil TradeUI enabled", -- [1980]
-			"<08:25:44><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [1981]
-			"<08:25:44><DEBUG>	 ActivateSkin bfa", -- [1982]
-			"<08:25:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1983]
-			"<08:25:47><INFO>	 UpdatePlayersData()", -- [1984]
-			"<08:25:49><DEBUG>	 GetPlayersGuildRank()", -- [1985]
-			"<08:25:49><DEBUG>	 GetPlayersGuildRank()", -- [1986]
-			"<08:25:49><DEBUG>	 Found Guild Rank: Sunlight", -- [1987]
-			"<08:25:54><DEBUG>	 GetML()", -- [1988]
-			"<09:21:18><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Nestradh-Silvermoon", -- [1989]
-			"<10:01:09><INFO>	 Logged In", -- [1990]
-			"<10:01:09>[ML]<INFO>	 Init", -- [1991]
-			"<10:01:09><INFO>	 RCLootCouncil TradeUI enabled", -- [1992]
-			"<10:01:11><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [1993]
-			"<10:01:11><DEBUG>	 ActivateSkin bfa", -- [1994]
-			"<10:01:14><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1995]
-			"<10:01:14><INFO>	 UpdatePlayersData()", -- [1996]
-			"<10:01:15><DEBUG>	 GetPlayersGuildRank()", -- [1997]
-			"<10:01:15><DEBUG>	 Found Guild Rank: Sunlight", -- [1998]
-			"<10:01:15><DEBUG>	 GetML()", -- [1999]
-			"<10:01:16><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [2000]
+			"<17:21:34><DEBUG>	 Event: LOOT_CLOSED", -- [1]
+			"<17:21:34><DEBUG>	 Event: LOOT_CLOSED", -- [2]
+			"<17:21:34><Comm>	 ^1^Sl^T^N1^S20875^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [3]
+			"<17:21:35><Comm>	 ^1^Sl^T^N1^S20875^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [4]
+			"<17:23:48><DEBUG>	 Event: LOOT_READY true", -- [5]
+			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20879-000036894D 9453", -- [6]
+			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25418::::::::60:65:::::::|h[Razor Sharp Fang]|h|r 0 1 Creature-0-4248-552-7444-20865-000EB6894D 1", -- [7]
+			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r 2 1 Creature-0-4248-552-7444-20879-000036894D 1", -- [8]
+			"<17:23:48><DEBUG>	 Event: LOOT_READY true", -- [9]
+			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20879-000036894D 9453", -- [10]
+			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25418::::::::60:65:::::::|h[Razor Sharp Fang]|h|r 0 1 Creature-0-4248-552-7444-20865-000EB6894D 1", -- [11]
+			"<17:23:48><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r 2 1 Creature-0-4248-552-7444-20879-000036894D 1", -- [12]
+			"<17:23:48><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r 2", -- [13]
+			"<17:23:48><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:25418::::::::60:65:::::::|h[Razor Sharp Fang]|h|r 0", -- [14]
+			"<17:23:48><DEBUG>	 Event: LOOT_CLOSED", -- [15]
+			"<17:23:49><Comm>	 ^1^Sl^T^N1^S20879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [16]
+			"<17:23:49><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 31291 |cff0070dd|Hitem:31291::::::::60:65::22:1:6659:2:28:1070:9:30:::|h[Crystalforged War Axe]|h|r 1 Dedrel-Aszune ROGUE", -- [17]
+			"<17:23:50><DEBUG>	 Storage:New |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r temp", -- [18]
+			"<17:23:50><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [19]
+			"<17:23:50><DEBUG>	 Found: nil nil nil", -- [20]
+			"<17:23:51><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [21]
+			"<17:23:51><DEBUG>	 Found: nil nil nil", -- [22]
+			"<17:23:52><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [23]
+			"<17:23:52><DEBUG>	 Found: nil nil nil", -- [24]
+			"<17:23:53><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::||h[Warpdagger of the Aurora]||h||r 5", -- [25]
+			"<17:23:53><DEBUG>	 Found: nil nil nil", -- [26]
+			"<17:23:53><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:25309::::::::60:65::22:2:6655:1706:1:28:1070:::|h[Warpdagger of the Aurora]|h|r not found in bags", -- [27]
+			"<17:24:53><DEBUG>	 Event: LOOT_READY true", -- [28]
+			"<17:24:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20881-000036894D 7264", -- [29]
+			"<17:24:53><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [30]
+			"<17:24:53><DEBUG>	 Event: LOOT_CLOSED", -- [31]
+			"<17:24:53><DEBUG>	 Event: LOOT_CLOSED", -- [32]
+			"<17:24:53><Comm>	 ^1^Sl^T^N1^S20881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [33]
+			"<17:24:53><Comm>	 ^1^Sl^T^N1^S20881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [34]
+			"<17:26:09><DEBUG>	 Event: ENCOUNTER_START 1913 Dalliah the Doomsayer 2 5", -- [35]
+			"<17:26:09><INFO>	 UpdatePlayersData()", -- [36]
+			"<17:26:56><DEBUG>	 Event: ENCOUNTER_END 1913 Dalliah the Doomsayer 2 5 1", -- [37]
+			"<17:26:57><DEBUG>	 Event: LOOT_READY true", -- [38]
+			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20885-000036894D 70918", -- [39]
+			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4 1 Creature-0-4248-552-7444-20885-000036894D 1", -- [40]
+			"<17:26:57><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [41]
+			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 5 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r 3 1 Creature-0-4248-552-7444-20885-000036894D 1", -- [42]
+			"<17:26:57><DEBUG>	 OnLootSlotCleared() 5 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r 3", -- [43]
+			"<17:26:57><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4", -- [44]
+			"<17:26:57><DEBUG>	 Event: LOOT_READY true", -- [45]
+			"<17:26:57><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20885-000036894D 70918", -- [46]
+			"<17:26:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 127157 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Thatia's Self-Correcting Gauntlets]|h|r 1 Yóshino PALADIN", -- [47]
+			"<17:26:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Yóshino PALADIN", -- [48]
+			"<17:26:57><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [49]
+			"<17:26:57><DEBUG>	 Event: LOOT_CLOSED", -- [50]
+			"<17:26:57><DEBUG>	 Event: LOOT_CLOSED", -- [51]
+			"<17:26:57><Comm>	 ^1^Sl^T^N1^S20885^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [52]
+			"<17:26:57><Comm>	 ^1^Sl^T^N1^S20885^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [53]
+			"<17:26:58><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 127157 |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Thatia's Self-Correcting Gauntlets]|h|r 1 Tervania-Ravencrest PALADIN", -- [54]
+			"<17:26:59><DEBUG>	 Storage:New |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r temp", -- [55]
+			"<17:26:59><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [56]
+			"<17:26:59><DEBUG>	 Found: nil nil nil", -- [57]
+			"<17:26:59><DEBUG>	 Storage:New |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r temp", -- [58]
+			"<17:26:59><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [59]
+			"<17:26:59><DEBUG>	 Found item at 1 10", -- [60]
+			"<17:26:59><DEBUG>	 Found: 1 10 0", -- [61]
+			"<17:27:00><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [62]
+			"<17:27:00><DEBUG>	 Found: nil nil nil", -- [63]
+			"<17:27:00><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [64]
+			"<17:27:00><DEBUG>	 Found item at 1 10", -- [65]
+			"<17:27:00><DEBUG>	 Found: 1 10 0", -- [66]
+			"<17:27:00><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1913 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Dedrel-Aszune ROGUE", -- [67]
+			"<17:27:00><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly~`Fire~`Opal]|h|r^N2^S20885^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [68]
+			"<17:27:01><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [69]
+			"<17:27:01><DEBUG>	 Found: nil nil nil", -- [70]
+			"<17:27:02><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::||h[Thatia's Self-Correcting Gauntlets]||h||r 5", -- [71]
+			"<17:27:02><DEBUG>	 Found: nil nil nil", -- [72]
+			"<17:27:02><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127157::::::::60:65::22:2:7191:6652:1:28:181:::|h[Thatia's Self-Correcting Gauntlets]|h|r not found in bags", -- [73]
+			"<17:27:07><DEBUG>	 Event: ENCOUNTER_START 1915 Wrath-Scryer Soccothrates 2 5", -- [74]
+			"<17:27:07><INFO>	 UpdatePlayersData()", -- [75]
+			"<17:28:10><DEBUG>	 Event: ENCOUNTER_END 1915 Wrath-Scryer Soccothrates 2 5 1", -- [76]
+			"<17:28:13><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Dedrel-Aszune ROGUE", -- [77]
+			"<17:28:13><DEBUG>	 Event: LOOT_READY true", -- [78]
+			"<17:28:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20886-000036894D 73370", -- [79]
+			"<17:28:13><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [80]
+			"<17:28:13><DEBUG>	 Adding to self.lootSlotInfo 4 |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4 1 Creature-0-4248-552-7444-20886-000036894D 1", -- [81]
+			"<17:28:13><DEBUG>	 OnLootSlotCleared() 4 |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4", -- [82]
+			"<17:28:14><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 30575 |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Yóshino PALADIN", -- [83]
+			"<17:28:14><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [84]
+			"<17:28:14><DEBUG>	 Event: LOOT_CLOSED", -- [85]
+			"<17:28:14><DEBUG>	 Event: LOOT_CLOSED", -- [86]
+			"<17:28:14><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 127165 |cff0070dd|Hitem:127165::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Doomplate Chestguard]|h|r 1 Tervania-Ravencrest PALADIN", -- [87]
+			"<17:28:14><Comm>	 ^1^Sl^T^N1^S20886^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [88]
+			"<17:28:14><Comm>	 ^1^Sl^T^N1^S20886^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [89]
+			"<17:28:15><DEBUG>	 Storage:New |cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r temp", -- [90]
+			"<17:28:15><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30575::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [91]
+			"<17:28:15><DEBUG>	 Found item at 1 11", -- [92]
+			"<17:28:15><DEBUG>	 Found: 1 11 0", -- [93]
+			"<17:28:16><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30575::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [94]
+			"<17:28:16><DEBUG>	 Found item at 1 11", -- [95]
+			"<17:28:16><DEBUG>	 Found: 1 11 0", -- [96]
+			"<17:28:17><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30575::::::::60:65:::::::|h[Nimble~`Chrysoprase]|h|r^N2^S20886^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [97]
+			"<17:28:20><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1915 127163 |cff0070dd|Hitem:127163::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Emberhawk Crossbow]|h|r 1 Selalara HUNTER", -- [98]
+			"<17:28:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [99]
+			"<17:28:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [100]
+			"<17:30:21><DEBUG>	 Event: LOOT_READY true", -- [101]
+			"<17:30:21><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-21702-000036894D 9416", -- [102]
+			"<17:30:21><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [103]
+			"<17:30:21><DEBUG>	 Event: LOOT_CLOSED", -- [104]
+			"<17:30:21><DEBUG>	 Event: LOOT_CLOSED", -- [105]
+			"<17:30:21><Comm>	 ^1^Sl^T^N1^S21702^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [106]
+			"<17:30:21><Comm>	 ^1^Sl^T^N1^S21702^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [107]
+			"<17:33:15><DEBUG>	 Event: LOOT_READY true", -- [108]
+			"<17:33:15><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20900-0000B6894D 4698", -- [109]
+			"<17:33:15><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [110]
+			"<17:33:15><DEBUG>	 Event: LOOT_CLOSED", -- [111]
+			"<17:33:15><DEBUG>	 Event: LOOT_CLOSED", -- [112]
+			"<17:33:16><Comm>	 ^1^Sl^T^N1^S20900^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [113]
+			"<17:33:16><Comm>	 ^1^Sl^T^N1^S20900^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [114]
+			"<17:39:20><DEBUG>	 Event: ENCOUNTER_START 1914 Harbinger Skyriss 2 5", -- [115]
+			"<17:39:20><INFO>	 UpdatePlayersData()", -- [116]
+			"<17:41:07><DEBUG>	 Event: ENCOUNTER_END 1914 Harbinger Skyriss 2 5 1", -- [117]
+			"<17:41:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [118]
+			"<17:41:09><DEBUG>	 Event: LOOT_READY true", -- [119]
+			"<17:41:09><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4248-552-7444-20912-0000368F2A 169057", -- [120]
+			"<17:41:09><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4 1 Creature-0-4248-552-7444-20912-0000368F2A 1", -- [121]
+			"<17:41:09><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [122]
+			"<17:41:09><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 4", -- [123]
+			"<17:41:09><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1070:::|h[Swirling Timewarped Vial]|h|r 1 Yóshino PALADIN", -- [124]
+			"<17:41:09><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 30582 |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r 1 Yóshino PALADIN", -- [125]
+			"<17:41:09><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [126]
+			"<17:41:09><DEBUG>	 Event: LOOT_CLOSED", -- [127]
+			"<17:41:09><DEBUG>	 Event: LOOT_CLOSED", -- [128]
+			"<17:41:09><Comm>	 ^1^Sl^T^N1^S20912^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [129]
+			"<17:41:09><Comm>	 ^1^Sl^T^N1^S20912^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [130]
+			"<17:41:10><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 127178 |cff0070dd|Hitem:127178::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Vileblade of the Betrayer]|h|r 1 Dedrel-Aszune ROGUE", -- [131]
+			"<17:41:11><DEBUG>	 Storage:New |cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly Fire Opal]|h|r temp", -- [132]
+			"<17:41:11><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [133]
+			"<17:41:11><DEBUG>	 Found item at 1 10", -- [134]
+			"<17:41:11><DEBUG>	 Found: 1 10 0", -- [135]
+			"<17:41:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Dedrel-Aszune ROGUE", -- [136]
+			"<17:41:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1070:::|h[Swirling Timewarped Vial]|h|r 1 Selalara HUNTER", -- [137]
+			"<17:41:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 127150 |cff0070dd|Hitem:127150::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Tidefury Chestpiece]|h|r 1 Selalara HUNTER", -- [138]
+			"<17:41:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 30581 |cffa335ee|Hitem:30581::::::::60:65:::::::|h[Willful Fire Opal]|h|r 1 Tervania-Ravencrest PALADIN", -- [139]
+			"<17:41:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1914 31882 |cff0070dd|Hitem:31882::::::::60:65:::::::|h[Ace of Blessings]|h|r 1 Tervania-Ravencrest PALADIN", -- [140]
+			"<17:41:12><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30582::::::::60:65:::::::||h[Deadly Fire Opal]||h||r 5", -- [141]
+			"<17:41:12><DEBUG>	 Found item at 1 10", -- [142]
+			"<17:41:12><DEBUG>	 Found: 1 10 0", -- [143]
+			"<17:41:12><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30582::::::::60:65:::::::|h[Deadly~`Fire~`Opal]|h|r^N2^S20912^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [144]
+			"<17:41:27><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [145]
+			"<17:41:29><DEBUG>	 GetML()", -- [146]
+			"<17:41:54><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F02DBF", -- [147]
+			"<17:41:54><DEBUG>	 GetML()", -- [148]
+			"<17:41:54><DEBUG>	 Resetting council as we have a new ML!", -- [149]
+			"<17:41:54><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [150]
+			"<17:41:54>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [151]
+			"<17:41:54>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [152]
+			"<17:41:54>[ML]<DEBUG>	 UpdateMLdb", -- [153]
+			"<17:41:54><INFO>	 OnMLDBReceived", -- [154]
+			"<17:41:54><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [155]
+			"<17:41:54><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [156]
+			"<17:41:54><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N193.75^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [157]
+			"<17:41:56>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [158]
+			"<17:41:56><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [159]
+			"<17:41:56><DEBUG>	 isCouncil true", -- [160]
+			"<17:42:00><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [161]
+			"<17:42:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [162]
+			"<17:42:03><DEBUG>	 GetML()", -- [163]
+			"<17:42:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [164]
+			"<17:42:09><DEBUG>	 Timer MLdb_check passed", -- [165]
+			"<17:42:45><INFO>	 Logged In", -- [166]
+			"<17:42:45>[ML]<INFO>	 Init", -- [167]
+			"<17:42:45><INFO>	 RCLootCouncil TradeUI enabled", -- [168]
+			"<17:42:47><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [169]
+			"<17:42:47><DEBUG>	 ActivateSkin bfa", -- [170]
+			"<17:42:50><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [171]
+			"<17:42:50><INFO>	 UpdatePlayersData()", -- [172]
+			"<17:42:51><DEBUG>	 GetPlayersGuildRank()", -- [173]
+			"<17:42:51><DEBUG>	 Found Guild Rank: Alt", -- [174]
+			"<17:42:51><DEBUG>	 GetML()", -- [175]
+			"<17:42:51><DEBUG>	 Resetting council as we have a new ML!", -- [176]
+			"<17:42:51><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [177]
+			"<17:42:51>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [178]
+			"<17:42:51>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [179]
+			"<17:42:51>[ML]<DEBUG>	 UpdateMLdb", -- [180]
+			"<17:42:51><INFO>	 OnMLDBReceived", -- [181]
+			"<17:42:52><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Yóshino-Silvermoon", -- [182]
+			"<17:42:52><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [183]
+			"<17:42:52><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [184]
+			"<17:42:52><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N193.75^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [185]
+			"<17:42:53>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [186]
+			"<17:42:53><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [187]
+			"<17:42:53><DEBUG>	 isCouncil true", -- [188]
+			"<17:42:53><DEBUG>	 GetLootDBStatistics()", -- [189]
+			"<17:42:53><DEBUG>	 GetGuildRankNum()", -- [190]
+			"<17:42:53><INFO>	 RCVotingFrame enabled", -- [191]
+			"<17:43:06><DEBUG>	 Timer MLdb_check passed", -- [192]
+			"<17:51:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [193]
+			"<17:51:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [194]
+			"<17:51:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [195]
+			"<17:52:02><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [196]
+			"<17:52:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [197]
+			"<17:52:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [198]
+			"<17:52:34><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [199]
+			"<17:52:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [200]
+			"<17:52:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [201]
+			"<17:52:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [202]
+			"<17:53:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [203]
+			"<17:53:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [204]
+			"<17:53:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [205]
+			"<17:54:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [206]
+			"<17:55:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [207]
+			"<17:55:44><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [208]
+			"<17:59:51><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [209]
+			"<17:59:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [210]
+			"<17:59:53><DEBUG>	 GetML()", -- [211]
+			"<17:59:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [212]
+			"<18:01:36><DEBUG>	 TradeUI: Traded item(s) to Selalara-Silvermoon", -- [213]
+			"<18:01:36><DEBUG>	 TradeUI:Show() nil", -- [214]
+			"<18:01:36><DEBUG>	 TradeUI:Hide()", -- [215]
+			"<18:05:31><INFO>	 Logged In", -- [216]
+			"<18:05:31>[ML]<INFO>	 Init", -- [217]
+			"<18:05:31><INFO>	 RCLootCouncil TradeUI enabled", -- [218]
+			"<18:05:40><INFO>	 Kúsano-Silvermoon 3.1.4 nil", -- [219]
+			"<18:05:40><DEBUG>	 ActivateSkin bfa", -- [220]
+			"<18:05:44><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [221]
+			"<18:05:44><INFO>	 UpdatePlayersData()", -- [222]
+			"<18:05:46><DEBUG>	 GetPlayersGuildRank()", -- [223]
+			"<18:05:46><DEBUG>	 Found Guild Rank: Members", -- [224]
+			"<18:05:49><DEBUG>	 GetML()", -- [225]
+			"<18:07:11><INFO>	 Logged In", -- [226]
+			"<18:07:11>[ML]<INFO>	 Init", -- [227]
+			"<18:07:11><INFO>	 RCLootCouncil TradeUI enabled", -- [228]
+			"<18:07:23><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [229]
+			"<18:07:23><DEBUG>	 ActivateSkin bfa", -- [230]
+			"<18:07:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [231]
+			"<18:07:27><INFO>	 UpdatePlayersData()", -- [232]
+			"<18:07:31><DEBUG>	 GetPlayersGuildRank()", -- [233]
+			"<18:07:31><DEBUG>	 Found Guild Rank: Alt", -- [234]
+			"<18:07:33><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [235]
+			"<18:07:34><DEBUG>	 GetML()", -- [236]
+			"<18:07:34><DEBUG>	 Resetting council as we have a new ML!", -- [237]
+			"<18:07:34><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [238]
+			"<18:07:34>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [239]
+			"<18:07:34>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [240]
+			"<18:07:34>[ML]<DEBUG>	 UpdateMLdb", -- [241]
+			"<18:07:34><INFO>	 OnMLDBReceived", -- [242]
+			"<18:07:34><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [243]
+			"<18:07:34><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [244]
+			"<18:07:35><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [245]
+			"<18:07:35><DEBUG>	 GetML()", -- [246]
+			"<18:07:35>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [247]
+			"<18:07:35><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [248]
+			"<18:07:35><DEBUG>	 isCouncil true", -- [249]
+			"<18:07:35><DEBUG>	 GetLootDBStatistics()", -- [250]
+			"<18:07:35><DEBUG>	 GetGuildRankNum()", -- [251]
+			"<18:07:35><INFO>	 RCVotingFrame enabled", -- [252]
+			"<18:07:48><DEBUG>	 Timer MLdb_check passed", -- [253]
+			"<18:08:54><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Zinicmage-Silvermoon", -- [254]
+			"<18:20:34><INFO>	 Logged In", -- [255]
+			"<18:20:34>[ML]<INFO>	 Init", -- [256]
+			"<18:20:34><INFO>	 RCLootCouncil TradeUI enabled", -- [257]
+			"<18:20:44><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [258]
+			"<18:20:44><DEBUG>	 ActivateSkin bfa", -- [259]
+			"<18:20:48><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [260]
+			"<18:20:48><INFO>	 UpdatePlayersData()", -- [261]
+			"<18:20:53><DEBUG>	 GetPlayersGuildRank()", -- [262]
+			"<18:20:53><DEBUG>	 GetPlayersGuildRank()", -- [263]
+			"<18:20:53><DEBUG>	 Found Guild Rank: Alt", -- [264]
+			"<18:20:54><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [265]
+			"<18:20:55><DEBUG>	 GetML()", -- [266]
+			"<18:20:55><DEBUG>	 Resetting council as we have a new ML!", -- [267]
+			"<18:20:55><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [268]
+			"<18:20:55>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [269]
+			"<18:20:55>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [270]
+			"<18:20:55>[ML]<DEBUG>	 UpdateMLdb", -- [271]
+			"<18:20:55><INFO>	 OnMLDBReceived", -- [272]
+			"<18:20:55><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [273]
+			"<18:20:55><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [274]
+			"<18:20:56><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [275]
+			"<18:20:56>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [276]
+			"<18:20:56><DEBUG>	 GetML()", -- [277]
+			"<18:20:56><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [278]
+			"<18:20:56><DEBUG>	 isCouncil true", -- [279]
+			"<18:20:56><DEBUG>	 GetLootDBStatistics()", -- [280]
+			"<18:20:56><DEBUG>	 GetGuildRankNum()", -- [281]
+			"<18:20:56><INFO>	 RCVotingFrame enabled", -- [282]
+			"<18:21:09><DEBUG>	 Timer MLdb_check passed", -- [283]
+			"<18:21:30><INFO>	 Logged In", -- [284]
+			"<18:21:30>[ML]<INFO>	 Init", -- [285]
+			"<18:21:30><INFO>	 RCLootCouncil TradeUI enabled", -- [286]
+			"<18:21:39><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [287]
+			"<18:21:39><DEBUG>	 ActivateSkin bfa", -- [288]
+			"<18:21:43><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [289]
+			"<18:21:43><INFO>	 UpdatePlayersData()", -- [290]
+			"<18:21:44><DEBUG>	 GetPlayersGuildRank()", -- [291]
+			"<18:21:44><DEBUG>	 GetPlayersGuildRank()", -- [292]
+			"<18:21:44><DEBUG>	 GetPlayersGuildRank()", -- [293]
+			"<18:21:44><DEBUG>	 Found Guild Rank: Sunlight", -- [294]
+			"<18:21:48><DEBUG>	 GetML()", -- [295]
+			"<18:22:20><INFO>	 Logged In", -- [296]
+			"<18:22:20>[ML]<INFO>	 Init", -- [297]
+			"<18:22:20><INFO>	 RCLootCouncil TradeUI enabled", -- [298]
+			"<18:22:31><INFO>	 Kúsano-Silvermoon 3.1.4 nil", -- [299]
+			"<18:22:31><DEBUG>	 ActivateSkin bfa", -- [300]
+			"<18:22:36><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [301]
+			"<18:22:36><INFO>	 UpdatePlayersData()", -- [302]
+			"<18:22:38><DEBUG>	 GetPlayersGuildRank()", -- [303]
+			"<18:22:38><DEBUG>	 GetPlayersGuildRank()", -- [304]
+			"<18:22:38><DEBUG>	 Found Guild Rank: Members", -- [305]
+			"<18:22:41><DEBUG>	 GetML()", -- [306]
+			"<18:23:20><INFO>	 Logged In", -- [307]
+			"<18:23:20>[ML]<INFO>	 Init", -- [308]
+			"<18:23:20><INFO>	 RCLootCouncil TradeUI enabled", -- [309]
+			"<18:23:31><INFO>	 Mítsukí-Silvermoon 3.1.4 nil", -- [310]
+			"<18:23:31><DEBUG>	 ActivateSkin bfa", -- [311]
+			"<18:23:36><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [312]
+			"<18:23:36><INFO>	 UpdatePlayersData()", -- [313]
+			"<18:23:36><DEBUG>	 GetPlayersGuildRank()", -- [314]
+			"<18:23:36><DEBUG>	 GetPlayersGuildRank()", -- [315]
+			"<18:23:36><DEBUG>	 Found Guild Rank: Alt", -- [316]
+			"<18:23:40><DEBUG>	 GetML()", -- [317]
+			"<18:30:02><INFO>	 Logged In", -- [318]
+			"<18:30:02>[ML]<INFO>	 Init", -- [319]
+			"<18:30:02><INFO>	 RCLootCouncil TradeUI enabled", -- [320]
+			"<18:30:14><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [321]
+			"<18:30:14><DEBUG>	 ActivateSkin bfa", -- [322]
+			"<18:30:18><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [323]
+			"<18:30:18><INFO>	 UpdatePlayersData()", -- [324]
+			"<18:30:20><DEBUG>	 GetPlayersGuildRank()", -- [325]
+			"<18:30:20><DEBUG>	 GetPlayersGuildRank()", -- [326]
+			"<18:30:20><DEBUG>	 Found Guild Rank: Alt", -- [327]
+			"<18:30:23><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [328]
+			"<18:30:26><DEBUG>	 GetML()", -- [329]
+			"<18:30:26><DEBUG>	 Resetting council as we have a new ML!", -- [330]
+			"<18:30:26><INFO>	 MasterLooter =  Selalara-Silvermoon", -- [331]
+			"<18:30:26><DEBUG>	 GetML()", -- [332]
+			"<18:30:38><DEBUG>	 Timer MLdb_check passed", -- [333]
+			"<18:30:38><Comm>	 ^1^Sxrealm^T^N1^SSelalara-Silvermoon^N2^SMLdb_request^t^^ PARTY Yóshino-Silvermoon", -- [334]
+			"<18:30:38><Comm>	 ^1^Sxrealm^T^N1^SSelalara-Silvermoon^N2^Scouncil_request^t^^ PARTY Yóshino-Silvermoon", -- [335]
+			"<18:43:02><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [336]
+			"<18:43:04><DEBUG>	 GetML()", -- [337]
+			"<18:43:04><DEBUG>	 Resetting council as we have a new ML!", -- [338]
+			"<18:43:04><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [339]
+			"<18:43:04>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [340]
+			"<18:43:04>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [341]
+			"<18:43:04>[ML]<DEBUG>	 UpdateMLdb", -- [342]
+			"<18:43:04><INFO>	 OnMLDBReceived", -- [343]
+			"<18:43:04><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [344]
+			"<18:43:04><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [345]
+			"<18:43:04><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [346]
+			"<18:43:06>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [347]
+			"<18:43:06><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [348]
+			"<18:43:06><DEBUG>	 isCouncil true", -- [349]
+			"<18:43:06><DEBUG>	 GetLootDBStatistics()", -- [350]
+			"<18:43:06><DEBUG>	 GetGuildRankNum()", -- [351]
+			"<18:43:06><INFO>	 RCVotingFrame enabled", -- [352]
+			"<18:43:19><DEBUG>	 Timer MLdb_check passed", -- [353]
+			"<18:50:21><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Níina-Silvermoon", -- [354]
+			"<18:50:21><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [355]
+			"<18:53:03><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Dallán-Silvermoon", -- [356]
+			"<18:53:03><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [357]
+			"<18:53:15><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [358]
+			"<18:53:17><DEBUG>	 GetML()", -- [359]
+			"<18:53:17><INFO>	 Stop handling loot", -- [360]
+			"<18:53:17>[ML]<INFO>	 Disabled", -- [361]
+			"<18:53:17><DEBUG>	 Event: RAID_INSTANCE_WELCOME Hellfire Citadel: The Shattered Halls (Heroic) 43602 0 0", -- [362]
+			"<18:53:18><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [363]
+			"<18:53:18><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [364]
+			"<18:53:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [365]
+			"<18:53:20><DEBUG>	 GetML()", -- [366]
+			"<18:53:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [367]
+			"<18:55:48><DEBUG>	 Event: LOOT_READY true", -- [368]
+			"<18:55:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16700-0000B6A095 1656 Creature-0-3896-540-9864-16594-0000B6A095 8338", -- [369]
+			"<18:55:48><DEBUG>	 Event: LOOT_READY true", -- [370]
+			"<18:55:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16700-0000B6A095 1656 Creature-0-3896-540-9864-16594-0000B6A095 8338", -- [371]
+			"<18:55:48><DEBUG>	 Event: LOOT_CLOSED", -- [372]
+			"<18:55:49><Comm>	 ^1^Sl^T^N1^S16700^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [373]
+			"<18:56:21><DEBUG>	 Event: LOOT_READY true", -- [374]
+			"<18:56:21><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16700-000036A134 2325", -- [375]
+			"<18:56:21><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [376]
+			"<18:56:21><DEBUG>	 Event: LOOT_CLOSED", -- [377]
+			"<18:56:21><DEBUG>	 Event: LOOT_CLOSED", -- [378]
+			"<18:56:21><Comm>	 ^1^Sl^T^N1^S16700^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [379]
+			"<18:56:21><Comm>	 ^1^Sl^T^N1^S16700^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [380]
+			"<18:58:06><DEBUG>	 Event: LOOT_READY true", -- [381]
+			"<18:58:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-17694-000036A095 3109 Creature-0-3896-540-9864-16523-000036A095 5098", -- [382]
+			"<18:58:06><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [383]
+			"<18:58:06><DEBUG>	 Event: LOOT_CLOSED", -- [384]
+			"<18:58:06><DEBUG>	 Event: LOOT_CLOSED", -- [385]
+			"<18:58:06><Comm>	 ^1^Sl^T^N1^S17694^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [386]
+			"<18:58:06><Comm>	 ^1^Sl^T^N1^S17694^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [387]
+			"<18:59:54><DEBUG>	 Event: ENCOUNTER_START 1936 Grand Warlock Nethekurse 2 5", -- [388]
+			"<18:59:54><INFO>	 UpdatePlayersData()", -- [389]
+			"<19:00:40><DEBUG>	 Event: ENCOUNTER_END 1936 Grand Warlock Nethekurse 2 5 1", -- [390]
+			"<19:00:41><DEBUG>	 Event: LOOT_READY true", -- [391]
+			"<19:00:41><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16807-000036A095 70827 Creature-0-3896-540-9864-17083-000236A095 2759", -- [392]
+			"<19:00:41><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [393]
+			"<19:00:41><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [394]
+			"<19:00:41><DEBUG>	 Event: LOOT_CLOSED", -- [395]
+			"<19:00:41><DEBUG>	 Event: LOOT_CLOSED", -- [396]
+			"<19:00:41><Comm>	 ^1^Sl^T^N1^S16807^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [397]
+			"<19:00:41><Comm>	 ^1^Sl^T^N1^S16807^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [398]
+			"<19:00:44><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1936 123983 |cff0070dd|Hitem:123983::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Cloak of Malice]|h|r 1 Selalara HUNTER", -- [399]
+			"<19:01:41><DEBUG>	 Event: ENCOUNTER_START 1935 Blood Guard Porung 2 5", -- [400]
+			"<19:01:41><INFO>	 UpdatePlayersData()", -- [401]
+			"<19:02:31><DEBUG>	 Event: ENCOUNTER_END 1935 Blood Guard Porung 2 5 1", -- [402]
+			"<19:02:32><DEBUG>	 Event: LOOT_READY true", -- [403]
+			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-20923-000036A095 67569", -- [404]
+			"<19:02:32><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [405]
+			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r 3 1 Creature-0-3896-540-9864-20923-000036A095 1", -- [406]
+			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 5 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4 1 Creature-0-3896-540-9864-20923-000036A095 1", -- [407]
+			"<19:02:32><DEBUG>	 OnLootSlotCleared() 5 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4", -- [408]
+			"<19:02:32><DEBUG>	 OnLootSlotCleared() 4 |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r 3", -- [409]
+			"<19:02:32><DEBUG>	 Event: LOOT_READY true", -- [410]
+			"<19:02:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-20923-000036A095 67569", -- [411]
+			"<19:02:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1935 30546 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 1 Yóshino PALADIN", -- [412]
+			"<19:02:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1935 124000 |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Justice Bearer's Pauldrons]|h|r 1 Yóshino PALADIN", -- [413]
+			"<19:02:32><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [414]
+			"<19:02:32><DEBUG>	 Event: LOOT_CLOSED", -- [415]
+			"<19:02:32><DEBUG>	 Event: LOOT_CLOSED", -- [416]
+			"<19:02:33><Comm>	 ^1^Sl^T^N1^S20923^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [417]
+			"<19:02:33><Comm>	 ^1^Sl^T^N1^S20923^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [418]
+			"<19:02:33><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1935 124013 |cff0070dd|Hitem:124013::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Belt of Flowing Thought]|h|r 1 Klaidas-Kazzak HUNTER", -- [419]
+			"<19:02:34><DEBUG>	 Storage:New |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r temp", -- [420]
+			"<19:02:34><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [421]
+			"<19:02:34><DEBUG>	 Found item at 1 8", -- [422]
+			"<19:02:34><DEBUG>	 Found: 1 8 0", -- [423]
+			"<19:02:34><DEBUG>	 Storage:New |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r temp", -- [424]
+			"<19:02:34><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [425]
+			"<19:02:34><DEBUG>	 Found: nil nil nil", -- [426]
+			"<19:02:35><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [427]
+			"<19:02:35><DEBUG>	 Found item at 1 8", -- [428]
+			"<19:02:35><DEBUG>	 Found: 1 8 0", -- [429]
+			"<19:02:35><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [430]
+			"<19:02:35><DEBUG>	 Found: nil nil nil", -- [431]
+			"<19:02:36><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign~`Tanzanite]|h|r^N2^S20923^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [432]
+			"<19:02:36><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [433]
+			"<19:02:36><DEBUG>	 Found: nil nil nil", -- [434]
+			"<19:02:37><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::||h[Justice Bearer's Pauldrons]||h||r 5", -- [435]
+			"<19:02:37><DEBUG>	 Found: nil nil nil", -- [436]
+			"<19:02:37><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:124000::::::::60:65::22:2:7191:6652:1:28:181:::|h[Justice Bearer's Pauldrons]|h|r not found in bags", -- [437]
+			"<19:04:36><DEBUG>	 Event: LOOT_READY true", -- [438]
+			"<19:04:36><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16523-000236A095 2875", -- [439]
+			"<19:04:36><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:25377::::::::60:65::22:1:6656:1:28:1075:::|h[Corroded Mail Circlet]|h|r 0 1 Creature-0-3896-540-9864-16523-000236A095 1", -- [440]
+			"<19:04:36><DEBUG>	 Adding to self.lootSlotInfo 4 |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r 2 1 Creature-0-3896-540-9864-16523-000236A095 1", -- [441]
+			"<19:04:36><DEBUG>	 OnLootSlotCleared() 4 |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r 2", -- [442]
+			"<19:04:37><DEBUG>	 Event: LOOT_READY true", -- [443]
+			"<19:04:37><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16523-000236A095 2875", -- [444]
+			"<19:04:37><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:25377::::::::60:65::22:1:6656:1:28:1075:::|h[Corroded Mail Circlet]|h|r 0 1 Creature-0-3896-540-9864-16523-000236A095 1", -- [445]
+			"<19:04:37><DEBUG>	 Event: LOOT_CLOSED", -- [446]
+			"<19:04:37><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:25377::::::::60:65::22:1:6656:1:28:1075:::|h[Corroded Mail Circlet]|h|r 0", -- [447]
+			"<19:04:37><DEBUG>	 Event: LOOT_CLOSED", -- [448]
+			"<19:04:37><Comm>	 ^1^Sl^T^N1^S16523^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [449]
+			"<19:04:38><DEBUG>	 Storage:New |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r temp", -- [450]
+			"<19:04:38><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [451]
+			"<19:04:38><DEBUG>	 Found: nil nil nil", -- [452]
+			"<19:04:39><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [453]
+			"<19:04:39><DEBUG>	 Found: nil nil nil", -- [454]
+			"<19:04:40><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [455]
+			"<19:04:40><DEBUG>	 Found: nil nil nil", -- [456]
+			"<19:04:41><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::||h[Eldr'naan Pants of the Quickblade]||h||r 5", -- [457]
+			"<19:04:41><DEBUG>	 Found: nil nil nil", -- [458]
+			"<19:04:41><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:24674::::::::60:65::22:2:6654:1680:1:28:1075:::|h[Eldr'naan Pants of the Quickblade]|h|r not found in bags", -- [459]
+			"<19:05:18><DEBUG>	 Event: LOOT_READY true", -- [460]
+			"<19:05:18><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-17670-0000B6A095 8784", -- [461]
+			"<19:05:18><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [462]
+			"<19:05:18><DEBUG>	 Event: LOOT_CLOSED", -- [463]
+			"<19:05:18><DEBUG>	 Event: LOOT_CLOSED", -- [464]
+			"<19:05:18><Comm>	 ^1^Sl^T^N1^S17670^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [465]
+			"<19:05:18><Comm>	 ^1^Sl^T^N1^S17670^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [466]
+			"<19:06:15><DEBUG>	 Event: ENCOUNTER_START 1937 Warbringer O'mrogg 2 5", -- [467]
+			"<19:06:15><INFO>	 UpdatePlayersData()", -- [468]
+			"<19:07:09><DEBUG>	 Event: ENCOUNTER_END 1937 Warbringer O'mrogg 2 5 1", -- [469]
+			"<19:07:11><DEBUG>	 Event: LOOT_READY true", -- [470]
+			"<19:07:11><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16809-000036A095 77591", -- [471]
+			"<19:07:11><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [472]
+			"<19:07:11><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:25401::::::::60:65::22:1:6657:1:28:1075:::|h[Corroded Mace]|h|r 0 1 Creature-0-3896-540-9864-16809-000036A095 1", -- [473]
+			"<19:07:11><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:25401::::::::60:65::22:1:6657:1:28:1075:::|h[Corroded Mace]|h|r 0", -- [474]
+			"<19:07:11><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [475]
+			"<19:07:11><DEBUG>	 Event: LOOT_CLOSED", -- [476]
+			"<19:07:11><DEBUG>	 Event: LOOT_CLOSED", -- [477]
+			"<19:07:11><Comm>	 ^1^Sl^T^N1^S16809^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [478]
+			"<19:07:11><Comm>	 ^1^Sl^T^N1^S16809^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [479]
+			"<19:07:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1937 124002 |cff0070dd|Hitem:124002::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Runesong Dagger]|h|r 1 Killedbylagg WARLOCK", -- [480]
+			"<19:07:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1937 123986 |cff0070dd|Hitem:123986::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[World's End Bracers]|h|r 1 Selalara HUNTER", -- [481]
+			"<19:07:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [482]
+			"<19:09:43><DEBUG>	 Event: LOOT_READY true", -- [483]
+			"<19:09:43><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-17695-0001B6A095 7815", -- [484]
+			"<19:09:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [485]
+			"<19:09:43><DEBUG>	 Event: LOOT_CLOSED", -- [486]
+			"<19:09:43><DEBUG>	 Event: LOOT_CLOSED", -- [487]
+			"<19:09:43><Comm>	 ^1^Sl^T^N1^S17695^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [488]
+			"<19:09:43><Comm>	 ^1^Sl^T^N1^S17695^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [489]
+			"<19:09:46><DEBUG>	 Event: ENCOUNTER_START 1938 Warchief Kargath Bladefist 2 5", -- [490]
+			"<19:09:46><INFO>	 UpdatePlayersData()", -- [491]
+			"<19:10:52><DEBUG>	 Event: ENCOUNTER_END 1938 Warchief Kargath Bladefist 2 5 1", -- [492]
+			"<19:10:53><DEBUG>	 Event: LOOT_READY true", -- [493]
+			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16808-000036A095 168096", -- [494]
+			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4 1 Creature-0-3896-540-9864-16808-000036A095 1", -- [495]
+			"<19:10:53><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [496]
+			"<19:10:53><DEBUG>	 Event: LOOT_READY true", -- [497]
+			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-540-9864-16808-000036A095 168096", -- [498]
+			"<19:10:53><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4 1 Creature-0-3896-540-9864-16808-000036A095 1", -- [499]
+			"<19:10:53><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 4", -- [500]
+			"<19:10:53><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1938 30546 |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r 1 Yóshino PALADIN", -- [501]
+			"<19:10:53><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [502]
+			"<19:10:53><DEBUG>	 Event: LOOT_CLOSED", -- [503]
+			"<19:10:53><DEBUG>	 Event: LOOT_CLOSED", -- [504]
+			"<19:10:53><Comm>	 ^1^Sl^T^N1^S16808^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [505]
+			"<19:10:54><Comm>	 ^1^Sl^T^N1^S16808^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [506]
+			"<19:10:55><DEBUG>	 Storage:New |cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign Tanzanite]|h|r temp", -- [507]
+			"<19:10:55><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [508]
+			"<19:10:55><DEBUG>	 Found item at 1 8", -- [509]
+			"<19:10:55><DEBUG>	 Found: 1 8 0", -- [510]
+			"<19:10:56><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30546::::::::60:65:::::::||h[Sovereign Tanzanite]||h||r 5", -- [511]
+			"<19:10:56><DEBUG>	 Found item at 1 8", -- [512]
+			"<19:10:56><DEBUG>	 Found: 1 8 0", -- [513]
+			"<19:10:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1938 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Klaidas-Kazzak HUNTER", -- [514]
+			"<19:10:57><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30546::::::::60:65:::::::|h[Sovereign~`Tanzanite]|h|r^N2^S16808^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [515]
+			"<19:11:06><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F206CD", -- [516]
+			"<19:11:06><DEBUG>	 GetML()", -- [517]
+			"<19:11:06><DEBUG>	 Resetting council as we have a new ML!", -- [518]
+			"<19:11:06><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [519]
+			"<19:11:06>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [520]
+			"<19:11:06>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [521]
+			"<19:11:06>[ML]<DEBUG>	 UpdateMLdb", -- [522]
+			"<19:11:06><INFO>	 OnMLDBReceived", -- [523]
+			"<19:11:06><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [524]
+			"<19:11:06><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [525]
+			"<19:11:06><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [526]
+			"<19:11:08>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [527]
+			"<19:11:15><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [528]
+			"<19:11:15><DEBUG>	 isCouncil true", -- [529]
+			"<19:11:15><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [530]
+			"<19:11:17><DEBUG>	 GetML()", -- [531]
+			"<19:11:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [532]
+			"<19:11:21><DEBUG>	 Timer MLdb_check passed", -- [533]
+			"<19:17:12><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [534]
+			"<19:17:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [535]
+			"<19:17:14><DEBUG>	 Event: RAID_INSTANCE_WELCOME Opening of the Dark Portal (Heroic) 42165 0 0", -- [536]
+			"<19:17:14><DEBUG>	 GetML()", -- [537]
+			"<19:17:14><INFO>	 Stop handling loot", -- [538]
+			"<19:17:14>[ML]<INFO>	 Disabled", -- [539]
+			"<19:17:15><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [540]
+			"<19:17:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [541]
+			"<19:17:17><DEBUG>	 GetML()", -- [542]
+			"<19:17:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [543]
+			"<19:17:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [544]
+			"<19:17:24><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [545]
+			"<19:17:26><DEBUG>	 GetML()", -- [546]
+			"<19:17:58><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F27739", -- [547]
+			"<19:17:58><DEBUG>	 GetML()", -- [548]
+			"<19:17:58><DEBUG>	 Resetting council as we have a new ML!", -- [549]
+			"<19:17:58><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [550]
+			"<19:17:58>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [551]
+			"<19:17:58>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [552]
+			"<19:17:58>[ML]<DEBUG>	 UpdateMLdb", -- [553]
+			"<19:17:58><INFO>	 OnMLDBReceived", -- [554]
+			"<19:17:58><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [555]
+			"<19:17:58><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [556]
+			"<19:17:58><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [557]
+			"<19:18:00>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [558]
+			"<19:18:00><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [559]
+			"<19:18:00><DEBUG>	 isCouncil true", -- [560]
+			"<19:18:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [561]
+			"<19:18:05><DEBUG>	 GetML()", -- [562]
+			"<19:18:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [563]
+			"<19:18:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [564]
+			"<19:18:13><DEBUG>	 Timer MLdb_check passed", -- [565]
+			"<19:51:53><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Peroping-Silvermoon", -- [566]
+			"<19:51:53><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [567]
+			"<19:55:06><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [568]
+			"<19:55:07><DEBUG>	 Event: RAID_INSTANCE_WELCOME Coilfang: The Slave Pens (Heroic) 39892 0 0", -- [569]
+			"<19:55:07><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [570]
+			"<19:55:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [571]
+			"<19:55:09><DEBUG>	 GetML()", -- [572]
+			"<19:55:09><INFO>	 Stop handling loot", -- [573]
+			"<19:55:09>[ML]<INFO>	 Disabled", -- [574]
+			"<19:55:09><DEBUG>	 GetML()", -- [575]
+			"<19:55:10><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [576]
+			"<19:56:09><DEBUG>	 Event: LOOT_READY true", -- [577]
+			"<19:56:09><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17817-000136AF04 7067", -- [578]
+			"<19:56:09><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [579]
+			"<19:56:09><DEBUG>	 Event: LOOT_CLOSED", -- [580]
+			"<19:56:09><DEBUG>	 Event: LOOT_CLOSED", -- [581]
+			"<19:56:09><Comm>	 ^1^Sl^T^N1^S17817^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [582]
+			"<19:56:09><Comm>	 ^1^Sl^T^N1^S17817^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [583]
+			"<19:58:32><DEBUG>	 Event: LOOT_CLOSED", -- [584]
+			"<19:58:33><Comm>	 ^1^Sl^T^N1^S17817^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [585]
+			"<19:59:18><DEBUG>	 Event: ENCOUNTER_START 1939 Mennu the Betrayer 2 5", -- [586]
+			"<19:59:18><INFO>	 UpdatePlayersData()", -- [587]
+			"<20:00:04><DEBUG>	 Event: ENCOUNTER_END 1939 Mennu the Betrayer 2 5 1", -- [588]
+			"<20:00:06><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1939 30605 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Nalgoth DEATHKNIGHT", -- [589]
+			"<20:00:12><DEBUG>	 Event: LOOT_READY true", -- [590]
+			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17941-000036AF04 72490 Creature-0-3770-547-13183-17940-000136AF04 10812 Creature-0-3770-547-13183-17962-000536AF04 7627 Creature-0-3770-547-13183-17962-0005B6AF04 5929", -- [591]
+			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4 1 Creature-0-3770-547-13183-17941-000036AF04 1", -- [592]
+			"<20:00:12><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [593]
+			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r 3 1 Creature-0-3770-547-13183-17941-000036AF04 1", -- [594]
+			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 5 |cff9d9d9d|Hitem:25372::::::::60:65::22:1:6656:1:28:1076:::|h[Eroded Mail Shoulderpads]|h|r 0 1 Creature-0-3770-547-13183-17962-0005B6AF04 1", -- [595]
+			"<20:00:12><DEBUG>	 OnLootSlotCleared() 5 |cff9d9d9d|Hitem:25372::::::::60:65::22:1:6656:1:28:1076:::|h[Eroded Mail Shoulderpads]|h|r 0", -- [596]
+			"<20:00:12><DEBUG>	 OnLootSlotCleared() 4 |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r 3", -- [597]
+			"<20:00:12><DEBUG>	 Event: LOOT_READY true", -- [598]
+			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17941-000036AF04 72490 Creature-0-3770-547-13183-17940-000136AF04 10812 Creature-0-3770-547-13183-17962-000536AF04 7627 Creature-0-3770-547-13183-17962-0005B6AF04 5929", -- [599]
+			"<20:00:12><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4 1 Creature-0-3770-547-13183-17941-000036AF04 1", -- [600]
+			"<20:00:12><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 4", -- [601]
+			"<20:00:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1939 127195 |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Girdle of Many Blessings]|h|r 1 Yóshino PALADIN", -- [602]
+			"<20:00:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1939 30605 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Yóshino PALADIN", -- [603]
+			"<20:00:12><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [604]
+			"<20:00:12><DEBUG>	 Event: LOOT_CLOSED", -- [605]
+			"<20:00:12><DEBUG>	 Event: LOOT_CLOSED", -- [606]
+			"<20:00:13><Comm>	 ^1^Sl^T^N1^S17941^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [607]
+			"<20:00:13><Comm>	 ^1^Sl^T^N1^S17941^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [608]
+			"<20:00:14><DEBUG>	 Storage:New |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r temp", -- [609]
+			"<20:00:14><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [610]
+			"<20:00:14><DEBUG>	 Found: nil nil nil", -- [611]
+			"<20:00:14><DEBUG>	 Storage:New |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r temp", -- [612]
+			"<20:00:14><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30605::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [613]
+			"<20:00:14><DEBUG>	 Found item at 1 9", -- [614]
+			"<20:00:14><DEBUG>	 Found: 1 9 0", -- [615]
+			"<20:00:15><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [616]
+			"<20:00:15><DEBUG>	 Found: nil nil nil", -- [617]
+			"<20:00:16><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30605::::::::60:65:::::::||h[Nimble Chrysoprase]||h||r 5", -- [618]
+			"<20:00:16><DEBUG>	 Found item at 1 9", -- [619]
+			"<20:00:16><DEBUG>	 Found: 1 9 0", -- [620]
+			"<20:00:16><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble~`Chrysoprase]|h|r^N2^S17941^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [621]
+			"<20:00:16><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [622]
+			"<20:00:16><DEBUG>	 Found: nil nil nil", -- [623]
+			"<20:00:17><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::||h[Girdle of Many Blessings]||h||r 5", -- [624]
+			"<20:00:17><DEBUG>	 Found: nil nil nil", -- [625]
+			"<20:00:17><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127195::::::::60:65::22:2:7191:6652:1:28:181:::|h[Girdle of Many Blessings]|h|r not found in bags", -- [626]
+			"<20:02:07><DEBUG>	 Event: ENCOUNTER_START 1941 Rokmar the Crackler 2 5", -- [627]
+			"<20:02:07><INFO>	 UpdatePlayersData()", -- [628]
+			"<20:03:03><DEBUG>	 Event: ENCOUNTER_END 1941 Rokmar the Crackler 2 5 1", -- [629]
+			"<20:03:04><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 30603 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 1 Kimuraii-AzjolNerub PALADIN", -- [630]
+			"<20:03:05><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Blumpkuh-Silvermoon", -- [631]
+			"<20:03:05><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [632]
+			"<20:03:06><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 30605 |cffa335ee|Hitem:30605::::::::60:65:::::::|h[Nimble Chrysoprase]|h|r 1 Selalara HUNTER", -- [633]
+			"<20:03:06><DEBUG>	 Event: LOOT_READY true", -- [634]
+			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17991-000036AF04 73107 Creature-0-3770-547-13183-17816-0004B6AF04 5915", -- [635]
+			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 4 1 Creature-0-3770-547-13183-17991-000036AF04 1", -- [636]
+			"<20:03:06><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [637]
+			"<20:03:06><DEBUG>	 Event: LOOT_READY true", -- [638]
+			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17991-000036AF04 73107 Creature-0-3770-547-13183-17816-0004B6AF04 5915", -- [639]
+			"<20:03:06><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 4 1 Creature-0-3770-547-13183-17991-000036AF04 1", -- [640]
+			"<20:03:10><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 4", -- [641]
+			"<20:03:10><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 30603 |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r 1 Yóshino PALADIN", -- [642]
+			"<20:03:10><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [643]
+			"<20:03:10><DEBUG>	 Event: LOOT_CLOSED", -- [644]
+			"<20:03:10><DEBUG>	 Event: LOOT_CLOSED", -- [645]
+			"<20:03:10><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1941 127186 |cff0070dd|Hitem:127186::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Bogstrok Scale Cloak]|h|r 1 Selalara HUNTER", -- [646]
+			"<20:03:11><Comm>	 ^1^Sl^T^N1^S17991^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [647]
+			"<20:03:11><Comm>	 ^1^Sl^T^N1^S17991^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [648]
+			"<20:03:12><DEBUG>	 Storage:New |cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified Tanzanite]|h|r temp", -- [649]
+			"<20:03:12><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30603::::::::60:65:::::::||h[Purified Tanzanite]||h||r 5", -- [650]
+			"<20:03:12><DEBUG>	 Found item at 1 10", -- [651]
+			"<20:03:12><DEBUG>	 Found: 1 10 0", -- [652]
+			"<20:03:13><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30603::::::::60:65:::::::||h[Purified Tanzanite]||h||r 5", -- [653]
+			"<20:03:13><DEBUG>	 Found item at 1 10", -- [654]
+			"<20:03:13><DEBUG>	 Found: 1 10 0", -- [655]
+			"<20:03:13><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30603::::::::60:65:::::::|h[Purified~`Tanzanite]|h|r^N2^S17991^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [656]
+			"<20:05:44><DEBUG>	 Event: ENCOUNTER_START 1940 Quagmirran 2 5", -- [657]
+			"<20:05:44><INFO>	 UpdatePlayersData()", -- [658]
+			"<20:06:24><DEBUG>	 Event: ENCOUNTER_END 1940 Quagmirran 2 5 1", -- [659]
+			"<20:06:26><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1940 127199 |cff0070dd|Hitem:127199::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Girdle of the Immovable]|h|r 1 Kimuraii-AzjolNerub PALADIN", -- [660]
+			"<20:06:28><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1940 127199 |cff0070dd|Hitem:127199::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Girdle of the Immovable]|h|r 1 Nalgoth DEATHKNIGHT", -- [661]
+			"<20:06:30><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1940 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1076:::|h[Swirling Timewarped Vial]|h|r 1 Avalar-AzjolNerub MAGE", -- [662]
+			"<20:06:32><DEBUG>	 Event: LOOT_READY true", -- [663]
+			"<20:06:32><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3770-547-13183-17942-000036AF04 171835", -- [664]
+			"<20:06:32><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [665]
+			"<20:06:32><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [666]
+			"<20:06:32><DEBUG>	 Event: LOOT_CLOSED", -- [667]
+			"<20:06:32><DEBUG>	 Event: LOOT_CLOSED", -- [668]
+			"<20:06:32><Comm>	 ^1^Sl^T^N1^S17942^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [669]
+			"<20:06:32><Comm>	 ^1^Sl^T^N1^S17942^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [670]
+			"<20:06:35><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [671]
+			"<20:06:37><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F326E2", -- [672]
+			"<20:06:37><DEBUG>	 GetML()", -- [673]
+			"<20:06:37><DEBUG>	 Resetting council as we have a new ML!", -- [674]
+			"<20:06:37><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [675]
+			"<20:06:37>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [676]
+			"<20:06:37>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [677]
+			"<20:06:37>[ML]<DEBUG>	 UpdateMLdb", -- [678]
+			"<20:06:37><INFO>	 OnMLDBReceived", -- [679]
+			"<20:06:37><DEBUG>	 GetML()", -- [680]
+			"<20:06:37><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [681]
+			"<20:06:37><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [682]
+			"<20:06:38><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [683]
+			"<20:06:39>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [684]
+			"<20:06:39><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [685]
+			"<20:06:39><DEBUG>	 isCouncil true", -- [686]
+			"<20:06:42><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [687]
+			"<20:06:44><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [688]
+			"<20:06:44><DEBUG>	 GetML()", -- [689]
+			"<20:06:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [690]
+			"<20:06:52><DEBUG>	 Timer MLdb_check passed", -- [691]
+			"<20:06:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [692]
+			"<20:07:57><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Blumpkuh-Silvermoon", -- [693]
+			"<20:07:57><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [694]
+			"<20:09:11><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Rødekineser-Silvermoon", -- [695]
+			"<20:09:11><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [696]
+			"<20:10:03><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [697]
+			"<20:10:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [698]
+			"<20:10:05><DEBUG>	 GetML()", -- [699]
+			"<20:10:05><INFO>	 Stop handling loot", -- [700]
+			"<20:10:05>[ML]<INFO>	 Disabled", -- [701]
+			"<20:10:05><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [702]
+			"<20:10:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [703]
+			"<20:10:17><DEBUG>	 Event: RAID_INSTANCE_WELCOME Auchindoun: Mana-Tombs (Heroic) 38982 0 0", -- [704]
+			"<20:10:17><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [705]
+			"<20:10:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [706]
+			"<20:10:20><DEBUG>	 GetML()", -- [707]
+			"<20:10:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [708]
+			"<20:10:25><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Blumpkuh-Silvermoon", -- [709]
+			"<20:10:25><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [710]
+			"<20:11:18><DEBUG>	 Event: LOOT_READY true", -- [711]
+			"<20:11:18><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18311-0003B6B297 5269", -- [712]
+			"<20:11:18><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [713]
+			"<20:11:18><DEBUG>	 Event: LOOT_CLOSED", -- [714]
+			"<20:11:18><DEBUG>	 Event: LOOT_CLOSED", -- [715]
+			"<20:11:18><Comm>	 ^1^Sl^T^N1^S18311^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [716]
+			"<20:11:18><Comm>	 ^1^Sl^T^N1^S18311^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [717]
+			"<20:11:29><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Firesnek-Silvermoon", -- [718]
+			"<20:11:29><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [719]
+			"<20:11:39><DEBUG>	 Event: LOOT_READY true", -- [720]
+			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18313-000136B297 9325", -- [721]
+			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25403::::::::60:65::22:1:6657:1:28:1066:::|h[Sharpened Stilleto]|h|r 0 1 Creature-0-4251-557-4132-18313-000136B297 1", -- [722]
+			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r 2 1 Creature-0-4251-557-4132-18313-000136B297 1", -- [723]
+			"<20:11:39><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r 2", -- [724]
+			"<20:11:39><DEBUG>	 Event: LOOT_READY true", -- [725]
+			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18313-000136B297 9325", -- [726]
+			"<20:11:39><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25403::::::::60:65::22:1:6657:1:28:1066:::|h[Sharpened Stilleto]|h|r 0 1 Creature-0-4251-557-4132-18313-000136B297 1", -- [727]
+			"<20:11:41><DEBUG>	 Storage:New |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r temp", -- [728]
+			"<20:11:41><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [729]
+			"<20:11:41><DEBUG>	 Found: nil nil nil", -- [730]
+			"<20:11:42><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [731]
+			"<20:11:42><DEBUG>	 Found: nil nil nil", -- [732]
+			"<20:11:43><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [733]
+			"<20:11:43><DEBUG>	 Found: nil nil nil", -- [734]
+			"<20:11:44><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::||h[Feralfen Hand of the Quickblade]||h||r 5", -- [735]
+			"<20:11:44><DEBUG>	 Found: nil nil nil", -- [736]
+			"<20:11:44><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:24632::::::::60:65::22:2:6654:1680:1:28:1066:::|h[Feralfen Hand of the Quickblade]|h|r not found in bags", -- [737]
+			"<20:11:52><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:25403::::::::60:65::22:1:6657:1:28:1066:::|h[Sharpened Stilleto]|h|r 0", -- [738]
+			"<20:11:53><DEBUG>	 Event: LOOT_CLOSED", -- [739]
+			"<20:11:54><Comm>	 ^1^Sl^T^N1^S18313^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [740]
+			"<20:12:05><DEBUG>	 Event: ENCOUNTER_START 1900 Pandemonius 2 5", -- [741]
+			"<20:12:05><INFO>	 UpdatePlayersData()", -- [742]
+			"<20:12:25><DEBUG>	 Event: ENCOUNTER_END 1900 Pandemonius 2 5 1", -- [743]
+			"<20:12:29><DEBUG>	 Event: LOOT_READY true", -- [744]
+			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18341-000036B297 72107", -- [745]
+			"<20:12:29><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [746]
+			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 3 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r 3 1 Creature-0-4251-557-4132-18341-000036B297 1", -- [747]
+			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 4 |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r 4 1 Creature-0-4251-557-4132-18341-000036B297 1", -- [748]
+			"<20:12:29><DEBUG>	 OnLootSlotCleared() 4 |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r 4", -- [749]
+			"<20:12:29><DEBUG>	 Event: LOOT_READY true", -- [750]
+			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18341-000036B297 72107", -- [751]
+			"<20:12:29><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [752]
+			"<20:12:29><DEBUG>	 Adding to self.lootSlotInfo 3 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r 3 1 Creature-0-4251-557-4132-18341-000036B297 1", -- [753]
+			"<20:12:31><DEBUG>	 Storage:New |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r temp", -- [754]
+			"<20:12:31><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [755]
+			"<20:12:31><DEBUG>	 Found: nil nil nil", -- [756]
+			"<20:12:32><DEBUG>	 OnLootSlotCleared() 3 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r 3", -- [757]
+			"<20:12:32><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [758]
+			"<20:12:32><DEBUG>	 Found: nil nil nil", -- [759]
+			"<20:12:33><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [760]
+			"<20:12:33><DEBUG>	 Found: nil nil nil", -- [761]
+			"<20:12:34><DEBUG>	 Storage:New |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r temp", -- [762]
+			"<20:12:34><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [763]
+			"<20:12:34><DEBUG>	 Found: nil nil nil", -- [764]
+			"<20:12:34><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30585::::::::60:65:::::::||h[Polished Fire Opal]||h||r 5", -- [765]
+			"<20:12:34><DEBUG>	 Found: nil nil nil", -- [766]
+			"<20:12:34><ERROR>	 UpdateAndSendRecentTradableItem: |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r not found in bags", -- [767]
+			"<20:12:35><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [768]
+			"<20:12:35><DEBUG>	 Found: nil nil nil", -- [769]
+			"<20:12:36><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [770]
+			"<20:12:36><DEBUG>	 Found: nil nil nil", -- [771]
+			"<20:12:37><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::||h[Faith Bearer's Gauntlets]||h||r 5", -- [772]
+			"<20:12:37><DEBUG>	 Found: nil nil nil", -- [773]
+			"<20:12:37><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:1:28:181:::|h[Faith Bearer's Gauntlets]|h|r not found in bags", -- [774]
+			"<20:12:42><DEBUG>	 Event: LOOT_CLOSED", -- [775]
+			"<20:12:43><Comm>	 ^1^Sl^T^N1^S18341^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [776]
+			"<20:12:43><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1900 30585 |cffa335ee|Hitem:30585::::::::60:65:::::::|h[Polished Fire Opal]|h|r 1 Yóshino PALADIN", -- [777]
+			"<20:12:43><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1900 127218 |cff0070dd|Hitem:127218::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Faith Bearer's Gauntlets]|h|r 1 Yóshino PALADIN", -- [778]
+			"<20:12:43><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1900 127236 |cff0070dd|Hitem:127236::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Starbolt Longbow]|h|r 1 Selalara HUNTER", -- [779]
+			"<20:14:50><INFO>	 Logged In", -- [780]
+			"<20:14:50>[ML]<INFO>	 Init", -- [781]
+			"<20:14:50><INFO>	 RCLootCouncil TradeUI enabled", -- [782]
+			"<20:15:06><INFO>	 Yóshino-Silvermoon 3.1.4 nil", -- [783]
+			"<20:15:06><DEBUG>	 ActivateSkin bfa", -- [784]
+			"<20:15:09><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [785]
+			"<20:15:09><INFO>	 UpdatePlayersData()", -- [786]
+			"<20:15:10><DEBUG>	 GetPlayersGuildRank()", -- [787]
+			"<20:15:11><DEBUG>	 GetPlayersGuildRank()", -- [788]
+			"<20:15:11><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [789]
+			"<20:15:13><DEBUG>	 GetML()", -- [790]
+			"<20:15:13><DEBUG>	 GetPlayersGuildRank()", -- [791]
+			"<20:15:13><DEBUG>	 Found Guild Rank: Alt", -- [792]
+			"<20:15:14><DEBUG>	 GetML()", -- [793]
+			"<20:15:17><DEBUG>	 Event: LOOT_READY true", -- [794]
+			"<20:15:17><DEBUG>	 Event: LOOT_CLOSED", -- [795]
+			"<20:15:17><DEBUG>	 Event: LOOT_CLOSED", -- [796]
+			"<20:15:40><DEBUG>	 Event: ENCOUNTER_START 1901 Tavarok 2 5", -- [797]
+			"<20:15:40><INFO>	 UpdatePlayersData()", -- [798]
+			"<20:16:03><DEBUG>	 Event: ENCOUNTER_END 1901 Tavarok 2 5 1", -- [799]
+			"<20:16:04><DEBUG>	 Event: LOOT_READY true", -- [800]
+			"<20:16:04><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18343-000036B297 74604", -- [801]
+			"<20:16:04><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [802]
+			"<20:16:04><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 4 1 Creature-0-4251-557-4132-18343-000036B297 1", -- [803]
+			"<20:16:04><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 4", -- [804]
+			"<20:16:04><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 30583 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 1 Yóshino PALADIN", -- [805]
+			"<20:16:04><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [806]
+			"<20:16:04><DEBUG>	 Event: LOOT_CLOSED", -- [807]
+			"<20:16:04><DEBUG>	 Event: LOOT_CLOSED", -- [808]
+			"<20:16:05><Comm>	 ^1^Sl^T^N1^S18343^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [809]
+			"<20:16:05><Comm>	 ^1^Sl^T^N1^S18343^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [810]
+			"<20:16:05><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 127242 |cff0070dd|Hitem:127242::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Predatory Gloves]|h|r 1 Allyiepireé MONK", -- [811]
+			"<20:16:06><DEBUG>	 Storage:New |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r temp", -- [812]
+			"<20:16:06><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30583::::::::60:65:::::::||h[Timeless Tanzanite]||h||r 5", -- [813]
+			"<20:16:06><DEBUG>	 Found item at 1 14", -- [814]
+			"<20:16:06><DEBUG>	 Found: 1 14 0", -- [815]
+			"<20:16:06><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 30584 |cffa335ee|Hitem:30584::::::::60:65:::::::|h[Inscribed Fire Opal]|h|r 1 Selalara HUNTER", -- [816]
+			"<20:16:07><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30583::::::::60:65:::::::||h[Timeless Tanzanite]||h||r 5", -- [817]
+			"<20:16:07><DEBUG>	 Found item at 1 14", -- [818]
+			"<20:16:07><DEBUG>	 Found: 1 14 0", -- [819]
+			"<20:16:08><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless~`Tanzanite]|h|r^N2^S18343^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [820]
+			"<20:16:09><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1901 30583 |cffa335ee|Hitem:30583::::::::60:65:::::::|h[Timeless Tanzanite]|h|r 1 Hunterkaa HUNTER", -- [821]
+			"<20:16:31><DEBUG>	 Event: LOOT_READY true", -- [822]
+			"<20:16:31><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0 3 Creature-0-4251-557-4132-19306-000AB6B297 1 Creature-0-4251-557-4132-19306-000B36B297 1 Creature-0-4251-557-4132-19306-000BB6B297 1", -- [823]
+			"<20:16:31><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0", -- [824]
+			"<20:16:31><DEBUG>	 Event: LOOT_CLOSED", -- [825]
+			"<20:16:31><DEBUG>	 Event: LOOT_CLOSED", -- [826]
+			"<20:16:31><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [827]
+			"<20:16:31><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [828]
+			"<20:17:22><DEBUG>	 Event: LOOT_READY true", -- [829]
+			"<20:17:22><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18313-0009B6B297 8675 Creature-0-4251-557-4132-18312-000436B297 9931 Creature-0-4251-557-4132-18331-0005B6B297 9533", -- [830]
+			"<20:17:23><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [831]
+			"<20:17:23><DEBUG>	 Event: LOOT_CLOSED", -- [832]
+			"<20:17:23><DEBUG>	 Event: LOOT_CLOSED", -- [833]
+			"<20:17:23><Comm>	 ^1^Sl^T^N1^S18313^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [834]
+			"<20:17:23><Comm>	 ^1^Sl^T^N1^S18313^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [835]
+			"<20:19:22><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Zinicmage-Silvermoon", -- [836]
+			"<20:19:23><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [837]
+			"<20:20:01><DEBUG>	 Event: LOOT_READY true", -- [838]
+			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18312-0004B6B297 11091", -- [839]
+			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25354::::::::60:65::22:1:6656:1:28:1066:::|h[Moldy Leather Helmet]|h|r 0 1 Creature-0-4251-557-4132-18312-0004B6B297 1", -- [840]
+			"<20:20:01><DEBUG>	 Event: LOOT_READY true", -- [841]
+			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18312-0004B6B297 11091", -- [842]
+			"<20:20:01><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:25354::::::::60:65::22:1:6656:1:28:1066:::|h[Moldy Leather Helmet]|h|r 0 1 Creature-0-4251-557-4132-18312-0004B6B297 1", -- [843]
+			"<20:20:01><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:25354::::::::60:65::22:1:6656:1:28:1066:::|h[Moldy Leather Helmet]|h|r 0", -- [844]
+			"<20:20:01><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [845]
+			"<20:20:01><DEBUG>	 Event: LOOT_CLOSED", -- [846]
+			"<20:20:01><DEBUG>	 Event: LOOT_CLOSED", -- [847]
+			"<20:20:01><Comm>	 ^1^Sl^T^N1^S18312^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [848]
+			"<20:20:01><Comm>	 ^1^Sl^T^N1^S18312^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [849]
+			"<20:21:13><DEBUG>	 Event: LOOT_READY true", -- [850]
+			"<20:21:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18315-0000B6B297 9032 Creature-0-4251-557-4132-18312-000036B297 11816", -- [851]
+			"<20:21:13><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [852]
+			"<20:21:13><DEBUG>	 Event: LOOT_CLOSED", -- [853]
+			"<20:21:13><DEBUG>	 Event: LOOT_CLOSED", -- [854]
+			"<20:21:14><Comm>	 ^1^Sl^T^N1^S18315^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [855]
+			"<20:21:14><Comm>	 ^1^Sl^T^N1^S18315^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [856]
+			"<20:21:52><DEBUG>	 Event: LOOT_READY true", -- [857]
+			"<20:21:52><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0 7 Creature-0-4251-557-4132-19306-0003B6B297 1 Creature-0-4251-557-4132-19306-000036B297 1 Creature-0-4251-557-4132-19306-000136B297 1 Creature-0-4251-557-4132-19306-0001B6B297 1 Creature-0-4251-557-4132-19306-0002B6B297 1 Creature-0-4251-557-4132-19306-000436B297 1 Creature-0-4251-557-4132-19306-0004B6B297 1", -- [858]
+			"<20:21:52><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:24511::::::::60:65:::::::|h[Primordial Essence]|h|r 0 3 Creature-0-4251-557-4132-19306-0000B6B297 1 Creature-0-4251-557-4132-19306-000236B297 1 Creature-0-4251-557-4132-19306-000336B297 1", -- [859]
+			"<20:21:53><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:24511::::::::60:65:::::::|h[Primordial Essence]|h|r 0", -- [860]
+			"<20:21:53><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:24508::::::::60:65:::::::|h[Elemental Fragment]|h|r 0", -- [861]
+			"<20:21:53><DEBUG>	 Event: LOOT_CLOSED", -- [862]
+			"<20:21:53><DEBUG>	 Event: LOOT_CLOSED", -- [863]
+			"<20:21:53><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [864]
+			"<20:21:53><Comm>	 ^1^Sl^T^N1^S19306^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [865]
+			"<20:21:55><DEBUG>	 Event: ENCOUNTER_START 1899 Nexus-Prince Shaffar 2 5", -- [866]
+			"<20:21:55><INFO>	 UpdatePlayersData()", -- [867]
+			"<20:22:26><DEBUG>	 Event: ENCOUNTER_END 1899 Nexus-Prince Shaffar 2 5 1", -- [868]
+			"<20:22:27><DEBUG>	 Event: LOOT_READY true", -- [869]
+			"<20:22:27><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4251-557-4132-18344-000036B297 167221", -- [870]
+			"<20:22:27><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [871]
+			"<20:22:28><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [872]
+			"<20:22:28><DEBUG>	 Event: LOOT_CLOSED", -- [873]
+			"<20:22:28><DEBUG>	 Event: LOOT_CLOSED", -- [874]
+			"<20:22:28><Comm>	 ^1^Sl^T^N1^S18344^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [875]
+			"<20:22:28><Comm>	 ^1^Sl^T^N1^S18344^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [876]
+			"<20:22:28><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Selalara HUNTER", -- [877]
+			"<20:22:29><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 129747 |cff0070dd|Hitem:129747::::::::60:65::::1:28:1066:::|h[Swirling Timewarped Vial]|h|r 1 Pilinpal-Aggra(Português) PALADIN", -- [878]
+			"<20:22:29><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 23572 |cff0070dd|Hitem:23572::::::::60:65:::::::|h[Primal Nether]|h|r 1 Pilinpal-Aggra(Português) PALADIN", -- [879]
+			"<20:22:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 127228 |cff0070dd|Hitem:127228::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Mask of the Howling Storm]|h|r 1 Hunterkaa HUNTER", -- [880]
+			"<20:22:35><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1899 127244 |cff0070dd|Hitem:127244::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Lucid Dream Bracers]|h|r 1 Allyiepireé MONK", -- [881]
+			"<20:22:38><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F35E22", -- [882]
+			"<20:22:38><DEBUG>	 GetML()", -- [883]
+			"<20:22:38><DEBUG>	 Resetting council as we have a new ML!", -- [884]
+			"<20:22:38><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [885]
+			"<20:22:38>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [886]
+			"<20:22:38>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [887]
+			"<20:22:38>[ML]<DEBUG>	 UpdateMLdb", -- [888]
+			"<20:22:38><INFO>	 OnMLDBReceived", -- [889]
+			"<20:22:38><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [890]
+			"<20:22:38><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [891]
+			"<20:22:38><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [892]
+			"<20:22:40>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [893]
+			"<20:22:40><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [894]
+			"<20:22:40><DEBUG>	 isCouncil true", -- [895]
+			"<20:22:40><DEBUG>	 GetLootDBStatistics()", -- [896]
+			"<20:22:40><DEBUG>	 GetGuildRankNum()", -- [897]
+			"<20:22:40><INFO>	 RCVotingFrame enabled", -- [898]
+			"<20:22:42><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [899]
+			"<20:22:44><DEBUG>	 GetML()", -- [900]
+			"<20:22:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [901]
+			"<20:22:53><DEBUG>	 Timer MLdb_check passed", -- [902]
+			"<20:22:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [903]
+			"<20:32:35><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [904]
+			"<20:32:36><DEBUG>	 Event: RAID_INSTANCE_WELCOME Opening of the Dark Portal (Heroic) 37643 0 0", -- [905]
+			"<20:32:37><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [906]
+			"<20:32:38><DEBUG>	 GetML()", -- [907]
+			"<20:32:38><INFO>	 Stop handling loot", -- [908]
+			"<20:32:38>[ML]<INFO>	 Disabled", -- [909]
+			"<20:32:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [910]
+			"<20:32:38><Comm>	 ^1^SStopHandleLoot^T^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [911]
+			"<20:32:38><DEBUG>	 GetML()", -- [912]
+			"<20:32:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [913]
+			"<20:33:33><DEBUG>	 Event: LOOT_READY true", -- [914]
+			"<20:33:33><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:25421::::::::60:65:::::::|h[Gnarled Claw]|h|r 0 1 Creature-0-3772-269-29377-17952-0006B6B7DF 1", -- [915]
+			"<20:33:33><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:25421::::::::60:65:::::::|h[Gnarled Claw]|h|r 0", -- [916]
+			"<20:33:33><DEBUG>	 Event: LOOT_CLOSED", -- [917]
+			"<20:33:33><DEBUG>	 Event: LOOT_CLOSED", -- [918]
+			"<20:33:33><Comm>	 ^1^Sl^T^N1^S17952^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [919]
+			"<20:33:33><Comm>	 ^1^Sl^T^N1^S17952^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [920]
+			"<20:35:06><DEBUG>	 Event: LOOT_READY true", -- [921]
+			"<20:35:06><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21140-000036B85C 8025", -- [922]
+			"<20:35:06><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [923]
+			"<20:35:06><DEBUG>	 Event: LOOT_CLOSED", -- [924]
+			"<20:35:06><DEBUG>	 Event: LOOT_CLOSED", -- [925]
+			"<20:35:06><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [926]
+			"<20:35:06><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [927]
+			"<20:36:25><DEBUG>	 Event: LOOT_READY true", -- [928]
+			"<20:36:25><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21104-000036B8AA 5046", -- [929]
+			"<20:36:25><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r 2 1 Creature-0-3772-269-29377-21104-000036B8AA 1", -- [930]
+			"<20:36:25><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r 2", -- [931]
+			"<20:36:25><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [932]
+			"<20:36:25><DEBUG>	 Event: LOOT_CLOSED", -- [933]
+			"<20:36:25><DEBUG>	 Event: LOOT_CLOSED", -- [934]
+			"<20:36:26><Comm>	 ^1^Sl^T^N1^S21104^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [935]
+			"<20:36:26><Comm>	 ^1^Sl^T^N1^S21104^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [936]
+			"<20:36:27><DEBUG>	 Storage:New |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r temp", -- [937]
+			"<20:36:27><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [938]
+			"<20:36:27><DEBUG>	 Found: nil nil nil", -- [939]
+			"<20:36:28><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [940]
+			"<20:36:28><DEBUG>	 Found: nil nil nil", -- [941]
+			"<20:36:29><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [942]
+			"<20:36:29><DEBUG>	 Found: nil nil nil", -- [943]
+			"<20:36:30><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::||h[Blood Knight Boots of the Aurora]||h||r 5", -- [944]
+			"<20:36:30><DEBUG>	 Found: nil nil nil", -- [945]
+			"<20:36:30><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:24863::::::::60:65::22:2:6654:1706:1:28:1071:::|h[Blood Knight Boots of the Aurora]|h|r not found in bags", -- [946]
+			"<20:37:43><DEBUG>	 Event: LOOT_READY true", -- [947]
+			"<20:37:43><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21140-000036B8FB 2869", -- [948]
+			"<20:37:43><DEBUG>	 Adding to self.lootSlotInfo 3 |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r 2 1 Creature-0-3772-269-29377-21140-000036B8FB 1", -- [949]
+			"<20:37:43><DEBUG>	 OnLootSlotCleared() 3 |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r 2", -- [950]
+			"<20:37:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [951]
+			"<20:37:43><DEBUG>	 Event: LOOT_CLOSED", -- [952]
+			"<20:37:43><DEBUG>	 Event: LOOT_CLOSED", -- [953]
+			"<20:37:43><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [954]
+			"<20:37:43><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [955]
+			"<20:37:45><DEBUG>	 Storage:New |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r temp", -- [956]
+			"<20:37:45><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [957]
+			"<20:37:45><DEBUG>	 Found: nil nil nil", -- [958]
+			"<20:37:46><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [959]
+			"<20:37:46><DEBUG>	 Found: nil nil nil", -- [960]
+			"<20:37:47><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [961]
+			"<20:37:47><DEBUG>	 Found: nil nil nil", -- [962]
+			"<20:37:48><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::||h[Dreaded Mace of the Quickblade]||h||r 5", -- [963]
+			"<20:37:48><DEBUG>	 Found: nil nil nil", -- [964]
+			"<20:37:48><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:25121::::::::60:65::22:2:6655:1678:1:28:1071:::|h[Dreaded Mace of the Quickblade]|h|r not found in bags", -- [965]
+			"<20:37:55><DEBUG>	 Event: ENCOUNTER_START 1920 Chrono Lord Deja 2 5", -- [966]
+			"<20:37:55><INFO>	 UpdatePlayersData()", -- [967]
+			"<20:38:50><DEBUG>	 Event: ENCOUNTER_END 1920 Chrono Lord Deja 2 5 1", -- [968]
+			"<20:38:51><DEBUG>	 Event: LOOT_READY true", -- [969]
+			"<20:38:51><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17879-000036B924 68694", -- [970]
+			"<20:38:51><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [971]
+			"<20:38:51><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [972]
+			"<20:38:51><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r 3 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [973]
+			"<20:38:52><DEBUG>	 Event: LOOT_READY true", -- [974]
+			"<20:38:52><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17879-000036B924 68694", -- [975]
+			"<20:38:52><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [976]
+			"<20:38:52><DEBUG>	 Adding to self.lootSlotInfo 3 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [977]
+			"<20:38:52><DEBUG>	 Adding to self.lootSlotInfo 4 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r 3 1 Creature-0-3772-269-29377-17879-000036B924 1", -- [978]
+			"<20:38:52><DEBUG>	 OnLootSlotCleared() 4 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r 3", -- [979]
+			"<20:38:52><DEBUG>	 OnLootSlotCleared() 3 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4", -- [980]
+			"<20:38:52><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 127435 |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Burnoose of Shifting Ages]|h|r 1 Yóshino PALADIN", -- [981]
+			"<20:38:52><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 30558 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 1 Yóshino PALADIN", -- [982]
+			"<20:38:52><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [983]
+			"<20:38:52><DEBUG>	 Event: LOOT_CLOSED", -- [984]
+			"<20:38:52><DEBUG>	 Event: LOOT_CLOSED", -- [985]
+			"<20:38:52><Comm>	 ^1^Sl^T^N1^S17879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [986]
+			"<20:38:52><Comm>	 ^1^Sl^T^N1^S17879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [987]
+			"<20:38:53><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 127436 |cff0070dd|Hitem:127436::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Mask of Inner Fire]|h|r 1 Selalara HUNTER", -- [988]
+			"<20:38:54><DEBUG>	 Storage:New |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r temp", -- [989]
+			"<20:38:54><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [990]
+			"<20:38:54><DEBUG>	 Found item at 1 19", -- [991]
+			"<20:38:54><DEBUG>	 Found: 1 19 0", -- [992]
+			"<20:38:54><DEBUG>	 Storage:New |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r temp", -- [993]
+			"<20:38:54><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [994]
+			"<20:38:54><DEBUG>	 Found: nil nil nil", -- [995]
+			"<20:38:55><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [996]
+			"<20:38:55><DEBUG>	 Found item at 1 19", -- [997]
+			"<20:38:55><DEBUG>	 Found: 1 19 0", -- [998]
+			"<20:38:55><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [999]
+			"<20:38:55><DEBUG>	 Found: nil nil nil", -- [1000]
+			"<20:38:55><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart~`Fire~`Opal]|h|r^N2^S17879^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1001]
+			"<20:38:56><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [1002]
+			"<20:38:56><DEBUG>	 Found: nil nil nil", -- [1003]
+			"<20:38:57><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::||h[Burnoose of Shifting Ages]||h||r 5", -- [1004]
+			"<20:38:57><DEBUG>	 Found: nil nil nil", -- [1005]
+			"<20:38:57><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:127435::::::::60:65::22:2:7191:6652:1:28:181:::|h[Burnoose of Shifting Ages]|h|r not found in bags", -- [1006]
+			"<20:38:57><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1920 30558 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 1 Klaussambo-Kilrogg HUNTER", -- [1007]
+			"<20:40:04><DEBUG>	 Event: LOOT_READY true", -- [1008]
+			"<20:40:04><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17839-000036B988 5862", -- [1009]
+			"<20:40:04><DEBUG>	 Event: LOOT_READY true", -- [1010]
+			"<20:40:04><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17839-000036B988 5862", -- [1011]
+			"<20:40:04><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1012]
+			"<20:40:04><DEBUG>	 Event: LOOT_CLOSED", -- [1013]
+			"<20:40:04><DEBUG>	 Event: LOOT_CLOSED", -- [1014]
+			"<20:40:04><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1015]
+			"<20:40:04><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1016]
+			"<20:40:45><DEBUG>	 Event: LOOT_READY true", -- [1017]
+			"<20:40:45><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21140-000036B9AB 11393", -- [1018]
+			"<20:40:45><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1019]
+			"<20:40:45><DEBUG>	 Event: LOOT_CLOSED", -- [1020]
+			"<20:40:45><DEBUG>	 Event: LOOT_CLOSED", -- [1021]
+			"<20:40:45><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1022]
+			"<20:40:45><Comm>	 ^1^Sl^T^N1^S21140^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1023]
+			"<20:43:11><DEBUG>	 Event: ENCOUNTER_START 1921 Temporus 2 5", -- [1024]
+			"<20:43:11><INFO>	 UpdatePlayersData()", -- [1025]
+			"<20:44:11><DEBUG>	 Event: ENCOUNTER_END 1921 Temporus 2 5 1", -- [1026]
+			"<20:44:13><DEBUG>	 Event: LOOT_READY true", -- [1027]
+			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17880-000036BA5D 74097", -- [1028]
+			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17880-000036BA5D 1", -- [1029]
+			"<20:44:13><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:5|h[Timewarped Badge]|h|r as it's a currency", -- [1030]
+			"<20:44:13><DEBUG>	 Event: LOOT_READY true", -- [1031]
+			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17880-000036BA5D 74097", -- [1032]
+			"<20:44:13><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4 1 Creature-0-3772-269-29377-17880-000036BA5D 1", -- [1033]
+			"<20:44:13><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 4", -- [1034]
+			"<20:44:13><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 30558 |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r 1 Yóshino PALADIN", -- [1035]
+			"<20:44:13><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1036]
+			"<20:44:13><DEBUG>	 Event: LOOT_CLOSED", -- [1037]
+			"<20:44:13><DEBUG>	 Event: LOOT_CLOSED", -- [1038]
+			"<20:44:13><Comm>	 ^1^Sl^T^N1^S17880^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1039]
+			"<20:44:13><Comm>	 ^1^Sl^T^N1^S17880^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1040]
+			"<20:44:15><DEBUG>	 Storage:New |cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart Fire Opal]|h|r temp", -- [1041]
+			"<20:44:15><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [1042]
+			"<20:44:15><DEBUG>	 Found item at 1 19", -- [1043]
+			"<20:44:15><DEBUG>	 Found: 1 19 0", -- [1044]
+			"<20:44:16><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:30558::::::::60:65:::::::||h[Stalwart Fire Opal]||h||r 5", -- [1045]
+			"<20:44:16><DEBUG>	 Found item at 1 19", -- [1046]
+			"<20:44:16><DEBUG>	 Found: 1 19 0", -- [1047]
+			"<20:44:16><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:30558::::::::60:65:::::::|h[Stalwart~`Fire~`Opal]|h|r^N2^S17880^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1048]
+			"<20:44:18><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 30556 |cffa335ee|Hitem:30556::::::::60:65:::::::|h[Glinting Tanzanite]|h|r 1 Inal-Arathor WARLOCK", -- [1049]
+			"<20:44:19><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 127445 |cff0070dd|Hitem:127445::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Star-Heart Lamp]|h|r 1 Inal-Arathor WARLOCK", -- [1050]
+			"<20:44:19><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 30556 |cffa335ee|Hitem:30556::::::::60:65:::::::|h[Glinting Tanzanite]|h|r 1 Klaussambo-Kilrogg HUNTER", -- [1051]
+			"<20:44:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1921 127441 |cff0070dd|Hitem:127441::::::::60:65::22:2:7191:6652:2:28:181:9:60:::|h[Hourglass of the Unraveller]|h|r 1 Selalara HUNTER", -- [1052]
+			"<20:47:39><DEBUG>	 Event: LOOT_READY true", -- [1053]
+			"<20:47:39><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17839-000036BB4F 6338", -- [1054]
+			"<20:47:40><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1055]
+			"<20:47:40><DEBUG>	 Event: LOOT_CLOSED", -- [1056]
+			"<20:47:40><DEBUG>	 Event: LOOT_CLOSED", -- [1057]
+			"<20:47:40><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1058]
+			"<20:47:40><Comm>	 ^1^Sl^T^N1^S17839^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1059]
+			"<20:48:27><DEBUG>	 Event: LOOT_READY true", -- [1060]
+			"<20:48:27><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-21148-000036BB76 9200", -- [1061]
+			"<20:48:27><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1062]
+			"<20:48:27><DEBUG>	 Event: LOOT_CLOSED", -- [1063]
+			"<20:48:27><DEBUG>	 Event: LOOT_CLOSED", -- [1064]
+			"<20:48:27><Comm>	 ^1^Sl^T^N1^S21148^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1065]
+			"<20:48:27><Comm>	 ^1^Sl^T^N1^S21148^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1066]
+			"<20:48:33><DEBUG>	 Event: ENCOUNTER_START 1919 Aeonus 2 5", -- [1067]
+			"<20:48:33><INFO>	 UpdatePlayersData()", -- [1068]
+			"<20:49:47><DEBUG>	 Event: ENCOUNTER_END 1919 Aeonus 2 5 1", -- [1069]
+			"<20:49:48><DEBUG>	 Event: LOOT_READY true", -- [1070]
+			"<20:49:48><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3772-269-29377-17881-000036BBA0 167193", -- [1071]
+			"<20:49:48><DEBUG>	 Ignoring |cff0070dd|Hcurrency:1166:10|h[Timewarped Badge]|h|r as it's a currency", -- [1072]
+			"<20:49:48><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1073]
+			"<20:49:48><DEBUG>	 Event: LOOT_CLOSED", -- [1074]
+			"<20:49:48><DEBUG>	 Event: LOOT_CLOSED", -- [1075]
+			"<20:49:48><Comm>	 ^1^Sl^T^N1^S17881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1076]
+			"<20:49:48><Comm>	 ^1^Sl^T^N1^S17881^t^^ INSTANCE_CHAT Yóshino-Silvermoon", -- [1077]
+			"<20:49:52><DEBUG>	 Event: GROUP_LEFT 2 Party-1461-1-000056F3C75C", -- [1078]
+			"<20:49:52><DEBUG>	 GetML()", -- [1079]
+			"<20:49:52><DEBUG>	 Resetting council as we have a new ML!", -- [1080]
+			"<20:49:52><INFO>	 MasterLooter =  Yóshino-Silvermoon", -- [1081]
+			"<20:49:52>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1082]
+			"<20:49:52>[ML]<DEBUG>	 NewML Yóshino-Silvermoon", -- [1083]
+			"<20:49:52>[ML]<DEBUG>	 UpdateMLdb", -- [1084]
+			"<20:49:52><INFO>	 OnMLDBReceived", -- [1085]
+			"<20:49:53><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Yóshino-Silvermoon", -- [1086]
+			"<20:49:53><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1087]
+			"<20:49:53><Comm>	 ^1^Sxrealm^T^N1^SYóshino-Silvermoon^N2^SpI^N3^SHEALER^N4^SAlt^N6^N0^N7^N196.25^N8^N65^t^^ PARTY Yóshino-Silvermoon", -- [1088]
+			"<20:49:54>[ML]<DEBUG>	 UpdateGroupCouncil Yóshino-Silvermoon", -- [1089]
+			"<20:49:55><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B3793E5^B^t^t^^ PARTY Yóshino-Silvermoon", -- [1090]
+			"<20:49:55><DEBUG>	 isCouncil true", -- [1091]
+			"<20:49:56><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1092]
+			"<20:49:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1093]
+			"<20:49:58><DEBUG>	 GetML()", -- [1094]
+			"<20:49:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1095]
+			"<20:50:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1096]
+			"<20:50:07><DEBUG>	 Timer MLdb_check passed", -- [1097]
+			"<21:02:51><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Nestradh-Silvermoon", -- [1098]
+			"<21:02:51><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1099]
+			"<21:08:10><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Asuri-Silvermoon", -- [1100]
+			"<21:08:10><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1101]
+			"<21:09:31><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Lamped-Silvermoon", -- [1102]
+			"<21:09:31><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1103]
+			"<21:18:17><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Peroping-Silvermoon", -- [1104]
+			"<21:18:17><Comm>	 ^1^Sr^T^N1^S3.0.1^N3^T^t^t^^ GUILD Kanaì-Silvermoon", -- [1105]
+			"<08:25:39><INFO>	 Logged In", -- [1106]
+			"<08:25:39>[ML]<INFO>	 Init", -- [1107]
+			"<08:25:39><INFO>	 RCLootCouncil TradeUI enabled", -- [1108]
+			"<08:25:44><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [1109]
+			"<08:25:44><DEBUG>	 ActivateSkin bfa", -- [1110]
+			"<08:25:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1111]
+			"<08:25:47><INFO>	 UpdatePlayersData()", -- [1112]
+			"<08:25:49><DEBUG>	 GetPlayersGuildRank()", -- [1113]
+			"<08:25:49><DEBUG>	 GetPlayersGuildRank()", -- [1114]
+			"<08:25:49><DEBUG>	 Found Guild Rank: Sunlight", -- [1115]
+			"<08:25:54><DEBUG>	 GetML()", -- [1116]
+			"<09:21:18><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Nestradh-Silvermoon", -- [1117]
+			"<10:01:09><INFO>	 Logged In", -- [1118]
+			"<10:01:09>[ML]<INFO>	 Init", -- [1119]
+			"<10:01:09><INFO>	 RCLootCouncil TradeUI enabled", -- [1120]
+			"<10:01:11><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [1121]
+			"<10:01:11><DEBUG>	 ActivateSkin bfa", -- [1122]
+			"<10:01:14><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1123]
+			"<10:01:14><INFO>	 UpdatePlayersData()", -- [1124]
+			"<10:01:15><DEBUG>	 GetPlayersGuildRank()", -- [1125]
+			"<10:01:15><DEBUG>	 Found Guild Rank: Sunlight", -- [1126]
+			"<10:01:15><DEBUG>	 GetML()", -- [1127]
+			"<10:01:16><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Ririchíyo-Silvermoon", -- [1128]
+			"<18:34:23><INFO>	 Logged In", -- [1129]
+			"<18:34:23>[ML]<INFO>	 Init", -- [1130]
+			"<18:34:23><INFO>	 RCLootCouncil TradeUI enabled", -- [1131]
+			"<18:34:27><INFO>	 Ririchíyo-Silvermoon 3.1.4 nil", -- [1132]
+			"<18:34:27><DEBUG>	 ActivateSkin bfa", -- [1133]
+			"<18:34:31><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1134]
+			"<18:34:31><INFO>	 UpdatePlayersData()", -- [1135]
+			"<18:34:32><DEBUG>	 GetPlayersGuildRank()", -- [1136]
+			"<18:34:32><DEBUG>	 GetPlayersGuildRank()", -- [1137]
+			"<18:34:32><DEBUG>	 Found Guild Rank: Sunlight", -- [1138]
+			"<18:34:34><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1139]
+			"<18:34:39><DEBUG>	 GetML()", -- [1140]
+			"<18:34:39><DEBUG>	 Resetting council as we have a new ML!", -- [1141]
+			"<18:34:39><INFO>	 MasterLooter =  Scripé-Silvermoon", -- [1142]
+			"<18:34:39><DEBUG>	 GetML()", -- [1143]
+			"<18:34:49><DEBUG>	 Timer MLdb_check passed", -- [1144]
+			"<18:34:49><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Ririchíyo-Silvermoon", -- [1145]
+			"<18:34:49><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Ririchíyo-Silvermoon", -- [1146]
+			"<18:34:49><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1147]
+			"<18:34:49><INFO>	 OnMLDBReceived", -- [1148]
+			"<18:34:49><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1149]
+			"<18:34:49><DEBUG>	 isCouncil false", -- [1150]
+			"<18:35:32><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1151]
+			"<18:35:34><DEBUG>	 GetML()", -- [1152]
+			"<18:36:11><Comm>	 ^1^Sl^T^N1^S173446^t^^ RAID Tinkerbyte-Silvermoon", -- [1153]
+			"<18:36:11><Comm>	 ^1^Sl^T^N1^S173446^t^^ RAID Tinkerbyte-Silvermoon", -- [1154]
+			"<18:36:16><Comm>	 ^1^Sl^T^N1^S168337^t^^ RAID Nikeah-Silvermoon", -- [1155]
+			"<18:36:16><Comm>	 ^1^Sl^T^N1^S168337^t^^ RAID Nikeah-Silvermoon", -- [1156]
+			"<18:36:16><Comm>	 ^1^Sl^T^N1^S173445^t^^ RAID Zárgothrax-Silvermoon", -- [1157]
+			"<18:36:18><Comm>	 ^1^Sl^T^N1^S168337^t^^ RAID Flashii-Silvermoon", -- [1158]
+			"<18:36:18><Comm>	 ^1^Sl^T^N1^S168337^t^^ RAID Flashii-Silvermoon", -- [1159]
+			"<18:36:20><Comm>	 ^1^Sl^T^N1^S173444^t^^ RAID Warxy-Silvermoon", -- [1160]
+			"<18:36:20><Comm>	 ^1^Sl^T^N1^S173444^t^^ RAID Warxy-Silvermoon", -- [1161]
+			"<18:38:57><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Mythic) 476462 0 0", -- [1162]
+			"<18:38:58><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1163]
+			"<18:39:00><DEBUG>	 GetML()", -- [1164]
+			"<18:43:50><DEBUG>	 Event: ENCOUNTER_START 2398 Shriekwing 16 20", -- [1165]
+			"<18:43:50><INFO>	 UpdatePlayersData()", -- [1166]
+			"<18:49:00><DEBUG>	 Event: ENCOUNTER_END 2398 Shriekwing 16 20 1", -- [1167]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Nikeah-Silvermoon", -- [1168]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Nikeah-Silvermoon", -- [1169]
+			"<18:49:03><DEBUG>	 Event: LOOT_READY true", -- [1170]
+			"<18:49:03><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-164406-000037EE60 752335", -- [1171]
+			"<18:49:03><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers of the Forgotten Heretic]|h|r 4 1 Creature-0-3896-2296-740-164406-000037EE60 1", -- [1172]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Tinkerbyte-Silvermoon", -- [1173]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Tinkerbyte-Silvermoon", -- [1174]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Warxy-Silvermoon", -- [1175]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Warxy-Silvermoon", -- [1176]
+			"<18:49:03><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers of the Forgotten Heretic]|h|r 4", -- [1177]
+			"<18:49:03><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2398 184286 |cff0070dd|Hitem:184286::::::::60:257:::::::|h[Extinguished Soul Anima]|h|r 3 Ririchíyo PRIEST", -- [1178]
+			"<18:49:03><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2398 182979 |cffa335ee|Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers of the Forgotten Heretic]|h|r 1 Ririchíyo PRIEST", -- [1179]
+			"<18:49:03><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1180]
+			"<18:49:03><DEBUG>	 Event: LOOT_CLOSED", -- [1181]
+			"<18:49:03><DEBUG>	 Event: LOOT_CLOSED", -- [1182]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Ririchíyo-Silvermoon", -- [1183]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Ririchíyo-Silvermoon", -- [1184]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Asuri-Silvermoon", -- [1185]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Asuri-Silvermoon", -- [1186]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Níksa-Silvermoon", -- [1187]
+			"<18:49:03><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Níksa-Silvermoon", -- [1188]
+			"<18:49:04><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Krayyt-Silvermoon", -- [1189]
+			"<18:49:04><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Krayyt-Silvermoon", -- [1190]
+			"<18:49:04><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Zárgothrax-Silvermoon", -- [1191]
+			"<18:49:04><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Zárgothrax-Silvermoon", -- [1192]
+			"<18:49:04><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Mìcha-Silvermoon", -- [1193]
+			"<18:49:04><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Peroping-Silvermoon", -- [1194]
+			"<18:49:04><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Peroping-Silvermoon", -- [1195]
+			"<18:49:05><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Gooselle-Silvermoon", -- [1196]
+			"<18:49:05><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Gooselle-Silvermoon", -- [1197]
+			"<18:49:05><DEBUG>	 Storage:New |cffa335ee|Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers of the Forgotten Heretic]|h|r temp", -- [1198]
+			"<18:49:05><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::||h[Slippers of the Forgotten Heretic]||h||r 5", -- [1199]
+			"<18:49:05><DEBUG>	 Found item at 4 23", -- [1200]
+			"<18:49:05><DEBUG>	 Found: 4 23 0", -- [1201]
+			"<18:49:05><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Dallán-Silvermoon", -- [1202]
+			"<18:49:05><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Dallán-Silvermoon", -- [1203]
+			"<18:49:05><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2398 183034 |cffa335ee|Hitem:183034::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r 1 Flashii MAGE", -- [1204]
+			"<18:49:06><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2398 183034 |cffa335ee|Hitem:183034::::::::60:257::6:4:7187:41:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r 1 Yaganmage MAGE", -- [1205]
+			"<18:49:06><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Zinicshaman-Silvermoon", -- [1206]
+			"<18:49:06><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Zinicshaman-Silvermoon", -- [1207]
+			"<18:49:06><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Yaganmage-Silvermoon", -- [1208]
+			"<18:49:06><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::||h[Slippers of the Forgotten Heretic]||h||r 5", -- [1209]
+			"<18:49:06><DEBUG>	 Found item at 4 23", -- [1210]
+			"<18:49:06><DEBUG>	 Found: 4 23 0", -- [1211]
+			"<18:49:06><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Flashii-Silvermoon", -- [1212]
+			"<18:49:06><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Flashii-Silvermoon", -- [1213]
+			"<18:49:06><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers~`of~`the~`Forgotten~`Heretic]|h|r^N2^S164406^t^^ RAID Ririchíyo-Silvermoon", -- [1214]
+			"<18:49:06><Comm>	 ^1^Shistory^T^N1^SRirichíyo-Silvermoon^N2^T^SmapID^N2296^Sowner^SRirichíyo-Silvermoon^Sid^S1614275346-0^Sinstance^SCastle~`Nathria-Mythic^Sclass^SPRIEST^Sdate^S25/02/21^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers~`of~`the~`Forgotten~`Heretic]|h|r^SdifficultyID^N16^Sboss^SShriekwing^SresponseID^SPL^Stime^S19:49:06^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1215]
+			"<18:49:06><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Scripé-Silvermoon", -- [1216]
+			"<18:49:06><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Scripé-Silvermoon", -- [1217]
+			"<18:49:08><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Maxnoon-Silvermoon", -- [1218]
+			"<18:49:08><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Maxnoon-Silvermoon", -- [1219]
+			"<18:49:08><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2398 183027 |cffa335ee|Hitem:183027::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Errant Crusader's Greaves]|h|r 1 Emblair PALADIN", -- [1220]
+			"<18:49:09><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:183034::::::::60:63::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled~`Batwing~`Cloak]|h|r^N2^S164406^t^^ RAID Flashii-Silvermoon", -- [1221]
+			"<18:49:09><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Emblair-Silvermoon", -- [1222]
+			"<18:49:09><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Emblair-Silvermoon", -- [1223]
+			"<18:49:09><Comm>	 ^1^Shistory^T^N1^SFlashii-Silvermoon^N2^T^SmapID^N2296^Sowner^SFlashii-Silvermoon^Sid^S1614275348-1^Sinstance^SCastle~`Nathria-Mythic^Sclass^SMAGE^Sdate^S25/02/21^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:183034::::::::60:63::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled~`Batwing~`Cloak]|h|r^SdifficultyID^N16^Sboss^SShriekwing^SresponseID^SPL^Stime^S19:49:08^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1224]
+			"<18:49:11><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:183027::::::::60:70::6:4:7187:6652:1498:6646:1:28:753:::|h[Errant~`Crusader's~`Greaves]|h|r^N2^S164406^t^^ RAID Emblair-Silvermoon", -- [1225]
+			"<18:49:12><Comm>	 ^1^Shistory^T^N1^SEmblair-Silvermoon^N2^T^SmapID^N2296^Sowner^SEmblair-Silvermoon^Sid^S1614275351-2^Sinstance^SCastle~`Nathria-Mythic^Sclass^SPALADIN^Sdate^S25/02/21^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:183027::::::::60:70::6:4:7187:6652:1498:6646:1:28:753:::|h[Errant~`Crusader's~`Greaves]|h|r^SdifficultyID^N16^Sboss^SShriekwing^SresponseID^SPL^Stime^S19:49:11^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1226]
+			"<18:49:14><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:183034::::::::60:63::6:4:7187:41:1498:6646:1:28:753:::|h[Cowled~`Batwing~`Cloak]|h|r^t^^ RAID Yaganmage-Silvermoon", -- [1227]
+			"<18:49:18><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Druidbeard-Silvermoon", -- [1228]
+			"<18:49:23><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Remiliah-Silvermoon", -- [1229]
+			"<18:49:23><Comm>	 ^1^Sl^T^N1^S164406^t^^ RAID Remiliah-Silvermoon", -- [1230]
+			"<18:49:46><Comm>	 ^1^SlootTable^T^N1^T^N1^T^Sstring^S183034:::::::::::6:4:7187:41:1498:6646:1:28:753^StypeCode^Sdefault^Sowner^SYaganmage-Silvermoon^Sboss^SShriekwing^t^t^t^^ RAID Scripé-Silvermoon", -- [1231]
+			"<18:49:46><INFO>	 GetPlayersGear |cffa335ee|Hitem:183034::::::::60:257::6:4:7187:41:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r INVTYPE_CLOAK", -- [1232]
+			"<18:49:46><DEBUG>	 LootFrame GetFrame()", -- [1233]
+			"<18:49:46><INFO>	 LootFrame:Start 1 nil", -- [1234]
+			"<18:49:46><DEBUG>	 GetButtons default", -- [1235]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N65^N2^N220.125^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6204:::::::60:65::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Gooselle-Silvermoon", -- [1236]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N252^N2^N219.1875^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6202:::::::60:252::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Remiliah-Silvermoon", -- [1237]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N267^N2^N217.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6208:::::::60:267::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Asuri-Silvermoon", -- [1238]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N257^N2^N216.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6204:::::::60:257::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Ririchíyo-Silvermoon", -- [1239]
+			"<18:49:46><Comm>	 ^1^Srolls^T^N1^N1^N2^T^SNíksa-Silvermoon^N87^SRemiliah-Silvermoon^N89^SDruidbeard-Silvermoon^N66^SMaxnoon-Silvermoon^N73^SYaganmage-Silvermoon^N44^SDallán-Silvermoon^N51^SZárgothrax-Silvermoon^N63^SScripé-Silvermoon^N88^SEmblair-Silvermoon^N68^SAsuri-Silvermoon^N8^SKrayyt-Silvermoon^N77^SWarxy-Silvermoon^N13^SMìcha-Silvermoon^N53^SNikeah-Silvermoon^N72^SRirichíyo-Silvermoon^N1^SFlashii-Silvermoon^N60^SGooselle-Silvermoon^N20^STinkerbyte-Silvermoon^N30^SZinicshaman-Silvermoon^N84^SPeroping-Silvermoon^N95^t^t^^ RAID Scripé-Silvermoon", -- [1240]
+			"<18:49:46><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1241]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N577^N2^N223.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S184778:6203:::::::60:577::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Scripé-Silvermoon", -- [1242]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N63^N2^N215.9375^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6203:::::::60:63::6:4:7187:6652:1498:6646^t^Sgear2^T^t^t^t^^ RAID Yaganmage-Silvermoon", -- [1243]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N252^N2^N217.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6202:::::::60:252::6:4:7187:40:1498:6646^t^Sgear2^T^t^t^t^^ RAID Nikeah-Silvermoon", -- [1244]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N256^N2^N207.1875^N3^T^Sresponse^T^t^Sdiff^T^N1^N26^t^Sgear1^T^N1^S183033:6204:::::::60:256::3:4:7189:6652:1472:6646^t^Sgear2^T^t^t^t^^ RAID Maxnoon-Silvermoon", -- [1245]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N253^N2^N218.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S183032:6203:::::::60:253::84:4:7188:6652:1485:6646:1:28:752^t^Sgear2^T^t^t^t^^ RAID Mìcha-Silvermoon", -- [1246]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N70^N2^N218.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178755:6204:::::::60:70::35:5:7214:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Emblair-Silvermoon", -- [1247]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N265^N2^N221.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178755:6203:::::::60:265::35:5:7214:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Zárgothrax-Silvermoon", -- [1248]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N63^N2^N213.9375^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S183032:6202:::::::60:63::84:4:7188:6652:1485:6646:1:28:752^t^Sgear2^T^t^t^t^^ RAID Flashii-Silvermoon", -- [1249]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N250^N2^N223.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N3^t^Sgear1^T^N1^S179349:6202:::::::60:250::35:5:7211:6652:1501:5881:6646^t^Sgear2^T^t^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1250]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N260^N2^N222.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S180123:6204:::::::60:260::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Dallán-Silvermoon", -- [1251]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N71^N2^N221.3125^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S183033:6203:::::::60:71::5:4:7188:6652:1485:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Warxy-Silvermoon", -- [1252]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N269^N2^N216^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6204:::::::60:269::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Peroping-Silvermoon", -- [1253]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N581^N2^N217.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6203:::::::60:581::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Níksa-Silvermoon", -- [1254]
+			"<18:49:46><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1255]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N264^N2^N218.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6204:::::::60:264::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Zinicshaman-Silvermoon", -- [1256]
+			"<18:49:46><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1257]
+			"<18:49:46><Comm>	 ^1^SlootAck^T^N1^N102^N2^N220.8125^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S183034:6204:::::::60:102::5:4:7188:6652:1485:6646:1:28:752^t^Sgear2^T^t^t^t^^ RAID Druidbeard-Silvermoon", -- [1258]
+			"<18:49:46><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1259]
+			"<18:49:46><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1260]
+			"<18:49:46><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1261]
+			"<18:49:46><DEBUG>	 isCouncil false", -- [1262]
+			"<18:49:46><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1263]
+			"<18:49:46><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1264]
+			"<18:49:47><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1265]
+			"<18:49:47><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1266]
+			"<18:49:47><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1267]
+			"<18:49:47><Comm>	 ^1^SlootAck^T^N1^N258^N2^N219.1875^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183034:6204:::::::60:258::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Krayyt-Silvermoon", -- [1268]
+			"<18:49:49><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Flashii-Silvermoon", -- [1269]
+			"<18:49:50><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Dallán-Silvermoon", -- [1270]
+			"<18:49:50><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Asuri-Silvermoon", -- [1271]
+			"<18:49:50><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Peroping-Silvermoon", -- [1272]
+			"<18:49:50><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1273]
+			"<18:49:51><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^ RAID Zárgothrax-Silvermoon", -- [1274]
+			"<18:49:51><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^ RAID Gooselle-Silvermoon", -- [1275]
+			"<18:49:51><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1276]
+			"<18:49:51><DEBUG>	 isCouncil false", -- [1277]
+			"<18:49:53><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^ RAID Remiliah-Silvermoon", -- [1278]
+			"<18:49:53><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^ RAID Druidbeard-Silvermoon", -- [1279]
+			"<18:49:53><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Snote^SLEEECh^Sresponse^N3^t^t^^ RAID Yaganmage-Silvermoon", -- [1280]
+			"<18:49:55><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Zinicshaman-Silvermoon", -- [1281]
+			"<18:49:56><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^ RAID Maxnoon-Silvermoon", -- [1282]
+			"<18:49:56><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Emblair-Silvermoon", -- [1283]
+			"<18:49:57><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Mìcha-Silvermoon", -- [1284]
+			"<18:49:58><Comm>	 ^1^Soffline_timer^T^t^^ RAID Scripé-Silvermoon", -- [1285]
+			"<18:49:58><DEBUG>	 GetButtons default", -- [1286]
+			"<18:49:59><DEBUG>	 LootFrame:Response 3 Response: Minor Upgrade", -- [1287]
+			"<18:49:59><DEBUG>	 SendResponse group 1 3 nil nil rolling for leech xD nil nil nil nil nil nil nil", -- [1288]
+			"<18:49:59><DEBUG>	 Trashing entry: 1 |cffa335ee|Hitem:183034::::::::60:257::6:4:7187:41:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r", -- [1289]
+			"<18:49:59><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Snote^Srolling~`for~`leech~`xD^Sresponse^N3^t^t^^ RAID Ririchíyo-Silvermoon", -- [1290]
+			"<18:50:05><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Snote^Sleech~`same~`cloak^Sresponse^N3^t^t^^ RAID Níksa-Silvermoon", -- [1291]
+			"<18:50:05><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Nikeah-Silvermoon", -- [1292]
+			"<18:50:11><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Scripé-Silvermoon", -- [1293]
+			"<18:50:43><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Snote^Supgrade~`but~`not~`BIS^Sresponse^N3^t^t^^ RAID Warxy-Silvermoon", -- [1294]
+			"<18:50:57><Comm>	 ^1^Sl^T^N1^S173641^t^^ RAID Nikeah-Silvermoon", -- [1295]
+			"<18:50:57><Comm>	 ^1^Sl^T^N1^S173641^t^^ RAID Nikeah-Silvermoon", -- [1296]
+			"<18:50:57><Comm>	 ^1^Sl^T^N1^S173641^t^^ RAID Mìcha-Silvermoon", -- [1297]
+			"<18:51:00><Comm>	 ^1^Sl^T^N1^S173641^t^^ RAID Yaganmage-Silvermoon", -- [1298]
+			"<18:51:01><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Emblair-Silvermoon", -- [1299]
+			"<18:51:01><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Emblair-Silvermoon", -- [1300]
+			"<18:51:13><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Gooselle-Silvermoon", -- [1301]
+			"<18:51:13><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Gooselle-Silvermoon", -- [1302]
+			"<18:51:13><Comm>	 ^1^Sl^T^N1^S173641^t^^ RAID Nikeah-Silvermoon", -- [1303]
+			"<18:51:13><Comm>	 ^1^Sl^T^N1^S173641^t^^ RAID Nikeah-Silvermoon", -- [1304]
+			"<18:51:23><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Krayyt-Silvermoon", -- [1305]
+			"<18:51:27><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Druidbeard-Silvermoon", -- [1306]
+			"<18:51:31><DEBUG>	 Event: LOOT_READY true", -- [1307]
+			"<18:51:31><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-174092-000037ECBB 36450", -- [1308]
+			"<18:51:31><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1309]
+			"<18:51:31><DEBUG>	 Event: LOOT_CLOSED", -- [1310]
+			"<18:51:31><DEBUG>	 Event: LOOT_CLOSED", -- [1311]
+			"<18:51:31><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Ririchíyo-Silvermoon", -- [1312]
+			"<18:51:31><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Ririchíyo-Silvermoon", -- [1313]
+			"<18:51:33><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Nikeah-Silvermoon", -- [1314]
+			"<18:51:33><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Nikeah-Silvermoon", -- [1315]
+			"<18:51:33><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Mìcha-Silvermoon", -- [1316]
+			"<18:51:33><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Zinicshaman-Silvermoon", -- [1317]
+			"<18:51:35><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Níksa-Silvermoon", -- [1318]
+			"<18:51:35><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Níksa-Silvermoon", -- [1319]
+			"<18:51:35><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Krayyt-Silvermoon", -- [1320]
+			"<18:51:35><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1321]
+			"<18:51:36><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1322]
+			"<18:51:36><INFO>	 OnMLDBReceived", -- [1323]
+			"<18:51:36><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1324]
+			"<18:51:36><DEBUG>	 isCouncil false", -- [1325]
+			"<18:51:37><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Tinkerbyte-Silvermoon", -- [1326]
+			"<18:51:37><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Tinkerbyte-Silvermoon", -- [1327]
+			"<18:51:43><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Peroping-Silvermoon", -- [1328]
+			"<18:51:43><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Peroping-Silvermoon", -- [1329]
+			"<18:51:48><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 184778 |cffa335ee|Hitem:184778::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r 1 Asuri WARLOCK", -- [1330]
+			"<18:51:48><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Asuri-Silvermoon", -- [1331]
+			"<18:51:48><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Asuri-Silvermoon", -- [1332]
+			"<18:52:01><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:184778::::::::60:267::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent~`Nathrian~`Shawl]|h|r^t^^ RAID Asuri-Silvermoon", -- [1333]
+			"<18:52:22><Comm>	 ^1^Shistory^T^N1^SMaxnoon-Silvermoon^N2^T^SmapID^N2296^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SPRIEST^SgroupSize^N20^Sboss^SShriekwing^Stime^S19:52:21^SitemReplaced1^S|cffa335ee|Hitem:183033:6204:::::::60:577::3:4:7189:6652:1472:6646::::|h[Mantle~`of~`Manifest~`Sins]|h|r^Sinstance^SCastle~`Nathria-Mythic^Sowner^SYaganmage-Silvermoon^Sresponse^SMainspec/Need^StypeCode^Sdefault^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:183034::::::::60:577::6:4:7187:41:1498:6646:1:28:753:::|h[Cowled~`Batwing~`Cloak]|h|r^Sid^S1614275541-3^Sdate^S25/02/21^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^ RAID Scripé-Silvermoon", -- [1334]
+			"<18:52:22><Comm>	 ^1^Sawarded^T^N1^N1^N2^SMaxnoon-Silvermoon^N3^SYaganmage-Silvermoon^t^^ RAID Scripé-Silvermoon", -- [1335]
+			"<18:52:23><Comm>	 ^1^Ssession_end^T^t^^ RAID Scripé-Silvermoon", -- [1336]
+			"<18:52:39><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1337]
+			"<18:52:39><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1338]
+			"<18:52:42><Comm>	 ^1^Sl^T^N1^S174069^t^^ RAID Nikeah-Silvermoon", -- [1339]
+			"<18:52:42><Comm>	 ^1^Sl^T^N1^S174069^t^^ RAID Nikeah-Silvermoon", -- [1340]
+			"<18:52:42><Comm>	 ^1^Strade_WrongWinner^T^N1^S|cffa335ee|Hitem:183034::::::::60:63::6:4:7187:41:1498:6646:1:28:753:::|h[Cowled~`Batwing~`Cloak]|h|r^N2^SDruidbeard-Silvermoon^N3^SYaganmage-Silvermoon^N4^SMaxnoon-Silvermoon^t^^ RAID Yaganmage-Silvermoon", -- [1341]
+			"<18:52:45><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1342]
+			"<18:52:45><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1343]
+			"<18:52:46><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Nikeah-Silvermoon", -- [1344]
+			"<18:52:46><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Nikeah-Silvermoon", -- [1345]
+			"<18:52:49><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1346]
+			"<18:52:49><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1347]
+			"<18:52:52><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1348]
+			"<18:52:52><Comm>	 ^1^Sl^T^N1^S174071^t^^ RAID Nikeah-Silvermoon", -- [1349]
+			"<18:52:54><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Peroping-Silvermoon", -- [1350]
+			"<18:52:54><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Peroping-Silvermoon", -- [1351]
+			"<18:52:55><Comm>	 ^1^Sl^T^N1^S174069^t^^ RAID Nikeah-Silvermoon", -- [1352]
+			"<18:52:55><Comm>	 ^1^Sl^T^N1^S174069^t^^ RAID Nikeah-Silvermoon", -- [1353]
+			"<18:53:06><Comm>	 ^1^Sl^T^N1^S174338^t^^ RAID Asuri-Silvermoon", -- [1354]
+			"<18:53:33><DEBUG>	 Event: ENCOUNTER_START 2418 Huntsman Altimor 16 20", -- [1355]
+			"<18:53:33><INFO>	 UpdatePlayersData()", -- [1356]
+			"<18:53:39><DEBUG>	 Event: ENCOUNTER_END 2418 Huntsman Altimor 16 20 0", -- [1357]
+			"<18:56:13><DEBUG>	 Event: ENCOUNTER_START 2418 Huntsman Altimor 16 20", -- [1358]
+			"<18:56:13><INFO>	 UpdatePlayersData()", -- [1359]
+			"<19:00:46><DEBUG>	 Event: ENCOUNTER_END 2418 Huntsman Altimor 16 20 1", -- [1360]
+			"<19:00:48><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Níksa-Silvermoon", -- [1361]
+			"<19:00:48><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Druidbeard-Silvermoon", -- [1362]
+			"<19:00:48><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Druidbeard-Silvermoon", -- [1363]
+			"<19:00:48><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Nikeah-Silvermoon", -- [1364]
+			"<19:00:48><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Nikeah-Silvermoon", -- [1365]
+			"<19:00:48><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Warxy-Silvermoon", -- [1366]
+			"<19:00:49><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Krayyt-Silvermoon", -- [1367]
+			"<19:00:49><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Krayyt-Silvermoon", -- [1368]
+			"<19:00:49><DEBUG>	 Event: LOOT_READY true", -- [1369]
+			"<19:00:49><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-165066-000037F252 747336", -- [1370]
+			"<19:00:49><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2418 184286 |cff0070dd|Hitem:184286::::::::60:257:::::::|h[Extinguished Soul Anima]|h|r 3 Ririchíyo PRIEST", -- [1371]
+			"<19:00:49><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1372]
+			"<19:00:49><DEBUG>	 Event: LOOT_CLOSED", -- [1373]
+			"<19:00:49><DEBUG>	 Event: LOOT_CLOSED", -- [1374]
+			"<19:00:49><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Ririchíyo-Silvermoon", -- [1375]
+			"<19:00:49><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Ririchíyo-Silvermoon", -- [1376]
+			"<19:00:49><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Yaganmage-Silvermoon", -- [1377]
+			"<19:00:49><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Yaganmage-Silvermoon", -- [1378]
+			"<19:00:50><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2418 183018 |cffa335ee|Hitem:183018::::::::60:257::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Hellhound Cuffs]|h|r 1 Gooselle PALADIN", -- [1379]
+			"<19:00:50><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Gooselle-Silvermoon", -- [1380]
+			"<19:00:50><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Gooselle-Silvermoon", -- [1381]
+			"<19:00:50><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Flashii-Silvermoon", -- [1382]
+			"<19:00:50><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Flashii-Silvermoon", -- [1383]
+			"<19:00:50><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Tinkerbyte-Silvermoon", -- [1384]
+			"<19:00:50><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Tinkerbyte-Silvermoon", -- [1385]
+			"<19:00:50><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2418 182995 |cffa335ee|Hitem:182995::::::::60:257::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Spell-Woven Tourniquet]|h|r 1 Peroping MONK", -- [1386]
+			"<19:00:51><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Peroping-Silvermoon", -- [1387]
+			"<19:00:51><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Peroping-Silvermoon", -- [1388]
+			"<19:00:51><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Dallán-Silvermoon", -- [1389]
+			"<19:00:51><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Dallán-Silvermoon", -- [1390]
+			"<19:00:51><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Scripé-Silvermoon", -- [1391]
+			"<19:00:51><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Scripé-Silvermoon", -- [1392]
+			"<19:00:53><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:183018::::::::60:65::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Hellhound~`Cuffs]|h|r^N2^S165066^t^^ RAID Gooselle-Silvermoon", -- [1393]
+			"<19:00:53><Comm>	 ^1^Shistory^T^N1^SGooselle-Silvermoon^N2^T^SmapID^N2296^Sowner^SGooselle-Silvermoon^Sid^S1614276053-4^Sinstance^SCastle~`Nathria-Mythic^Sclass^SPALADIN^Sdate^S25/02/21^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:183018::::::::60:65::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Hellhound~`Cuffs]|h|r^SdifficultyID^N16^Sboss^SHuntsman~`Altimor^SresponseID^SPL^Stime^S20:00:53^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1394]
+			"<19:00:54><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:182995::::::::60:269::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Spell-Woven~`Tourniquet]|h|r^N2^S165066^t^^ RAID Peroping-Silvermoon", -- [1395]
+			"<19:00:54><Comm>	 ^1^Shistory^T^N1^SPeroping-Silvermoon^N2^T^SmapID^N2296^Sowner^SPeroping-Silvermoon^Sid^S1614276053-5^Sinstance^SCastle~`Nathria-Mythic^Sclass^SMONK^Sdate^S25/02/21^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:182995::::::::60:269::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Spell-Woven~`Tourniquet]|h|r^SdifficultyID^N16^Sboss^SHuntsman~`Altimor^SresponseID^SPL^Stime^S20:00:53^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1396]
+			"<19:00:54><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2418 182605 |cffa335ee|Hitem:182605::::::::60:257::6:2:1553:7245:2:28:753:37:7:::|h[Tactical Retreat]|h|r 1 Mìcha HUNTER", -- [1397]
+			"<19:00:54><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Emblair-Silvermoon", -- [1398]
+			"<19:00:54><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Emblair-Silvermoon", -- [1399]
+			"<19:00:55><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Remiliah-Silvermoon", -- [1400]
+			"<19:00:55><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Remiliah-Silvermoon", -- [1401]
+			"<19:00:55><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Zárgothrax-Silvermoon", -- [1402]
+			"<19:00:55><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Zárgothrax-Silvermoon", -- [1403]
+			"<19:00:56><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Maxnoon-Silvermoon", -- [1404]
+			"<19:00:56><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Maxnoon-Silvermoon", -- [1405]
+			"<19:01:04><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2418 182988 |cffa335ee|Hitem:182988::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Master Huntsman's Bandolier]|h|r 1 Mìcha HUNTER", -- [1406]
+			"<19:01:04><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Mìcha-Silvermoon", -- [1407]
+			"<19:01:04><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Mìcha-Silvermoon", -- [1408]
+			"<19:01:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2418 182988 |cffa335ee|Hitem:182988::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Master Huntsman's Bandolier]|h|r 1 Zinicshaman SHAMAN", -- [1409]
+			"<19:01:11><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Zinicshaman-Silvermoon", -- [1410]
+			"<19:01:11><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Zinicshaman-Silvermoon", -- [1411]
+			"<19:01:13><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Asuri-Silvermoon", -- [1412]
+			"<19:01:13><Comm>	 ^1^Sl^T^N1^S165066^t^^ RAID Asuri-Silvermoon", -- [1413]
+			"<19:01:14><Comm>	 ^1^Sn_t^T^N1^S|cffa335ee|Hitem:182988::::::::60:264::6:4:7187:6652:1498:6646:1:28:753:::|h[Master~`Huntsman's~`Bandolier]|h|r^N2^S165066^t^^ RAID Zinicshaman-Silvermoon", -- [1414]
+			"<19:01:14><Comm>	 ^1^Shistory^T^N1^SZinicshaman-Silvermoon^N2^T^SmapID^N2296^Sowner^SZinicshaman-Silvermoon^Sid^S1614276074-6^Sinstance^SCastle~`Nathria-Mythic^Sclass^SSHAMAN^Sdate^S25/02/21^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:182988::::::::60:264::6:4:7187:6652:1498:6646:1:28:753:::|h[Master~`Huntsman's~`Bandolier]|h|r^SdifficultyID^N16^Sboss^SHuntsman~`Altimor^SresponseID^SPL^Stime^S20:01:14^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1415]
+			"<19:02:16><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:182988::::::::60:253::6:4:7187:6652:1498:6646:1:28:753:::|h[Master~`Huntsman's~`Bandolier]|h|r^t^^ RAID Mìcha-Silvermoon", -- [1416]
+			"<19:02:23><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Nikeah-Silvermoon", -- [1417]
+			"<19:02:23><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Nikeah-Silvermoon", -- [1418]
+			"<19:02:23><Comm>	 ^1^Sl^T^N1^S173798^t^^ RAID Scripé-Silvermoon", -- [1419]
+			"<19:02:23><Comm>	 ^1^Sl^T^N1^S173798^t^^ RAID Scripé-Silvermoon", -- [1420]
+			"<19:02:29><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Tinkerbyte-Silvermoon", -- [1421]
+			"<19:02:29><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Tinkerbyte-Silvermoon", -- [1422]
+			"<19:02:29><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Warxy-Silvermoon", -- [1423]
+			"<19:02:29><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Warxy-Silvermoon", -- [1424]
+			"<19:02:33><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Gooselle-Silvermoon", -- [1425]
+			"<19:02:33><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Gooselle-Silvermoon", -- [1426]
+			"<19:02:36><Comm>	 ^1^Sl^T^N1^S173798^t^^ RAID Peroping-Silvermoon", -- [1427]
+			"<19:02:36><Comm>	 ^1^Sl^T^N1^S173798^t^^ RAID Peroping-Silvermoon", -- [1428]
+			"<19:02:45><Comm>	 ^1^Sl^T^N1^S173798^t^^ RAID Mìcha-Silvermoon", -- [1429]
+			"<19:02:46><Comm>	 ^1^SlootTable^T^N1^T^N1^T^Sstring^S182988:::::::::::6:4:7187:6652:1498:6646:1:28:753^StypeCode^Sdefault^Sowner^SMìcha-Silvermoon^Sboss^SHuntsman~`Altimor^t^t^t^^ RAID Scripé-Silvermoon", -- [1430]
+			"<19:02:46><INFO>	 Autopassed on:  |cffa335ee|Hitem:182988::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Master Huntsman's Bandolier]|h|r", -- [1431]
+			"<19:02:46><INFO>	 GetPlayersGear |cffa335ee|Hitem:182988::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Master Huntsman's Bandolier]|h|r INVTYPE_CHEST", -- [1432]
+			"<19:02:46><INFO>	 LootFrame:Start 1 nil", -- [1433]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N63^N2^N215.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N16^t^Sgear1^T^N1^S180098:6230:::::::60:63::16:5:7214:6652:1501:5868:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Yaganmage-Silvermoon", -- [1434]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N269^N2^N216^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N3^t^Sgear1^T^N1^S178835:6230:::::::60:269::35:5:7212:6652:1501:5881:6646^t^Sgear2^T^t^t^t^^ RAID Peroping-Silvermoon", -- [1435]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N256^N2^N212.5^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N-9^t^Sgear1^T^N1^S173241:6217:::::::60:256::65:5:6980:6647:6649:6758:1532^t^Sgear2^T^t^t^t^^ RAID Maxnoon-Silvermoon", -- [1436]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N252^N2^N219.1875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N-9^t^Sgear1^T^N1^S171412:6230:::::::60:252::64:5:6952:6648:6649:6758:1532^t^Sgear2^T^t^t^t^^ RAID Remiliah-Silvermoon", -- [1437]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N65^N2^N220.125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S182987:6217:::::::60:65::5:4:7188:42:1485:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Gooselle-Silvermoon", -- [1438]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N250^N2^N223.5625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N-9^t^Sgear1^T^N1^S171412:6214:::::::60:250::63:5:6953:6650:6649:6758:1532^t^Sgear2^T^t^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1439]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N63^N2^N213.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N29^t^Sgear1^T^N1^S175576:6230:::::::60:63::11:3:7201:1514:6646:1:28:1707^t^Sgear2^T^t^t^t^^ RAID Flashii-Silvermoon", -- [1440]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N267^N2^N217.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N19^t^Sgear1^T^N1^S178813:6216:::::::60:267::16:5:7209:6652:1501:5865:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Asuri-Silvermoon", -- [1441]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N253^N2^N218.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183000:6230:::::::60:253::6:4:7187:6652:1498:6646^t^Sgear2^T^t^t^t^^ RAID Mìcha-Silvermoon", -- [1442]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N71^N2^N221.3125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S182987:6230:::::::60:71::5:4:7188:6652:1485:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Warxy-Silvermoon", -- [1443]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N258^N2^N219.1875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178813:6265:::::::60:258::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Krayyt-Silvermoon", -- [1444]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N581^N2^N217.5625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183009:6230:::::::60:581::6:4:7187:42:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Níksa-Silvermoon", -- [1445]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N102^N2^N221.625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N16^t^Sgear1^T^N1^S178744:6216:::::::60:102::16:5:7214:6652:1501:5868:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Druidbeard-Silvermoon", -- [1446]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N252^N2^N217.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N-9^t^Sgear1^T^N1^S171412:6230:::::::60:252::66:5:6952:6758:6648:6649:1532^t^Sgear2^T^t^t^t^^ RAID Nikeah-Silvermoon", -- [1447]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N264^N2^N218.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N26^t^Sgear1^T^N1^S179353:6217:::::::60:264::16:5:7208:6652:1501:5858:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Zinicshaman-Silvermoon", -- [1448]
+			"<19:02:46><Comm>	 ^1^Srolls^T^N1^N1^N2^T^SNíksa-Silvermoon^N98^SRemiliah-Silvermoon^N41^SDruidbeard-Silvermoon^N42^SMaxnoon-Silvermoon^N33^SYaganmage-Silvermoon^N70^SDallán-Silvermoon^N71^SZárgothrax-Silvermoon^N74^SScripé-Silvermoon^N83^SEmblair-Silvermoon^N66^SAsuri-Silvermoon^N3^SKrayyt-Silvermoon^N84^SWarxy-Silvermoon^N9^SMìcha-Silvermoon^N65^SNikeah-Silvermoon^N46^SRirichíyo-Silvermoon^N5^SFlashii-Silvermoon^N44^SGooselle-Silvermoon^N14^STinkerbyte-Silvermoon^N39^SZinicshaman-Silvermoon^N82^SPeroping-Silvermoon^N16^t^t^^ RAID Scripé-Silvermoon", -- [1449]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N260^N2^N222.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183009:6214:::::::60:260::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Dallán-Silvermoon", -- [1450]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N257^N2^N217.5625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S182986:6217:::::::60:257::5:4:7188:6652:1485:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Ririchíyo-Silvermoon", -- [1451]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N577^N2^N223.875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S183009:6230:::::::60:577::6:4:7187:6652:1498:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Scripé-Silvermoon", -- [1452]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N70^N2^N219.5625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S179346:6230:::::::60:70::35:5:7214:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Emblair-Silvermoon", -- [1453]
+			"<19:02:46><Comm>	 ^1^SlootAck^T^N1^N265^N2^N221.75^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S182986:6265:::::::60:265::5:4:7188:43:1485:6646:1:28:753^t^Sgear2^T^t^t^t^^ RAID Zárgothrax-Silvermoon", -- [1454]
+			"<19:02:51><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Zinicshaman-Silvermoon", -- [1455]
+			"<19:02:58><Comm>	 ^1^Soffline_timer^T^t^^ RAID Scripé-Silvermoon", -- [1456]
+			"<19:03:03><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Mìcha-Silvermoon", -- [1457]
+			"<19:03:14><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Nikeah-Silvermoon", -- [1458]
+			"<19:03:14><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Nikeah-Silvermoon", -- [1459]
+			"<19:03:15><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Warxy-Silvermoon", -- [1460]
+			"<19:03:15><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Warxy-Silvermoon", -- [1461]
+			"<19:03:16><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Maxnoon-Silvermoon", -- [1462]
+			"<19:03:16><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Maxnoon-Silvermoon", -- [1463]
+			"<19:03:17><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Flashii-Silvermoon", -- [1464]
+			"<19:03:17><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Flashii-Silvermoon", -- [1465]
+			"<19:03:20><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 172097 |cff0070dd|Hitem:172097::::::::60:257:::::::|h[Heavy Callous Hide]|h|r 1 Níksa DEMONHUNTER", -- [1466]
+			"<19:03:21><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Gooselle-Silvermoon", -- [1467]
+			"<19:03:21><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Gooselle-Silvermoon", -- [1468]
+			"<19:03:25><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Scripé-Silvermoon", -- [1469]
+			"<19:03:25><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Scripé-Silvermoon", -- [1470]
+			"<19:03:37><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Emblair-Silvermoon", -- [1471]
+			"<19:03:37><Comm>	 ^1^Sl^T^N1^S173800^t^^ RAID Emblair-Silvermoon", -- [1472]
+			"<19:04:13><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Zinicshaman-Silvermoon", -- [1473]
+			"<19:04:13><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Zinicshaman-Silvermoon", -- [1474]
+			"<19:04:14><Comm>	 ^1^Sl^T^N1^S173142^t^^ RAID Dallán-Silvermoon", -- [1475]
+			"<19:04:14><Comm>	 ^1^Sl^T^N1^S173142^t^^ RAID Dallán-Silvermoon", -- [1476]
+			"<19:04:14><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Flashii-Silvermoon", -- [1477]
+			"<19:04:14><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Flashii-Silvermoon", -- [1478]
+			"<19:04:14><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Tinkerbyte-Silvermoon", -- [1479]
+			"<19:04:14><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Tinkerbyte-Silvermoon", -- [1480]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Maxnoon-Silvermoon", -- [1481]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Maxnoon-Silvermoon", -- [1482]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173146^t^^ RAID Nikeah-Silvermoon", -- [1483]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173146^t^^ RAID Nikeah-Silvermoon", -- [1484]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173142^t^^ RAID Gooselle-Silvermoon", -- [1485]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173142^t^^ RAID Gooselle-Silvermoon", -- [1486]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173146^t^^ RAID Remiliah-Silvermoon", -- [1487]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173146^t^^ RAID Remiliah-Silvermoon", -- [1488]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Warxy-Silvermoon", -- [1489]
+			"<19:04:16><Comm>	 ^1^Sl^T^N1^S173145^t^^ RAID Warxy-Silvermoon", -- [1490]
+			"<19:04:18><Comm>	 ^1^Sl^T^N1^S173146^t^^ RAID Mìcha-Silvermoon", -- [1491]
+			"<19:04:31><Comm>	 ^1^Sl^T^N1^S173146^t^^ RAID Mìcha-Silvermoon", -- [1492]
+			"<19:04:49><Comm>	 ^1^Shistory^T^N1^SMìcha-Silvermoon^N2^T^SmapID^N2296^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Sclass^SHUNTER^SgroupSize^N20^Sboss^SHuntsman~`Altimor^Stime^S20:04:48^SitemReplaced1^S|cffa335ee|Hitem:183000:6230:::::::60:577::6:4:7187:6652:1498:6646::::|h[Consumptive~`Chainmail~`Carapace]|h|r^Sinstance^SCastle~`Nathria-Mythic^Sowner^SMìcha-Silvermoon^Sresponse^SPass^StypeCode^Sdefault^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:182988::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Master~`Huntsman's~`Bandolier]|h|r^Sid^S1614276288-7^Sdate^S25/02/21^SresponseID^SPASS^Svotes^N0^SisAwardReason^b^t^t^^ RAID Scripé-Silvermoon", -- [1493]
+			"<19:04:49><Comm>	 ^1^Sawarded^T^N1^N1^N2^SMìcha-Silvermoon^N3^SMìcha-Silvermoon^t^^ RAID Scripé-Silvermoon", -- [1494]
+			"<19:04:50><Comm>	 ^1^Ssession_end^T^t^^ RAID Scripé-Silvermoon", -- [1495]
+			"<19:07:57><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Krayyt-Silvermoon", -- [1496]
+			"<19:07:57><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Krayyt-Silvermoon", -- [1497]
+			"<19:07:57><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1498]
+			"<19:07:57><INFO>	 OnMLDBReceived", -- [1499]
+			"<19:07:57><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1500]
+			"<19:07:57><DEBUG>	 isCouncil false", -- [1501]
+			"<19:10:05><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1502]
+			"<19:10:05><INFO>	 UpdatePlayersData()", -- [1503]
+			"<19:10:15><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 0", -- [1504]
+			"<19:12:08><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1505]
+			"<19:12:08><INFO>	 UpdatePlayersData()", -- [1506]
+			"<19:15:38><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 0", -- [1507]
+			"<19:18:37><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1508]
+			"<19:18:37><INFO>	 UpdatePlayersData()", -- [1509]
+			"<19:24:44><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 0", -- [1510]
+			"<19:25:20><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Mìcha-Silvermoon", -- [1511]
+			"<19:25:34><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Mìcha-Silvermoon", -- [1512]
+			"<19:25:34><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Mìcha-Silvermoon", -- [1513]
+			"<19:25:35><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1514]
+			"<19:25:35><INFO>	 OnMLDBReceived", -- [1515]
+			"<19:25:35><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1516]
+			"<19:25:35><DEBUG>	 isCouncil false", -- [1517]
+			"<19:26:55><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1518]
+			"<19:26:55><INFO>	 UpdatePlayersData()", -- [1519]
+			"<19:30:49><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 0", -- [1520]
+			"<19:33:07><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1521]
+			"<19:33:07><INFO>	 UpdatePlayersData()", -- [1522]
+			"<19:38:06><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 0", -- [1523]
+			"<19:40:32><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Dallán-Silvermoon", -- [1524]
+			"<19:40:47><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Dallán-Silvermoon", -- [1525]
+			"<19:40:47><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Dallán-Silvermoon", -- [1526]
+			"<19:40:47><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1527]
+			"<19:40:47><INFO>	 OnMLDBReceived", -- [1528]
+			"<19:40:47><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1529]
+			"<19:40:47><DEBUG>	 isCouncil false", -- [1530]
+			"<19:41:32><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1531]
+			"<19:41:32><INFO>	 UpdatePlayersData()", -- [1532]
+			"<19:43:19><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 0", -- [1533]
+			"<19:44:46><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1534]
+			"<19:44:46><INFO>	 UpdatePlayersData()", -- [1535]
+			"<19:45:02><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 0", -- [1536]
+			"<19:47:47><DEBUG>	 Event: ENCOUNTER_START 2383 Hungering Destroyer 16 20", -- [1537]
+			"<19:47:47><INFO>	 UpdatePlayersData()", -- [1538]
+			"<19:54:22><DEBUG>	 Event: ENCOUNTER_END 2383 Hungering Destroyer 16 20 1", -- [1539]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Flashii-Silvermoon", -- [1540]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Flashii-Silvermoon", -- [1541]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Gooselle-Silvermoon", -- [1542]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Gooselle-Silvermoon", -- [1543]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Níksa-Silvermoon", -- [1544]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Níksa-Silvermoon", -- [1545]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Peroping-Silvermoon", -- [1546]
+			"<19:54:25><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Peroping-Silvermoon", -- [1547]
+			"<19:54:26><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Maxnoon-Silvermoon", -- [1548]
+			"<19:54:26><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Maxnoon-Silvermoon", -- [1549]
+			"<19:54:27><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Dallán-Silvermoon", -- [1550]
+			"<19:54:27><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Dallán-Silvermoon", -- [1551]
+			"<19:54:27><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2383 183891 |cffa335ee|Hitem:183891::::::::60:256::6:3:7187:1498:6646:1:28:753:::|h[Venerated Anima Spherule]|h|r 1 Krayyt PRIEST", -- [1552]
+			"<19:54:28><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Scripé-Silvermoon", -- [1553]
+			"<19:54:28><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Scripé-Silvermoon", -- [1554]
+			"<19:54:28><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Krayyt-Silvermoon", -- [1555]
+			"<19:54:28><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Krayyt-Silvermoon", -- [1556]
+			"<19:54:28><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Tinkerbyte-Silvermoon", -- [1557]
+			"<19:54:28><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Tinkerbyte-Silvermoon", -- [1558]
+			"<19:54:29><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Emblair-Silvermoon", -- [1559]
+			"<19:54:29><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Emblair-Silvermoon", -- [1560]
+			"<19:54:31><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2383 184023 |cffa335ee|Hitem:184023::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Gluttonous Spike]|h|r 1 Nikeah DEATHKNIGHT", -- [1561]
+			"<19:54:32><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Nikeah-Silvermoon", -- [1562]
+			"<19:54:32><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Nikeah-Silvermoon", -- [1563]
+			"<19:54:34><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2383 182994 |cffa335ee|Hitem:182994::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Epaulettes of Overwhelming Force]|h|r 1 Warxy WARRIOR", -- [1564]
+			"<19:54:35><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Warxy-Silvermoon", -- [1565]
+			"<19:54:35><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Warxy-Silvermoon", -- [1566]
+			"<19:54:36><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:183891::::::::60:258::6:3:7187:1498:6646:1:28:753:::|h[Venerated~`Anima~`Spherule]|h|r^t^^ RAID Krayyt-Silvermoon", -- [1567]
+			"<19:54:38><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Yaganmage-Silvermoon", -- [1568]
+			"<19:54:38><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Yaganmage-Silvermoon", -- [1569]
+			"<19:54:39><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:184023::::::::60:252::6:4:7187:6652:1498:6646:1:28:753:::|h[Gluttonous~`Spike]|h|r^t^^ RAID Nikeah-Silvermoon", -- [1570]
+			"<19:54:39><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Zárgothrax-Silvermoon", -- [1571]
+			"<19:54:39><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Zárgothrax-Silvermoon", -- [1572]
+			"<19:54:40><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Asuri-Silvermoon", -- [1573]
+			"<19:54:40><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Asuri-Silvermoon", -- [1574]
+			"<19:54:40><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Mìcha-Silvermoon", -- [1575]
+			"<19:54:40><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Mìcha-Silvermoon", -- [1576]
+			"<19:54:41><DEBUG>	 Event: LOOT_READY true", -- [1577]
+			"<19:54:41><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Vehicle-0-3896-2296-740-164261-000037FE5C 735591", -- [1578]
+			"<19:54:41><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r 4 1 Vehicle-0-3896-2296-740-164261-000037FE5C 1", -- [1579]
+			"<19:54:41><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r 4", -- [1580]
+			"<19:54:41><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2383 184286 |cff0070dd|Hitem:184286::::::::60:256:::::::|h[Extinguished Soul Anima]|h|r 3 Ririchíyo PRIEST", -- [1581]
+			"<19:54:41><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2383 184022 |cffa335ee|Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r 1 Ririchíyo PRIEST", -- [1582]
+			"<19:54:41><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1583]
+			"<19:54:41><DEBUG>	 Event: LOOT_CLOSED", -- [1584]
+			"<19:54:41><DEBUG>	 Event: LOOT_CLOSED", -- [1585]
+			"<19:54:41><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Ririchíyo-Silvermoon", -- [1586]
+			"<19:54:41><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Ririchíyo-Silvermoon", -- [1587]
+			"<19:54:43><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Zinicshaman-Silvermoon", -- [1588]
+			"<19:54:43><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Zinicshaman-Silvermoon", -- [1589]
+			"<19:54:43><DEBUG>	 Storage:New |cffa335ee|Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r temp", -- [1590]
+			"<19:54:43><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::||h[Consumptive Infusion]||h||r 5", -- [1591]
+			"<19:54:43><DEBUG>	 Found item at 4 24", -- [1592]
+			"<19:54:44><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::||h[Consumptive Infusion]||h||r 5", -- [1593]
+			"<19:54:44><DEBUG>	 Found item at 4 24", -- [1594]
+			"<19:54:44><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Remiliah-Silvermoon", -- [1595]
+			"<19:54:44><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Remiliah-Silvermoon", -- [1596]
+			"<19:54:44><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Druidbeard-Silvermoon", -- [1597]
+			"<19:54:44><Comm>	 ^1^Sl^T^N1^S164261^t^^ RAID Druidbeard-Silvermoon", -- [1598]
+			"<19:54:49><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive~`Infusion]|h|r^t^^ RAID Ririchíyo-Silvermoon", -- [1599]
+			"<19:55:10><Comm>	 ^1^SlootTable^T^N1^T^N1^T^Sstring^S184022:::::::::::6:4:7187:6652:1498:6646:1:28:753^StypeCode^Sdefault^Sowner^SRirichíyo-Silvermoon^Sboss^SHungering~`Destroyer^t^N2^T^Sstring^S184023:::::::::::6:4:7187:6652:1498:6646:1:28:753^StypeCode^Sdefault^Sowner^SNikeah-Silvermoon^Sboss^SHungering~`Destroyer^t^N3^T^Sstring^S183891:::::::::::6:3:7187:1498:6646:1:28:753^StypeCode^Sdefault^Sowner^SKrayyt-Silvermoon^Sboss^SHungering~`Destroyer^t^t^t^^ RAID Scripé-Silvermoon", -- [1600]
+			"<19:55:10><INFO>	 GetPlayersGear |cffa335ee|Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r INVTYPE_TRINKET", -- [1601]
+			"<19:55:10><INFO>	 GetPlayersGear |cffa335ee|Hitem:184023::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Gluttonous Spike]|h|r INVTYPE_TRINKET", -- [1602]
+			"<19:55:10><INFO>	 GetPlayersGear |cffa335ee|Hitem:183891::::::::60:256::6:3:7187:1498:6646:1:28:753:::|h[Venerated Anima Spherule]|h|r ", -- [1603]
+			"<19:55:10><INFO>	 LootFrame:Start 3 nil", -- [1604]
+			"<19:55:10><DEBUG>	 Restoring entry: default 1", -- [1605]
+			"<19:55:10><DEBUG>	 GetButtons default", -- [1606]
+			"<19:55:10><DEBUG>	 GetButtons default", -- [1607]
+			"<19:55:10><DEBUG>	 GetButtons default", -- [1608]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N256^N2^N212.5^N3^T^Sresponse^T^t^Sdiff^T^N1^N39^N2^N39^N3^N13^t^Sgear1^T^N1^S175884::::::::60:256::14:3:6780:1511:6646:1:28:783^N2^S175884::::::::60:256::14:3:6780:1511:6646:1:28:783^N3^S182417:6229:::::::60:256::5:4:7188:6652:1511:6646:1:28:1425^t^Sgear2^T^N1^S184839::::::::60:256::25:4:6652:1472:5884:6646:1:28:1707^N2^S184839::::::::60:256::25:4:6652:1472:5884:6646:1:28:1707^N3^S182400::::::::60:256::84:4:7188:6652:1518:6646:1:28:1425^t^t^t^^ RAID Maxnoon-Silvermoon", -- [1609]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N63^N2^N215.9375^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N29^N2^N29^N3^N26^t^Sgear1^T^N1^S184030::::::::60:63::84:4:7188:6652:1485:6646^N2^S184030::::::::60:63::84:4:7188:6652:1485:6646^N3^S178737:6229:::::::60:63::35:5:7212:6652:1501:5881:6646^t^Sgear2^T^N1^S175884::::::::60:63::14:3:6780:1511:6646:1:28:783^N2^S175884::::::::60:63::14:3:6780:1511:6646:1:28:783^N3^S179569::::::::60:63::14:3:7131:1472:6646:1:28:807^t^t^t^^ RAID Yaganmage-Silvermoon", -- [1610]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N63^N2^N213.9375^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N26^N2^N26^N3^N6^t^Sgear1^T^N1^S178769::::::::60:63::35:5:7209:6652:1501:5878:6646^N2^S178769::::::::60:63::35:5:7209:6652:1501:5878:6646^N3^S178789:6229:::::::60:63::35:5:7214:6652:1501:5884:6646^t^Sgear2^T^N1^S175921::::::::60:63::14:3:6628:1472:6646:1:28:807^N2^S175921::::::::60:63::14:3:6628:1472:6646:1:28:807^N3^S179566::::::::60:63::84:4:7188:6652:1518:6646:1:28:807^t^t^t^^ RAID Flashii-Silvermoon", -- [1611]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N70^N2^N219.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^N2^N13^N3^N6^t^Sgear1^T^N1^S184024::::::::60:70::5:4:7188:6652:1485:6646:1:28:752^N2^S184024::::::::60:70::5:4:7188:6652:1485:6646:1:28:752^N3^S178780:6228:::::::60:70::35:5:7210:6652:1501:5878:6646^t^Sgear2^T^N1^S179350::::::::60:70::35:5:7214:6652:1501:5884:6646^N2^S179350::::::::60:70::35:5:7214:6652:1501:5884:6646^t^t^t^^ RAID Emblair-Silvermoon", -- [1612]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N253^N2^N218.25^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N13^N2^N13^N3^N0^t^Sgear1^T^N1^S184025::::::::60:253::5:4:7188:6652:1485:6646:1:28:752^N2^S184025::::::::60:253::5:4:7188:6652:1485:6646:1:28:752^N3^S180073:6195:::::::60:253::6:4:7187:6652:1524:6646:1:28:807^t^Sgear2^T^N1^S184030::::::::60:253::84:3:7188:1485:6646^N2^S184030::::::::60:253::84:3:7188:1485:6646^t^t^t^^ RAID Mìcha-Silvermoon", -- [1613]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N265^N2^N221.75^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N13^N2^N13^N3^N0^t^Sgear1^T^N1^S175921::::::::60:265::14:3:6626:1485:6646:1:28:807^N2^S175921::::::::60:265::14:3:6626:1485:6646:1:28:807^N3^S179339:6228:::::::60:265::35:5:7214:6652:1501:5884:6646^t^Sgear2^T^N1^S180117::::::::60:265::35:5:7214:6652:1501:5884:6646^N2^S180117::::::::60:265::35:5:7214:6652:1501:5884:6646^t^t^t^^ RAID Zárgothrax-Silvermoon", -- [1614]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N65^N2^N220.9375^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^N2^N13^N3^N3^t^Sgear1^T^N1^S178708::::::::60:65::35:6:7214:6652:1501:5884:6646:6917^N2^S178708::::::::60:65::35:6:7214:6652:1501:5884:6646:6917^N3^S178856:6229:::::::60:65::35:5:7212:43:1501:5881:6646^t^Sgear2^T^N1^S184020::::::::60:65::5:4:7188:6652:1485:6646:1:28:753^N2^S184020::::::::60:65::5:4:7188:6652:1485:6646:1:28:753^N3^S178712::::::::60:65::35:5:7214:6652:1501:5884:6646^t^t^t^^ RAID Gooselle-Silvermoon", -- [1615]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N267^N2^N217.25^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N16^N2^N16^N3^N6^t^Sgear1^T^N1^S178708::::::::60:267::16:6:7214:6652:1501:5868:6646:6915:1:28:1279^N2^S178708::::::::60:267::16:6:7214:6652:1501:5868:6646:6915:1:28:1279^N3^S180002:6229:::::::60:267::84:4:7188:6652:1518:6646:1:28:807^t^Sgear2^T^N1^S180117::::::::60:267::35:5:7214:6652:1501:5884:6646^N2^S180117::::::::60:267::35:5:7214:6652:1501:5884:6646^t^t^t^^ RAID Asuri-Silvermoon", -- [1616]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N252^N2^N219.1875^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N6^N2^N6^N3^N6^t^Sgear1^T^N1^S179350::::::::60:252::35:5:7210:6652:1501:5878:6646^N2^S179350::::::::60:252::35:5:7210:6652:1501:5878:6646^N3^S182389:3368:::::::60:252::84:4:7188:6652:1518:6646:1:28:1425^t^Sgear2^T^N1^S178771::::::::60:252::35:5:7213:6652:1501:5884:6646^N2^S178771::::::::60:252::35:5:7213:6652:1501:5884:6646^t^t^t^^ RAID Remiliah-Silvermoon", -- [1617]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N269^N2^N216.8125^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N19^t^Sgear1^T^N1^S184016::::::::60:269::6:4:7187:6652:1498:6646:1:28:753^N2^S184016::::::::60:269::6:4:7187:6652:1498:6646:1:28:753^N3^S174299:6228:::::::60:269::14:3:7139:1479:6646:1:28:807^t^Sgear2^T^N1^S178771::::::::60:269::35:5:7214:6652:1501:5884:6646^N2^S178771::::::::60:269::35:5:7214:6652:1501:5884:6646^N3^S174299:6229:::::::60:269::14:3:7139:1479:6646:1:28:807^t^t^t^^ RAID Peroping-Silvermoon", -- [1618]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N260^N2^N222.25^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N16^t^Sgear1^T^N1^S178771::::::::60:260::35:5:7213:40:1501:5884:6646^N2^S178771::::::::60:260::35:5:7213:40:1501:5884:6646^N3^S178857:6228:::::::60:260::35:5:7210:6652:1501:5878:6646^t^Sgear2^T^N1^S184016::::::::60:260::6:4:7187:6652:1498:6646:1:28:753^N2^S184016::::::::60:260::6:4:7187:6652:1498:6646:1:28:753^N3^S178710:6229:::::::60:260::16:5:7214:6652:1501:5868:6646:1:28:1279^t^t^t^^ RAID Dallán-Silvermoon", -- [1619]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N256^N2^N219.9375^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N6^N3^N13^t^Sgear1^T^N1^S184022::::::::60:256::6:4:7187:41:1498:6646^N2^S184022::::::::60:256::6:4:7187:41:1498:6646^N3^S178973:6229:::::::60:256::5:4:7188:6652:1511:6646:1:28:807^t^Sgear2^T^N1^S184028::::::::60:256::84:4:7188:6652:1485:6646:1:28:752^N2^S184028::::::::60:256::84:4:7188:6652:1485:6646:1:28:752^t^t^t^^ RAID Ririchíyo-Silvermoon", -- [1620]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N250^N2^N223.5625^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N10^t^Sgear1^T^N1^S184023::::::::60:250::6:4:7187:6652:1498:6646:1:28:753^N2^S184023::::::::60:250::6:4:7187:6652:1498:6646:1:28:753^N3^S178866:6243:::::::60:250::35:5:7208:6652:1501:5874:6646^t^Sgear2^T^N1^S178751::::::::60:250::35:5:7213:6652:1501:5884:6646^N2^S178751::::::::60:250::35:5:7213:6652:1501:5884:6646^t^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1621]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N252^N2^N217.25^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N26^N2^N26^N3^N6^t^Sgear1^T^N1^S179350::::::::60:252::16:5:7208:41:1501:5858:6646:1:28:1279^N2^S179350::::::::60:252::16:5:7208:41:1501:5858:6646:1:28:1279^N3^S184263:3368:::::::60:252::84:4:7188:6652:1518:6646:1:28:2060^t^Sgear2^T^N1^S184027::::::::60:252::84:4:7188:6652:1485:6646:1:28:752^N2^S184027::::::::60:252::84:4:7188:6652:1485:6646:1:28:752^t^t^t^^ RAID Nikeah-Silvermoon", -- [1622]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N71^N2^N221.3125^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^t^Sgear1^T^N1^S178771::::::::60:71::35:5:7213:6652:1501:5884:6646^N2^S178771::::::::60:71::35:5:7213:6652:1501:5884:6646^N3^S178866:6228:::::::60:71::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^N1^S184016::::::::60:71::6:4:7187:6652:1498:6646:1:28:753^N2^S184016::::::::60:71::6:4:7187:6652:1498:6646:1:28:753^t^t^t^^ RAID Warxy-Silvermoon", -- [1623]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N581^N2^N217.5625^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N19^N2^N19^N3^N6^t^Sgear1^T^N1^S178771::::::::60:581::16:5:7213:6652:1501:5865:6646:1:28:1279^N2^S178771::::::::60:581::16:5:7213:6652:1501:5865:6646:1:28:1279^N3^S178857:6229:::::::60:581::35:5:7210:6652:1501:5878:6646^t^Sgear2^T^N1^S179331::::::::60:581::16:5:7212:42:1501:5865:6646:1:28:1279^N2^S179331::::::::60:581::16:5:7212:42:1501:5865:6646:1:28:1279^N3^S179328:6229:::::::60:581::35:5:7214:6652:1501:5884:6646^t^t^t^^ RAID Níksa-Silvermoon", -- [1624]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N258^N2^N219.1875^N3^T^Sresponse^T^t^Sdiff^T^N1^N19^N2^N19^N3^N6^t^Sgear1^T^N1^S178386::::::::60:258::39:4:6626:6652:1485:6646^N2^S178386::::::::60:258::39:4:6626:6652:1485:6646^N3^S178829:6229:::::::60:258::35:5:7210:6652:1501:5878:6646^t^Sgear2^T^N1^S178809::::::::60:258::16:5:7211:6652:1501:5865:6646:1:28:1279^N2^S178809::::::::60:258::16:5:7211:6652:1501:5865:6646:1:28:1279^t^t^t^^ RAID Krayyt-Silvermoon", -- [1625]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N264^N2^N220.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^N2^N6^N3^N0^t^Sgear1^T^N1^S184029::::::::60:264::84:4:7188:6652:1485:6646^N2^S184029::::::::60:264::84:4:7188:6652:1485:6646^N3^S179339:6229:::::::60:264::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^N1^S184028::::::::60:264::84:4:7188:6652:1485:6646^N2^S184028::::::::60:264::84:4:7188:6652:1485:6646^t^t^t^^ RAID Zinicshaman-Silvermoon", -- [1626]
+			"<19:55:10><Comm>	 ^1^Srolls^T^N1^N1^N2^T^SNíksa-Silvermoon^N21^SRemiliah-Silvermoon^N17^SDruidbeard-Silvermoon^N68^SMaxnoon-Silvermoon^N25^SYaganmage-Silvermoon^N67^SDallán-Silvermoon^N29^SZárgothrax-Silvermoon^N78^SScripé-Silvermoon^N59^SEmblair-Silvermoon^N63^SAsuri-Silvermoon^N76^SKrayyt-Silvermoon^N70^SWarxy-Silvermoon^N53^SMìcha-Silvermoon^N32^SNikeah-Silvermoon^N52^SRirichíyo-Silvermoon^N88^SFlashii-Silvermoon^N66^SGooselle-Silvermoon^N89^STinkerbyte-Silvermoon^N10^SZinicshaman-Silvermoon^N64^SPeroping-Silvermoon^N96^t^t^^ RAID Scripé-Silvermoon", -- [1627]
+			"<19:55:10><Comm>	 ^1^Srolls^T^N1^N2^N2^T^SNíksa-Silvermoon^N53^SRemiliah-Silvermoon^N26^SDruidbeard-Silvermoon^N71^SMaxnoon-Silvermoon^N22^SYaganmage-Silvermoon^N69^SDallán-Silvermoon^N30^SZárgothrax-Silvermoon^N31^SScripé-Silvermoon^N3^SEmblair-Silvermoon^N18^SAsuri-Silvermoon^N59^SKrayyt-Silvermoon^N49^SWarxy-Silvermoon^N99^SMìcha-Silvermoon^N80^SNikeah-Silvermoon^N10^SRirichíyo-Silvermoon^N78^SFlashii-Silvermoon^N11^SGooselle-Silvermoon^N44^STinkerbyte-Silvermoon^N76^SZinicshaman-Silvermoon^N13^SPeroping-Silvermoon^N39^t^t^^ RAID Scripé-Silvermoon", -- [1628]
+			"<19:55:10><Comm>	 ^1^Srolls^T^N1^N3^N2^T^SNíksa-Silvermoon^N68^SRemiliah-Silvermoon^N14^SDruidbeard-Silvermoon^N25^SMaxnoon-Silvermoon^N67^SYaganmage-Silvermoon^N45^SDallán-Silvermoon^N58^SZárgothrax-Silvermoon^N39^SScripé-Silvermoon^N85^SEmblair-Silvermoon^N32^SAsuri-Silvermoon^N92^SKrayyt-Silvermoon^N8^SWarxy-Silvermoon^N15^SMìcha-Silvermoon^N46^SNikeah-Silvermoon^N88^SRirichíyo-Silvermoon^N56^SFlashii-Silvermoon^N93^SGooselle-Silvermoon^N10^STinkerbyte-Silvermoon^N71^SZinicshaman-Silvermoon^N59^SPeroping-Silvermoon^N24^t^t^^ RAID Scripé-Silvermoon", -- [1629]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N577^N2^N222.6875^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N19^N2^N19^N3^N6^t^Sgear1^T^N1^S184026::::::::60:577::5:4:7188:6652:1485:6646^N2^S184026::::::::60:577::5:4:7188:6652:1485:6646^N3^S179328:6228:::::::60:577::35:5:7214:6652:1501:5884:6646^t^Sgear2^T^N1^S178771::::::::60:577::16:5:7213:6652:1501:5865:6646:1:28:1279^N2^S178771::::::::60:577::16:5:7213:6652:1501:5865:6646:1:28:1279^N3^S182407:6229:::::::60:577::14:3:7141:1492:6646:1:28:807^t^t^t^^ RAID Scripé-Silvermoon", -- [1630]
+			"<19:55:10><Comm>	 ^1^SlootAck^T^N1^N102^N2^N221.625^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N19^N2^N19^N3^N6^t^Sgear1^T^N1^S178708::::::::60:102::35:6:7214:6652:1501:5884:6646:6918^N2^S178708::::::::60:102::35:6:7214:6652:1501:5884:6646:6918^N3^S179339:6228:::::::60:102::35:5:7210:6652:1501:5878:6646^t^Sgear2^T^N1^S179350::::::::60:102::16:5:7211:6652:1501:5865:6646:1:28:1279^N2^S179350::::::::60:102::16:5:7211:6652:1501:5865:6646:1:28:1279^t^t^t^^ RAID Druidbeard-Silvermoon", -- [1631]
+			"<19:55:12><Comm>	 ^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^ RAID Krayyt-Silvermoon", -- [1632]
+			"<19:55:13><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Dallán-Silvermoon", -- [1633]
+			"<19:55:13><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Krayyt-Silvermoon", -- [1634]
+			"<19:55:13><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Peroping-Silvermoon", -- [1635]
+			"<19:55:14><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^ RAID Gooselle-Silvermoon", -- [1636]
+			"<19:55:14><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Krayyt-Silvermoon", -- [1637]
+			"<19:55:14><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Scripé-Silvermoon", -- [1638]
+			"<19:55:15><Comm>	 ^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^ RAID Gooselle-Silvermoon", -- [1639]
+			"<19:55:15><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Dallán-Silvermoon", -- [1640]
+			"<19:55:16><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Peroping-Silvermoon", -- [1641]
+			"<19:55:16><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Níksa-Silvermoon", -- [1642]
+			"<19:55:16><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Nikeah-Silvermoon", -- [1643]
+			"<19:55:16><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Níksa-Silvermoon", -- [1644]
+			"<19:55:18><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Gooselle-Silvermoon", -- [1645]
+			"<19:55:18><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Asuri-Silvermoon", -- [1646]
+			"<19:55:19><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Flashii-Silvermoon", -- [1647]
+			"<19:55:19><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Asuri-Silvermoon", -- [1648]
+			"<19:55:19><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Warxy-Silvermoon", -- [1649]
+			"<19:55:19><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Yaganmage-Silvermoon", -- [1650]
+			"<19:55:20><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Snote^Sm+^Sresponse^N3^t^t^^ RAID Nikeah-Silvermoon", -- [1651]
+			"<19:55:21><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Warxy-Silvermoon", -- [1652]
+			"<19:55:21><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Maxnoon-Silvermoon", -- [1653]
+			"<19:55:22><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Emblair-Silvermoon", -- [1654]
+			"<19:55:22><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Scripé-Silvermoon", -- [1655]
+			"<19:55:22><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^ RAID Maxnoon-Silvermoon", -- [1656]
+			"<19:55:22><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1657]
+			"<19:55:22><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Flashii-Silvermoon", -- [1658]
+			"<19:55:22><Comm>	 ^1^Soffline_timer^T^t^^ RAID Scripé-Silvermoon", -- [1659]
+			"<19:55:23><DEBUG>	 GetButtons default", -- [1660]
+			"<19:55:24><DEBUG>	 LootFrame:Response 1 Response: Mainspec/Need", -- [1661]
+			"<19:55:24><DEBUG>	 SendResponse group 3 1 nil nil 13ilvl nil nil nil nil nil nil nil", -- [1662]
+			"<19:55:24><DEBUG>	 Trashing entry: 3 |cffa335ee|Hitem:183891::::::::60:256::6:3:7187:1498:6646:1:28:753:::|h[Venerated Anima Spherule]|h|r", -- [1663]
+			"<19:55:24><Comm>	 ^1^Sresponse^T^N1^N3^N2^T^Snote^S13ilvl^Sresponse^N1^t^t^^ RAID Ririchíyo-Silvermoon", -- [1664]
+			"<19:55:24><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1665]
+			"<19:55:26><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Mìcha-Silvermoon", -- [1666]
+			"<19:55:26><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Remiliah-Silvermoon", -- [1667]
+			"<19:55:26><Comm>	 ^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^ RAID Maxnoon-Silvermoon", -- [1668]
+			"<19:55:26><DEBUG>	 LootFrame:Response PASS Response: Pass", -- [1669]
+			"<19:55:26><DEBUG>	 SendResponse group 2 PASS nil nil nil nil nil nil nil nil nil nil", -- [1670]
+			"<19:55:26><DEBUG>	 Trashing entry: 2 |cffa335ee|Hitem:184023::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Gluttonous Spike]|h|r", -- [1671]
+			"<19:55:26><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Ririchíyo-Silvermoon", -- [1672]
+			"<19:55:26><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Mìcha-Silvermoon", -- [1673]
+			"<19:55:27><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Yaganmage-Silvermoon", -- [1674]
+			"<19:55:27><DEBUG>	 LootFrame:Response PASS Response: Pass", -- [1675]
+			"<19:55:27><DEBUG>	 SendResponse group 1 PASS nil nil nil nil nil nil nil nil nil nil", -- [1676]
+			"<19:55:27><DEBUG>	 Trashing entry: 1 |cffa335ee|Hitem:184022::::::::60:256::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r", -- [1677]
+			"<19:55:28><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Ririchíyo-Silvermoon", -- [1678]
+			"<19:55:30><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Druidbeard-Silvermoon", -- [1679]
+			"<19:55:35><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Zárgothrax-Silvermoon", -- [1680]
+			"<19:55:36><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Zárgothrax-Silvermoon", -- [1681]
+			"<19:55:37><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Druidbeard-Silvermoon", -- [1682]
+			"<19:55:44><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N2^t^t^^ RAID Emblair-Silvermoon", -- [1683]
+			"<19:55:44><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Remiliah-Silvermoon", -- [1684]
+			"<19:55:45><Comm>	 ^1^Svote^T^N1^N3^N2^SRirichíyo-Silvermoon^N3^N1^t^^ RAID Níksa-Silvermoon", -- [1685]
+			"<19:55:47><Comm>	 ^1^Sresponse^T^N1^N3^N2^T^Sresponse^N3^t^t^^ RAID Zinicshaman-Silvermoon", -- [1686]
+			"<19:56:01><Comm>	 ^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^ RAID Zinicshaman-Silvermoon", -- [1687]
+			"<19:56:01><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Zinicshaman-Silvermoon", -- [1688]
+			"<19:56:07><Comm>	 ^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^ RAID Emblair-Silvermoon", -- [1689]
+			"<19:56:17><Comm>	 ^1^Shistory^T^N1^SNikeah-Silvermoon^N2^T^SmapID^N2296^Sdate^S25/02/21^Sclass^SDEATHKNIGHT^SgroupSize^N20^Sboss^SHungering~`Destroyer^Stime^S20:56:16^SitemReplaced1^S|cffa335ee|Hitem:179350::::::::60:577::16:5:7208:41:1501:5858:6646:1:28:1279:::|h[Inscrutable~`Quantum~`Device]|h|r^StypeCode^Sdefault^Sinstance^SCastle~`Nathria-Mythic^Sowner^SNikeah-Silvermoon^Sid^S1614279376-8^Sresponse^SMinor~`Upgrade^Snote^Sm+^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:184023::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Gluttonous~`Spike]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^SresponseID^N3^SitemReplaced2^S|cffa335ee|Hitem:184027::::::::60:577::84:4:7188:6652:1485:6646:1:28:752:::|h[Stone~`Legion~`Heraldry]|h|r^Svotes^N0^t^t^^ RAID Scripé-Silvermoon", -- [1690]
+			"<19:56:17><Comm>	 ^1^Sawarded^T^N1^N2^N2^SNikeah-Silvermoon^N3^SNikeah-Silvermoon^t^^ RAID Scripé-Silvermoon", -- [1691]
+			"<19:57:07><Comm>	 ^1^Shistory^T^N1^SRirichíyo-Silvermoon^N2^T^SmapID^N2296^Sdate^S25/02/21^Sclass^SPRIEST^SgroupSize^N20^Svotes^N1^Stime^S20:57:06^SitemReplaced1^S|cffa335ee|Hitem:178973:6229:::::::60:577::5:4:7188:6652:1511:6646:1:28:807:::|h[Symphonic~`Chimekeeper]|h|r^Sinstance^SCastle~`Nathria-Mythic^Sowner^SKrayyt-Silvermoon^StypeCode^Sdefault^Sresponse^SMainspec/Need^Sid^S1614279426-9^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:183891::::::::60:577::6:3:7187:1498:6646:1:28:753:::|h[Venerated~`Anima~`Spherule]|h|r^Snote^S13ilvl^SisAwardReason^b^SresponseID^N1^Sboss^SHungering~`Destroyer^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1692]
+			"<19:57:07><Comm>	 ^1^Sawarded^T^N1^N3^N2^SRirichíyo-Silvermoon^N3^SKrayyt-Silvermoon^t^^ RAID Scripé-Silvermoon", -- [1693]
+			"<19:57:21><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Zinicshaman-Silvermoon", -- [1694]
+			"<19:57:21><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Zinicshaman-Silvermoon", -- [1695]
+			"<19:57:27><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Yaganmage-Silvermoon", -- [1696]
+			"<19:57:27><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Yaganmage-Silvermoon", -- [1697]
+			"<19:57:33><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Asuri-Silvermoon", -- [1698]
+			"<19:57:33><Comm>	 ^1^Shistory^T^N1^SGooselle-Silvermoon^N2^T^SmapID^N2296^Sdate^S25/02/21^Sclass^SPALADIN^SgroupSize^N20^Sboss^SHungering~`Destroyer^Stime^S20:57:33^SitemReplaced1^S|cffa335ee|Hitem:178708::::::::60:577::35:6:7214:6652:1501:5884:6646:6917::::|h[Unbound~`Changeling]|h|r^StypeCode^Sdefault^Sinstance^SCastle~`Nathria-Mythic^Sowner^SRirichíyo-Silvermoon^Sid^S1614279453-10^Sresponse^SMainspec/Need^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:184022::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive~`Infusion]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SitemReplaced2^S|cffa335ee|Hitem:184020::::::::60:577::5:4:7188:6652:1485:6646:1:28:753:::|h[Tuft~`of~`Smoldering~`Plumage]|h|r^Svotes^N0^t^t^^ RAID Scripé-Silvermoon", -- [1699]
+			"<19:57:33><Comm>	 ^1^Sawarded^T^N1^N1^N2^SGooselle-Silvermoon^N3^SRirichíyo-Silvermoon^t^^ RAID Scripé-Silvermoon", -- [1700]
+			"<19:57:33><DEBUG>	 OnAwardReceived table: 00000196C74F14E0 1 Gooselle-Silvermoon Ririchíyo-Silvermoon", -- [1701]
+			"<19:57:33><DEBUG>	 Found item as temp", -- [1702]
+			"<19:57:33><DEBUG>	 TradeUI:Show() nil", -- [1703]
+			"<19:57:34><Comm>	 ^1^Ssession_end^T^t^^ RAID Scripé-Silvermoon", -- [1704]
+			"<19:57:34><DEBUG>	 TradeUI: Traded item(s) to Krayyt-Silvermoon", -- [1705]
+			"<19:57:34><Comm>	 ^1^Strade_WrongWinner^T^N1^S|cffa335ee|Hitem:183891::::::::60:258::6:3:7187:1498:6646:1:28:753:::|h[Venerated~`Anima~`Spherule]|h|r^N2^SScripé-Silvermoon^N3^SKrayyt-Silvermoon^N4^SRirichíyo-Silvermoon^t^^ RAID Krayyt-Silvermoon", -- [1706]
+			"<19:57:35><DEBUG>	 TradeUI:Hide()", -- [1707]
+			"<19:57:37><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:182994::::::::60:71::6:4:7187:6652:1498:6646:1:28:753:::|h[Epaulettes~`of~`Overwhelming~`Force]|h|r^t^^ RAID Warxy-Silvermoon", -- [1708]
+			"<19:57:43><Comm>	 ^1^Sl^T^N1^S174090^t^^ RAID Dallán-Silvermoon", -- [1709]
+			"<19:57:43><Comm>	 ^1^Sl^T^N1^S174090^t^^ RAID Dallán-Silvermoon", -- [1710]
+			"<19:57:43><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Peroping-Silvermoon", -- [1711]
+			"<19:57:43><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Peroping-Silvermoon", -- [1712]
+			"<19:57:44><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Flashii-Silvermoon", -- [1713]
+			"<19:57:44><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Flashii-Silvermoon", -- [1714]
+			"<19:57:52><DEBUG>	 Event: LOOT_READY true", -- [1715]
+			"<19:57:52><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-165472-000437ECBA 58172", -- [1716]
+			"<19:57:52><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1717]
+			"<19:57:52><DEBUG>	 Event: LOOT_CLOSED", -- [1718]
+			"<19:57:52><DEBUG>	 Event: LOOT_CLOSED", -- [1719]
+			"<19:57:52><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Ririchíyo-Silvermoon", -- [1720]
+			"<19:57:52><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Ririchíyo-Silvermoon", -- [1721]
+			"<19:58:33><DEBUG>	 TradeUI: Traded item(s) to Krayyt-Silvermoon", -- [1722]
+			"<19:58:33><DEBUG>	 WrongWinner Krayyt-Silvermoon Gooselle-Silvermoon", -- [1723]
+			"<19:58:33><DEBUG>	 Target: nil nil", -- [1724]
+			"<19:58:33><DEBUG>	 NPC: nil nil", -- [1725]
+			"<19:58:33><DEBUG>	 Storage:RemoveItem |cffa335ee|Hitem:184022::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r", -- [1726]
+			"<19:58:33><DEBUG>	 TradeUI:Hide()", -- [1727]
+			"<19:58:33><Comm>	 ^1^Strade_WrongWinner^T^N1^S|cffa335ee|Hitem:184022::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive~`Infusion]|h|r^N2^SKrayyt-Silvermoon^N3^SRirichíyo-Silvermoon^N4^SGooselle-Silvermoon^t^^ RAID Ririchíyo-Silvermoon", -- [1728]
+			"<19:58:36><DEBUG>	 Event: LOOT_READY true", -- [1729]
+			"<19:58:36><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-173189-0000B7ECBB 39484", -- [1730]
+			"<19:58:36><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:177756::::::::60:257::6:1:6909:1:28:753:::|h[Ember-Bleached Cloth Armbands]|h|r 0 1 Creature-0-3896-2296-740-173189-0000B7ECBB 1", -- [1731]
+			"<19:58:36><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:177756::::::::60:257::6:1:6909:1:28:753:::|h[Ember-Bleached Cloth Armbands]|h|r 0", -- [1732]
+			"<19:58:36><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1733]
+			"<19:58:36><DEBUG>	 Event: LOOT_CLOSED", -- [1734]
+			"<19:58:36><DEBUG>	 Event: LOOT_CLOSED", -- [1735]
+			"<19:58:37><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Ririchíyo-Silvermoon", -- [1736]
+			"<19:58:37><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Ririchíyo-Silvermoon", -- [1737]
+			"<19:58:41><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Nikeah-Silvermoon", -- [1738]
+			"<19:58:41><Comm>	 ^1^Sl^T^N1^S173949^t^^ RAID Nikeah-Silvermoon", -- [1739]
+			"<19:58:41><Comm>	 ^1^Sl^T^N1^S174090^t^^ RAID Zárgothrax-Silvermoon", -- [1740]
+			"<19:58:41><Comm>	 ^1^Sl^T^N1^S174090^t^^ RAID Zárgothrax-Silvermoon", -- [1741]
+			"<19:58:42><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Dallán-Silvermoon", -- [1742]
+			"<19:58:42><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Dallán-Silvermoon", -- [1743]
+			"<19:58:43><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Flashii-Silvermoon", -- [1744]
+			"<19:58:43><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Flashii-Silvermoon", -- [1745]
+			"<19:58:43><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Emblair-Silvermoon", -- [1746]
+			"<19:58:43><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Emblair-Silvermoon", -- [1747]
+			"<19:58:43><Comm>	 ^1^SlootTable^T^N1^T^N1^T^Sstring^S182994:::::::::::6:4:7187:6652:1498:6646:1:28:753^StypeCode^Sdefault^Sowner^SWarxy-Silvermoon^Sboss^SHungering~`Destroyer^t^t^t^^ RAID Scripé-Silvermoon", -- [1748]
+			"<19:58:43><INFO>	 Autopassed on:  |cffa335ee|Hitem:182994::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Epaulettes of Overwhelming Force]|h|r", -- [1749]
+			"<19:58:43><INFO>	 GetPlayersGear |cffa335ee|Hitem:182994::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Epaulettes of Overwhelming Force]|h|r INVTYPE_SHOULDER", -- [1750]
+			"<19:58:43><INFO>	 LootFrame:Start 1 nil", -- [1751]
+			"<19:58:43><Comm>	 ^1^SlootAck^T^N1^N70^N2^N219.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S182994::::::::60:70::5:4:7188:6652:1485:6646:1:28:752^t^Sgear2^T^t^t^t^^ RAID Emblair-Silvermoon", -- [1752]
+			"<19:58:43><Comm>	 ^1^SlootAck^T^N1^N253^N2^N218.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N16^t^Sgear1^T^N1^S172327::::::::60:253::63:5:7005:6649:6647:6717:1507^t^Sgear2^T^t^t^t^^ RAID Mìcha-Silvermoon", -- [1753]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N63^N2^N213.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N19^t^Sgear1^T^N1^S184787::::::::60:63:::3:43:1472:6646:1:28:2060^t^Sgear2^T^t^t^t^^ RAID Flashii-Silvermoon", -- [1754]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N65^N2^N220.9375^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178697::::::::60:65::35:5:7213:43:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Gooselle-Silvermoon", -- [1755]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N256^N2^N212.5^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S183020::::::::60:256::84:4:7188:6652:1485:6646:1:28:752^t^Sgear2^T^t^t^t^^ RAID Maxnoon-Silvermoon", -- [1756]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N260^N2^N222.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N-9^t^Sgear1^T^N1^S172319::::::::60:260::63:5:7121:6647:6650:6758:1532^t^Sgear2^T^t^t^t^^ RAID Dallán-Silvermoon", -- [1757]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N252^N2^N219.1875^N3^T^Sresponse^T^t^Sdiff^T^N1^N23^t^Sgear1^T^N1^S178820::::::::60:252::16:5:7210:6652:1501:5861:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Remiliah-Silvermoon", -- [1758]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N256^N2^N219.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178803::::::::60:256::35:5:7214:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Ririchíyo-Silvermoon", -- [1759]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N250^N2^N223.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178749::::::::60:250::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1760]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N581^N2^N217.5625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N29^t^Sgear1^T^N1^S178779::::::::60:581::16:5:7205:6652:1501:5855:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Níksa-Silvermoon", -- [1761]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N265^N2^N221.75^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N16^t^Sgear1^T^N1^S178859::::::::60:265::16:5:7214:6652:1501:5868:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Zárgothrax-Silvermoon", -- [1762]
+			"<19:58:44><Comm>	 ^1^Srolls^T^N1^N1^N2^T^SNíksa-Silvermoon^N39^SRemiliah-Silvermoon^N90^SDruidbeard-Silvermoon^N75^SMaxnoon-Silvermoon^N8^SYaganmage-Silvermoon^N66^SDallán-Silvermoon^N45^SZárgothrax-Silvermoon^N58^SScripé-Silvermoon^N27^SEmblair-Silvermoon^N35^SAsuri-Silvermoon^N72^SKrayyt-Silvermoon^N16^SWarxy-Silvermoon^N81^SMìcha-Silvermoon^N65^SNikeah-Silvermoon^N98^SRirichíyo-Silvermoon^N78^SFlashii-Silvermoon^N10^SGooselle-Silvermoon^N51^STinkerbyte-Silvermoon^N37^SZinicshaman-Silvermoon^N97^SPeroping-Silvermoon^N76^t^t^^ RAID Scripé-Silvermoon", -- [1763]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N577^N2^N222.6875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S175908::::::::60:577::14:3:6625:1492:6646:1:28:807^t^Sgear2^T^t^t^t^^ RAID Scripé-Silvermoon", -- [1764]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N258^N2^N219.1875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N19^t^Sgear1^T^N1^S175910::::::::60:258::14:3:6627:1479:6646:1:28:807^t^Sgear2^T^t^t^t^^ RAID Krayyt-Silvermoon", -- [1765]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N71^N2^N221.3125^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178749::::::::60:71::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Warxy-Silvermoon", -- [1766]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N252^N2^N217.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N23^t^Sgear1^T^N1^S178802::::::::60:252::16:5:7209:6652:1501:5861:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Nikeah-Silvermoon", -- [1767]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N269^N2^N216.8125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N16^t^Sgear1^T^N1^S178763::::::::60:269::16:5:7214:6652:1501:5868:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Peroping-Silvermoon", -- [1768]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N267^N2^N217.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178740::::::::60:267::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Asuri-Silvermoon", -- [1769]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N102^N2^N221.625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S175908::::::::60:102::14:3:6626:1485:6646:1:28:807^t^Sgear2^T^t^t^t^^ RAID Druidbeard-Silvermoon", -- [1770]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N63^N2^N215.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N16^t^Sgear1^T^N1^S178696::::::::60:63::16:5:7214:6652:1501:5868:6646:1:28:1279^t^Sgear2^T^t^t^t^^ RAID Yaganmage-Silvermoon", -- [1771]
+			"<19:58:44><Comm>	 ^1^SlootAck^T^N1^N264^N2^N220.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S178821::::::::60:264::35:5:7213:6652:1501:5884:6646^t^Sgear2^T^t^t^t^^ RAID Zinicshaman-Silvermoon", -- [1772]
+			"<19:58:44><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Mìcha-Silvermoon", -- [1773]
+			"<19:58:49><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Zinicshaman-Silvermoon", -- [1774]
+			"<19:58:50><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Warxy-Silvermoon", -- [1775]
+			"<19:58:52><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^ RAID Remiliah-Silvermoon", -- [1776]
+			"<19:58:55><Comm>	 ^1^Soffline_timer^T^t^^ RAID Scripé-Silvermoon", -- [1777]
+			"<19:58:56><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Snote^S+23~`ilvl~`but~`no~`mastery^Sresponse^N1^t^t^^ RAID Nikeah-Silvermoon", -- [1778]
+			"<19:58:56><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1779]
+			"<19:59:00><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Scripé-Silvermoon", -- [1780]
+			"<19:59:01><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^ RAID Gooselle-Silvermoon", -- [1781]
+			"<19:59:04><Comm>	 ^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^ RAID Emblair-Silvermoon", -- [1782]
+			"<19:59:19><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Warxy-Silvermoon", -- [1783]
+			"<19:59:19><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Warxy-Silvermoon", -- [1784]
+			"<19:59:25><Comm>	 ^1^Sl^T^N1^S173190^t^^ RAID Zinicshaman-Silvermoon", -- [1785]
+			"<19:59:25><Comm>	 ^1^Sl^T^N1^S173190^t^^ RAID Zinicshaman-Silvermoon", -- [1786]
+			"<19:59:26><Comm>	 ^1^Sl^T^N1^S174090^t^^ RAID Warxy-Silvermoon", -- [1787]
+			"<19:59:28><Comm>	 ^1^Svote^T^N1^N1^N2^SEmblair-Silvermoon^N3^N1^t^^ RAID Níksa-Silvermoon", -- [1788]
+			"<20:00:07><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Tinkerbyte-Silvermoon", -- [1789]
+			"<20:00:07><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Tinkerbyte-Silvermoon", -- [1790]
+			"<20:00:11><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Dallán-Silvermoon", -- [1791]
+			"<20:00:11><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Dallán-Silvermoon", -- [1792]
+			"<20:00:11><DEBUG>	 Event: LOOT_READY true", -- [1793]
+			"<20:00:11><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-165472-000637ECBA 60105", -- [1794]
+			"<20:00:11><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1795]
+			"<20:00:11><DEBUG>	 Event: LOOT_CLOSED", -- [1796]
+			"<20:00:11><DEBUG>	 Event: LOOT_CLOSED", -- [1797]
+			"<20:00:12><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Ririchíyo-Silvermoon", -- [1798]
+			"<20:00:12><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Ririchíyo-Silvermoon", -- [1799]
+			"<20:00:12><Comm>	 ^1^Sl^T^N1^S165479^t^^ RAID Warxy-Silvermoon", -- [1800]
+			"<20:00:12><Comm>	 ^1^Sl^T^N1^S165479^t^^ RAID Warxy-Silvermoon", -- [1801]
+			"<20:00:12><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Flashii-Silvermoon", -- [1802]
+			"<20:00:12><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Flashii-Silvermoon", -- [1803]
+			"<20:00:14><Comm>	 ^1^Shistory^T^N1^SEmblair-Silvermoon^N2^T^SmapID^N2296^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SPALADIN^SgroupSize^N20^Sboss^SHungering~`Destroyer^Stime^S21:00:13^SitemReplaced1^S|cffa335ee|Hitem:182994::::::::60:577::5:4:7188:6652:1485:6646:1:28:752:::|h[Epaulettes~`of~`Overwhelming~`Force]|h|r^Sinstance^SCastle~`Nathria-Mythic^Sowner^SWarxy-Silvermoon^Sresponse^SMainspec/Need^StypeCode^Sdefault^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:182994::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Epaulettes~`of~`Overwhelming~`Force]|h|r^Sid^S1614279613-11^Sdate^S25/02/21^SresponseID^N1^Svotes^N1^SisAwardReason^b^t^t^^ RAID Scripé-Silvermoon", -- [1804]
+			"<20:00:14><Comm>	 ^1^Sawarded^T^N1^N1^N2^SEmblair-Silvermoon^N3^SWarxy-Silvermoon^t^^ RAID Scripé-Silvermoon", -- [1805]
+			"<20:00:15><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Yaganmage-Silvermoon", -- [1806]
+			"<20:00:15><Comm>	 ^1^Ssession_end^T^t^^ RAID Scripé-Silvermoon", -- [1807]
+			"<20:00:16><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Mìcha-Silvermoon", -- [1808]
+			"<20:00:19><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Gooselle-Silvermoon", -- [1809]
+			"<20:00:19><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Gooselle-Silvermoon", -- [1810]
+			"<20:00:30><Comm>	 ^1^Strade_WrongWinner^T^N1^S|cffa335ee|Hitem:182994::::::::60:71::6:4:7187:6652:1498:6646:1:28:753:::|h[Epaulettes~`of~`Overwhelming~`Force]|h|r^N2^SDruidbeard-Silvermoon^N3^SWarxy-Silvermoon^N4^SEmblair-Silvermoon^t^^ RAID Warxy-Silvermoon", -- [1811]
+			"<20:00:44><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Asuri-Silvermoon", -- [1812]
+			"<20:00:44><Comm>	 ^1^Sl^T^N1^S174092^t^^ RAID Asuri-Silvermoon", -- [1813]
+			"<20:02:55><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Níksa-Silvermoon", -- [1814]
+			"<20:02:55><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Níksa-Silvermoon", -- [1815]
+			"<20:02:58><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Warxy-Silvermoon", -- [1816]
+			"<20:03:00><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Druidbeard-Silvermoon", -- [1817]
+			"<20:03:30><Comm>	 ^1^Sl^T^N1^S165483^t^^ RAID Asuri-Silvermoon", -- [1818]
+			"<20:03:30><Comm>	 ^1^Sl^T^N1^S165483^t^^ RAID Asuri-Silvermoon", -- [1819]
+			"<20:03:34><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Dallán-Silvermoon", -- [1820]
+			"<20:03:34><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Dallán-Silvermoon", -- [1821]
+			"<20:03:36><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Gooselle-Silvermoon", -- [1822]
+			"<20:03:36><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Gooselle-Silvermoon", -- [1823]
+			"<20:03:36><Comm>	 ^1^Sl^T^N1^S173190^t^^ RAID Níksa-Silvermoon", -- [1824]
+			"<20:03:36><Comm>	 ^1^Sl^T^N1^S173190^t^^ RAID Níksa-Silvermoon", -- [1825]
+			"<20:03:41><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Flashii-Silvermoon", -- [1826]
+			"<20:03:41><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Flashii-Silvermoon", -- [1827]
+			"<20:03:53><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Nikeah-Silvermoon", -- [1828]
+			"<20:03:53><Comm>	 ^1^Sl^T^N1^S165472^t^^ RAID Nikeah-Silvermoon", -- [1829]
+			"<20:04:21><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Warxy-Silvermoon", -- [1830]
+			"<20:04:21><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Warxy-Silvermoon", -- [1831]
+			"<20:04:22><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Dallán-Silvermoon", -- [1832]
+			"<20:04:22><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Dallán-Silvermoon", -- [1833]
+			"<20:04:48><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Peroping-Silvermoon", -- [1834]
+			"<20:04:48><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Peroping-Silvermoon", -- [1835]
+			"<20:04:48><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Warxy-Silvermoon", -- [1836]
+			"<20:04:48><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Warxy-Silvermoon", -- [1837]
+			"<20:04:49><Comm>	 ^1^Sl^T^N1^S165469^t^^ RAID Níksa-Silvermoon", -- [1838]
+			"<20:04:50><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Dallán-Silvermoon", -- [1839]
+			"<20:04:50><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Dallán-Silvermoon", -- [1840]
+			"<20:04:51><DEBUG>	 Event: LOOT_READY true", -- [1841]
+			"<20:04:51><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-173189-000237ECBA 64268", -- [1842]
+			"<20:04:51><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:177740::::::::60:257::6:1:6909:1:28:753:::|h[Dredged Chain Armguards]|h|r 0 1 Creature-0-3896-2296-740-173189-000237ECBA 1", -- [1843]
+			"<20:04:51><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:177740::::::::60:257::6:1:6909:1:28:753:::|h[Dredged Chain Armguards]|h|r 0", -- [1844]
+			"<20:04:51><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1845]
+			"<20:04:51><DEBUG>	 Event: LOOT_CLOSED", -- [1846]
+			"<20:04:51><DEBUG>	 Event: LOOT_CLOSED", -- [1847]
+			"<20:04:51><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Ririchíyo-Silvermoon", -- [1848]
+			"<20:04:51><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Ririchíyo-Silvermoon", -- [1849]
+			"<20:04:51><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Tinkerbyte-Silvermoon", -- [1850]
+			"<20:05:09><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Gooselle-Silvermoon", -- [1851]
+			"<20:05:09><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Gooselle-Silvermoon", -- [1852]
+			"<20:05:15><Comm>	 ^1^Sl^T^N1^S165474^t^^ RAID Yaganmage-Silvermoon", -- [1853]
+			"<20:06:37><Comm>	 ^1^Sl^T^N1^S165479^t^^ RAID Nikeah-Silvermoon", -- [1854]
+			"<20:06:37><Comm>	 ^1^Sl^T^N1^S165479^t^^ RAID Nikeah-Silvermoon", -- [1855]
+			"<20:06:40><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Tinkerbyte-Silvermoon", -- [1856]
+			"<20:06:40><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Tinkerbyte-Silvermoon", -- [1857]
+			"<20:06:41><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Dallán-Silvermoon", -- [1858]
+			"<20:06:41><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Dallán-Silvermoon", -- [1859]
+			"<20:06:42><Comm>	 ^1^Sl^T^N1^S165481^t^^ RAID Nikeah-Silvermoon", -- [1860]
+			"<20:06:42><Comm>	 ^1^Sl^T^N1^S165481^t^^ RAID Nikeah-Silvermoon", -- [1861]
+			"<20:06:42><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Gooselle-Silvermoon", -- [1862]
+			"<20:06:42><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Gooselle-Silvermoon", -- [1863]
+			"<20:06:42><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 183035 |cffa335ee|Hitem:183035::::::::60:257::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r 1 Peroping MONK", -- [1864]
+			"<20:06:42><Comm>	 ^1^Sl^T^N1^S165471^t^^ RAID Peroping-Silvermoon", -- [1865]
+			"<20:06:42><Comm>	 ^1^Sl^T^N1^S165471^t^^ RAID Peroping-Silvermoon", -- [1866]
+			"<20:06:43><DEBUG>	 Event: LOOT_READY true", -- [1867]
+			"<20:06:43><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3896-2296-740-165479-000337ECBA 63498 Creature-0-3896-2296-740-165470-0001B7ECBA 37307", -- [1868]
+			"<20:06:43><DEBUG>	 Adding to self.lootSlotInfo 3 |cff9d9d9d|Hitem:177743::::::::60:257::6:1:6909:1:28:753:::|h[Dredged Chain Breeches]|h|r 0 1 Creature-0-3896-2296-740-165470-0001B7ECBA 1", -- [1869]
+			"<20:06:43><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Emblair-Silvermoon", -- [1870]
+			"<20:06:43><Comm>	 ^1^Sl^T^N1^S173973^t^^ RAID Emblair-Silvermoon", -- [1871]
+			"<20:06:43><DEBUG>	 OnLootSlotCleared() 3 |cff9d9d9d|Hitem:177743::::::::60:257::6:1:6909:1:28:753:::|h[Dredged Chain Breeches]|h|r 0", -- [1872]
+			"<20:06:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1873]
+			"<20:06:43><DEBUG>	 Event: LOOT_CLOSED", -- [1874]
+			"<20:06:43><DEBUG>	 Event: LOOT_CLOSED", -- [1875]
+			"<20:06:43><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Ririchíyo-Silvermoon", -- [1876]
+			"<20:06:43><Comm>	 ^1^Sl^T^N1^S165470^t^^ RAID Ririchíyo-Silvermoon", -- [1877]
+			"<20:06:55><Comm>	 ^1^Sl^T^N1^S165481^t^^ RAID Krayyt-Silvermoon", -- [1878]
+			"<20:07:07><Comm>	 ^1^Sl^T^N1^S165481^t^^ RAID Zinicshaman-Silvermoon", -- [1879]
+			"<20:07:07><Comm>	 ^1^Sl^T^N1^S165481^t^^ RAID Zinicshaman-Silvermoon", -- [1880]
+			"<20:07:09><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 183017 |cffa335ee|Hitem:183017::::::::60:257::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Acolyte's Velvet Bindings]|h|r 1 Asuri WARLOCK", -- [1881]
+			"<20:07:09><Comm>	 ^1^Sl^T^N1^S165479^t^^ RAID Asuri-Silvermoon", -- [1882]
+			"<20:07:09><Comm>	 ^1^Sl^T^N1^S165479^t^^ RAID Asuri-Silvermoon", -- [1883]
+			"<20:07:10><Comm>	 ^1^Sr_t^T^N1^S|cffa335ee|Hitem:183035::::::::60:269::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent~`Sunstar~`Signet]|h|r^t^^ RAID Peroping-Silvermoon", -- [1884]
+			"<20:07:10><Comm>	 ^1^Shistory^T^N1^SPeroping-Silvermoon^N2^T^SmapID^N2296^Sowner^SPeroping-Silvermoon^Sid^S1614280030-12^Sinstance^SCastle~`Nathria-Mythic^Sclass^SMONK^Sdate^S25/02/21^Sresponse^SPersonal~`Loot~`-~`Rejected~`Trade^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:183035::::::::60:269::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent~`Sunstar~`Signet]|h|r^SdifficultyID^N16^Sboss^SHungering~`Destroyer^SresponseID^SPL_REJECT^Stime^S21:07:10^Scolor^T^N1^N0.2^N2^N0^N3^N0^N4^N1^t^t^t^^ RAID Scripé-Silvermoon", -- [1885]
+			"<20:07:21><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:183017::::::::60:267::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Acolyte's~`Velvet~`Bindings]|h|r^t^^ RAID Asuri-Silvermoon", -- [1886]
+			"<20:07:58><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Asuri-Silvermoon", -- [1887]
+			"<20:08:30><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Flashii-Silvermoon", -- [1888]
+			"<20:08:33><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Flashii-Silvermoon", -- [1889]
+			"<20:08:40><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Flashii-Silvermoon", -- [1890]
+			"<20:08:40><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Flashii-Silvermoon", -- [1891]
+			"<20:08:44><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Dallán-Silvermoon", -- [1892]
+			"<20:08:44><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Dallán-Silvermoon", -- [1893]
+			"<20:08:44><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Mìcha-Silvermoon", -- [1894]
+			"<20:08:44><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Mìcha-Silvermoon", -- [1895]
+			"<20:08:47><Comm>	 ^1^Sl^T^N1^S173604^t^^ RAID Druidbeard-Silvermoon", -- [1896]
+			"<20:08:47><Comm>	 ^1^Sl^T^N1^S173604^t^^ RAID Druidbeard-Silvermoon", -- [1897]
+			"<20:08:53><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Gooselle-Silvermoon", -- [1898]
+			"<20:08:53><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Gooselle-Silvermoon", -- [1899]
+			"<20:08:54><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Asuri-Silvermoon", -- [1900]
+			"<20:08:55><Comm>	 ^1^Sl^T^N1^S173609^t^^ RAID Peroping-Silvermoon", -- [1901]
+			"<20:08:55><Comm>	 ^1^Sl^T^N1^S173609^t^^ RAID Peroping-Silvermoon", -- [1902]
+			"<20:08:58><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Scripé-Silvermoon", -- [1903]
+			"<20:08:58><Comm>	 ^1^Sl^T^N1^S173633^t^^ RAID Scripé-Silvermoon", -- [1904]
+			"<20:09:11><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1905]
+			"<20:09:13><DEBUG>	 GetML()", -- [1906]
+			"<20:09:39><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Icefwry-Silvermoon", -- [1907]
+			"<20:09:39><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Icefwry-Silvermoon", -- [1908]
+			"<20:09:39><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1909]
+			"<20:09:39><INFO>	 OnMLDBReceived", -- [1910]
+			"<20:09:39><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1911]
+			"<20:09:39><DEBUG>	 isCouncil false", -- [1912]
+			"<20:19:11><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Maxnoon-Silvermoon", -- [1913]
+			"<20:19:25><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Maxnoon-Silvermoon", -- [1914]
+			"<20:19:25><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Maxnoon-Silvermoon", -- [1915]
+			"<20:19:26><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1916]
+			"<20:19:26><INFO>	 OnMLDBReceived", -- [1917]
+			"<20:19:26><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1918]
+			"<20:19:26><DEBUG>	 isCouncil false", -- [1919]
+			"<20:20:30><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Mythic) 470369 1 0", -- [1920]
+			"<20:20:31><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1921]
+			"<20:20:33><DEBUG>	 GetML()", -- [1922]
+			"<20:29:34><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Flashii-Silvermoon", -- [1923]
+			"<20:29:34><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Flashii-Silvermoon", -- [1924]
+			"<20:29:34><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1925]
+			"<20:29:34><INFO>	 OnMLDBReceived", -- [1926]
+			"<20:29:34><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1927]
+			"<20:29:34><DEBUG>	 isCouncil false", -- [1928]
+			"<20:34:19><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1929]
+			"<20:34:19><INFO>	 UpdatePlayersData()", -- [1930]
+			"<20:34:28><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1931]
+			"<20:42:18><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1932]
+			"<20:42:18><INFO>	 UpdatePlayersData()", -- [1933]
+			"<20:45:41><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1934]
+			"<20:49:47><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1935]
+			"<20:49:47><INFO>	 UpdatePlayersData()", -- [1936]
+			"<20:53:13><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1937]
+			"<20:55:09><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1938]
+			"<20:55:09><INFO>	 UpdatePlayersData()", -- [1939]
+			"<20:59:42><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1940]
+			"<21:05:17><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1941]
+			"<21:05:17><INFO>	 UpdatePlayersData()", -- [1942]
+			"<21:07:22><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1943]
+			"<21:08:51><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1944]
+			"<21:08:51><INFO>	 UpdatePlayersData()", -- [1945]
+			"<21:14:56><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1946]
+			"<21:17:28><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1947]
+			"<21:17:28><INFO>	 UpdatePlayersData()", -- [1948]
+			"<21:17:38><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1949]
+			"<21:18:22><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1950]
+			"<21:18:22><INFO>	 UpdatePlayersData()", -- [1951]
+			"<21:21:46><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1952]
+			"<21:22:43><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Icefwry-Silvermoon", -- [1953]
+			"<21:22:59><Comm>	 ^1^Sv^T^N1^S3.1.4^t^^ GUILD Icefwry-Silvermoon", -- [1954]
+			"<21:23:14><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^SMLdb_request^t^^ RAID Icefwry-Silvermoon", -- [1955]
+			"<21:23:14><Comm>	 ^1^Sxrealm^T^N1^SScripé-Silvermoon^N2^Scouncil_request^t^^ RAID Icefwry-Silvermoon", -- [1956]
+			"<21:23:14><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|9^B^S|5^N3^S|2^B^t^t^^ RAID Scripé-Silvermoon", -- [1957]
+			"<21:23:14><INFO>	 OnMLDBReceived", -- [1958]
+			"<21:23:14><Comm>	 ^1^Scouncil^T^N1^T^S3391-0B849A44^B^S3391-0AC86105^B^t^t^^ RAID Scripé-Silvermoon", -- [1959]
+			"<21:23:14><DEBUG>	 isCouncil false", -- [1960]
+			"<21:23:26><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1961]
+			"<21:23:26><INFO>	 UpdatePlayersData()", -- [1962]
+			"<21:23:36><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1963]
+			"<21:24:25><DEBUG>	 Event: ENCOUNTER_START 2405 Artificer Xy'mox 16 20", -- [1964]
+			"<21:24:25><INFO>	 UpdatePlayersData()", -- [1965]
+			"<21:28:48><DEBUG>	 Event: ENCOUNTER_END 2405 Artificer Xy'mox 16 20 0", -- [1966]
+			"<21:29:26><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1967]
+			"<21:29:29><DEBUG>	 GetML()", -- [1968]
+			"<21:30:57><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1969]
+			"<21:30:59><DEBUG>	 GetML()", -- [1970]
+			"<21:30:59><DEBUG>	 Resetting council as we have a new ML!", -- [1971]
+			"<21:30:59><INFO>	 MasterLooter =  Tinkerbyte-Silvermoon", -- [1972]
+			"<21:31:00><Comm>	 ^1^SplayerInfoRequest^T^t^^ RAID Tinkerbyte-Silvermoon", -- [1973]
+			"<21:31:00><DEBUG>	 I'm an enchanter", -- [1974]
+			"<21:31:00><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1975]
+			"<21:31:00><INFO>	 OnMLDBReceived", -- [1976]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SSunlight~`Trial^N6^N0^N7^N220.375^N8^N70^t^^ RAID Emblair-Silvermoon", -- [1977]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SSunlight~`Trial^N6^N0^N7^N214.75^N8^N63^t^^ RAID Flashii-Silvermoon", -- [1978]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SMembers^N6^N0^N7^N221.75^N8^N265^t^^ RAID Zárgothrax-Silvermoon", -- [1979]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^STANK^N4^SSunlight^N5^B^N6^N115^N7^N223.5625^N8^N250^t^^ RAID Tinkerbyte-Silvermoon", -- [1980]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^SHEALER^N4^SSunlight^N6^N0^N7^N221.75^N8^N65^t^^ RAID Gooselle-Silvermoon", -- [1981]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SSunlight~`Trial^N6^N0^N7^N217.8125^N8^N269^t^^ RAID Peroping-Silvermoon", -- [1982]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^SHEALER^N4^SSunlight^N5^B^N6^N115^N7^N219.1875^N8^N257^t^^ RAID Ririchíyo-Silvermoon", -- [1983]
+			"<21:31:00><Comm>	 ^1^Sxrealm^T^N1^STinkerbyte-Silvermoon^N2^SpI^N3^SDAMAGER^N4^SSunlight~`Trial^N6^N0^N7^N221.625^N8^N102^t^^ RAID Druidbeard-Silvermoon", -- [1984]
+			"<21:31:02><Comm>	 ^1^Scouncil^T^N1^T^S3391-0AE41CD3^B^t^t^^ RAID Tinkerbyte-Silvermoon", -- [1985]
+			"<21:31:02><DEBUG>	 isCouncil false", -- [1986]
+			"<21:31:14><DEBUG>	 Timer MLdb_check passed", -- [1987]
+			"<21:31:53><DEBUG>	 Event: GROUP_LEFT 1 Party-3391-1-0000546DA2B4", -- [1988]
+			"<21:31:53><DEBUG>	 GetML()", -- [1989]
+			"<21:34:40><INFO>	 Logged In", -- [1990]
+			"<21:34:40>[ML]<INFO>	 Init", -- [1991]
+			"<21:34:40><INFO>	 RCLootCouncil TradeUI enabled", -- [1992]
+			"<21:34:45><INFO>	 Kúsano-Silvermoon 3.1.4 nil", -- [1993]
+			"<21:34:45><DEBUG>	 ActivateSkin bfa", -- [1994]
+			"<21:34:49><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1995]
+			"<21:34:49><INFO>	 UpdatePlayersData()", -- [1996]
+			"<21:34:50><DEBUG>	 GetPlayersGuildRank()", -- [1997]
+			"<21:34:50><DEBUG>	 GetPlayersGuildRank()", -- [1998]
+			"<21:34:50><DEBUG>	 Found Guild Rank: Members", -- [1999]
+			"<21:34:53><DEBUG>	 GetML()", -- [2000]
 		},
 		["cache"] = {
 			["player"] = {
@@ -2230,7 +2231,7 @@ RCLootCouncilDB = {
 					["guid"] = "Player-3391-0BB2FD3A",
 					["realm"] = "",
 					["class"] = "DRUID",
-					["cache_time"] = 1614190952,
+					["cache_time"] = 1614288885,
 					["rank"] = "Members",
 				},
 				["Player-1097-0A2DF0B4"] = {
@@ -2261,7 +2262,7 @@ RCLootCouncilDB = {
 					["role"] = "DAMAGER",
 					["name"] = "Scripé-Silvermoon",
 					["rank"] = "Sunlight Trial",
-					["cache_time"] = 1614115989,
+					["cache_time"] = 1614288569,
 					["enchantingLvl"] = 0,
 					["realm"] = "",
 				},
@@ -2276,7 +2277,7 @@ RCLootCouncilDB = {
 					["name"] = "Tinkerbyte-Silvermoon",
 					["guid"] = "Player-3391-0AE41CD3",
 					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1610050674,
+					["cache_time"] = 1614288662,
 					["realm"] = "",
 				},
 				["Player-3391-0B3793E3"] = {
@@ -2389,7 +2390,7 @@ RCLootCouncilDB = {
 					["class"] = "PRIEST",
 					["realm"] = "",
 					["role"] = "HEALER",
-					["cache_time"] = 1614247270,
+					["cache_time"] = 1614278067,
 					["name"] = "Ririchíyo-Silvermoon",
 					["specID"] = 257,
 					["enchanter"] = true,
@@ -2616,7 +2617,7 @@ RCLootCouncilDB = {
 					["name"] = "Níksa-Silvermoon",
 					["guid"] = "Player-3391-0AC86105",
 					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1614110816,
+					["cache_time"] = 1614288194,
 					["realm"] = "",
 				},
 				["Player-509-07AAD8BF"] = {
@@ -2723,6 +2724,11 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1613936491, -- [3]
 			},
+			["Krayyt-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1614279083, -- [3]
+			},
 			["Níina-Silvermoon"] = {
 				"3.1.4", -- [1]
 				nil, -- [2]
@@ -2763,15 +2769,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1613921882, -- [3]
 			},
-			["êerie-Silvermoon"] = {
-				"3.1.4", -- [1]
-				nil, -- [2]
-				1613642683, -- [3]
-			},
 			["Dallán-Silvermoon"] = {
 				"3.1.4", -- [1]
 				nil, -- [2]
-				1614192783, -- [3]
+				1614282032, -- [3]
 			},
 			["Firesnek-Silvermoon"] = {
 				"3.1.4", -- [1]
@@ -2801,17 +2802,22 @@ RCLootCouncilDB = {
 			["Icefwry-Silvermoon"] = {
 				"3.1.4", -- [1]
 				nil, -- [2]
-				1614105543, -- [3]
-			},
-			["Mìcha-Silvermoon"] = {
-				"3.1.4", -- [1]
-				nil, -- [2]
-				1613851666, -- [3]
+				1614288179, -- [3]
 			},
 			["Nestradh-Silvermoon"] = {
 				"3.1.4", -- [1]
 				nil, -- [2]
 				1614244878, -- [3]
+			},
+			["Mìcha-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1614281120, -- [3]
+			},
+			["Maxnoon-Silvermoon"] = {
+				"3.1.4", -- [1]
+				nil, -- [2]
+				1614284351, -- [3]
 			},
 			["Asuri-Silvermoon"] = {
 				"3.1.4", -- [1]
@@ -2822,16 +2828,6 @@ RCLootCouncilDB = {
 				"3.1.4", -- [1]
 				nil, -- [2]
 				1614119196, -- [3]
-			},
-			["Flashii-Silvermoon"] = {
-				"3.1.4", -- [1]
-				nil, -- [2]
-				1613673415, -- [3]
-			},
-			["Warxy-Silvermoon"] = {
-				"3.1.4", -- [1]
-				nil, -- [2]
-				1613673418, -- [3]
 			},
 			["Flashiihunt-Silvermoon"] = {
 				"3.1.4", -- [1]
@@ -2850,60 +2846,132 @@ RCLootCouncilDB = {
 			},
 		},
 		["regionID"] = 3,
+		["errors"] = {
+		},
 		["oldVersion"] = "3.1.3",
 		["version"] = "3.1.4",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["disenchant"] = true,
+			["itemStorage"] = {
+			},
+			["announceAward"] = true,
+			["autoClose"] = false,
+			["printCompletedTrades"] = true,
+			["sortItems"] = true,
+			["modules"] = {
+			},
+			["sendHistory"] = true,
+			["anonymousVoting"] = false,
+			["autoAward"] = false,
+			["printResponse"] = false,
+			["autoAwardBoEReason"] = 2,
+			["autoAwardLowerThreshold"] = 2,
+			["usage"] = {
+				["ask_pl"] = true,
+				["never"] = false,
+				["pl"] = false,
+				["state"] = "ask_pl",
+			},
+			["maxButtons"] = 10,
+			["onlyUseInRaids"] = true,
+			["showForML"] = false,
+			["enableHistory"] = true,
+			["numAwardReasons"] = 3,
+			["chatFrameName"] = "DEFAULT_CHAT_FRAME",
+			["skipCombatLockdown"] = false,
+			["sendHistoryToGuildChannel"] = false,
+			["autolootBoE"] = true,
+			["selfVote"] = true,
+			["observe"] = false,
+			["hideVotes"] = false,
+			["baggedItems"] = {
+			},
+			["autoLoot"] = true,
+			["autoPassBoE"] = true,
+			["minRank"] = -1,
+			["autoOpen"] = true,
+			["rejectTrade"] = false,
+			["maxAwardReasons"] = 10,
+			["awardText"] = {
+				{
+					["channel"] = "group",
+					["text"] = "&p was awarded with &i for &r!",
+				}, -- [1]
+				{
+					["channel"] = "NONE",
+					["text"] = "",
+				}, -- [2]
+			},
+			["autoAwardUpperThreshold"] = 3,
+			["currentSkin"] = "bfa",
+			["autoStart"] = false,
 			["UI"] = {
 				["tradeui"] = {
 					["bgColor"] = {
 						0.55, -- [1]
 						0.84, -- [2]
 						1, -- [3]
+						1, -- [4]
 					},
+					["x"] = -300,
+					["point"] = "CENTER",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
+					["scale"] = 1.1,
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
+					["y"] = 0,
 				},
 				["lootframe"] = {
 					["bgColor"] = {
 						0.55, -- [1]
 						0.84, -- [2]
 						1, -- [3]
+						1, -- [4]
 					},
+					["x"] = 0,
+					["point"] = "CENTER",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
+					["scale"] = 1.1,
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
+					["y"] = -200,
 				},
 				["default"] = {
 					["bgColor"] = {
 						0.55, -- [1]
 						0.84, -- [2]
 						1, -- [3]
+						1, -- [4]
 					},
+					["x"] = 0,
+					["point"] = "CENTER",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
+					["scale"] = 1.1,
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
+					["y"] = 0,
 				},
 				["DefaultRCLootFrame"] = {
 					["y"] = 37.99992097507493,
 					["x"] = 104.9998277707491,
+					["point"] = "CENTER",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
@@ -2917,6 +2985,7 @@ RCLootCouncilDB = {
 						0.55, -- [1]
 						0.84, -- [2]
 						1, -- [3]
+						1, -- [4]
 					},
 				},
 				["DefaultRCLootCouncilFrame"] = {
@@ -2924,22 +2993,304 @@ RCLootCouncilDB = {
 						0.55, -- [1]
 						0.84, -- [2]
 						1, -- [3]
+						1, -- [4]
 					},
+					["x"] = 0,
+					["point"] = "CENTER",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
+					["scale"] = 1.1,
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
+					["y"] = 0,
 				},
 				["RCDefaultTradeUIFrame"] = {
 					["bgColor"] = {
 						0.55, -- [1]
 						0.84, -- [2]
 						1, -- [3]
+						1, -- [4]
 					},
+					["x"] = 0,
+					["point"] = "CENTER",
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["scale"] = 1.1,
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+					["y"] = 0,
+				},
+			},
+			["awardReasons"] = {
+				{
+					["disenchant"] = true,
+					["log"] = true,
+					["sort"] = 401,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Disenchant",
+				}, -- [1]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 402,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Banking",
+				}, -- [2]
+				{
+					["disenchant"] = false,
+					["log"] = false,
+					["sort"] = 403,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Free",
+				}, -- [3]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 404,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Reason 4",
+				}, -- [4]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 405,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Reason 5",
+				}, -- [5]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 406,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Reason 6",
+				}, -- [6]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 407,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Reason 7",
+				}, -- [7]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 408,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Reason 8",
+				}, -- [8]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 409,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Reason 9",
+				}, -- [9]
+				{
+					["disenchant"] = false,
+					["log"] = true,
+					["sort"] = 410,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text"] = "Reason 10",
+				}, -- [10]
+			},
+			["autoAwardTo"] = {
+			},
+			["announceChannel"] = "group",
+			["ignoredItems"] = {
+				[143656] = true,
+				[141304] = true,
+				[124441] = true,
+				[152906] = true,
+				[152910] = true,
+				[109693] = true,
+				[111245] = true,
+				[143657] = true,
+				[141305] = true,
+				[152907] = true,
+				[115502] = true,
+				[115504] = true,
+				[151249] = true,
+				[113588] = true,
+				[124442] = true,
+				[152908] = true,
+				[132204] = true,
+				[151250] = true,
+				[141303] = true,
+				[143658] = true,
+				[151248] = true,
+				[152909] = true,
+				[162461] = true,
+				[155831] = true,
+				[152902] = true,
+			},
+			["autoAwardBoETo"] = {
+			},
+			["showSpecIcon"] = false,
+			["autoPassTrinket"] = true,
+			["numMoreInfoButtons"] = 1,
+			["council"] = {
+			},
+			["autoAddRolls"] = false,
+			["silentAutoPass"] = false,
+			["minimizeInCombat"] = false,
+			["iLvlDecimal"] = false,
+			["autoAwardReason"] = 1,
+			["autoTrade"] = false,
+			["awardLater"] = false,
+			["acceptWhispers"] = true,
+			["timeout"] = 60,
+			["buttons"] = {
+				["default"] = {
+					{
+						["text"] = "Need",
+						["whisperKey"] = "need, mainspec, ms, 1",
+					}, -- [1]
+					{
+						["text"] = "Greed",
+						["whisperKey"] = "greed, offspec, os, 2",
+					}, -- [2]
+					{
+						["text"] = "Minor Upgrade",
+						["whisperKey"] = "minorupgrade, minor, 3",
+					}, -- [3]
+					{
+						["text"] = "Button 4",
+						["whisperKey"] = "4",
+					}, -- [4]
+					{
+						["text"] = "Button 5",
+						["whisperKey"] = "5",
+					}, -- [5]
+					{
+						["text"] = "Button 6",
+						["whisperKey"] = "6",
+					}, -- [6]
+					{
+						["text"] = "Button 7",
+						["whisperKey"] = "7",
+					}, -- [7]
+					{
+						["text"] = "Button 8",
+						["whisperKey"] = "8",
+					}, -- [8]
+					{
+						["text"] = "Button 9",
+						["whisperKey"] = "9",
+					}, -- [9]
+					{
+						["text"] = "Button 10",
+						["whisperKey"] = "10",
+					}, -- [10]
+					["numButtons"] = 3,
+				},
+			},
+			["announceItems"] = false,
+			["requireNotes"] = false,
+			["autoPass"] = true,
+			["autoAwardBoE"] = false,
+			["outOfRaid"] = false,
+			["multiVote"] = true,
+			["skins"] = {
+				["legion"] = {
+					["bgColor"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["name"] = "Legion Green",
+					["borderColor"] = {
+						0, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						0.75, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 2",
+					["border"] = "Blizzard Dialog Gold",
+				},
+				["new_blue"] = {
+					["bgColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0.2, -- [3]
+						1, -- [4]
+					},
+					["name"] = "Midnight blue",
+					["borderColor"] = {
+						0.3, -- [1]
+						0.3, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["background"] = "Blizzard Tooltip",
+					["border"] = "Blizzard Tooltip",
+				},
+				["bfa"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["name"] = "Battle for Azeroth",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
@@ -2949,7 +3300,300 @@ RCLootCouncilDB = {
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
 				},
+				["old_red"] = {
+					["bgColor"] = {
+						0.5, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["name"] = "Old golden red",
+					["borderColor"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["background"] = "Blizzard Dialog Background Gold",
+					["border"] = "Blizzard Tooltip",
+				},
+				["minimalGrey"] = {
+					["bgColor"] = {
+						0.25, -- [1]
+						0.25, -- [2]
+						0.25, -- [3]
+						1, -- [4]
+					},
+					["name"] = "Minimal Grey",
+					["borderColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						0.2, -- [4]
+					},
+					["background"] = "Blizzard Tooltip",
+					["border"] = "Blizzard Tooltip",
+				},
 			},
+			["announceText"] = "Items under consideration:",
+			["ambiguate"] = false,
+			["responses"] = {
+				["default"] = {
+					{
+						["color"] = {
+							0, -- [1]
+							1, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Mainspec/Need",
+						["sort"] = 1,
+					}, -- [1]
+					{
+						["color"] = {
+							1, -- [1]
+							0.5, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Offspec/Greed",
+						["sort"] = 2,
+					}, -- [2]
+					{
+						["color"] = {
+							0, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Minor Upgrade",
+						["sort"] = 3,
+					}, -- [3]
+					{
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Button4",
+						["sort"] = 4,
+					}, -- [4]
+					{
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Button5",
+						["sort"] = 5,
+					}, -- [5]
+					{
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Button6",
+						["sort"] = 6,
+					}, -- [6]
+					{
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Button7",
+						["sort"] = 7,
+					}, -- [7]
+					{
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Button8",
+						["sort"] = 8,
+					}, -- [8]
+					{
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Button9",
+						["sort"] = 9,
+					}, -- [9]
+					{
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Button10",
+						["sort"] = 10,
+					}, -- [10]
+					["NOTINRAID"] = {
+						["color"] = {
+							0.7, -- [1]
+							0.6, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Candidate is not in the instance",
+						["sort"] = 803,
+					},
+					["TIMEOUT"] = {
+						["color"] = {
+							1, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Candidate didn't respond on time",
+						["sort"] = 504,
+					},
+					["AWARDED"] = {
+						["color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Awarded",
+						["sort"] = 0.1,
+					},
+					["REMOVED"] = {
+						["color"] = {
+							0.8, -- [1]
+							0.5, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Candidate removed",
+						["sort"] = 505,
+					},
+					["WAIT"] = {
+						["color"] = {
+							1, -- [1]
+							1, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Candidate is selecting response, please wait",
+						["sort"] = 503,
+					},
+					["AUTOPASS"] = {
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Autopass",
+						["sort"] = 801,
+					},
+					["ANNOUNCED"] = {
+						["color"] = {
+							1, -- [1]
+							0, -- [2]
+							1, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Loot announced, waiting for answer",
+						["sort"] = 502,
+					},
+					["PL"] = {
+						["color"] = {
+							1, -- [1]
+							0.6, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Personal Loot - Non tradeable",
+						["sort"] = 498,
+					},
+					["PASS"] = {
+						["color"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Pass",
+						["sort"] = 800,
+					},
+					["NOTANNOUNCED"] = {
+						["color"] = {
+							1, -- [1]
+							0, -- [2]
+							1, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Not announced",
+						["sort"] = 501,
+					},
+					["BONUSROLL"] = {
+						["color"] = {
+							1, -- [1]
+							0.8, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Bonus Loot",
+						["sort"] = 510,
+					},
+					["NOTHING"] = {
+						["color"] = {
+							0.5, -- [1]
+							0.5, -- [2]
+							0.5, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Offline or RCLootCouncil not installed",
+						["sort"] = 505,
+					},
+					["DISABLED"] = {
+						["color"] = {
+							0.3, -- [1]
+							0.35, -- [2]
+							0.5, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Candidate has disabled RCLootCouncil",
+						["sort"] = 802,
+					},
+					["DEFAULT"] = {
+						["color"] = {
+							1, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Response isn't available. Please upgrade RCLootCouncil.",
+						["sort"] = 899,
+					},
+					["PL_REJECT"] = {
+						["color"] = {
+							0.2, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["text"] = "Personal Loot - Rejected Trade",
+						["sort"] = 499,
+					},
+				},
+			},
+			["enabledButtons"] = {
+			},
+			["announceItemString"] = "&s: &i",
 		},
 	},
 }
@@ -3791,6 +4435,35 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffa335ee|Hitem:184027::::::::60:577::84:4:7188:6652:1485:6646:1:28:752:::|h[Stone Legion Heraldry]|h|r",
 					["votes"] = 1,
 				}, -- [6]
+				{
+					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Hungering Destroyer",
+					["time"] = "20:56:16",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:179350::::::::60:577::16:5:7208:41:1501:5858:6646:1:28:1279:::|h[Inscrutable Quantum Device]|h|r",
+					["instance"] = "Castle Nathria-Mythic",
+					["typeCode"] = "default",
+					["owner"] = "Nikeah-Silvermoon",
+					["id"] = "1614279376-8",
+					["response"] = "Minor Upgrade",
+					["note"] = "m+",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:184023::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Gluttonous Spike]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 3,
+					["itemReplaced2"] = "|cffa335ee|Hitem:184027::::::::60:577::84:4:7188:6652:1485:6646:1:28:752:::|h[Stone Legion Heraldry]|h|r",
+					["votes"] = 0,
+				}, -- [7]
 			},
 			["Hoottss-Silvermoon"] = {
 				{
@@ -3877,6 +4550,57 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffa335ee|Hitem:184024::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Macabre Sheet Music]|h|r",
 					["votes"] = 0,
 				}, -- [2]
+				{
+					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "19:49:11",
+					["iClass"] = 4,
+					["id"] = "1614275351-2",
+					["owner"] = "Emblair-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183027::::::::60:70::6:4:7187:6652:1498:6646:1:28:753:::|h[Errant Crusader's Greaves]|h|r",
+					["boss"] = "Shriekwing",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+				{
+					["mapID"] = 2296,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["boss"] = "Hungering Destroyer",
+					["time"] = "21:00:13",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:182994::::::::60:577::5:4:7188:6652:1485:6646:1:28:752:::|h[Epaulettes of Overwhelming Force]|h|r",
+					["instance"] = "Castle Nathria-Mythic",
+					["owner"] = "Warxy-Silvermoon",
+					["response"] = "Mainspec/Need",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182994::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Epaulettes of Overwhelming Force]|h|r",
+					["id"] = "1614279613-11",
+					["date"] = "25/02/21",
+					["responseID"] = 1,
+					["votes"] = 1,
+					["isAwardReason"] = false,
+				}, -- [4]
 			},
 			["Scrípé-Silvermoon"] = {
 				{
@@ -4423,6 +5147,32 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [4]
 			},
+			["Winndie-Silvermoon"] = {
+				{
+					["mapID"] = 2296,
+					["date"] = "20/02/21",
+					["class"] = "DRUID",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:51:34",
+					["iClass"] = 4,
+					["id"] = "1613847094-0",
+					["owner"] = "Winndie-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:103::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Charm of Eternal Winter]|h|r",
+					["boss"] = "Huntsman Altimor",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Heroic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+			},
 			["Ririchíyo-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
@@ -4649,31 +5399,86 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [9]
-			},
-			["Winndie-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
-					["date"] = "20/02/21",
-					["class"] = "DRUID",
-					["iSubClass"] = 0,
+					["date"] = "25/02/21",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "20:51:34",
+					["time"] = "19:49:06",
 					["iClass"] = 4,
-					["id"] = "1613847094-0",
-					["owner"] = "Winndie-Silvermoon",
+					["id"] = "1614275346-0",
+					["owner"] = "Ririchíyo-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:103::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Charm of Eternal Winter]|h|r",
-					["boss"] = "Huntsman Altimor",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182979::::::::60:257::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers of the Forgotten Heretic]|h|r",
+					["boss"] = "Shriekwing",
 					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Heroic",
+					["instance"] = "Castle Nathria-Mythic",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+				}, -- [10]
+				{
+					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "PRIEST",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["votes"] = 1,
+					["time"] = "20:57:06",
+					["iClass"] = 5,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178973:6229:::::::60:577::5:4:7188:6652:1511:6646:1:28:807:::|h[Symphonic Chimekeeper]|h|r",
+					["instance"] = "Castle Nathria-Mythic",
+					["owner"] = "Krayyt-Silvermoon",
+					["typeCode"] = "default",
+					["response"] = "Mainspec/Need",
+					["id"] = "1614279426-9",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183891::::::::60:577::6:3:7187:1498:6646:1:28:753:::|h[Venerated Anima Spherule]|h|r",
+					["note"] = "13ilvl",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "Hungering Destroyer",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [11]
+			},
+			["Maxnoon-Silvermoon"] = {
+				{
+					["mapID"] = 2296,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Shriekwing",
+					["time"] = "19:52:21",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:183033:6204:::::::60:577::3:4:7189:6652:1472:6646::::|h[Mantle of Manifest Sins]|h|r",
+					["instance"] = "Castle Nathria-Mythic",
+					["owner"] = "Yaganmage-Silvermoon",
+					["response"] = "Mainspec/Need",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:577::6:4:7187:41:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
+					["id"] = "1614275541-3",
+					["date"] = "25/02/21",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
 				}, -- [1]
 			},
 			["Yaganmage-Silvermoon"] = {
@@ -4863,46 +5668,46 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [7]
 			},
-			["Prutten-Silvermoon"] = {
+			["Zinicshaman-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
-					["date"] = "20/02/21",
-					["class"] = "HUNTER",
-					["iSubClass"] = 2,
-					["groupSize"] = 20,
+					["date"] = "05/01/21",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 3,
+					["groupSize"] = 22,
 					["isAwardReason"] = false,
-					["time"] = "20:51:36",
-					["iClass"] = 5,
-					["id"] = "1613847096-1",
-					["owner"] = "Prutten-Silvermoon",
+					["time"] = "20:25:54",
+					["iClass"] = 4,
+					["id"] = "1609871154-1",
+					["owner"] = "Zinicshaman-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183892::::::::60:254::5:3:7188:1485:6646:1:28:752:::|h[Mystic Anima Spherule]|h|r",
-					["boss"] = "Huntsman Altimor",
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Heroic",
+					["lootWon"] = "|cffa335ee|Hitem:182985::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Memento-Laden Cuisses]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Heroic",
+					["boss"] = "Lady Inerva Darkvein",
 				}, -- [1]
 				{
 					["mapID"] = 2296,
-					["date"] = "20/02/21",
-					["class"] = "HUNTER",
-					["iSubClass"] = 1,
-					["groupSize"] = 19,
+					["date"] = "19/01/21",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 2,
+					["groupSize"] = 21,
 					["isAwardReason"] = false,
-					["time"] = "22:10:50",
-					["iClass"] = 4,
-					["id"] = "1613851850-4",
-					["owner"] = "Prutten-Silvermoon",
+					["time"] = "20:46:54",
+					["iClass"] = 5,
+					["id"] = "1611082014-0",
+					["owner"] = "Zinicshaman-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183033::::::::60:254::5:4:7188:6652:1485:6646:1:28:753:::|h[Mantle of Manifest Sins]|h|r",
-					["boss"] = "Sun King's Salvation",
+					["lootWon"] = "|cffa335ee|Hitem:183898::::::::60:264::84:3:7188:1485:6646:1:28:752:::|h[Venerated Anima Spherule]|h|r",
+					["boss"] = "Sire Denathrius",
 					["responseID"] = "PL",
 					["instance"] = "Castle Nathria-Heroic",
 					["color"] = {
@@ -4912,6 +5717,78 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [2]
+				{
+					["mapID"] = 2296,
+					["date"] = "02/02/21",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "19:50:36",
+					["iClass"] = 4,
+					["id"] = "1612288236-1",
+					["owner"] = "Zinicshaman-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:264::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["boss"] = "Shriekwing",
+				}, -- [3]
+				{
+					["mapID"] = 2296,
+					["date"] = "11/02/21",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "19:44:24",
+					["iClass"] = 4,
+					["id"] = "1613065464-2",
+					["owner"] = "Zinicshaman-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182976::::::::60:264::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Double-Chained Utility Belt]|h|r",
+					["boss"] = "Shriekwing",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [4]
+				{
+					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:01:14",
+					["iClass"] = 4,
+					["id"] = "1614276074-6",
+					["owner"] = "Zinicshaman-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182988::::::::60:264::6:4:7187:6652:1498:6646:1:28:753:::|h[Master Huntsman's Bandolier]|h|r",
+					["boss"] = "Huntsman Altimor",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [5]
 			},
 			["Dallán-Silvermoon"] = {
 				{
@@ -5118,46 +5995,46 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [1]
 			},
-			["Zinicshaman-Silvermoon"] = {
+			["Prutten-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
-					["date"] = "05/01/21",
-					["class"] = "SHAMAN",
-					["iSubClass"] = 3,
-					["groupSize"] = 22,
+					["date"] = "20/02/21",
+					["class"] = "HUNTER",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "20:25:54",
-					["iClass"] = 4,
-					["id"] = "1609871154-1",
-					["owner"] = "Zinicshaman-Silvermoon",
+					["time"] = "20:51:36",
+					["iClass"] = 5,
+					["id"] = "1613847096-1",
+					["owner"] = "Prutten-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:182985::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Memento-Laden Cuisses]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:183892::::::::60:254::5:3:7188:1485:6646:1:28:752:::|h[Mystic Anima Spherule]|h|r",
+					["boss"] = "Huntsman Altimor",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Heroic",
-					["boss"] = "Lady Inerva Darkvein",
 				}, -- [1]
 				{
 					["mapID"] = 2296,
-					["date"] = "19/01/21",
-					["class"] = "SHAMAN",
-					["iSubClass"] = 2,
-					["groupSize"] = 21,
+					["date"] = "20/02/21",
+					["class"] = "HUNTER",
+					["iSubClass"] = 1,
+					["groupSize"] = 19,
 					["isAwardReason"] = false,
-					["time"] = "20:46:54",
-					["iClass"] = 5,
-					["id"] = "1611082014-0",
-					["owner"] = "Zinicshaman-Silvermoon",
+					["time"] = "22:10:50",
+					["iClass"] = 4,
+					["id"] = "1613851850-4",
+					["owner"] = "Prutten-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183898::::::::60:264::84:3:7188:1485:6646:1:28:752:::|h[Venerated Anima Spherule]|h|r",
-					["boss"] = "Sire Denathrius",
+					["lootWon"] = "|cffa335ee|Hitem:183033::::::::60:254::5:4:7188:6652:1485:6646:1:28:753:::|h[Mantle of Manifest Sins]|h|r",
+					["boss"] = "Sun King's Salvation",
 					["responseID"] = "PL",
 					["instance"] = "Castle Nathria-Heroic",
 					["color"] = {
@@ -5167,54 +6044,6 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [2]
-				{
-					["mapID"] = 2296,
-					["date"] = "02/02/21",
-					["class"] = "SHAMAN",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "19:50:36",
-					["iClass"] = 4,
-					["id"] = "1612288236-1",
-					["owner"] = "Zinicshaman-Silvermoon",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:264::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Mythic",
-					["boss"] = "Shriekwing",
-				}, -- [3]
-				{
-					["mapID"] = 2296,
-					["date"] = "11/02/21",
-					["class"] = "SHAMAN",
-					["iSubClass"] = 3,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "19:44:24",
-					["iClass"] = 4,
-					["id"] = "1613065464-2",
-					["owner"] = "Zinicshaman-Silvermoon",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:182976::::::::60:264::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Double-Chained Utility Belt]|h|r",
-					["boss"] = "Shriekwing",
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [4]
 			},
 			["Scripé-Silvermoon"] = {
 				{
@@ -5342,59 +6171,6 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [5]
 			},
-			["Remiliah-Silvermoon"] = {
-				{
-					["mapID"] = 2296,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DEATHKNIGHT",
-					["iSubClass"] = 4,
-					["groupSize"] = 19,
-					["boss"] = "Sludgefist",
-					["time"] = "19:58:32",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:180104:6210:::::::60:581::16:5:7211:6652:1501:5865:6646:1:28:1279:::|h[Distorted Construct's Gauntlets]|h|r",
-					["instance"] = "Castle Nathria-Heroic",
-					["owner"] = "Nikeah-Silvermoon",
-					["response"] = "Minor",
-					["typeCode"] = "default",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:182984::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Colossal Plate Gauntlets]|h|r",
-					["id"] = "1612461512-3",
-					["date"] = "04/02/21",
-					["responseID"] = 3,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [1]
-				{
-					["mapID"] = 2296,
-					["date"] = "11/02/21",
-					["class"] = "DEATHKNIGHT",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "19:44:21",
-					["iClass"] = 4,
-					["id"] = "1613065461-1",
-					["owner"] = "Remiliah-Silvermoon",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:252::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
-					["boss"] = "Shriekwing",
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [2]
-			},
 			["Wildlyfe-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
@@ -5421,21 +6197,126 @@ RCLootCouncilLootDB = {
 					["boss"] = "Artificer Xy'mox",
 				}, -- [1]
 			},
-			["Icefwry-Silvermoon"] = {
+			["Junî-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
-					["date"] = "19/01/21",
-					["class"] = "MAGE",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 0,
+					["groupSize"] = 23,
+					["boss"] = "Huntsman Altimor",
+					["time"] = "19:59:41",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178335::::::::60:581::14:3:6789:1498:6646:1:28:783:::|h[Sinful Aspirant's Pendant]|h|r",
+					["instance"] = "Castle Nathria-Heroic",
+					["owner"] = "Totemìc-Silvermoon",
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:581::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Charm of Eternal Winter]|h|r",
+					["votes"] = 0,
+					["date"] = "07/01/21",
+					["responseID"] = 1,
+					["id"] = "1610042381-2",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2296,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 2,
+					["groupSize"] = 23,
+					["boss"] = "Hungering Destroyer",
+					["time"] = "20:11:40",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:182993::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Chiropteran Leggings]|h|r",
+					["instance"] = "Castle Nathria-Heroic",
+					["owner"] = "Wildlyfe-Silvermoon",
+					["response"] = "Minor",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:183024::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Volatile Shadestitch Legguards]|h|r",
+					["votes"] = 0,
+					["date"] = "07/01/21",
+					["responseID"] = 3,
+					["id"] = "1610043100-5",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2296,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Shriekwing",
+					["time"] = "21:33:07",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:184311:6202:::::::60:581::14:3:6619:1485:6646:1:28:807:::|h[Sinful Gladiator's Greatcloak]|h|r",
+					["instance"] = "Castle Nathria-Mythic",
+					["owner"] = "Icefwry-Silvermoon",
+					["response"] = "BiS",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:581::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
+					["id"] = "1611257587-14",
+					["date"] = "21/01/21",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [3]
+				{
+					["mapID"] = 2296,
+					["date"] = "21/01/21",
+					["class"] = "DRUID",
 					["iSubClass"] = 0,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "22:34:42",
+					["time"] = "22:00:18",
 					["iClass"] = 4,
-					["id"] = "1611088482-5",
-					["owner"] = "Icefwry-Silvermoon",
+					["id"] = "1611259218-17",
+					["owner"] = "Junî-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:63::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Charm of Eternal Winter]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Charm of Eternal Winter]|h|r",
+					["boss"] = "Huntsman Altimor",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [4]
+				{
+					["mapID"] = 2296,
+					["date"] = "02/02/21",
+					["class"] = "DRUID",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "19:50:12",
+					["iClass"] = 4,
+					["id"] = "1612288212-0",
+					["owner"] = "Junî-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182993::::::::60:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Chiropteran Leggings]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -5444,56 +6325,85 @@ RCLootCouncilLootDB = {
 					},
 					["responseID"] = "PL",
 					["instance"] = "Castle Nathria-Mythic",
+					["boss"] = "Shriekwing",
+				}, -- [5]
+				{
+					["mapID"] = 2296,
+					["date"] = "11/02/21",
+					["class"] = "DRUID",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:33:28",
+					["iClass"] = 4,
+					["id"] = "1613068408-3",
+					["owner"] = "Junî-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183009::::::::60:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Miasma-Lacquered Jerkin]|h|r",
+					["boss"] = "Hungering Destroyer",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [6]
+			},
+			["Babyautismo-Silvermoon"] = {
+				{
+					["mapID"] = 2296,
+					["date"] = "05/01/21",
+					["class"] = "ROGUE",
+					["iSubClass"] = 0,
+					["groupSize"] = 23,
+					["isAwardReason"] = false,
+					["time"] = "19:50:26",
+					["iClass"] = 4,
+					["id"] = "1609869026-2",
+					["owner"] = "Babyautismo-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:260::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Charm of Eternal Winter]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Heroic",
 					["boss"] = "Huntsman Altimor",
 				}, -- [1]
 				{
 					["mapID"] = 2296,
-					["date"] = "04/02/21",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 18,
-					["isAwardReason"] = false,
-					["time"] = "20:35:17",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "ROGUE",
+					["iSubClass"] = 2,
+					["groupSize"] = 22,
+					["boss"] = "Lady Inerva Darkvein",
+					["time"] = "20:27:35",
 					["iClass"] = 4,
-					["id"] = "1612463717-7",
-					["owner"] = "Icefwry-Silvermoon",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183036::::::::60:63::84:5:7188:6652:7194:1485:6646:1:28:752:::|h[Most Regal Signet of Sire Denathrius]|h|r",
-					["boss"] = "Sire Denathrius",
-					["responseID"] = "PL",
+					["itemReplaced1"] = "|cffa335ee|Hitem:178757::::::::60:253::23:4:6807:6652:1498:6646:1:28:749:::|h[Gloves of Obscure Rituals]|h|r",
 					["instance"] = "Castle Nathria-Heroic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [2]
-				{
-					["mapID"] = 2296,
-					["date"] = "18/02/21",
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
+					["owner"] = "Scripé-Silvermoon",
+					["response"] = "Major Upgrade",
 					["isAwardReason"] = false,
-					["time"] = "20:12:15",
-					["iClass"] = 4,
-					["id"] = "1613671935-0",
-					["owner"] = "Icefwry-Silvermoon",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:182979::::::::60:63::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers of the Forgotten Heretic]|h|r",
-					["boss"] = "Shriekwing",
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [3]
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:183026::::::::60:253::5:4:7188:6652:1485:6646:1:28:752:::|h[Gloves of Phantom Shadows]|h|r",
+					["votes"] = 0,
+					["date"] = "05/01/21",
+					["responseID"] = 2,
+					["id"] = "1609871255-2",
+					["typeCode"] = "default",
+				}, -- [2]
 			},
 			["Asuri-Silvermoon"] = {
 				{
@@ -5647,6 +6557,80 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [6]
 			},
+			["Icefwry-Silvermoon"] = {
+				{
+					["mapID"] = 2296,
+					["date"] = "19/01/21",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:34:42",
+					["iClass"] = 4,
+					["id"] = "1611088482-5",
+					["owner"] = "Icefwry-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:63::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Charm of Eternal Winter]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["boss"] = "Huntsman Altimor",
+				}, -- [1]
+				{
+					["mapID"] = 2296,
+					["date"] = "04/02/21",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 18,
+					["isAwardReason"] = false,
+					["time"] = "20:35:17",
+					["iClass"] = 4,
+					["id"] = "1612463717-7",
+					["owner"] = "Icefwry-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:183036::::::::60:63::84:5:7188:6652:7194:1485:6646:1:28:752:::|h[Most Regal Signet of Sire Denathrius]|h|r",
+					["boss"] = "Sire Denathrius",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Heroic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 2296,
+					["date"] = "18/02/21",
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:12:15",
+					["iClass"] = 4,
+					["id"] = "1613671935-0",
+					["owner"] = "Icefwry-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182979::::::::60:63::6:4:7187:6652:1498:6646:1:28:753:::|h[Slippers of the Forgotten Heretic]|h|r",
+					["boss"] = "Shriekwing",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+			},
 			["Gooselle-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
@@ -5778,59 +6762,58 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 					["isAwardReason"] = false,
 				}, -- [5]
-			},
-			["Babyautismo-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
-					["date"] = "05/01/21",
-					["class"] = "ROGUE",
-					["iSubClass"] = 0,
-					["groupSize"] = 23,
+					["date"] = "25/02/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "19:50:26",
+					["time"] = "20:00:53",
 					["iClass"] = 4,
-					["id"] = "1609869026-2",
-					["owner"] = "Babyautismo-Silvermoon",
+					["id"] = "1614276053-4",
+					["owner"] = "Gooselle-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:260::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Charm of Eternal Winter]|h|r",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183018::::::::60:65::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Hellhound Cuffs]|h|r",
+					["boss"] = "Huntsman Altimor",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Heroic",
-					["boss"] = "Huntsman Altimor",
-				}, -- [1]
+				}, -- [6]
 				{
 					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Hungering Destroyer",
+					["time"] = "20:57:33",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178708::::::::60:577::35:6:7214:6652:1501:5884:6646:6917::::|h[Unbound Changeling]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Ririchíyo-Silvermoon",
+					["instance"] = "Castle Nathria-Mythic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1614279453-10",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:184022::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Consumptive Infusion]|h|r",
+					["isAwardReason"] = false,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "ROGUE",
-					["iSubClass"] = 2,
-					["groupSize"] = 22,
-					["boss"] = "Lady Inerva Darkvein",
-					["time"] = "20:27:35",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:178757::::::::60:253::23:4:6807:6652:1498:6646:1:28:749:::|h[Gloves of Obscure Rituals]|h|r",
-					["instance"] = "Castle Nathria-Heroic",
-					["owner"] = "Scripé-Silvermoon",
-					["response"] = "Major Upgrade",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183026::::::::60:253::5:4:7188:6652:1485:6646:1:28:752:::|h[Gloves of Phantom Shadows]|h|r",
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:184020::::::::60:577::5:4:7188:6652:1485:6646:1:28:753:::|h[Tuft of Smoldering Plumage]|h|r",
 					["votes"] = 0,
-					["date"] = "05/01/21",
-					["responseID"] = 2,
-					["id"] = "1609871255-2",
-					["typeCode"] = "default",
-				}, -- [2]
+				}, -- [7]
 			},
 			["Senicyl-Silvermoon"] = {
 				{
@@ -6113,6 +7096,33 @@ RCLootCouncilLootDB = {
 					["instance"] = "Castle Nathria-Mythic",
 					["boss"] = "Huntsman Altimor",
 				}, -- [4]
+				{
+					["mapID"] = 2296,
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["boss"] = "Huntsman Altimor",
+					["time"] = "20:04:48",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:183000:6230:::::::60:577::6:4:7187:6652:1498:6646::::|h[Consumptive Chainmail Carapace]|h|r",
+					["instance"] = "Castle Nathria-Mythic",
+					["owner"] = "Mìcha-Silvermoon",
+					["response"] = "Pass",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182988::::::::60:577::6:4:7187:6652:1498:6646:1:28:753:::|h[Master Huntsman's Bandolier]|h|r",
+					["id"] = "1614276288-7",
+					["date"] = "25/02/21",
+					["responseID"] = "PASS",
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [5]
 			},
 			["Warxy-Silvermoon"] = {
 				{
@@ -6521,35 +7531,32 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [1]
-			},
-			["Junî-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "19:49:08",
+					["iClass"] = 4,
+					["id"] = "1614275348-1",
+					["owner"] = "Flashii-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:63::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
+					["boss"] = "Shriekwing",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
 					["color"] = {
-						0, -- [1]
-						1, -- [2]
+						1, -- [1]
+						0.6, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DRUID",
-					["iSubClass"] = 0,
-					["groupSize"] = 23,
-					["boss"] = "Huntsman Altimor",
-					["time"] = "19:59:41",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:178335::::::::60:581::14:3:6789:1498:6646:1:28:783:::|h[Sinful Aspirant's Pendant]|h|r",
-					["instance"] = "Castle Nathria-Heroic",
-					["owner"] = "Totemìc-Silvermoon",
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:581::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Charm of Eternal Winter]|h|r",
-					["votes"] = 0,
-					["date"] = "07/01/21",
-					["responseID"] = 1,
-					["id"] = "1610042381-2",
-					["typeCode"] = "default",
-				}, -- [1]
+				}, -- [2]
+			},
+			["Remiliah-Silvermoon"] = {
 				{
 					["mapID"] = 2296,
 					["color"] = {
@@ -6558,115 +7565,40 @@ RCLootCouncilLootDB = {
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DRUID",
-					["iSubClass"] = 2,
-					["groupSize"] = 23,
-					["boss"] = "Hungering Destroyer",
-					["time"] = "20:11:40",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 19,
+					["boss"] = "Sludgefist",
+					["time"] = "19:58:32",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:182993::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Chiropteran Leggings]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:180104:6210:::::::60:581::16:5:7211:6652:1501:5865:6646:1:28:1279:::|h[Distorted Construct's Gauntlets]|h|r",
 					["instance"] = "Castle Nathria-Heroic",
-					["owner"] = "Wildlyfe-Silvermoon",
+					["owner"] = "Nikeah-Silvermoon",
 					["response"] = "Minor",
-					["isAwardReason"] = false,
+					["typeCode"] = "default",
 					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:183024::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Volatile Shadestitch Legguards]|h|r",
-					["votes"] = 0,
-					["date"] = "07/01/21",
+					["lootWon"] = "|cffa335ee|Hitem:182984::::::::60:581::5:4:7188:6652:1485:6646:1:28:752:::|h[Colossal Plate Gauntlets]|h|r",
+					["id"] = "1612461512-3",
+					["date"] = "04/02/21",
 					["responseID"] = 3,
-					["id"] = "1610043100-5",
-					["typeCode"] = "default",
-				}, -- [2]
-				{
-					["mapID"] = 2296,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Shriekwing",
-					["time"] = "21:33:07",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:184311:6202:::::::60:581::14:3:6619:1485:6646:1:28:807:::|h[Sinful Gladiator's Greatcloak]|h|r",
-					["instance"] = "Castle Nathria-Mythic",
-					["owner"] = "Icefwry-Silvermoon",
-					["response"] = "BiS",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:581::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
-					["id"] = "1611257587-14",
-					["date"] = "21/01/21",
-					["responseID"] = 1,
 					["votes"] = 0,
 					["isAwardReason"] = false,
-				}, -- [3]
-				{
-					["mapID"] = 2296,
-					["date"] = "21/01/21",
-					["class"] = "DRUID",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:00:18",
-					["iClass"] = 4,
-					["id"] = "1611259218-17",
-					["owner"] = "Junî-Silvermoon",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:183040::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Charm of Eternal Winter]|h|r",
-					["boss"] = "Huntsman Altimor",
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [4]
-				{
-					["mapID"] = 2296,
-					["date"] = "02/02/21",
-					["class"] = "DRUID",
-					["iSubClass"] = 2,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "19:50:12",
-					["iClass"] = 4,
-					["id"] = "1612288212-0",
-					["owner"] = "Junî-Silvermoon",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:182993::::::::60:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Chiropteran Leggings]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Castle Nathria-Mythic",
-					["boss"] = "Shriekwing",
-				}, -- [5]
+				}, -- [1]
 				{
 					["mapID"] = 2296,
 					["date"] = "11/02/21",
-					["class"] = "DRUID",
-					["iSubClass"] = 2,
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 1,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "20:33:28",
+					["time"] = "19:44:21",
 					["iClass"] = 4,
-					["id"] = "1613068408-3",
-					["owner"] = "Junî-Silvermoon",
+					["id"] = "1613065461-1",
+					["owner"] = "Remiliah-Silvermoon",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:183009::::::::60:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Miasma-Lacquered Jerkin]|h|r",
-					["boss"] = "Hungering Destroyer",
+					["lootWon"] = "|cffa335ee|Hitem:183034::::::::60:252::6:4:7187:6652:1498:6646:1:28:753:::|h[Cowled Batwing Cloak]|h|r",
+					["boss"] = "Shriekwing",
 					["responseID"] = "PL",
 					["instance"] = "Castle Nathria-Mythic",
 					["color"] = {
@@ -6675,7 +7607,7 @@ RCLootCouncilLootDB = {
 						0, -- [3]
 						1, -- [4]
 					},
-				}, -- [6]
+				}, -- [2]
 			},
 			["Tinkerbyte-Silvermoon"] = {
 				{
@@ -6951,6 +7883,54 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [5]
+				{
+					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "MONK",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:00:53",
+					["iClass"] = 4,
+					["id"] = "1614276053-5",
+					["owner"] = "Peroping-Silvermoon",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:182995::::::::60:269::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Spell-Woven Tourniquet]|h|r",
+					["boss"] = "Huntsman Altimor",
+					["responseID"] = "PL",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [6]
+				{
+					["mapID"] = 2296,
+					["date"] = "25/02/21",
+					["class"] = "MONK",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:07:10",
+					["iClass"] = 4,
+					["id"] = "1614280030-12",
+					["owner"] = "Peroping-Silvermoon",
+					["response"] = "Personal Loot - Rejected Trade",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183035::::::::60:269::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Ardent Sunstar Signet]|h|r",
+					["boss"] = "Hungering Destroyer",
+					["responseID"] = "PL_REJECT",
+					["instance"] = "Castle Nathria-Mythic",
+					["color"] = {
+						0.2, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [7]
 			},
 		},
 	},

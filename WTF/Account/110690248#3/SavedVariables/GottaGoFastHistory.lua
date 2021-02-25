@@ -31,18 +31,17 @@ GottaGoFastHistoryDB = {
 						"Enemy Forces", -- [5]
 					},
 				},
-				[2293] = {
+				[2286] = {
 					["runs"] = {
 					},
-					["name"] = "Theater of Pain",
-					["zoneID"] = 2293,
+					["name"] = "The Necrotic Wake",
+					["zoneID"] = 2286,
 					["objectives"] = {
-						"Affront of Challengers", -- [1]
-						"Gorechop", -- [2]
-						"Xav the Unfallen", -- [3]
-						"Kul'tharok", -- [4]
-						"Mordretha", -- [5]
-						"Enemy Forces", -- [6]
+						"Blightbone", -- [1]
+						"Amarth", -- [2]
+						"Surgeon Stitchflesh", -- [3]
+						"Nalthor the Rimebinder", -- [4]
+						"Enemy Forces", -- [5]
 					},
 				},
 				[2289] = {
@@ -70,16 +69,16 @@ GottaGoFastHistoryDB = {
 						"Enemy Forces", -- [4]
 					},
 				},
-				[2284] = {
+				[2291] = {
 					["objectives"] = {
-						"Kryxis the Voracious", -- [1]
-						"Executor Tarvold", -- [2]
-						"Grand Proctor Beryllia", -- [3]
-						"General Kaal", -- [4]
+						"Hakkar the Soulflayer", -- [1]
+						"The Manastorms", -- [2]
+						"Dealer Xy'exa", -- [3]
+						"Mueh'zala", -- [4]
 						"Enemy Forces", -- [5]
 					},
-					["zoneID"] = 2284,
-					["name"] = "Sanguine Depths",
+					["zoneID"] = 2291,
+					["name"] = "De Other Side",
 					["runs"] = {
 					},
 				},
@@ -96,29 +95,30 @@ GottaGoFastHistoryDB = {
 					["runs"] = {
 					},
 				},
-				[2286] = {
+				[2293] = {
 					["runs"] = {
 					},
-					["name"] = "The Necrotic Wake",
-					["zoneID"] = 2286,
+					["name"] = "Theater of Pain",
+					["zoneID"] = 2293,
 					["objectives"] = {
-						"Blightbone", -- [1]
-						"Amarth", -- [2]
-						"Surgeon Stitchflesh", -- [3]
-						"Nalthor the Rimebinder", -- [4]
-						"Enemy Forces", -- [5]
+						"Affront of Challengers", -- [1]
+						"Gorechop", -- [2]
+						"Xav the Unfallen", -- [3]
+						"Kul'tharok", -- [4]
+						"Mordretha", -- [5]
+						"Enemy Forces", -- [6]
 					},
 				},
-				[2291] = {
+				[2284] = {
 					["objectives"] = {
-						"Hakkar the Soulflayer", -- [1]
-						"The Manastorms", -- [2]
-						"Dealer Xy'exa", -- [3]
-						"Mueh'zala", -- [4]
+						"Kryxis the Voracious", -- [1]
+						"Executor Tarvold", -- [2]
+						"Grand Proctor Beryllia", -- [3]
+						"General Kaal", -- [4]
 						"Enemy Forces", -- [5]
 					},
-					["zoneID"] = 2291,
-					["name"] = "De Other Side",
+					["zoneID"] = 2284,
+					["name"] = "Sanguine Depths",
 					["runs"] = {
 					},
 				},

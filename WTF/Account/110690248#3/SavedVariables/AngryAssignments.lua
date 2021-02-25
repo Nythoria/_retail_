@@ -43,7 +43,6 @@ AngryAssign_Pages = {
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
-	["locked"] = true,
 	["display"] = {
 		["y"] = 12.00088500976563,
 		["x"] = 52.00113296508789,
@@ -51,6 +50,14 @@ AngryAssign_State = {
 		["scale"] = 1,
 		["hidden"] = false,
 		["width"] = 394.9999694824219,
+	},
+	["locked"] = true,
+	["directionUp"] = false,
+	["window"] = {
+		["height"] = 500.0000610351563,
+		["top"] = 937.9998779296875,
+		["left"] = 27.000244140625,
+		["width"] = 700.0001220703125,
 	},
 	["tree"] = {
 		["groups"] = {
@@ -62,18 +69,11 @@ AngryAssign_State = {
 			["3199660474"] = true,
 		},
 		["scrollvalue"] = 0,
-		["treesizable"] = true,
 		["selected"] = 3396985087,
+		["treesizable"] = true,
 		["treewidth"] = 175,
 		["fullwidth"] = 666.0001220703125,
 	},
-	["window"] = {
-		["height"] = 500.0000610351563,
-		["top"] = 937.9998779296875,
-		["left"] = 27.000244140625,
-		["width"] = 700.0001220703125,
-	},
-	["directionUp"] = false,
 }
 AngryAssign_Config = {
 	["allowall"] = true,

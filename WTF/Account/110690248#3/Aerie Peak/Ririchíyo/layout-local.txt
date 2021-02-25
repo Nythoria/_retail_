@@ -20,3 +20,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AAP_GreetingsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 300
+Y: 0
+W: 330
+H: 175

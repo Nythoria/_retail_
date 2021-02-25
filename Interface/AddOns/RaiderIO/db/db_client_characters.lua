@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-17T09:27:14Z
+-- RaiderIO Client Data. Generated on 2021-02-25T09:45:01Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -119,10 +119,80 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 0,
-        ["best"] = nil,
+        ["score"] = 23.9,
+        ["best"] = {
+          ["zone_id"] = 13309,
+          ["level"] = 2,
+          ["upgrades"] = 2,
+          ["fraction"] = 0.724,
+          ["score"] = 23.912929547822372,
+          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/19253768-2-de-other-side?utm_source=client"
+        },
         ["runs"] = {
-
+          [1] = {
+            ["zone_id"] = 12831,
+            ["level"] = 0,
+            ["upgrades"] = 0,
+            ["fraction"] = 0,
+            ["score"] = 0,
+            ["url"] = nil
+          },
+          [2] = {
+            ["zone_id"] = 12837,
+            ["level"] = 0,
+            ["upgrades"] = 0,
+            ["fraction"] = 0,
+            ["score"] = 0,
+            ["url"] = nil
+          },
+          [3] = {
+            ["zone_id"] = 12841,
+            ["level"] = 0,
+            ["upgrades"] = 0,
+            ["fraction"] = 0,
+            ["score"] = 0,
+            ["url"] = nil
+          },
+          [4] = {
+            ["zone_id"] = 12842,
+            ["level"] = 0,
+            ["upgrades"] = 0,
+            ["fraction"] = 0,
+            ["score"] = 0,
+            ["url"] = nil
+          },
+          [5] = {
+            ["zone_id"] = 12916,
+            ["level"] = 0,
+            ["upgrades"] = 0,
+            ["fraction"] = 0,
+            ["score"] = 0,
+            ["url"] = nil
+          },
+          [6] = {
+            ["zone_id"] = 13228,
+            ["level"] = 0,
+            ["upgrades"] = 0,
+            ["fraction"] = 0,
+            ["score"] = 0,
+            ["url"] = nil
+          },
+          [7] = {
+            ["zone_id"] = 13309,
+            ["level"] = 2,
+            ["upgrades"] = 2,
+            ["fraction"] = 0.724,
+            ["score"] = 23.912929547822372,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/19253768-2-de-other-side?utm_source=client"
+          },
+          [8] = {
+            ["zone_id"] = 13334,
+            ["level"] = 0,
+            ["upgrades"] = 0,
+            ["fraction"] = 0,
+            ["score"] = 0,
+            ["url"] = nil
+          }
         }
       }
     }
@@ -137,14 +207,14 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 957.9,
+        ["score"] = 995.1,
         ["best"] = {
-          ["zone_id"] = 13309,
+          ["zone_id"] = 13228,
           ["level"] = 15,
-          ["upgrades"] = 0,
-          ["fraction"] = 1.712,
-          ["score"] = 116.13896970150395,
-          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/15334576-15-de-other-side?utm_source=client"
+          ["upgrades"] = 1,
+          ["fraction"] = 0.886,
+          ["score"] = 162.58702536763292,
+          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/19528372-15-plaguefall?utm_source=client"
         },
         ["runs"] = {
           [1] = {
@@ -189,11 +259,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [6] = {
             ["zone_id"] = 13228,
-            ["level"] = 12,
-            ["upgrades"] = 2,
-            ["fraction"] = 0.746,
-            ["score"] = 125.3703027766773,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/15346099-12-plaguefall?utm_source=client"
+            ["level"] = 15,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.886,
+            ["score"] = 162.58702536763292,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/19528372-15-plaguefall?utm_source=client"
           },
           [7] = {
             ["zone_id"] = 13309,

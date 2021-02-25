@@ -6,14 +6,12 @@ MasqueDB = {
 	},
 	["profileKeys"] = {
 		["Yimu - Silvermoon"] = "Default",
+		["Lelethis - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["Groups"] = {
-				["ElvUI"] = {
-					["Inherit"] = false,
-				},
-				["ElvUI_Buffs"] = {
+				["NameplateSCT"] = {
 					["Inherit"] = false,
 				},
 				["Hekili"] = {
@@ -22,10 +20,16 @@ MasqueDB = {
 				["ElvUI_ActionBars"] = {
 					["Inherit"] = false,
 				},
-				["ElvUI_Stance Bar"] = {
+				["ElvUI_Debuffs"] = {
 					["Inherit"] = false,
 				},
-				["ElvUI_Debuffs"] = {
+				["ElvUI"] = {
+					["Inherit"] = false,
+				},
+				["ElvUI_Buffs"] = {
+					["Inherit"] = false,
+				},
+				["ElvUI_Stance Bar"] = {
 					["Inherit"] = false,
 				},
 				["ElvUI_Pet Bar"] = {

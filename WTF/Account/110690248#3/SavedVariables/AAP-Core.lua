@@ -1,14 +1,87 @@
 
 AAP1 = {
+	["AeriePeak"] = {
+		["Ririchíyo"] = {
+			["FirstLoadz"] = 1,
+			["577-DesMephisto-TanaanJungle"] = 2,
+			[85] = 1,
+			["85-DesMephisto-Orgrimmar-p1"] = 8,
+			["WantedQuestList"] = {
+			},
+			["QuestCounter2"] = 2288,
+			["AAP_DoWarCampaign"] = 0,
+			["QuestCounter"] = 2288,
+			["85-IntroQline"] = 1,
+			["Settings"] = {
+				["LockArrow"] = 0,
+				["ShowQuestListOrder"] = 0,
+				["AutoRepair"] = 0,
+				["Greetings3"] = 0,
+				["AutoFlight"] = 1,
+				["AutoGossip"] = 1,
+				["Hide"] = 0,
+				["ShowMap10s"] = 0,
+				["ShowGroup"] = 1,
+				["OrderListScale"] = 1,
+				["leftLiz"] = 150,
+				["AutoVendor"] = 0,
+				["topLiz"] = -150,
+				["arrowtop"] = -719.9999186197916,
+				["Greetings2"] = 1,
+				["AutoAccept"] = 1,
+				["CutScene"] = 1,
+				["left"] = 1200,
+				["ShowBlobs"] = 1,
+				["Scale"] = 0.71,
+				["AutoHandIn"] = 1,
+				["ArrowFPS"] = 2,
+				["Lock"] = 0,
+				["Hcampleft"] = 1200,
+				["Partytop"] = -269.9999694824219,
+				["Greetings"] = 0,
+				["arrowleft"] = 936.5853658536586,
+				["ArrowScale"] = 0.71,
+				["Partyleft"] = 768,
+				["ShowQList"] = 1,
+				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
+				["MiniMapBlobAlpha"] = 1,
+				["alpha"] = 1,
+				["AutoHandInChoice"] = 0,
+				["top"] = -215.9999755859375,
+				["ChooseQuests"] = 0,
+				["QuestButtonDetatch"] = 0,
+				["Beta1"] = 1,
+				["QuestButtons"] = 1,
+				["AutoShareQ"] = 0,
+				["Hcamptop"] = -215.9999755859375,
+				["DisableHeirloomWarning"] = 0,
+			},
+			["BonusSkips"] = {
+			},
+			["SkippedBonusObj"] = {
+			},
+			["LoaPick"] = 1,
+			[12] = 1,
+			["QlineSkip"] = {
+			},
+		},
+	},
 	["Silvermoon"] = {
 		["Akatsúki"] = {
 			["FirstLoadz"] = 1,
 			["QuestCounter"] = 2589,
 			["QuestCounter2"] = 2589,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["A1670"] = 1,
 			["1670-Necrolords"] = 1,
+			["SkippedBonusObj"] = {
+			},
+			["BonusSkips"] = {
+			},
+			["LoaPick"] = 0,
+			["AAP_DoWarCampaign"] = 0,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -40,7 +113,7 @@ AAP1 = {
 				["ArrowScale"] = 0.71,
 				["ShowQList"] = 1,
 				["ShowMapBlobs"] = 1,
-				["Hcamptop"] = -215.9999755859375,
+				["ShowArrow"] = 1,
 				["Partyleft"] = 768,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -49,16 +122,10 @@ AAP1 = {
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Beta1"] = 1,
-				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["QuestButtons"] = 1,
 				["AutoShareQ"] = 0,
 				["DisableHeirloomWarning"] = 0,
-			},
-			["WantedQuestList"] = {
-			},
-			["LoaPick"] = 0,
-			["AAP_DoWarCampaign"] = 0,
-			["SkippedBonusObj"] = {
 			},
 			["QlineSkip"] = {
 			},
@@ -70,6 +137,9 @@ AAP1 = {
 			["84-IntroQline"] = 1,
 			["QuestCounter2"] = 527,
 			["LoaPick"] = 0,
+			["SkippedBonusObj"] = {
+			},
+			["A895"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 1,
@@ -98,27 +168,24 @@ AAP1 = {
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
 				["AutoShareQ"] = 0,
-				["ShowArrow"] = 1,
 				["Hcamptop"] = -215.9999755859375,
+				["ShowMapBlobs"] = 1,
 				["QuestButtons"] = 1,
 				["MiniMapBlobAlpha"] = 1,
-				["alpha"] = 1,
+				["Partyleft"] = 768,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["Scale"] = 0.71,
 				["QuestButtonDetatch"] = 0,
 				["ChooseQuests"] = 0,
-				["Partyleft"] = 768,
-				["ShowMapBlobs"] = 1,
+				["alpha"] = 1,
+				["ShowArrow"] = 1,
 				["ShowQList"] = 1,
 				["Partytop"] = -269.9999694824219,
 			},
-			["A895"] = 1,
-			["SkippedBonusObj"] = {
+			["WantedQuestList"] = {
 			},
 			["BonusSkips"] = {
-			},
-			["WantedQuestList"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["A876"] = 1,
@@ -169,8 +236,8 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
-				["ShowArrow"] = 1,
 				["Hcamptop"] = -215.9999755859375,
+				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
@@ -239,8 +306,8 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
-				["ShowArrow"] = 1,
 				["Hcamptop"] = -215.9999755859375,
+				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
@@ -258,9 +325,9 @@ AAP1 = {
 			["ANoZone"] = 1,
 			["A1670"] = 1,
 			["A1565"] = 1,
-			["BonusSkips"] = {
-			},
 			["WantedQuestList"] = {
+			},
+			["BonusSkips"] = {
 			},
 			["SkippedBonusObj"] = {
 			},
@@ -305,7 +372,7 @@ AAP1 = {
 				["ArrowScale"] = 0.71,
 				["ShowQList"] = 1,
 				["ShowMapBlobs"] = 1,
-				["Hcamptop"] = -215.9999755859375,
+				["ShowArrow"] = 1,
 				["Partyleft"] = 768,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -314,7 +381,7 @@ AAP1 = {
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Beta1"] = 1,
-				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["QuestButtons"] = 1,
 				["AutoShareQ"] = 0,
 				["DisableHeirloomWarning"] = 0,
@@ -346,8 +413,8 @@ AAP1 = {
 			},
 			["A84"] = 1,
 			["AAP_DoWarCampaign"] = 0,
-			["Shadowlands-StoryOnly-A"] = 1230,
 			["1533-Z2-Bastion-Story"] = 50,
+			["QuestCounter2"] = 1035,
 			["WantedQuestList"] = {
 			},
 			["A1670"] = 1,
@@ -365,31 +432,31 @@ AAP1 = {
 				["AutoGossip"] = 1,
 				["ChooseQuests"] = 0,
 				["AutoRepair"] = 0,
-				["Hide"] = 0,
+				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.7111111283302307,
 				["BannerShow"] = 0,
 				["ShowQList"] = 1,
 				["Hcamptop"] = -150,
-				["OrderListScale"] = 1,
-				["MiniMapBlobAlpha"] = 1,
-				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
-				["top"] = -150,
 				["ShowGroup"] = 1,
+				["alpha"] = 1,
+				["OrderListScale"] = 1,
+				["top"] = -150,
+				["MiniMapBlobAlpha"] = 1,
 				["leftLiz"] = 150,
 				["AutoVendor"] = 0,
-				["arrowleft"] = 936.5853658536586,
+				["Hide"] = 0,
 				["AutoAccept"] = 1,
 				["topLiz"] = -150,
 				["arrowtop"] = -719.9999186197916,
 			},
-			["A1533"] = 1,
-			["BonusSkips"] = {
-			},
 			["SkippedBonusObj"] = {
 			},
+			["BonusSkips"] = {
+			},
+			["A1533"] = 1,
 			["LoaPick"] = 0,
-			["QuestCounter2"] = 1035,
+			["Shadowlands-StoryOnly-A"] = 1230,
 			["QuestCounter"] = 1035,
 		},
 		["Yóshino"] = {
@@ -399,7 +466,12 @@ AAP1 = {
 			["QlineSkip"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
+			["SkippedBonusObj"] = {
+			},
 			["QuestCounter2"] = 1822,
+			["WantedQuestList"] = {
+			},
+			["A1670"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -429,8 +501,8 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
-				["Hcamptop"] = -215.9999755859375,
 				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["ShowMapBlobs"] = 1,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
@@ -445,15 +517,11 @@ AAP1 = {
 				["Scale"] = 0.71,
 				["Greetings2"] = 1,
 			},
-			["A1670"] = 1,
-			["WantedQuestList"] = {
-			},
-			["SkippedBonusObj"] = {
-			},
+			["A1565"] = 1,
 			["BonusSkips"] = {
 			},
-			["A1565"] = 1,
 			["LoaPick"] = 0,
+			["A1672"] = 1,
 			["HSLoc"] = 1670,
 			["QuestCounter"] = 1822,
 		},
@@ -465,9 +533,13 @@ AAP1 = {
 			["84-IntroQline"] = 1,
 			["QuestCounter2"] = 1224,
 			["LoaPick"] = 0,
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["A895"] = 1,
+			["SkippedBonusObj"] = {
+			},
+			["WantedQuestList"] = {
+			},
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -497,24 +569,20 @@ AAP1 = {
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
 				["ShowQList"] = 1,
-				["Hcamptop"] = -215.9999755859375,
 				["ShowMapBlobs"] = 1,
-				["alpha"] = 1,
-				["MiniMapBlobAlpha"] = 1,
+				["ShowArrow"] = 1,
 				["Partyleft"] = 768,
+				["MiniMapBlobAlpha"] = 1,
+				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Scale"] = 0.71,
-				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["QuestButtons"] = 1,
 				["AutoShareQ"] = 0,
 				["DisableHeirloomWarning"] = 0,
-			},
-			["BonusSkips"] = {
-			},
-			["SkippedBonusObj"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["A876"] = 1,
@@ -526,7 +594,7 @@ AAP1 = {
 			["QlineSkip"] = {
 			},
 			["QuestCounter2"] = 778,
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["A895"] = 1,
@@ -558,22 +626,22 @@ AAP1 = {
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
 				["AutoShareQ"] = 0,
-				["ShowArrow"] = 1,
 				["Hcamptop"] = -215.9999755859375,
+				["ShowMapBlobs"] = 1,
 				["QuestButtons"] = 1,
 				["MiniMapBlobAlpha"] = 1,
-				["alpha"] = 1,
+				["Partyleft"] = 768,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["Scale"] = 0.71,
 				["QuestButtonDetatch"] = 0,
 				["ChooseQuests"] = 0,
-				["Partyleft"] = 768,
-				["ShowMapBlobs"] = 1,
+				["alpha"] = 1,
+				["ShowArrow"] = 1,
 				["ShowQList"] = 1,
 				["Partytop"] = -269.9999694824219,
 			},
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["SkippedBonusObj"] = {
 			},
@@ -597,9 +665,11 @@ AAPQuestNames = {
 	[60244] = "Trading Favors: Halls of Atonement",
 	[50562] = "Champions of Azeroth",
 	[62555] = "A Touch of Humility",
+	[49064] = "Torga, the Turtle Loa",
 	[54180] = "Quest",
 	[57009] = "Fame Waits for Gnome One",
 	[57288] = "Assessing Your Strength",
+	[49901] = "Atal'Dazar: Yazma the Fallen Priestess",
 	[59599] = "Retaining the Court",
 	[48642] = "Argussian Reach",
 	[60412] = "Training in Revendreth",
@@ -636,6 +706,7 @@ AAPQuestNames = {
 	[57123] = "Kyrian No More",
 	[56119] = "The Waveblade Ankoan",
 	[51027] = "Supplies Needed: Sea Stalk",
+	[49776] = "No Problem Tar Can't Solve",
 	[60247] = "Trading Favors: Theater of Pain",
 	[60255] = "A Valuable Find: The Other Side",
 	[59753] = "Ruiner's End",
@@ -652,6 +723,7 @@ AAPQuestNames = {
 	[57116] = "Succumbing to Pride",
 	[57124] = "Her Will, Inflicted",
 	[55602] = "What Will It Lure?",
+	[49777] = "On The Run",
 	[60495] = "A Suitable Opponent",
 	[59754] = "On Blackened Wings",
 	[42422] = "The Wardens",
@@ -659,6 +731,7 @@ AAPQuestNames = {
 	[60057] = "Necrotic Wake: A Paragon's Plight",
 	[63133] = "Shifting Cryptogram",
 	[58041] = "Providing for the Pack",
+	[61874] = "Shadowlands: A Chilling Summons",
 	[59340] = "Gallath's Bell",
 	[57563] = "Mogu Assault Tracker",
 	[61141] = "Deathfang's Favorite Toy",
@@ -672,12 +745,17 @@ AAPQuestNames = {
 	[60281] = "Rule 4: Make A List",
 	[50599] = "Proudmoore Admiralty",
 	[53436] = "Azerite for the Alliance",
+	[53476] = "The Great Sea Scrolls",
 	[57564] = "Mantid Assault Tracker",
 	[57086] = "Legacy of the Mad Mage",
 	[58632] = "Ny'alotha, the Waking City: The Corruptor's End",
+	[49973] = "Thalyssra's Estate",
 	[57118] = "Distorted by the Maw",
 	[52026] = "Overseas Assassination",
+	[52749] = "The War Campaign",
+	[41884] = "Dark Tales",
 	[51030] = "Supplies Needed: Coarse Leather",
+	[49774] = "Won't Leaf Him to Die",
 	[62776] = "Return to Oribos",
 	[62784] = "Charlatans of Ceremony",
 	[61331] = "Return Lost Souls",
@@ -724,6 +802,14 @@ AAPQuestNames = {
 AAP_HoldZoneVar = nil
 AAP_Transport = {
 	["FPs"] = {
+		["Horde"] = {
+			[12] = {
+				["Ririchíyo-AeriePeak"] = {
+					["Conts"] = {
+					},
+				},
+			},
+		},
 		["Alliance"] = {
 			[113] = {
 				["Victoríque-Silvermoon"] = {
@@ -755,15 +841,15 @@ AAP_Transport = {
 						[1550] = 1,
 					},
 					[2584] = 1,
-					[2564] = 1,
-					[2585] = 1,
-					[2518] = 1,
-					[2586] = 1,
 					[2519] = 1,
+					[2585] = 1,
+					[2488] = 1,
+					[2511] = 1,
+					[2564] = 1,
 					[2587] = 1,
 					[2512] = 1,
-					[2511] = 1,
-					[2488] = 1,
+					[2586] = 1,
+					[2518] = 1,
 				},
 				["Akatsúki-Silvermoon"] = {
 					["Conts"] = {
@@ -844,8 +930,8 @@ AAP_Transport = {
 					[2680] = 1,
 					[2558] = 1,
 					[2529] = 1,
-					[2564] = 1,
 					[2626] = 1,
+					[2564] = 1,
 					[2537] = 1,
 					[2630] = 1,
 					[2488] = 1,
@@ -929,6 +1015,15 @@ AAP_Custom = {
 	},
 	["Ririchíyo-Silvermoon"] = {
 	},
+	["Ririchíyo-AeriePeak"] = {
+		nil, -- [1]
+		"(2/6) 10-50 Tanaan Jungle", -- [2]
+		"(3/6) 10-50 Frostfire Ridge", -- [3]
+		"(4/6) 10-50 Gorgrond", -- [4]
+		"(5/6) 10-50 Talador", -- [5]
+		"(6/6) 10-50 Spires of Arak", -- [6]
+		"(7-extra) 10-50 Nagrand", -- [7]
+	},
 	["Sharutía-Silvermoon"] = {
 	},
 	["Iríya-Ravencrest"] = {
@@ -949,6 +1044,9 @@ AAP_ZoneComplete = {
 	["Yóshino-Silvermoon"] = {
 	},
 	["Ririchíyo-Silvermoon"] = {
+	},
+	["Ririchíyo-AeriePeak"] = {
+		["(1/6) 10-50 Orgrimmar"] = 1,
 	},
 	["Sharutía-Silvermoon"] = {
 	},

@@ -1,13 +1,15 @@
 
 MythicDungeonToolsDB = {
 	["profileKeys"] = {
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Kúsano - Silvermoon"] = "Kúsano - Silvermoon",
+		["Ririchíyo - Aerie Peak"] = "Ririchíyo - Aerie Peak",
+		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
+		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
 		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
-		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 	},
 	["global"] = {
 		["colorPaletteInfo"] = {
@@ -75,44 +77,52 @@ MythicDungeonToolsDB = {
 			},
 		},
 		["currentDifficulty"] = 30,
-		["nonFullscreenScale"] = 1,
+		["currentPreset"] = {
+			[29] = 2,
+			[30] = 2,
+			[33] = 2,
+			[36] = 2,
+		},
 		["MDI"] = {
 		},
+		["nonFullscreenScale"] = 1,
 		["maximized"] = false,
+		["currentDungeonIdx"] = 33,
 		["presets"] = {
 			[29] = {
 				{
 					["objects"] = {
 					},
 					["week"] = 3,
+					["difficulty"] = 10,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[3] = {
+							},
 						},
 						["currentDungeonIdx"] = 29,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[3] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
-					},
-					["difficulty"] = 10,
 				}, -- [1]
 				{
 					["objects"] = {
 						{
+							["n"] = true,
 							["d"] = {
 								344.9543592811855, -- [1]
 								-440.5660074473944, -- [2]
@@ -120,9 +130,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Urn", -- [5]
 							},
-							["n"] = true,
 						}, -- [1]
 						{
+							["n"] = true,
 							["d"] = {
 								549.8045841219669, -- [1]
 								-297.119227673929, -- [2]
@@ -130,9 +140,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Urn", -- [5]
 							},
-							["n"] = true,
 						}, -- [2]
 						{
+							["n"] = true,
 							["d"] = {
 								498.0675624527751, -- [1]
 								-250.097513657184, -- [2]
@@ -140,9 +150,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Urn", -- [5]
 							},
-							["n"] = true,
 						}, -- [3]
 						{
+							["n"] = true,
 							["d"] = {
 								432.5374758621586, -- [1]
 								-216.631729590097, -- [2]
@@ -150,14 +160,14 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Urn", -- [5]
 							},
-							["n"] = true,
 						}, -- [4]
 					},
 					["week"] = 9,
+					["difficulty"] = 10,
 					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["numberCustomColors"] = 3,
 						["colorPaletteIdx"] = 6,
+						["numberCustomColors"] = 3,
+						["autoColoring"] = true,
 						["customPaletteValues"] = {
 							{
 								0, -- [1]
@@ -221,9 +231,26 @@ MythicDungeonToolsDB = {
 							}, -- [12]
 						},
 					},
+					["text"] = "Default 2",
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+					},
 					["value"] = {
 						["currentPull"] = 20,
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							[9] = {
+							},
+						},
+						["currentDungeonIdx"] = 29,
+						["teeming"] = false,
+						["selection"] = {
+							20, -- [1]
+						},
 						["pulls"] = {
 							{
 								{
@@ -389,14 +416,14 @@ MythicDungeonToolsDB = {
 							}, -- [12]
 							{
 								["color"] = "003bff",
-								[11] = {
-									2, -- [1]
-								},
 								[8] = {
 									6, -- [1]
 									8, -- [2]
 									5, -- [3]
 									7, -- [4]
+								},
+								[11] = {
+									2, -- [1]
 								},
 							}, -- [13]
 							{
@@ -452,16 +479,16 @@ MythicDungeonToolsDB = {
 									1, -- [1]
 									2, -- [2]
 								},
-								["color"] = "003bff",
+								[21] = {
+									1, -- [1]
+								},
 								[20] = {
 									2, -- [1]
 									1, -- [2]
 									4, -- [3]
 									3, -- [4]
 								},
-								[21] = {
-									1, -- [1]
-								},
+								["color"] = "003bff",
 							}, -- [19]
 							{
 								[24] = {
@@ -562,25 +589,7 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [25]
 						},
-						["currentDungeonIdx"] = 29,
-						["teeming"] = false,
-						["selection"] = {
-							20, -- [1]
-						},
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							[9] = {
-							},
-						},
 					},
-					["text"] = "Default 2",
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-					},
-					["difficulty"] = 10,
 				}, -- [2]
 				{
 					["value"] = 0,
@@ -592,51 +601,51 @@ MythicDungeonToolsDB = {
 					["objects"] = {
 					},
 					["week"] = 3,
+					["difficulty"] = 10,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[3] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 						["currentDungeonIdx"] = 30,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[3] = {
+							},
 						},
 					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
-					["difficulty"] = 10,
 				}, -- [1]
 				{
 					["objects"] = {
 					},
 					["week"] = 10,
-					["difficulty"] = 10,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
-					["text"] = "Qman_HoA",
-					["mdi"] = {
-						["freehold"] = 1,
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-					},
 					["value"] = {
 						["selection"] = {
 							22, -- [1]
 						},
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							[3] = {
+							},
+							[10] = {
+							},
+							[9] = {
+							},
+						},
+						["currentDungeonIdx"] = 30,
+						["teeming"] = false,
+						["currentPull"] = 22,
 						["pulls"] = {
 							{
 								{
@@ -675,11 +684,11 @@ MythicDungeonToolsDB = {
 								[2] = {
 									9, -- [1]
 								},
+								[6] = {
+								},
 								[3] = {
 									17, -- [1]
 									18, -- [2]
-								},
-								[6] = {
 								},
 							}, -- [4]
 							{
@@ -696,14 +705,14 @@ MythicDungeonToolsDB = {
 								[8] = {
 									2, -- [1]
 								},
-								["color"] = "3eff3e",
+								[7] = {
+									2, -- [1]
+								},
 								[4] = {
 									13, -- [1]
 									12, -- [2]
 								},
-								[7] = {
-									2, -- [1]
-								},
+								["color"] = "3eff3e",
 							}, -- [6]
 							{
 								{
@@ -744,14 +753,14 @@ MythicDungeonToolsDB = {
 								[8] = {
 									1, -- [1]
 								},
-								["color"] = "3e3eff",
+								[7] = {
+									1, -- [1]
+								},
 								[4] = {
 									5, -- [1]
 									6, -- [2]
 								},
-								[7] = {
-									1, -- [1]
-								},
+								["color"] = "3e3eff",
 							}, -- [10]
 							{
 								{
@@ -909,18 +918,18 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [22]
 						},
-						["currentDungeonIdx"] = 30,
-						["teeming"] = false,
-						["currentPull"] = 22,
-						["riftOffsets"] = {
-							[3] = {
-							},
-							[10] = {
-							},
-							[9] = {
-							},
-						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "Qman_HoA",
+					["mdi"] = {
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+					},
+					["difficulty"] = 10,
 				}, -- [2]
 				{
 					["value"] = 0,
@@ -931,30 +940,30 @@ MythicDungeonToolsDB = {
 				{
 					["difficulty"] = 10,
 					["week"] = 3,
+					["objects"] = {
+					},
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[3] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 						["currentDungeonIdx"] = 31,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[3] = {
+							},
 						},
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
-					["objects"] = {
 					},
 				}, -- [1]
 			},
@@ -963,35 +972,34 @@ MythicDungeonToolsDB = {
 					["objects"] = {
 					},
 					["week"] = 10,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["difficulty"] = 10,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[10] = {
+							},
 						},
 						["currentDungeonIdx"] = 33,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[10] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
-					},
-					["difficulty"] = 10,
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
 					},
 				}, -- [1]
 				{
 					["objects"] = {
 						{
-							["n"] = true,
 							["d"] = {
 								282.7376726034471, -- [1]
 								-132.8148289175464, -- [2]
@@ -999,9 +1007,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Wait for a good spot in the patrol then walk by", -- [5]
 							},
+							["n"] = true,
 						}, -- [1]
 						{
-							["n"] = true,
 							["d"] = {
 								532.3679436204903, -- [1]
 								-460.1033877096353, -- [2]
@@ -1009,12 +1017,39 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"This may be in a different spot, watch out!", -- [5]
 							},
+							["n"] = true,
 						}, -- [2]
 					},
-					["week"] = 10,
+					["week"] = 12,
+					["mdi"] = {
+						["freehold"] = 1,
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+					},
 					["value"] = {
 						["currentPull"] = 4,
 						["currentSublevel"] = 2,
+						["riftOffsets"] = {
+							[6] = {
+							},
+							[7] = {
+							},
+							[10] = {
+							},
+							[12] = {
+							},
+							[4] = {
+							},
+							[5] = {
+							},
+							[9] = {
+							},
+						},
+						["currentDungeonIdx"] = 33,
+						["teeming"] = false,
+						["selection"] = {
+							4, -- [1]
+						},
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
@@ -1034,11 +1069,11 @@ MythicDungeonToolsDB = {
 									4, -- [1]
 									3, -- [2]
 								},
-								["color"] = "3eff9e",
 								[3] = {
 									2, -- [1]
 									3, -- [2]
 								},
+								["color"] = "3eff9e",
 							}, -- [2]
 							{
 								[5] = {
@@ -1287,17 +1322,17 @@ MythicDungeonToolsDB = {
 							}, -- [24]
 							{
 								["color"] = "ff3e3e",
-								[24] = {
-									1, -- [1]
-									2, -- [2]
+								[5] = {
+									4, -- [1]
+									5, -- [2]
 								},
 								[9] = {
 									16, -- [1]
 									17, -- [2]
 								},
-								[5] = {
-									4, -- [1]
-									5, -- [2]
+								[24] = {
+									1, -- [1]
+									2, -- [2]
 								},
 							}, -- [25]
 							{
@@ -1345,16 +1380,20 @@ MythicDungeonToolsDB = {
 									8, -- [8]
 									9, -- [9]
 								},
-								[12] = {
-									6, -- [1]
-								},
 								[3] = {
 									6, -- [1]
 									5, -- [2]
 								},
+								[12] = {
+									6, -- [1]
+								},
 							}, -- [27]
 							{
 								["color"] = "3eff3e",
+								[5] = {
+									6, -- [1]
+									7, -- [2]
+								},
 								[24] = {
 									7, -- [1]
 									6, -- [2]
@@ -1362,10 +1401,6 @@ MythicDungeonToolsDB = {
 									3, -- [4]
 									4, -- [5]
 									5, -- [6]
-								},
-								[5] = {
-									6, -- [1]
-									7, -- [2]
 								},
 							}, -- [28]
 							{
@@ -1375,36 +1410,12 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [29]
 						},
-						["currentDungeonIdx"] = 33,
-						["teeming"] = false,
-						["selection"] = {
-							4, -- [1]
-						},
-						["riftOffsets"] = {
-							[6] = {
-							},
-							[7] = {
-							},
-							[10] = {
-							},
-							[4] = {
-							},
-							[5] = {
-							},
-							[9] = {
-							},
-						},
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
 					},
 					["text"] = "1.10 SD No Skips by Dratnos",
 					["difficulty"] = 30,
-					["mdi"] = {
-						["freehold"] = 1,
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 				}, -- [2]
 				{
@@ -1423,18 +1434,14 @@ MythicDungeonToolsDB = {
 				{
 					["difficulty"] = 10,
 					["week"] = 1,
+					["mdi"] = {
+						["freehold"] = 1,
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+					},
 					["value"] = {
 						["currentPull"] = 6,
 						["currentSublevel"] = 5,
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-						},
-						["currentDungeonIdx"] = 36,
-						["teeming"] = false,
-						["selection"] = {
-							6, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -1521,14 +1528,14 @@ MythicDungeonToolsDB = {
 							}, -- [8]
 							{
 								["color"] = "00ff00",
+								[18] = {
+									3, -- [1]
+								},
 								[17] = {
 									12, -- [1]
 								},
 								[20] = {
 									1, -- [1]
-								},
-								[18] = {
-									3, -- [1]
 								},
 							}, -- [9]
 							{
@@ -1651,16 +1658,16 @@ MythicDungeonToolsDB = {
 							}, -- [21]
 							{
 								["color"] = "003bff",
+								[8] = {
+									2, -- [1]
+									3, -- [2]
+								},
 								[9] = {
 									4, -- [1]
 									3, -- [2]
 								},
 								[12] = {
 									1, -- [1]
-								},
-								[8] = {
-									2, -- [1]
-									3, -- [2]
 								},
 							}, -- [22]
 							{
@@ -1682,11 +1689,33 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [25]
 						},
+						["currentDungeonIdx"] = 36,
+						["teeming"] = false,
+						["selection"] = {
+							6, -- [1]
+						},
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+						},
+					},
+					["text"] = "Default 2",
+					["objects"] = {
+						{
+							["n"] = true,
+							["d"] = {
+								435.8035385973064, -- [1]
+								-246.3537763016745, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"DK pet for later", -- [5]
+							},
+						}, -- [1]
 					},
 					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["numberCustomColors"] = 3,
 						["colorPaletteIdx"] = 6,
+						["numberCustomColors"] = 3,
+						["autoColoring"] = true,
 						["customPaletteValues"] = {
 							{
 								0, -- [1]
@@ -1750,24 +1779,6 @@ MythicDungeonToolsDB = {
 							}, -- [12]
 						},
 					},
-					["text"] = "Default 2",
-					["objects"] = {
-						{
-							["d"] = {
-								435.8035385973064, -- [1]
-								-246.3537763016745, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"DK pet for later", -- [5]
-							},
-							["n"] = true,
-						}, -- [1]
-					},
-					["mdi"] = {
-						["freehold"] = 1,
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-					},
 				}, -- [2]
 				{
 					["value"] = 0,
@@ -1787,13 +1798,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 174197,
+					["scale"] = 1,
 					["health"] = 72090,
-					["name"] = "Battlefield Ritualist",
 					["displayId"] = 98696,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1,
+					["name"] = "Battlefield Ritualist",
 				}, -- [1]
 				{
 					["clones"] = {
@@ -1806,19 +1817,19 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 415.95011330293,
-							["inspiring"] = true,
-							["g"] = 1,
 							["y"] = -378.82713636876,
+							["g"] = 1,
+							["inspiring"] = true,
 						}, -- [2]
 					},
 					["id"] = 170838,
+					["scale"] = 1,
 					["health"] = 92115,
-					["name"] = "Unyielding Contender",
 					["displayId"] = 95570,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1,
+					["name"] = "Unyielding Contender",
 				}, -- [2]
 				{
 					["clones"] = {
@@ -1830,13 +1841,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 170850,
+					["scale"] = 1.4,
 					["health"] = 144180,
-					["name"] = "Raging Bloodhorn",
 					["displayId"] = 96471,
 					["creatureType"] = "Beast",
 					["level"] = 60,
 					["count"] = 7,
-					["scale"] = 1.4,
+					["name"] = "Raging Bloodhorn",
 				}, -- [3]
 				{
 					["clones"] = {
@@ -1851,13 +1862,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2397,
 					["instanceID"] = 1187,
+					["scale"] = 1,
 					["name"] = "Dessia the Decapitator",
-					["health"] = 288360,
 					["displayId"] = 96820,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1,
+					["health"] = 288360,
 				}, -- [4]
 				{
 					["clones"] = {
@@ -1872,13 +1883,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2397,
 					["instanceID"] = 1187,
+					["scale"] = 1,
 					["name"] = "Paceran the Virulent",
-					["health"] = 256320,
 					["displayId"] = 98081,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1,
+					["health"] = 256320,
 				}, -- [5]
 				{
 					["clones"] = {
@@ -1893,13 +1904,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2397,
 					["instanceID"] = 1187,
+					["scale"] = 1,
 					["name"] = "Sathel the Accursed",
-					["health"] = 224280,
 					["displayId"] = 98082,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1,
+					["health"] = 224280,
 				}, -- [6]
 				{
 					["clones"] = {
@@ -1911,13 +1922,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 164464,
+					["scale"] = 1.3,
 					["health"] = 96120,
-					["name"] = "Xira the Underhanded",
 					["displayId"] = 96440,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1.3,
+					["name"] = "Xira the Underhanded",
 				}, -- [7]
 				{
 					["clones"] = {
@@ -1941,13 +1952,13 @@ MythicDungeonToolsDB = {
 						}, -- [3]
 					},
 					["id"] = 164510,
+					["scale"] = 1.4,
 					["health"] = 68085,
-					["name"] = "Shambling Arbalest",
 					["displayId"] = 96212,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1.4,
+					["name"] = "Shambling Arbalest",
 				}, -- [8]
 				{
 					["clones"] = {
@@ -1960,9 +1971,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 342.01968864097,
-							["inspiring"] = true,
-							["g"] = 3,
 							["y"] = -300.98918764544,
+							["g"] = 3,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["y"] = -331.15964712066,
@@ -1978,13 +1989,13 @@ MythicDungeonToolsDB = {
 						}, -- [4]
 					},
 					["id"] = 167994,
+					["scale"] = 1.4,
 					["health"] = 80100,
-					["name"] = "Ossified Conscript",
 					["displayId"] = 96253,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1.4,
+					["name"] = "Ossified Conscript",
 				}, -- [9]
 				{
 					["clones"] = {
@@ -1995,13 +2006,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 167538,
+					["scale"] = 2,
 					["health"] = 256320,
-					["name"] = "Dokigg the Brutalizer",
 					["displayId"] = 97488,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 20,
-					["scale"] = 2,
+					["name"] = "Dokigg the Brutalizer",
 				}, -- [10]
 				{
 					["clones"] = {
@@ -2012,32 +2023,32 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 167536,
+					["scale"] = 2,
 					["health"] = 256320,
-					["name"] = "Harugia the Bloodthirsty",
 					["displayId"] = 95969,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 20,
-					["scale"] = 2,
+					["name"] = "Harugia the Bloodthirsty",
 				}, -- [11]
 				{
 					["clones"] = {
 						{
 							["sublevel"] = 2,
 							["x"] = 540.18588235294,
-							["inspiring"] = true,
-							["g"] = 4,
 							["y"] = -341.25970588235,
+							["g"] = 4,
+							["inspiring"] = true,
 						}, -- [1]
 					},
 					["id"] = 164506,
+					["scale"] = 1.4,
 					["health"] = 96120,
-					["name"] = "Ancient Captain",
 					["displayId"] = 96489,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 5,
-					["scale"] = 1.4,
+					["name"] = "Ancient Captain",
 				}, -- [12]
 				{
 					["clones"] = {
@@ -2048,13 +2059,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 167533,
+					["scale"] = 2,
 					["health"] = 256320,
-					["name"] = "Advent Nevermore",
 					["displayId"] = 95966,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 20,
-					["scale"] = 2,
+					["name"] = "Advent Nevermore",
 				}, -- [13]
 				{
 					["clones"] = {
@@ -2068,13 +2079,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2390,
 					["instanceID"] = 1187,
+					["scale"] = 1.6,
 					["name"] = "Xav the Unfallen",
-					["health"] = 560700,
 					["displayId"] = 95439,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1.6,
+					["health"] = 560700,
 				}, -- [14]
 				{
 					["clones"] = {
@@ -2099,9 +2110,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 3,
 							["x"] = 568.77036871258,
-							["inspiring"] = true,
-							["g"] = 6,
 							["y"] = -446.99419148851,
+							["g"] = 6,
+							["inspiring"] = true,
 						}, -- [4]
 						{
 							["y"] = -444.17811518964,
@@ -2142,9 +2153,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 3,
 							["x"] = 539.45647000001,
-							["inspiring"] = true,
-							["g"] = 8,
 							["y"] = -380.64675527127,
+							["g"] = 8,
+							["inspiring"] = true,
 						}, -- [11]
 						{
 							["y"] = -392.57546897264,
@@ -2226,13 +2237,13 @@ MythicDungeonToolsDB = {
 						}, -- [24]
 					},
 					["id"] = 169875,
+					["scale"] = 1,
 					["health"] = 48060,
-					["name"] = "Shackled Soul",
 					["displayId"] = 90428,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 2,
-					["scale"] = 1,
+					["name"] = "Shackled Soul",
 				}, -- [15]
 				{
 					["clones"] = {
@@ -2249,13 +2260,13 @@ MythicDungeonToolsDB = {
 						}, -- [2]
 					},
 					["id"] = 167998,
+					["scale"] = 1.6,
 					["health"] = 120150,
-					["name"] = "Portal Guardian",
 					["displayId"] = 96442,
 					["creatureType"] = "Elemental",
 					["level"] = 60,
 					["count"] = 8,
-					["scale"] = 1.6,
+					["name"] = "Portal Guardian",
 				}, -- [16]
 				{
 					["clones"] = {
@@ -2274,9 +2285,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 3,
 							["x"] = 223.4363635099,
-							["inspiring"] = true,
-							["g"] = 11,
 							["y"] = -234.02753274733,
+							["g"] = 11,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["y"] = -205.97517241379,
@@ -2334,13 +2345,13 @@ MythicDungeonToolsDB = {
 						}, -- [12]
 					},
 					["id"] = 170882,
+					["scale"] = 1,
 					["health"] = 40050,
-					["name"] = "Bone Magus",
 					["displayId"] = 97410,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1,
+					["name"] = "Bone Magus",
 				}, -- [17]
 				{
 					["clones"] = {
@@ -2371,9 +2382,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 3,
 							["x"] = 356.15579768471,
-							["inspiring"] = true,
-							["g"] = 16,
 							["y"] = -82.062208302467,
+							["g"] = 16,
+							["inspiring"] = true,
 						}, -- [5]
 						{
 							["y"] = -302.58528999302,
@@ -2383,13 +2394,13 @@ MythicDungeonToolsDB = {
 						}, -- [6]
 					},
 					["id"] = 160495,
+					["scale"] = 1.3,
 					["health"] = 72090,
-					["name"] = "Maniacal Soulbinder",
 					["displayId"] = 95233,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1.3,
+					["name"] = "Maniacal Soulbinder",
 				}, -- [18]
 				{
 					["clones"] = {
@@ -2401,13 +2412,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 162763,
+					["scale"] = 1.6,
 					["health"] = 160200,
-					["name"] = "Soulforged Bonereaver",
 					["displayId"] = 94812,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 8,
-					["scale"] = 1.6,
+					["name"] = "Soulforged Bonereaver",
 				}, -- [19]
 				{
 					["clones"] = {
@@ -2431,13 +2442,13 @@ MythicDungeonToolsDB = {
 						}, -- [3]
 					},
 					["id"] = 169893,
+					["scale"] = 1.6,
 					["health"] = 112140,
-					["name"] = "Nefarious Darkspeaker",
 					["displayId"] = 97011,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 6,
-					["scale"] = 1.6,
+					["name"] = "Nefarious Darkspeaker",
 				}, -- [20]
 				{
 					["clones"] = {
@@ -2451,13 +2462,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2389,
 					["instanceID"] = 1187,
+					["scale"] = 1.3,
 					["name"] = "Kul'tharok",
-					["health"] = 672840,
 					["displayId"] = 96088,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1.3,
+					["health"] = 672840,
 				}, -- [21]
 				{
 					["clones"] = {
@@ -2476,9 +2487,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 4,
 							["x"] = 387.1448303954,
-							["inspiring"] = true,
-							["g"] = 23,
 							["y"] = -302.72470508315,
+							["g"] = 23,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["y"] = -280.10958070002,
@@ -2500,22 +2511,22 @@ MythicDungeonToolsDB = {
 						}, -- [6]
 					},
 					["id"] = 174210,
+					["scale"] = 1.3,
 					["health"] = 64080,
-					["name"] = "Blighted Sludge-Spewer",
 					["displayId"] = 95559,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1.3,
+					["name"] = "Blighted Sludge-Spewer",
 				}, -- [22]
 				{
 					["clones"] = {
 						{
 							["sublevel"] = 4,
 							["x"] = 599.27764418327,
-							["inspiring"] = true,
-							["g"] = 21,
 							["y"] = -343.81046655103,
+							["g"] = 21,
+							["inspiring"] = true,
 						}, -- [1]
 						{
 							["y"] = -347.1248582832,
@@ -2603,13 +2614,13 @@ MythicDungeonToolsDB = {
 						}, -- [15]
 					},
 					["id"] = 163089,
+					["scale"] = 1,
 					["health"] = 20025,
-					["name"] = "Disgusting Refuse",
 					["displayId"] = 94761,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 1,
-					["scale"] = 1,
+					["name"] = "Disgusting Refuse",
 				}, -- [23]
 				{
 					["clones"] = {
@@ -2621,9 +2632,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 5,
 							["x"] = 256.26178173145,
-							["inspiring"] = true,
-							["g"] = 24,
 							["y"] = -233.66050126322,
+							["g"] = 24,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["y"] = -306.46483030005,
@@ -2633,13 +2644,13 @@ MythicDungeonToolsDB = {
 						}, -- [3]
 					},
 					["id"] = 170690,
+					["scale"] = 1.7,
 					["health"] = 80100,
-					["name"] = "Diseased Horror",
 					["displayId"] = 97117,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 4,
-					["scale"] = 1.7,
+					["name"] = "Diseased Horror",
 				}, -- [24]
 				{
 					["clones"] = {
@@ -2702,13 +2713,13 @@ MythicDungeonToolsDB = {
 						}, -- [4]
 					},
 					["id"] = 169927,
+					["scale"] = 1.7,
 					["health"] = 96120,
-					["name"] = "Putrid Butcher",
 					["displayId"] = 97116,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 5,
-					["scale"] = 1.7,
+					["name"] = "Putrid Butcher",
 				}, -- [25]
 				{
 					["clones"] = {
@@ -2813,13 +2824,13 @@ MythicDungeonToolsDB = {
 						}, -- [3]
 					},
 					["id"] = 163086,
+					["scale"] = 2,
 					["health"] = 152190,
-					["name"] = "Rancid Gasbag",
 					["displayId"] = 97161,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 8,
-					["scale"] = 2,
+					["name"] = "Rancid Gasbag",
 				}, -- [26]
 				{
 					["clones"] = {
@@ -2833,13 +2844,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2401,
 					["instanceID"] = 1187,
+					["scale"] = 1.7,
 					["name"] = "Gorechop",
-					["health"] = 560700,
 					["displayId"] = 95106,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1.7,
+					["health"] = 560700,
 				}, -- [27]
 				{
 					["clones"] = {
@@ -2853,13 +2864,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2417,
 					["instanceID"] = 1187,
+					["scale"] = 1,
 					["name"] = "Mordretha, the Endless Empress",
-					["health"] = 640800,
 					["displayId"] = 96078,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["count"] = 0,
-					["scale"] = 1,
+					["health"] = 640800,
 				}, -- [28]
 				{
 					["clones"] = {
@@ -2870,13 +2881,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["scale"] = 2,
+					["health"] = 256320,
 					["name"] = "Nekthara the Mangler",
-					["count"] = 20,
 					["displayId"] = 97489,
 					["creatureType"] = "Humanoid",
 					["level"] = 61,
 					["id"] = 162744,
-					["health"] = 256320,
+					["count"] = 20,
 				}, -- [29]
 				{
 					["clones"] = {
@@ -2887,13 +2898,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["scale"] = 2,
+					["health"] = 256320,
 					["name"] = "Heavin the Breaker",
-					["count"] = 20,
 					["displayId"] = 97490,
 					["creatureType"] = "Humanoid",
 					["level"] = 61,
 					["id"] = 167532,
-					["health"] = 256320,
+					["count"] = 20,
 				}, -- [30]
 				{
 					["clones"] = {
@@ -2904,13 +2915,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["scale"] = 2,
+					["health"] = 256320,
 					["name"] = "Rek the Hardened",
-					["count"] = 20,
 					["displayId"] = 96829,
 					["creatureType"] = "Humanoid",
 					["level"] = 61,
 					["id"] = 167534,
-					["health"] = 256320,
+					["count"] = 20,
 				}, -- [31]
 			},
 			[31] = {
@@ -3085,9 +3096,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -218.86009082913,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 8,
 							["x"] = 724.72843450479,
+							["g"] = 8,
+							["sublevel"] = 1,
 						}, -- [11]
 						{
 							["y"] = -216.65184575943,
@@ -3106,9 +3117,9 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[322968] = {
+						[288865] = {
 						},
-						[323043] = {
+						[320297] = {
 						},
 						[224729] = {
 						},
@@ -3116,18 +3127,11 @@ MythicDungeonToolsDB = {
 						},
 						[322967] = {
 						},
-						[320297] = {
+						[323043] = {
 						},
-						[288865] = {
+						[322968] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 2,
-					["name"] = "Drust Spiteclaw",
-					["displayId"] = 86207,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 40050,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -3141,6 +3145,13 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Fear"] = true,
 					},
+					["health"] = 40050,
+					["count"] = 2,
+					["displayId"] = 86207,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Drust Spiteclaw",
+					["scale"] = 1,
 				}, -- [1]
 				{
 					["clones"] = {
@@ -3190,16 +3201,16 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["stealthDetect"] = true,
-					["id"] = 164929,
-					["name"] = "Tirnenn Villager",
-					["count"] = 7,
-					["displayId"] = 95618,
-					["creatureType"] = "Elemental",
-					["level"] = 60,
-					["health"] = 192240,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["health"] = 192240,
+					["name"] = "Tirnenn Villager",
+					["displayId"] = 95618,
+					["creatureType"] = "Elemental",
+					["level"] = 60,
+					["count"] = 7,
+					["id"] = 164929,
 				}, -- [2]
 				{
 					["clones"] = {
@@ -3212,9 +3223,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 734.43450479233,
-							["inspiring"] = true,
-							["g"] = 3,
 							["y"] = -122.64924181963,
+							["g"] = 3,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["y"] = -104.15147490534,
@@ -3255,9 +3266,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -153.85731387527,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 10,
 							["x"] = 661.2268370607,
+							["g"] = 10,
+							["sublevel"] = 1,
 						}, -- [9]
 						{
 							["y"] = -150.59223577699,
@@ -3280,37 +3291,37 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[322569] = {
+						[324859] = {
 						},
 						[320297] = {
 						},
 						[326868] = {
 						},
-						[324859] = {
+						[322569] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Drust Soulcleaver",
-					["displayId"] = 95612,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 72090,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Imprison"] = true,
+						["Repentance"] = true,
+						["Mind Control"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
 						["Silence"] = true,
+						["Stun"] = true,
 						["Slow"] = true,
-						["Mind Control"] = true,
-						["Repentance"] = true,
+						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 72090,
+					["count"] = 4,
+					["displayId"] = 95612,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Drust Soulcleaver",
+					["scale"] = 1,
 				}, -- [3]
 				{
 					["clones"] = {
@@ -3335,9 +3346,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -169.08351920718,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 7,
 							["x"] = 743.91693290735,
+							["g"] = 7,
+							["sublevel"] = 1,
 						}, -- [4]
 						{
 							["y"] = -178.29477824649,
@@ -3370,7 +3381,7 @@ MythicDungeonToolsDB = {
 						},
 						[322938] = {
 						},
-						[317898] = {
+						[121308] = {
 						},
 						[35079] = {
 						},
@@ -3380,43 +3391,43 @@ MythicDungeonToolsDB = {
 						},
 						[322767] = {
 						},
-						[224729] = {
+						[325748] = {
 						},
 						[201657] = {
 						},
-						[326319] = {
+						[224729] = {
 						},
 						[326868] = {
 						},
 						[320297] = {
 						},
-						[325748] = {
+						[326319] = {
 						},
-						[121308] = {
+						[317898] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Drust Harvester",
-					["displayId"] = 95613,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 72090,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Imprison"] = true,
+						["Repentance"] = true,
+						["Mind Control"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
 						["Stun"] = true,
+						["Silence"] = true,
 						["Slow"] = true,
-						["Mind Control"] = true,
-						["Repentance"] = true,
+						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 72090,
+					["count"] = 4,
+					["displayId"] = 95613,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Drust Harvester",
+					["scale"] = 1,
 				}, -- [4]
 				{
 					["clones"] = {
@@ -3449,31 +3460,31 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[324922] = {
 						},
-						[325027] = {
-						},
-						[288865] = {
-						},
-						[324923] = {
-						},
-						[324909] = {
-						},
-						[132951] = {
+						[324859] = {
 						},
 						[326868] = {
 						},
-						[324859] = {
+						[324909] = {
+						},
+						[324923] = {
+						},
+						[132951] = {
+						},
+						[288865] = {
+						},
+						[325027] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 6,
-					["name"] = "Drust Boughbreaker",
-					["displayId"] = 95615,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 136170,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["health"] = 136170,
+					["count"] = 6,
+					["displayId"] = 95615,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Drust Boughbreaker",
+					["scale"] = 1,
 				}, -- [5]
 				{
 					["clones"] = {
@@ -3483,8 +3494,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["scale"] = 1,
-					["id"] = 164567,
 					["spells"] = {
 						[321010] = {
 						},
@@ -3496,9 +3509,9 @@ MythicDungeonToolsDB = {
 						},
 						[323138] = {
 						},
-						[323146] = {
+						[132951] = {
 						},
-						[328756] = {
+						[323146] = {
 						},
 						[321005] = {
 						},
@@ -3510,21 +3523,19 @@ MythicDungeonToolsDB = {
 						},
 						[321006] = {
 						},
-						[132951] = {
+						[328756] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2400,
 					["instanceID"] = 1184,
+					["health"] = 961200,
 					["name"] = "Ingra Maloch",
-					["count"] = 0,
 					["displayId"] = 95497,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 961200,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 164567,
 				}, -- [6]
 				{
 					["clones"] = {
@@ -3538,7 +3549,7 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[321772] = {
 						},
-						[323137] = {
+						[326868] = {
 						},
 						[288865] = {
 						},
@@ -3550,19 +3561,19 @@ MythicDungeonToolsDB = {
 						},
 						[323177] = {
 						},
-						[326868] = {
+						[323137] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 0,
-					["name"] = "Droman Oulfarran",
-					["displayId"] = 95564,
-					["creatureType"] = "Elemental",
-					["level"] = 60,
-					["health"] = 224280,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["health"] = 224280,
+					["count"] = 0,
+					["displayId"] = 95564,
+					["creatureType"] = "Elemental",
+					["level"] = 60,
+					["name"] = "Droman Oulfarran",
+					["scale"] = 1,
 				}, -- [7]
 				{
 					["clones"] = {
@@ -3575,9 +3586,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -226.7915197378,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 13,
 							["x"] = 562.196083724,
+							["g"] = 13,
+							["sublevel"] = 1,
 						}, -- [2]
 						{
 							["y"] = -276.15073604898,
@@ -3618,9 +3629,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 490.85862653514,
-							["y"] = -210.90529134184,
-							["g"] = 21,
 							["inspiring"] = true,
+							["g"] = 21,
+							["y"] = -210.90529134184,
 						}, -- [9]
 						{
 							["y"] = -176.75826703278,
@@ -3695,36 +3706,36 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[331718] = {
+						[320297] = {
 						},
 						[324737] = {
 						},
 						[326868] = {
 						},
-						[320297] = {
+						[331718] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Mistveil Defender",
-					["displayId"] = 95256,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 92115,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Repentance"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
 						["Imprison"] = true,
-						["Repentance"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 92115,
+					["count"] = 4,
+					["displayId"] = 95256,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Mistveil Defender",
+					["scale"] = 1,
 				}, -- [8]
 				{
 					["clones"] = {
@@ -3809,18 +3820,11 @@ MythicDungeonToolsDB = {
 						},
 						[320297] = {
 						},
-						[132951] = {
-						},
 						[326868] = {
 						},
+						[132951] = {
+						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Mistveil Stalker",
-					["displayId"] = 93762,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 72090,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -3828,12 +3832,19 @@ MythicDungeonToolsDB = {
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Silence"] = true,
 						["Slow"] = true,
 						["Stun"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 72090,
+					["count"] = 4,
+					["displayId"] = 93762,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Mistveil Stalker",
+					["scale"] = 1,
 				}, -- [9]
 				{
 					["clones"] = {
@@ -3852,9 +3863,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 454.87070884858,
-							["inspiring"] = true,
-							["g"] = 19,
 							["y"] = -273.34277691405,
+							["g"] = 19,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["y"] = -159.03621708188,
@@ -3883,22 +3894,15 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[325224] = {
+						[325223] = {
 						},
 						[320297] = {
 						},
 						[326868] = {
 						},
-						[325223] = {
+						[325224] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Mistveil Stinger",
-					["displayId"] = 95198,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 64080,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -3906,12 +3910,19 @@ MythicDungeonToolsDB = {
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Silence"] = true,
 						["Slow"] = true,
 						["Stun"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 64080,
+					["count"] = 4,
+					["displayId"] = 95198,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Mistveil Stinger",
+					["scale"] = 1,
 				}, -- [10]
 				{
 					["clones"] = {
@@ -3966,9 +3977,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 396.55506619545,
-							["y"] = -199.49650611763,
-							["g"] = 23,
 							["inspiring"] = true,
+							["g"] = 23,
+							["y"] = -199.49650611763,
 						}, -- [9]
 						{
 							["y"] = -206.34936399929,
@@ -3985,9 +3996,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 527.62344445229,
-							["y"] = -138.5741311695,
-							["g"] = 25,
 							["inspiring"] = true,
+							["g"] = 25,
+							["y"] = -138.5741311695,
 						}, -- [12]
 						{
 							["y"] = -154.97747951695,
@@ -4008,40 +4019,40 @@ MythicDungeonToolsDB = {
 						},
 						[331748] = {
 						},
-						[132951] = {
+						[324742] = {
 						},
 						[224729] = {
 						},
-						[317898] = {
+						[326868] = {
 						},
 						[320297] = {
 						},
-						[326868] = {
+						[317898] = {
 						},
-						[324742] = {
+						[132951] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Mistveil Guardian",
-					["displayId"] = 95261,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 88110,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Repentance"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
 						["Imprison"] = true,
-						["Repentance"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 88110,
+					["count"] = 4,
+					["displayId"] = 95261,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Mistveil Guardian",
+					["scale"] = 1,
 				}, -- [11]
 				{
 					["clones"] = {
@@ -4060,9 +4071,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 448.62417832755,
-							["y"] = -323.95612204626,
-							["g"] = 16,
 							["inspiring"] = true,
+							["g"] = 16,
+							["y"] = -323.95612204626,
 						}, -- [3]
 						{
 							["y"] = -304.46821882638,
@@ -4103,9 +4114,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 436.88567111215,
-							["y"] = -232.01052513634,
-							["g"] = 24,
 							["inspiring"] = true,
+							["g"] = 24,
+							["y"] = -232.01052513634,
 						}, -- [10]
 						{
 							["y"] = -91.835675648506,
@@ -4131,13 +4142,6 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Mistveil Tender",
-					["displayId"] = 95908,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 76095,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -4145,12 +4149,19 @@ MythicDungeonToolsDB = {
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Silence"] = true,
 						["Slow"] = true,
 						["Stun"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 76095,
+					["count"] = 4,
+					["displayId"] = 95908,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Mistveil Tender",
+					["scale"] = 1,
 				}, -- [12]
 				{
 					["clones"] = {
@@ -4228,27 +4239,27 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Mistveil Shaper",
-					["displayId"] = 95051,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 84105,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Repentance"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Imprison"] = true,
-						["Repentance"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 84105,
+					["count"] = 4,
+					["displayId"] = 95051,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Mistveil Shaper",
+					["scale"] = 1,
 				}, -- [13]
 				{
 					["clones"] = {
@@ -4273,16 +4284,16 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["scale"] = 1.4,
-					["count"] = 16,
-					["name"] = "Mistveil Nightblossom",
-					["displayId"] = 55772,
-					["creatureType"] = "Elemental",
-					["level"] = 60,
-					["health"] = 320400,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["health"] = 320400,
+					["count"] = 16,
+					["displayId"] = 55772,
+					["creatureType"] = "Elemental",
+					["level"] = 60,
+					["name"] = "Mistveil Nightblossom",
+					["scale"] = 1.4,
 				}, -- [14]
 				{
 					["clones"] = {
@@ -4292,8 +4303,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["scale"] = 1,
-					["id"] = 164501,
 					["spells"] = {
 						[288865] = {
 						},
@@ -4303,13 +4316,13 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[321828] = {
-						},
-						[341709] = {
+						[326868] = {
 						},
 						[336759] = {
 						},
 						[321834] = {
+						},
+						[341709] = {
 						},
 						[132466] = {
 						},
@@ -4317,21 +4330,19 @@ MythicDungeonToolsDB = {
 						},
 						[321471] = {
 						},
-						[326868] = {
+						[321828] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2402,
 					["instanceID"] = 1184,
+					["health"] = 560700,
 					["name"] = "Mistcaller",
-					["count"] = 0,
 					["displayId"] = 96451,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 560700,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 164501,
 				}, -- [15]
 				{
 					["clones"] = {
@@ -4391,16 +4402,16 @@ MythicDungeonToolsDB = {
 						[340544] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 5,
-					["name"] = "Spinemaw Staghorn",
-					["displayId"] = 94190,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 96120,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["health"] = 96120,
+					["count"] = 5,
+					["displayId"] = 94190,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Spinemaw Staghorn",
+					["scale"] = 1,
 				}, -- [16]
 				{
 					["clones"] = {
@@ -4449,9 +4460,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 242.63865578527,
-							["inspiring"] = true,
-							["g"] = 36,
 							["y"] = -350.41728636588,
+							["g"] = 36,
+							["inspiring"] = true,
 						}, -- [8]
 						{
 							["y"] = -340.79569034318,
@@ -4501,27 +4512,27 @@ MythicDungeonToolsDB = {
 						[201657] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Spinemaw Acidgullet",
-					["displayId"] = 94205,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 80100,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 80100,
+					["count"] = 4,
+					["displayId"] = 94205,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Spinemaw Acidgullet",
+					["scale"] = 1,
 				}, -- [17]
 				{
 					["clones"] = {
@@ -4540,9 +4551,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 227.54388692983,
-							["inspiring"] = true,
-							["g"] = 33,
 							["y"] = -433.22213957064,
+							["g"] = 33,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["y"] = -431.02640606762,
@@ -4609,32 +4620,32 @@ MythicDungeonToolsDB = {
 						},
 						[336407] = {
 						},
-						[326021] = {
-						},
 						[320297] = {
 						},
+						[326021] = {
+						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Spinemaw Gorger",
-					["displayId"] = 94197,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 80100,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 80100,
+					["count"] = 4,
+					["displayId"] = 94197,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Spinemaw Gorger",
+					["scale"] = 1,
 				}, -- [18]
 				{
 					["clones"] = {
@@ -4671,9 +4682,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 288.10690576578,
-							["inspiring"] = true,
-							["g"] = 30,
 							["y"] = -386.80690446101,
+							["g"] = 30,
+							["inspiring"] = true,
 						}, -- [6]
 						{
 							["y"] = -439.79024826278,
@@ -4714,9 +4725,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 238.98033974052,
-							["inspiring"] = true,
-							["g"] = 38,
 							["y"] = -299.70769548024,
+							["g"] = 38,
+							["inspiring"] = true,
 						}, -- [13]
 						{
 							["y"] = -301.65904685897,
@@ -4763,9 +4774,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -341.48873731284,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 40,
 							["x"] = 152.19753656149,
+							["g"] = 40,
+							["sublevel"] = 1,
 						}, -- [21]
 						{
 							["y"] = -335.92225214057,
@@ -4799,27 +4810,27 @@ MythicDungeonToolsDB = {
 						[326018] = {
 						},
 					},
-					["scale"] = 0.6,
-					["count"] = 1,
-					["name"] = "Spinemaw Larva",
-					["displayId"] = 94208,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 16020,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Mind Control"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 16020,
+					["count"] = 1,
+					["displayId"] = 94208,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Spinemaw Larva",
+					["scale"] = 0.6,
 				}, -- [19]
 				{
 					["clones"] = {
@@ -4834,18 +4845,18 @@ MythicDungeonToolsDB = {
 							["x"] = 246.49360986455,
 							["patrol"] = {
 							},
-							["inspiring"] = true,
-							["g"] = 31,
 							["y"] = -375.27209742022,
+							["g"] = 31,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["sublevel"] = 1,
 							["x"] = 227.95541533445,
 							["patrol"] = {
 							},
-							["inspiring"] = true,
-							["g"] = 37,
 							["y"] = -321.35706954182,
+							["g"] = 37,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["y"] = -325.42986634963,
@@ -4927,27 +4938,27 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Spinemaw Reaver",
-					["displayId"] = 95692,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 64080,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 64080,
+					["count"] = 4,
+					["displayId"] = 95692,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Spinemaw Reaver",
+					["scale"] = 1,
 				}, -- [20]
 				{
 					["clones"] = {
@@ -4957,8 +4968,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["scale"] = 1,
-					["id"] = 164517,
 					["spells"] = {
 						[343724] = {
 						},
@@ -5142,7 +5155,7 @@ MythicDungeonToolsDB = {
 						},
 						[102359] = {
 						},
-						[260369] = {
+						[325203] = {
 						},
 						[331016] = {
 						},
@@ -5150,7 +5163,7 @@ MythicDungeonToolsDB = {
 						},
 						[316099] = {
 						},
-						[331866] = {
+						[190925] = {
 						},
 						[211793] = {
 						},
@@ -5158,53 +5171,53 @@ MythicDungeonToolsDB = {
 						},
 						[324260] = {
 						},
-						[132951] = {
+						[307871] = {
 						},
 						[212431] = {
 						},
 						[271920] = {
 						},
-						[35079] = {
+						[32390] = {
 						},
 						[329127] = {
 						},
 						[255909] = {
 						},
-						[108366] = {
+						[271788] = {
 						},
 						[321712] = {
 						},
 						[228354] = {
 						},
-						[226757] = {
+						[78675] = {
 						},
 						[8122] = {
 						},
 						[198590] = {
 						},
-						[64044] = {
+						[8680] = {
 						},
 						[105771] = {
 						},
-						[191587] = {
+						[14914] = {
 						},
-						[157736] = {
+						[337255] = {
 						},
 						[87204] = {
-						},
-						[79140] = {
-						},
-						[206760] = {
-						},
-						[164812] = {
-						},
-						[146739] = {
-						},
-						[322098] = {
 						},
 						[205708] = {
 						},
 						[105421] = {
+						},
+						[191587] = {
+						},
+						[146739] = {
+						},
+						[157736] = {
+						},
+						[79140] = {
+						},
+						[206760] = {
 						},
 						[204242] = {
 						},
@@ -5212,11 +5225,11 @@ MythicDungeonToolsDB = {
 						},
 						[325733] = {
 						},
-						[853] = {
+						[132169] = {
 						},
 						[77505] = {
 						},
-						[312321] = {
+						[321973] = {
 						},
 						[15487] = {
 						},
@@ -5224,9 +5237,9 @@ MythicDungeonToolsDB = {
 						},
 						[55078] = {
 						},
-						[12654] = {
+						[51490] = {
 						},
-						[281721] = {
+						[324073] = {
 						},
 						[117526] = {
 						},
@@ -5234,41 +5247,41 @@ MythicDungeonToolsDB = {
 						},
 						[58180] = {
 						},
-						[61391] = {
+						[6788] = {
 						},
-						[337251] = {
+						[328275] = {
 						},
 						[257284] = {
 						},
 						[17877] = {
 						},
-						[135299] = {
+						[316220] = {
 						},
 						[164815] = {
 						},
 						[322550] = {
 						},
-						[322614] = {
-						},
-						[322654] = {
-						},
-						[255723] = {
-						},
-						[337249] = {
-						},
-						[45524] = {
-						},
-						[115078] = {
+						[135299] = {
 						},
 						[25771] = {
 						},
-						[316220] = {
+						[255723] = {
+						},
+						[115078] = {
+						},
+						[45524] = {
+						},
+						[337249] = {
+						},
+						[322654] = {
+						},
+						[322614] = {
 						},
 						[339] = {
 						},
-						[328275] = {
+						[337251] = {
 						},
-						[6788] = {
+						[61391] = {
 						},
 						[118699] = {
 						},
@@ -5276,15 +5289,15 @@ MythicDungeonToolsDB = {
 						},
 						[2818] = {
 						},
-						[324073] = {
+						[281721] = {
 						},
-						[51490] = {
+						[12654] = {
 						},
-						[321973] = {
+						[312321] = {
 						},
 						[273977] = {
 						},
-						[132169] = {
+						[853] = {
 						},
 						[5116] = {
 						},
@@ -5292,45 +5305,43 @@ MythicDungeonToolsDB = {
 						},
 						[55095] = {
 						},
-						[337255] = {
+						[322098] = {
 						},
-						[14914] = {
+						[164812] = {
 						},
-						[8680] = {
+						[64044] = {
 						},
 						[1161] = {
 						},
-						[78675] = {
+						[226757] = {
 						},
 						[226943] = {
 						},
-						[271788] = {
+						[108366] = {
 						},
 						[337220] = {
 						},
-						[32390] = {
+						[35079] = {
 						},
 						[132466] = {
 						},
-						[307871] = {
+						[132951] = {
 						},
-						[190925] = {
+						[331866] = {
 						},
-						[325203] = {
+						[260369] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2405,
 					["instanceID"] = 1184,
+					["health"] = 560700,
 					["name"] = "Tred'ova",
-					["count"] = 0,
 					["displayId"] = 95809,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["health"] = 560700,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 164517,
 				}, -- [21]
 				{
 					["clones"] = {
@@ -5348,25 +5359,25 @@ MythicDungeonToolsDB = {
 						},
 						[340300] = {
 						},
-						[340311] = {
+						[326868] = {
 						},
-						[340304] = {
+						[340311] = {
 						},
 						[132951] = {
 						},
-						[326868] = {
+						[340304] = {
 						},
 					},
-					["scale"] = 1.4,
-					["count"] = 16,
-					["name"] = "Mistveil Gorgegullet",
-					["displayId"] = 98502,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 320400,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["health"] = 320400,
+					["count"] = 16,
+					["displayId"] = 98502,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Mistveil Gorgegullet",
+					["scale"] = 1.4,
 				}, -- [22]
 				{
 					["clones"] = {
@@ -5403,22 +5414,15 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[325224] = {
+						[325223] = {
 						},
 						[320297] = {
 						},
 						[326868] = {
 						},
-						[325223] = {
+						[325224] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Mistveil Stinger",
-					["displayId"] = 95198,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 64080,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -5426,12 +5430,19 @@ MythicDungeonToolsDB = {
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Silence"] = true,
 						["Slow"] = true,
 						["Stun"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["health"] = 64080,
+					["count"] = 4,
+					["displayId"] = 95198,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Mistveil Stinger",
+					["scale"] = 1,
 				}, -- [23]
 				{
 					["clones"] = {
@@ -5454,17 +5465,5823 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["scale"] = 1.4,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 320400,
 					["count"] = 16,
-					["name"] = "Mistveil Matriarch",
 					["displayId"] = 98569,
 					["creatureType"] = "Dragonkin",
 					["level"] = 60,
-					["health"] = 320400,
+					["name"] = "Mistveil Matriarch",
+					["scale"] = 1.4,
+				}, -- [24]
+			},
+			[35] = {
+				{
+					["clones"] = {
+						{
+							["y"] = -222.57873870954,
+							["x"] = 634.44943930098,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -212.11171969476,
+							["x"] = 634.03286694412,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -221.30744389803,
+							["x"] = 623.65755414698,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -211.08896875701,
+							["inspiring"] = true,
+							["x"] = 622.96773061204,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -208.62104951716,
+							["x"] = 581.36600361522,
+							["g"] = 3,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -234.33877343481,
+							["x"] = 536.95778927684,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -225.02027482211,
+							["x"] = 536.36667443524,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -279.14335164267,
+							["x"] = 542.60524207574,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["sublevel"] = 1,
+							["x"] = 525.98715499635,
+							["patrol"] = {
+								{
+									["y"] = -199.14416302564,
+									["x"] = 525.98715499635,
+								}, -- [1]
+								{
+									["y"] = -196.42508486796,
+									["x"] = 534.52262643769,
+								}, -- [2]
+								{
+									["y"] = -191.06179464622,
+									["x"] = 544.99380897718,
+								}, -- [3]
+								{
+									["y"] = -196.42508486796,
+									["x"] = 534.52262643769,
+								}, -- [4]
+								{
+									["y"] = -199.14416302564,
+									["x"] = 525.98715499635,
+								}, -- [5]
+								{
+									["y"] = -202.55454688099,
+									["x"] = 511.53712196815,
+								}, -- [6]
+								{
+									["y"] = -204.59771915257,
+									["x"] = 495.19187531962,
+								}, -- [7]
+								{
+									["y"] = -204.81940842005,
+									["x"] = 482.62700791643,
+								}, -- [8]
+								{
+									["y"] = -204.59771915257,
+									["x"] = 495.19187531962,
+								}, -- [9]
+								{
+									["y"] = -202.55454688099,
+									["x"] = 511.53712196815,
+								}, -- [10]
+							},
+							["g"] = 6,
+							["y"] = -199.14416302564,
+						}, -- [9]
+						{
+							["y"] = -195.5108985365,
+							["x"] = 518.53484462284,
+							["g"] = 6,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["sublevel"] = 1,
+							["x"] = 519.93836706451,
+							["g"] = 6,
+							["y"] = -204.71259406778,
+						}, -- [11]
+						{
+							["sublevel"] = 1,
+							["x"] = 499.53908974431,
+							["patrol"] = {
+								{
+									["y"] = -247.69708502653,
+									["x"] = 499.53908974431,
+								}, -- [1]
+								{
+									["y"] = -243.74189768892,
+									["x"] = 487.32663292418,
+								}, -- [2]
+								{
+									["y"] = -238.63401633151,
+									["x"] = 475.06768697744,
+								}, -- [3]
+								{
+									["y"] = -236.84625292427,
+									["x"] = 487.83742873216,
+								}, -- [4]
+								{
+									["y"] = -235.8246613083,
+									["x"] = 503.67187957271,
+								}, -- [5]
+								{
+									["y"] = -233.52611305342,
+									["x"] = 519.25093250927,
+								}, -- [6]
+								{
+									["y"] = -235.05848951702,
+									["x"] = 536.36237286977,
+								}, -- [7]
+								{
+									["y"] = -243.48649978493,
+									["x"] = 548.11052300852,
+								}, -- [8]
+								{
+									["y"] = -250.63755341392,
+									["x"] = 552.4522216143,
+								}, -- [9]
+								{
+									["y"] = -250.63755341392,
+									["x"] = 535.59620107848,
+								}, -- [10]
+								{
+									["y"] = -249.36058581465,
+									["x"] = 520.01712622124,
+								}, -- [11]
+							},
+							["g"] = 8,
+							["y"] = -247.69708502653,
+						}, -- [12]
+						{
+							["y"] = -251.66312146101,
+							["x"] = 509.30228887343,
+							["g"] = 8,
+							["sublevel"] = 1,
+						}, -- [13]
+						{
+							["y"] = -251.14684881901,
+							["x"] = 433.16111647083,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [14]
+						{
+							["y"] = -245.5478806901,
+							["x"] = 427.21063543203,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [15]
+						{
+							["y"] = -245.71898136959,
+							["x"] = 419.71393005741,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [16]
+						{
+							["y"] = -158.69534235456,
+							["x"] = 548.02757692684,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [17]
+						{
+							["y"] = -163.75866402156,
+							["x"] = 528.6110476032,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [18]
+						{
+							["y"] = -389.51616313679,
+							["x"] = 323.21091484491,
+							["g"] = 26,
+							["sublevel"] = 2,
+						}, -- [19]
+						{
+							["y"] = -403.68421046567,
+							["x"] = 330.21843444811,
+							["g"] = 26,
+							["sublevel"] = 2,
+						}, -- [20]
+						{
+							["y"] = -280.23427925741,
+							["x"] = 472.84000063188,
+							["g"] = 28,
+							["sublevel"] = 2,
+						}, -- [21]
+						{
+							["y"] = -254.45851236553,
+							["x"] = 518.88548008154,
+							["g"] = 30,
+							["sublevel"] = 2,
+						}, -- [22]
+						{
+							["y"] = -258.12964012969,
+							["x"] = 528.86956076373,
+							["g"] = 30,
+							["sublevel"] = 2,
+						}, -- [23]
+						{
+							["y"] = -245.37833861688,
+							["x"] = 332.01681681998,
+							["g"] = 31,
+							["sublevel"] = 2,
+						}, -- [24]
+						{
+							["sublevel"] = 2,
+							["x"] = 333.99546137051,
+							["y"] = -256.34717010263,
+							["g"] = 31,
+							["inspiring"] = true,
+						}, -- [25]
+					},
+					["id"] = 162729,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[334882] = {
+						},
+						[132951] = {
+						},
+						[338022] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[320297] = {
+						},
+						[344991] = {
+						},
+						[240443] = {
+						},
+					},
+					["scale"] = 0.8,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 95222,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Patchwerk Soldier",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [1]
+				{
+					["clones"] = {
+						{
+							["y"] = -267.19125178169,
+							["x"] = 636.00936056606,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -260.66134616311,
+							["x"] = 637.98762612267,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -267.43150244214,
+							["x"] = 644.29789093094,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -164.40364637533,
+							["x"] = 586.54961231973,
+							["g"] = 4,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -166.62872839749,
+							["x"] = 594.94517222651,
+							["g"] = 4,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -172.44777146502,
+							["x"] = 587.45596487713,
+							["g"] = 4,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -173.35158979958,
+							["x"] = 595.50115230256,
+							["g"] = 4,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -217.41514755322,
+							["inspiring"] = true,
+							["x"] = 499.04391223695,
+							["g"] = 10,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -212.66842554759,
+							["x"] = 492.81284184647,
+							["g"] = 10,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -212.17147153557,
+							["x"] = 502.06672987207,
+							["g"] = 10,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["sublevel"] = 1,
+							["x"] = 492.29038745918,
+							["patrol"] = {
+								{
+									["y"] = -218.84702666366,
+									["x"] = 492.29038745918,
+								}, -- [1]
+								{
+									["y"] = -228.06097137794,
+									["x"] = 481.26595505651,
+								}, -- [2]
+								{
+									["y"] = -243.12927234789,
+									["x"] = 469.77321378208,
+								}, -- [3]
+								{
+									["y"] = -268.15792168815,
+									["x"] = 456.49269814007,
+								}, -- [4]
+								{
+									["y"] = -270.96727123119,
+									["x"] = 485.60767558297,
+								}, -- [5]
+								{
+									["y"] = -272.75502915826,
+									["x"] = 507.06081454925,
+								}, -- [6]
+								{
+									["y"] = -275.05357741315,
+									["x"] = 526.7261681876,
+								}, -- [7]
+								{
+									["y"] = -249.00332549658,
+									["x"] = 537.96356635975,
+								}, -- [8]
+								{
+									["y"] = -222.69770307689,
+									["x"] = 542.81603885282,
+								}, -- [9]
+								{
+									["y"] = -207.11863917999,
+									["x"] = 545.88076985934,
+								}, -- [10]
+								{
+									["y"] = -172.1295866677,
+									["x"] = 550.47788828979,
+								}, -- [11]
+								{
+									["y"] = -185.41010230972,
+									["x"] = 526.7261681876,
+								}, -- [12]
+								{
+									["y"] = -201.4999620146,
+									["x"] = 508.08238424453,
+								}, -- [13]
+							},
+							["g"] = 10,
+							["y"] = -218.84702666366,
+						}, -- [11]
+						{
+							["y"] = -205.93932806671,
+							["x"] = 496.21746123639,
+							["g"] = 10,
+							["sublevel"] = 1,
+						}, -- [12]
+						{
+							["y"] = -235.75250873611,
+							["x"] = 445.16897739889,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [13]
+						{
+							["y"] = -230.64388483857,
+							["x"] = 449.03872899225,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [14]
+						{
+							["y"] = -451.85134508349,
+							["x"] = 437.3775162589,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [15]
+						{
+							["y"] = -460.66432611916,
+							["x"] = 441.33610776331,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [16]
+						{
+							["y"] = -453.75256275402,
+							["x"] = 445.38780842536,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [17]
+					},
+					["id"] = 165138,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[321821] = {
+						},
+						[335164] = {
+						},
+						[132951] = {
+						},
+						[338022] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[320297] = {
+						},
+					},
+					["scale"] = 0.7,
+					["count"] = 1,
+					["health"] = 32040,
+					["displayId"] = 94761,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Blight Bag",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [2]
+				{
+					["clones"] = {
+						{
+							["y"] = -169.0870825603,
+							["x"] = 625.33044286157,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -205.29184313564,
+							["x"] = 590.72328038327,
+							["g"] = 3,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -231.97162700879,
+							["inspiring"] = true,
+							["x"] = 528.20950260339,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -288.81692623792,
+							["x"] = 527.25649379052,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -152.83270464034,
+							["x"] = 537.80754924368,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -153.09341803332,
+							["x"] = 528.0121962859,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -256.56424975547,
+							["x"] = 421.41533899291,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -261.78750238567,
+							["x"] = 431.01973551683,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [8]
+					},
+					["id"] = 166302,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[334747] = {
+						},
+						[334748] = {
+						},
+						[240443] = {
+						},
+						[132951] = {
+						},
+						[334749] = {
+						},
+						[224729] = {
+						},
+						[320297] = {
+						},
+						[334882] = {
+						},
+						[326868] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 112140,
+					["displayId"] = 98170,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Corpse Harvester",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Mind Control"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Imprison"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [3]
+				{
+					["clones"] = {
+						{
+							["y"] = -198.97742264054,
+							["x"] = 582.76627145072,
+							["g"] = 3,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -223.86546602872,
+							["x"] = 522.22629180923,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -238.40785446451,
+							["x"] = 518.52418985757,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -162.19144306596,
+							["x"] = 539.75227117869,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 163121,
+					["spells"] = {
+						[288865] = {
+						},
+						[323190] = {
+						},
+						[320703] = {
+						},
+						[334882] = {
+						},
+						[320696] = {
+						},
+						[35079] = {
+						},
+						[186439] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[317898] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[320297] = {
+						},
+						[344991] = {
+						},
+						[319290] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 5,
+					["health"] = 112140,
+					["displayId"] = 95227,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Stitched Vanguard",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [4]
+				{
+					["clones"] = {
+						{
+							["y"] = -251.20442949907,
+							["x"] = 559.61845772685,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -196.67875988637,
+							["x"] = 552.824366159,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -271.3991187384,
+							["x"] = 478.61009600495,
+							["sublevel"] = 1,
+						}, -- [3]
+					},
+					["id"] = 165137,
+					["spells"] = {
+						[323347] = {
+						},
+						[322756] = {
+						},
+						[320462] = {
+						},
+						[326868] = {
+						},
+						[132951] = {
+						},
+						[322757] = {
+						},
+						[288865] = {
+						},
+					},
+					["scale"] = 1.3,
+					["count"] = 6,
+					["health"] = 144180,
+					["displayId"] = 95231,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Zolramus Gatekeeper",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [5]
+				{
+					["clones"] = {
+						{
+							["y"] = -282.46182102424,
+							["x"] = 535.55348561245,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -393.52460810338,
+							["x"] = 558.7518186685,
+							["g"] = 27,
+							["sublevel"] = 2,
+						}, -- [2]
+						{
+							["y"] = -243.8569580374,
+							["x"] = 344.50042639228,
+							["g"] = 31,
+							["sublevel"] = 2,
+						}, -- [3]
+					},
+					["id"] = 165872,
+					["spells"] = {
+						[327130] = {
+						},
+						[323489] = {
+						},
+						[317898] = {
+						},
+						[334882] = {
+						},
+						[323471] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[320297] = {
+						},
+						[323496] = {
+						},
+						[288865] = {
+						},
+					},
+					["scale"] = 1.4,
+					["count"] = 4,
+					["health"] = 112140,
+					["displayId"] = 96480,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Flesh Crafter",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [6]
+				{
+					["clones"] = {
+						{
+							["y"] = -191.93196037298,
+							["x"] = 474.12550258036,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["scale"] = 1,
+					["id"] = 162691,
+					["spells"] = {
+						[326868] = {
+						},
+						[320637] = {
+						},
+						[320596] = {
+						},
+						[320655] = {
+						},
+						[132951] = {
+						},
+						[288865] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2395,
+					["instanceID"] = 1182,
+					["count"] = 0,
+					["name"] = "Blightbone",
+					["displayId"] = 95467,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 560700,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [7]
+				{
+					["clones"] = {
+						{
+							["y"] = -422.52237915355,
+							["x"] = 512.4238930362,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["sublevel"] = 1,
+							["x"] = 371.75572151009,
+							["patrol"] = {
+								{
+									["y"] = -447.04294061339,
+									["x"] = 371.75572151009,
+								}, -- [1]
+								{
+									["y"] = -435.54724983132,
+									["x"] = 389.29203003494,
+								}, -- [2]
+								{
+									["y"] = -424.05448663621,
+									["x"] = 413.04372821644,
+								}, -- [3]
+								{
+									["y"] = -445.50763656283,
+									["x"] = 417.13005083892,
+								}, -- [4]
+								{
+									["y"] = -464.91762517822,
+									["x"] = 416.36385712695,
+								}, -- [5]
+								{
+									["y"] = -484.07221040944,
+									["x"] = 411.00056690521,
+								}, -- [6]
+								{
+									["y"] = -473.85642029377,
+									["x"] = 389.54744985961,
+								}, -- [7]
+								{
+									["y"] = -460.06510884377,
+									["x"] = 372.4360314198,
+								}, -- [8]
+							},
+							["g"] = 16,
+							["y"] = -447.04294061339,
+						}, -- [2]
+						{
+							["y"] = -401.07502319109,
+							["inspiring"] = true,
+							["x"] = 372.19882316507,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -419.22321428571,
+							["x"] = 378.57231340972,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -232.03718381974,
+							["x"] = 323.22179736442,
+							["g"] = 21,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -260.00834952995,
+							["x"] = 344.36337460144,
+							["g"] = 20,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -160.55690826205,
+							["x"] = 250.63511156517,
+							["g"] = 24,
+							["sublevel"] = 1,
+						}, -- [7]
+					},
+					["id"] = 163128,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[320573] = {
+						},
+						[320571] = {
+						},
+						[320462] = {
+						},
+						[325748] = {
+						},
+						[240443] = {
+						},
+						[345931] = {
+						},
+						[326868] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[320297] = {
+						},
+						[344991] = {
+						},
+						[132951] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 72090,
+					["displayId"] = 94992,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Zolramus Sorcerer",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Imprison"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [8]
+				{
+					["clones"] = {
+						{
+							["y"] = -410.57386363636,
+							["x"] = 511.91638786622,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -410.86989795918,
+							["x"] = 387.30009290802,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -219.61982716442,
+							["x"] = 322.98923904285,
+							["g"] = 21,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -249.64703153989,
+							["x"] = 335.28460823784,
+							["g"] = 20,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -167.59403988868,
+							["x"] = 290.90430473831,
+							["g"] = 23,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -161.30009276438,
+							["x"] = 285.55837720657,
+							["g"] = 23,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -178.69230114914,
+							["x"] = 235.7955778904,
+							["g"] = 24,
+							["sublevel"] = 1,
+						}, -- [7]
+					},
+					["id"] = 163619,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[320297] = {
+						},
+						[321807] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 93933,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Zolramus Bonecarver",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Mind Control"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Imprison"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [9]
+				{
+					["clones"] = {
+						{
+							["y"] = -431.54081632653,
+							["inspiring"] = true,
+							["x"] = 473.55032517807,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -315.56699466368,
+							["inspiring"] = true,
+							["x"] = 208.11726399436,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -116.97895008442,
+							["x"] = 219.23380883062,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [3]
+					},
+					["id"] = 163618,
+					["spells"] = {
+						[201657] = {
+						},
+						[326868] = {
+						},
+						[224729] = {
+						},
+						[327396] = {
+						},
+						[240443] = {
+						},
+						[324026] = {
+						},
+						[323957] = {
+						},
+						[320462] = {
+						},
+						[321780] = {
+						},
+						[317898] = {
+						},
+						[327393] = {
+						},
+						[132951] = {
+						},
+						[288865] = {
+						},
+						[320297] = {
+						},
+						[327397] = {
+						},
+						[321575] = {
+						},
+						[324027] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 8,
+					["health"] = 112140,
+					["displayId"] = 95233,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Zolramus Necromancer",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [10]
+				{
+					["clones"] = {
+						{
+							["y"] = -425.54362414449,
+							["x"] = 464.50724570395,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -304.53244640151,
+							["x"] = 207.84858915843,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -110.02334659884,
+							["inspiring"] = true,
+							["x"] = 226.85021723566,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -117.71565288417,
+							["x"] = 209.43075603715,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 163126,
+					["spells"] = {
+						[288865] = {
+						},
+						[328664] = {
+						},
+						[326868] = {
+						},
+						[320336] = {
+						},
+						[322493] = {
+						},
+						[132951] = {
+						},
+						[321576] = {
+						},
+						[320297] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[328667] = {
+						},
+						[333602] = {
+						},
+						[344991] = {
+						},
+						[317898] = {
+						},
+					},
+					["scale"] = 0.7,
+					["count"] = 0,
+					["health"] = 36045,
+					["displayId"] = 96112,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Brittlebone Mage",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [11]
+				{
+					["clones"] = {
+						{
+							["y"] = -430.36955009276,
+							["x"] = 481.92691235677,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -421.05364831842,
+							["x"] = 472.35841442181,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -320.26256426546,
+							["x"] = 220.53435785599,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -312.78875118092,
+							["x"] = 218.83792198129,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -306.80381678265,
+							["x"] = 215.29869223532,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -111.76993397185,
+							["x"] = 209.73216749461,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -116.92727631302,
+							["x"] = 228.809996812,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [7]
+					},
+					["id"] = 163122,
+					["spells"] = {
+						[321576] = {
+						},
+						[320297] = {
+						},
+						[317898] = {
+						},
+						[288865] = {
+						},
+						[132951] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+					},
+					["scale"] = 0.7,
+					["count"] = 0,
+					["health"] = 80100,
+					["displayId"] = 96107,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Brittlebone Warrior",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [12]
+				{
+					["clones"] = {
+						{
+							["y"] = -445.32431056607,
+							["x"] = 362.28095389471,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -314.6017442549,
+							["x"] = 275.17751039323,
+							["g"] = 18,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -304.97159288637,
+							["x"] = 284.73381683861,
+							["g"] = 18,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -226.12420885162,
+							["x"] = 311.33505893631,
+							["g"] = 21,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -173.2824324214,
+							["x"] = 247.14214466835,
+							["g"] = 24,
+							["sublevel"] = 1,
+						}, -- [5]
+					},
+					["id"] = 165919,
+					["spells"] = {
+						[288865] = {
+						},
+						[240443] = {
+						},
+						[132466] = {
+						},
+						[324293] = {
+						},
+						[324323] = {
+						},
+						[343470] = {
+						},
+						[132951] = {
+						},
+					},
+					["scale"] = 1.3,
+					["count"] = 6,
+					["health"] = 160200,
+					["displayId"] = 96115,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Skeletal Marauder",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [13]
+				{
+					["clones"] = {
+						{
+							["y"] = -454.67116201069,
+							["x"] = 366.73633416573,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -164.28608333693,
+							["x"] = 238.36587661194,
+							["g"] = 24,
+							["sublevel"] = 1,
+						}, -- [2]
+					},
+					["id"] = 165222,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[224729] = {
+						},
+						[335143] = {
+						},
+						[320822] = {
+						},
+						[320297] = {
+						},
+						[132466] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 97668,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Zolramus Bonemender",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [14]
+				{
+					["clones"] = {
+						{
+							["y"] = -413.16966503058,
+							["x"] = 364.96704633944,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["id"] = 165824,
+					["spells"] = {
+						[345625] = {
+						},
+						[326868] = {
+						},
+						[327397] = {
+						},
+						[335141] = {
+						},
+						[132951] = {
+						},
+						[335142] = {
+						},
+						[345623] = {
+						},
+						[320462] = {
+						},
+						[327396] = {
+						},
+						[327393] = {
+						},
+					},
+					["scale"] = 1.5,
+					["count"] = 15,
+					["health"] = 240300,
+					["displayId"] = 94780,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Nar'zudah",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [15]
+				{
+					["clones"] = {
+						{
+							["y"] = -229.35824576779,
+							["x"] = 281.41711248243,
+							["patrol"] = {
+								{
+									["y"] = -229.35824576779,
+									["x"] = 281.41711248243,
+								}, -- [1]
+								{
+									["y"] = -243.7856346922,
+									["x"] = 282.43999290261,
+								}, -- [2]
+								{
+									["y"] = -255.66146709334,
+									["x"] = 269.4845393741,
+								}, -- [3]
+								{
+									["y"] = -271.85581489223,
+									["x"] = 254.00993384542,
+								}, -- [4]
+								{
+									["y"] = -288.76990496132,
+									["x"] = 238.53535920499,
+								}, -- [5]
+								{
+									["y"] = -299.56610079097,
+									["x"] = 227.37923818582,
+								}, -- [6]
+								{
+									["y"] = -288.76990496132,
+									["x"] = 238.53535920499,
+								}, -- [7]
+								{
+									["y"] = -271.85581489223,
+									["x"] = 254.00993384542,
+								}, -- [8]
+								{
+									["y"] = -255.66146709334,
+									["x"] = 269.4845393741,
+								}, -- [9]
+								{
+									["y"] = -243.7856346922,
+									["x"] = 282.43999290261,
+								}, -- [10]
+								{
+									["y"] = -229.35824576779,
+									["x"] = 281.41711248243,
+								}, -- [11]
+								{
+									["y"] = -202.75998551954,
+									["x"] = 275.96229702659,
+								}, -- [12]
+								{
+									["y"] = -190.52425881712,
+									["x"] = 264.80617600743,
+								}, -- [13]
+								{
+									["y"] = -180.44777436944,
+									["x"] = 253.6500858765,
+								}, -- [14]
+								{
+									["y"] = -152.73750391482,
+									["x"] = 229.17863247165,
+								}, -- [15]
+								{
+									["y"] = -134.3839293053,
+									["x"] = 208.30593675021,
+								}, -- [16]
+								{
+									["y"] = -152.73750391482,
+									["x"] = 229.17863247165,
+								}, -- [17]
+								{
+									["y"] = -180.44777436944,
+									["x"] = 253.6500858765,
+								}, -- [18]
+								{
+									["y"] = -190.52425881712,
+									["x"] = 264.80617600743,
+								}, -- [19]
+								{
+									["y"] = -202.75998551954,
+									["x"] = 275.96229702659,
+								}, -- [20]
+							},
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["id"] = 165197,
+					["spells"] = {
+						[288865] = {
+						},
+						[324394] = {
+						},
+						[324387] = {
+						},
+						[324391] = {
+						},
+						[324372] = {
+						},
+						[324381] = {
+						},
+						[132951] = {
+						},
+					},
+					["scale"] = 1.5,
+					["count"] = 12,
+					["health"] = 240300,
+					["displayId"] = 94814,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Skeletal Monstrosity",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [16]
+				{
+					["clones"] = {
+						{
+							["y"] = -105.74744064711,
+							["x"] = 221.1313948641,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -107.20151298418,
+							["x"] = 213.82472624654,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [2]
+					},
+					["id"] = 166079,
+					["spells"] = {
+						[321576] = {
+						},
+						[320297] = {
+						},
+						[317898] = {
+						},
+						[328687] = {
+						},
+						[132951] = {
+						},
+						[224729] = {
+						},
+						[288865] = {
+						},
+					},
+					["scale"] = 0.7,
+					["count"] = 0,
+					["health"] = 40050,
+					["displayId"] = 96114,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Brittlebone Crossbowman",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [17]
+				{
+					["clones"] = {
+						{
+							["y"] = -181.35558785632,
+							["x"] = 333.43862142354,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -180.0185191661,
+							["x"] = 325.38271515666,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -188.23093803116,
+							["x"] = 328.27752421441,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -188.72695722824,
+							["x"] = 337.04580823089,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -186.56771497349,
+							["x"] = 322.29092952831,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -194.12509375336,
+							["x"] = 322.29092952831,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -196.28436689635,
+							["x"] = 330.2082334977,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -195.92445715095,
+							["x"] = 335.24647572154,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [8]
+					},
+					["id"] = 171500,
+					["spells"] = {
+						[288865] = {
+						},
+						[320297] = {
+						},
+						[317898] = {
+						},
+						[132951] = {
+						},
+						[224729] = {
+						},
+					},
+					["scale"] = 0.7,
+					["count"] = 1,
+					["health"] = 28836,
+					["displayId"] = 96132,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Shuffling Corpse",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Disorient"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+					},
+				}, -- [18]
+				{
+					["clones"] = {
+						{
+							["y"] = -224.0145497704,
+							["x"] = 169.18397830322,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["scale"] = 1,
+					["id"] = 163157,
+					["spells"] = {
+						[288865] = {
+						},
+						[319902] = {
+						},
+						[326868] = {
+						},
+						[319897] = {
+						},
+						[320171] = {
+						},
+						[320580] = {
+						},
+						[333634] = {
+						},
+						[333488] = {
+						},
+						[333492] = {
+						},
+						[321226] = {
+						},
+						[333627] = {
+						},
+						[333489] = {
+						},
+						[132466] = {
+						},
+						[320012] = {
+						},
+						[132951] = {
+						},
+						[321247] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2391,
+					["instanceID"] = 1182,
+					["count"] = 0,
+					["name"] = "Amarth",
+					["displayId"] = 94926,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 576720,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [19]
+				{
+					["clones"] = {
+						{
+							["y"] = -401.66043555864,
+							["x"] = 318.35932575995,
+							["g"] = 26,
+							["sublevel"] = 2,
+						}, -- [1]
+						{
+							["sublevel"] = 2,
+							["x"] = 480.16714313076,
+							["patrol"] = {
+								{
+									["y"] = -340.82042587609,
+									["x"] = 516.43828133821,
+								}, -- [1]
+								{
+									["y"] = -388.04944749118,
+									["x"] = 529.231447794,
+								}, -- [2]
+								{
+									["y"] = -340.82042587609,
+									["x"] = 516.43828133821,
+								}, -- [3]
+								{
+									["y"] = -315.71477018049,
+									["x"] = 508.3587829608,
+								}, -- [4]
+								{
+									["y"] = -277.20825756386,
+									["x"] = 494.32363108431,
+								}, -- [5]
+								{
+									["y"] = -262.45340974952,
+									["x"] = 456.53684529378,
+								}, -- [6]
+								{
+									["y"] = -258.13495612825,
+									["x"] = 420.90933264624,
+								}, -- [7]
+								{
+									["y"] = -262.81325771845,
+									["x"] = 380.24357777486,
+								}, -- [8]
+								{
+									["y"] = -311.39628567098,
+									["x"] = 362.9696088486,
+								}, -- [9]
+								{
+									["y"] = -343.42505607923,
+									["x"] = 355.41227640109,
+								}, -- [10]
+								{
+									["y"] = -385.17046296622,
+									["x"] = 339.21794404632,
+								}, -- [11]
+								{
+									["y"] = -343.42505607923,
+									["x"] = 355.41227640109,
+								}, -- [12]
+								{
+									["y"] = -311.39628567098,
+									["x"] = 362.9696088486,
+								}, -- [13]
+								{
+									["y"] = -262.81325771845,
+									["x"] = 380.24357777486,
+								}, -- [14]
+								{
+									["y"] = -258.13495612825,
+									["x"] = 420.90933264624,
+								}, -- [15]
+								{
+									["y"] = -262.45340974952,
+									["x"] = 456.53684529378,
+								}, -- [16]
+								{
+									["y"] = -277.20825756386,
+									["x"] = 494.32363108431,
+								}, -- [17]
+								{
+									["y"] = -315.71477018049,
+									["x"] = 508.3587829608,
+								}, -- [18]
+							},
+							["g"] = 28,
+							["y"] = -267.25639174782,
+						}, -- [2]
+						{
+							["sublevel"] = 2,
+							["x"] = 527.40731699655,
+							["y"] = -243.90869965329,
+							["g"] = 30,
+							["inspiring"] = true,
+						}, -- [3]
+						{
+							["y"] = -260.94682723462,
+							["x"] = 346.17264847671,
+							["g"] = 31,
+							["sublevel"] = 2,
+						}, -- [4]
+					},
+					["id"] = 173016,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[334882] = {
+						},
+						[334748] = {
+						},
+						[240443] = {
+						},
+						[132951] = {
+						},
+						[334749] = {
+						},
+						[224729] = {
+						},
+						[338353] = {
+						},
+						[320297] = {
+						},
+						[334747] = {
+						},
+						[326868] = {
+						},
+					},
+					["scale"] = 1.4,
+					["count"] = 4,
+					["health"] = 112140,
+					["displayId"] = 98170,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Corpse Collector",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Mind Control"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Imprison"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [20]
+				{
+					["clones"] = {
+						{
+							["y"] = -280.4504047721,
+							["x"] = 489.40347391047,
+							["g"] = 28,
+							["sublevel"] = 2,
+						}, -- [1]
+						{
+							["y"] = -238.26548043315,
+							["x"] = 507.51241183571,
+							["g"] = 30,
+							["sublevel"] = 2,
+						}, -- [2]
+					},
+					["id"] = 172981,
+					["spells"] = {
+						[288865] = {
+						},
+						[338357] = {
+						},
+						[132466] = {
+						},
+						[240443] = {
+						},
+						[338456] = {
+						},
+						[132951] = {
+						},
+					},
+					["scale"] = 2,
+					["count"] = 5,
+					["health"] = 192240,
+					["displayId"] = 98190,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Kyrian Stitchwerk",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [21]
+				{
+					["clones"] = {
+						{
+							["y"] = -264.92234647225,
+							["x"] = 496.81948021409,
+							["g"] = 28,
+							["sublevel"] = 2,
+						}, -- [1]
+						{
+							["y"] = -273.81426718665,
+							["x"] = 503.26332718268,
+							["g"] = 28,
+							["sublevel"] = 2,
+						}, -- [2]
+						{
+							["y"] = -284.30875546354,
+							["x"] = 504.84498579856,
+							["g"] = 28,
+							["sublevel"] = 2,
+						}, -- [3]
+						{
+							["y"] = -344.41113256507,
+							["x"] = 321.91456123486,
+							["g"] = 29,
+							["sublevel"] = 2,
+						}, -- [4]
+						{
+							["y"] = -334.95803057736,
+							["x"] = 322.61187990022,
+							["g"] = 29,
+							["sublevel"] = 2,
+						}, -- [5]
+						{
+							["y"] = -346.16218291332,
+							["x"] = 331.72958416192,
+							["g"] = 29,
+							["sublevel"] = 2,
+						}, -- [6]
+						{
+							["y"] = -337.70181792228,
+							["x"] = 328.66172329585,
+							["g"] = 29,
+							["sublevel"] = 2,
+						}, -- [7]
+						{
+							["y"] = -338.05096192215,
+							["x"] = 333.59885436133,
+							["g"] = 29,
+							["sublevel"] = 2,
+						}, -- [8]
+						{
+							["sublevel"] = 2,
+							["x"] = 327.30340070056,
+							["patrol"] = {
+								{
+									["y"] = -352.08800928078,
+									["x"] = 327.30340070056,
+								}, -- [1]
+								{
+									["y"] = -374.81865258765,
+									["x"] = 325.54570837852,
+								}, -- [2]
+								{
+									["y"] = -316.1380174959,
+									["x"] = 431.26401864717,
+								}, -- [3]
+								{
+									["y"] = -374.81865258765,
+									["x"] = 325.54570837852,
+								}, -- [4]
+								{
+									["y"] = -352.08800928078,
+									["x"] = 327.30340070056,
+								}, -- [5]
+								{
+									["y"] = -304.72788040391,
+									["x"] = 326.24429676612,
+								}, -- [6]
+								{
+									["y"] = -349.90267320038,
+									["x"] = 438.48266538655,
+								}, -- [7]
+								{
+									["y"] = -304.80570661162,
+									["x"] = 545.45870878004,
+								}, -- [8]
+								{
+									["y"] = -243.5482860266,
+									["x"] = 449.07051045071,
+								}, -- [9]
+								{
+									["y"] = -311.51228888137,
+									["x"] = 335.88549947827,
+								}, -- [10]
+								{
+									["y"] = -242.3529678811,
+									["x"] = 336.58408786588,
+								}, -- [11]
+								{
+									["y"] = -296.14356420564,
+									["x"] = 436.9466537621,
+								}, -- [12]
+								{
+									["y"] = -244.13830503854,
+									["x"] = 538.95488815547,
+								}, -- [13]
+								{
+									["y"] = -333.32355666562,
+									["x"] = 532.20192703481,
+								}, -- [14]
+								{
+									["y"] = -244.13830503854,
+									["x"] = 538.95488815547,
+								}, -- [15]
+								{
+									["y"] = -296.50071153449,
+									["x"] = 438.35973149523,
+								}, -- [16]
+								{
+									["y"] = -242.3529678811,
+									["x"] = 336.58408786588,
+								}, -- [17]
+								{
+									["y"] = -311.51228888137,
+									["x"] = 335.88549947827,
+								}, -- [18]
+								{
+									["y"] = -243.5482860266,
+									["x"] = 449.07051045071,
+								}, -- [19]
+								{
+									["y"] = -304.80570661162,
+									["x"] = 545.45870878004,
+								}, -- [20]
+								{
+									["y"] = -349.90267320038,
+									["x"] = 438.48266538655,
+								}, -- [21]
+								{
+									["y"] = -304.72788040391,
+									["x"] = 326.24429676612,
+								}, -- [22]
+							},
+							["g"] = 29,
+							["y"] = -352.08800928078,
+						}, -- [9]
+					},
+					["id"] = 166264,
+					["spells"] = {
+						[334610] = {
+						},
+						[317898] = {
+						},
+						[132951] = {
+						},
+						[224729] = {
+						},
+						[288865] = {
+						},
+					},
+					["scale"] = 0.7,
+					["count"] = 0,
+					["health"] = 8010,
+					["displayId"] = 95577,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Spare Parts",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+					},
+				}, -- [22]
+				{
+					["clones"] = {
+						{
+							["y"] = -412.65302221547,
+							["x"] = 555.92876428203,
+							["g"] = 27,
+							["sublevel"] = 2,
+						}, -- [1]
+						{
+							["y"] = -248.5585823855,
+							["x"] = 360.30148473588,
+							["g"] = 31,
+							["sublevel"] = 2,
+						}, -- [2]
+					},
+					["id"] = 165911,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[334882] = {
+						},
+						[320696] = {
+						},
+						[327240] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[327155] = {
+						},
+						[224729] = {
+						},
+						[201657] = {
+						},
+						[320297] = {
+						},
+						[344991] = {
+						},
+						[35079] = {
+						},
+					},
+					["scale"] = 1.4,
+					["count"] = 4,
+					["health"] = 136170,
+					["displayId"] = 95226,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Loyal Creation",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [23]
+				{
+					["clones"] = {
+						{
+							["y"] = -333.18280218782,
+							["x"] = 462.17634607938,
+							["g"] = 32,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["id"] = 167731,
+					["spells"] = {
+						[288865] = {
+						},
+						[323489] = {
+						},
+						[323471] = {
+						},
+						[338610] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[338636] = {
+						},
+						[323496] = {
+						},
+						[338606] = {
+						},
+					},
+					["scale"] = 1.6,
+					["count"] = 4,
+					["health"] = 160200,
+					["displayId"] = 98227,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Separation Assistant",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
 				}, -- [24]
+				{
+					["clones"] = {
+						{
+							["y"] = -332.88438845501,
+							["x"] = 399.20005470089,
+							["g"] = 32,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["id"] = 173044,
+					["spells"] = {
+						[288865] = {
+						},
+						[323489] = {
+						},
+						[323471] = {
+						},
+						[334748] = {
+						},
+						[240443] = {
+						},
+						[334749] = {
+						},
+						[132466] = {
+						},
+						[132951] = {
+						},
+						[323496] = {
+						},
+						[338653] = {
+						},
+					},
+					["scale"] = 1.6,
+					["count"] = 4,
+					["health"] = 160200,
+					["displayId"] = 98226,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Stitching Assistant",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [25]
+				{
+					["clones"] = {
+						{
+							["y"] = -211.78069692184,
+							["x"] = 343.72029006187,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["id"] = 163621,
+					["spells"] = {
+						[288865] = {
+						},
+						[338357] = {
+						},
+						[132466] = {
+						},
+						[333477] = {
+						},
+						[240443] = {
+						},
+						[338456] = {
+						},
+						[132951] = {
+						},
+					},
+					["scale"] = 2,
+					["count"] = 6,
+					["health"] = 224280,
+					["displayId"] = 99122,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Goregrind",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [26]
+				{
+					["clones"] = {
+						{
+							["y"] = -200.60122878109,
+							["x"] = 325.51598642195,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [1]
+						{
+							["y"] = -210.88792224078,
+							["x"] = 322.25070980819,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [2]
+						{
+							["y"] = -221.91578976504,
+							["x"] = 323.48339247663,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [3]
+					},
+					["id"] = 163622,
+					["spells"] = {
+						[288865] = {
+						},
+						[320297] = {
+						},
+						[317898] = {
+						},
+						[338022] = {
+						},
+						[224729] = {
+						},
+						[240443] = {
+						},
+						[201657] = {
+						},
+						[132951] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 0,
+					["health"] = 80100,
+					["displayId"] = 97800,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Goregrind Bits",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [27]
+				{
+					["clones"] = {
+						{
+							["y"] = -197.7409049355,
+							["x"] = 545.73080072511,
+							["g"] = 34,
+							["sublevel"] = 2,
+						}, -- [1]
+						{
+							["y"] = -208.50249195281,
+							["x"] = 548.94901939488,
+							["g"] = 34,
+							["sublevel"] = 2,
+						}, -- [2]
+						{
+							["y"] = -219.60583613804,
+							["x"] = 546.96846714015,
+							["g"] = 34,
+							["sublevel"] = 2,
+						}, -- [3]
+					},
+					["id"] = 163623,
+					["spells"] = {
+						[288865] = {
+						},
+						[320297] = {
+						},
+						[317898] = {
+						},
+						[338022] = {
+						},
+						[240443] = {
+						},
+						[224729] = {
+						},
+						[132951] = {
+						},
+					},
+					["scale"] = 1,
+					["count"] = 0,
+					["health"] = 64080,
+					["displayId"] = 97801,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Rotspew Leftovers",
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Repentance"] = true,
+					},
+				}, -- [28]
+				{
+					["clones"] = {
+						{
+							["y"] = -207.23853311225,
+							["x"] = 528.68301290168,
+							["g"] = 34,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["id"] = 163620,
+					["spells"] = {
+						[326868] = {
+						},
+						[333485] = {
+						},
+						[338456] = {
+						},
+						[333482] = {
+						},
+						[333479] = {
+						},
+						[240443] = {
+						},
+						[132951] = {
+						},
+						[288865] = {
+						},
+					},
+					["scale"] = 2,
+					["count"] = 6,
+					["health"] = 192240,
+					["displayId"] = 99121,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Rotspew",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [29]
+				{
+					["clones"] = {
+						{
+							["y"] = -206.14354669664,
+							["x"] = 468.36784136928,
+							["g"] = 35,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["id"] = 164578,
+					["spells"] = {
+						[288865] = {
+						},
+						[322548] = {
+						},
+						[327952] = {
+						},
+						[132951] = {
+						},
+						[320208] = {
+						},
+						[322681] = {
+						},
+						[348170] = {
+						},
+						[325748] = {
+						},
+						[132466] = {
+						},
+						[334322] = {
+						},
+						[320376] = {
+						},
+						[326868] = {
+						},
+					},
+					["scale"] = 2,
+					["count"] = 0,
+					["health"] = 192240,
+					["displayId"] = 96218,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Stitchflesh's Creation",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [30]
+				{
+					["clones"] = {
+						{
+							["y"] = -207.33818322552,
+							["x"] = 435.43723023701,
+							["g"] = 35,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["scale"] = 2,
+					["id"] = 162689,
+					["spells"] = {
+						[288865] = {
+						},
+						[320200] = {
+						},
+						[320358] = {
+						},
+						[320366] = {
+						},
+						[343556] = {
+						},
+						[326868] = {
+						},
+						[320359] = {
+						},
+						[132951] = {
+						},
+						[326629] = {
+						},
+						[334321] = {
+						},
+						[334488] = {
+						},
+						[326574] = {
+						},
+						[343558] = {
+						},
+						[327664] = {
+						},
+						[334476] = {
+						},
+						[320365] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2392,
+					["instanceID"] = 1182,
+					["count"] = 0,
+					["name"] = "Surgeon Stitchflesh",
+					["displayId"] = 96477,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 384480,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [31]
+				{
+					["clones"] = {
+						{
+							["y"] = -276.58583505829,
+							["x"] = 427.52861110709,
+							["sublevel"] = 3,
+						}, -- [1]
+					},
+					["scale"] = 1,
+					["id"] = 162693,
+					["spells"] = {
+						[321370] = {
+						},
+						[326868] = {
+						},
+						[320771] = {
+						},
+						[321956] = {
+						},
+						[323730] = {
+						},
+						[321754] = {
+						},
+						[321368] = {
+						},
+						[320772] = {
+						},
+						[320784] = {
+						},
+						[321755] = {
+						},
+						[321894] = {
+						},
+						[320788] = {
+						},
+						[132466] = {
+						},
+						[132951] = {
+						},
+						[288865] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2396,
+					["instanceID"] = 1182,
+					["count"] = 0,
+					["name"] = "Nalthor the Rimebinder",
+					["displayId"] = 96085,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 512640,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+				}, -- [32]
+			},
+			[32] = {
+				{
+					["clones"] = {
+						{
+							["y"] = -114.12496935191,
+							["x"] = 265.31859240626,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -120.36665070046,
+							["x"] = 270.74374058787,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -117.12380185849,
+							["x"] = 265.30068292683,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -119.41855037842,
+							["x"] = 267.78044147134,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -123.1338069989,
+							["x"] = 271.50359664821,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -134.37272613933,
+							["x"] = 302.07189947352,
+							["g"] = 3,
+							["sublevel"] = 1,
+						}, -- [6]
+					},
+					["id"] = 168968,
+					["spells"] = {
+						[1604] = {
+						},
+						[224729] = {
+						},
+						[331874] = {
+						},
+						[132951] = {
+						},
+						[331871] = {
+						},
+						[288865] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 16020,
+					["count"] = 0,
+					["displayId"] = 96986,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Plaguebound Fallen",
+					["scale"] = 0.6,
+				}, -- [1]
+				{
+					["clones"] = {
+						{
+							["y"] = -108.39013250299,
+							["x"] = 283.98841819292,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -111.47918343455,
+							["x"] = 296.46263414634,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -119.87008651214,
+							["x"] = 303.45040732959,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [3]
+					},
+					["id"] = 168365,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[121308] = {
+						},
+						[132951] = {
+						},
+						[224729] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 12015,
+					["count"] = 0,
+					["displayId"] = 83592,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Fungret Shroomtender",
+					["scale"] = 0.6,
+				}, -- [2]
+				{
+					["clones"] = {
+						{
+							["y"] = -116.59372091646,
+							["x"] = 299.07157181537,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -113.64620802918,
+							["x"] = 301.20417004098,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["sublevel"] = 1,
+							["x"] = 351.34414485775,
+							["y"] = -132.87993338916,
+							["g"] = 10,
+							["inspiring"] = true,
+						}, -- [3]
+						{
+							["y"] = -116.45375722543,
+							["x"] = 351.14458536585,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -127.14833985717,
+							["x"] = 343.54124065103,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -109.99871310716,
+							["x"] = 370.78638626053,
+							["g"] = 8,
+							["sublevel"] = 1,
+						}, -- [6]
+					},
+					["id"] = 169696,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[334882] = {
+						},
+						[121308] = {
+						},
+						[340358] = {
+						},
+						[330417] = {
+						},
+						[328175] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[331967] = {
+						},
+						[320297] = {
+						},
+						[132951] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 8,
+					["displayId"] = 83596,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Mire Soldier",
+					["scale"] = 1,
+				}, -- [3]
+				{
+					["clones"] = {
+						{
+							["y"] = -140.48346121326,
+							["x"] = 284.00915170758,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -96.283303297631,
+							["x"] = 397.70157843902,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -93.469133042359,
+							["x"] = 399.64997594475,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -89.432127229936,
+							["x"] = 398.40335792029,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -98.093309368353,
+							["x"] = 400.71332876502,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -96.074308541217,
+							["x"] = 410.14012336947,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["sublevel"] = 1,
+							["x"] = 407.36312195122,
+							["y"] = -90.581912636277,
+							["g"] = 16,
+							["inspiring"] = true,
+						}, -- [7]
+						{
+							["y"] = -86.487909817884,
+							["x"] = 405.65154730876,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -93.552355160014,
+							["x"] = 413.7695943042,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -95.866609847032,
+							["x"] = 404.40742502255,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["y"] = -99.09299352724,
+							["x"] = 405.99951550852,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [11]
+						{
+							["y"] = -88.03499355493,
+							["x"] = 402.38342788929,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [12]
+						{
+							["y"] = -90.164348723887,
+							["x"] = 412.19461184276,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [13]
+						{
+							["y"] = -87.980601576096,
+							["x"] = 409.42063723641,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [14]
+						{
+							["y"] = -87.177548159169,
+							["x"] = 412.34109037587,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [15]
+						{
+							["y"] = -91.7530499711,
+							["x"] = 402.42153758877,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [16]
+						{
+							["y"] = -97.812538925794,
+							["x"] = 414.01560886436,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [17]
+						{
+							["sublevel"] = 1,
+							["x"] = 409.34102945531,
+							["y"] = -99.313616006827,
+							["g"] = 16,
+							["inspiring"] = true,
+						}, -- [18]
+						{
+							["y"] = -100.88022632029,
+							["x"] = 411.54581284801,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [19]
+						{
+							["y"] = -101.64395843203,
+							["x"] = 403.44061582457,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [20]
+						{
+							["y"] = -94.489182264532,
+							["x"] = 407.4662244656,
+							["g"] = 16,
+							["sublevel"] = 1,
+						}, -- [21]
+						{
+							["sublevel"] = 1,
+							["x"] = 472.32585365854,
+							["y"] = -297.46733006512,
+							["g"] = 31,
+							["inspiring"] = true,
+						}, -- [22]
+						{
+							["y"] = -299.16331467926,
+							["x"] = 458.62708591444,
+							["g"] = 32,
+							["sublevel"] = 1,
+						}, -- [23]
+						{
+							["y"] = -347.75316455696,
+							["x"] = 440.45912195122,
+							["g"] = 37,
+							["sublevel"] = 1,
+						}, -- [24]
+						{
+							["y"] = -355.44372988434,
+							["x"] = 469.8515866241,
+							["g"] = 36,
+							["sublevel"] = 1,
+						}, -- [25]
+						{
+							["y"] = -319.66016786968,
+							["x"] = 470.9850569402,
+							["g"] = 34,
+							["sublevel"] = 1,
+						}, -- [26]
+						{
+							["y"] = -363.41190458769,
+							["x"] = 423.79024390244,
+							["g"] = 38,
+							["sublevel"] = 1,
+						}, -- [27]
+						{
+							["y"] = -374.85030572235,
+							["x"] = 427.69513929465,
+							["g"] = 40,
+							["sublevel"] = 1,
+						}, -- [28]
+					},
+					["id"] = 168969,
+					["spells"] = {
+						[328660] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[334882] = {
+						},
+						[328661] = {
+						},
+						[132951] = {
+						},
+						[328662] = {
+						},
+						[346989] = {
+						},
+						[326868] = {
+						},
+						[288865] = {
+						},
+						[224729] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Mind Control"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 24030,
+					["count"] = 1,
+					["displayId"] = 95785,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Gushing Slime",
+					["scale"] = 0.7,
+				}, -- [4]
+				{
+					["clones"] = {
+						{
+							["y"] = -138.47589083193,
+							["x"] = 306.04273170732,
+							["g"] = 3,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -136.13648438603,
+							["x"] = 305.0191382609,
+							["g"] = 3,
+							["sublevel"] = 1,
+						}, -- [2]
+					},
+					["id"] = 168155,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 80100,
+					["count"] = 0,
+					["displayId"] = 96251,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Plaguebound",
+					["scale"] = 0.5,
+				}, -- [5]
+				{
+					["clones"] = {
+						{
+							["y"] = -132.40463635649,
+							["x"] = 284.86707168175,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -144.76212775298,
+							["x"] = 315.55726829268,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -116.40950219166,
+							["x"] = 342.20916739836,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -108.41515376024,
+							["x"] = 353.03766328342,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -126.55289367038,
+							["x"] = 376.76590508401,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -133.02619448306,
+							["x"] = 459.67258536585,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -385.51119484891,
+							["x"] = 424.43765853659,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -419.28956610814,
+							["x"] = 430.57580487805,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -401.54759640009,
+							["x"] = 412.14497560976,
+							["sublevel"] = 1,
+						}, -- [9]
+					},
+					["id"] = 168153,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[326868] = {
+						},
+						[340358] = {
+						},
+						[327882] = {
+						},
+						[328175] = {
+						},
+						[330403] = {
+						},
+						[331967] = {
+						},
+						[132951] = {
+						},
+						[330404] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 112140,
+					["count"] = 12,
+					["displayId"] = 96752,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Plagueroc",
+					["scale"] = 1,
+				}, -- [6]
+				{
+					["clones"] = {
+						{
+							["y"] = -124.83981603523,
+							["x"] = 327.3150089591,
+							["patrol"] = {
+								{
+									["y"] = -124.83981603523,
+									["x"] = 327.3150089591,
+								}, -- [1]
+								{
+									["y"] = -128.55458277376,
+									["x"] = 334.16647126079,
+								}, -- [2]
+								{
+									["y"] = -130.41018391412,
+									["x"] = 344.31041672892,
+								}, -- [3]
+								{
+									["y"] = -127.93604906031,
+									["x"] = 351.85652962571,
+								}, -- [4]
+								{
+									["y"] = -123.11148768806,
+									["x"] = 356.8047887155,
+								}, -- [5]
+								{
+									["y"] = -127.93604906031,
+									["x"] = 351.85652962571,
+								}, -- [6]
+								{
+									["y"] = -130.41018391412,
+									["x"] = 344.31041672892,
+								}, -- [7]
+								{
+									["y"] = -128.55458277376,
+									["x"] = 334.16647126079,
+								}, -- [8]
+								{
+									["y"] = -124.83981603523,
+									["x"] = 327.3150089591,
+								}, -- [9]
+								{
+									["y"] = -116.30762480346,
+									["x"] = 328.97078488244,
+								}, -- [10]
+								{
+									["y"] = -106.78221039432,
+									["x"] = 333.54794020179,
+								}, -- [11]
+								{
+									["y"] = -99.854639174356,
+									["x"] = 342.45482355194,
+								}, -- [12]
+								{
+									["y"] = -106.78221039432,
+									["x"] = 333.54794020179,
+								}, -- [13]
+								{
+									["y"] = -116.30762480346,
+									["x"] = 328.97078488244,
+								}, -- [14]
+							},
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -326.05698781209,
+							["x"] = 469.72972821944,
+							["g"] = 34,
+							["sublevel"] = 1,
+						}, -- [2]
+					},
+					["id"] = 163882,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[326868] = {
+						},
+						[320040] = {
+						},
+						[329239] = {
+						},
+						[340358] = {
+						},
+						[328175] = {
+						},
+						[320072] = {
+						},
+						[132951] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 144180,
+					["count"] = 14,
+					["displayId"] = 99191,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Decaying Flesh Giant",
+					["scale"] = 1.5,
+				}, -- [7]
+				{
+					["clones"] = {
+						{
+							["y"] = -118.76847819519,
+							["x"] = 356.48244864547,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -133.69968672466,
+							["x"] = 355.46342292123,
+							["g"] = 10,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -122.71715211227,
+							["x"] = 340.81026818516,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -109.50989709013,
+							["x"] = 375.56571013002,
+							["g"] = 8,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 168572,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[330423] = {
+						},
+						[328177] = {
+						},
+						[326868] = {
+						},
+						[317898] = {
+						},
+						[121308] = {
+						},
+						[340358] = {
+						},
+						[320297] = {
+						},
+						[330422] = {
+						},
+						[328175] = {
+						},
+						[224729] = {
+						},
+						[132951] = {
+						},
+						[331967] = {
+						},
+						[328176] = {
+						},
+						[334882] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Repentance"] = true,
+						["Mind Control"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Fear"] = true,
+						["Imprison"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 8,
+					["displayId"] = 83621,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Fungi Stormer",
+					["scale"] = 1,
+				}, -- [8]
+				{
+					["clones"] = {
+						{
+							["y"] = -129.55981684044,
+							["x"] = 340.42912697063,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -120.62051565761,
+							["x"] = 352.62300855403,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["sublevel"] = 1,
+							["x"] = 366.37096965138,
+							["y"] = -113.51747989998,
+							["g"] = 8,
+							["inspiring"] = true,
+						}, -- [3]
+					},
+					["id"] = 168578,
+					["spells"] = {
+						[328015] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[329917] = {
+						},
+						[328016] = {
+						},
+						[121308] = {
+						},
+						[340358] = {
+						},
+						[50707] = {
+						},
+						[288865] = {
+						},
+						[328175] = {
+						},
+						[224729] = {
+						},
+						[331967] = {
+						},
+						[320297] = {
+						},
+						[132951] = {
+						},
+						[334882] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 96120,
+					["count"] = 8,
+					["displayId"] = 83616,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Fungalmancer",
+					["scale"] = 1.3,
+				}, -- [9]
+				{
+					["clones"] = {
+						{
+							["sublevel"] = 1,
+							["x"] = 329.30375973909,
+							["y"] = -111.00579022831,
+							["g"] = 4,
+							["inspiring"] = true,
+						}, -- [1]
+						{
+							["y"] = -100.89984733656,
+							["x"] = 336.37214447216,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["sublevel"] = 1,
+							["x"] = 351.28491667896,
+							["y"] = -94.838229880129,
+							["g"] = 6,
+							["inspiring"] = true,
+						}, -- [3]
+						{
+							["y"] = -88.997148896034,
+							["x"] = 365.54419614024,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -91.274314317921,
+							["x"] = 371.27237541493,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -68.317835217614,
+							["x"] = 361.20169411449,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [6]
+					},
+					["id"] = 168580,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[340358] = {
+						},
+						[328175] = {
+						},
+						[224729] = {
+						},
+						[331967] = {
+						},
+						[132951] = {
+						},
+						[344003] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Disorient"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 8,
+					["displayId"] = 97079,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Plagueborer",
+					["scale"] = 1,
+				}, -- [10]
+				{
+					["clones"] = {
+						{
+							["y"] = -109.82680025626,
+							["x"] = 323.89612499331,
+							["g"] = 4,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -95.480456897986,
+							["x"] = 336.95500688554,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -96.269863076711,
+							["x"] = 314.86162806413,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -93.124300147373,
+							["x"] = 318.81361428924,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -91.928793816899,
+							["x"] = 354.81452112075,
+							["g"] = 6,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -84.222575793532,
+							["x"] = 368.24600796308,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -74.415883054029,
+							["x"] = 359.68506415457,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -61.189114227181,
+							["x"] = 364.74496679867,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -89.989034183382,
+							["x"] = 329.62928156653,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -72.15580184481,
+							["x"] = 377.16733585627,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [10]
+					},
+					["id"] = 168361,
+					["spells"] = {
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[330037] = {
+						},
+						[132951] = {
+						},
+						[327515] = {
+						},
+						[224729] = {
+						},
+						[328175] = {
+						},
+						[331967] = {
+						},
+						[326868] = {
+						},
+						[340358] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Imprison"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 8,
+					["displayId"] = 63503,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Fen Hornet",
+					["scale"] = 1,
+				}, -- [11]
+				{
+					["clones"] = {
+						{
+							["y"] = -106.0306813965,
+							["x"] = 326.71727497543,
+							["g"] = 4,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -85.424995643525,
+							["x"] = 328.92728011043,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -100.07018928969,
+							["x"] = 317.88933089392,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -89.683353083541,
+							["x"] = 349.59284634637,
+							["g"] = 6,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -87.030099596775,
+							["x"] = 372.93124897047,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -96.612310880845,
+							["x"] = 322.36276884019,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -75.128715327837,
+							["x"] = 363.59057263665,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -98.534422590617,
+							["x"] = 340.70630249237,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -64.952582753709,
+							["x"] = 365.19684544817,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -79.999268310529,
+							["x"] = 335.13951219512,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["y"] = -75.136440463469,
+							["x"] = 373.30675110641,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [11]
+					},
+					["id"] = 163915,
+					["spells"] = {
+						[132951] = {
+						},
+						[328175] = {
+						},
+						[340358] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 80100,
+					["count"] = 10,
+					["displayId"] = 99163,
+					["creatureType"] = "Not specified",
+					["level"] = 60,
+					["name"] = "Hatchling Nest",
+					["scale"] = 1,
+				}, -- [12]
+				{
+					["clones"] = {
+						{
+							["y"] = -129.98937146502,
+							["x"] = 359.32558786729,
+							["g"] = 10,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -117.50977726906,
+							["x"] = 369.00482859831,
+							["g"] = 8,
+							["sublevel"] = 1,
+						}, -- [2]
+					},
+					["id"] = 168574,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[121308] = {
+						},
+						[340358] = {
+						},
+						[328002] = {
+						},
+						[328175] = {
+						},
+						[327995] = {
+						},
+						[224729] = {
+						},
+						[132951] = {
+						},
+						[331967] = {
+						},
+						[320297] = {
+						},
+						[326868] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 96120,
+					["count"] = 8,
+					["displayId"] = 96887,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Pestilent Harvester",
+					["scale"] = 1.3,
+				}, -- [13]
+				{
+					["clones"] = {
+						{
+							["y"] = -73.542474573791,
+							["x"] = 389.3912195122,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["id"] = 171474,
+					["spells"] = {
+						[334640] = {
+						},
+						[132951] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Disorient"] = true,
+						["Root"] = true,
+						["Slow"] = true,
+						["Banish"] = true,
+						["Stun"] = true,
+					},
+					["health"] = 248310,
+					["count"] = 0,
+					["displayId"] = 95789,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Finger Food",
+					["scale"] = 1,
+				}, -- [14]
+				{
+					["clones"] = {
+						{
+							["y"] = -81.35147114482,
+							["x"] = 417.35440465416,
+							["patrol"] = {
+								{
+									["y"] = -81.35147114482,
+									["x"] = 417.35440465416,
+								}, -- [1]
+								{
+									["y"] = -84.979988504945,
+									["x"] = 421.19143870491,
+								}, -- [2]
+								{
+									["y"] = -89.52265967195,
+									["x"] = 422.87870590435,
+								}, -- [3]
+								{
+									["y"] = -84.979988504945,
+									["x"] = 421.19143870491,
+								}, -- [4]
+								{
+									["y"] = -81.35147114482,
+									["x"] = 417.35440465416,
+								}, -- [5]
+								{
+									["y"] = -79.009634849192,
+									["x"] = 411.19754988348,
+								}, -- [6]
+								{
+									["y"] = -79.269197279847,
+									["x"] = 404.57822888099,
+								}, -- [7]
+								{
+									["y"] = -81.086267974652,
+									["x"] = 401.46324577274,
+								}, -- [8]
+								{
+									["y"] = -84.071458727552,
+									["x"] = 397.82911552315,
+								}, -- [9]
+								{
+									["y"] = -88.743922249902,
+									["x"] = 394.06519291821,
+								}, -- [10]
+								{
+									["y"] = -84.071458727552,
+									["x"] = 397.82911552315,
+								}, -- [11]
+								{
+									["y"] = -81.086267974652,
+									["x"] = 401.46324577274,
+								}, -- [12]
+								{
+									["y"] = -79.269197279847,
+									["x"] = 404.57822888099,
+								}, -- [13]
+								{
+									["y"] = -79.009634849192,
+									["x"] = 411.19754988348,
+								}, -- [14]
+							},
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -105.41056520271,
+							["x"] = 420.28921499286,
+							["patrol"] = {
+								{
+									["y"] = -105.41056520271,
+									["x"] = 420.28921499286,
+								}, -- [1]
+								{
+									["y"] = -100.94424769216,
+									["x"] = 422.74892468902,
+								}, -- [2]
+								{
+									["y"] = -96.271773029788,
+									["x"] = 423.39787532574,
+								}, -- [3]
+								{
+									["y"] = -100.94424769216,
+									["x"] = 422.74892468902,
+								}, -- [4]
+								{
+									["y"] = -105.41056520271,
+									["x"] = 420.28921499286,
+								}, -- [5]
+								{
+									["y"] = -108.21250819134,
+									["x"] = 415.22106833913,
+								}, -- [6]
+								{
+									["y"] = -108.73167761272,
+									["x"] = 411.06775752813,
+								}, -- [7]
+								{
+									["y"] = -108.99125675341,
+									["x"] = 404.57822888099,
+								}, -- [8]
+								{
+									["y"] = -107.43376519928,
+									["x"] = 398.8674432259,
+								}, -- [9]
+								{
+									["y"] = -101.98256425489,
+									["x"] = 393.54602349683,
+								}, -- [10]
+								{
+									["y"] = -107.43376519928,
+									["x"] = 398.8674432259,
+								}, -- [11]
+								{
+									["y"] = -108.99125675341,
+									["x"] = 404.57822888099,
+								}, -- [12]
+								{
+									["y"] = -108.73167761272,
+									["x"] = 411.06775752813,
+								}, -- [13]
+								{
+									["y"] = -108.21250819134,
+									["x"] = 415.22106833913,
+								}, -- [14]
+							},
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -358.94494036731,
+							["x"] = 414.47648780488,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -392.81631844775,
+							["x"] = 440.5917807123,
+							["g"] = 42,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 168396,
+					["spells"] = {
+						[326868] = {
+						},
+						[288865] = {
+						},
+						[327581] = {
+						},
+						[327233] = {
+						},
+						[132951] = {
+						},
+						[327594] = {
+						},
+						[340358] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 128160,
+					["count"] = 12,
+					["displayId"] = 96244,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Plaguebelcher",
+					["scale"] = 1.5,
+				}, -- [15]
+				{
+					["clones"] = {
+						{
+							["y"] = -93.603204799883,
+							["x"] = 432.00995121951,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1,
+					["spells"] = {
+						[319780] = {
+						},
+						[326868] = {
+						},
+						[324652] = {
+						},
+						[332865] = {
+						},
+						[132951] = {
+						},
+						[325748] = {
+						},
+						[288865] = {
+						},
+						[324459] = {
+						},
+						[324490] = {
+						},
+						[324527] = {
+						},
+						[324667] = {
+						},
+						[326242] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2419,
+					["instanceID"] = 1183,
+					["health"] = 560700,
+					["name"] = "Globgrog",
+					["displayId"] = 95844,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["count"] = 0,
+					["id"] = 164255,
+				}, -- [16]
+				{
+					["clones"] = {
+						{
+							["y"] = -138.10832570569,
+							["x"] = 449.85336750056,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -131.47900051218,
+							["x"] = 493.13326829268,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -141.48252685905,
+							["x"] = 489.49928166962,
+							["g"] = 23,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -153.72854320626,
+							["x"] = 483.85229268293,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -148.91234360138,
+							["x"] = 538.50556097561,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -147.13774054291,
+							["x"] = 546.99980487805,
+							["sublevel"] = 1,
+						}, -- [6]
+					},
+					["id"] = 169159,
+					["spells"] = {
+						[288865] = {
+						},
+						[132951] = {
+						},
+						[328986] = {
+						},
+						[326868] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 4005,
+					["count"] = 0,
+					["displayId"] = 99464,
+					["creatureType"] = "Not specified",
+					["level"] = 60,
+					["name"] = "Unstable Canister",
+					["scale"] = 0.6,
+				}, -- [17]
+				{
+					["clones"] = {
+						{
+							["y"] = -141.23508597401,
+							["x"] = 453.5396161177,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -142.88976992423,
+							["x"] = 449.33214162567,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -136.08525549095,
+							["x"] = 452.9316322593,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -131.07794100618,
+							["x"] = 477.01501804585,
+							["g"] = 18,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -138.11573458027,
+							["x"] = 480.0372957718,
+							["g"] = 18,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -120.97884265861,
+							["x"] = 509.84879703416,
+							["g"] = 21,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -121.09084601677,
+							["x"] = 504.68644112299,
+							["g"] = 21,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -128.09166433331,
+							["x"] = 511.94350905522,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -134.07664409016,
+							["x"] = 515.14489613431,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -114.03714208776,
+							["x"] = 527.24399989887,
+							["g"] = 27,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["y"] = -114.52077998098,
+							["x"] = 522.56604878049,
+							["g"] = 27,
+							["sublevel"] = 1,
+						}, -- [11]
+						{
+							["y"] = -229.29595086022,
+							["x"] = 530.80764468933,
+							["g"] = 28,
+							["sublevel"] = 1,
+						}, -- [12]
+					},
+					["id"] = 163892,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[320512] = {
+						},
+						[340358] = {
+						},
+						[186439] = {
+						},
+						[132951] = {
+						},
+						[328175] = {
+						},
+						[320297] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[326868] = {
+						},
+						[331967] = {
+						},
+						[344991] = {
+						},
+						[325748] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 6,
+					["displayId"] = 97796,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Rotting Slimeclaw",
+					["scale"] = 1,
+				}, -- [18]
+				{
+					["clones"] = {
+						{
+							["y"] = -153.0986560598,
+							["x"] = 468.70475012539,
+							["g"] = 26,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -157.17977139386,
+							["x"] = 465.74891935058,
+							["g"] = 26,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -155.58040170299,
+							["x"] = 480.83426042598,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -162.0430864911,
+							["x"] = 479.18213000245,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 168878,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[132951] = {
+						},
+						[326868] = {
+						},
+						[328501] = {
+						},
+						[328175] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[331967] = {
+						},
+						[334926] = {
+						},
+						[340358] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Disorient"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 8,
+					["displayId"] = 97079,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Rigged Plagueborer",
+					["scale"] = 1,
+				}, -- [19]
+				{
+					["clones"] = {
+						{
+							["sublevel"] = 1,
+							["x"] = 461.36546951417,
+							["patrol"] = {
+								{
+									["y"] = -147.69639652777,
+									["x"] = 461.36546951417,
+								}, -- [1]
+								{
+									["y"] = -153.21120719754,
+									["x"] = 464.10234772756,
+								}, -- [2]
+								{
+									["y"] = -147.69639652777,
+									["x"] = 461.36546951417,
+								}, -- [3]
+								{
+									["y"] = -142.6942952979,
+									["x"] = 465.4021778939,
+								}, -- [4]
+								{
+									["y"] = -137.73124699665,
+									["x"] = 471.07423599316,
+								}, -- [5]
+								{
+									["y"] = -142.6942952979,
+									["x"] = 465.4021778939,
+								}, -- [6]
+							},
+							["y"] = -147.69639652777,
+						}, -- [1]
+						{
+							["y"] = -109.50238223463,
+							["x"] = 509.69399123069,
+							["patrol"] = {
+								{
+									["y"] = -109.50238223463,
+									["x"] = 509.69399123069,
+								}, -- [1]
+								{
+									["y"] = -107.85414078796,
+									["x"] = 516.95380977464,
+								}, -- [2]
+								{
+									["y"] = -108.82359639126,
+									["x"] = 522.44738690393,
+								}, -- [3]
+								{
+									["y"] = -107.85414078796,
+									["x"] = 516.95380977464,
+								}, -- [4]
+								{
+									["y"] = -109.50238223463,
+									["x"] = 509.69399123069,
+								}, -- [5]
+								{
+									["y"] = -113.83245265299,
+									["x"] = 502.08880536649,
+								}, -- [6]
+								{
+									["y"] = -120.45707749902,
+									["x"] = 496.11049350146,
+								}, -- [7]
+								{
+									["y"] = -125.78909025125,
+									["x"] = 494.81788140767,
+								}, -- [8]
+								{
+									["y"] = -120.45707749902,
+									["x"] = 496.11049350146,
+								}, -- [9]
+								{
+									["y"] = -113.83245265299,
+									["x"] = 502.08880536649,
+								}, -- [10]
+							},
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -129.59456897833,
+							["x"] = 517.22264750072,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -240.07154676417,
+							["x"] = 489.3925592072,
+							["g"] = 30,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 163894,
+					["spells"] = {
+						[288865] = {
+						},
+						[320519] = {
+						},
+						[326868] = {
+						},
+						[318949] = {
+						},
+						[340358] = {
+						},
+						[320517] = {
+						},
+						[332581] = {
+						},
+						[328175] = {
+						},
+						[331967] = {
+						},
+						[336449] = {
+						},
+						[132951] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 128160,
+					["count"] = 12,
+					["displayId"] = 95475,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Blighted Spinebreaker",
+					["scale"] = 1.5,
+				}, -- [20]
+				{
+					["clones"] = {
+						{
+							["sublevel"] = 1,
+							["x"] = 475.92322857336,
+							["y"] = -135.7955205792,
+							["g"] = 18,
+							["inspiring"] = true,
+						}, -- [1]
+						{
+							["sublevel"] = 1,
+							["x"] = 482.93750112458,
+							["y"] = -159.39610144832,
+							["g"] = 25,
+							["inspiring"] = true,
+						}, -- [2]
+						{
+							["y"] = -134.5623545947,
+							["inspiring"] = true,
+							["patrol"] = {
+								{
+									["y"] = -134.5623545947,
+									["x"] = 501.43419879591,
+								}, -- [1]
+								{
+									["y"] = -133.18586449495,
+									["x"] = 495.36196015164,
+								}, -- [2]
+								{
+									["y"] = -134.5623545947,
+									["x"] = 501.43419879591,
+								}, -- [3]
+								{
+									["y"] = -133.30402856862,
+									["x"] = 505.99704119615,
+								}, -- [4]
+								{
+									["y"] = -132.24051640721,
+									["x"] = 509.77840311992,
+								}, -- [5]
+								{
+									["y"] = -136.49455491045,
+									["x"] = 510.36923870186,
+								}, -- [6]
+								{
+									["y"] = -139.09423552794,
+									["x"] = 509.06938825071,
+								}, -- [7]
+								{
+									["y"] = -142.63926423318,
+									["x"] = 504.34268331039,
+								}, -- [8]
+								{
+									["y"] = -142.63926423318,
+									["x"] = 504.34268331039,
+								}, -- [9]
+								{
+									["y"] = -139.09423552794,
+									["x"] = 509.06938825071,
+								}, -- [10]
+								{
+									["y"] = -136.49455491045,
+									["x"] = 510.36923870186,
+								}, -- [11]
+								{
+									["y"] = -132.24051640721,
+									["x"] = 509.77840311992,
+								}, -- [12]
+								{
+									["y"] = -133.30402856862,
+									["x"] = 505.99704119615,
+								}, -- [13]
+							},
+							["x"] = 501.43419879591,
+							["g"] = 20,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -123.81726968817,
+							["x"] = 515.93116764425,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["sublevel"] = 1,
+							["x"] = 489.96160863438,
+							["patrol"] = {
+								{
+									["y"] = -154.20633134398,
+									["x"] = 489.96160863438,
+								}, -- [1]
+								{
+									["y"] = -149.3116710577,
+									["x"] = 491.28088592077,
+								}, -- [2]
+								{
+									["y"] = -154.20633134398,
+									["x"] = 489.96160863438,
+								}, -- [3]
+								{
+									["y"] = -156.2835542521,
+									["x"] = 485.13618166924,
+								}, -- [4]
+								{
+									["y"] = -158.52873757739,
+									["x"] = 478.16428326123,
+								}, -- [5]
+								{
+									["y"] = -157.70156877692,
+									["x"] = 472.13774815458,
+								}, -- [6]
+								{
+									["y"] = -156.2835542521,
+									["x"] = 468.59271437814,
+								}, -- [7]
+								{
+									["y"] = -157.70156877692,
+									["x"] = 472.13774815458,
+								}, -- [8]
+								{
+									["y"] = -158.52873757739,
+									["x"] = 478.16428326123,
+								}, -- [9]
+								{
+									["y"] = -156.2835542521,
+									["x"] = 485.13618166924,
+								}, -- [10]
+							},
+							["g"] = 24,
+							["y"] = -154.20633134398,
+						}, -- [5]
+						{
+							["sublevel"] = 1,
+							["x"] = 500.417472786,
+							["y"] = -212.52949114825,
+							["g"] = 29,
+							["inspiring"] = true,
+						}, -- [6]
+						{
+							["y"] = -232.44102184085,
+							["x"] = 534.35545374488,
+							["g"] = 28,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -234.44624410771,
+							["x"] = 529.62187598197,
+							["g"] = 28,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -233.51144678486,
+							["x"] = 485.16563493014,
+							["g"] = 30,
+							["sublevel"] = 1,
+						}, -- [9]
+					},
+					["id"] = 168627,
+					["spells"] = {
+						[328180] = {
+						},
+						[328094] = {
+						},
+						[317898] = {
+						},
+						[336449] = {
+						},
+						[340358] = {
+						},
+						[121308] = {
+						},
+						[325748] = {
+						},
+						[320297] = {
+						},
+						[288865] = {
+						},
+						[328175] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[331967] = {
+						},
+						[132951] = {
+						},
+						[326868] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 8,
+					["displayId"] = 96459,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Plaguebinder",
+					["scale"] = 1,
+				}, -- [21]
+				{
+					["clones"] = {
+						{
+							["y"] = -157.26780900968,
+							["x"] = 493.62292532272,
+							["g"] = 24,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -216.25398516626,
+							["x"] = 502.64031943836,
+							["g"] = 29,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -82.276849315068,
+							["x"] = 380.77647918188,
+							["g"] = 46,
+							["sublevel"] = 2,
+						}, -- [3]
+					},
+					["id"] = 164705,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[340357] = {
+						},
+						[321975] = {
+						},
+						[132951] = {
+						},
+						[334882] = {
+						},
+						[346989] = {
+						},
+						[326868] = {
+						},
+						[224729] = {
+						},
+						[340356] = {
+						},
+						[321999] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Mind Control"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 6,
+					["displayId"] = 33010,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Pestilence Slime",
+					["scale"] = 1,
+				}, -- [22]
+				{
+					["clones"] = {
+						{
+							["y"] = -132.99437470818,
+							["x"] = 489.24496005355,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -128.68910095143,
+							["x"] = 487.84108485143,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -126.7039816666,
+							["x"] = 491.77653514526,
+							["g"] = 19,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -146.3725480582,
+							["x"] = 495.13205111024,
+							["g"] = 23,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -145.74502110254,
+							["x"] = 489.70482180229,
+							["g"] = 23,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -142.44056610791,
+							["x"] = 492.99755417186,
+							["g"] = 23,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -148.7704109589,
+							["x"] = 380.39298758218,
+							["g"] = 46,
+							["sublevel"] = 2,
+						}, -- [7]
+					},
+					["id"] = 163891,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[326868] = {
+						},
+						[132951] = {
+						},
+						[328662] = {
+						},
+						[319070] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[317898] = {
+						},
+						[346989] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Mind Control"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 6,
+					["displayId"] = 97477,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Rotmarrow Slime",
+					["scale"] = 1,
+				}, -- [23]
+				{
+					["clones"] = {
+						{
+							["y"] = -138.40374755191,
+							["x"] = 499.96089576842,
+							["g"] = 20,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -210.81620808319,
+							["x"] = 504.69641878971,
+							["g"] = 29,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -114.05630136986,
+							["x"] = 380.02483564646,
+							["g"] = 46,
+							["sublevel"] = 2,
+						}, -- [3]
+					},
+					["id"] = 164707,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[322410] = {
+						},
+						[132951] = {
+						},
+						[321935] = {
+						},
+						[224729] = {
+						},
+						[333737] = {
+						},
+						[326868] = {
+						},
+						[346989] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Mind Control"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 64080,
+					["count"] = 6,
+					["displayId"] = 95787,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Congealed Slime",
+					["scale"] = 1,
+				}, -- [24]
+				{
+					["clones"] = {
+						{
+							["y"] = -143.85249140265,
+							["x"] = 535.30946341463,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -154.45950098778,
+							["x"] = 545.47141463415,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -302.96453456152,
+							["x"] = 468.70494066189,
+							["g"] = 31,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -310.41746542767,
+							["x"] = 452.96487804878,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -338.33599180508,
+							["x"] = 431.78048780488,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -313.02454818175,
+							["x"] = 483.79902439024,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -302.13674577973,
+							["x"] = 490.77948611095,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -289.06131557767,
+							["x"] = 495.51804878049,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -336.41925806688,
+							["x"] = 457.51317073171,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -389.41260322269,
+							["x"] = 478.08531722173,
+							["g"] = 43,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["y"] = -152.87597632885,
+							["x"] = 524.29847405256,
+							["sublevel"] = 1,
+						}, -- [11]
+						{
+							["y"] = -165.24711273585,
+							["x"] = 529.15854710293,
+							["sublevel"] = 1,
+						}, -- [12]
+					},
+					["id"] = 168022,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[328432] = {
+						},
+						[329224] = {
+						},
+						[132951] = {
+						},
+						[326868] = {
+						},
+						[328175] = {
+						},
+						[345429] = {
+						},
+						[340358] = {
+						},
+						[328429] = {
+						},
+						[329226] = {
+						},
+						[319898] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Mind Control"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 88110,
+					["count"] = 10,
+					["displayId"] = 95688,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["name"] = "Slime Tentacle",
+					["scale"] = 1.5,
+				}, -- [25]
+				{
+					["clones"] = {
+						{
+							["y"] = -179.77500548767,
+							["x"] = 537.58770731707,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["id"] = 168886,
+					["spells"] = {
+						[288865] = {
+						},
+						[328094] = {
+						},
+						[326868] = {
+						},
+						[320542] = {
+						},
+						[320576] = {
+						},
+						[121308] = {
+						},
+						[340358] = {
+						},
+						[328175] = {
+						},
+						[320529] = {
+						},
+						[132466] = {
+						},
+						[331967] = {
+						},
+						[336449] = {
+						},
+						[132951] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 153792,
+					["count"] = 25,
+					["displayId"] = 96985,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Virulax Blightweaver",
+					["scale"] = 1,
+				}, -- [26]
+				{
+					["clones"] = {
+						{
+							["y"] = -252.48784980471,
+							["x"] = 520.12998557667,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1,
+					["spells"] = {
+						[329110] = {
+						},
+						[326868] = {
+						},
+						[332617] = {
+						},
+						[330026] = {
+						},
+						[288865] = {
+						},
+						[132951] = {
+						},
+						[329217] = {
+						},
+						[325748] = {
+						},
+						[328175] = {
+						},
+						[132466] = {
+						},
+						[333808] = {
+						},
+						[331967] = {
+						},
+						[340358] = {
+						},
+						[322358] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2403,
+					["instanceID"] = 1183,
+					["health"] = 448560,
+					["name"] = "Doctor Ickus",
+					["displayId"] = 96919,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["count"] = 0,
+					["id"] = 164967,
+				}, -- [27]
+				{
+					["clones"] = {
+						{
+							["y"] = -365.18211108266,
+							["x"] = 426.95211609951,
+							["g"] = 38,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -300.98265665052,
+							["x"] = 455.06745919158,
+							["g"] = 32,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["sublevel"] = 1,
+							["x"] = 441.47226688588,
+							["y"] = -352.38715828053,
+							["g"] = 37,
+							["inspiring"] = true,
+						}, -- [3]
+						{
+							["y"] = -353.92617284545,
+							["x"] = 474.28625175849,
+							["g"] = 36,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -325.36991311068,
+							["x"] = 463.59116711873,
+							["g"] = 34,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -328.50297872974,
+							["x"] = 475.50429814686,
+							["g"] = 34,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -378.12503402157,
+							["x"] = 431.02405605182,
+							["g"] = 40,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -387.26549352455,
+							["x"] = 442.68409756098,
+							["g"] = 42,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -383.7990172015,
+							["x"] = 475.33192660477,
+							["g"] = 43,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["sublevel"] = 1,
+							["x"] = 473.86816353298,
+							["y"] = -401.43858988635,
+							["g"] = 45,
+							["inspiring"] = true,
+						}, -- [10]
+						{
+							["y"] = -406.22566854897,
+							["x"] = 455.94611505295,
+							["g"] = 44,
+							["sublevel"] = 1,
+						}, -- [11]
+					},
+					["id"] = 163862,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[328533] = {
+						},
+						[35079] = {
+						},
+						[186439] = {
+						},
+						[340358] = {
+						},
+						[328175] = {
+						},
+						[336451] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[325748] = {
+						},
+						[320297] = {
+						},
+						[317898] = {
+						},
+						[132951] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 88110,
+					["count"] = 8,
+					["displayId"] = 96445,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Defender of Many Eyes",
+					["scale"] = 1,
+				}, -- [28]
+				{
+					["clones"] = {
+						{
+							["y"] = -342.49740572651,
+							["x"] = 492.91626791628,
+							["g"] = 35,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -322.48457122551,
+							["x"] = 448.1390577323,
+							["g"] = 33,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -333.06559919892,
+							["x"] = 471.29662346868,
+							["g"] = 34,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -373.340147268,
+							["x"] = 419.20904544528,
+							["g"] = 41,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -375.09685433332,
+							["x"] = 439.23291556205,
+							["g"] = 39,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -409.65613054699,
+							["x"] = 478.23030201839,
+							["g"] = 45,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["sublevel"] = 1,
+							["x"] = 450.67024390244,
+							["y"] = -401.97804931587,
+							["g"] = 44,
+							["inspiring"] = true,
+						}, -- [7]
+					},
+					["id"] = 167493,
+					["spells"] = {
+						[6962] = {
+						},
+						[201657] = {
+						},
+						[326868] = {
+						},
+						[224729] = {
+						},
+						[328651] = {
+						},
+						[328365] = {
+						},
+						[336449] = {
+						},
+						[132951] = {
+						},
+						[339155] = {
+						},
+						[344991] = {
+						},
+						[325748] = {
+						},
+						[317898] = {
+						},
+						[340358] = {
+						},
+						[328338] = {
+						},
+						[186439] = {
+						},
+						[35079] = {
+						},
+						[328175] = {
+						},
+						[288865] = {
+						},
+						[328395] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 72090,
+					["count"] = 8,
+					["displayId"] = 96116,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Venomous Sniper",
+					["scale"] = 1,
+				}, -- [29]
+				{
+					["clones"] = {
+						{
+							["y"] = -327.57855446406,
+							["x"] = 448.75545086974,
+							["g"] = 33,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -337.77805343811,
+							["x"] = 492.15664897327,
+							["g"] = 35,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -331.85003259355,
+							["x"] = 465.97185975329,
+							["g"] = 34,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -375.74477155265,
+							["x"] = 443.71417895747,
+							["g"] = 39,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -410.89283823325,
+							["x"] = 474.10731381056,
+							["g"] = 45,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -398.30995299765,
+							["x"] = 449.5315546023,
+							["g"] = 44,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -370.07098384654,
+							["x"] = 416.25773970986,
+							["g"] = 41,
+							["sublevel"] = 1,
+						}, -- [7]
+					},
+					["id"] = 168747,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[328342] = {
+						},
+						[132951] = {
+						},
+						[1604] = {
+						},
+						[326868] = {
+						},
+						[224729] = {
+						},
+						[132466] = {
+						},
+						[320297] = {
+						},
+						[340358] = {
+						},
+						[328343] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 32040,
+					["count"] = 0,
+					["displayId"] = 94406,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Venomfang",
+					["scale"] = 0.6,
+				}, -- [30]
+				{
+					["clones"] = {
+						{
+							["y"] = -364.3473725234,
+							["x"] = 442.34967943972,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -388.47226867038,
+							["x"] = 462.11805590326,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -404.19777302284,
+							["x"] = 478.09691496114,
+							["g"] = 45,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -407.70250151655,
+							["x"] = 449.47565705719,
+							["g"] = 44,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 164737,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[338077] = {
+						},
+						[132951] = {
+						},
+						[340358] = {
+						},
+						[328475] = {
+						},
+						[338079] = {
+						},
+						[224729] = {
+						},
+						[328539] = {
+						},
+						[328400] = {
+						},
+						[328409] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 80100,
+					["count"] = 12,
+					["displayId"] = 96434,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Brood Ambusher",
+					["scale"] = 1,
+				}, -- [31]
+				{
+					["clones"] = {
+						{
+							["y"] = -433.6488256384,
+							["x"] = 466.07707317073,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[336258] = {
+						},
+						[325552] = {
+						},
+						[326868] = {
+						},
+						[325245] = {
+						},
+						[339184] = {
+						},
+						[333353] = {
+						},
+						[325551] = {
+						},
+						[340358] = {
+						},
+						[325550] = {
+						},
+						[328539] = {
+						},
+						[332313] = {
+						},
+						[132951] = {
+						},
+						[336306] = {
+						},
+						[331818] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2423,
+					["instanceID"] = 1183,
+					["health"] = 560700,
+					["name"] = "Domina Venomblade",
+					["displayId"] = 96475,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["count"] = 0,
+					["id"] = 164266,
+				}, -- [32]
+				{
+					["clones"] = {
+						{
+							["y"] = -259.32945205479,
+							["x"] = 444.20598977356,
+							["g"] = 47,
+							["sublevel"] = 2,
+						}, -- [1]
+						{
+							["y"] = -397.9138421885,
+							["x"] = 443.60771058641,
+							["g"] = 48,
+							["sublevel"] = 2,
+						}, -- [2]
+						{
+							["y"] = -401.45506849315,
+							["x"] = 437.59459459459,
+							["g"] = 48,
+							["sublevel"] = 2,
+						}, -- [3]
+						{
+							["y"] = -404.42539260983,
+							["x"] = 446.14003858811,
+							["g"] = 48,
+							["sublevel"] = 2,
+						}, -- [4]
+						{
+							["y"] = -395.45582594408,
+							["x"] = 435.67777831787,
+							["g"] = 48,
+							["sublevel"] = 2,
+						}, -- [5]
+						{
+							["y"] = -432.73440593699,
+							["x"] = 461.70854638422,
+							["g"] = 49,
+							["sublevel"] = 2,
+						}, -- [6]
+						{
+							["y"] = -448.71897005696,
+							["x"] = 421.01280326734,
+							["g"] = 50,
+							["sublevel"] = 2,
+						}, -- [7]
+						{
+							["y"] = -441.51260650171,
+							["x"] = 460.41987032455,
+							["g"] = 49,
+							["sublevel"] = 2,
+						}, -- [8]
+						{
+							["y"] = -443.13193376241,
+							["x"] = 417.65264665072,
+							["g"] = 50,
+							["sublevel"] = 2,
+						}, -- [9]
+						{
+							["y"] = -453.48438828408,
+							["x"] = 424.17445549472,
+							["g"] = 50,
+							["sublevel"] = 2,
+						}, -- [10]
+						{
+							["y"] = -449.11400022057,
+							["x"] = 414.14029645134,
+							["g"] = 50,
+							["sublevel"] = 2,
+						}, -- [11]
+						{
+							["y"] = -443.04009998634,
+							["x"] = 466.77063550036,
+							["g"] = 49,
+							["sublevel"] = 2,
+						}, -- [12]
+						{
+							["y"] = -432.04156341455,
+							["x"] = 467.36865772477,
+							["g"] = 49,
+							["sublevel"] = 2,
+						}, -- [13]
+						{
+							["y"] = -437.96944119217,
+							["x"] = 465.60528618282,
+							["g"] = 49,
+							["sublevel"] = 2,
+						}, -- [14]
+						{
+							["y"] = -453.73513181928,
+							["x"] = 417.91295579296,
+							["g"] = 50,
+							["sublevel"] = 2,
+						}, -- [15]
+						{
+							["y"] = -259.52005204769,
+							["x"] = 437.57823954977,
+							["g"] = 47,
+							["sublevel"] = 2,
+						}, -- [16]
+						{
+							["y"] = -402.60356194726,
+							["x"] = 431.65634435712,
+							["g"] = 48,
+							["sublevel"] = 2,
+						}, -- [17]
+					},
+					["id"] = 163857,
+					["spells"] = {
+						[288865] = {
+						},
+						[336449] = {
+						},
+						[317898] = {
+						},
+						[340702] = {
+						},
+						[186439] = {
+						},
+						[132951] = {
+						},
+						[341022] = {
+						},
+						[201657] = {
+						},
+						[224729] = {
+						},
+						[328175] = {
+						},
+						[320297] = {
+						},
+						[325748] = {
+						},
+						[340358] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Shackle Undead"] = true,
+						["Root"] = true,
+						["Control Undead"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
+					["health"] = 32040,
+					["count"] = 4,
+					["displayId"] = 96988,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["name"] = "Plaguebound Devoted",
+					["scale"] = 1,
+				}, -- [33]
+				{
+					["clones"] = {
+						{
+							["y"] = -410.21342465753,
+							["x"] = 437.94740686633,
+							["g"] = 48,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["id"] = 169861,
+					["spells"] = {
+						[288865] = {
+						},
+						[328094] = {
+						},
+						[326868] = {
+						},
+						[121308] = {
+						},
+						[132951] = {
+						},
+						[340358] = {
+						},
+						[330816] = {
+						},
+						[325748] = {
+						},
+						[330786] = {
+						},
+						[336449] = {
+						},
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["health"] = 153792,
+					["count"] = 25,
+					["displayId"] = 94145,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Ickor Bileflesh",
+					["scale"] = 1.5,
+				}, -- [34]
+				{
+					["clones"] = {
+						{
+							["y"] = -439.44631642946,
+							["x"] = 441.37763071444,
+							["sublevel"] = 2,
+						}, -- [1]
+					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1,
+					["spells"] = {
+						[288865] = {
+						},
+						[322304] = {
+						},
+						[326868] = {
+						},
+						[322492] = {
+						},
+						[331399] = {
+						},
+						[132951] = {
+						},
+						[336449] = {
+						},
+						[322232] = {
+						},
+						[322491] = {
+						},
+						[340358] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2404,
+					["instanceID"] = 1183,
+					["health"] = 512640,
+					["name"] = "Margrave Stradama",
+					["displayId"] = 95794,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["count"] = 0,
+					["id"] = 164267,
+				}, -- [35]
 			},
 			[29] = {
 				{
@@ -5608,11 +11425,11 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[224729] = {
+						[317898] = {
 						},
 						[201657] = {
 						},
-						[333729] = {
+						[224729] = {
 						},
 						[325748] = {
 						},
@@ -5620,16 +11437,9 @@ MythicDungeonToolsDB = {
 						},
 						[344991] = {
 						},
-						[317898] = {
+						[333729] = {
 						},
 					},
-					["name"] = "Risen Bonesoldier",
-					["count"] = 4,
-					["health"] = 64080,
-					["displayId"] = 96958,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -5643,6 +11453,13 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Repentance"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Risen Bonesoldier",
+					["displayId"] = 96958,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 64080,
+					["count"] = 4,
 				}, -- [1]
 				{
 					["clones"] = {
@@ -5673,9 +11490,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -327.97454951945,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 7,
 							["x"] = 543.86587768346,
+							["g"] = 7,
+							["sublevel"] = 1,
 						}, -- [5]
 						{
 							["y"] = -323.59793408895,
@@ -5706,7 +11523,7 @@ MythicDungeonToolsDB = {
 						},
 						[328707] = {
 						},
-						[186439] = {
+						[326868] = {
 						},
 						[201657] = {
 						},
@@ -5718,16 +11535,9 @@ MythicDungeonToolsDB = {
 						},
 						[344991] = {
 						},
-						[326868] = {
+						[186439] = {
 						},
 					},
-					["name"] = "Risen Cultist",
-					["count"] = 4,
-					["health"] = 80100,
-					["displayId"] = 96964,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -5741,6 +11551,13 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Repentance"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Risen Cultist",
+					["displayId"] = 96964,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 80100,
+					["count"] = 4,
 				}, -- [2]
 				{
 					["clones"] = {
@@ -5776,16 +11593,16 @@ MythicDungeonToolsDB = {
 						[333227] = {
 						},
 					},
-					["name"] = "Risen Warlord",
-					["count"] = 6,
-					["health"] = 144180,
-					["displayId"] = 97150,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["scale"] = 1.3,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1.3,
+					["name"] = "Risen Warlord",
+					["displayId"] = 97150,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 144180,
+					["count"] = 6,
 				}, -- [3]
 				{
 					["clones"] = {
@@ -5798,16 +11615,16 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -323.67281182478,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 3,
 							["x"] = 327.35493697521,
+							["g"] = 3,
+							["sublevel"] = 1,
 						}, -- [2]
 						{
 							["y"] = -447.20830485009,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 4,
 							["x"] = 440.08477117176,
+							["g"] = 4,
+							["sublevel"] = 1,
 						}, -- [3]
 						{
 							["y"] = -451.09882008637,
@@ -5840,24 +11657,17 @@ MythicDungeonToolsDB = {
 						},
 						[333711] = {
 						},
-						[317898] = {
-						},
-						[224729] = {
-						},
-						[132951] = {
+						[288865] = {
 						},
 						[201657] = {
 						},
-						[288865] = {
+						[132951] = {
+						},
+						[224729] = {
+						},
+						[317898] = {
 						},
 					},
-					["name"] = "Skeletal Raptor",
-					["count"] = 3,
-					["health"] = 39758,
-					["displayId"] = 33733,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -5870,6 +11680,13 @@ MythicDungeonToolsDB = {
 						["Slow"] = true,
 						["Stun"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Skeletal Raptor",
+					["displayId"] = 33733,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 39758,
+					["count"] = 3,
 				}, -- [4]
 				{
 					["clones"] = {
@@ -5890,7 +11707,7 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[326868] = {
 						},
-						[333875] = {
+						[288865] = {
 						},
 						[334051] = {
 						},
@@ -5898,19 +11715,19 @@ MythicDungeonToolsDB = {
 						},
 						[334076] = {
 						},
-						[288865] = {
+						[333875] = {
 						},
 					},
-					["name"] = "Death Speaker",
-					["count"] = 6,
-					["health"] = 136170,
-					["displayId"] = 96957,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["scale"] = 1.3,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1.3,
+					["name"] = "Death Speaker",
+					["displayId"] = 96957,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 136170,
+					["count"] = 6,
 				}, -- [5]
 				{
 					["clones"] = {
@@ -6117,21 +11934,21 @@ MythicDungeonToolsDB = {
 						},
 						[335072] = {
 						},
-						[320785] = {
-						},
 						[288865] = {
 						},
+						[320785] = {
+						},
 					},
-					["name"] = "Enraged Spirit",
-					["count"] = 8,
-					["health"] = 144180,
-					["displayId"] = 97153,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["scale"] = 1.3,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1.3,
+					["name"] = "Enraged Spirit",
+					["displayId"] = 97153,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 144180,
+					["count"] = 8,
 				}, -- [6]
 				{
 					["clones"] = {
@@ -6152,7 +11969,7 @@ MythicDungeonToolsDB = {
 						},
 						[331933] = {
 						},
-						[326868] = {
+						[288865] = {
 						},
 						[335072] = {
 						},
@@ -6160,19 +11977,19 @@ MythicDungeonToolsDB = {
 						},
 						[331927] = {
 						},
-						[288865] = {
+						[326868] = {
 						},
 					},
-					["name"] = "Defunct Dental Drill",
-					["count"] = 8,
-					["health"] = 144180,
-					["displayId"] = 92177,
-					["creatureType"] = "Mechanical",
-					["level"] = 60,
-					["scale"] = 1.3,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1.3,
+					["name"] = "Defunct Dental Drill",
+					["displayId"] = 92177,
+					["creatureType"] = "Mechanical",
+					["level"] = 60,
+					["health"] = 144180,
+					["count"] = 8,
 				}, -- [7]
 				{
 					["clones"] = {
@@ -6203,9 +12020,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -362.21200198522,
 							["inspiring"] = true,
-							["sublevel"] = 2,
-							["g"] = 10,
 							["x"] = 520.6730695605,
+							["g"] = 10,
+							["sublevel"] = 2,
 						}, -- [5]
 						{
 							["y"] = -361.56308117398,
@@ -6237,29 +12054,29 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["name"] = "Volatile Memory",
-					["count"] = 0,
-					["health"] = 16020,
-					["displayId"] = 91017,
-					["creatureType"] = "Mechanical",
-					["level"] = 60,
-					["scale"] = 0.6,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Root"] = true,
 						["Slow"] = true,
-						["Stun"] = true,
 						["Silence"] = true,
+						["Stun"] = true,
 					},
+					["scale"] = 0.6,
+					["name"] = "Volatile Memory",
+					["displayId"] = 91017,
+					["creatureType"] = "Mechanical",
+					["level"] = 60,
+					["health"] = 16020,
+					["count"] = 0,
 				}, -- [8]
 				{
 					["clones"] = {
 						{
 							["y"] = -273.51848572772,
 							["inspiring"] = true,
-							["sublevel"] = 2,
-							["g"] = 8,
 							["x"] = 412.19996962823,
+							["g"] = 8,
+							["sublevel"] = 2,
 						}, -- [1]
 						{
 							["y"] = -289.20711596381,
@@ -6303,21 +12120,21 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Polymorph"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Root"] = true,
+					},
+					["scale"] = 1,
 					["name"] = "Headless Client",
-					["count"] = 5,
-					["health"] = 80100,
 					["displayId"] = 91123,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Stun"] = true,
-						["Root"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Polymorph"] = true,
-					},
+					["health"] = 80100,
+					["count"] = 5,
 				}, -- [9]
 				{
 					["clones"] = {
@@ -6343,16 +12160,16 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["name"] = "4.RF-4.RF",
-					["count"] = 8,
-					["health"] = 144180,
-					["displayId"] = 68856,
-					["creatureType"] = "Mechanical",
-					["level"] = 60,
-					["scale"] = 1.3,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1.3,
+					["name"] = "4.RF-4.RF",
+					["displayId"] = 68856,
+					["creatureType"] = "Mechanical",
+					["level"] = 60,
+					["health"] = 144180,
+					["count"] = 8,
 				}, -- [10]
 				{
 					["clones"] = {
@@ -6377,36 +12194,36 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[320785] = {
 						},
-						[326868] = {
+						[335072] = {
 						},
 						[288865] = {
 						},
-						[132951] = {
+						[331379] = {
 						},
 						[332084] = {
 						},
-						[331379] = {
+						[132951] = {
 						},
 						[224729] = {
 						},
-						[335072] = {
+						[326868] = {
 						},
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Polymorph"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Root"] = true,
+						["Silence"] = true,
+					},
+					["scale"] = 1,
 					["name"] = "Lubricator",
-					["count"] = 5,
-					["health"] = 112140,
 					["displayId"] = 91631,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Root"] = true,
-						["Polymorph"] = true,
-					},
+					["health"] = 112140,
+					["count"] = 5,
 				}, -- [11]
 				{
 					["clones"] = {
@@ -6445,22 +12262,15 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[332232] = {
+						[326868] = {
 						},
 						[335072] = {
 						},
 						[288865] = {
 						},
-						[326868] = {
+						[332232] = {
 						},
 					},
-					["name"] = "Sentient Oil",
-					["count"] = 6,
-					["health"] = 88110,
-					["displayId"] = 90423,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -6474,6 +12284,13 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Fear"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Sentient Oil",
+					["displayId"] = 90423,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["health"] = 88110,
+					["count"] = 6,
 				}, -- [12]
 				{
 					["clones"] = {
@@ -6484,7 +12301,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["health"] = 432540,
+					["id"] = 164556,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -6497,7 +12314,7 @@ MythicDungeonToolsDB = {
 						},
 						[320141] = {
 						},
-						[320785] = {
+						[288865] = {
 						},
 						[132951] = {
 						},
@@ -6507,27 +12324,27 @@ MythicDungeonToolsDB = {
 						},
 						[342905] = {
 						},
-						[320142] = {
+						[335072] = {
 						},
 						[320008] = {
 						},
 						[320132] = {
 						},
-						[335072] = {
+						[320142] = {
 						},
-						[288865] = {
+						[320785] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2409,
 					["instanceID"] = 1188,
-					["name"] = "Millhouse Manastorm",
-					["count"] = 0,
+					["scale"] = 1,
+					["health"] = 432540,
 					["displayId"] = 68818,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["scale"] = 1,
-					["id"] = 164556,
+					["count"] = 0,
+					["name"] = "Millhouse Manastorm",
 				}, -- [13]
 				{
 					["clones"] = {
@@ -6538,7 +12355,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["health"] = 368460,
+					["id"] = 164555,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -6561,7 +12378,7 @@ MythicDungeonToolsDB = {
 						},
 						[320145] = {
 						},
-						[132466] = {
+						[326868] = {
 						},
 						[321061] = {
 						},
@@ -6577,19 +12394,19 @@ MythicDungeonToolsDB = {
 						},
 						[323992] = {
 						},
-						[326868] = {
+						[132466] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2409,
 					["instanceID"] = 1188,
-					["name"] = "Millificent Manastorm",
-					["count"] = 0,
+					["scale"] = 1,
+					["health"] = 368460,
 					["displayId"] = 67422,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["scale"] = 1,
-					["id"] = 164555,
+					["count"] = 0,
+					["name"] = "Millificent Manastorm",
 				}, -- [14]
 				{
 					["clones"] = {
@@ -6673,7 +12490,7 @@ MythicDungeonToolsDB = {
 						},
 						[1604] = {
 						},
-						[132951] = {
+						[288865] = {
 						},
 						[332608] = {
 						},
@@ -6681,42 +12498,42 @@ MythicDungeonToolsDB = {
 						},
 						[332607] = {
 						},
-						[288865] = {
+						[132951] = {
 						},
 					},
-					["name"] = "Atal'ai Hoodoo Hexxer",
-					["count"] = 6,
-					["health"] = 128160,
-					["displayId"] = 97345,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Atal'ai Hoodoo Hexxer",
+					["displayId"] = 97345,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 128160,
+					["count"] = 6,
 				}, -- [15]
 				{
 					["clones"] = {
 						{
 							["y"] = -256.70353606287,
 							["inspiring"] = true,
-							["sublevel"] = 3,
-							["g"] = 13,
 							["x"] = 644.18817701958,
+							["g"] = 13,
+							["sublevel"] = 3,
 						}, -- [1]
 						{
 							["y"] = -275.05341932947,
 							["inspiring"] = true,
-							["sublevel"] = 3,
-							["g"] = 14,
 							["x"] = 526.69605524093,
+							["g"] = 14,
+							["sublevel"] = 3,
 						}, -- [2]
 						{
 							["y"] = -273.70144976399,
 							["inspiring"] = true,
-							["sublevel"] = 3,
-							["g"] = 16,
 							["x"] = 385.3806741573,
+							["g"] = 16,
+							["sublevel"] = 3,
 						}, -- [3]
 					},
 					["id"] = 170490,
@@ -6742,28 +12559,28 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["name"] = "Atal'ai High Priest",
-					["count"] = 5,
-					["health"] = 88110,
-					["displayId"] = 97300,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
 						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Fear"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Atal'ai High Priest",
+					["displayId"] = 97300,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 88110,
+					["count"] = 5,
 				}, -- [16]
 				{
 					["clones"] = {
@@ -6807,23 +12624,23 @@ MythicDungeonToolsDB = {
 						[1604] = {
 						},
 					},
-					["name"] = "Atal'ai Devoted",
-					["count"] = 2,
-					["health"] = 16020,
-					["displayId"] = 97298,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Sap"] = true,
-						["Root"] = true,
 						["Silence"] = true,
+						["Root"] = true,
 						["Slow"] = true,
 						["Polymorph"] = true,
 						["Imprison"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Atal'ai Devoted",
+					["displayId"] = 97298,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 16020,
+					["count"] = 2,
 				}, -- [17]
 				{
 					["clones"] = {
@@ -6877,13 +12694,6 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["name"] = "Atal'ai Deathwalker",
-					["count"] = 5,
-					["health"] = 96120,
-					["displayId"] = 97294,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -6897,6 +12707,13 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Repentance"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Atal'ai Deathwalker",
+					["displayId"] = 97294,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 96120,
+					["count"] = 5,
 				}, -- [18]
 				{
 					["clones"] = {
@@ -6906,7 +12723,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 3,
 						}, -- [1]
 					},
-					["health"] = 464580,
+					["id"] = 164558,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -6923,25 +12740,25 @@ MythicDungeonToolsDB = {
 						},
 						[323064] = {
 						},
-						[326868] = {
+						[288865] = {
 						},
 						[323118] = {
 						},
 						[323166] = {
 						},
-						[288865] = {
+						[326868] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2408,
 					["instanceID"] = 1188,
-					["name"] = "Hakkar the Soulflayer",
-					["count"] = 0,
+					["scale"] = 1,
+					["health"] = 464580,
 					["displayId"] = 95484,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["scale"] = 1,
-					["id"] = 164558,
+					["count"] = 0,
+					["name"] = "Hakkar the Soulflayer",
 				}, -- [19]
 				{
 					["clones"] = {
@@ -7007,27 +12824,27 @@ MythicDungeonToolsDB = {
 						[224729] = {
 						},
 					},
-					["name"] = "Weald Shimmermoth",
-					["count"] = 3,
-					["health"] = 72090,
-					["displayId"] = 95199,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Weald Shimmermoth",
+					["displayId"] = 95199,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 72090,
+					["count"] = 3,
 				}, -- [20]
 				{
 					["clones"] = {
@@ -7103,36 +12920,36 @@ MythicDungeonToolsDB = {
 						[317898] = {
 						},
 					},
-					["name"] = "Spriggan Mendbender",
-					["count"] = 2,
-					["health"] = 56070,
-					["displayId"] = 95696,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Spriggan Mendbender",
+					["displayId"] = 95696,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 56070,
+					["count"] = 2,
 				}, -- [21]
 				{
 					["clones"] = {
 						{
 							["y"] = -269.82694372785,
 							["inspiring"] = true,
-							["sublevel"] = 4,
-							["g"] = 19,
 							["x"] = 332.46952580544,
+							["g"] = 19,
+							["sublevel"] = 4,
 						}, -- [1]
 						{
 							["y"] = -262.5323471415,
@@ -7183,36 +13000,36 @@ MythicDungeonToolsDB = {
 						},
 						[334530] = {
 						},
-						[317898] = {
+						[334529] = {
 						},
 						[132951] = {
 						},
 						[224729] = {
 						},
-						[334529] = {
+						[317898] = {
 						},
 					},
-					["name"] = "Juvenile Runestag",
-					["count"] = 2,
-					["health"] = 64080,
-					["displayId"] = 93792,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["scale"] = 0.8,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Mind Control"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["scale"] = 0.8,
+					["name"] = "Juvenile Runestag",
+					["displayId"] = 93792,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 64080,
+					["count"] = 2,
 				}, -- [22]
 				{
 					["clones"] = {
@@ -7387,51 +13204,51 @@ MythicDungeonToolsDB = {
 									["x"] = 559.52842885688,
 								}, -- [16]
 							},
-							["sublevel"] = 4,
-							["g"] = 37,
 							["x"] = 579.97220323046,
+							["g"] = 37,
+							["sublevel"] = 4,
 						}, -- [4]
 					},
 					["id"] = 164873,
 					["spells"] = {
 						[323123] = {
 						},
-						[345498] = {
+						[288865] = {
 						},
 						[317898] = {
 						},
 						[323136] = {
 						},
+						[224729] = {
+						},
+						[345498] = {
+						},
 						[323576] = {
 						},
 						[132951] = {
 						},
-						[224729] = {
-						},
-						[288865] = {
-						},
 					},
-					["name"] = "Runestag Elderhorn",
-					["count"] = 4,
-					["health"] = 96120,
-					["displayId"] = 93795,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Runestag Elderhorn",
+					["displayId"] = 93795,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 96120,
+					["count"] = 4,
 				}, -- [23]
 				{
 					["clones"] = {
@@ -7474,9 +13291,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -170.47660259061,
 							["inspiring"] = true,
-							["sublevel"] = 4,
-							["g"] = 32,
 							["x"] = 490.81734482948,
+							["g"] = 32,
+							["sublevel"] = 4,
 						}, -- [7]
 						{
 							["y"] = -158.73567936227,
@@ -7525,11 +13342,11 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[288865] = {
 						},
-						[321764] = {
+						[339966] = {
 						},
 						[317898] = {
 						},
-						[30831] = {
+						[321764] = {
 						},
 						[121308] = {
 						},
@@ -7537,30 +13354,30 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[339966] = {
+						[30831] = {
 						},
 					},
-					["name"] = "Spriggan Barkbinder",
-					["count"] = 2,
-					["health"] = 56070,
-					["displayId"] = 95695,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Spriggan Barkbinder",
+					["displayId"] = 95695,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 56070,
+					["count"] = 2,
 				}, -- [24]
 				{
 					["clones"] = {
@@ -7620,9 +13437,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -234.51694519227,
 							["inspiring"] = true,
-							["sublevel"] = 4,
-							["g"] = 39,
 							["x"] = 606.27516734424,
+							["g"] = 39,
+							["sublevel"] = 4,
 						}, -- [10]
 						{
 							["y"] = -205.96944098129,
@@ -7639,22 +13456,15 @@ MythicDungeonToolsDB = {
 					},
 					["id"] = 171341,
 					["spells"] = {
-						[132951] = {
+						[224729] = {
 						},
-						[334664] = {
+						[132951] = {
 						},
 						[317898] = {
 						},
-						[224729] = {
+						[334664] = {
 						},
 					},
-					["name"] = "Bladebeak Hatchling",
-					["count"] = 1,
-					["health"] = 16020,
-					["displayId"] = 95554,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["scale"] = 0.7,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -7662,12 +13472,19 @@ MythicDungeonToolsDB = {
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Stun"] = true,
 						["Slow"] = true,
 						["Silence"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["scale"] = 0.7,
+					["name"] = "Bladebeak Hatchling",
+					["displayId"] = 95554,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 16020,
+					["count"] = 1,
 				}, -- [25]
 				{
 					["clones"] = {
@@ -7766,9 +13583,9 @@ MythicDungeonToolsDB = {
 									["x"] = 373.70620617462,
 								}, -- [21]
 							},
-							["sublevel"] = 4,
-							["g"] = 25,
 							["x"] = 390.1515368287,
+							["g"] = 25,
+							["sublevel"] = 4,
 						}, -- [2]
 						{
 							["y"] = -256.44554845749,
@@ -7851,9 +13668,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -234.23981871928,
 							["inspiring"] = true,
-							["sublevel"] = 4,
-							["g"] = 35,
 							["x"] = 516.40790005064,
+							["g"] = 35,
+							["sublevel"] = 4,
 						}, -- [16]
 						{
 							["y"] = -235.75033636678,
@@ -7893,27 +13710,27 @@ MythicDungeonToolsDB = {
 						[224729] = {
 						},
 					},
-					["name"] = "Territorial Bladebeak",
-					["count"] = 4,
-					["health"] = 80100,
-					["displayId"] = 95555,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Fear"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Imprison"] = true,
 					},
+					["scale"] = 1,
+					["name"] = "Territorial Bladebeak",
+					["displayId"] = 95555,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 80100,
+					["count"] = 4,
 				}, -- [26]
 				{
 					["clones"] = {
@@ -7952,16 +13769,16 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["name"] = "Bladebeak Matriarch",
-					["count"] = 5,
-					["health"] = 160200,
-					["displayId"] = 95551,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["scale"] = 1.3,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1.3,
+					["name"] = "Bladebeak Matriarch",
+					["displayId"] = 95551,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 160200,
+					["count"] = 5,
 				}, -- [27]
 				{
 					["clones"] = {
@@ -7982,16 +13799,16 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["name"] = "Mythresh, Sky's Talons",
-					["count"] = 12,
-					["health"] = 192240,
-					["displayId"] = 96412,
-					["creatureType"] = "Dragonkin",
-					["level"] = 60,
-					["scale"] = 1.3,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1.3,
+					["name"] = "Mythresh, Sky's Talons",
+					["displayId"] = 96412,
+					["creatureType"] = "Dragonkin",
+					["level"] = 60,
+					["health"] = 192240,
+					["count"] = 12,
 				}, -- [28]
 				{
 					["clones"] = {
@@ -8001,7 +13818,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 4,
 						}, -- [1]
 					},
-					["health"] = 544680,
+					["id"] = 164450,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -8018,27 +13835,27 @@ MythicDungeonToolsDB = {
 						},
 						[342961] = {
 						},
-						[323687] = {
+						[288865] = {
 						},
 						[132466] = {
 						},
-						[323732] = {
+						[323687] = {
 						},
 						[326868] = {
 						},
-						[288865] = {
+						[323732] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2398,
 					["instanceID"] = 1188,
-					["name"] = "Dealer Xy'exa",
-					["count"] = 0,
+					["scale"] = 1,
+					["health"] = 544680,
 					["displayId"] = 97540,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["scale"] = 1,
-					["id"] = 164450,
+					["count"] = 0,
+					["name"] = "Dealer Xy'exa",
 				}, -- [29]
 				{
 					["clones"] = {
@@ -8048,7 +13865,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
-					["health"] = 6408000,
+					["id"] = 166608,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -8075,5455 +13892,32 @@ MythicDungeonToolsDB = {
 						},
 						[326221] = {
 						},
-						[325258] = {
+						[288865] = {
 						},
 						[327649] = {
 						},
-						[325725] = {
-						},
-						[132951] = {
+						[334810] = {
 						},
 						[334913] = {
 						},
-						[334810] = {
+						[132951] = {
 						},
-						[288865] = {
+						[325725] = {
+						},
+						[325258] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2410,
 					["instanceID"] = 1188,
-					["name"] = "Mueh'zala",
-					["count"] = 0,
+					["scale"] = 1,
+					["health"] = 6408000,
 					["displayId"] = 96358,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["scale"] = 1,
-					["id"] = 166608,
+					["count"] = 0,
+					["name"] = "Mueh'zala",
 				}, -- [30]
-			},
-			[32] = {
-				{
-					["clones"] = {
-						{
-							["y"] = -114.12496935191,
-							["x"] = 265.31859240626,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -120.36665070046,
-							["x"] = 270.74374058787,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -117.12380185849,
-							["x"] = 265.30068292683,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -119.41855037842,
-							["x"] = 267.78044147134,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -123.1338069989,
-							["x"] = 271.50359664821,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -134.37272613933,
-							["x"] = 302.07189947352,
-							["g"] = 3,
-							["sublevel"] = 1,
-						}, -- [6]
-					},
-					["id"] = 168968,
-					["spells"] = {
-						[1604] = {
-						},
-						[288865] = {
-						},
-						[331874] = {
-						},
-						[132951] = {
-						},
-						[331871] = {
-						},
-						[224729] = {
-						},
-					},
-					["scale"] = 0.6,
-					["count"] = 0,
-					["name"] = "Plaguebound Fallen",
-					["displayId"] = 96986,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 16020,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-				}, -- [1]
-				{
-					["clones"] = {
-						{
-							["y"] = -108.39013250299,
-							["x"] = 283.98841819292,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -111.47918343455,
-							["x"] = 296.46263414634,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -119.87008651214,
-							["x"] = 303.45040732959,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [3]
-					},
-					["id"] = 168365,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-					},
-					["scale"] = 0.6,
-					["count"] = 0,
-					["name"] = "Fungret Shroomtender",
-					["displayId"] = 83592,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 12015,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Imprison"] = true,
-					},
-				}, -- [2]
-				{
-					["clones"] = {
-						{
-							["y"] = -116.59372091646,
-							["x"] = 299.07157181537,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -113.64620802918,
-							["x"] = 301.20417004098,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["sublevel"] = 1,
-							["x"] = 351.34414485775,
-							["inspiring"] = true,
-							["g"] = 10,
-							["y"] = -132.87993338916,
-						}, -- [3]
-						{
-							["y"] = -116.45375722543,
-							["x"] = 351.14458536585,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -127.14833985717,
-							["x"] = 343.54124065103,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -109.99871310716,
-							["x"] = 370.78638626053,
-							["g"] = 8,
-							["sublevel"] = 1,
-						}, -- [6]
-					},
-					["id"] = 169696,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[334882] = {
-						},
-						[121308] = {
-						},
-						[340358] = {
-						},
-						[330417] = {
-						},
-						[328175] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[331967] = {
-						},
-						[132951] = {
-						},
-						[320297] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Mire Soldier",
-					["displayId"] = 83596,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Disorient"] = true,
-						["Imprison"] = true,
-					},
-				}, -- [3]
-				{
-					["clones"] = {
-						{
-							["y"] = -140.48346121326,
-							["x"] = 284.00915170758,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -96.283303297631,
-							["x"] = 397.70157843902,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -93.469133042359,
-							["x"] = 399.64997594475,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -89.432127229936,
-							["x"] = 398.40335792029,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -98.093309368353,
-							["x"] = 400.71332876502,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -96.074308541217,
-							["x"] = 410.14012336947,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["sublevel"] = 1,
-							["x"] = 407.36312195122,
-							["inspiring"] = true,
-							["g"] = 16,
-							["y"] = -90.581912636277,
-						}, -- [7]
-						{
-							["y"] = -86.487909817884,
-							["x"] = 405.65154730876,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -93.552355160014,
-							["x"] = 413.7695943042,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -95.866609847032,
-							["x"] = 404.40742502255,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -99.09299352724,
-							["x"] = 405.99951550852,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [11]
-						{
-							["y"] = -88.03499355493,
-							["x"] = 402.38342788929,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [12]
-						{
-							["y"] = -90.164348723887,
-							["x"] = 412.19461184276,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [13]
-						{
-							["y"] = -87.980601576096,
-							["x"] = 409.42063723641,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [14]
-						{
-							["y"] = -87.177548159169,
-							["x"] = 412.34109037587,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [15]
-						{
-							["y"] = -91.7530499711,
-							["x"] = 402.42153758877,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [16]
-						{
-							["y"] = -97.812538925794,
-							["x"] = 414.01560886436,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [17]
-						{
-							["sublevel"] = 1,
-							["x"] = 409.34102945531,
-							["inspiring"] = true,
-							["g"] = 16,
-							["y"] = -99.313616006827,
-						}, -- [18]
-						{
-							["y"] = -100.88022632029,
-							["x"] = 411.54581284801,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [19]
-						{
-							["y"] = -101.64395843203,
-							["x"] = 403.44061582457,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [20]
-						{
-							["y"] = -94.489182264532,
-							["x"] = 407.4662244656,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [21]
-						{
-							["sublevel"] = 1,
-							["x"] = 472.32585365854,
-							["inspiring"] = true,
-							["g"] = 31,
-							["y"] = -297.46733006512,
-						}, -- [22]
-						{
-							["y"] = -299.16331467926,
-							["x"] = 458.62708591444,
-							["g"] = 32,
-							["sublevel"] = 1,
-						}, -- [23]
-						{
-							["y"] = -347.75316455696,
-							["x"] = 440.45912195122,
-							["g"] = 37,
-							["sublevel"] = 1,
-						}, -- [24]
-						{
-							["y"] = -355.44372988434,
-							["x"] = 469.8515866241,
-							["g"] = 36,
-							["sublevel"] = 1,
-						}, -- [25]
-						{
-							["y"] = -319.66016786968,
-							["x"] = 470.9850569402,
-							["g"] = 34,
-							["sublevel"] = 1,
-						}, -- [26]
-						{
-							["y"] = -363.41190458769,
-							["x"] = 423.79024390244,
-							["g"] = 38,
-							["sublevel"] = 1,
-						}, -- [27]
-						{
-							["y"] = -374.85030572235,
-							["x"] = 427.69513929465,
-							["g"] = 40,
-							["sublevel"] = 1,
-						}, -- [28]
-					},
-					["id"] = 168969,
-					["spells"] = {
-						[328660] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[334882] = {
-						},
-						[328661] = {
-						},
-						[132951] = {
-						},
-						[328662] = {
-						},
-						[346989] = {
-						},
-						[224729] = {
-						},
-						[288865] = {
-						},
-						[326868] = {
-						},
-					},
-					["scale"] = 0.7,
-					["count"] = 1,
-					["name"] = "Gushing Slime",
-					["displayId"] = 95785,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 24030,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-				}, -- [4]
-				{
-					["clones"] = {
-						{
-							["y"] = -138.47589083193,
-							["x"] = 306.04273170732,
-							["g"] = 3,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -136.13648438603,
-							["x"] = 305.0191382609,
-							["g"] = 3,
-							["sublevel"] = 1,
-						}, -- [2]
-					},
-					["id"] = 168155,
-					["scale"] = 0.5,
-					["count"] = 0,
-					["name"] = "Plaguebound",
-					["displayId"] = 96251,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 80100,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [5]
-				{
-					["clones"] = {
-						{
-							["y"] = -132.40463635649,
-							["x"] = 284.86707168175,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -144.76212775298,
-							["x"] = 315.55726829268,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -116.40950219166,
-							["x"] = 342.20916739836,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -108.41515376024,
-							["x"] = 353.03766328342,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -126.55289367038,
-							["x"] = 376.76590508401,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -133.02619448306,
-							["x"] = 459.67258536585,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -385.51119484891,
-							["x"] = 424.43765853659,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -419.28956610814,
-							["x"] = 430.57580487805,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -401.54759640009,
-							["x"] = 412.14497560976,
-							["sublevel"] = 1,
-						}, -- [9]
-					},
-					["id"] = 168153,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[326868] = {
-						},
-						[340358] = {
-						},
-						[327882] = {
-						},
-						[328175] = {
-						},
-						[330403] = {
-						},
-						[331967] = {
-						},
-						[330404] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 12,
-					["name"] = "Plagueroc",
-					["displayId"] = 96752,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 112140,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [6]
-				{
-					["clones"] = {
-						{
-							["y"] = -124.83981603523,
-							["x"] = 327.3150089591,
-							["patrol"] = {
-								{
-									["y"] = -124.83981603523,
-									["x"] = 327.3150089591,
-								}, -- [1]
-								{
-									["y"] = -128.55458277376,
-									["x"] = 334.16647126079,
-								}, -- [2]
-								{
-									["y"] = -130.41018391412,
-									["x"] = 344.31041672892,
-								}, -- [3]
-								{
-									["y"] = -127.93604906031,
-									["x"] = 351.85652962571,
-								}, -- [4]
-								{
-									["y"] = -123.11148768806,
-									["x"] = 356.8047887155,
-								}, -- [5]
-								{
-									["y"] = -127.93604906031,
-									["x"] = 351.85652962571,
-								}, -- [6]
-								{
-									["y"] = -130.41018391412,
-									["x"] = 344.31041672892,
-								}, -- [7]
-								{
-									["y"] = -128.55458277376,
-									["x"] = 334.16647126079,
-								}, -- [8]
-								{
-									["y"] = -124.83981603523,
-									["x"] = 327.3150089591,
-								}, -- [9]
-								{
-									["y"] = -116.30762480346,
-									["x"] = 328.97078488244,
-								}, -- [10]
-								{
-									["y"] = -106.78221039432,
-									["x"] = 333.54794020179,
-								}, -- [11]
-								{
-									["y"] = -99.854639174356,
-									["x"] = 342.45482355194,
-								}, -- [12]
-								{
-									["y"] = -106.78221039432,
-									["x"] = 333.54794020179,
-								}, -- [13]
-								{
-									["y"] = -116.30762480346,
-									["x"] = 328.97078488244,
-								}, -- [14]
-							},
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -326.05698781209,
-							["x"] = 469.72972821944,
-							["g"] = 34,
-							["sublevel"] = 1,
-						}, -- [2]
-					},
-					["id"] = 163882,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[326868] = {
-						},
-						[320040] = {
-						},
-						[329239] = {
-						},
-						[340358] = {
-						},
-						[328175] = {
-						},
-						[320072] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1.5,
-					["count"] = 14,
-					["name"] = "Decaying Flesh Giant",
-					["displayId"] = 99191,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 144180,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [7]
-				{
-					["clones"] = {
-						{
-							["y"] = -118.76847819519,
-							["x"] = 356.48244864547,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -133.69968672466,
-							["x"] = 355.46342292123,
-							["g"] = 10,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -122.71715211227,
-							["x"] = 340.81026818516,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -109.50989709013,
-							["x"] = 375.56571013002,
-							["g"] = 8,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 168572,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[330423] = {
-						},
-						[328177] = {
-						},
-						[334882] = {
-						},
-						[317898] = {
-						},
-						[121308] = {
-						},
-						[340358] = {
-						},
-						[331967] = {
-						},
-						[132951] = {
-						},
-						[328175] = {
-						},
-						[224729] = {
-						},
-						[330422] = {
-						},
-						[320297] = {
-						},
-						[328176] = {
-						},
-						[326868] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Fungi Stormer",
-					["displayId"] = 83621,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Imprison"] = true,
-						["Fear"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Mind Control"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [8]
-				{
-					["clones"] = {
-						{
-							["y"] = -129.55981684044,
-							["x"] = 340.42912697063,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -120.62051565761,
-							["x"] = 352.62300855403,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["sublevel"] = 1,
-							["x"] = 366.37096965138,
-							["inspiring"] = true,
-							["g"] = 8,
-							["y"] = -113.51747989998,
-						}, -- [3]
-					},
-					["id"] = 168578,
-					["spells"] = {
-						[328015] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[329917] = {
-						},
-						[328016] = {
-						},
-						[121308] = {
-						},
-						[340358] = {
-						},
-						[334882] = {
-						},
-						[132951] = {
-						},
-						[328175] = {
-						},
-						[224729] = {
-						},
-						[320297] = {
-						},
-						[331967] = {
-						},
-						[288865] = {
-						},
-						[50707] = {
-						},
-					},
-					["scale"] = 1.3,
-					["count"] = 8,
-					["name"] = "Fungalmancer",
-					["displayId"] = 83616,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 96120,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [9]
-				{
-					["clones"] = {
-						{
-							["sublevel"] = 1,
-							["x"] = 329.30375973909,
-							["inspiring"] = true,
-							["g"] = 4,
-							["y"] = -111.00579022831,
-						}, -- [1]
-						{
-							["y"] = -100.89984733656,
-							["x"] = 336.37214447216,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["sublevel"] = 1,
-							["x"] = 351.28491667896,
-							["inspiring"] = true,
-							["g"] = 6,
-							["y"] = -94.838229880129,
-						}, -- [3]
-						{
-							["y"] = -88.997148896034,
-							["x"] = 365.54419614024,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -91.274314317921,
-							["x"] = 371.27237541493,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -68.317835217614,
-							["x"] = 361.20169411449,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [6]
-					},
-					["id"] = 168580,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[340358] = {
-						},
-						[328175] = {
-						},
-						[224729] = {
-						},
-						[331967] = {
-						},
-						[344003] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Plagueborer",
-					["displayId"] = 97079,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Disorient"] = true,
-						["Imprison"] = true,
-					},
-				}, -- [10]
-				{
-					["clones"] = {
-						{
-							["y"] = -109.82680025626,
-							["x"] = 323.89612499331,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -95.480456897986,
-							["x"] = 336.95500688554,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -96.269863076711,
-							["x"] = 314.86162806413,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -93.124300147373,
-							["x"] = 318.81361428924,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -91.928793816899,
-							["x"] = 354.81452112075,
-							["g"] = 6,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -84.222575793532,
-							["x"] = 368.24600796308,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -74.415883054029,
-							["x"] = 359.68506415457,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -61.189114227181,
-							["x"] = 364.74496679867,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -89.989034183382,
-							["x"] = 329.62928156653,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -72.15580184481,
-							["x"] = 377.16733585627,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [10]
-					},
-					["id"] = 168361,
-					["spells"] = {
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[330037] = {
-						},
-						[132951] = {
-						},
-						[327515] = {
-						},
-						[224729] = {
-						},
-						[340358] = {
-						},
-						[331967] = {
-						},
-						[326868] = {
-						},
-						[328175] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Fen Hornet",
-					["displayId"] = 63503,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Fear"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Imprison"] = true,
-					},
-				}, -- [11]
-				{
-					["clones"] = {
-						{
-							["y"] = -106.0306813965,
-							["x"] = 326.71727497543,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -85.424995643525,
-							["x"] = 328.92728011043,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -100.07018928969,
-							["x"] = 317.88933089392,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -89.683353083541,
-							["x"] = 349.59284634637,
-							["g"] = 6,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -87.030099596775,
-							["x"] = 372.93124897047,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -96.612310880845,
-							["x"] = 322.36276884019,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -75.128715327837,
-							["x"] = 363.59057263665,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -98.534422590617,
-							["x"] = 340.70630249237,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -64.952582753709,
-							["x"] = 365.19684544817,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -79.999268310529,
-							["x"] = 335.13951219512,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -75.136440463469,
-							["x"] = 373.30675110641,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [11]
-					},
-					["id"] = 163915,
-					["spells"] = {
-						[132951] = {
-						},
-						[340358] = {
-						},
-						[328175] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 10,
-					["name"] = "Hatchling Nest",
-					["displayId"] = 99163,
-					["creatureType"] = "Not specified",
-					["level"] = 60,
-					["health"] = 80100,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [12]
-				{
-					["clones"] = {
-						{
-							["y"] = -129.98937146502,
-							["x"] = 359.32558786729,
-							["g"] = 10,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -117.50977726906,
-							["x"] = 369.00482859831,
-							["g"] = 8,
-							["sublevel"] = 1,
-						}, -- [2]
-					},
-					["id"] = 168574,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[121308] = {
-						},
-						[340358] = {
-						},
-						[328002] = {
-						},
-						[326868] = {
-						},
-						[327995] = {
-						},
-						[224729] = {
-						},
-						[331967] = {
-						},
-						[320297] = {
-						},
-						[132951] = {
-						},
-						[328175] = {
-						},
-					},
-					["scale"] = 1.3,
-					["count"] = 8,
-					["name"] = "Pestilent Harvester",
-					["displayId"] = 96887,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 96120,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [13]
-				{
-					["clones"] = {
-						{
-							["y"] = -73.542474573791,
-							["x"] = 389.3912195122,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["id"] = 171474,
-					["spells"] = {
-						[334640] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 0,
-					["name"] = "Finger Food",
-					["displayId"] = 95789,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 248310,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Disorient"] = true,
-						["Root"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Banish"] = true,
-					},
-				}, -- [14]
-				{
-					["clones"] = {
-						{
-							["y"] = -81.35147114482,
-							["x"] = 417.35440465416,
-							["patrol"] = {
-								{
-									["y"] = -81.35147114482,
-									["x"] = 417.35440465416,
-								}, -- [1]
-								{
-									["y"] = -84.979988504945,
-									["x"] = 421.19143870491,
-								}, -- [2]
-								{
-									["y"] = -89.52265967195,
-									["x"] = 422.87870590435,
-								}, -- [3]
-								{
-									["y"] = -84.979988504945,
-									["x"] = 421.19143870491,
-								}, -- [4]
-								{
-									["y"] = -81.35147114482,
-									["x"] = 417.35440465416,
-								}, -- [5]
-								{
-									["y"] = -79.009634849192,
-									["x"] = 411.19754988348,
-								}, -- [6]
-								{
-									["y"] = -79.269197279847,
-									["x"] = 404.57822888099,
-								}, -- [7]
-								{
-									["y"] = -81.086267974652,
-									["x"] = 401.46324577274,
-								}, -- [8]
-								{
-									["y"] = -84.071458727552,
-									["x"] = 397.82911552315,
-								}, -- [9]
-								{
-									["y"] = -88.743922249902,
-									["x"] = 394.06519291821,
-								}, -- [10]
-								{
-									["y"] = -84.071458727552,
-									["x"] = 397.82911552315,
-								}, -- [11]
-								{
-									["y"] = -81.086267974652,
-									["x"] = 401.46324577274,
-								}, -- [12]
-								{
-									["y"] = -79.269197279847,
-									["x"] = 404.57822888099,
-								}, -- [13]
-								{
-									["y"] = -79.009634849192,
-									["x"] = 411.19754988348,
-								}, -- [14]
-							},
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -105.41056520271,
-							["x"] = 420.28921499286,
-							["patrol"] = {
-								{
-									["y"] = -105.41056520271,
-									["x"] = 420.28921499286,
-								}, -- [1]
-								{
-									["y"] = -100.94424769216,
-									["x"] = 422.74892468902,
-								}, -- [2]
-								{
-									["y"] = -96.271773029788,
-									["x"] = 423.39787532574,
-								}, -- [3]
-								{
-									["y"] = -100.94424769216,
-									["x"] = 422.74892468902,
-								}, -- [4]
-								{
-									["y"] = -105.41056520271,
-									["x"] = 420.28921499286,
-								}, -- [5]
-								{
-									["y"] = -108.21250819134,
-									["x"] = 415.22106833913,
-								}, -- [6]
-								{
-									["y"] = -108.73167761272,
-									["x"] = 411.06775752813,
-								}, -- [7]
-								{
-									["y"] = -108.99125675341,
-									["x"] = 404.57822888099,
-								}, -- [8]
-								{
-									["y"] = -107.43376519928,
-									["x"] = 398.8674432259,
-								}, -- [9]
-								{
-									["y"] = -101.98256425489,
-									["x"] = 393.54602349683,
-								}, -- [10]
-								{
-									["y"] = -107.43376519928,
-									["x"] = 398.8674432259,
-								}, -- [11]
-								{
-									["y"] = -108.99125675341,
-									["x"] = 404.57822888099,
-								}, -- [12]
-								{
-									["y"] = -108.73167761272,
-									["x"] = 411.06775752813,
-								}, -- [13]
-								{
-									["y"] = -108.21250819134,
-									["x"] = 415.22106833913,
-								}, -- [14]
-							},
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -358.94494036731,
-							["x"] = 414.47648780488,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -392.81631844775,
-							["x"] = 440.5917807123,
-							["g"] = 42,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 168396,
-					["spells"] = {
-						[326868] = {
-						},
-						[327233] = {
-						},
-						[327581] = {
-						},
-						[340358] = {
-						},
-						[132951] = {
-						},
-						[327594] = {
-						},
-						[288865] = {
-						},
-					},
-					["scale"] = 1.5,
-					["count"] = 12,
-					["name"] = "Plaguebelcher",
-					["displayId"] = 96244,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 128160,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [15]
-				{
-					["clones"] = {
-						{
-							["y"] = -93.603204799883,
-							["x"] = 432.00995121951,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["scale"] = 1,
-					["id"] = 164255,
-					["spells"] = {
-						[319780] = {
-						},
-						[326868] = {
-						},
-						[324652] = {
-						},
-						[332865] = {
-						},
-						[132951] = {
-						},
-						[326242] = {
-						},
-						[324667] = {
-						},
-						[324459] = {
-						},
-						[324490] = {
-						},
-						[324527] = {
-						},
-						[288865] = {
-						},
-						[325748] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2419,
-					["instanceID"] = 1183,
-					["name"] = "Globgrog",
-					["count"] = 0,
-					["displayId"] = 95844,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 560700,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [16]
-				{
-					["clones"] = {
-						{
-							["y"] = -138.10832570569,
-							["x"] = 449.85336750056,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -131.47900051218,
-							["x"] = 493.13326829268,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -141.48252685905,
-							["x"] = 489.49928166962,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -153.72854320626,
-							["x"] = 483.85229268293,
-							["g"] = 25,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -148.91234360138,
-							["x"] = 538.50556097561,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -147.13774054291,
-							["x"] = 546.99980487805,
-							["sublevel"] = 1,
-						}, -- [6]
-					},
-					["id"] = 169159,
-					["spells"] = {
-						[288865] = {
-						},
-						[132951] = {
-						},
-						[328986] = {
-						},
-						[326868] = {
-						},
-					},
-					["scale"] = 0.6,
-					["count"] = 0,
-					["name"] = "Unstable Canister",
-					["displayId"] = 99464,
-					["creatureType"] = "Not specified",
-					["level"] = 60,
-					["health"] = 4005,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [17]
-				{
-					["clones"] = {
-						{
-							["y"] = -141.23508597401,
-							["x"] = 453.5396161177,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -142.88976992423,
-							["x"] = 449.33214162567,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -136.08525549095,
-							["x"] = 452.9316322593,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -131.07794100618,
-							["x"] = 477.01501804585,
-							["g"] = 18,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -138.11573458027,
-							["x"] = 480.0372957718,
-							["g"] = 18,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -120.97884265861,
-							["x"] = 509.84879703416,
-							["g"] = 21,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -121.09084601677,
-							["x"] = 504.68644112299,
-							["g"] = 21,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -128.09166433331,
-							["x"] = 511.94350905522,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -134.07664409016,
-							["x"] = 515.14489613431,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -114.03714208776,
-							["x"] = 527.24399989887,
-							["g"] = 27,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -114.52077998098,
-							["x"] = 522.56604878049,
-							["g"] = 27,
-							["sublevel"] = 1,
-						}, -- [11]
-						{
-							["y"] = -229.29595086022,
-							["x"] = 530.80764468933,
-							["g"] = 28,
-							["sublevel"] = 1,
-						}, -- [12]
-					},
-					["id"] = 163892,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[320512] = {
-						},
-						[132951] = {
-						},
-						[186439] = {
-						},
-						[325748] = {
-						},
-						[201657] = {
-						},
-						[331967] = {
-						},
-						[328175] = {
-						},
-						[224729] = {
-						},
-						[326868] = {
-						},
-						[320297] = {
-						},
-						[344991] = {
-						},
-						[340358] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 6,
-					["name"] = "Rotting Slimeclaw",
-					["displayId"] = 97796,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Fear"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [18]
-				{
-					["clones"] = {
-						{
-							["y"] = -153.0986560598,
-							["x"] = 468.70475012539,
-							["g"] = 26,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -157.17977139386,
-							["x"] = 465.74891935058,
-							["g"] = 26,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -155.58040170299,
-							["x"] = 480.83426042598,
-							["g"] = 25,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -162.0430864911,
-							["x"] = 479.18213000245,
-							["g"] = 25,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 168878,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[132951] = {
-						},
-						[340358] = {
-						},
-						[328501] = {
-						},
-						[328175] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[331967] = {
-						},
-						[334926] = {
-						},
-						[326868] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Rigged Plagueborer",
-					["displayId"] = 97079,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Disorient"] = true,
-						["Imprison"] = true,
-					},
-				}, -- [19]
-				{
-					["clones"] = {
-						{
-							["sublevel"] = 1,
-							["x"] = 461.36546951417,
-							["patrol"] = {
-								{
-									["y"] = -147.69639652777,
-									["x"] = 461.36546951417,
-								}, -- [1]
-								{
-									["y"] = -153.21120719754,
-									["x"] = 464.10234772756,
-								}, -- [2]
-								{
-									["y"] = -147.69639652777,
-									["x"] = 461.36546951417,
-								}, -- [3]
-								{
-									["y"] = -142.6942952979,
-									["x"] = 465.4021778939,
-								}, -- [4]
-								{
-									["y"] = -137.73124699665,
-									["x"] = 471.07423599316,
-								}, -- [5]
-								{
-									["y"] = -142.6942952979,
-									["x"] = 465.4021778939,
-								}, -- [6]
-							},
-							["y"] = -147.69639652777,
-						}, -- [1]
-						{
-							["y"] = -109.50238223463,
-							["x"] = 509.69399123069,
-							["patrol"] = {
-								{
-									["y"] = -109.50238223463,
-									["x"] = 509.69399123069,
-								}, -- [1]
-								{
-									["y"] = -107.85414078796,
-									["x"] = 516.95380977464,
-								}, -- [2]
-								{
-									["y"] = -108.82359639126,
-									["x"] = 522.44738690393,
-								}, -- [3]
-								{
-									["y"] = -107.85414078796,
-									["x"] = 516.95380977464,
-								}, -- [4]
-								{
-									["y"] = -109.50238223463,
-									["x"] = 509.69399123069,
-								}, -- [5]
-								{
-									["y"] = -113.83245265299,
-									["x"] = 502.08880536649,
-								}, -- [6]
-								{
-									["y"] = -120.45707749902,
-									["x"] = 496.11049350146,
-								}, -- [7]
-								{
-									["y"] = -125.78909025125,
-									["x"] = 494.81788140767,
-								}, -- [8]
-								{
-									["y"] = -120.45707749902,
-									["x"] = 496.11049350146,
-								}, -- [9]
-								{
-									["y"] = -113.83245265299,
-									["x"] = 502.08880536649,
-								}, -- [10]
-							},
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -129.59456897833,
-							["x"] = 517.22264750072,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -240.07154676417,
-							["x"] = 489.3925592072,
-							["g"] = 30,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 163894,
-					["spells"] = {
-						[288865] = {
-						},
-						[320519] = {
-						},
-						[326868] = {
-						},
-						[318949] = {
-						},
-						[340358] = {
-						},
-						[320517] = {
-						},
-						[332581] = {
-						},
-						[328175] = {
-						},
-						[331967] = {
-						},
-						[132951] = {
-						},
-						[336449] = {
-						},
-					},
-					["scale"] = 1.5,
-					["count"] = 12,
-					["name"] = "Blighted Spinebreaker",
-					["displayId"] = 95475,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 128160,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [20]
-				{
-					["clones"] = {
-						{
-							["sublevel"] = 1,
-							["x"] = 475.92322857336,
-							["inspiring"] = true,
-							["g"] = 18,
-							["y"] = -135.7955205792,
-						}, -- [1]
-						{
-							["sublevel"] = 1,
-							["x"] = 482.93750112458,
-							["inspiring"] = true,
-							["g"] = 25,
-							["y"] = -159.39610144832,
-						}, -- [2]
-						{
-							["y"] = -134.5623545947,
-							["inspiring"] = true,
-							["patrol"] = {
-								{
-									["y"] = -134.5623545947,
-									["x"] = 501.43419879591,
-								}, -- [1]
-								{
-									["y"] = -133.18586449495,
-									["x"] = 495.36196015164,
-								}, -- [2]
-								{
-									["y"] = -134.5623545947,
-									["x"] = 501.43419879591,
-								}, -- [3]
-								{
-									["y"] = -133.30402856862,
-									["x"] = 505.99704119615,
-								}, -- [4]
-								{
-									["y"] = -132.24051640721,
-									["x"] = 509.77840311992,
-								}, -- [5]
-								{
-									["y"] = -136.49455491045,
-									["x"] = 510.36923870186,
-								}, -- [6]
-								{
-									["y"] = -139.09423552794,
-									["x"] = 509.06938825071,
-								}, -- [7]
-								{
-									["y"] = -142.63926423318,
-									["x"] = 504.34268331039,
-								}, -- [8]
-								{
-									["y"] = -142.63926423318,
-									["x"] = 504.34268331039,
-								}, -- [9]
-								{
-									["y"] = -139.09423552794,
-									["x"] = 509.06938825071,
-								}, -- [10]
-								{
-									["y"] = -136.49455491045,
-									["x"] = 510.36923870186,
-								}, -- [11]
-								{
-									["y"] = -132.24051640721,
-									["x"] = 509.77840311992,
-								}, -- [12]
-								{
-									["y"] = -133.30402856862,
-									["x"] = 505.99704119615,
-								}, -- [13]
-							},
-							["sublevel"] = 1,
-							["g"] = 20,
-							["x"] = 501.43419879591,
-						}, -- [3]
-						{
-							["y"] = -123.81726968817,
-							["x"] = 515.93116764425,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["sublevel"] = 1,
-							["x"] = 489.96160863438,
-							["patrol"] = {
-								{
-									["y"] = -154.20633134398,
-									["x"] = 489.96160863438,
-								}, -- [1]
-								{
-									["y"] = -149.3116710577,
-									["x"] = 491.28088592077,
-								}, -- [2]
-								{
-									["y"] = -154.20633134398,
-									["x"] = 489.96160863438,
-								}, -- [3]
-								{
-									["y"] = -156.2835542521,
-									["x"] = 485.13618166924,
-								}, -- [4]
-								{
-									["y"] = -158.52873757739,
-									["x"] = 478.16428326123,
-								}, -- [5]
-								{
-									["y"] = -157.70156877692,
-									["x"] = 472.13774815458,
-								}, -- [6]
-								{
-									["y"] = -156.2835542521,
-									["x"] = 468.59271437814,
-								}, -- [7]
-								{
-									["y"] = -157.70156877692,
-									["x"] = 472.13774815458,
-								}, -- [8]
-								{
-									["y"] = -158.52873757739,
-									["x"] = 478.16428326123,
-								}, -- [9]
-								{
-									["y"] = -156.2835542521,
-									["x"] = 485.13618166924,
-								}, -- [10]
-							},
-							["g"] = 24,
-							["y"] = -154.20633134398,
-						}, -- [5]
-						{
-							["sublevel"] = 1,
-							["x"] = 500.417472786,
-							["inspiring"] = true,
-							["g"] = 29,
-							["y"] = -212.52949114825,
-						}, -- [6]
-						{
-							["y"] = -232.44102184085,
-							["x"] = 534.35545374488,
-							["g"] = 28,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -234.44624410771,
-							["x"] = 529.62187598197,
-							["g"] = 28,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -233.51144678486,
-							["x"] = 485.16563493014,
-							["g"] = 30,
-							["sublevel"] = 1,
-						}, -- [9]
-					},
-					["id"] = 168627,
-					["spells"] = {
-						[328180] = {
-						},
-						[328094] = {
-						},
-						[317898] = {
-						},
-						[326868] = {
-						},
-						[325748] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[331967] = {
-						},
-						[288865] = {
-						},
-						[328175] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[320297] = {
-						},
-						[340358] = {
-						},
-						[336449] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Plaguebinder",
-					["displayId"] = 96459,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [21]
-				{
-					["clones"] = {
-						{
-							["y"] = -157.26780900968,
-							["x"] = 493.62292532272,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -216.25398516626,
-							["x"] = 502.64031943836,
-							["g"] = 29,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -82.276849315068,
-							["x"] = 380.77647918188,
-							["g"] = 46,
-							["sublevel"] = 2,
-						}, -- [3]
-					},
-					["id"] = 164705,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[340357] = {
-						},
-						[321975] = {
-						},
-						[132951] = {
-						},
-						[346989] = {
-						},
-						[321999] = {
-						},
-						[326868] = {
-						},
-						[224729] = {
-						},
-						[340356] = {
-						},
-						[334882] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 6,
-					["name"] = "Pestilence Slime",
-					["displayId"] = 33010,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-				}, -- [22]
-				{
-					["clones"] = {
-						{
-							["y"] = -132.99437470818,
-							["x"] = 489.24496005355,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -128.68910095143,
-							["x"] = 487.84108485143,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -126.7039816666,
-							["x"] = 491.77653514526,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -146.3725480582,
-							["x"] = 495.13205111024,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -145.74502110254,
-							["x"] = 489.70482180229,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -142.44056610791,
-							["x"] = 492.99755417186,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -148.7704109589,
-							["x"] = 380.39298758218,
-							["g"] = 46,
-							["sublevel"] = 2,
-						}, -- [7]
-					},
-					["id"] = 163891,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[326868] = {
-						},
-						[132951] = {
-						},
-						[328662] = {
-						},
-						[319070] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[346989] = {
-						},
-						[317898] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 6,
-					["name"] = "Rotmarrow Slime",
-					["displayId"] = 97477,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Fear"] = true,
-					},
-				}, -- [23]
-				{
-					["clones"] = {
-						{
-							["y"] = -138.40374755191,
-							["x"] = 499.96089576842,
-							["g"] = 20,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -210.81620808319,
-							["x"] = 504.69641878971,
-							["g"] = 29,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -114.05630136986,
-							["x"] = 380.02483564646,
-							["g"] = 46,
-							["sublevel"] = 2,
-						}, -- [3]
-					},
-					["id"] = 164707,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[322410] = {
-						},
-						[132951] = {
-						},
-						[321935] = {
-						},
-						[224729] = {
-						},
-						[333737] = {
-						},
-						[346989] = {
-						},
-						[326868] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 6,
-					["name"] = "Congealed Slime",
-					["displayId"] = 95787,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 64080,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Fear"] = true,
-					},
-				}, -- [24]
-				{
-					["clones"] = {
-						{
-							["y"] = -143.85249140265,
-							["x"] = 535.30946341463,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -154.45950098778,
-							["x"] = 545.47141463415,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -302.96453456152,
-							["x"] = 468.70494066189,
-							["g"] = 31,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -310.41746542767,
-							["x"] = 452.96487804878,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -338.33599180508,
-							["x"] = 431.78048780488,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -313.02454818175,
-							["x"] = 483.79902439024,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -302.13674577973,
-							["x"] = 490.77948611095,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -289.06131557767,
-							["x"] = 495.51804878049,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -336.41925806688,
-							["x"] = 457.51317073171,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -389.41260322269,
-							["x"] = 478.08531722173,
-							["g"] = 43,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -152.87597632885,
-							["x"] = 524.29847405256,
-							["sublevel"] = 1,
-						}, -- [11]
-						{
-							["y"] = -165.24711273585,
-							["x"] = 529.15854710293,
-							["sublevel"] = 1,
-						}, -- [12]
-					},
-					["id"] = 168022,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[328432] = {
-						},
-						[329224] = {
-						},
-						[132951] = {
-						},
-						[319898] = {
-						},
-						[328175] = {
-						},
-						[345429] = {
-						},
-						[340358] = {
-						},
-						[328429] = {
-						},
-						[329226] = {
-						},
-						[326868] = {
-						},
-					},
-					["scale"] = 1.5,
-					["count"] = 10,
-					["name"] = "Slime Tentacle",
-					["displayId"] = 95688,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 88110,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-				}, -- [25]
-				{
-					["clones"] = {
-						{
-							["y"] = -179.77500548767,
-							["x"] = 537.58770731707,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["id"] = 168886,
-					["spells"] = {
-						[288865] = {
-						},
-						[328094] = {
-						},
-						[326868] = {
-						},
-						[320542] = {
-						},
-						[320576] = {
-						},
-						[121308] = {
-						},
-						[340358] = {
-						},
-						[328175] = {
-						},
-						[320529] = {
-						},
-						[132466] = {
-						},
-						[331967] = {
-						},
-						[132951] = {
-						},
-						[336449] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 25,
-					["name"] = "Virulax Blightweaver",
-					["displayId"] = 96985,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 153792,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [26]
-				{
-					["clones"] = {
-						{
-							["y"] = -252.48784980471,
-							["x"] = 520.12998557667,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["scale"] = 1,
-					["id"] = 164967,
-					["spells"] = {
-						[329110] = {
-						},
-						[326868] = {
-						},
-						[332617] = {
-						},
-						[330026] = {
-						},
-						[132951] = {
-						},
-						[322358] = {
-						},
-						[329217] = {
-						},
-						[340358] = {
-						},
-						[328175] = {
-						},
-						[333808] = {
-						},
-						[132466] = {
-						},
-						[331967] = {
-						},
-						[325748] = {
-						},
-						[288865] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2403,
-					["instanceID"] = 1183,
-					["name"] = "Doctor Ickus",
-					["count"] = 0,
-					["displayId"] = 96919,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 448560,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [27]
-				{
-					["clones"] = {
-						{
-							["y"] = -365.18211108266,
-							["x"] = 426.95211609951,
-							["g"] = 38,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -300.98265665052,
-							["x"] = 455.06745919158,
-							["g"] = 32,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["sublevel"] = 1,
-							["x"] = 441.47226688588,
-							["inspiring"] = true,
-							["g"] = 37,
-							["y"] = -352.38715828053,
-						}, -- [3]
-						{
-							["y"] = -353.92617284545,
-							["x"] = 474.28625175849,
-							["g"] = 36,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -325.36991311068,
-							["x"] = 463.59116711873,
-							["g"] = 34,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -328.50297872974,
-							["x"] = 475.50429814686,
-							["g"] = 34,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -378.12503402157,
-							["x"] = 431.02405605182,
-							["g"] = 40,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -387.26549352455,
-							["x"] = 442.68409756098,
-							["g"] = 42,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -383.7990172015,
-							["x"] = 475.33192660477,
-							["g"] = 43,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["sublevel"] = 1,
-							["x"] = 473.86816353298,
-							["inspiring"] = true,
-							["g"] = 45,
-							["y"] = -401.43858988635,
-						}, -- [10]
-						{
-							["y"] = -406.22566854897,
-							["x"] = 455.94611505295,
-							["g"] = 44,
-							["sublevel"] = 1,
-						}, -- [11]
-					},
-					["id"] = 163862,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[328533] = {
-						},
-						[35079] = {
-						},
-						[186439] = {
-						},
-						[340358] = {
-						},
-						[132951] = {
-						},
-						[336451] = {
-						},
-						[201657] = {
-						},
-						[224729] = {
-						},
-						[317898] = {
-						},
-						[320297] = {
-						},
-						[325748] = {
-						},
-						[328175] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Defender of Many Eyes",
-					["displayId"] = 96445,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 88110,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Fear"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [28]
-				{
-					["clones"] = {
-						{
-							["y"] = -342.49740572651,
-							["x"] = 492.91626791628,
-							["g"] = 35,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -322.48457122551,
-							["x"] = 448.1390577323,
-							["g"] = 33,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -333.06559919892,
-							["x"] = 471.29662346868,
-							["g"] = 34,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -373.340147268,
-							["x"] = 419.20904544528,
-							["g"] = 41,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -375.09685433332,
-							["x"] = 439.23291556205,
-							["g"] = 39,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -409.65613054699,
-							["x"] = 478.23030201839,
-							["g"] = 45,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["sublevel"] = 1,
-							["x"] = 450.67024390244,
-							["inspiring"] = true,
-							["g"] = 44,
-							["y"] = -401.97804931587,
-						}, -- [7]
-					},
-					["id"] = 167493,
-					["spells"] = {
-						[6962] = {
-						},
-						[201657] = {
-						},
-						[326868] = {
-						},
-						[224729] = {
-						},
-						[328651] = {
-						},
-						[328365] = {
-						},
-						[336449] = {
-						},
-						[132951] = {
-						},
-						[339155] = {
-						},
-						[344991] = {
-						},
-						[325748] = {
-						},
-						[317898] = {
-						},
-						[340358] = {
-						},
-						[328338] = {
-						},
-						[186439] = {
-						},
-						[328395] = {
-						},
-						[288865] = {
-						},
-						[328175] = {
-						},
-						[35079] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 8,
-					["name"] = "Venomous Sniper",
-					["displayId"] = 96116,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 72090,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Fear"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [29]
-				{
-					["clones"] = {
-						{
-							["y"] = -327.57855446406,
-							["x"] = 448.75545086974,
-							["g"] = 33,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -337.77805343811,
-							["x"] = 492.15664897327,
-							["g"] = 35,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -331.85003259355,
-							["x"] = 465.97185975329,
-							["g"] = 34,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -375.74477155265,
-							["x"] = 443.71417895747,
-							["g"] = 39,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -410.89283823325,
-							["x"] = 474.10731381056,
-							["g"] = 45,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -398.30995299765,
-							["x"] = 449.5315546023,
-							["g"] = 44,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -370.07098384654,
-							["x"] = 416.25773970986,
-							["g"] = 41,
-							["sublevel"] = 1,
-						}, -- [7]
-					},
-					["id"] = 168747,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[328342] = {
-						},
-						[132951] = {
-						},
-						[1604] = {
-						},
-						[328343] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[320297] = {
-						},
-						[340358] = {
-						},
-						[326868] = {
-						},
-					},
-					["scale"] = 0.6,
-					["count"] = 0,
-					["name"] = "Venomfang",
-					["displayId"] = 94406,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 32040,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Fear"] = true,
-					},
-				}, -- [30]
-				{
-					["clones"] = {
-						{
-							["y"] = -364.3473725234,
-							["x"] = 442.34967943972,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -388.47226867038,
-							["x"] = 462.11805590326,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -404.19777302284,
-							["x"] = 478.09691496114,
-							["g"] = 45,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -407.70250151655,
-							["x"] = 449.47565705719,
-							["g"] = 44,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 164737,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[338077] = {
-						},
-						[132951] = {
-						},
-						[328409] = {
-						},
-						[328475] = {
-						},
-						[338079] = {
-						},
-						[328400] = {
-						},
-						[328539] = {
-						},
-						[224729] = {
-						},
-						[340358] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 12,
-					["name"] = "Brood Ambusher",
-					["displayId"] = 96434,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 80100,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [31]
-				{
-					["clones"] = {
-						{
-							["y"] = -433.6488256384,
-							["x"] = 466.07707317073,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["scale"] = 1,
-					["id"] = 164266,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[336258] = {
-						},
-						[325552] = {
-						},
-						[331818] = {
-						},
-						[325245] = {
-						},
-						[339184] = {
-						},
-						[333353] = {
-						},
-						[336306] = {
-						},
-						[132951] = {
-						},
-						[325550] = {
-						},
-						[328539] = {
-						},
-						[332313] = {
-						},
-						[340358] = {
-						},
-						[325551] = {
-						},
-						[326868] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2423,
-					["instanceID"] = 1183,
-					["name"] = "Domina Venomblade",
-					["count"] = 0,
-					["displayId"] = 96475,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 560700,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [32]
-				{
-					["clones"] = {
-						{
-							["y"] = -259.32945205479,
-							["x"] = 444.20598977356,
-							["g"] = 47,
-							["sublevel"] = 2,
-						}, -- [1]
-						{
-							["y"] = -397.9138421885,
-							["x"] = 443.60771058641,
-							["g"] = 48,
-							["sublevel"] = 2,
-						}, -- [2]
-						{
-							["y"] = -401.45506849315,
-							["x"] = 437.59459459459,
-							["g"] = 48,
-							["sublevel"] = 2,
-						}, -- [3]
-						{
-							["y"] = -404.42539260983,
-							["x"] = 446.14003858811,
-							["g"] = 48,
-							["sublevel"] = 2,
-						}, -- [4]
-						{
-							["y"] = -395.45582594408,
-							["x"] = 435.67777831787,
-							["g"] = 48,
-							["sublevel"] = 2,
-						}, -- [5]
-						{
-							["y"] = -432.73440593699,
-							["x"] = 461.70854638422,
-							["g"] = 49,
-							["sublevel"] = 2,
-						}, -- [6]
-						{
-							["y"] = -448.71897005696,
-							["x"] = 421.01280326734,
-							["g"] = 50,
-							["sublevel"] = 2,
-						}, -- [7]
-						{
-							["y"] = -441.51260650171,
-							["x"] = 460.41987032455,
-							["g"] = 49,
-							["sublevel"] = 2,
-						}, -- [8]
-						{
-							["y"] = -443.13193376241,
-							["x"] = 417.65264665072,
-							["g"] = 50,
-							["sublevel"] = 2,
-						}, -- [9]
-						{
-							["y"] = -453.48438828408,
-							["x"] = 424.17445549472,
-							["g"] = 50,
-							["sublevel"] = 2,
-						}, -- [10]
-						{
-							["y"] = -449.11400022057,
-							["x"] = 414.14029645134,
-							["g"] = 50,
-							["sublevel"] = 2,
-						}, -- [11]
-						{
-							["y"] = -443.04009998634,
-							["x"] = 466.77063550036,
-							["g"] = 49,
-							["sublevel"] = 2,
-						}, -- [12]
-						{
-							["y"] = -432.04156341455,
-							["x"] = 467.36865772477,
-							["g"] = 49,
-							["sublevel"] = 2,
-						}, -- [13]
-						{
-							["y"] = -437.96944119217,
-							["x"] = 465.60528618282,
-							["g"] = 49,
-							["sublevel"] = 2,
-						}, -- [14]
-						{
-							["y"] = -453.73513181928,
-							["x"] = 417.91295579296,
-							["g"] = 50,
-							["sublevel"] = 2,
-						}, -- [15]
-						{
-							["y"] = -259.52005204769,
-							["x"] = 437.57823954977,
-							["g"] = 47,
-							["sublevel"] = 2,
-						}, -- [16]
-						{
-							["y"] = -402.60356194726,
-							["x"] = 431.65634435712,
-							["g"] = 48,
-							["sublevel"] = 2,
-						}, -- [17]
-					},
-					["id"] = 163857,
-					["spells"] = {
-						[288865] = {
-						},
-						[336449] = {
-						},
-						[317898] = {
-						},
-						[340702] = {
-						},
-						[186439] = {
-						},
-						[132951] = {
-						},
-						[341022] = {
-						},
-						[201657] = {
-						},
-						[224729] = {
-						},
-						[340358] = {
-						},
-						[320297] = {
-						},
-						[325748] = {
-						},
-						[328175] = {
-						},
-					},
-					["scale"] = 1,
-					["count"] = 4,
-					["name"] = "Plaguebound Devoted",
-					["displayId"] = 96988,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["health"] = 32040,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Fear"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Repentance"] = true,
-					},
-				}, -- [33]
-				{
-					["clones"] = {
-						{
-							["y"] = -410.21342465753,
-							["x"] = 437.94740686633,
-							["g"] = 48,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["id"] = 169861,
-					["spells"] = {
-						[288865] = {
-						},
-						[328094] = {
-						},
-						[326868] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[336449] = {
-						},
-						[330786] = {
-						},
-						[325748] = {
-						},
-						[330816] = {
-						},
-						[340358] = {
-						},
-					},
-					["scale"] = 1.5,
-					["count"] = 25,
-					["name"] = "Ickor Bileflesh",
-					["displayId"] = 94145,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["health"] = 153792,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [34]
-				{
-					["clones"] = {
-						{
-							["y"] = -439.44631642946,
-							["x"] = 441.37763071444,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["scale"] = 1,
-					["id"] = 164267,
-					["spells"] = {
-						[288865] = {
-						},
-						[322304] = {
-						},
-						[326868] = {
-						},
-						[322492] = {
-						},
-						[331399] = {
-						},
-						[132951] = {
-						},
-						[340358] = {
-						},
-						[322232] = {
-						},
-						[322491] = {
-						},
-						[336449] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2404,
-					["instanceID"] = 1183,
-					["name"] = "Margrave Stradama",
-					["count"] = 0,
-					["displayId"] = 95794,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["health"] = 512640,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-				}, -- [35]
-			},
-			[33] = {
-				{
-					["clones"] = {
-						{
-							["y"] = -102.75258064516,
-							["x"] = 272.62967741936,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -127.01741935484,
-							["x"] = 251.91569892473,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -305.61505737991,
-							["x"] = 701.71276684742,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -298.55419354839,
-							["x"] = 696.08602150538,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -305.75230614423,
-							["x"] = 693.62587151986,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -311.47445288521,
-							["x"] = 698.63487687614,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -292.0880717791,
-							["x"] = 555.14924538883,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -296.90200954058,
-							["x"] = 577.53916141163,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -281.46258064516,
-							["x"] = 563.64903225807,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -283.20148577361,
-							["x"] = 573.95351103529,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -291.6435483871,
-							["x"] = 565.46752688172,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [11]
-					},
-					["id"] = 162041,
-					["spells"] = {
-						[334470] = {
-						},
-						[121308] = {
-						},
-						[321020] = {
-						},
-						[186439] = {
-						},
-						[316068] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[317898] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Imprison"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Disorient"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 48060,
-					["displayId"] = 93815,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 2,
-					["name"] = "Grubby Dirtcruncher",
-				}, -- [1]
-				{
-					["clones"] = {
-						{
-							["y"] = -278.45203214677,
-							["x"] = 163.55073121641,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -270.50093549433,
-							["x"] = 167.82931163076,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -233.52516110582,
-							["x"] = 217.14251552474,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -241.46675227286,
-							["x"] = 220.69356977894,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -75.945483870968,
-							["x"] = 373.15268817204,
-							["g"] = 6,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -73.938671768612,
-							["x"] = 359.77432342513,
-							["g"] = 6,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -87.755238005483,
-							["x"] = 439.78955524304,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -90.796388787749,
-							["x"] = 418.49731333583,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -102.55767095464,
-							["x"] = 418.46863703661,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -98.864004168398,
-							["x"] = 442.26493974282,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -85.185115831167,
-							["x"] = 426.81989202185,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [11]
-					},
-					["id"] = 162046,
-					["spells"] = {
-						[320862] = {
-						},
-						[320843] = {
-						},
-						[317898] = {
-						},
-						[320861] = {
-						},
-						[288865] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[330528] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 48060,
-					["displayId"] = 94227,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["count"] = 1,
-					["name"] = "Famished Tick",
-				}, -- [2]
-				{
-					["clones"] = {
-						{
-							["y"] = -270.37697900853,
-							["x"] = 159.61223632011,
-							["g"] = 1,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -248.94970958704,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 2,
-							["x"] = 211.27387115224,
-						}, -- [2]
-						{
-							["y"] = -242.68380602361,
-							["x"] = 205.58333342148,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -279.7160254597,
-							["x"] = 680.82172833876,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -121.79699760455,
-							["x"] = 273.1435426718,
-							["g"] = 40,
-							["sublevel"] = 2,
-						}, -- [5]
-						{
-							["y"] = -134.97892320956,
-							["x"] = 278.38377716935,
-							["g"] = 40,
-							["sublevel"] = 2,
-						}, -- [6]
-					},
-					["id"] = 166396,
-					["spells"] = {
-						[288865] = {
-						},
-						[324609] = {
-						},
-						[317898] = {
-						},
-						[240443] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[321020] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 80100,
-					["displayId"] = 94441,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Noble Skirmisher",
-				}, -- [3]
-				{
-					["clones"] = {
-						{
-							["y"] = -102.81225806452,
-							["x"] = 276.44731182796,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -157.88258064516,
-							["x"] = 287.58709677419,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -129.35677419355,
-							["x"] = 276.95311827957,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -90.566451612903,
-							["x"] = 364.25290322581,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -102.30539265347,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 5,
-							["x"] = 374.27228313295,
-						}, -- [5]
-						{
-							["y"] = -101.70141748276,
-							["x"] = 361.81981001467,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -106.52184713703,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 7,
-							["x"] = 436.76212108869,
-						}, -- [7]
-						{
-							["y"] = -101.02272804199,
-							["x"] = 425.88413948227,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [8]
-					},
-					["id"] = 165076,
-					["spells"] = {
-						[334653] = {
-						},
-						[321401] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[224729] = {
-						},
-						[326868] = {
-						},
-						[317898] = {
-						},
-						[320843] = {
-						},
-						[321402] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 72090,
-					["displayId"] = 94226,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Gluttonous Tick",
-				}, -- [4]
-				{
-					["clones"] = {
-						{
-							["y"] = -241.83856927773,
-							["x"] = 213.589871274,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -209.49161290323,
-							["x"] = 262.14021505376,
-							["g"] = 3,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -197.36516129032,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 3,
-							["x"] = 254.99870967742,
-						}, -- [3]
-						{
-							["y"] = -283.52959039497,
-							["x"] = 564.65227044691,
-							["g"] = 33,
-							["sublevel"] = 2,
-						}, -- [4]
-						{
-							["sublevel"] = 2,
-							["x"] = 571.2903192274,
-							["inspiring"] = true,
-							["g"] = 33,
-							["y"] = -288.611612428,
-						}, -- [5]
-						{
-							["y"] = -140.23714625196,
-							["x"] = 155.83053101297,
-							["g"] = 41,
-							["sublevel"] = 2,
-						}, -- [6]
-						{
-							["sublevel"] = 2,
-							["x"] = 168.91512195122,
-							["inspiring"] = true,
-							["g"] = 41,
-							["y"] = -134.40475609756,
-						}, -- [7]
-					},
-					["id"] = 171448,
-					["spells"] = {
-						[288865] = {
-						},
-						[50707] = {
-						},
-						[334563] = {
-						},
-						[334567] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[321020] = {
-						},
-						[224729] = {
-						},
-						[334558] = {
-						},
-						[326868] = {
-						},
-						[317898] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 72090,
-					["displayId"] = 93035,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Dreadful Huntmaster",
-				}, -- [5]
-				{
-					["clones"] = {
-						{
-							["y"] = -204.97831990158,
-							["x"] = 255.42799146215,
-							["g"] = 3,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -255.40195278292,
-							["x"] = 662.04078493163,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -254.72782568951,
-							["x"] = 653.58140443079,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -281.3979077383,
-							["x"] = 672.17311861742,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -286.38,
-							["x"] = 682.91096774194,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -252.26780487805,
-							["x"] = 587.26243902439,
-							["g"] = 34,
-							["sublevel"] = 2,
-						}, -- [6]
-					},
-					["id"] = 162038,
-					["spells"] = {
-						[326868] = {
-						},
-						[288865] = {
-						},
-						[321020] = {
-						},
-						[320991] = {
-						},
-						[121308] = {
-						},
-						[321019] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 128160,
-					["displayId"] = 96681,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 7,
-					["name"] = "Regal Mistdancer",
-				}, -- [6]
-				{
-					["clones"] = {
-						{
-							["y"] = -190.30204318703,
-							["x"] = 301.56399890048,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -107.88483870968,
-							["x"] = 290.24860215054,
-							["g"] = 4,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -93.336241996268,
-							["x"] = 431.63540080717,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [3]
-					},
-					["id"] = 162047,
-					["spells"] = {
-						[326868] = {
-						},
-						[334246] = {
-						},
-						[240443] = {
-						},
-						[321178] = {
-						},
-						[132951] = {
-						},
-						[334921] = {
-						},
-						[334918] = {
-						},
-					},
-					["scale"] = 1.5,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 120150,
-					["displayId"] = 93853,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["count"] = 7,
-					["name"] = "Insatiable Brute",
-				}, -- [7]
-				{
-					["clones"] = {
-						{
-							["y"] = -97.453225806452,
-							["x"] = 474.41032258065,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["id"] = 162100,
-					["spells"] = {
-						[288865] = {
-						},
-						[319713] = {
-						},
-						[319657] = {
-						},
-						[338471] = {
-						},
-						[319650] = {
-						},
-						[319654] = {
-						},
-						[132951] = {
-						},
-						[319715] = {
-						},
-						[326868] = {
-						},
-						[319687] = {
-						},
-						[319685] = {
-						},
-						[330468] = {
-						},
-						[319655] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2388,
-					["instanceID"] = 1189,
-					["scale"] = 1,
-					["health"] = 560700,
-					["displayId"] = 98966,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["count"] = 0,
-					["name"] = "Kryxis the Voracious",
-				}, -- [8]
-				{
-					["clones"] = {
-						{
-							["y"] = -102.82267354454,
-							["x"] = 519.61184100506,
-							["g"] = 8,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -111.72407414921,
-							["x"] = 518.50065559975,
-							["g"] = 8,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -155.13741935484,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 10,
-							["x"] = 517.6447311828,
-						}, -- [3]
-						{
-							["y"] = -194.14258064516,
-							["x"] = 559.5423655914,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -186.38451612903,
-							["x"] = 562.17978494624,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -225.42548387097,
-							["x"] = 601.98193548387,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -217.75096774194,
-							["x"] = 606.8111827957,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -203.67169577664,
-							["x"] = 620.58122316094,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -202.32677353943,
-							["x"] = 631.31487405791,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -260.51580645161,
-							["x"] = 579.13266041371,
-							["g"] = 18,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["sublevel"] = 1,
-							["x"] = 590.97143012239,
-							["inspiring"] = true,
-							["g"] = 18,
-							["y"] = -267.15112064169,
-						}, -- [11]
-						{
-							["y"] = -366.9362195122,
-							["x"] = 439.02634146342,
-							["g"] = 31,
-							["sublevel"] = 2,
-						}, -- [12]
-						{
-							["sublevel"] = 2,
-							["x"] = 497.60569365397,
-							["patrol"] = {
-								{
-									["y"] = -370.3548348701,
-									["x"] = 497.60569365397,
-								}, -- [1]
-								{
-									["y"] = -378.23589328256,
-									["x"] = 505.94250666051,
-								}, -- [2]
-								{
-									["y"] = -390.30966794195,
-									["x"] = 512.27627282135,
-								}, -- [3]
-								{
-									["y"] = -398.42481751514,
-									["x"] = 515.04728914602,
-								}, -- [4]
-								{
-									["y"] = -390.30966794195,
-									["x"] = 512.27627282135,
-								}, -- [5]
-								{
-									["y"] = -378.23589328256,
-									["x"] = 505.94250666051,
-								}, -- [6]
-								{
-									["y"] = -370.3548348701,
-									["x"] = 497.60569365397,
-								}, -- [7]
-								{
-									["y"] = -359.82832697954,
-									["x"] = 483.97217353278,
-								}, -- [8]
-								{
-									["y"] = -357.25524403274,
-									["x"] = 469.72115719956,
-								}, -- [9]
-								{
-									["y"] = -357.05729366634,
-									["x"] = 454.48050795402,
-								}, -- [10]
-								{
-									["y"] = -357.25524403274,
-									["x"] = 469.72115719956,
-								}, -- [11]
-								{
-									["y"] = -359.82832697954,
-									["x"] = 483.97217353278,
-								}, -- [12]
-							},
-							["inspiring"] = true,
-							["y"] = -370.3548348701,
-						}, -- [13]
-						{
-							["y"] = -412.71695121951,
-							["x"] = 508.35707317073,
-							["g"] = 32,
-							["sublevel"] = 2,
-						}, -- [14]
-						{
-							["y"] = -405.1906097561,
-							["x"] = 507.27804878049,
-							["g"] = 32,
-							["sublevel"] = 2,
-						}, -- [15]
-						{
-							["y"] = -274.95507368841,
-							["x"] = 565.48837894734,
-							["g"] = 33,
-							["sublevel"] = 2,
-						}, -- [16]
-						{
-							["y"] = -283.65520494254,
-							["x"] = 579.26156636827,
-							["g"] = 33,
-							["sublevel"] = 2,
-						}, -- [17]
-					},
-					["id"] = 162039,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[334882] = {
-						},
-						[121308] = {
-						},
-						[321038] = {
-						},
-						[240443] = {
-						},
-						[326836] = {
-						},
-						[321020] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[326868] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Fear"] = true,
-						["Imprison"] = true,
-					},
-					["health"] = 67284,
-					["displayId"] = 94573,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Wicked Oppressor",
-				}, -- [9]
-				{
-					["clones"] = {
-						{
-							["y"] = -123.32215191524,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 9,
-							["x"] = 576.20067658913,
-						}, -- [1]
-						{
-							["y"] = -117.85587992448,
-							["x"] = 568.89916477811,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -110.37038850841,
-							["x"] = 571.7805243739,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -115.07587840232,
-							["x"] = 579.88764142031,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -130.34089088451,
-							["x"] = 568.51950409176,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -131.89152515665,
-							["x"] = 577.87297538243,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -129.4516879713,
-							["x"] = 586.28873783735,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -119.7717115465,
-							["x"] = 589.00735271757,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -136.50033740956,
-							["x"] = 617.88181184219,
-							["g"] = 35,
-							["sublevel"] = 2,
-						}, -- [9]
-						{
-							["y"] = -144.33584731362,
-							["x"] = 616.41762348309,
-							["g"] = 35,
-							["sublevel"] = 2,
-						}, -- [10]
-						{
-							["y"] = -96.77672352668,
-							["x"] = 507.55104724588,
-							["g"] = 37,
-							["sublevel"] = 2,
-						}, -- [11]
-						{
-							["y"] = -103.7657827948,
-							["x"] = 506.16254075555,
-							["g"] = 37,
-							["sublevel"] = 2,
-						}, -- [12]
-						{
-							["y"] = -109.17356391243,
-							["x"] = 347.54600763927,
-							["g"] = 39,
-							["sublevel"] = 2,
-						}, -- [13]
-						{
-							["y"] = -100.74650841568,
-							["x"] = 344.5684179526,
-							["g"] = 39,
-							["sublevel"] = 2,
-						}, -- [14]
-					},
-					["id"] = 162056,
-					["spells"] = {
-						[288865] = {
-						},
-						[316244] = {
-						},
-						[321020] = {
-						},
-						[317898] = {
-						},
-						[321264] = {
-						},
-						[224729] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Imprison"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 24030,
-					["displayId"] = 94498,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 1,
-					["name"] = "Rockbound Sprite",
-				}, -- [10]
-				{
-					["clones"] = {
-						{
-							["y"] = -143.59580645161,
-							["x"] = 516.45247311828,
-							["g"] = 10,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -145.83967741935,
-							["x"] = 524.96688172043,
-							["g"] = 10,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -148.89516129032,
-							["x"] = 514.89892473118,
-							["g"] = 10,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -152.14161290323,
-							["x"] = 525.08731182796,
-							["g"] = 10,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -197.52612979962,
-							["x"] = 624.15609791072,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -190.8177787659,
-							["x"] = 619.83245121748,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -191.12577594643,
-							["x"] = 628.1309783464,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -194.94740732889,
-							["x"] = 636.16393766402,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["y"] = -195.61485215711,
-							["x"] = 613.82667373631,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [9]
-						{
-							["y"] = -269.43752521497,
-							["x"] = 702.49588405854,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -283.16239770883,
-							["x"] = 715.26614558015,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [11]
-						{
-							["y"] = -278.3076213744,
-							["x"] = 719.69686683929,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [12]
-						{
-							["y"] = -271.17418154043,
-							["x"] = 716.28155847883,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [13]
-						{
-							["y"] = -268.09279183469,
-							["x"] = 710.74266538225,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [14]
-						{
-							["y"] = -129.85130687721,
-							["x"] = 615.16183029384,
-							["g"] = 35,
-							["sublevel"] = 2,
-						}, -- [15]
-						{
-							["y"] = -141.57136656568,
-							["x"] = 610.16677187612,
-							["g"] = 35,
-							["sublevel"] = 2,
-						}, -- [16]
-						{
-							["y"] = -134.04870131521,
-							["x"] = 609.14938357943,
-							["g"] = 35,
-							["sublevel"] = 2,
-						}, -- [17]
-						{
-							["y"] = -94.90079623643,
-							["x"] = 444.48506831766,
-							["g"] = 38,
-							["sublevel"] = 2,
-						}, -- [18]
-						{
-							["y"] = -88.366829268293,
-							["x"] = 448.64195121951,
-							["g"] = 38,
-							["sublevel"] = 2,
-						}, -- [19]
-						{
-							["y"] = -98.963294617396,
-							["x"] = 455.27102122241,
-							["g"] = 38,
-							["sublevel"] = 2,
-						}, -- [20]
-						{
-							["y"] = -90.77524251845,
-							["x"] = 455.53498633647,
-							["g"] = 38,
-							["sublevel"] = 2,
-						}, -- [21]
-						{
-							["y"] = -100.68293324428,
-							["x"] = 448.10939348197,
-							["g"] = 38,
-							["sublevel"] = 2,
-						}, -- [22]
-						{
-							["y"] = -112.20215274737,
-							["x"] = 338.6406756692,
-							["g"] = 39,
-							["sublevel"] = 2,
-						}, -- [23]
-						{
-							["y"] = -103.09404585278,
-							["x"] = 335.87249506251,
-							["g"] = 39,
-							["sublevel"] = 2,
-						}, -- [24]
-					},
-					["id"] = 167956,
-					["spells"] = {
-						[326868] = {
-						},
-						[288865] = {
-						},
-						[321020] = {
-						},
-						[326712] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[317898] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Fear"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Mind Control"] = true,
-						["Imprison"] = true,
-					},
-					["health"] = 28035,
-					["displayId"] = 93650,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 1,
-					["name"] = "Dark Acolyte",
-				}, -- [11]
-				{
-					["clones"] = {
-						{
-							["y"] = -182.69551470959,
-							["x"] = 511.88850712579,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -244.72698778808,
-							["x"] = 635.39202518564,
-							["patrol"] = {
-								{
-									["y"] = -244.72698778808,
-									["x"] = 635.39202518564,
-								}, -- [1]
-								{
-									["y"] = -235.8457072374,
-									["x"] = 619.22580631356,
-								}, -- [2]
-								{
-									["y"] = -224.36574189016,
-									["x"] = 608.3396070875,
-								}, -- [3]
-								{
-									["y"] = -235.8457072374,
-									["x"] = 619.22580631356,
-								}, -- [4]
-								{
-									["y"] = -244.72698778808,
-									["x"] = 635.39202518564,
-								}, -- [5]
-								{
-									["y"] = -250.8884561855,
-									["x"] = 645.35266237101,
-								}, -- [6]
-								{
-									["y"] = -265.93119663935,
-									["x"] = 660.39539433059,
-								}, -- [7]
-								{
-									["y"] = -284.9325449549,
-									["x"] = 677.41744296242,
-								}, -- [8]
-								{
-									["y"] = -298.58976883473,
-									["x"] = 688.69947494358,
-								}, -- [9]
-								{
-									["y"] = -284.9325449549,
-									["x"] = 677.41744296242,
-								}, -- [10]
-								{
-									["y"] = -265.93119663935,
-									["x"] = 660.39539433059,
-								}, -- [11]
-								{
-									["y"] = -250.8884561855,
-									["x"] = 645.35266237101,
-								}, -- [12]
-							},
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -469.93737006668,
-							["x"] = 523.94297578411,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -372.88533261401,
-							["x"] = 399.31380696806,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -258.86012195122,
-							["x"] = 593.55902439024,
-							["g"] = 34,
-							["sublevel"] = 2,
-						}, -- [5]
-						{
-							["y"] = -130.99565683313,
-							["x"] = 269.01386199891,
-							["g"] = 40,
-							["sublevel"] = 2,
-						}, -- [6]
-					},
-					["id"] = 162057,
-					["spells"] = {
-						[288865] = {
-						},
-						[315536] = {
-						},
-						[328170] = {
-						},
-						[322429] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[321020] = {
-						},
-						[322418] = {
-						},
-						[322433] = {
-						},
-					},
-					["scale"] = 1.4,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 136170,
-					["displayId"] = 94737,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 7,
-					["name"] = "Chamber Sentinel",
-				}, -- [12]
-				{
-					["clones"] = {
-						{
-							["y"] = -194.63193548387,
-							["x"] = 566.50322580645,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -219.1653699663,
-							["x"] = 599.57182718962,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -248.34569757875,
-							["x"] = 657.78861144678,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -289.09235104811,
-							["x"] = 676.4418554317,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -277.61437824156,
-							["x"] = 708.57974443732,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -268.83248993962,
-							["x"] = 582.25608375374,
-							["g"] = 18,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -248.45048780488,
-							["x"] = 579.87317073171,
-							["g"] = 34,
-							["sublevel"] = 2,
-						}, -- [7]
-					},
-					["id"] = 162040,
-					["spells"] = {
-						[288865] = {
-						},
-						[326868] = {
-						},
-						[346537] = {
-						},
-						[326831] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[326825] = {
-						},
-						[321020] = {
-						},
-						[326837] = {
-						},
-						[326826] = {
-						},
-						[326827] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 112140,
-					["displayId"] = 96679,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 7,
-					["name"] = "Grand Overseer",
-				}, -- [13]
-				{
-					["clones"] = {
-						{
-							["y"] = -294.24451242247,
-							["x"] = 653.13241913452,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["id"] = 168591,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[321020] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[321105] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Fear"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Disorient"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Imprison"] = true,
-					},
-					["health"] = 80100,
-					["displayId"] = 92704,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Ravenous Dreadbat",
-				}, -- [14]
-				{
-					["clones"] = {
-						{
-							["y"] = -302.60890770987,
-							["x"] = 560.09963564731,
-							["g"] = 19,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["id"] = 171376,
-					["spells"] = {
-						[132951] = {
-						},
-						[321020] = {
-						},
-						[334329] = {
-						},
-						[121308] = {
-						},
-						[334326] = {
-						},
-						[334615] = {
-						},
-						[334324] = {
-						},
-					},
-					["scale"] = 1.5,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 192240,
-					["displayId"] = 97620,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 10,
-					["name"] = "Head Custodian Javlin",
-				}, -- [15]
-				{
-					["clones"] = {
-						{
-							["y"] = -345.1523078344,
-							["x"] = 508.62451612903,
-							["g"] = 20,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -353.0416647131,
-							["x"] = 516.23002497136,
-							["g"] = 20,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["sublevel"] = 1,
-							["x"] = 546.13849462366,
-							["inspiring"] = true,
-							["g"] = 21,
-							["y"] = -370.37,
-						}, -- [3]
-						{
-							["sublevel"] = 1,
-							["x"] = 551.35088383498,
-							["patrol"] = {
-							},
-							["g"] = 22,
-							["y"] = -439.80466221155,
-						}, -- [4]
-						{
-							["sublevel"] = 1,
-							["x"] = 539.848709413,
-							["inspiring"] = true,
-							["g"] = 23,
-							["y"] = -488.82433360373,
-						}, -- [5]
-						{
-							["y"] = -493.22667726623,
-							["x"] = 486.13769845489,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -452.80838709677,
-							["x"] = 356.24430107527,
-							["g"] = 26,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["sublevel"] = 1,
-							["x"] = 366.46008557463,
-							["inspiring"] = true,
-							["g"] = 27,
-							["y"] = -407.84292517806,
-						}, -- [8]
-						{
-							["sublevel"] = 1,
-							["x"] = 376.20286689116,
-							["patrol"] = {
-							},
-							["g"] = 28,
-							["y"] = -381.41787542444,
-						}, -- [9]
-						{
-							["y"] = -357.42221533285,
-							["x"] = 412.09724579678,
-							["g"] = 29,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["y"] = -349.91286111212,
-							["x"] = 416.96554708136,
-							["g"] = 29,
-							["sublevel"] = 1,
-						}, -- [11]
-						{
-							["sublevel"] = 1,
-							["x"] = 434.4530375788,
-							["inspiring"] = true,
-							["g"] = 30,
-							["y"] = -326.39617358631,
-						}, -- [12]
-					},
-					["id"] = 171384,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[334534] = {
-						},
-						[132951] = {
-						},
-						[334377] = {
-						},
-						[334381] = {
-						},
-						[321020] = {
-						},
-						[224729] = {
-						},
-						[334378] = {
-						},
-						[201657] = {
-						},
-						[121308] = {
-						},
-						[240443] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Imprison"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Disorient"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 80100,
-					["displayId"] = 97622,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Research Scribe",
-				}, -- [16]
-				{
-					["clones"] = {
-						{
-							["y"] = -353.43057432718,
-							["x"] = 508.06472200854,
-							["g"] = 20,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -499.22801010806,
-							["x"] = 487.89606602723,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -355.6558710724,
-							["x"] = 418.89578402424,
-							["g"] = 29,
-							["sublevel"] = 1,
-						}, -- [3]
-					},
-					["id"] = 171799,
-					["spells"] = {
-						[335305] = {
-						},
-						[335306] = {
-						},
-						[121308] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[321020] = {
-						},
-						[335308] = {
-						},
-						[288865] = {
-						},
-						[132466] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 128160,
-					["displayId"] = 97780,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 7,
-					["name"] = "Depths Warden",
-				}, -- [17]
-				{
-					["clones"] = {
-						{
-							["y"] = -364.07405714728,
-							["x"] = 540.58272096195,
-							["g"] = 21,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -481.39042949054,
-							["x"] = 538.88821561174,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -419.03252574875,
-							["x"] = 368.68475245393,
-							["g"] = 27,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -326.92589481546,
-							["x"] = 442.02539579284,
-							["g"] = 30,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 168058,
-					["spells"] = {
-						[326952] = {
-						},
-						[317898] = {
-						},
-						[326868] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[288865] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 16020,
-					["displayId"] = 96655,
-					["creatureType"] = "Not specified",
-					["level"] = 60,
-					["count"] = 1,
-					["name"] = "Infused Quill-feather",
-				}, -- [18]
-				{
-					["clones"] = {
-						{
-							["y"] = -378.06050350162,
-							["x"] = 547.41988721027,
-							["g"] = 21,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -447.49309262393,
-							["x"] = 546.11529634427,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -493.87908536866,
-							["x"] = 494.48849450265,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -379.48470739852,
-							["x"] = 383.64494245576,
-							["g"] = 28,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 172265,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[240443] = {
-						},
-						[336277] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[336279] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 72090,
-					["displayId"] = 97240,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Remnant of Fury",
-				}, -- [19]
-				{
-					["clones"] = {
-						{
-							["y"] = -405.19774193548,
-							["x"] = 574.24688172043,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -449.09641678301,
-							["x"] = 553.80551802087,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -493.40205353861,
-							["x"] = 546.54339793312,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -372.46176834443,
-							["x"] = 376.70153346541,
-							["g"] = 28,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -318.95114215554,
-							["x"] = 439.72172957295,
-							["g"] = 30,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -364.02585365854,
-							["x"] = 430.68097560976,
-							["g"] = 31,
-							["sublevel"] = 2,
-						}, -- [6]
-					},
-					["id"] = 162049,
-					["spells"] = {
-						[326868] = {
-						},
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[322212] = {
-						},
-						[224729] = {
-						},
-						[240443] = {
-						},
-						[322169] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Banish"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Mind Control"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 72090,
-					["displayId"] = 94279,
-					["creatureType"] = "Aberration",
-					["level"] = 60,
-					["count"] = 4,
-					["name"] = "Vestige of Doubt",
-				}, -- [20]
-				{
-					["clones"] = {
-						{
-							["y"] = -532.52767744027,
-							["x"] = 461.23234375885,
-							["g"] = 25,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -532.05987082507,
-							["x"] = 469.85225816087,
-							["g"] = 25,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -539.83885961076,
-							["x"] = 465.83152648733,
-							["g"] = 25,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -461.86473077081,
-							["x"] = 355.31739760858,
-							["g"] = 26,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -412.47461375711,
-							["x"] = 356.77421611862,
-							["g"] = 27,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -412.86123845295,
-							["x"] = 349.39932419205,
-							["g"] = 27,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -420.06007505784,
-							["x"] = 348.50523837654,
-							["g"] = 27,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -419.38711931286,
-							["x"] = 357.30410859174,
-							["g"] = 27,
-							["sublevel"] = 1,
-						}, -- [8]
-					},
-					["id"] = 162051,
-					["spells"] = {
-						[326868] = {
-						},
-						[321249] = {
-						},
-						[317898] = {
-						},
-						[288865] = {
-						},
-						[321220] = {
-						},
-						[240443] = {
-						},
-						[224729] = {
-						},
-						[132951] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Imprison"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Mind Control"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 80100,
-					["displayId"] = 93808,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 2,
-					["name"] = "Frenzied Ghoul",
-				}, -- [21]
-				{
-					["clones"] = {
-						{
-							["y"] = -473.76709677419,
-							["x"] = 412.81032258065,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["id"] = 162103,
-					["spells"] = {
-						[288865] = {
-						},
-						[322567] = {
-						},
-						[132951] = {
-						},
-						[322554] = {
-						},
-						[326868] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2415,
-					["instanceID"] = 1189,
-					["scale"] = 1,
-					["health"] = 448560,
-					["displayId"] = 96156,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 0,
-					["name"] = "Executor Tarvold",
-				}, -- [22]
-				{
-					["clones"] = {
-						{
-							["y"] = -388.05329268293,
-							["x"] = 472.47609756098,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["id"] = 162102,
-					["spells"] = {
-						[325360] = {
-						},
-						[326039] = {
-						},
-						[328593] = {
-						},
-						[325260] = {
-						},
-						[132951] = {
-						},
-						[325257] = {
-						},
-						[325261] = {
-						},
-						[325254] = {
-						},
-						[132466] = {
-						},
-						[325262] = {
-						},
-						[326868] = {
-						},
-						[288865] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2421,
-					["instanceID"] = 1189,
-					["scale"] = 1,
-					["health"] = 560700,
-					["displayId"] = 94781,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 0,
-					["name"] = "Grand Proctor Beryllia",
-				}, -- [23]
-				{
-					["clones"] = {
-						{
-							["y"] = -296.01818618259,
-							["x"] = 566.35626354362,
-							["g"] = 33,
-							["sublevel"] = 2,
-						}, -- [1]
-						{
-							["y"] = -290.91300283248,
-							["x"] = 559.15609372779,
-							["g"] = 33,
-							["sublevel"] = 2,
-						}, -- [2]
-						{
-							["y"] = -124.90544764779,
-							["x"] = 168.93786207825,
-							["g"] = 41,
-							["sublevel"] = 2,
-						}, -- [3]
-						{
-							["y"] = -128.71759893078,
-							["x"] = 159.14063172356,
-							["g"] = 41,
-							["sublevel"] = 2,
-						}, -- [4]
-						{
-							["y"] = -128.11634028207,
-							["x"] = 177.00538261375,
-							["g"] = 41,
-							["sublevel"] = 2,
-						}, -- [5]
-						{
-							["y"] = -143.56944821649,
-							["x"] = 171.01848317371,
-							["g"] = 41,
-							["sublevel"] = 2,
-						}, -- [6]
-						{
-							["y"] = -140.449997547,
-							["x"] = 181.84459718417,
-							["g"] = 41,
-							["sublevel"] = 2,
-						}, -- [7]
-						{
-							["y"] = -148.99096711876,
-							["x"] = 160.76095608169,
-							["g"] = 41,
-							["sublevel"] = 2,
-						}, -- [8]
-					},
-					["id"] = 171455,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[321020] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Imprison"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Disorient"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 16020,
-					["displayId"] = 95372,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["count"] = 1,
-					["name"] = "Stonewall Gargon",
-				}, -- [24]
-				{
-					["clones"] = {
-						{
-							["y"] = -103.24852572312,
-							["x"] = 132.82708265662,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["id"] = 162099,
-					["spells"] = {
-						[288865] = {
-						},
-						[326868] = {
-						},
-						[322796] = {
-						},
-						[132951] = {
-						},
-						[323821] = {
-						},
-						[331415] = {
-						},
-						[323845] = {
-						},
-						[322903] = {
-						},
-						[334877] = {
-						},
-						[132466] = {
-						},
-						[323846] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2407,
-					["instanceID"] = 1189,
-					["scale"] = 1,
-					["health"] = 3204000,
-					["displayId"] = 95721,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 0,
-					["name"] = "General Kaal",
-				}, -- [25]
-				{
-					["clones"] = {
-						{
-							["y"] = -124.04926829268,
-							["x"] = 578.86243902439,
-							["g"] = 36,
-							["sublevel"] = 2,
-						}, -- [1]
-						{
-							["y"] = -116.30634146341,
-							["x"] = 580.61073170732,
-							["g"] = 36,
-							["sublevel"] = 2,
-						}, -- [2]
-						{
-							["y"] = -124.53658536585,
-							["x"] = 567.34829268293,
-							["g"] = 36,
-							["sublevel"] = 2,
-						}, -- [3]
-						{
-							["y"] = -109.87335859603,
-							["x"] = 572.31993740536,
-							["g"] = 36,
-							["sublevel"] = 2,
-						}, -- [4]
-						{
-							["y"] = -119.29792682927,
-							["x"] = 565.68195121951,
-							["g"] = 36,
-							["sublevel"] = 2,
-						}, -- [5]
-						{
-							["y"] = -114.12695121951,
-							["x"] = 567.40292682927,
-							["g"] = 36,
-							["sublevel"] = 2,
-						}, -- [6]
-						{
-							["y"] = -92.45487804878,
-							["x"] = 499.48812835712,
-							["g"] = 37,
-							["sublevel"] = 2,
-						}, -- [7]
-						{
-							["y"] = -97.480575872507,
-							["x"] = 495.83685936334,
-							["g"] = 37,
-							["sublevel"] = 2,
-						}, -- [8]
-						{
-							["y"] = -104.5717131816,
-							["x"] = 498.17703920675,
-							["g"] = 37,
-							["sublevel"] = 2,
-						}, -- [9]
-					},
-					["id"] = 167955,
-					["spells"] = {
-						[326718] = {
-						},
-						[132951] = {
-						},
-						[317898] = {
-						},
-						[334753] = {
-						},
-						[121308] = {
-						},
-						[240443] = {
-						},
-						[224729] = {
-						},
-						[321020] = {
-						},
-					},
-					["scale"] = 1,
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Imprison"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Mind Control"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 32040,
-					["displayId"] = 94954,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 1,
-					["name"] = "Sanguine Cadet",
-				}, -- [26]
 			},
 			[34] = {
 				{
@@ -13537,16 +13931,16 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 584.29408095585,
-							["inspiring"] = true,
-							["g"] = 3,
 							["y"] = -118.24636426947,
+							["g"] = 3,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["sublevel"] = 2,
 							["x"] = 340.76680878558,
-							["inspiring"] = true,
-							["g"] = 4,
 							["y"] = -335.34629822493,
+							["g"] = 4,
+							["inspiring"] = true,
 						}, -- [3]
 					},
 					["id"] = 163459,
@@ -13574,37 +13968,37 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 64080,
+					["displayId"] = 94304,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Mender",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Fear"] = true,
 						["Imprison"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 64080,
-					["name"] = "Forsworn Mender",
-					["displayId"] = 94304,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [1]
 				{
 					["clones"] = {
 						{
 							["y"] = -284.54584323099,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 1,
 							["x"] = 420.98967344245,
+							["g"] = 1,
+							["sublevel"] = 1,
 						}, -- [1]
 						{
 							["y"] = -269.13781521478,
@@ -13656,28 +14050,28 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 93491,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Vanguard",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
+						["Mind Control"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
 						["Silence"] = true,
+						["Stun"] = true,
 						["Slow"] = true,
-						["Mind Control"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 80100,
-					["name"] = "Forsworn Vanguard",
-					["displayId"] = 93491,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [2]
 				{
 					["clones"] = {
@@ -13781,9 +14175,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 493.1330710124,
-							["inspiring"] = true,
-							["g"] = 21,
 							["y"] = -56.066082968468,
+							["g"] = 21,
+							["inspiring"] = true,
 						}, -- [6]
 						{
 							["y"] = -360.18714634998,
@@ -13804,29 +14198,29 @@ MythicDungeonToolsDB = {
 						},
 						[207707] = {
 						},
-						[288865] = {
+						[324392] = {
 						},
 						[327413] = {
 						},
-						[132466] = {
+						[327416] = {
 						},
 						[132951] = {
 						},
-						[327416] = {
+						[132466] = {
 						},
-						[324392] = {
+						[288865] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["scale"] = 1.5,
+					["count"] = 8,
 					["health"] = 176220,
-					["name"] = "Forsworn Goliath",
 					["displayId"] = 92664,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["count"] = 8,
-					["scale"] = 1.5,
+					["name"] = "Forsworn Goliath",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [3]
 				{
 					["clones"] = {
@@ -13871,35 +14265,35 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[121308] = {
+						[317963] = {
 						},
 						[326868] = {
 						},
-						[317963] = {
+						[121308] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 93483,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Castigator",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Fear"] = true,
 						["Imprison"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 80100,
-					["name"] = "Forsworn Castigator",
-					["displayId"] = 93483,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [4]
 				{
 					["clones"] = {
@@ -13922,25 +14316,25 @@ MythicDungeonToolsDB = {
 						},
 						[139885] = {
 						},
-						[324370] = {
-						},
-						[345561] = {
+						[132951] = {
 						},
 						[331251] = {
 						},
-						[132951] = {
+						[345561] = {
+						},
+						[324370] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["scale"] = 1,
+					["count"] = 0,
 					["health"] = 640800,
-					["name"] = "Azules",
 					["displayId"] = 93471,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1,
+					["name"] = "Azules",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [5]
 				{
 					["clones"] = {
@@ -13951,10 +14345,8 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
+					["scale"] = 1,
 					["id"] = 162059,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["spells"] = {
 						[288865] = {
 						},
@@ -13970,25 +14362,27 @@ MythicDungeonToolsDB = {
 						},
 						[321009] = {
 						},
-						[325748] = {
+						[139885] = {
 						},
 						[324662] = {
 						},
 						[345561] = {
 						},
-						[139885] = {
+						[325748] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2399,
 					["instanceID"] = 1186,
+					["count"] = 0,
 					["name"] = "Kin-Tara",
-					["health"] = 640800,
 					["displayId"] = 95068,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1,
+					["health"] = 640800,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [6]
 				{
 					["clones"] = {
@@ -14031,9 +14425,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 478.2392160174,
-							["inspiring"] = true,
-							["g"] = 13,
 							["y"] = -506.98998031172,
+							["g"] = 13,
+							["inspiring"] = true,
 						}, -- [7]
 						{
 							["y"] = -428.77058401298,
@@ -14052,9 +14446,9 @@ MythicDungeonToolsDB = {
 							["x"] = 603.10570647994,
 							["patrol"] = {
 							},
-							["inspiring"] = true,
-							["g"] = 15,
 							["y"] = -417.54610965942,
+							["g"] = 15,
+							["inspiring"] = true,
 						}, -- [10]
 						{
 							["y"] = -414.74942061427,
@@ -14089,44 +14483,44 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 565.7949436188,
-							["inspiring"] = true,
-							["g"] = 18,
 							["y"] = -289.88595888437,
+							["g"] = 18,
+							["inspiring"] = true,
 						}, -- [16]
 						{
 							["sublevel"] = 2,
 							["x"] = 507.59507820221,
-							["inspiring"] = true,
-							["g"] = 19,
 							["y"] = -203.22151537539,
+							["g"] = 19,
+							["inspiring"] = true,
 						}, -- [17]
 						{
 							["sublevel"] = 2,
 							["x"] = 481.05849194255,
-							["inspiring"] = true,
-							["g"] = 21,
 							["y"] = -61.006022506303,
+							["g"] = 21,
+							["inspiring"] = true,
 						}, -- [18]
 						{
 							["sublevel"] = 2,
 							["x"] = 499.7107092531,
-							["inspiring"] = true,
-							["g"] = 21,
 							["y"] = -68.428381301385,
+							["g"] = 21,
+							["inspiring"] = true,
 						}, -- [19]
 						{
 							["sublevel"] = 2,
 							["x"] = 489.39374765089,
-							["inspiring"] = true,
-							["g"] = 21,
 							["y"] = -68.944086791456,
+							["g"] = 21,
+							["inspiring"] = true,
 						}, -- [20]
 						{
 							["sublevel"] = 2,
 							["x"] = 316.80444694554,
-							["inspiring"] = true,
-							["g"] = 25,
 							["y"] = -169.51047144141,
+							["g"] = 25,
+							["inspiring"] = true,
 						}, -- [21]
 						{
 							["y"] = -163.66667829221,
@@ -14174,27 +14568,27 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
+					["scale"] = 0.7,
+					["count"] = 2,
+					["health"] = 48060,
+					["displayId"] = 93471,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["name"] = "Etherdiver",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Disorient"] = true,
+						["Silence"] = true,
 						["Stun"] = true,
 						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
+						["Disorient"] = true,
+						["Imprison"] = true,
 					},
-					["health"] = 48060,
-					["name"] = "Etherdiver",
-					["displayId"] = 93471,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["count"] = 2,
-					["scale"] = 0.7,
 				}, -- [7]
 				{
 					["clones"] = {
@@ -14225,9 +14619,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 377.1743414741,
-							["inspiring"] = true,
-							["g"] = 10,
 							["y"] = -229.59704911519,
+							["g"] = 10,
+							["inspiring"] = true,
 						}, -- [5]
 						{
 							["y"] = -438.40391678238,
@@ -14238,9 +14632,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 283.69792862068,
-							["inspiring"] = true,
-							["g"] = 24,
 							["y"] = -126.81483178582,
+							["g"] = 24,
+							["inspiring"] = true,
 						}, -- [7]
 					},
 					["id"] = 163501,
@@ -14260,37 +14654,37 @@ MythicDungeonToolsDB = {
 						[224729] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 93491,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Skirmisher",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Fear"] = true,
 						["Imprison"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 80100,
-					["name"] = "Forsworn Skirmisher",
-					["displayId"] = 93491,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [8]
 				{
 					["clones"] = {
 						{
 							["sublevel"] = 2,
 							["x"] = 367.38957586906,
-							["inspiring"] = true,
-							["g"] = 10,
 							["y"] = -233.74924820048,
+							["g"] = 10,
+							["inspiring"] = true,
 						}, -- [1]
 						{
 							["y"] = -447.46529853318,
@@ -14301,23 +14695,23 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 556.14868737631,
-							["inspiring"] = true,
-							["g"] = 18,
 							["y"] = -284.16875495241,
+							["g"] = 18,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["sublevel"] = 2,
 							["x"] = 524.88628114361,
-							["inspiring"] = true,
-							["g"] = 19,
 							["y"] = -196.46131556745,
+							["g"] = 19,
+							["inspiring"] = true,
 						}, -- [4]
 						{
 							["sublevel"] = 2,
 							["x"] = 499.60136639113,
-							["inspiring"] = true,
-							["g"] = 20,
 							["y"] = -94.057400017449,
+							["g"] = 20,
+							["inspiring"] = true,
 						}, -- [5]
 					},
 					["id"] = 168420,
@@ -14334,79 +14728,79 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[317898] = {
+						[327653] = {
 						},
 						[288865] = {
 						},
-						[327653] = {
+						[317898] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 64080,
+					["displayId"] = 94313,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Champion",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Fear"] = true,
 						["Imprison"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 64080,
-					["name"] = "Forsworn Champion",
-					["displayId"] = 94313,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [9]
 				{
 					["clones"] = {
 						{
 							["sublevel"] = 2,
 							["x"] = 375.99936462736,
-							["inspiring"] = true,
-							["g"] = 10,
 							["y"] = -240.23717527145,
+							["g"] = 10,
+							["inspiring"] = true,
 						}, -- [1]
 						{
 							["sublevel"] = 2,
 							["x"] = 622.38196728369,
-							["inspiring"] = true,
-							["g"] = 17,
 							["y"] = -390.09417725635,
+							["g"] = 17,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["sublevel"] = 2,
 							["x"] = 555.78218026632,
-							["inspiring"] = true,
-							["g"] = 18,
 							["y"] = -296.11155006192,
+							["g"] = 18,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["sublevel"] = 2,
 							["x"] = 516.13039751157,
-							["inspiring"] = true,
-							["g"] = 19,
 							["y"] = -199.77269114267,
+							["g"] = 19,
+							["inspiring"] = true,
 						}, -- [4]
 						{
 							["sublevel"] = 2,
 							["x"] = 492.46936339433,
-							["inspiring"] = true,
-							["g"] = 20,
 							["y"] = -101.54692574708,
+							["g"] = 20,
+							["inspiring"] = true,
 						}, -- [5]
 						{
 							["sublevel"] = 2,
 							["x"] = 284.57516093744,
-							["inspiring"] = true,
-							["g"] = 24,
 							["y"] = -141.83769668237,
+							["g"] = 24,
+							["inspiring"] = true,
 						}, -- [6]
 					},
 					["id"] = 163520,
@@ -14432,16 +14826,16 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["scale"] = 1,
+					["count"] = 6,
 					["health"] = 128160,
-					["name"] = "Forsworn Squad-Leader",
 					["displayId"] = 94919,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 6,
-					["scale"] = 1,
+					["name"] = "Forsworn Squad-Leader",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [10]
 				{
 					["clones"] = {
@@ -14490,9 +14884,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 518.59758087323,
-							["inspiring"] = true,
-							["g"] = 19,
 							["y"] = -187.78179272496,
+							["g"] = 19,
+							["inspiring"] = true,
 						}, -- [8]
 						{
 							["y"] = -83.632152327349,
@@ -14539,52 +14933,52 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 292.84781609195,
-							["inspiring"] = true,
-							["g"] = 24,
 							["y"] = -134.9925862069,
+							["g"] = 24,
+							["inspiring"] = true,
 						}, -- [16]
 					},
 					["id"] = 163506,
 					["spells"] = {
 						[288865] = {
 						},
-						[30831] = {
+						[27638] = {
 						},
 						[317898] = {
 						},
-						[132466] = {
-						},
-						[323744] = {
-						},
-						[132951] = {
+						[30831] = {
 						},
 						[224729] = {
 						},
-						[27638] = {
+						[132951] = {
+						},
+						[323744] = {
+						},
+						[132466] = {
 						},
 					},
+					["scale"] = 0.7,
+					["health"] = 80100,
+					["level"] = 60,
+					["name"] = "Forsworn Stealthclaw",
+					["displayId"] = 93462,
+					["creatureType"] = "Beast",
+					["stealth"] = true,
+					["count"] = 4,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Disorient"] = true,
+						["Silence"] = true,
 						["Stun"] = true,
 						["Slow"] = true,
-						["Silence"] = true,
-						["Fear"] = true,
+						["Disorient"] = true,
+						["Imprison"] = true,
 					},
-					["name"] = "Forsworn Stealthclaw",
-					["stealth"] = true,
-					["count"] = 4,
-					["displayId"] = 93462,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["health"] = 80100,
-					["scale"] = 0.7,
 				}, -- [11]
 				{
 					["clones"] = {
@@ -14624,30 +15018,30 @@ MythicDungeonToolsDB = {
 							["x"] = 630.23712110311,
 							["patrol"] = {
 							},
-							["inspiring"] = true,
-							["g"] = 17,
 							["y"] = -388.71385437505,
+							["g"] = 17,
+							["inspiring"] = true,
 						}, -- [6]
 						{
 							["sublevel"] = 2,
 							["x"] = 546.53647178034,
-							["inspiring"] = true,
-							["g"] = 18,
 							["y"] = -286.64564851729,
+							["g"] = 18,
+							["inspiring"] = true,
 						}, -- [7]
 						{
 							["sublevel"] = 2,
 							["x"] = 506.46842243128,
-							["inspiring"] = true,
-							["g"] = 19,
 							["y"] = -191.18801265382,
+							["g"] = 19,
+							["inspiring"] = true,
 						}, -- [8]
 						{
 							["sublevel"] = 2,
 							["x"] = 455.76063752292,
-							["inspiring"] = true,
-							["g"] = 22,
 							["y"] = -91.29181617176,
+							["g"] = 22,
+							["inspiring"] = true,
 						}, -- [9]
 					},
 					["id"] = 163524,
@@ -14660,15 +15054,22 @@ MythicDungeonToolsDB = {
 						},
 						[334882] = {
 						},
-						[288865] = {
+						[323786] = {
 						},
 						[132951] = {
 						},
 						[224729] = {
 						},
-						[323786] = {
+						[288865] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 5,
+					["health"] = 104130,
+					["displayId"] = 92193,
+					["creatureType"] = "Mechanical",
+					["level"] = 60,
+					["name"] = "Kyrian Dark-Praetor",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -14680,13 +15081,6 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Fear"] = true,
 					},
-					["health"] = 104130,
-					["name"] = "Kyrian Dark-Praetor",
-					["displayId"] = 92193,
-					["creatureType"] = "Mechanical",
-					["level"] = 60,
-					["count"] = 5,
-					["scale"] = 1,
 				}, -- [12]
 				{
 					["clones"] = {
@@ -14699,23 +15093,23 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 2,
 							["x"] = 544.18337685741,
-							["inspiring"] = true,
-							["g"] = 18,
 							["y"] = -298.63622250596,
+							["g"] = 18,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["sublevel"] = 2,
 							["x"] = 504.23346953768,
-							["inspiring"] = true,
-							["g"] = 20,
 							["y"] = -102.97397124752,
+							["g"] = 20,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["sublevel"] = 2,
 							["x"] = 277.0064198426,
-							["inspiring"] = true,
-							["g"] = 24,
 							["y"] = -134.41949006722,
+							["g"] = 24,
+							["inspiring"] = true,
 						}, -- [4]
 					},
 					["id"] = 168418,
@@ -14734,37 +15128,37 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[326868] = {
+						[317959] = {
 						},
 						[327647] = {
 						},
 						[317898] = {
 						},
-						[317959] = {
+						[326868] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 94316,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Inquisitor",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Imprison"] = true,
+						["Fear"] = true,
+						["Disorient"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
 						["Silence"] = true,
+						["Stun"] = true,
 						["Slow"] = true,
-						["Disorient"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 80100,
-					["name"] = "Forsworn Inquisitor",
-					["displayId"] = 94316,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [13]
 				{
 					["clones"] = {
@@ -14774,10 +15168,8 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
+					["scale"] = 1,
 					["id"] = 162058,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["spells"] = {
 						[324205] = {
 						},
@@ -14791,23 +15183,25 @@ MythicDungeonToolsDB = {
 						},
 						[324148] = {
 						},
-						[132466] = {
+						[334485] = {
 						},
 						[288865] = {
 						},
-						[334485] = {
+						[132466] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2416,
 					["instanceID"] = 1186,
+					["count"] = 0,
 					["name"] = "Ventunax",
-					["health"] = 480600,
 					["displayId"] = 92193,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1,
+					["health"] = 480600,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [14]
 				{
 					["clones"] = {
@@ -14845,31 +15239,31 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[326868] = {
+						[323739] = {
 						},
 						[328205] = {
 						},
 						[336444] = {
 						},
-						[288865] = {
+						[328217] = {
 						},
 						[324392] = {
 						},
-						[328217] = {
+						[288865] = {
 						},
-						[323739] = {
+						[326868] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["scale"] = 1,
+					["count"] = 6,
 					["health"] = 128160,
-					["name"] = "Forsworn Helion",
 					["displayId"] = 94919,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 6,
-					["scale"] = 1,
+					["name"] = "Forsworn Helion",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [15]
 				{
 					["clones"] = {
@@ -14882,9 +15276,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 3,
 							["x"] = 394.63622002074,
-							["inspiring"] = true,
-							["g"] = 27,
 							["y"] = -322.82719227387,
+							["g"] = 27,
+							["inspiring"] = true,
 						}, -- [2]
 						{
 							["y"] = -275.28384020815,
@@ -14942,28 +15336,28 @@ MythicDungeonToolsDB = {
 						[317898] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 72090,
+					["displayId"] = 94313,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Warden",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Fear"] = true,
 						["Imprison"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 72090,
-					["name"] = "Forsworn Warden",
-					["displayId"] = 94313,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [16]
 				{
 					["clones"] = {
@@ -15012,7 +15406,7 @@ MythicDungeonToolsDB = {
 						},
 						[328332] = {
 						},
-						[317898] = {
+						[328330] = {
 						},
 						[224729] = {
 						},
@@ -15022,31 +15416,31 @@ MythicDungeonToolsDB = {
 						},
 						[121308] = {
 						},
-						[328330] = {
+						[317898] = {
 						},
 					},
+					["scale"] = 1,
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 95754,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Justicar",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Fear"] = true,
 						["Imprison"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 80100,
-					["name"] = "Forsworn Justicar",
-					["displayId"] = 95754,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
 				}, -- [17]
 				{
 					["clones"] = {
@@ -15136,28 +15530,28 @@ MythicDungeonToolsDB = {
 						[224729] = {
 						},
 					},
+					["scale"] = 0.7,
+					["count"] = 1,
+					["health"] = 16020,
+					["displayId"] = 93482,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["name"] = "Forsworn Usurper",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
 						["Fear"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 16020,
-					["name"] = "Forsworn Usurper",
-					["displayId"] = 93482,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 1,
-					["scale"] = 0.7,
 				}, -- [18]
 				{
 					["clones"] = {
@@ -15167,10 +15561,8 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 3,
 						}, -- [1]
 					},
+					["scale"] = 1,
 					["id"] = 162060,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["spells"] = {
 						[288865] = {
 						},
@@ -15180,13 +15572,13 @@ MythicDungeonToolsDB = {
 						},
 						[324427] = {
 						},
-						[326868] = {
+						[324392] = {
+						},
+						[338731] = {
 						},
 						[132951] = {
 						},
-						[324608] = {
-						},
-						[331997] = {
+						[323372] = {
 						},
 						[324046] = {
 						},
@@ -15196,23 +15588,25 @@ MythicDungeonToolsDB = {
 						},
 						[323878] = {
 						},
-						[323372] = {
+						[331997] = {
 						},
-						[338731] = {
+						[324608] = {
 						},
-						[324392] = {
+						[326868] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2414,
 					["instanceID"] = 1186,
+					["count"] = 0,
 					["name"] = "Oryphrion",
-					["health"] = 881100,
 					["displayId"] = 97621,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1,
+					["health"] = 881100,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [19]
 				{
 					["clones"] = {
@@ -15226,7 +15620,7 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[225832] = {
 						},
-						[328435] = {
+						[323739] = {
 						},
 						[326868] = {
 						},
@@ -15244,7 +15638,7 @@ MythicDungeonToolsDB = {
 						},
 						[336496] = {
 						},
-						[288865] = {
+						[336444] = {
 						},
 						[328434] = {
 						},
@@ -15252,21 +15646,21 @@ MythicDungeonToolsDB = {
 						},
 						[324662] = {
 						},
-						[336444] = {
+						[288865] = {
 						},
-						[323739] = {
+						[328435] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["scale"] = 1.5,
+					["count"] = 12,
 					["health"] = 240300,
-					["name"] = "Klotos",
 					["displayId"] = 95759,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 12,
-					["scale"] = 1.5,
+					["name"] = "Klotos",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [20]
 				{
 					["clones"] = {
@@ -15302,27 +15696,27 @@ MythicDungeonToolsDB = {
 						},
 						[225832] = {
 						},
-						[288865] = {
-						},
-						[336420] = {
-						},
-						[328462] = {
+						[121308] = {
 						},
 						[328435] = {
 						},
-						[121308] = {
+						[328462] = {
+						},
+						[336420] = {
+						},
+						[288865] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["scale"] = 1.5,
+					["count"] = 12,
 					["health"] = 240300,
-					["name"] = "Lakesis",
 					["displayId"] = 95759,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 12,
-					["scale"] = 1.5,
+					["name"] = "Lakesis",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [21]
 				{
 					["clones"] = {
@@ -15354,21 +15748,21 @@ MythicDungeonToolsDB = {
 						},
 						[333887] = {
 						},
-						[336444] = {
-						},
 						[324662] = {
 						},
+						[336444] = {
+						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["scale"] = 1.5,
+					["count"] = 12,
 					["health"] = 240300,
-					["name"] = "Astronos",
 					["displayId"] = 95759,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 12,
-					["scale"] = 1.5,
+					["name"] = "Astronos",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [22]
 				{
 					["clones"] = {
@@ -15378,10 +15772,8 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 4,
 						}, -- [1]
 					},
+					["scale"] = 1.5,
 					["id"] = 162061,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["spells"] = {
 						[288865] = {
 						},
@@ -15389,13 +15781,13 @@ MythicDungeonToolsDB = {
 						},
 						[323943] = {
 						},
-						[132951] = {
+						[322908] = {
 						},
 						[323010] = {
 						},
 						[322999] = {
 						},
-						[325748] = {
+						[132951] = {
 						},
 						[335817] = {
 						},
@@ -15403,27 +15795,29 @@ MythicDungeonToolsDB = {
 						},
 						[334625] = {
 						},
-						[326868] = {
+						[322893] = {
 						},
 						[322818] = {
 						},
 						[322817] = {
 						},
-						[322893] = {
+						[326868] = {
 						},
-						[322908] = {
+						[325748] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2412,
 					["instanceID"] = 0,
+					["count"] = 0,
 					["name"] = "Devos",
-					["health"] = 961200,
 					["displayId"] = 95665,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1.5,
+					["health"] = 961200,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [23]
 			},
 			[30] = {
@@ -15554,37 +15948,37 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[325523] = {
+						[186439] = {
 						},
 						[320297] = {
 						},
 						[325748] = {
 						},
-						[186439] = {
+						[325523] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["health"] = 80100,
-					["displayId"] = 93074,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Depraved Darkblade",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
 						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Depraved Darkblade",
+					["count"] = 4,
+					["displayId"] = 93074,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 80100,
+					["scale"] = 1,
 				}, -- [1]
 				{
 					["clones"] = {
@@ -15657,9 +16051,9 @@ MythicDungeonToolsDB = {
 									["x"] = 644.79692697002,
 								}, -- [16]
 							},
-							["sublevel"] = 1,
-							["g"] = 2,
 							["x"] = 646.58821813254,
+							["g"] = 2,
+							["sublevel"] = 1,
 						}, -- [1]
 						{
 							["y"] = -301.17153466132,
@@ -15670,9 +16064,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 539.49317710124,
-							["inspiring"] = true,
-							["g"] = 15,
 							["y"] = -208.37933262827,
+							["g"] = 15,
+							["inspiring"] = true,
 						}, -- [3]
 						{
 							["sublevel"] = 1,
@@ -15755,9 +16149,9 @@ MythicDungeonToolsDB = {
 									["x"] = 551.82236469656,
 								}, -- [9]
 							},
-							["inspiring"] = true,
-							["g"] = 16,
 							["y"] = -242.07172012979,
+							["g"] = 16,
+							["inspiring"] = true,
 						}, -- [5]
 						{
 							["y"] = -305.10573191639,
@@ -15768,9 +16162,9 @@ MythicDungeonToolsDB = {
 						{
 							["sublevel"] = 1,
 							["x"] = 526.02851684797,
-							["inspiring"] = true,
-							["g"] = 20,
 							["y"] = -358.34482947793,
+							["g"] = 20,
+							["inspiring"] = true,
 						}, -- [7]
 						{
 							["sublevel"] = 1,
@@ -15851,37 +16245,37 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[325535] = {
+						[201657] = {
 						},
 						[320297] = {
 						},
 						[132951] = {
 						},
-						[201657] = {
+						[325535] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["health"] = 72090,
-					["displayId"] = 97001,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Depraved Houndmaster",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Imprison"] = true,
+						["Repentance"] = true,
+						["Disorient"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
 						["Silence"] = true,
+						["Stun"] = true,
 						["Slow"] = true,
-						["Disorient"] = true,
-						["Repentance"] = true,
+						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Depraved Houndmaster",
+					["count"] = 4,
+					["displayId"] = 97001,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 72090,
+					["scale"] = 1,
 				}, -- [2]
 				{
 					["clones"] = {
@@ -15996,9 +16390,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -265.37637308293,
 							["inspiring"] = true,
-							["sublevel"] = 2,
-							["g"] = 46,
 							["x"] = 575.3648851274,
+							["g"] = 46,
+							["sublevel"] = 2,
 						}, -- [19]
 						{
 							["y"] = -274.70936130425,
@@ -16038,27 +16432,27 @@ MythicDungeonToolsDB = {
 						[344993] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["health"] = 88110,
-					["displayId"] = 93163,
-					["creatureType"] = "Beast",
-					["level"] = 60,
-					["name"] = "Vicious Gargon",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Vicious Gargon",
+					["count"] = 4,
+					["displayId"] = 93163,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["health"] = 88110,
+					["scale"] = 1,
 				}, -- [3]
 				{
 					["clones"] = {
@@ -16197,9 +16591,9 @@ MythicDungeonToolsDB = {
 						},
 						[334882] = {
 						},
-						[325879] = {
+						[186439] = {
 						},
-						[121308] = {
+						[325879] = {
 						},
 						[132951] = {
 						},
@@ -16211,37 +16605,37 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[338003] = {
+						[326868] = {
 						},
 						[320297] = {
 						},
-						[326868] = {
+						[338003] = {
 						},
-						[186439] = {
+						[121308] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["health"] = 72090,
-					["displayId"] = 93680,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Depraved Obliterator",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Repentance"] = true,
+						["Imprison"] = true,
+						["Disorient"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
 						["Stun"] = true,
+						["Silence"] = true,
 						["Slow"] = true,
-						["Disorient"] = true,
-						["Imprison"] = true,
+						["Repentance"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Depraved Obliterator",
+					["count"] = 4,
+					["displayId"] = 93680,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 72090,
+					["scale"] = 1,
 				}, -- [4]
 				{
 					["clones"] = {
@@ -16292,44 +16686,44 @@ MythicDungeonToolsDB = {
 						},
 						[80354] = {
 						},
-						[132951] = {
+						[328506] = {
 						},
-						[342021] = {
+						[344991] = {
 						},
 						[35079] = {
 						},
 						[186439] = {
 						},
-						[118459] = {
+						[132951] = {
 						},
-						[346866] = {
-						},
-						[201657] = {
+						[96243] = {
 						},
 						[57724] = {
+						},
+						[201657] = {
 						},
 						[342189] = {
 						},
 						[328123] = {
 						},
-						[96243] = {
+						[346866] = {
 						},
-						[344991] = {
+						[342021] = {
 						},
-						[328506] = {
+						[118459] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["health"] = 128160,
-					["displayId"] = 95706,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Loyal Stoneborn",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Mind Control"] = true,
 					},
+					["name"] = "Loyal Stoneborn",
+					["count"] = 4,
+					["displayId"] = 95706,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 128160,
+					["scale"] = 1,
 				}, -- [5]
 				{
 					["clones"] = {
@@ -16722,33 +17116,33 @@ MythicDungeonToolsDB = {
 						},
 						[132466] = {
 						},
-						[338004] = {
-						},
 						[288865] = {
 						},
+						[338004] = {
+						},
 					},
-					["scale"] = 0.6,
-					["count"] = 2,
-					["health"] = 48060,
-					["displayId"] = 93814,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Toiling Groundskeeper",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
 						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Toiling Groundskeeper",
+					["count"] = 2,
+					["displayId"] = 93814,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 48060,
+					["scale"] = 0.6,
 				}, -- [6]
 				{
 					["clones"] = {
@@ -16773,9 +17167,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -289.1351999351,
 							["inspiring"] = true,
-							["sublevel"] = 2,
-							["g"] = 47,
 							["x"] = 354.37768300635,
+							["g"] = 47,
+							["sublevel"] = 2,
 						}, -- [4]
 					},
 					["id"] = 165529,
@@ -16801,28 +17195,28 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["health"] = 80100,
-					["displayId"] = 94573,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Depraved Collector",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
 						["Repentance"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Depraved Collector",
+					["count"] = 4,
+					["displayId"] = 94573,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 80100,
+					["scale"] = 1,
 				}, -- [7]
 				{
 					["clones"] = {
@@ -16855,29 +17249,29 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[326409] = {
+						[288865] = {
 						},
-						[325509] = {
+						[326409] = {
 						},
 						[132466] = {
 						},
-						[326438] = {
-						},
 						[326441] = {
 						},
-						[288865] = {
+						[326438] = {
+						},
+						[325509] = {
 						},
 					},
-					["scale"] = 1.5,
-					["count"] = 10,
-					["health"] = 192240,
-					["displayId"] = 94868,
-					["creatureType"] = "Elemental",
-					["level"] = 60,
-					["name"] = "Shard of Halkias",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["name"] = "Shard of Halkias",
+					["count"] = 10,
+					["displayId"] = 94868,
+					["creatureType"] = "Elemental",
+					["level"] = 60,
+					["health"] = 192240,
+					["scale"] = 1.5,
 				}, -- [8]
 				{
 					["clones"] = {
@@ -16887,8 +17281,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["scale"] = 1,
-					["id"] = 165408,
 					["spells"] = {
 						[322945] = {
 						},
@@ -16902,31 +17298,29 @@ MythicDungeonToolsDB = {
 						},
 						[322711] = {
 						},
-						[339235] = {
+						[288865] = {
 						},
 						[322943] = {
 						},
-						[322936] = {
-						},
 						[322977] = {
+						},
+						[322936] = {
 						},
 						[323001] = {
 						},
-						[288865] = {
+						[339235] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2406,
 					["instanceID"] = 1185,
+					["name"] = "Halkias",
 					["health"] = 560700,
-					["count"] = 0,
 					["displayId"] = 98764,
 					["creatureType"] = "Elemental",
 					["level"] = 60,
-					["name"] = "Halkias",
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 165408,
 				}, -- [9]
 				{
 					["clones"] = {
@@ -16973,7 +17367,7 @@ MythicDungeonToolsDB = {
 						},
 						[326632] = {
 						},
-						[326868] = {
+						[288865] = {
 						},
 						[326636] = {
 						},
@@ -16983,19 +17377,19 @@ MythicDungeonToolsDB = {
 						},
 						[326607] = {
 						},
-						[288865] = {
+						[326868] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 6,
-					["health"] = 128160,
-					["displayId"] = 93829,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Stoneborn Reaver",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["name"] = "Stoneborn Reaver",
+					["count"] = 6,
+					["displayId"] = 93829,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 128160,
+					["scale"] = 1,
 				}, -- [10]
 				{
 					["clones"] = {
@@ -17032,9 +17426,9 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -269.43346030856,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 44,
 							["x"] = 384.0398113725,
+							["g"] = 44,
+							["sublevel"] = 1,
 						}, -- [6]
 						{
 							["y"] = -265.32876507851,
@@ -17247,18 +17641,18 @@ MythicDungeonToolsDB = {
 						{
 							["y"] = -294.79205566701,
 							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 36,
 							["x"] = 360.67591917998,
+							["g"] = 36,
+							["sublevel"] = 1,
 						}, -- [25]
 					},
 					["id"] = 167610,
 					["spells"] = {
 						[288865] = {
 						},
-						[326879] = {
+						[132466] = {
 						},
-						[317898] = {
+						[326879] = {
 						},
 						[326874] = {
 						},
@@ -17268,30 +17662,30 @@ MythicDungeonToolsDB = {
 						},
 						[224729] = {
 						},
-						[132466] = {
+						[317898] = {
 						},
 					},
-					["scale"] = 0.6,
-					["count"] = 1,
-					["health"] = 24030,
-					["displayId"] = 94765,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Stonefiend Anklebiter",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 						["Polymorph"] = true,
 						["Mind Control"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
 						["Disorient"] = true,
-						["Imprison"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Stonefiend Anklebiter",
+					["count"] = 1,
+					["displayId"] = 94765,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 24030,
+					["scale"] = 0.6,
 				}, -- [11]
 				{
 					["clones"] = {
@@ -17356,33 +17750,33 @@ MythicDungeonToolsDB = {
 						},
 						[326642] = {
 						},
-						[326868] = {
-						},
 						[334882] = {
 						},
+						[326868] = {
+						},
 					},
-					["scale"] = 1,
-					["count"] = 4,
-					["health"] = 80100,
-					["displayId"] = 94724,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Stoneborn Eviscerator",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Fear"] = true,
-						["Imprison"] = true,
+						["Repentance"] = true,
+						["Mind Control"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
-						["Silence"] = true,
 						["Stun"] = true,
+						["Silence"] = true,
 						["Slow"] = true,
-						["Mind Control"] = true,
-						["Repentance"] = true,
+						["Imprison"] = true,
+						["Fear"] = true,
 					},
+					["name"] = "Stoneborn Eviscerator",
+					["count"] = 4,
+					["displayId"] = 94724,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 80100,
+					["scale"] = 1,
 				}, -- [12]
 				{
 					["clones"] = {
@@ -17493,21 +17887,21 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[326997] = {
-						},
 						[288865] = {
 						},
+						[326997] = {
+						},
 					},
-					["scale"] = 1.3,
-					["count"] = 7,
-					["health"] = 160200,
-					["displayId"] = 95707,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Stoneborn Slasher",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["name"] = "Stoneborn Slasher",
+					["count"] = 7,
+					["displayId"] = 95707,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 160200,
+					["scale"] = 1.3,
 				}, -- [13]
 				{
 					["clones"] = {
@@ -17517,8 +17911,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["scale"] = 1,
-					["id"] = 164185,
 					["spells"] = {
 						[288865] = {
 						},
@@ -17526,15 +17922,15 @@ MythicDungeonToolsDB = {
 						},
 						[319702] = {
 						},
-						[132951] = {
+						[319733] = {
 						},
 						[326389] = {
 						},
-						[319703] = {
+						[132951] = {
 						},
 						[319962] = {
 						},
-						[328206] = {
+						[327411] = {
 						},
 						[319941] = {
 						},
@@ -17544,23 +17940,21 @@ MythicDungeonToolsDB = {
 						},
 						[319592] = {
 						},
-						[327411] = {
+						[328206] = {
 						},
-						[319733] = {
+						[319703] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2387,
 					["instanceID"] = 1185,
+					["name"] = "Echelon",
 					["health"] = 560700,
-					["count"] = 0,
 					["displayId"] = 96260,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Echelon",
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 164185,
 				}, -- [14]
 				{
 					["clones"] = {
@@ -17570,8 +17964,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["scale"] = 1,
-					["id"] = 165410,
 					["spells"] = {
 						[288865] = {
 						},
@@ -17583,23 +17979,21 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[323552] = {
-						},
 						[326868] = {
+						},
+						[323552] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2411,
 					["instanceID"] = 1185,
+					["name"] = "High Adjudicator Aleez",
 					["health"] = 560700,
-					["count"] = 0,
 					["displayId"] = 94503,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "High Adjudicator Aleez",
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 165410,
 				}, -- [15]
 				{
 					["clones"] = {
@@ -17759,13 +18153,6 @@ MythicDungeonToolsDB = {
 						[320297] = {
 						},
 					},
-					["scale"] = 1,
-					["count"] = 0,
-					["health"] = 16020,
-					["displayId"] = 90426,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["name"] = "Tormented Soul",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -17779,6 +18166,13 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Fear"] = true,
 					},
+					["name"] = "Tormented Soul",
+					["count"] = 0,
+					["displayId"] = 90426,
+					["creatureType"] = "Undead",
+					["level"] = 60,
+					["health"] = 16020,
+					["scale"] = 1,
 				}, -- [16]
 				{
 					["clones"] = {
@@ -17808,23 +18202,23 @@ MythicDungeonToolsDB = {
 						},
 						[132466] = {
 						},
-						[326794] = {
+						[325748] = {
 						},
 						[326891] = {
 						},
-						[325748] = {
+						[326794] = {
 						},
 					},
-					["scale"] = 1.5,
-					["count"] = 20,
-					["health"] = 240300,
-					["displayId"] = 93070,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["name"] = "Inquisitor Sigar",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["name"] = "Inquisitor Sigar",
+					["count"] = 20,
+					["displayId"] = 93070,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["health"] = 240300,
+					["scale"] = 1.5,
 				}, -- [17]
 				{
 					["clones"] = {
@@ -17834,8 +18228,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 3,
 						}, -- [1]
 					},
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["scale"] = 1,
-					["id"] = 164218,
 					["spells"] = {
 						[288865] = {
 						},
@@ -17845,7 +18241,7 @@ MythicDungeonToolsDB = {
 						},
 						[323392] = {
 						},
-						[323437] = {
+						[323393] = {
 						},
 						[327885] = {
 						},
@@ -17859,1937 +18255,1969 @@ MythicDungeonToolsDB = {
 						},
 						[335345] = {
 						},
-						[329113] = {
-						},
 						[323143] = {
+						},
+						[329113] = {
 						},
 						[335338] = {
 						},
 						[328791] = {
 						},
-						[323393] = {
+						[323437] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2413,
 					["instanceID"] = 1185,
+					["name"] = "Lord Chamberlain",
 					["health"] = 640800,
-					["count"] = 0,
 					["displayId"] = 95103,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Lord Chamberlain",
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 164218,
 				}, -- [18]
 			},
-			[35] = {
+			[33] = {
 				{
 					["clones"] = {
 						{
-							["y"] = -222.57873870954,
-							["x"] = 634.44943930098,
-							["g"] = 1,
+							["y"] = -102.75258064516,
+							["x"] = 272.62967741936,
+							["g"] = 4,
 							["sublevel"] = 1,
 						}, -- [1]
 						{
-							["y"] = -212.11171969476,
-							["x"] = 634.03286694412,
-							["g"] = 1,
+							["y"] = -127.01741935484,
+							["x"] = 251.91569892473,
+							["g"] = 4,
 							["sublevel"] = 1,
 						}, -- [2]
 						{
-							["y"] = -221.30744389803,
-							["x"] = 623.65755414698,
-							["g"] = 1,
+							["y"] = -305.61505737991,
+							["x"] = 701.71276684742,
+							["g"] = 16,
 							["sublevel"] = 1,
 						}, -- [3]
 						{
-							["y"] = -211.08896875701,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 1,
-							["x"] = 622.96773061204,
-						}, -- [4]
-						{
-							["y"] = -208.62104951716,
-							["x"] = 581.36600361522,
-							["g"] = 3,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -234.33877343481,
-							["x"] = 536.95778927684,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -225.02027482211,
-							["x"] = 536.36667443524,
-							["g"] = 7,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -279.14335164267,
-							["x"] = 542.60524207574,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [8]
-						{
-							["sublevel"] = 1,
-							["x"] = 525.98715499635,
-							["patrol"] = {
-								{
-									["y"] = -199.14416302564,
-									["x"] = 525.98715499635,
-								}, -- [1]
-								{
-									["y"] = -196.42508486796,
-									["x"] = 534.52262643769,
-								}, -- [2]
-								{
-									["y"] = -191.06179464622,
-									["x"] = 544.99380897718,
-								}, -- [3]
-								{
-									["y"] = -196.42508486796,
-									["x"] = 534.52262643769,
-								}, -- [4]
-								{
-									["y"] = -199.14416302564,
-									["x"] = 525.98715499635,
-								}, -- [5]
-								{
-									["y"] = -202.55454688099,
-									["x"] = 511.53712196815,
-								}, -- [6]
-								{
-									["y"] = -204.59771915257,
-									["x"] = 495.19187531962,
-								}, -- [7]
-								{
-									["y"] = -204.81940842005,
-									["x"] = 482.62700791643,
-								}, -- [8]
-								{
-									["y"] = -204.59771915257,
-									["x"] = 495.19187531962,
-								}, -- [9]
-								{
-									["y"] = -202.55454688099,
-									["x"] = 511.53712196815,
-								}, -- [10]
-							},
-							["g"] = 6,
-							["y"] = -199.14416302564,
-						}, -- [9]
-						{
-							["y"] = -195.5108985365,
-							["x"] = 518.53484462284,
-							["g"] = 6,
-							["sublevel"] = 1,
-						}, -- [10]
-						{
-							["sublevel"] = 1,
-							["x"] = 519.93836706451,
-							["g"] = 6,
-							["y"] = -204.71259406778,
-						}, -- [11]
-						{
-							["sublevel"] = 1,
-							["x"] = 499.53908974431,
-							["patrol"] = {
-								{
-									["y"] = -247.69708502653,
-									["x"] = 499.53908974431,
-								}, -- [1]
-								{
-									["y"] = -243.74189768892,
-									["x"] = 487.32663292418,
-								}, -- [2]
-								{
-									["y"] = -238.63401633151,
-									["x"] = 475.06768697744,
-								}, -- [3]
-								{
-									["y"] = -236.84625292427,
-									["x"] = 487.83742873216,
-								}, -- [4]
-								{
-									["y"] = -235.8246613083,
-									["x"] = 503.67187957271,
-								}, -- [5]
-								{
-									["y"] = -233.52611305342,
-									["x"] = 519.25093250927,
-								}, -- [6]
-								{
-									["y"] = -235.05848951702,
-									["x"] = 536.36237286977,
-								}, -- [7]
-								{
-									["y"] = -243.48649978493,
-									["x"] = 548.11052300852,
-								}, -- [8]
-								{
-									["y"] = -250.63755341392,
-									["x"] = 552.4522216143,
-								}, -- [9]
-								{
-									["y"] = -250.63755341392,
-									["x"] = 535.59620107848,
-								}, -- [10]
-								{
-									["y"] = -249.36058581465,
-									["x"] = 520.01712622124,
-								}, -- [11]
-							},
-							["g"] = 8,
-							["y"] = -247.69708502653,
-						}, -- [12]
-						{
-							["y"] = -251.66312146101,
-							["x"] = 509.30228887343,
-							["g"] = 8,
-							["sublevel"] = 1,
-						}, -- [13]
-						{
-							["y"] = -251.14684881901,
-							["x"] = 433.16111647083,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [14]
-						{
-							["y"] = -245.5478806901,
-							["x"] = 427.21063543203,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [15]
-						{
-							["y"] = -245.71898136959,
-							["x"] = 419.71393005741,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [16]
-						{
-							["y"] = -158.69534235456,
-							["x"] = 548.02757692684,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [17]
-						{
-							["y"] = -163.75866402156,
-							["x"] = 528.6110476032,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [18]
-						{
-							["y"] = -389.51616313679,
-							["x"] = 323.21091484491,
-							["g"] = 26,
-							["sublevel"] = 2,
-						}, -- [19]
-						{
-							["y"] = -403.68421046567,
-							["x"] = 330.21843444811,
-							["g"] = 26,
-							["sublevel"] = 2,
-						}, -- [20]
-						{
-							["y"] = -280.23427925741,
-							["x"] = 472.84000063188,
-							["g"] = 28,
-							["sublevel"] = 2,
-						}, -- [21]
-						{
-							["y"] = -254.45851236553,
-							["x"] = 518.88548008154,
-							["g"] = 30,
-							["sublevel"] = 2,
-						}, -- [22]
-						{
-							["y"] = -258.12964012969,
-							["x"] = 528.86956076373,
-							["g"] = 30,
-							["sublevel"] = 2,
-						}, -- [23]
-						{
-							["y"] = -245.37833861688,
-							["x"] = 332.01681681998,
-							["g"] = 31,
-							["sublevel"] = 2,
-						}, -- [24]
-						{
-							["sublevel"] = 2,
-							["x"] = 333.99546137051,
-							["inspiring"] = true,
-							["g"] = 31,
-							["y"] = -256.34717010263,
-						}, -- [25]
-					},
-					["id"] = 162729,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[334882] = {
-						},
-						[132951] = {
-						},
-						[338022] = {
-						},
-						[201657] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[320297] = {
-						},
-						[344991] = {
-						},
-						[240443] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Repentance"] = true,
-					},
-					["health"] = 80100,
-					["name"] = "Patchwerk Soldier",
-					["displayId"] = 95222,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 0.8,
-				}, -- [1]
-				{
-					["clones"] = {
-						{
-							["y"] = -267.19125178169,
-							["x"] = 636.00936056606,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -260.66134616311,
-							["x"] = 637.98762612267,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -267.43150244214,
-							["x"] = 644.29789093094,
-							["g"] = 2,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -164.40364637533,
-							["x"] = 586.54961231973,
-							["g"] = 4,
+							["y"] = -298.55419354839,
+							["x"] = 696.08602150538,
+							["g"] = 16,
 							["sublevel"] = 1,
 						}, -- [4]
 						{
-							["y"] = -166.62872839749,
-							["x"] = 594.94517222651,
-							["g"] = 4,
+							["y"] = -305.75230614423,
+							["x"] = 693.62587151986,
+							["g"] = 16,
 							["sublevel"] = 1,
 						}, -- [5]
 						{
-							["y"] = -172.44777146502,
-							["x"] = 587.45596487713,
-							["g"] = 4,
+							["y"] = -311.47445288521,
+							["x"] = 698.63487687614,
+							["g"] = 16,
 							["sublevel"] = 1,
 						}, -- [6]
 						{
-							["y"] = -173.35158979958,
-							["x"] = 595.50115230256,
-							["g"] = 4,
+							["y"] = -292.0880717791,
+							["x"] = 555.14924538883,
+							["g"] = 19,
 							["sublevel"] = 1,
 						}, -- [7]
 						{
-							["y"] = -217.41514755322,
-							["inspiring"] = true,
+							["y"] = -296.90200954058,
+							["x"] = 577.53916141163,
+							["g"] = 19,
 							["sublevel"] = 1,
-							["g"] = 10,
-							["x"] = 499.04391223695,
 						}, -- [8]
 						{
-							["y"] = -212.66842554759,
-							["x"] = 492.81284184647,
-							["g"] = 10,
+							["y"] = -281.46258064516,
+							["x"] = 563.64903225807,
+							["g"] = 19,
 							["sublevel"] = 1,
 						}, -- [9]
 						{
-							["y"] = -212.17147153557,
-							["x"] = 502.06672987207,
-							["g"] = 10,
+							["y"] = -283.20148577361,
+							["x"] = 573.95351103529,
+							["g"] = 19,
 							["sublevel"] = 1,
 						}, -- [10]
 						{
+							["y"] = -291.6435483871,
+							["x"] = 565.46752688172,
+							["g"] = 19,
 							["sublevel"] = 1,
-							["x"] = 492.29038745918,
-							["patrol"] = {
-								{
-									["y"] = -218.84702666366,
-									["x"] = 492.29038745918,
-								}, -- [1]
-								{
-									["y"] = -228.06097137794,
-									["x"] = 481.26595505651,
-								}, -- [2]
-								{
-									["y"] = -243.12927234789,
-									["x"] = 469.77321378208,
-								}, -- [3]
-								{
-									["y"] = -268.15792168815,
-									["x"] = 456.49269814007,
-								}, -- [4]
-								{
-									["y"] = -270.96727123119,
-									["x"] = 485.60767558297,
-								}, -- [5]
-								{
-									["y"] = -272.75502915826,
-									["x"] = 507.06081454925,
-								}, -- [6]
-								{
-									["y"] = -275.05357741315,
-									["x"] = 526.7261681876,
-								}, -- [7]
-								{
-									["y"] = -249.00332549658,
-									["x"] = 537.96356635975,
-								}, -- [8]
-								{
-									["y"] = -222.69770307689,
-									["x"] = 542.81603885282,
-								}, -- [9]
-								{
-									["y"] = -207.11863917999,
-									["x"] = 545.88076985934,
-								}, -- [10]
-								{
-									["y"] = -172.1295866677,
-									["x"] = 550.47788828979,
-								}, -- [11]
-								{
-									["y"] = -185.41010230972,
-									["x"] = 526.7261681876,
-								}, -- [12]
-								{
-									["y"] = -201.4999620146,
-									["x"] = 508.08238424453,
-								}, -- [13]
-							},
-							["g"] = 10,
-							["y"] = -218.84702666366,
 						}, -- [11]
-						{
-							["y"] = -205.93932806671,
-							["x"] = 496.21746123639,
-							["g"] = 10,
-							["sublevel"] = 1,
-						}, -- [12]
-						{
-							["y"] = -235.75250873611,
-							["x"] = 445.16897739889,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [13]
-						{
-							["y"] = -230.64388483857,
-							["x"] = 449.03872899225,
-							["g"] = 11,
-							["sublevel"] = 1,
-						}, -- [14]
-						{
-							["y"] = -451.85134508349,
-							["x"] = 437.3775162589,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [15]
-						{
-							["y"] = -460.66432611916,
-							["x"] = 441.33610776331,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [16]
-						{
-							["y"] = -453.75256275402,
-							["x"] = 445.38780842536,
-							["g"] = 15,
-							["sublevel"] = 1,
-						}, -- [17]
 					},
-					["id"] = 165138,
+					["id"] = 162041,
 					["spells"] = {
-						[288865] = {
+						[334470] = {
 						},
 						[317898] = {
 						},
-						[321821] = {
-						},
-						[335164] = {
-						},
-						[132951] = {
-						},
-						[338022] = {
-						},
-						[201657] = {
+						[321020] = {
 						},
 						[224729] = {
 						},
-						[320297] = {
+						[121308] = {
+						},
+						[132951] = {
+						},
+						[186439] = {
+						},
+						[316068] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Repentance"] = true,
-					},
-					["health"] = 32040,
-					["name"] = "Blight Bag",
-					["displayId"] = 94761,
-					["creatureType"] = "Undead",
+					["name"] = "Grubby Dirtcruncher",
+					["count"] = 2,
+					["health"] = 48060,
+					["displayId"] = 93815,
+					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 1,
-					["scale"] = 0.7,
-				}, -- [2]
-				{
-					["clones"] = {
-						{
-							["y"] = -169.0870825603,
-							["x"] = 625.33044286157,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -205.29184313564,
-							["x"] = 590.72328038327,
-							["g"] = 3,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -231.97162700879,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 7,
-							["x"] = 528.20950260339,
-						}, -- [3]
-						{
-							["y"] = -288.81692623792,
-							["x"] = 527.25649379052,
-							["g"] = 9,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -152.83270464034,
-							["x"] = 537.80754924368,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -153.09341803332,
-							["x"] = 528.0121962859,
-							["g"] = 5,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -256.56424975547,
-							["x"] = 421.41533899291,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -261.78750238567,
-							["x"] = 431.01973551683,
-							["g"] = 12,
-							["sublevel"] = 1,
-						}, -- [8]
-					},
-					["id"] = 166302,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[334747] = {
-						},
-						[334748] = {
-						},
-						[240443] = {
-						},
-						[326868] = {
-						},
-						[334749] = {
-						},
-						[334882] = {
-						},
-						[320297] = {
-						},
-						[224729] = {
-						},
-						[132951] = {
-						},
-					},
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Imprison"] = true,
-						["Polymorph"] = true,
+						["Fear"] = true,
 						["Disorient"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
 						["Sap"] = true,
 						["Silence"] = true,
 						["Stun"] = true,
 						["Slow"] = true,
+						["Imprison"] = true,
+						["Repentance"] = true,
+					},
+					["scale"] = 1,
+				}, -- [1]
+				{
+					["clones"] = {
+						{
+							["y"] = -278.45203214677,
+							["x"] = 163.55073121641,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -270.50093549433,
+							["x"] = 167.82931163076,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -233.52516110582,
+							["x"] = 217.14251552474,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -241.46675227286,
+							["x"] = 220.69356977894,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -75.945483870968,
+							["x"] = 373.15268817204,
+							["g"] = 6,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -73.938671768612,
+							["x"] = 359.77432342513,
+							["g"] = 6,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -87.755238005483,
+							["x"] = 439.78955524304,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -90.796388787749,
+							["x"] = 418.49731333583,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -102.55767095464,
+							["x"] = 418.46863703661,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -98.864004168398,
+							["x"] = 442.26493974282,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["y"] = -85.185115831167,
+							["x"] = 426.81989202185,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [11]
+					},
+					["id"] = 162046,
+					["spells"] = {
+						[320862] = {
+						},
+						[320843] = {
+						},
+						[317898] = {
+						},
+						[320861] = {
+						},
+						[330528] = {
+						},
+						[132951] = {
+						},
+						[224729] = {
+						},
+						[288865] = {
+						},
+					},
+					["name"] = "Famished Tick",
+					["count"] = 1,
+					["health"] = 48060,
+					["displayId"] = 94227,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
 						["Mind Control"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
 						["Fear"] = true,
 					},
-					["health"] = 112140,
-					["name"] = "Corpse Harvester",
-					["displayId"] = 98170,
+					["scale"] = 1,
+				}, -- [2]
+				{
+					["clones"] = {
+						{
+							["y"] = -270.37697900853,
+							["x"] = 159.61223632011,
+							["g"] = 1,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -248.94970958704,
+							["inspiring"] = true,
+							["x"] = 211.27387115224,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -242.68380602361,
+							["x"] = 205.58333342148,
+							["g"] = 2,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -279.7160254597,
+							["x"] = 680.82172833876,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -121.79699760455,
+							["x"] = 273.1435426718,
+							["g"] = 40,
+							["sublevel"] = 2,
+						}, -- [5]
+						{
+							["y"] = -134.97892320956,
+							["x"] = 278.38377716935,
+							["g"] = 40,
+							["sublevel"] = 2,
+						}, -- [6]
+					},
+					["id"] = 166396,
+					["spells"] = {
+						[288865] = {
+						},
+						[324609] = {
+						},
+						[317898] = {
+						},
+						[321020] = {
+						},
+						[121308] = {
+						},
+						[240443] = {
+						},
+						[224729] = {
+						},
+						[132951] = {
+						},
+					},
+					["name"] = "Noble Skirmisher",
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 94441,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+					},
 					["scale"] = 1,
 				}, -- [3]
 				{
 					["clones"] = {
 						{
-							["y"] = -198.97742264054,
-							["x"] = 582.76627145072,
-							["g"] = 3,
+							["y"] = -102.81225806452,
+							["x"] = 276.44731182796,
+							["g"] = 4,
 							["sublevel"] = 1,
 						}, -- [1]
 						{
-							["y"] = -223.86546602872,
-							["x"] = 522.22629180923,
-							["g"] = 7,
+							["y"] = -157.88258064516,
+							["x"] = 287.58709677419,
+							["g"] = 4,
 							["sublevel"] = 1,
 						}, -- [2]
 						{
-							["y"] = -238.40785446451,
-							["x"] = 518.52418985757,
-							["g"] = 7,
+							["y"] = -129.35677419355,
+							["x"] = 276.95311827957,
+							["g"] = 4,
 							["sublevel"] = 1,
 						}, -- [3]
 						{
-							["y"] = -162.19144306596,
-							["x"] = 539.75227117869,
+							["y"] = -90.566451612903,
+							["x"] = 364.25290322581,
 							["g"] = 5,
 							["sublevel"] = 1,
 						}, -- [4]
+						{
+							["y"] = -102.30539265347,
+							["inspiring"] = true,
+							["x"] = 374.27228313295,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -101.70141748276,
+							["x"] = 361.81981001467,
+							["g"] = 5,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -106.52184713703,
+							["inspiring"] = true,
+							["x"] = 436.76212108869,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -101.02272804199,
+							["x"] = 425.88413948227,
+							["g"] = 7,
+							["sublevel"] = 1,
+						}, -- [8]
 					},
-					["id"] = 163121,
+					["id"] = 165076,
 					["spells"] = {
-						[288865] = {
+						[334653] = {
 						},
-						[35079] = {
-						},
-						[320703] = {
-						},
-						[334882] = {
-						},
-						[320696] = {
-						},
-						[319290] = {
-						},
-						[186439] = {
+						[321401] = {
 						},
 						[132951] = {
 						},
 						[240443] = {
 						},
-						[317898] = {
-						},
-						[201657] = {
-						},
 						[224729] = {
 						},
-						[132466] = {
+						[321402] = {
 						},
-						[320297] = {
+						[320843] = {
 						},
-						[344991] = {
+						[317898] = {
 						},
-						[323190] = {
+						[326868] = {
 						},
 					},
+					["name"] = "Gluttonous Tick",
+					["count"] = 4,
+					["health"] = 72090,
+					["displayId"] = 94226,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
 						["Root"] = true,
-						["Control Undead"] = true,
+						["Banish"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
+						["Mind Control"] = true,
 						["Silence"] = true,
 						["Slow"] = true,
 						["Stun"] = true,
-						["Repentance"] = true,
+						["Fear"] = true,
 					},
-					["health"] = 112140,
-					["name"] = "Stitched Vanguard",
-					["displayId"] = 95227,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 5,
 					["scale"] = 1,
 				}, -- [4]
 				{
 					["clones"] = {
 						{
-							["y"] = -251.20442949907,
-							["x"] = 559.61845772685,
+							["y"] = -241.83856927773,
+							["x"] = 213.589871274,
+							["g"] = 2,
 							["sublevel"] = 1,
 						}, -- [1]
 						{
-							["y"] = -196.67875988637,
-							["x"] = 552.824366159,
+							["y"] = -209.49161290323,
+							["x"] = 262.14021505376,
+							["g"] = 3,
 							["sublevel"] = 1,
 						}, -- [2]
 						{
-							["y"] = -271.3991187384,
-							["x"] = 478.61009600495,
+							["y"] = -197.36516129032,
+							["inspiring"] = true,
+							["x"] = 254.99870967742,
+							["g"] = 3,
 							["sublevel"] = 1,
 						}, -- [3]
+						{
+							["y"] = -283.52959039497,
+							["x"] = 564.65227044691,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [4]
+						{
+							["sublevel"] = 2,
+							["x"] = 571.2903192274,
+							["y"] = -288.611612428,
+							["g"] = 33,
+							["inspiring"] = true,
+						}, -- [5]
+						{
+							["y"] = -140.23714625196,
+							["x"] = 155.83053101297,
+							["g"] = 41,
+							["sublevel"] = 2,
+						}, -- [6]
+						{
+							["sublevel"] = 2,
+							["x"] = 168.91512195122,
+							["y"] = -134.40475609756,
+							["g"] = 41,
+							["inspiring"] = true,
+						}, -- [7]
 					},
-					["id"] = 165137,
+					["id"] = 171448,
 					["spells"] = {
-						[323347] = {
-						},
-						[322756] = {
-						},
-						[320462] = {
-						},
 						[288865] = {
+						},
+						[50707] = {
+						},
+						[334563] = {
+						},
+						[334567] = {
+						},
+						[121308] = {
 						},
 						[132951] = {
 						},
-						[322757] = {
+						[240443] = {
+						},
+						[321020] = {
+						},
+						[224729] = {
+						},
+						[334558] = {
+						},
+						[317898] = {
 						},
 						[326868] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 144180,
-					["name"] = "Zolramus Gatekeeper",
-					["displayId"] = 95231,
+					["name"] = "Dreadful Huntmaster",
+					["count"] = 4,
+					["health"] = 72090,
+					["displayId"] = 93035,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 6,
-					["scale"] = 1.3,
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
+					},
+					["scale"] = 1,
 				}, -- [5]
 				{
 					["clones"] = {
 						{
-							["y"] = -282.46182102424,
-							["x"] = 535.55348561245,
-							["g"] = 9,
+							["y"] = -204.97831990158,
+							["x"] = 255.42799146215,
+							["g"] = 3,
 							["sublevel"] = 1,
 						}, -- [1]
 						{
-							["y"] = -393.52460810338,
-							["x"] = 558.7518186685,
-							["g"] = 27,
-							["sublevel"] = 2,
+							["y"] = -255.40195278292,
+							["x"] = 662.04078493163,
+							["g"] = 14,
+							["sublevel"] = 1,
 						}, -- [2]
 						{
-							["y"] = -243.8569580374,
-							["x"] = 344.50042639228,
-							["g"] = 31,
+							["y"] = -254.72782568951,
+							["x"] = 653.58140443079,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -281.3979077383,
+							["x"] = 672.17311861742,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -286.38,
+							["x"] = 682.91096774194,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -252.26780487805,
+							["x"] = 587.26243902439,
+							["g"] = 34,
 							["sublevel"] = 2,
+						}, -- [6]
+					},
+					["id"] = 162038,
+					["spells"] = {
+						[326868] = {
+						},
+						[240443] = {
+						},
+						[321020] = {
+						},
+						[132951] = {
+						},
+						[121308] = {
+						},
+						[320991] = {
+						},
+						[321019] = {
+						},
+						[288865] = {
+						},
+					},
+					["name"] = "Regal Mistdancer",
+					["count"] = 7,
+					["health"] = 128160,
+					["displayId"] = 96681,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1,
+				}, -- [6]
+				{
+					["clones"] = {
+						{
+							["y"] = -190.30204318703,
+							["x"] = 301.56399890048,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -107.88483870968,
+							["x"] = 290.24860215054,
+							["g"] = 4,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -93.336241996268,
+							["x"] = 431.63540080717,
+							["g"] = 7,
+							["sublevel"] = 1,
 						}, -- [3]
 					},
-					["id"] = 165872,
+					["id"] = 162047,
 					["spells"] = {
-						[327130] = {
+						[326868] = {
 						},
-						[323489] = {
+						[334918] = {
+						},
+						[334921] = {
+						},
+						[321178] = {
+						},
+						[240443] = {
+						},
+						[132951] = {
+						},
+						[334246] = {
+						},
+					},
+					["name"] = "Insatiable Brute",
+					["count"] = 7,
+					["health"] = 120150,
+					["displayId"] = 93853,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1.5,
+				}, -- [7]
+				{
+					["clones"] = {
+						{
+							["y"] = -97.453225806452,
+							["x"] = 474.41032258065,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["name"] = "Kryxis the Voracious",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["spells"] = {
+						[288865] = {
+						},
+						[319713] = {
+						},
+						[319657] = {
+						},
+						[338471] = {
+						},
+						[319650] = {
+						},
+						[319654] = {
+						},
+						[132951] = {
+						},
+						[319715] = {
+						},
+						[319655] = {
+						},
+						[330468] = {
+						},
+						[319685] = {
+						},
+						[319687] = {
+						},
+						[326868] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2388,
+					["instanceID"] = 1189,
+					["count"] = 0,
+					["health"] = 560700,
+					["displayId"] = 98966,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
+					["scale"] = 1,
+					["id"] = 162100,
+				}, -- [8]
+				{
+					["clones"] = {
+						{
+							["y"] = -102.82267354454,
+							["x"] = 519.61184100506,
+							["g"] = 8,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -111.72407414921,
+							["x"] = 518.50065559975,
+							["g"] = 8,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -155.13741935484,
+							["inspiring"] = true,
+							["x"] = 517.6447311828,
+							["g"] = 10,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -194.14258064516,
+							["x"] = 559.5423655914,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -186.38451612903,
+							["x"] = 562.17978494624,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -225.42548387097,
+							["x"] = 601.98193548387,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -217.75096774194,
+							["x"] = 606.8111827957,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -203.67169577664,
+							["x"] = 620.58122316094,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -202.32677353943,
+							["x"] = 631.31487405791,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -260.51580645161,
+							["x"] = 579.13266041371,
+							["g"] = 18,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["sublevel"] = 1,
+							["x"] = 590.97143012239,
+							["y"] = -267.15112064169,
+							["g"] = 18,
+							["inspiring"] = true,
+						}, -- [11]
+						{
+							["y"] = -366.9362195122,
+							["x"] = 439.02634146342,
+							["g"] = 31,
+							["sublevel"] = 2,
+						}, -- [12]
+						{
+							["sublevel"] = 2,
+							["x"] = 497.60569365397,
+							["patrol"] = {
+								{
+									["y"] = -370.3548348701,
+									["x"] = 497.60569365397,
+								}, -- [1]
+								{
+									["y"] = -378.23589328256,
+									["x"] = 505.94250666051,
+								}, -- [2]
+								{
+									["y"] = -390.30966794195,
+									["x"] = 512.27627282135,
+								}, -- [3]
+								{
+									["y"] = -398.42481751514,
+									["x"] = 515.04728914602,
+								}, -- [4]
+								{
+									["y"] = -390.30966794195,
+									["x"] = 512.27627282135,
+								}, -- [5]
+								{
+									["y"] = -378.23589328256,
+									["x"] = 505.94250666051,
+								}, -- [6]
+								{
+									["y"] = -370.3548348701,
+									["x"] = 497.60569365397,
+								}, -- [7]
+								{
+									["y"] = -359.82832697954,
+									["x"] = 483.97217353278,
+								}, -- [8]
+								{
+									["y"] = -357.25524403274,
+									["x"] = 469.72115719956,
+								}, -- [9]
+								{
+									["y"] = -357.05729366634,
+									["x"] = 454.48050795402,
+								}, -- [10]
+								{
+									["y"] = -357.25524403274,
+									["x"] = 469.72115719956,
+								}, -- [11]
+								{
+									["y"] = -359.82832697954,
+									["x"] = 483.97217353278,
+								}, -- [12]
+							},
+							["y"] = -370.3548348701,
+							["inspiring"] = true,
+						}, -- [13]
+						{
+							["y"] = -412.71695121951,
+							["x"] = 508.35707317073,
+							["g"] = 32,
+							["sublevel"] = 2,
+						}, -- [14]
+						{
+							["y"] = -405.1906097561,
+							["x"] = 507.27804878049,
+							["g"] = 32,
+							["sublevel"] = 2,
+						}, -- [15]
+						{
+							["y"] = -274.95507368841,
+							["x"] = 565.48837894734,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [16]
+						{
+							["y"] = -283.65520494254,
+							["x"] = 579.26156636827,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [17]
+					},
+					["id"] = 162039,
+					["spells"] = {
+						[288865] = {
 						},
 						[317898] = {
 						},
 						[334882] = {
 						},
-						[323471] = {
+						[121308] = {
 						},
-						[132951] = {
+						[321038] = {
 						},
 						[240443] = {
+						},
+						[326836] = {
+						},
+						[321020] = {
 						},
 						[224729] = {
 						},
 						[132466] = {
 						},
-						[320297] = {
-						},
-						[323496] = {
-						},
-						[288865] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Disorient"] = true,
-						["Polymorph"] = true,
-						["Mind Control"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Imprison"] = true,
-						["Fear"] = true,
-					},
-					["health"] = 112140,
-					["name"] = "Flesh Crafter",
-					["displayId"] = 96480,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1.4,
-				}, -- [6]
-				{
-					["clones"] = {
-						{
-							["y"] = -191.93196037298,
-							["x"] = 474.12550258036,
-							["sublevel"] = 1,
-						}, -- [1]
-					},
-					["id"] = 162691,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["spells"] = {
-						[326868] = {
-						},
-						[320637] = {
-						},
-						[288865] = {
-						},
-						[320655] = {
-						},
 						[132951] = {
-						},
-						[320596] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2395,
-					["instanceID"] = 1182,
-					["name"] = "Blightbone",
-					["health"] = 560700,
-					["displayId"] = 95467,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1,
-				}, -- [7]
-				{
-					["clones"] = {
-						{
-							["y"] = -422.52237915355,
-							["x"] = 512.4238930362,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["sublevel"] = 1,
-							["x"] = 371.75572151009,
-							["patrol"] = {
-								{
-									["y"] = -447.04294061339,
-									["x"] = 371.75572151009,
-								}, -- [1]
-								{
-									["y"] = -435.54724983132,
-									["x"] = 389.29203003494,
-								}, -- [2]
-								{
-									["y"] = -424.05448663621,
-									["x"] = 413.04372821644,
-								}, -- [3]
-								{
-									["y"] = -445.50763656283,
-									["x"] = 417.13005083892,
-								}, -- [4]
-								{
-									["y"] = -464.91762517822,
-									["x"] = 416.36385712695,
-								}, -- [5]
-								{
-									["y"] = -484.07221040944,
-									["x"] = 411.00056690521,
-								}, -- [6]
-								{
-									["y"] = -473.85642029377,
-									["x"] = 389.54744985961,
-								}, -- [7]
-								{
-									["y"] = -460.06510884377,
-									["x"] = 372.4360314198,
-								}, -- [8]
-							},
-							["g"] = 16,
-							["y"] = -447.04294061339,
-						}, -- [2]
-						{
-							["y"] = -401.07502319109,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 17,
-							["x"] = 372.19882316507,
-						}, -- [3]
-						{
-							["y"] = -419.22321428571,
-							["x"] = 378.57231340972,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -232.03718381974,
-							["x"] = 323.22179736442,
-							["g"] = 21,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -260.00834952995,
-							["x"] = 344.36337460144,
-							["g"] = 20,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -160.55690826205,
-							["x"] = 250.63511156517,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [7]
-					},
-					["id"] = 163128,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[325748] = {
-						},
-						[344991] = {
-						},
-						[320297] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[345931] = {
 						},
 						[326868] = {
 						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[320462] = {
-						},
-						[320571] = {
-						},
-						[320573] = {
-						},
 					},
+					["name"] = "Wicked Oppressor",
+					["count"] = 4,
+					["health"] = 67284,
+					["displayId"] = 94573,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Sap"] = true,
-						["Stun"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
+						["Imprison"] = true,
 						["Fear"] = true,
-						["Imprison"] = true,
-					},
-					["health"] = 72090,
-					["name"] = "Zolramus Sorcerer",
-					["displayId"] = 94992,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1,
-				}, -- [8]
-				{
-					["clones"] = {
-						{
-							["y"] = -410.57386363636,
-							["x"] = 511.91638786622,
-							["g"] = 13,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -410.86989795918,
-							["x"] = 387.30009290802,
-							["g"] = 17,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -219.61982716442,
-							["x"] = 322.98923904285,
-							["g"] = 21,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -249.64703153989,
-							["x"] = 335.28460823784,
-							["g"] = 20,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -167.59403988868,
-							["x"] = 290.90430473831,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -161.30009276438,
-							["x"] = 285.55837720657,
-							["g"] = 23,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -178.69230114914,
-							["x"] = 235.7955778904,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [7]
-					},
-					["id"] = 163619,
-					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[201657] = {
-						},
-						[224729] = {
-						},
-						[132466] = {
-						},
-						[320297] = {
-						},
-						[321807] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Root"] = true,
-						["Repentance"] = true,
-						["Imprison"] = true,
 						["Polymorph"] = true,
-						["Disorient"] = true,
+						["Mind Control"] = true,
 						["Sap"] = true,
 						["Silence"] = true,
 						["Stun"] = true,
 						["Slow"] = true,
-						["Mind Control"] = true,
-						["Fear"] = true,
+						["Disorient"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 80100,
-					["name"] = "Zolramus Bonecarver",
-					["displayId"] = 93933,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
 					["scale"] = 1,
 				}, -- [9]
 				{
 					["clones"] = {
 						{
-							["y"] = -431.54081632653,
+							["y"] = -123.32215191524,
 							["inspiring"] = true,
+							["x"] = 576.20067658913,
+							["g"] = 9,
 							["sublevel"] = 1,
-							["g"] = 14,
-							["x"] = 473.55032517807,
 						}, -- [1]
 						{
-							["y"] = -315.56699466368,
-							["inspiring"] = true,
+							["y"] = -117.85587992448,
+							["x"] = 568.89916477811,
+							["g"] = 9,
 							["sublevel"] = 1,
-							["g"] = 19,
-							["x"] = 208.11726399436,
 						}, -- [2]
 						{
-							["y"] = -116.97895008442,
-							["x"] = 219.23380883062,
-							["g"] = 25,
+							["y"] = -110.37038850841,
+							["x"] = 571.7805243739,
+							["g"] = 9,
 							["sublevel"] = 1,
 						}, -- [3]
+						{
+							["y"] = -115.07587840232,
+							["x"] = 579.88764142031,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -130.34089088451,
+							["x"] = 568.51950409176,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -131.89152515665,
+							["x"] = 577.87297538243,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -129.4516879713,
+							["x"] = 586.28873783735,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -119.7717115465,
+							["x"] = 589.00735271757,
+							["g"] = 9,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -136.50033740956,
+							["x"] = 617.88181184219,
+							["g"] = 35,
+							["sublevel"] = 2,
+						}, -- [9]
+						{
+							["y"] = -144.33584731362,
+							["x"] = 616.41762348309,
+							["g"] = 35,
+							["sublevel"] = 2,
+						}, -- [10]
+						{
+							["y"] = -96.77672352668,
+							["x"] = 507.55104724588,
+							["g"] = 37,
+							["sublevel"] = 2,
+						}, -- [11]
+						{
+							["y"] = -103.7657827948,
+							["x"] = 506.16254075555,
+							["g"] = 37,
+							["sublevel"] = 2,
+						}, -- [12]
+						{
+							["y"] = -109.17356391243,
+							["x"] = 347.54600763927,
+							["g"] = 39,
+							["sublevel"] = 2,
+						}, -- [13]
+						{
+							["y"] = -100.74650841568,
+							["x"] = 344.5684179526,
+							["g"] = 39,
+							["sublevel"] = 2,
+						}, -- [14]
 					},
-					["id"] = 163618,
+					["id"] = 162056,
 					["spells"] = {
-						[201657] = {
-						},
-						[326868] = {
-						},
-						[224729] = {
-						},
-						[327396] = {
-						},
-						[240443] = {
-						},
-						[324026] = {
-						},
-						[323957] = {
-						},
-						[320462] = {
-						},
-						[321780] = {
-						},
-						[317898] = {
-						},
-						[327393] = {
-						},
-						[324027] = {
-						},
-						[321575] = {
-						},
-						[327397] = {
-						},
-						[320297] = {
-						},
 						[288865] = {
+						},
+						[316244] = {
+						},
+						[321020] = {
 						},
 						[132951] = {
 						},
+						[321264] = {
+						},
+						[224729] = {
+						},
+						[317898] = {
+						},
 					},
+					["name"] = "Rockbound Sprite",
+					["count"] = 1,
+					["health"] = 24030,
+					["displayId"] = 94498,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Mind Control"] = true,
+						["Fear"] = true,
 						["Polymorph"] = true,
-						["Disorient"] = true,
+						["Mind Control"] = true,
 						["Sap"] = true,
 						["Silence"] = true,
 						["Stun"] = true,
 						["Slow"] = true,
+						["Disorient"] = true,
 						["Imprison"] = true,
-						["Fear"] = true,
 					},
-					["health"] = 112140,
-					["name"] = "Zolramus Necromancer",
-					["displayId"] = 95233,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 8,
 					["scale"] = 1,
 				}, -- [10]
 				{
 					["clones"] = {
 						{
-							["y"] = -425.54362414449,
-							["x"] = 464.50724570395,
-							["g"] = 14,
+							["y"] = -143.59580645161,
+							["x"] = 516.45247311828,
+							["g"] = 10,
 							["sublevel"] = 1,
 						}, -- [1]
 						{
-							["y"] = -304.53244640151,
-							["x"] = 207.84858915843,
-							["g"] = 19,
+							["y"] = -145.83967741935,
+							["x"] = 524.96688172043,
+							["g"] = 10,
 							["sublevel"] = 1,
 						}, -- [2]
 						{
-							["y"] = -110.02334659884,
-							["inspiring"] = true,
-							["sublevel"] = 1,
-							["g"] = 25,
-							["x"] = 226.85021723566,
-						}, -- [3]
-						{
-							["y"] = -117.71565288417,
-							["x"] = 209.43075603715,
-							["g"] = 25,
-							["sublevel"] = 1,
-						}, -- [4]
-					},
-					["id"] = 163126,
-					["spells"] = {
-						[288865] = {
-						},
-						[328664] = {
-						},
-						[326868] = {
-						},
-						[320336] = {
-						},
-						[317898] = {
-						},
-						[132951] = {
-						},
-						[344991] = {
-						},
-						[333602] = {
-						},
-						[201657] = {
-						},
-						[224729] = {
-						},
-						[328667] = {
-						},
-						[320297] = {
-						},
-						[321576] = {
-						},
-						[322493] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Repentance"] = true,
-					},
-					["health"] = 36045,
-					["name"] = "Brittlebone Mage",
-					["displayId"] = 96112,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 0.7,
-				}, -- [11]
-				{
-					["clones"] = {
-						{
-							["y"] = -430.36955009276,
-							["x"] = 481.92691235677,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -421.05364831842,
-							["x"] = 472.35841442181,
-							["g"] = 14,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -320.26256426546,
-							["x"] = 220.53435785599,
-							["g"] = 19,
+							["y"] = -148.89516129032,
+							["x"] = 514.89892473118,
+							["g"] = 10,
 							["sublevel"] = 1,
 						}, -- [3]
 						{
-							["y"] = -312.78875118092,
-							["x"] = 218.83792198129,
-							["g"] = 19,
+							["y"] = -152.14161290323,
+							["x"] = 525.08731182796,
+							["g"] = 10,
 							["sublevel"] = 1,
 						}, -- [4]
 						{
-							["y"] = -306.80381678265,
-							["x"] = 215.29869223532,
-							["g"] = 19,
+							["y"] = -197.52612979962,
+							["x"] = 624.15609791072,
+							["g"] = 13,
 							["sublevel"] = 1,
 						}, -- [5]
 						{
-							["y"] = -111.76993397185,
-							["x"] = 209.73216749461,
-							["g"] = 25,
+							["y"] = -190.8177787659,
+							["x"] = 619.83245121748,
+							["g"] = 13,
 							["sublevel"] = 1,
 						}, -- [6]
 						{
-							["y"] = -116.92727631302,
-							["x"] = 228.809996812,
-							["g"] = 25,
+							["y"] = -191.12577594643,
+							["x"] = 628.1309783464,
+							["g"] = 13,
 							["sublevel"] = 1,
 						}, -- [7]
+						{
+							["y"] = -194.94740732889,
+							["x"] = 636.16393766402,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [8]
+						{
+							["y"] = -195.61485215711,
+							["x"] = 613.82667373631,
+							["g"] = 13,
+							["sublevel"] = 1,
+						}, -- [9]
+						{
+							["y"] = -269.43752521497,
+							["x"] = 702.49588405854,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["y"] = -283.16239770883,
+							["x"] = 715.26614558015,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [11]
+						{
+							["y"] = -278.3076213744,
+							["x"] = 719.69686683929,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [12]
+						{
+							["y"] = -271.17418154043,
+							["x"] = 716.28155847883,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [13]
+						{
+							["y"] = -268.09279183469,
+							["x"] = 710.74266538225,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [14]
+						{
+							["y"] = -129.85130687721,
+							["x"] = 615.16183029384,
+							["g"] = 35,
+							["sublevel"] = 2,
+						}, -- [15]
+						{
+							["y"] = -141.57136656568,
+							["x"] = 610.16677187612,
+							["g"] = 35,
+							["sublevel"] = 2,
+						}, -- [16]
+						{
+							["y"] = -134.04870131521,
+							["x"] = 609.14938357943,
+							["g"] = 35,
+							["sublevel"] = 2,
+						}, -- [17]
+						{
+							["y"] = -94.90079623643,
+							["x"] = 444.48506831766,
+							["g"] = 38,
+							["sublevel"] = 2,
+						}, -- [18]
+						{
+							["y"] = -88.366829268293,
+							["x"] = 448.64195121951,
+							["g"] = 38,
+							["sublevel"] = 2,
+						}, -- [19]
+						{
+							["y"] = -98.963294617396,
+							["x"] = 455.27102122241,
+							["g"] = 38,
+							["sublevel"] = 2,
+						}, -- [20]
+						{
+							["y"] = -90.77524251845,
+							["x"] = 455.53498633647,
+							["g"] = 38,
+							["sublevel"] = 2,
+						}, -- [21]
+						{
+							["y"] = -100.68293324428,
+							["x"] = 448.10939348197,
+							["g"] = 38,
+							["sublevel"] = 2,
+						}, -- [22]
+						{
+							["y"] = -112.20215274737,
+							["x"] = 338.6406756692,
+							["g"] = 39,
+							["sublevel"] = 2,
+						}, -- [23]
+						{
+							["y"] = -103.09404585278,
+							["x"] = 335.87249506251,
+							["g"] = 39,
+							["sublevel"] = 2,
+						}, -- [24]
 					},
-					["id"] = 163122,
+					["id"] = 167956,
 					["spells"] = {
-						[321576] = {
-						},
-						[320297] = {
+						[326868] = {
 						},
 						[317898] = {
 						},
-						[201657] = {
-						},
-						[132951] = {
+						[321020] = {
 						},
 						[224729] = {
 						},
-						[288865] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Repentance"] = true,
-					},
-					["health"] = 80100,
-					["name"] = "Brittlebone Warrior",
-					["displayId"] = 96107,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 0.7,
-				}, -- [12]
-				{
-					["clones"] = {
-						{
-							["y"] = -445.32431056607,
-							["x"] = 362.28095389471,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -314.6017442549,
-							["x"] = 275.17751039323,
-							["g"] = 18,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -304.97159288637,
-							["x"] = 284.73381683861,
-							["g"] = 18,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -226.12420885162,
-							["x"] = 311.33505893631,
-							["g"] = 21,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -173.2824324214,
-							["x"] = 247.14214466835,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [5]
-					},
-					["id"] = 165919,
-					["spells"] = {
-						[288865] = {
-						},
-						[324323] = {
-						},
-						[132466] = {
-						},
-						[324293] = {
+						[121308] = {
 						},
 						[132951] = {
 						},
-						[343470] = {
+						[326712] = {
 						},
-						[240443] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 160200,
-					["name"] = "Skeletal Marauder",
-					["displayId"] = 96115,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 6,
-					["scale"] = 1.3,
-				}, -- [13]
-				{
-					["clones"] = {
-						{
-							["y"] = -454.67116201069,
-							["x"] = 366.73633416573,
-							["g"] = 16,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -164.28608333693,
-							["x"] = 238.36587661194,
-							["g"] = 24,
-							["sublevel"] = 1,
-						}, -- [2]
-					},
-					["id"] = 165222,
-					["spells"] = {
 						[288865] = {
 						},
-						[317898] = {
-						},
-						[132951] = {
-						},
-						[240443] = {
-						},
-						[224729] = {
-						},
-						[335143] = {
-						},
-						[320822] = {
-						},
-						[132466] = {
-						},
-						[320297] = {
-						},
 					},
+					["name"] = "Dark Acolyte",
+					["count"] = 1,
+					["health"] = 28035,
+					["displayId"] = 93650,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
+						["Imprison"] = true,
 						["Mind Control"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Fear"] = true,
+						["Repentance"] = true,
+					},
+					["scale"] = 1,
+				}, -- [11]
+				{
+					["clones"] = {
+						{
+							["y"] = -182.69551470959,
+							["x"] = 511.88850712579,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -244.72698778808,
+							["x"] = 635.39202518564,
+							["patrol"] = {
+								{
+									["y"] = -244.72698778808,
+									["x"] = 635.39202518564,
+								}, -- [1]
+								{
+									["y"] = -235.8457072374,
+									["x"] = 619.22580631356,
+								}, -- [2]
+								{
+									["y"] = -224.36574189016,
+									["x"] = 608.3396070875,
+								}, -- [3]
+								{
+									["y"] = -235.8457072374,
+									["x"] = 619.22580631356,
+								}, -- [4]
+								{
+									["y"] = -244.72698778808,
+									["x"] = 635.39202518564,
+								}, -- [5]
+								{
+									["y"] = -250.8884561855,
+									["x"] = 645.35266237101,
+								}, -- [6]
+								{
+									["y"] = -265.93119663935,
+									["x"] = 660.39539433059,
+								}, -- [7]
+								{
+									["y"] = -284.9325449549,
+									["x"] = 677.41744296242,
+								}, -- [8]
+								{
+									["y"] = -298.58976883473,
+									["x"] = 688.69947494358,
+								}, -- [9]
+								{
+									["y"] = -284.9325449549,
+									["x"] = 677.41744296242,
+								}, -- [10]
+								{
+									["y"] = -265.93119663935,
+									["x"] = 660.39539433059,
+								}, -- [11]
+								{
+									["y"] = -250.8884561855,
+									["x"] = 645.35266237101,
+								}, -- [12]
+							},
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -469.93737006668,
+							["x"] = 523.94297578411,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -372.88533261401,
+							["x"] = 399.31380696806,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -258.86012195122,
+							["x"] = 593.55902439024,
+							["g"] = 34,
+							["sublevel"] = 2,
+						}, -- [5]
+						{
+							["y"] = -130.99565683313,
+							["x"] = 269.01386199891,
+							["g"] = 40,
+							["sublevel"] = 2,
+						}, -- [6]
+					},
+					["id"] = 162057,
+					["spells"] = {
+						[288865] = {
+						},
+						[315536] = {
+						},
+						[328170] = {
+						},
+						[322429] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[321020] = {
+						},
+						[322433] = {
+						},
+						[322418] = {
+						},
+					},
+					["name"] = "Chamber Sentinel",
+					["count"] = 7,
+					["health"] = 136170,
+					["displayId"] = 94737,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1.4,
+				}, -- [12]
+				{
+					["clones"] = {
+						{
+							["y"] = -194.63193548387,
+							["x"] = 566.50322580645,
+							["g"] = 11,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -219.1653699663,
+							["x"] = 599.57182718962,
+							["g"] = 12,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -248.34569757875,
+							["x"] = 657.78861144678,
+							["g"] = 14,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -289.09235104811,
+							["x"] = 676.4418554317,
+							["g"] = 15,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -277.61437824156,
+							["x"] = 708.57974443732,
+							["g"] = 17,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -268.83248993962,
+							["x"] = 582.25608375374,
+							["g"] = 18,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -248.45048780488,
+							["x"] = 579.87317073171,
+							["g"] = 34,
+							["sublevel"] = 2,
+						}, -- [7]
+					},
+					["id"] = 162040,
+					["spells"] = {
+						[288865] = {
+						},
+						[326868] = {
+						},
+						[346537] = {
+						},
+						[326831] = {
+						},
+						[121308] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[326825] = {
+						},
+						[326827] = {
+						},
+						[326837] = {
+						},
+						[326826] = {
+						},
+						[321020] = {
+						},
+					},
+					["name"] = "Grand Overseer",
+					["count"] = 7,
+					["health"] = 112140,
+					["displayId"] = 96679,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1,
+				}, -- [13]
+				{
+					["clones"] = {
+						{
+							["y"] = -294.24451242247,
+							["x"] = 653.13241913452,
+							["sublevel"] = 1,
+						}, -- [1]
+					},
+					["id"] = 168591,
+					["spells"] = {
+						[288865] = {
+						},
+						[317898] = {
+						},
+						[321105] = {
+						},
+						[132951] = {
+						},
+						[224729] = {
+						},
+						[321020] = {
+						},
+					},
+					["name"] = "Ravenous Dreadbat",
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 92704,
+					["creatureType"] = "Beast",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Imprison"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
 						["Stun"] = true,
 						["Silence"] = true,
 						["Slow"] = true,
-						["Imprison"] = true,
+						["Disorient"] = true,
 						["Fear"] = true,
 					},
-					["health"] = 80100,
-					["name"] = "Zolramus Bonemender",
-					["displayId"] = 97668,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
 					["scale"] = 1,
 				}, -- [14]
 				{
 					["clones"] = {
 						{
-							["y"] = -413.16966503058,
-							["x"] = 364.96704633944,
-							["g"] = 17,
+							["y"] = -302.60890770987,
+							["x"] = 560.09963564731,
+							["g"] = 19,
 							["sublevel"] = 1,
 						}, -- [1]
 					},
-					["id"] = 165824,
+					["id"] = 171376,
 					["spells"] = {
-						[345625] = {
+						[334324] = {
 						},
-						[326868] = {
+						[321020] = {
 						},
-						[327397] = {
+						[334329] = {
 						},
-						[335141] = {
+						[121308] = {
 						},
 						[132951] = {
 						},
-						[335142] = {
+						[334615] = {
 						},
-						[327393] = {
-						},
-						[320462] = {
-						},
-						[327396] = {
-						},
-						[345623] = {
+						[334326] = {
 						},
 					},
+					["name"] = "Head Custodian Javlin",
+					["count"] = 10,
+					["health"] = 192240,
+					["displayId"] = 97620,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 240300,
-					["name"] = "Nar'zudah",
-					["displayId"] = 94780,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 15,
 					["scale"] = 1.5,
 				}, -- [15]
 				{
 					["clones"] = {
 						{
-							["y"] = -229.35824576779,
-							["x"] = 281.41711248243,
-							["patrol"] = {
-								{
-									["y"] = -229.35824576779,
-									["x"] = 281.41711248243,
-								}, -- [1]
-								{
-									["y"] = -243.7856346922,
-									["x"] = 282.43999290261,
-								}, -- [2]
-								{
-									["y"] = -255.66146709334,
-									["x"] = 269.4845393741,
-								}, -- [3]
-								{
-									["y"] = -271.85581489223,
-									["x"] = 254.00993384542,
-								}, -- [4]
-								{
-									["y"] = -288.76990496132,
-									["x"] = 238.53535920499,
-								}, -- [5]
-								{
-									["y"] = -299.56610079097,
-									["x"] = 227.37923818582,
-								}, -- [6]
-								{
-									["y"] = -288.76990496132,
-									["x"] = 238.53535920499,
-								}, -- [7]
-								{
-									["y"] = -271.85581489223,
-									["x"] = 254.00993384542,
-								}, -- [8]
-								{
-									["y"] = -255.66146709334,
-									["x"] = 269.4845393741,
-								}, -- [9]
-								{
-									["y"] = -243.7856346922,
-									["x"] = 282.43999290261,
-								}, -- [10]
-								{
-									["y"] = -229.35824576779,
-									["x"] = 281.41711248243,
-								}, -- [11]
-								{
-									["y"] = -202.75998551954,
-									["x"] = 275.96229702659,
-								}, -- [12]
-								{
-									["y"] = -190.52425881712,
-									["x"] = 264.80617600743,
-								}, -- [13]
-								{
-									["y"] = -180.44777436944,
-									["x"] = 253.6500858765,
-								}, -- [14]
-								{
-									["y"] = -152.73750391482,
-									["x"] = 229.17863247165,
-								}, -- [15]
-								{
-									["y"] = -134.3839293053,
-									["x"] = 208.30593675021,
-								}, -- [16]
-								{
-									["y"] = -152.73750391482,
-									["x"] = 229.17863247165,
-								}, -- [17]
-								{
-									["y"] = -180.44777436944,
-									["x"] = 253.6500858765,
-								}, -- [18]
-								{
-									["y"] = -190.52425881712,
-									["x"] = 264.80617600743,
-								}, -- [19]
-								{
-									["y"] = -202.75998551954,
-									["x"] = 275.96229702659,
-								}, -- [20]
-							},
+							["y"] = -345.1523078344,
+							["x"] = 508.62451612903,
+							["g"] = 20,
 							["sublevel"] = 1,
 						}, -- [1]
+						{
+							["y"] = -353.0416647131,
+							["x"] = 516.23002497136,
+							["g"] = 20,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["sublevel"] = 1,
+							["x"] = 546.13849462366,
+							["y"] = -370.37,
+							["g"] = 21,
+							["inspiring"] = true,
+						}, -- [3]
+						{
+							["sublevel"] = 1,
+							["x"] = 551.35088383498,
+							["patrol"] = {
+							},
+							["g"] = 22,
+							["y"] = -439.80466221155,
+						}, -- [4]
+						{
+							["sublevel"] = 1,
+							["x"] = 539.848709413,
+							["y"] = -488.82433360373,
+							["g"] = 23,
+							["inspiring"] = true,
+						}, -- [5]
+						{
+							["y"] = -493.22667726623,
+							["x"] = 486.13769845489,
+							["g"] = 24,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -452.80838709677,
+							["x"] = 356.24430107527,
+							["g"] = 26,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["sublevel"] = 1,
+							["x"] = 366.46008557463,
+							["y"] = -407.84292517806,
+							["g"] = 27,
+							["inspiring"] = true,
+						}, -- [8]
+						{
+							["sublevel"] = 1,
+							["x"] = 376.20286689116,
+							["patrol"] = {
+							},
+							["g"] = 28,
+							["y"] = -381.41787542444,
+						}, -- [9]
+						{
+							["y"] = -357.42221533285,
+							["x"] = 412.09724579678,
+							["g"] = 29,
+							["sublevel"] = 1,
+						}, -- [10]
+						{
+							["y"] = -349.91286111212,
+							["x"] = 416.96554708136,
+							["g"] = 29,
+							["sublevel"] = 1,
+						}, -- [11]
+						{
+							["sublevel"] = 1,
+							["x"] = 434.4530375788,
+							["y"] = -326.39617358631,
+							["g"] = 30,
+							["inspiring"] = true,
+						}, -- [12]
 					},
-					["id"] = 165197,
+					["id"] = 171384,
 					["spells"] = {
 						[288865] = {
 						},
-						[324394] = {
+						[317898] = {
 						},
-						[324372] = {
-						},
-						[324391] = {
+						[334534] = {
 						},
 						[132951] = {
 						},
-						[324381] = {
+						[334377] = {
 						},
-						[324387] = {
+						[334381] = {
+						},
+						[321020] = {
+						},
+						[224729] = {
+						},
+						[334378] = {
+						},
+						[240443] = {
+						},
+						[121308] = {
+						},
+						[201657] = {
 						},
 					},
+					["name"] = "Research Scribe",
+					["count"] = 4,
+					["health"] = 80100,
+					["displayId"] = 97622,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Disorient"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Imprison"] = true,
+						["Repentance"] = true,
 					},
-					["health"] = 240300,
-					["name"] = "Skeletal Monstrosity",
-					["displayId"] = 94814,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 12,
-					["scale"] = 1.5,
+					["scale"] = 1,
 				}, -- [16]
 				{
 					["clones"] = {
 						{
-							["y"] = -105.74744064711,
-							["x"] = 221.1313948641,
-							["g"] = 25,
+							["y"] = -353.43057432718,
+							["x"] = 508.06472200854,
+							["g"] = 20,
 							["sublevel"] = 1,
 						}, -- [1]
 						{
-							["y"] = -107.20151298418,
-							["x"] = 213.82472624654,
-							["g"] = 25,
+							["y"] = -499.22801010806,
+							["x"] = 487.89606602723,
+							["g"] = 24,
 							["sublevel"] = 1,
 						}, -- [2]
+						{
+							["y"] = -355.6558710724,
+							["x"] = 418.89578402424,
+							["g"] = 29,
+							["sublevel"] = 1,
+						}, -- [3]
 					},
-					["id"] = 166079,
+					["id"] = 171799,
 					["spells"] = {
-						[321576] = {
+						[335305] = {
 						},
-						[320297] = {
+						[335306] = {
+						},
+						[121308] = {
+						},
+						[132951] = {
+						},
+						[240443] = {
+						},
+						[321020] = {
+						},
+						[335308] = {
+						},
+						[132466] = {
+						},
+						[288865] = {
+						},
+					},
+					["name"] = "Depths Warden",
+					["count"] = 7,
+					["health"] = 128160,
+					["displayId"] = 97780,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
+					["scale"] = 1,
+				}, -- [17]
+				{
+					["clones"] = {
+						{
+							["y"] = -364.07405714728,
+							["x"] = 540.58272096195,
+							["g"] = 21,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -481.39042949054,
+							["x"] = 538.88821561174,
+							["g"] = 23,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -419.03252574875,
+							["x"] = 368.68475245393,
+							["g"] = 27,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -326.92589481546,
+							["x"] = 442.02539579284,
+							["g"] = 30,
+							["sublevel"] = 1,
+						}, -- [4]
+					},
+					["id"] = 168058,
+					["spells"] = {
+						[326952] = {
 						},
 						[317898] = {
 						},
-						[328687] = {
+						[288865] = {
 						},
 						[132951] = {
 						},
 						[224729] = {
 						},
-						[288865] = {
+						[326868] = {
 						},
 					},
+					["name"] = "Infused Quill-feather",
+					["count"] = 1,
+					["health"] = 16020,
+					["displayId"] = 96655,
+					["creatureType"] = "Not specified",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
 						["Root"] = true,
-						["Control Undead"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Stun"] = true,
 						["Slow"] = true,
 						["Silence"] = true,
-						["Repentance"] = true,
+						["Fear"] = true,
 					},
-					["health"] = 40050,
-					["name"] = "Brittlebone Crossbowman",
-					["displayId"] = 96114,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 0.7,
-				}, -- [17]
-				{
-					["clones"] = {
-						{
-							["y"] = -181.35558785632,
-							["x"] = 333.43862142354,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [1]
-						{
-							["y"] = -180.0185191661,
-							["x"] = 325.38271515666,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [2]
-						{
-							["y"] = -188.23093803116,
-							["x"] = 328.27752421441,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [3]
-						{
-							["y"] = -188.72695722824,
-							["x"] = 337.04580823089,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [4]
-						{
-							["y"] = -186.56771497349,
-							["x"] = 322.29092952831,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [5]
-						{
-							["y"] = -194.12509375336,
-							["x"] = 322.29092952831,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [6]
-						{
-							["y"] = -196.28436689635,
-							["x"] = 330.2082334977,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [7]
-						{
-							["y"] = -195.92445715095,
-							["x"] = 335.24647572154,
-							["g"] = 22,
-							["sublevel"] = 1,
-						}, -- [8]
-					},
-					["id"] = 171500,
-					["spells"] = {
-						[288865] = {
-						},
-						[320297] = {
-						},
-						[317898] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-					},
-					["health"] = 28836,
-					["name"] = "Shuffling Corpse",
-					["displayId"] = 96132,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 1,
-					["scale"] = 0.7,
+					["scale"] = 1,
 				}, -- [18]
 				{
 					["clones"] = {
 						{
-							["y"] = -224.0145497704,
-							["x"] = 169.18397830322,
+							["y"] = -378.06050350162,
+							["x"] = 547.41988721027,
+							["g"] = 21,
 							["sublevel"] = 1,
 						}, -- [1]
+						{
+							["y"] = -447.49309262393,
+							["x"] = 546.11529634427,
+							["g"] = 22,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -493.87908536866,
+							["x"] = 494.48849450265,
+							["g"] = 24,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -379.48470739852,
+							["x"] = 383.64494245576,
+							["g"] = 28,
+							["sublevel"] = 1,
+						}, -- [4]
 					},
-					["id"] = 163157,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["id"] = 172265,
 					["spells"] = {
 						[288865] = {
 						},
-						[319897] = {
+						[317898] = {
 						},
-						[326868] = {
+						[336279] = {
 						},
-						[321247] = {
+						[336277] = {
 						},
-						[320171] = {
+						[240443] = {
 						},
-						[320580] = {
-						},
-						[333634] = {
-						},
-						[333488] = {
-						},
-						[333492] = {
-						},
-						[321226] = {
+						[224729] = {
 						},
 						[132951] = {
 						},
-						[333489] = {
-						},
-						[132466] = {
-						},
-						[320012] = {
-						},
-						[333627] = {
-						},
-						[319902] = {
-						},
 					},
-					["isBoss"] = true,
-					["encounterID"] = 2391,
-					["instanceID"] = 1182,
-					["name"] = "Amarth",
-					["health"] = 576720,
-					["displayId"] = 94926,
-					["creatureType"] = "Beast",
+					["name"] = "Remnant of Fury",
+					["count"] = 4,
+					["health"] = 72090,
+					["displayId"] = 97240,
+					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["count"] = 0,
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Mind Control"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Silence"] = true,
+						["Fear"] = true,
+					},
 					["scale"] = 1,
 				}, -- [19]
 				{
 					["clones"] = {
 						{
-							["y"] = -401.66043555864,
-							["x"] = 318.35932575995,
-							["g"] = 26,
-							["sublevel"] = 2,
+							["y"] = -405.19774193548,
+							["x"] = 574.24688172043,
+							["sublevel"] = 1,
 						}, -- [1]
 						{
-							["sublevel"] = 2,
-							["x"] = 480.16714313076,
-							["patrol"] = {
-								{
-									["y"] = -340.82042587609,
-									["x"] = 516.43828133821,
-								}, -- [1]
-								{
-									["y"] = -388.04944749118,
-									["x"] = 529.231447794,
-								}, -- [2]
-								{
-									["y"] = -340.82042587609,
-									["x"] = 516.43828133821,
-								}, -- [3]
-								{
-									["y"] = -315.71477018049,
-									["x"] = 508.3587829608,
-								}, -- [4]
-								{
-									["y"] = -277.20825756386,
-									["x"] = 494.32363108431,
-								}, -- [5]
-								{
-									["y"] = -262.45340974952,
-									["x"] = 456.53684529378,
-								}, -- [6]
-								{
-									["y"] = -258.13495612825,
-									["x"] = 420.90933264624,
-								}, -- [7]
-								{
-									["y"] = -262.81325771845,
-									["x"] = 380.24357777486,
-								}, -- [8]
-								{
-									["y"] = -311.39628567098,
-									["x"] = 362.9696088486,
-								}, -- [9]
-								{
-									["y"] = -343.42505607923,
-									["x"] = 355.41227640109,
-								}, -- [10]
-								{
-									["y"] = -385.17046296622,
-									["x"] = 339.21794404632,
-								}, -- [11]
-								{
-									["y"] = -343.42505607923,
-									["x"] = 355.41227640109,
-								}, -- [12]
-								{
-									["y"] = -311.39628567098,
-									["x"] = 362.9696088486,
-								}, -- [13]
-								{
-									["y"] = -262.81325771845,
-									["x"] = 380.24357777486,
-								}, -- [14]
-								{
-									["y"] = -258.13495612825,
-									["x"] = 420.90933264624,
-								}, -- [15]
-								{
-									["y"] = -262.45340974952,
-									["x"] = 456.53684529378,
-								}, -- [16]
-								{
-									["y"] = -277.20825756386,
-									["x"] = 494.32363108431,
-								}, -- [17]
-								{
-									["y"] = -315.71477018049,
-									["x"] = 508.3587829608,
-								}, -- [18]
-							},
-							["g"] = 28,
-							["y"] = -267.25639174782,
+							["y"] = -449.09641678301,
+							["x"] = 553.80551802087,
+							["g"] = 22,
+							["sublevel"] = 1,
 						}, -- [2]
 						{
-							["sublevel"] = 2,
-							["x"] = 527.40731699655,
-							["inspiring"] = true,
-							["g"] = 30,
-							["y"] = -243.90869965329,
+							["y"] = -493.40205353861,
+							["x"] = 546.54339793312,
+							["g"] = 23,
+							["sublevel"] = 1,
 						}, -- [3]
 						{
-							["y"] = -260.94682723462,
-							["x"] = 346.17264847671,
+							["y"] = -372.46176834443,
+							["x"] = 376.70153346541,
+							["g"] = 28,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -318.95114215554,
+							["x"] = 439.72172957295,
+							["g"] = 30,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -364.02585365854,
+							["x"] = 430.68097560976,
 							["g"] = 31,
 							["sublevel"] = 2,
-						}, -- [4]
+						}, -- [6]
 					},
-					["id"] = 173016,
+					["id"] = 162049,
 					["spells"] = {
-						[288865] = {
-						},
-						[317898] = {
-						},
-						[334882] = {
-						},
-						[334748] = {
-						},
-						[240443] = {
-						},
 						[326868] = {
-						},
-						[334747] = {
-						},
-						[224729] = {
-						},
-						[338353] = {
-						},
-						[320297] = {
-						},
-						[334749] = {
 						},
 						[132951] = {
 						},
+						[317898] = {
+						},
+						[322212] = {
+						},
+						[322169] = {
+						},
+						[240443] = {
+						},
+						[224729] = {
+						},
+						[288865] = {
+						},
 					},
+					["name"] = "Vestige of Doubt",
+					["count"] = 4,
+					["health"] = 72090,
+					["displayId"] = 94279,
+					["creatureType"] = "Aberration",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
 						["Root"] = true,
-						["Repentance"] = true,
-						["Imprison"] = true,
+						["Banish"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Mind Control"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Stun"] = true,
+						["Fear"] = true,
+					},
+					["scale"] = 1,
+				}, -- [20]
+				{
+					["clones"] = {
+						{
+							["y"] = -532.52767744027,
+							["x"] = 461.23234375885,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [1]
+						{
+							["y"] = -532.05987082507,
+							["x"] = 469.85225816087,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [2]
+						{
+							["y"] = -539.83885961076,
+							["x"] = 465.83152648733,
+							["g"] = 25,
+							["sublevel"] = 1,
+						}, -- [3]
+						{
+							["y"] = -461.86473077081,
+							["x"] = 355.31739760858,
+							["g"] = 26,
+							["sublevel"] = 1,
+						}, -- [4]
+						{
+							["y"] = -412.47461375711,
+							["x"] = 356.77421611862,
+							["g"] = 27,
+							["sublevel"] = 1,
+						}, -- [5]
+						{
+							["y"] = -412.86123845295,
+							["x"] = 349.39932419205,
+							["g"] = 27,
+							["sublevel"] = 1,
+						}, -- [6]
+						{
+							["y"] = -420.06007505784,
+							["x"] = 348.50523837654,
+							["g"] = 27,
+							["sublevel"] = 1,
+						}, -- [7]
+						{
+							["y"] = -419.38711931286,
+							["x"] = 357.30410859174,
+							["g"] = 27,
+							["sublevel"] = 1,
+						}, -- [8]
+					},
+					["id"] = 162051,
+					["spells"] = {
+						[326868] = {
+						},
+						[321249] = {
+						},
+						[317898] = {
+						},
+						[132951] = {
+						},
+						[321220] = {
+						},
+						[240443] = {
+						},
+						[224729] = {
+						},
+						[288865] = {
+						},
+					},
+					["name"] = "Frenzied Ghoul",
+					["count"] = 2,
+					["health"] = 80100,
+					["displayId"] = 93808,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["characteristics"] = {
+						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
 						["Polymorph"] = true,
 						["Disorient"] = true,
 						["Sap"] = true,
@@ -19797,751 +20225,327 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Slow"] = true,
 						["Mind Control"] = true,
-						["Fear"] = true,
+						["Imprison"] = true,
 					},
-					["health"] = 112140,
-					["name"] = "Corpse Collector",
-					["displayId"] = 98170,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1.4,
-				}, -- [20]
-				{
-					["clones"] = {
-						{
-							["y"] = -280.4504047721,
-							["x"] = 489.40347391047,
-							["g"] = 28,
-							["sublevel"] = 2,
-						}, -- [1]
-						{
-							["y"] = -238.26548043315,
-							["x"] = 507.51241183571,
-							["g"] = 30,
-							["sublevel"] = 2,
-						}, -- [2]
-					},
-					["id"] = 172981,
-					["spells"] = {
-						[288865] = {
-						},
-						[338357] = {
-						},
-						[132466] = {
-						},
-						[240443] = {
-						},
-						[132951] = {
-						},
-						[338456] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 192240,
-					["name"] = "Kyrian Stitchwerk",
-					["displayId"] = 98190,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 5,
-					["scale"] = 2,
+					["scale"] = 1,
 				}, -- [21]
 				{
 					["clones"] = {
 						{
-							["y"] = -264.92234647225,
-							["x"] = 496.81948021409,
-							["g"] = 28,
-							["sublevel"] = 2,
+							["y"] = -473.76709677419,
+							["x"] = 412.81032258065,
+							["sublevel"] = 1,
 						}, -- [1]
-						{
-							["y"] = -273.81426718665,
-							["x"] = 503.26332718268,
-							["g"] = 28,
-							["sublevel"] = 2,
-						}, -- [2]
-						{
-							["y"] = -284.30875546354,
-							["x"] = 504.84498579856,
-							["g"] = 28,
-							["sublevel"] = 2,
-						}, -- [3]
-						{
-							["y"] = -344.41113256507,
-							["x"] = 321.91456123486,
-							["g"] = 29,
-							["sublevel"] = 2,
-						}, -- [4]
-						{
-							["y"] = -334.95803057736,
-							["x"] = 322.61187990022,
-							["g"] = 29,
-							["sublevel"] = 2,
-						}, -- [5]
-						{
-							["y"] = -346.16218291332,
-							["x"] = 331.72958416192,
-							["g"] = 29,
-							["sublevel"] = 2,
-						}, -- [6]
-						{
-							["y"] = -337.70181792228,
-							["x"] = 328.66172329585,
-							["g"] = 29,
-							["sublevel"] = 2,
-						}, -- [7]
-						{
-							["y"] = -338.05096192215,
-							["x"] = 333.59885436133,
-							["g"] = 29,
-							["sublevel"] = 2,
-						}, -- [8]
-						{
-							["sublevel"] = 2,
-							["x"] = 327.30340070056,
-							["patrol"] = {
-								{
-									["y"] = -352.08800928078,
-									["x"] = 327.30340070056,
-								}, -- [1]
-								{
-									["y"] = -374.81865258765,
-									["x"] = 325.54570837852,
-								}, -- [2]
-								{
-									["y"] = -316.1380174959,
-									["x"] = 431.26401864717,
-								}, -- [3]
-								{
-									["y"] = -374.81865258765,
-									["x"] = 325.54570837852,
-								}, -- [4]
-								{
-									["y"] = -352.08800928078,
-									["x"] = 327.30340070056,
-								}, -- [5]
-								{
-									["y"] = -304.72788040391,
-									["x"] = 326.24429676612,
-								}, -- [6]
-								{
-									["y"] = -349.90267320038,
-									["x"] = 438.48266538655,
-								}, -- [7]
-								{
-									["y"] = -304.80570661162,
-									["x"] = 545.45870878004,
-								}, -- [8]
-								{
-									["y"] = -243.5482860266,
-									["x"] = 449.07051045071,
-								}, -- [9]
-								{
-									["y"] = -311.51228888137,
-									["x"] = 335.88549947827,
-								}, -- [10]
-								{
-									["y"] = -242.3529678811,
-									["x"] = 336.58408786588,
-								}, -- [11]
-								{
-									["y"] = -296.14356420564,
-									["x"] = 436.9466537621,
-								}, -- [12]
-								{
-									["y"] = -244.13830503854,
-									["x"] = 538.95488815547,
-								}, -- [13]
-								{
-									["y"] = -333.32355666562,
-									["x"] = 532.20192703481,
-								}, -- [14]
-								{
-									["y"] = -244.13830503854,
-									["x"] = 538.95488815547,
-								}, -- [15]
-								{
-									["y"] = -296.50071153449,
-									["x"] = 438.35973149523,
-								}, -- [16]
-								{
-									["y"] = -242.3529678811,
-									["x"] = 336.58408786588,
-								}, -- [17]
-								{
-									["y"] = -311.51228888137,
-									["x"] = 335.88549947827,
-								}, -- [18]
-								{
-									["y"] = -243.5482860266,
-									["x"] = 449.07051045071,
-								}, -- [19]
-								{
-									["y"] = -304.80570661162,
-									["x"] = 545.45870878004,
-								}, -- [20]
-								{
-									["y"] = -349.90267320038,
-									["x"] = 438.48266538655,
-								}, -- [21]
-								{
-									["y"] = -304.72788040391,
-									["x"] = 326.24429676612,
-								}, -- [22]
-							},
-							["g"] = 29,
-							["y"] = -352.08800928078,
-						}, -- [9]
 					},
-					["id"] = 166264,
+					["name"] = "Executor Tarvold",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["spells"] = {
-						[334610] = {
+						[288865] = {
 						},
-						[317898] = {
+						[322567] = {
 						},
 						[132951] = {
 						},
-						[224729] = {
+						[322554] = {
 						},
-						[288865] = {
+						[326868] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-					},
-					["health"] = 8010,
-					["name"] = "Spare Parts",
-					["displayId"] = 95577,
-					["creatureType"] = "Undead",
-					["level"] = 60,
+					["isBoss"] = true,
+					["encounterID"] = 2415,
+					["instanceID"] = 1189,
 					["count"] = 0,
-					["scale"] = 0.7,
+					["health"] = 448560,
+					["displayId"] = 96156,
+					["creatureType"] = "Humanoid",
+					["level"] = 60,
+					["scale"] = 1,
+					["id"] = 162103,
 				}, -- [22]
 				{
 					["clones"] = {
 						{
-							["y"] = -412.65302221547,
-							["x"] = 555.92876428203,
-							["g"] = 27,
+							["y"] = -388.05329268293,
+							["x"] = 472.47609756098,
 							["sublevel"] = 2,
 						}, -- [1]
-						{
-							["y"] = -248.5585823855,
-							["x"] = 360.30148473588,
-							["g"] = 31,
-							["sublevel"] = 2,
-						}, -- [2]
 					},
-					["id"] = 165911,
+					["name"] = "Grand Proctor Beryllia",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["spells"] = {
-						[288865] = {
+						[325360] = {
 						},
-						[317898] = {
+						[326039] = {
 						},
-						[334882] = {
+						[328593] = {
 						},
-						[320696] = {
-						},
-						[327240] = {
+						[325260] = {
 						},
 						[132951] = {
 						},
-						[240443] = {
+						[325257] = {
 						},
-						[327155] = {
+						[325261] = {
 						},
-						[224729] = {
+						[325254] = {
 						},
-						[35079] = {
+						[132466] = {
 						},
-						[320297] = {
+						[325262] = {
 						},
-						[344991] = {
+						[288865] = {
 						},
-						[201657] = {
+						[326868] = {
 						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Repentance"] = true,
-					},
-					["health"] = 136170,
-					["name"] = "Loyal Creation",
-					["displayId"] = 95226,
-					["creatureType"] = "Undead",
+					["isBoss"] = true,
+					["encounterID"] = 2421,
+					["instanceID"] = 1189,
+					["count"] = 0,
+					["health"] = 560700,
+					["displayId"] = 94781,
+					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1.4,
+					["scale"] = 1,
+					["id"] = 162102,
 				}, -- [23]
 				{
 					["clones"] = {
 						{
-							["y"] = -333.18280218782,
-							["x"] = 462.17634607938,
-							["g"] = 32,
+							["y"] = -296.01818618259,
+							["x"] = 566.35626354362,
+							["g"] = 33,
 							["sublevel"] = 2,
 						}, -- [1]
+						{
+							["y"] = -290.91300283248,
+							["x"] = 559.15609372779,
+							["g"] = 33,
+							["sublevel"] = 2,
+						}, -- [2]
+						{
+							["y"] = -124.90544764779,
+							["x"] = 168.93786207825,
+							["g"] = 41,
+							["sublevel"] = 2,
+						}, -- [3]
+						{
+							["y"] = -128.71759893078,
+							["x"] = 159.14063172356,
+							["g"] = 41,
+							["sublevel"] = 2,
+						}, -- [4]
+						{
+							["y"] = -128.11634028207,
+							["x"] = 177.00538261375,
+							["g"] = 41,
+							["sublevel"] = 2,
+						}, -- [5]
+						{
+							["y"] = -143.56944821649,
+							["x"] = 171.01848317371,
+							["g"] = 41,
+							["sublevel"] = 2,
+						}, -- [6]
+						{
+							["y"] = -140.449997547,
+							["x"] = 181.84459718417,
+							["g"] = 41,
+							["sublevel"] = 2,
+						}, -- [7]
+						{
+							["y"] = -148.99096711876,
+							["x"] = 160.76095608169,
+							["g"] = 41,
+							["sublevel"] = 2,
+						}, -- [8]
 					},
-					["id"] = 167731,
+					["id"] = 171455,
 					["spells"] = {
 						[288865] = {
 						},
-						[323489] = {
-						},
-						[323471] = {
-						},
-						[338610] = {
+						[317898] = {
 						},
 						[132951] = {
 						},
-						[240443] = {
+						[224729] = {
 						},
-						[338606] = {
-						},
-						[323496] = {
-						},
-						[338636] = {
+						[321020] = {
 						},
 					},
+					["name"] = "Stonewall Gargon",
+					["count"] = 1,
+					["health"] = 16020,
+					["displayId"] = 95372,
+					["creatureType"] = "Beast",
+					["level"] = 60,
 					["characteristics"] = {
 						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Mind Control"] = true,
+						["Sap"] = true,
+						["Stun"] = true,
+						["Silence"] = true,
+						["Slow"] = true,
+						["Disorient"] = true,
+						["Imprison"] = true,
 					},
-					["health"] = 160200,
-					["name"] = "Separation Assistant",
-					["displayId"] = 98227,
-					["creatureType"] = "Humanoid",
-					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1.6,
+					["scale"] = 1,
 				}, -- [24]
 				{
 					["clones"] = {
 						{
-							["y"] = -332.88438845501,
-							["x"] = 399.20005470089,
-							["g"] = 32,
+							["y"] = -103.24852572312,
+							["x"] = 132.82708265662,
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["id"] = 173044,
-					["spells"] = {
-						[288865] = {
-						},
-						[323489] = {
-						},
-						[323471] = {
-						},
-						[334748] = {
-						},
-						[240443] = {
-						},
-						[334749] = {
-						},
-						[132466] = {
-						},
-						[338653] = {
-						},
-						[323496] = {
-						},
-						[132951] = {
-						},
-					},
+					["name"] = "General Kaal",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 160200,
-					["name"] = "Stitching Assistant",
-					["displayId"] = 98226,
+					["spells"] = {
+						[288865] = {
+						},
+						[326868] = {
+						},
+						[322796] = {
+						},
+						[132951] = {
+						},
+						[323821] = {
+						},
+						[331415] = {
+						},
+						[323846] = {
+						},
+						[322903] = {
+						},
+						[334877] = {
+						},
+						[132466] = {
+						},
+						[323845] = {
+						},
+					},
+					["isBoss"] = true,
+					["encounterID"] = 2407,
+					["instanceID"] = 1189,
+					["count"] = 0,
+					["health"] = 3204000,
+					["displayId"] = 95721,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
-					["scale"] = 1.6,
+					["scale"] = 1,
+					["id"] = 162099,
 				}, -- [25]
 				{
 					["clones"] = {
 						{
-							["y"] = -211.78069692184,
-							["x"] = 343.72029006187,
-							["g"] = 33,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["id"] = 163621,
-					["spells"] = {
-						[288865] = {
-						},
-						[338357] = {
-						},
-						[132466] = {
-						},
-						[333477] = {
-						},
-						[240443] = {
-						},
-						[132951] = {
-						},
-						[338456] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 224280,
-					["name"] = "Goregrind",
-					["displayId"] = 99122,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 6,
-					["scale"] = 2,
-				}, -- [26]
-				{
-					["clones"] = {
-						{
-							["y"] = -200.60122878109,
-							["x"] = 325.51598642195,
-							["g"] = 33,
+							["y"] = -124.04926829268,
+							["x"] = 578.86243902439,
+							["g"] = 36,
 							["sublevel"] = 2,
 						}, -- [1]
 						{
-							["y"] = -210.88792224078,
-							["x"] = 322.25070980819,
-							["g"] = 33,
+							["y"] = -116.30634146341,
+							["x"] = 580.61073170732,
+							["g"] = 36,
 							["sublevel"] = 2,
 						}, -- [2]
 						{
-							["y"] = -221.91578976504,
-							["x"] = 323.48339247663,
-							["g"] = 33,
+							["y"] = -124.53658536585,
+							["x"] = 567.34829268293,
+							["g"] = 36,
 							["sublevel"] = 2,
 						}, -- [3]
+						{
+							["y"] = -109.87335859603,
+							["x"] = 572.31993740536,
+							["g"] = 36,
+							["sublevel"] = 2,
+						}, -- [4]
+						{
+							["y"] = -119.29792682927,
+							["x"] = 565.68195121951,
+							["g"] = 36,
+							["sublevel"] = 2,
+						}, -- [5]
+						{
+							["y"] = -114.12695121951,
+							["x"] = 567.40292682927,
+							["g"] = 36,
+							["sublevel"] = 2,
+						}, -- [6]
+						{
+							["y"] = -92.45487804878,
+							["x"] = 499.48812835712,
+							["g"] = 37,
+							["sublevel"] = 2,
+						}, -- [7]
+						{
+							["y"] = -97.480575872507,
+							["x"] = 495.83685936334,
+							["g"] = 37,
+							["sublevel"] = 2,
+						}, -- [8]
+						{
+							["y"] = -104.5717131816,
+							["x"] = 498.17703920675,
+							["g"] = 37,
+							["sublevel"] = 2,
+						}, -- [9]
 					},
-					["id"] = 163622,
+					["id"] = 167955,
 					["spells"] = {
-						[288865] = {
+						[321020] = {
 						},
-						[320297] = {
+						[334753] = {
 						},
-						[317898] = {
+						[326718] = {
 						},
 						[240443] = {
 						},
-						[201657] = {
+						[121308] = {
 						},
 						[132951] = {
 						},
 						[224729] = {
 						},
-						[338022] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Stun"] = true,
-						["Slow"] = true,
-						["Silence"] = true,
-						["Repentance"] = true,
-					},
-					["health"] = 80100,
-					["name"] = "Goregrind Bits",
-					["displayId"] = 97800,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1,
-				}, -- [27]
-				{
-					["clones"] = {
-						{
-							["y"] = -197.7409049355,
-							["x"] = 545.73080072511,
-							["g"] = 34,
-							["sublevel"] = 2,
-						}, -- [1]
-						{
-							["y"] = -208.50249195281,
-							["x"] = 548.94901939488,
-							["g"] = 34,
-							["sublevel"] = 2,
-						}, -- [2]
-						{
-							["y"] = -219.60583613804,
-							["x"] = 546.96846714015,
-							["g"] = 34,
-							["sublevel"] = 2,
-						}, -- [3]
-					},
-					["id"] = 163623,
-					["spells"] = {
-						[288865] = {
-						},
-						[320297] = {
-						},
 						[317898] = {
 						},
-						[240443] = {
-						},
-						[132951] = {
-						},
-						[224729] = {
-						},
-						[338022] = {
-						},
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-						["Incapacitate"] = true,
-						["Shackle Undead"] = true,
-						["Root"] = true,
-						["Control Undead"] = true,
-						["Polymorph"] = true,
-						["Disorient"] = true,
-						["Silence"] = true,
-						["Slow"] = true,
-						["Stun"] = true,
-						["Repentance"] = true,
-					},
-					["health"] = 64080,
-					["name"] = "Rotspew Leftovers",
-					["displayId"] = 97801,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 1,
-				}, -- [28]
-				{
-					["clones"] = {
-						{
-							["y"] = -207.23853311225,
-							["x"] = 528.68301290168,
-							["g"] = 34,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["id"] = 163620,
-					["spells"] = {
-						[326868] = {
-						},
-						[333485] = {
-						},
-						[288865] = {
-						},
-						[333482] = {
-						},
-						[240443] = {
-						},
-						[132951] = {
-						},
-						[333479] = {
-						},
-						[338456] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 192240,
-					["name"] = "Rotspew",
-					["displayId"] = 99121,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 6,
-					["scale"] = 2,
-				}, -- [29]
-				{
-					["clones"] = {
-						{
-							["y"] = -206.14354669664,
-							["x"] = 468.36784136928,
-							["g"] = 35,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["id"] = 164578,
-					["spells"] = {
-						[288865] = {
-						},
-						[322548] = {
-						},
-						[327952] = {
-						},
-						[132951] = {
-						},
-						[326868] = {
-						},
-						[322681] = {
-						},
-						[348170] = {
-						},
-						[325748] = {
-						},
-						[132466] = {
-						},
-						[334322] = {
-						},
-						[320376] = {
-						},
-						[320208] = {
-						},
-					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["health"] = 192240,
-					["name"] = "Stitchflesh's Creation",
-					["displayId"] = 96218,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 2,
-				}, -- [30]
-				{
-					["clones"] = {
-						{
-							["y"] = -207.33818322552,
-							["x"] = 435.43723023701,
-							["g"] = 35,
-							["sublevel"] = 2,
-						}, -- [1]
-					},
-					["id"] = 162689,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
-					["spells"] = {
-						[288865] = {
-						},
-						[320365] = {
-						},
-						[320358] = {
-						},
-						[343556] = {
-						},
-						[320366] = {
-						},
-						[320359] = {
-						},
-						[327664] = {
-						},
-						[132951] = {
-						},
-						[326629] = {
-						},
-						[334321] = {
-						},
-						[334488] = {
-						},
-						[326574] = {
-						},
-						[343558] = {
-						},
-						[326868] = {
-						},
-						[334476] = {
-						},
-						[320200] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2392,
-					["instanceID"] = 1182,
-					["name"] = "Surgeon Stitchflesh",
-					["health"] = 384480,
-					["displayId"] = 96477,
+					["name"] = "Sanguine Cadet",
+					["count"] = 1,
+					["health"] = 32040,
+					["displayId"] = 94954,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 2,
-				}, -- [31]
-				{
-					["clones"] = {
-						{
-							["y"] = -276.58583505829,
-							["x"] = 427.52861110709,
-							["sublevel"] = 3,
-						}, -- [1]
-					},
-					["id"] = 162693,
 					["characteristics"] = {
 						["Taunt"] = true,
+						["Incapacitate"] = true,
+						["Root"] = true,
+						["Fear"] = true,
+						["Polymorph"] = true,
+						["Disorient"] = true,
+						["Sap"] = true,
+						["Silence"] = true,
+						["Stun"] = true,
+						["Slow"] = true,
+						["Mind Control"] = true,
+						["Imprison"] = true,
 					},
-					["spells"] = {
-						[321370] = {
-						},
-						[326868] = {
-						},
-						[288865] = {
-						},
-						[321956] = {
-						},
-						[323730] = {
-						},
-						[321754] = {
-						},
-						[321368] = {
-						},
-						[320772] = {
-						},
-						[132951] = {
-						},
-						[321755] = {
-						},
-						[321894] = {
-						},
-						[320788] = {
-						},
-						[132466] = {
-						},
-						[320784] = {
-						},
-						[320771] = {
-						},
-					},
-					["isBoss"] = true,
-					["encounterID"] = 2396,
-					["instanceID"] = 1182,
-					["name"] = "Nalthor the Rimebinder",
-					["health"] = 512640,
-					["displayId"] = 96085,
-					["creatureType"] = "Undead",
-					["level"] = 60,
-					["count"] = 0,
 					["scale"] = 1,
-				}, -- [32]
+				}, -- [26]
 			},
 		},
 		["version"] = 347,
-		["currentDungeonIdx"] = 33,
-		["currentPreset"] = {
-			[29] = 2,
-			[30] = 2,
-			[33] = 2,
-			[36] = 2,
-		},
 	},
 }

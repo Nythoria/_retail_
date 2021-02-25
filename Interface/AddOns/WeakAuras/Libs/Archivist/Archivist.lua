@@ -15,7 +15,7 @@ local LibDeflate = LibStub("LibDeflate")
 
 do -- boilerplate & static values
 	Archivist.buildDate = "@build-time@"
-	Archivist.version = "7a29987"
+	Archivist.version = "v1.0.5"
 	--[==[@debug@
 		Archivist.debug = true
 	--@end-debug@]==]
@@ -335,7 +335,7 @@ end
 -- Don't say I didn't warn you
 function Archivist:DeleteAll(storeType)
 	if storeType then
-		self.sv[storeType] = nil
+		self.sv[storeType] = {}
 		for id, store in pairs(self.activeStores[storeType]) do
 			self.activeStores[storeType][id] = nil
 			self.storeMap[store] = nil
@@ -345,8 +345,8 @@ function Archivist:DeleteAll(storeType)
 			self.sv[id] = {}
 			self.activeStores[id] = {}
 		end
+		self.storeMap = {}
 	end
-	self.storeMap = {}
 end
 
 -- deactivates store, with one last opportunity to commit data if the prototype chooses to do so

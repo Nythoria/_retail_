@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 160,
 	["lastSanitation"] = 3,
-	["session"] = 111,
 	["errors"] = {
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
@@ -45,8 +45,8 @@ BugGrabberDB = {
 		}, -- [5]
 		{
 			["message"] = "File Interface\\AddOns\\TradeSkillMaster_AppHelper\\AppData.lua is empty.",
-			["session"] = 90,
 			["time"] = "2021/02/14 11:46:06",
+			["session"] = 90,
 			["counter"] = 3,
 		}, -- [6]
 		{
@@ -60,16 +60,24 @@ BugGrabberDB = {
 			["message"] = "Interface\\AddOns\\GottaGoFastHistory\\History-History.lua:27: attempt to call field 'GetDate' (a nil value)",
 			["time"] = "2021/02/03 13:17:14",
 			["stack"] = "[string \"@Interface\\AddOns\\GottaGoFastHistory\\History-History.lua\"]:27: in function `StoreRun'\n[string \"@Interface\\AddOns\\GottaGoFastHistory\\Core.lua\"]:46: in function `?'\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0-12.lua\"]:218: in function `OnReceiveMultipartLast'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0-12.lua\"]:256: in function <...Ons\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0.lua:246>",
-			["session"] = 95,
-			["counter"] = 12,
+			["session"] = 127,
+			["counter"] = 14,
 		}, -- [8]
+		{
+			["message"] = "Interface\\AddOns\\AstralKeys\\Lists\\Friends-Friends.lua:655: attempt to perform arithmetic on field 'maxWidth' (a nil value)",
+			["time"] = "2021/02/23 09:31:02",
+			["locals"] = "self = FriendsListFrameScrollFrameButton1 {\n 0 = <userdata>\n OnEnter = <function> defined @Interface\\AddOns\\AstralKeys\\Lists\\Friends.lua:668\n index = 1\n buttonType = 1\n travelPassButton = FriendsListFrameScrollFrameButton1TravelPassButton {\n }\n status = FriendsListFrameScrollFrameButton1Status {\n }\n background = FriendsListFrameScrollFrameButton1Background {\n }\n OnClick = <function> defined @Interface\\FrameXML\\FriendsFrame.lua:2055\n OnLoad = <function> defined @Interface\\FrameXML\\FriendsFrame.lua:1874\n id = 43\n OnLeave = <function> defined @Interface\\FrameXML\\FriendsFrame.lua:2050\n name = FriendsListFrameScrollFrameButton1Name {\n }\n highlight = <unnamed> {\n }\n summonButton = FriendsListFrameScrollFrameButton1SummonButton {\n }\n info = FriendsListFrameScrollFrameButton1Info {\n }\n Favorite = <unnamed> {\n }\n gameIcon = FriendsListFrameScrollFrameButton1GameIcon {\n }\n}\nleft = 19.999985\nstringShown = false\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = FriendsTooltip {\n BottomLeftCorner = <unnamed> {\n }\n OnBackdropLoaded = <function> defined @Interface\\SharedXML\\Backdrop.lua:195\n backdropBorderColor = <table> {\n }\n GetBackdropColor = <function> defined @Interface\\SharedXML\\Backdrop.lua:433\n SetBackdropBorderColor = <function> defined @Interface\\SharedXML\\Backdrop.lua:465\n RightEdge = <unnamed> {\n }\n Hide = <function> defined =[C]:-1\n template = \"Transparent\"\n ApplyBackdrop = <function> defined @Interface\\SharedXML\\Backdrop.lua:337\n SetBackdrop = <function> defined @Interface\\SharedXML\\Backdrop.lua:372\n ClearBackdrop = <function> defined @Interface\\SharedXML\\Backdrop.lua:325\n Show = <function> defined =[C]:-1\n GetBackdropBorderColor = <function> defined @Interface\\SharedXML\\Backdrop.lua:452\n GetBackdrop = <function> defined @Interface\\SharedXML\\Backdrop.lua:390\n SetBorderBlendMode = <function> defined @Interface\\SharedXML\\Backdrop.lua:309\n shadow = <unnamed> {\n }\n SetupTextureCoordinates = <function> defined @Interface\\SharedXML\\Backdrop.lua:257\n OnBackdropSizeChanged = <function> defined @Interface\\SharedXML\\Backdrop.lua:225\n TopRightCorner = <unnamed> {\n }\n windStyle = true\n 0 = <userdata>\n GetEdgeSize = <function> defined @Interface\\SharedXML\\Backdrop.lua:231\n TopLeftCorner = <unnamed> {\n }\n TopEdge = <unnamed> {\n }\n BottomRightCorner = <unnamed> {\n }\n customBackdropAlpha = 0.650000\n BottomEdge = <unnamed> {\n }\n Center = <unnamed> {\n }\n backdropInfo = <table> {\n }\n HasBackdropInfo = <function> defined @Interface\\SharedXML\\Backdrop.lua:321\n SetupPieceVisuals = <function> defined @Interface\\SharedXML\\Backdrop.lua:289\n SetBackdropColor = <function> defined @Interface\\SharedXML\\Backdrop.lua:442\n LeftEdge = <unnamed> {\n }\n backdropColor = <table> {\n }\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 200\n(*temporary) = nil\n(*temporary) = 12\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on field 'maxWidth' (a nil value)\"\ne = <table> {\n GetCharacterID = <function> defined @Interface\\AddOns\\AstralKeys\\Character Info.lua:33\n UpdateCharacterIDs = <function> defined @Interface\\AddOns\\AstralKeys\\Character Info.lua:11\n Scale = <function> defined @Interface\\AddOns\\AstralKeys\\Init.lua:17\n SetPlayerNameRealm = <function> defined @Interface\\AddOns\\AstralKeys\\Character Info.lua:81\n Unit = <function> defined @Interface\\AddOns\\AstralKeys\\Unit Information.lua:22\n UnitGUID = <function> defined @Interface\\AddOns\\AstralKeys\\Unit Information.lua:30\n icon = <table> {\n }\n UnitClass = <function> defined @Interface\\AddOns\\AstralKeys\\Unit Information.lua:45\n UpdateCharacterFrames = <function> defined @Interface\\AddOns\\AstralKeys\\Frame.lua:1712\n AddUnitToList = <function> defined @Interface\\AddOns\\AstralKeys\\Lists\\Lists.lua:93\n PlayerName = <function> defined @Interface\\AddOns\\AstralKeys\\Character Info.lua:98\n MYTHICKEY_ITEMID = 158923\n SetPlayerClass = <function> defined @I",
+			["stack"] = "[string \"@Interface\\AddOns\\AstralKeys\\Lists\\Friends-Friends.lua\"]:655: in function <Interface\\AddOns\\AstralKeys\\Lists\\Friends.lua:600>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?",
+			["session"] = 132,
+			["counter"] = 1,
+		}, -- [9]
 		{
 			["message"] = "Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0-27.lua:372: bad argument #1 to 'pairs' (table expected, got string)",
 			["time"] = "2021/02/03 11:57:21",
 			["locals"] = "(*temporary) = \"0\"\n(*temporary) = \"table expected, got string\"\n = <function> defined =[C]:-1\n",
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0-27.lua\"]:372: in function <Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0.lua:359>",
-			["session"] = 104,
-			["counter"] = 78,
-		}, -- [9]
+			["session"] = 159,
+			["counter"] = 118,
+		}, -- [10]
 	},
 }

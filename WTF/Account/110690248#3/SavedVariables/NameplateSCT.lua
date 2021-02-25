@@ -3,19 +3,17 @@ NameplateSCTDB = {
 	["profileKeys"] = {
 		["Sharutía - Silvermoon"] = "Default",
 		["Kúsano - Silvermoon"] = "Default",
+		["Ririchíyo - Aerie Peak"] = "Default",
 		["Akatsúki - Silvermoon"] = "Default",
 		["Mítsukí - Silvermoon"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
-		["Iríya - Ravencrest"] = "Default",
-		["Rangii - Ravencrest"] = "Default",
 		["Yóshino - Silvermoon"] = "Default",
+		["Rangii - Ravencrest"] = "Default",
+		["Iríya - Ravencrest"] = "Default",
 	},
 	["global"] = {
 		["showIcon"] = false,
-		["formatting"] = {
-			["size"] = 13,
-		},
 		["offTargetFormatting"] = {
 			["size"] = 11,
 		},
@@ -30,6 +28,9 @@ NameplateSCTDB = {
 			["crits"] = false,
 			["autoattackcritsizing"] = false,
 			["smallHits"] = false,
+		},
+		["formatting"] = {
+			["size"] = 13,
 		},
 	},
 }

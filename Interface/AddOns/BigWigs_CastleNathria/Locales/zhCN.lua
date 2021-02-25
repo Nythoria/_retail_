@@ -31,8 +31,6 @@ end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "zhCN")
 if L then
-	L.stage2_yell = "我一直想玩玩这件圣物，都快想疯了！而你们的死，可以填补我多年的空虚。"
-	L.stage3_yell = "如此美妙的东西，如果没有杀伤力就太可惜了！"
 	L.tear = "撕裂" -- Short for Dimensional Tear
 	L.spirits = "灵魂" -- Short for Fleeting Spirits
 	L.seeds = "种" -- Short for Seeds of Extinction
@@ -106,6 +104,7 @@ if L then
 	L.second_blade = "第二刀"
 
 	L.skirmishers = "散兵" -- Short for Stone Legion Skirmishers
+	L.eruption = "震荡爆发" -- Short for Reverberating Eruption
 
 	L.custom_on_stop_timers = "总是显示技能条"
 	L.custom_on_stop_timers_desc = "为了马上测试"

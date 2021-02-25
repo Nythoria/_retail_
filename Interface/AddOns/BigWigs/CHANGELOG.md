@@ -1,22 +1,13 @@
 # BigWigs
 
-## [v214](https://github.com/BigWigsMods/BigWigs/tree/v214) (2021-02-14)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v213...v214) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v216.2](https://github.com/BigWigsMods/BigWigs/tree/v216.2) (2021-02-25)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v216.1...v216.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- bump version  
-- CastleNathria/SunKingsSalvation: Ember Blast is 5 seconds on LFR  
-- CastleNathria/Trash: Fix player name not being class colored  
-- Update itIT (#1003)  
-- CastleNathria/TheCouncilofBlood: Use the full length yell for dance directions  
-- CastleNathria/Trash: Add Ravenous Feast  
-- Add missing frFR string  
-- parser: Check that common and plugin locales match enUS  
-- CastleNathria/Trash: Add more spells  
-- CastleNathria/Xymox: Shorten "Glyph of Destruction" to "Bomb" (messages only)  
-- Common locale: Add "Explosion"  
-- Update zhTW (#1002)  
-- Update zhCN (#1001)  
-- Update frFR (#1000)  
-- Update deDE (#999)  
-- CastleNathria/Xymox: Correct Seeds timers for wave 3 and later in non-Mythic difficulties  
-- Plugins/Locales: Improve class color description  
+- Update deDE (#1018)  
+- Update deDE (#1017)  
+- Update ptBR (#1016)  
+- CastleNathria/InervaDarkvein: Remove the number from the "big add/small add" say message  
+- CastleNathria/Altimor: Cancel the Vicious Lunge yell countdown when Margore dies  
+- Plugins/BossBlock: Add some talking heads I missed from Sanguine Depths  
+- Common locale: Add "Spell Cancelled", cleanups.  
+- Update itIT (#1015)  

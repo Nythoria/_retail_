@@ -8,21 +8,17 @@ GottaGoFastHistoryDB = {
 		["Akatsúki - Silvermoon"] = "Default",
 		["Mítsukí - Silvermoon"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
-		["Iríya - Ravencrest"] = "Default",
+		["Yóshino - Silvermoon"] = "Default",
 		["Aryenís - Silvermoon"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
 		["Rangii - Ravencrest"] = "Default",
-		["Yóshino - Silvermoon"] = "Default",
+		["Iríya - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["DayFix"] = true,
 			["History"] = {
 				[2287] = {
-					["runs"] = {
-					},
-					["name"] = "Halls of Atonement",
-					["zoneID"] = 2287,
 					["objectives"] = {
 						"Halkias", -- [1]
 						"Echelon", -- [2]
@@ -30,21 +26,29 @@ GottaGoFastHistoryDB = {
 						"Lord Chamberlain", -- [4]
 						"Enemy Forces", -- [5]
 					},
-				},
-				[2286] = {
+					["zoneID"] = 2287,
+					["name"] = "Halls of Atonement",
 					["runs"] = {
 					},
-					["name"] = "The Necrotic Wake",
-					["zoneID"] = 2286,
+				},
+				[2284] = {
+					["runs"] = {
+					},
+					["name"] = "Sanguine Depths",
+					["zoneID"] = 2284,
 					["objectives"] = {
-						"Blightbone", -- [1]
-						"Amarth", -- [2]
-						"Surgeon Stitchflesh", -- [3]
-						"Nalthor the Rimebinder", -- [4]
+						"Kryxis the Voracious", -- [1]
+						"Executor Tarvold", -- [2]
+						"Grand Proctor Beryllia", -- [3]
+						"General Kaal", -- [4]
 						"Enemy Forces", -- [5]
 					},
 				},
 				[2289] = {
+					["runs"] = {
+					},
+					["name"] = "Plaguefall",
+					["zoneID"] = 2289,
 					["objectives"] = {
 						"Globgrog", -- [1]
 						"Doctor Ickus", -- [2]
@@ -52,24 +56,24 @@ GottaGoFastHistoryDB = {
 						"Margrave Stradama", -- [4]
 						"Enemy Forces", -- [5]
 					},
-					["zoneID"] = 2289,
-					["name"] = "Plaguefall",
-					["runs"] = {
-					},
 				},
 				[2290] = {
-					["runs"] = {
-					},
-					["name"] = "Mists of Tirna Scithe",
-					["zoneID"] = 2290,
 					["objectives"] = {
 						"Ingra Maloch", -- [1]
 						"Mistcaller", -- [2]
 						"Tred'ova", -- [3]
 						"Enemy Forces", -- [4]
 					},
+					["zoneID"] = 2290,
+					["name"] = "Mists of Tirna Scithe",
+					["runs"] = {
+					},
 				},
 				[2291] = {
+					["runs"] = {
+					},
+					["name"] = "De Other Side",
+					["zoneID"] = 2291,
 					["objectives"] = {
 						"Hakkar the Soulflayer", -- [1]
 						"The Manastorms", -- [2]
@@ -77,12 +81,12 @@ GottaGoFastHistoryDB = {
 						"Mueh'zala", -- [4]
 						"Enemy Forces", -- [5]
 					},
-					["zoneID"] = 2291,
-					["name"] = "De Other Side",
-					["runs"] = {
-					},
 				},
 				[2285] = {
+					["runs"] = {
+					},
+					["name"] = "Spires of Ascension",
+					["zoneID"] = 2285,
 					["objectives"] = {
 						"Kin-Tara", -- [1]
 						"Ventunax", -- [2]
@@ -90,16 +94,21 @@ GottaGoFastHistoryDB = {
 						"Devos", -- [4]
 						"Enemy Forces", -- [5]
 					},
-					["zoneID"] = 2285,
-					["name"] = "Spires of Ascension",
+				},
+				[2286] = {
+					["objectives"] = {
+						"Blightbone", -- [1]
+						"Amarth", -- [2]
+						"Surgeon Stitchflesh", -- [3]
+						"Nalthor the Rimebinder", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 2286,
+					["name"] = "The Necrotic Wake",
 					["runs"] = {
 					},
 				},
 				[2293] = {
-					["runs"] = {
-					},
-					["name"] = "Theater of Pain",
-					["zoneID"] = 2293,
 					["objectives"] = {
 						"Affront of Challengers", -- [1]
 						"Gorechop", -- [2]
@@ -108,17 +117,8 @@ GottaGoFastHistoryDB = {
 						"Mordretha", -- [5]
 						"Enemy Forces", -- [6]
 					},
-				},
-				[2284] = {
-					["objectives"] = {
-						"Kryxis the Voracious", -- [1]
-						"Executor Tarvold", -- [2]
-						"Grand Proctor Beryllia", -- [3]
-						"General Kaal", -- [4]
-						"Enemy Forces", -- [5]
-					},
-					["zoneID"] = 2284,
-					["name"] = "Sanguine Depths",
+					["zoneID"] = 2293,
+					["name"] = "Theater of Pain",
 					["runs"] = {
 					},
 				},

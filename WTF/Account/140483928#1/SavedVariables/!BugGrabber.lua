@@ -1,0 +1,15 @@
+
+BugGrabberDB = {
+	["lastSanitation"] = 3,
+	["session"] = 1,
+	["errors"] = {
+		{
+			["message"] = "Interface\\AddOns\\AAP-Core\\QuestHandler.lua:4113: attempt to perform arithmetic on field 'QuestCounter2' (a nil value)",
+			["time"] = "2021/02/24 13:59:04",
+			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n}\nevent = \"QUEST_REMOVED\"\narg1 = 61331\narg2 = false\narg3 = nil\narg4 = nil\narg5 = nil\n(*temporary) = <table> {\n WantedQuestList = <table> {\n }\n SkippedBonusObj = <table> {\n }\n BonusSkips = <table> {\n }\n AAP_DoWarCampaign = 0\n LoaPick = 0\n Settings = <table> {\n }\n QlineSkip = <table> {\n }\n}\n(*temporary) = nil\n(*temporary) = \"Lelethis\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on field 'QuestCounter2' (a nil value)\"\nAAP_ZoneResetQnumb = <function> defined @Interface\\AddOns\\AAP-Core\\QuestHandler.lua:3372\nAAP_PopupFunc = <function> defined @Interface\\AddOns\\AAP-Core\\QuestHandler.lua:3324\nAAP_BuyMerchFunc = <function> defined @Interface\\AddOns\\AAP-Core\\QuestHandler.lua:3309\nAAP_HSSpellIDs = <table> {\n 39937 = 1\n 298068 = 1\n 308742 = 1\n 286331 = 1\n 231504 = 1\n 285424 = 1\n 75136 = 1\n 136508 = 1\n 286031 = 1\n 8690 = 1\n 278559 = 1\n 94719 = 1\n 285362 = 1\n 286353 = 1\n 278244 = 1\n}\nQuestSpecial57710 = 0\nUpdateblock = 0\nQNumberLocal = 0\nAAPGOSSIPCOUNT = 0\nAAP_GigglingBasket = <table> {\n Many seek us for our talents, but few can actually earn them. Some give gifts, always gratefully accepted. Some try to outwit us, usually failing. Some ask permission, and always thank us for our trouble. = \"thank\"\n The fae courts are very big on manners, you know. The slightest lapse in decorum can have... devastating consequences. Introductions are an important part of first impressions! = \"introduce\"\n We do so much to help out the people of the lands. I'm sure you've heard the stories. Mending shoes, growing fields, reuniting lost loves. But what do we get in return? Not so much as a word of praise! Hmph! = \"praise\"\n Oh, my feet are practically jumping with excitement! I could just dance for an eternity! Dance with me! = \"dance\"\n Spriggans have our share of heroes too! The great hero Hollain was said to be able to split a mountain with a single thrust of his spear. Oh, to see such a display! How strong he must have been! = \"flex\"\n One time, I managed to trick all the sylvari in a grove into thinking I was a member of their court! The other spriggans were all cheering my name for days! = \"cheer\"\n}\n",
+			["stack"] = "[string \"@Interface\\AddOns\\AAP-Core\\QuestHandler.lua\"]:4113: in function <Interface\\AddOns\\AAP-Core\\QuestHandler.lua:3523>",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [1]
+	},
+}

@@ -27,3 +27,5 @@ ElvUI_OptionsUI: enabled
 BigWigs_CastleNathria: enabled
 LittleWigs: enabled
 TradeSkillMaster: disabled
+AAP-Core: disabled
+LittleWigs_BurningCrusade: enabled

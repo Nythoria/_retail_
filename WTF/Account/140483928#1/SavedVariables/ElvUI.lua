@@ -2,6 +2,7 @@
 ElvDB = {
 	["profileKeys"] = {
 		["Yimu - Silvermoon"] = "Default",
+		["Lelethis - Silvermoon"] = "Default",
 	},
 	["SLE_DB_Ver"] = "3.65",
 	["namespaces"] = {
@@ -11,32 +12,44 @@ ElvDB = {
 	["class"] = {
 		["Silvermoon"] = {
 			["Yimu"] = "PRIEST",
+			["Lelethis"] = "DRUID",
 		},
 	},
 	["profiles"] = {
 		["Default"] = {
-			["dbConverted"] = 12.16,
+			["dbConverted"] = 12.2,
 			["movers"] = {
 			},
+			["convertPages"] = true,
 			["actionbar"] = {
+				["bar6"] = {
+					["enabled"] = true,
+					["buttonsPerRow"] = 6,
+					["buttons"] = 6,
+				},
 				["microbar"] = {
 					["buttons"] = 11,
+				},
+				["bar5"] = {
+					["enabled"] = false,
+					["buttonsPerRow"] = 12,
+					["buttons"] = 12,
 				},
 			},
 		},
 	},
 	["SLErrorDisabledAddOns"] = {
 	},
+	["gold"] = {
+		["Silvermoon"] = {
+			["Yimu"] = 389834564,
+			["Lelethis"] = 209571629,
+		},
+	},
 	["faction"] = {
 		["Silvermoon"] = {
 			["Yimu"] = "Alliance",
-		},
-	},
-	["LuaErrorDisabledAddOns"] = {
-	},
-	["serverID"] = {
-		[3391] = {
-			["Silvermoon"] = true,
+			["Lelethis"] = "Alliance",
 		},
 	},
 	["global"] = {
@@ -94,18 +107,21 @@ ElvDB = {
 						["Silvermoon"] = {
 							["Alliance"] = {
 								["Yimu"] = "PRIEST",
+								["Lelethis"] = "DRUID",
 							},
 						},
 					},
 				},
 			},
-			["Version"] = "2.15",
+			["Version"] = "2.17",
 		},
 	},
-	["gold"] = {
-		["Silvermoon"] = {
-			["Yimu"] = 389834564,
+	["serverID"] = {
+		[3391] = {
+			["Silvermoon"] = true,
 		},
+	},
+	["LuaErrorDisabledAddOns"] = {
 	},
 	["SLEMinimize"] = {
 	},
@@ -113,6 +129,7 @@ ElvDB = {
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["Yimu - Silvermoon"] = "Yimu - Silvermoon",
+		["Lelethis - Silvermoon"] = "Lelethis - Silvermoon",
 	},
 	["profiles"] = {
 		["Yimu - Silvermoon"] = {
@@ -126,6 +143,18 @@ ElvPrivateDB = {
 			["skins"] = {
 				["parchmentRemoverEnable"] = true,
 			},
+		},
+		["Lelethis - Silvermoon"] = {
+			["sle"] = {
+				["characterGoldsSorting"] = {
+					["Silvermoon"] = {
+					},
+				},
+			},
+			["skins"] = {
+				["parchmentRemoverEnable"] = true,
+			},
+			["install_complete"] = 12.2,
 		},
 	},
 }

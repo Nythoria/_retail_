@@ -1,2205 +1,2205 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g if the dude is not dying to DMG during a seed then that is already how it works xD", -- [1]
-		"/g the healer out healed your DMG on the seed", -- [2]
-		"/g they probably made it work like that in PVP because of the secondary effect of pod", -- [3]
-		"/g if it worked the way it is supposed to work it would be worthless to have in PvP", -- [4]
-		"/g as soon a pod popped they would be dead end of", -- [5]
-		"/g yes but with the way pod is supposed to work you only have to do a fraction of a persons health pool to the pod to kill it", -- [6]
-		"/g the pods health is based on AP of SP not HP", -- [7]
-		"/g AP or SP*", -- [8]
-		"/g because of the sepearation of HP from Pod Health is probably why you can heal the pod in PvP", -- [9]
-		"/g because I know in PvE the pod isn't a targetable entity it's just an animation, you heal the person not the pod", -- [10]
-		"/g DMG can still be done to the pod but it can't be healed", -- [11]
-		"/g I just need 1 more", -- [12]
-		"/g I need to do my shaman at some point", -- [13]
-		"/cw Líliana 123", -- [14]
-		"/raid for about half that I complete forgot what my keybinds were xD", -- [15]
-		"/m", -- [16]
-		"/ec", -- [17]
-		"/p I can DPS if you want", -- [18]
-		"/p ty for run :)", -- [19]
-		"/alts", -- [20]
+		"/p hey o/", -- [1]
+		"/readycheck", -- [2]
+		"/pull 5", -- [3]
+		"/p everyone to skull nmext shatter", -- [4]
+		"/alts", -- [5]
+		"/ec", -- [6]
+		"/g I could join you on my mage for some", -- [7]
+		"/g 2DPS 1Tank for TW dungeons", -- [8]
+		"/g anyone wanna come for some TW dungeons?", -- [9]
+		"/g I don't really have any DPS which would be capable of Mythic unfortunately :(", -- [10]
+		"/i sorry that was my fault", -- [11]
+		"/i got muself locked", -- [12]
+		"/i xD", -- [13]
+		"/i #relatable xD", -- [14]
+		"everythings alright this evening", -- [15]
+		"just doing some dungeons", -- [16]
+		"yeah noticed that", -- [17]
+		"/m", -- [18]
+		"/i if you give me a couple of secs I need to relog", -- [19]
+		"/i this lag is killing me", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"nop :(", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"<Proper Guild Name> 6/10 Mythic 10/10 HC recruiting UH DK, Balance Druid, SP, Disc Priest, Afflock, MM Hunt. We achieved 12/12 mythic last tier and aim to do so in Castle Nathria. Days Wed/Thurs/Sun 9-12 ST. Apply at www.properguildname.co.uk", -- [1]
+			"Wuâ-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Wuâ-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			331, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16821, -- [11]
+			"Player-3391-0B69B2C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613445889,
+			[52] = "|cffc31d39Wuâ|r",
+			[51] = 1614199629,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [1]
 		{
-			"used to be a thing like moonkin, but ofc blizz in their ultimate wisdom thought tree op", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"Until Dawn is recruiting! Looking for a relaxed, laid-back and mostly fun guild to chat with while you explore the Shadowlands? Look no further! We raid, PvP and do Mythic+! Whisper for an invite!", -- [1]
+			"Meloure-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Meloure-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			332, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16828, -- [11]
+			"Player-3391-0BA042C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613445908,
+			[52] = "|cfffe7b09Meloure|r",
+			[51] = 1614199641,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [2]
 		{
-			"well thats about as much use as tits on milk :( just why blizzard", -- [1]
-			"Rógueóne-Silvermoon", -- [2]
+			"LF PVP GUILD", -- [1]
+			"Fajc-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rógueóne-Silvermoon", -- [5]
+			"Fajc-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			333, -- [11]
-			"Player-3391-0814A6BB", -- [12]
+			16830, -- [11]
+			"Player-3391-0A460C88", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Rógueóne|r",
-			[51] = 1613445915,
+			[52] = "|cfff38bb9Fajc|r",
+			[51] = 1614199646,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [3]
 		{
-			"im guessing the tree form glyph doenst stop polymorph", -- [1]
-			"Kawahi-Silvermoon", -- [2]
+			"<NBC>  M(0-20) [10=90k] [12=120k] [Weekly 14=165k]  [+15= 295k] [All 15 timed 2100k] |||| Castle Nathria full HC=500k trader 210k Curve =160k |||| Mythic/HC specific bosses available ||||Torghast 15% off ALL layers |||| for gold only /w for info", -- [1]
+			"Shadowfùry-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Kawahi-Silvermoon", -- [5]
+			"Shadowfùry-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			335, -- [11]
-			"Player-3391-09936BAA", -- [12]
+			16832, -- [11]
+			"Player-3391-0B03CE69", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeKawahi|r",
-			[51] = 1613445916,
+			[52] = "|cffa22fc8Shadowfùry|r",
+			[51] = 1614199649,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [4]
 		{
-			"I used to main resto druid / Feral tank", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"<ICECROWN> WTS||+15 - 295k|| +14- 185k|| Keystone master (8x15) - 2100k|| // ||Heroic 10/10 for 500k Tomorrow!|| with 1 vip 700k|| Pvp boosts 2v2,3v3 and rbg cr boosts, also offering alot of more stuff /w me for more info!", -- [1]
+			"Demonsnigh-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Demonsnigh-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			339, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16834, -- [11]
+			"Player-3391-09167CCF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613445923,
+			[52] = "|cffa22fc8Demonsnigh|r",
+			[51] = 1614199652,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [5]
 		{
-			"na its cosmetic", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"<Braincheck Raiding> (10/10n 5/10hc) Tired of salty atmosphere? Looking to progress in fun way? Then join us we are perfect for you! Guild just started hc.Need,DPS to fill out our raid roster. We accept all Socials! Raid days are Wed/Sat, /w", -- [1]
+			"Villapaita-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Villapaita-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			340, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16836, -- [11]
+			"Player-3391-096284CA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613445940,
+			[52] = "|cff006fdcVillapaita|r",
+			[51] = 1614199655,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [6]
 		{
-			"like spirit raptors", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"Looking for someone who can buy me a transfer and faction change service .ive got an amazing mindblowing offer that im sure u wont be able to pass.pst for extra information to find out what it is.", -- [1]
+			"Uganderam-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Uganderam-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			343, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16837, -- [11]
+			"Player-3391-0BE364CF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613445954,
+			[52] = "|cffc59a6cUganderam|r",
+			[51] = 1614199657,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [7]
 		{
-			"so resto is just done in normal form now?", -- [1]
-			"Rógueóne-Silvermoon", -- [2]
+			"<Estimate Quantity> 10/10 HC is looking for DPS to fill out our roster as we look to go into mythic raiding! We're raiding Monday and Thursday 19-22 server time. PM if you're interested", -- [1]
+			"Metaphorical-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rógueóne-Silvermoon", -- [5]
+			"Metaphorical-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			345, -- [11]
-			"Player-3391-0814A6BB", -- [12]
+			16838, -- [11]
+			"Player-3391-0BB086B6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Rógueóne|r",
-			[51] = 1613445961,
+			[52] = "|cff00fe97Metaphorical|r",
+			[51] = 1614199658,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [8]
 		{
-			"yea there is Tree of LIfe talent still however", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"WTS |cffa335ee|Hitem:184799::::::::60:577:::3:6652:1472:6646:1:28:1707:::|h[Wolf-Fanged Fist]|h|r cheaper than AH", -- [1]
+			"Shaftxd-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Shaftxd-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			346, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16839, -- [11]
+			"Player-3391-0B0E8F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613445976,
+			[52] = "|cffa22fc8Shaftxd|r",
+			[51] = 1614199668,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [9]
 		{
-			"yup, but there is a talent so you can be tree for like 30 sec", -- [1]
-			"Szastkie-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Alcyeen-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Szastkie-Silvermoon", -- [5]
+			"Alcyeen-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			347, -- [11]
-			"Player-3391-0A0429CA", -- [12]
+			16840, -- [11]
+			"Player-3391-0A292F55", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cSzastkie|r",
-			[51] = 1613445981,
+			[52] = "|cff3ec6eaAlcyeen|r",
+			[51] = 1614199673,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [10]
 		{
-			"3 mins", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"<LGBTQ Community> is a social guild looking for chatty/active people, our goal is to create a community where everyone can fit in and of course \"EVERYONE\" is welcome, we also have a discord server, so if you are interested, do not hesitate to send a DM!", -- [1]
+			"Kässey-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Kässey-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			348, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16842, -- [11]
+			"Player-3391-0A777816", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613445984,
+			[52] = "|cfff38bb9Kässey|r",
+			[51] = 1614199676,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [11]
 		{
-			"yeah seen that aw well :)", -- [1]
-			"Rógueóne-Silvermoon", -- [2]
+			"<Oldschoolers> Are looking for more people to join our raiding and Mythic+ teams. In search of DPS (SP/WW M/ R) Raid Tues & Sun 9:30pm-12am Server time. PM for Details. 5/10 HC ", -- [1]
+			"Strangled-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rógueóne-Silvermoon", -- [5]
+			"Strangled-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			350, -- [11]
-			"Player-3391-0814A6BB", -- [12]
+			16845, -- [11]
+			"Player-3391-08DD617F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Rógueóne|r",
-			[51] = 1613446002,
+			[52] = "|cffc59a6cStrangled|r",
+			[51] = 1614199691,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [12]
 		{
-			"thanks all", -- [1]
-			"Rógueóne-Silvermoon", -- [2]
+			"<Proper Guild Name> 6/10 Mythic 10/10 HC recruiting UH DK, Balance Druid, SP, Disc Priest, Afflock, MM Hunt. We achieved 12/12 mythic last tier and aim to do so in Castle Nathria. Days Wed/Thurs/Sun 9-12 ST. Apply at www.properguildname.co.uk", -- [1]
+			"Wuâ-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rógueóne-Silvermoon", -- [5]
+			"Wuâ-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			351, -- [11]
-			"Player-3391-0814A6BB", -- [12]
+			16846, -- [11]
+			"Player-3391-0B69B2C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Rógueóne|r",
-			[51] = 1613446009,
+			[52] = "|cffc31d39Wuâ|r",
+			[51] = 1614199693,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [13]
 		{
-			"resto got a bit of a buff incoming", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"WTB|cffa335ee|Hitem:184801::::::::60:65:::::::|h[Locke's Essential Scepter]|h|r45K", -- [1]
+			"Torati-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Torati-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			355, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16850, -- [11]
+			"Player-3391-0ACC71F9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613446026,
+			[52] = "|cfff38bb9Torati|r",
+			[51] = 1614199698,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [14]
 		{
-			"so worth having a look", -- [1]
-			"Varando-Silvermoon", -- [2]
+			"WTS |cffa335ee|Hitem:183017::::::::60:265::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Acolyte's Velvet Bindings]|h|r170K 226gs", -- [1]
+			"Wàrrlòck-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Varando-Silvermoon", -- [5]
+			"Wàrrlòck-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			357, -- [11]
-			"Player-3391-0BD2F48A", -- [12]
+			16851, -- [11]
+			"Player-3391-0BE378E0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcVarando|r",
-			[51] = 1613446035,
+			[52] = "|cff8687edWàrrlòck|r",
+			[51] = 1614199698,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
 		{
-			"cant wait for that buff tbh ", -- [1]
-			"Szastkie-Silvermoon", -- [2]
+			"Guys, can some1 help me with Freehold mythic pls? Realy fast", -- [1]
+			"Resuer-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Szastkie-Silvermoon", -- [5]
+			"Resuer-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			358, -- [11]
-			"Player-3391-0A0429CA", -- [12]
+			16853, -- [11]
+			"Player-3391-09D64AC5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cSzastkie|r",
-			[51] = 1613446040,
+			[52] = "|cfff38bb9Resuer|r",
+			[51] = 1614199702,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [16]
 		{
-			"yeah i just used the free lvl boost for a alliance druid have tree form on me tauren and was like wtf:P", -- [1]
-			"Rógueóne-Silvermoon", -- [2]
+			"w", -- [1]
+			"Gokukhdr-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rógueóne-Silvermoon", -- [5]
+			"Gokukhdr-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			360, -- [11]
-			"Player-3391-0814A6BB", -- [12]
+			16855, -- [11]
+			"Player-3391-0BB48914", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Rógueóne|r",
-			[51] = 1613446092,
+			[52] = "|cfff38bb9Gokukhdr|r",
+			[51] = 1614199714,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [17]
 		{
-			"< Ordered Chaos > is a Semi-Hardcore Raiding guild aimed towards AOTC and Mythic Progression  - Currently 10/10H / 2/10M looking for extra people to fill a raid roster for shadowlands. Raid Days : Wed / Mon / Tue 20:00 - 23:00", -- [1]
-			"Syluü-Silvermoon", -- [2]
+			"Until Dawn is recruiting! Looking for a relaxed, laid-back and mostly fun guild to chat with while you explore the Shadowlands? Look no further! We raid, PvP and do Mythic+! Whisper for an invite!", -- [1]
+			"Meloure-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Syluü-Silvermoon", -- [5]
+			"Meloure-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			361, -- [11]
-			"Player-3391-090CACDD", -- [12]
+			16857, -- [11]
+			"Player-3391-0BA042C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Syluü|r",
-			[51] = 1613446098,
+			[52] = "|cfffe7b09Meloure|r",
+			[51] = 1614199716,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [18]
 		{
-			"resto is in interesting spot righn now so a little buff is nice", -- [1]
-			"Szastkie-Silvermoon", -- [2]
+			"need arena skirmish partner for 10 wins", -- [1]
+			"Gaarasa-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Szastkie-Silvermoon", -- [5]
+			"Gaarasa-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			370, -- [11]
-			"Player-3391-0A0429CA", -- [12]
+			16859, -- [11]
+			"Player-3391-0BD6D6A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cSzastkie|r",
-			[51] = 1613446119,
+			[52] = "|cfffe7b09Gaarasa|r",
+			[51] = 1614199726,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [19]
 		{
-			"its  - 21 today, how survive?", -- [1]
-			"Irisky-Silvermoon", -- [2]
+			"will pay", -- [1]
+			"Gaarasa-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Irisky-Silvermoon", -- [5]
+			"Gaarasa-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			391, -- [11]
-			"Player-3391-09E2F9E4", -- [12]
+			16860, -- [11]
+			"Player-3391-0BD6D6A6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Irisky|r",
-			[51] = 1613446147,
+			[52] = "|cfffe7b09Gaarasa|r",
+			[51] = 1614199728,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [20]
 		{
-			"which resto, druid or shaman?", -- [1]
-			"Rargoth-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Alcyeen-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rargoth-Silvermoon", -- [5]
+			"Alcyeen-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			392, -- [11]
-			"Player-3391-0BD2132E", -- [12]
+			16862, -- [11]
+			"Player-3391-0A292F55", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcRargoth|r",
-			[51] = 1613446153,
+			[52] = "|cff3ec6eaAlcyeen|r",
+			[51] = 1614199736,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [21]
 		{
-			"druid ", -- [1]
-			"Szastkie-Silvermoon", -- [2]
+			"WTS |cffa335ee|Hitem:184795::::::::60:102::6:3:41:1472:6646:1:28:753:::|h[Tharatos' Charred Chestplate]|h|r + LEECH ", -- [1]
+			"Goldenelf-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Szastkie-Silvermoon", -- [5]
+			"Goldenelf-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			393, -- [11]
-			"Player-3391-0A0429CA", -- [12]
+			16864, -- [11]
+			"Player-3391-0BB1C8F6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cSzastkie|r",
-			[51] = 1613446162,
+			[52] = "|cfffe7b09Goldenelf|r",
+			[51] = 1614199737,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [22]
 		{
-			"and this is why i love silvermoon, love you guys<3", -- [1]
-			"Rógueóne-Silvermoon", -- [2]
+			"WTS |cffa335ee|Hitem:1728::::::::1:1446:::1:6661:2:9:30:28:36:::|h[Teebu's Blazing Longsword]|h|r|cffa335ee|Hitem:1168::::::::1:1446:::1:6661:2:9:30:28:36:::|h[Skullflame Shield]|h|r", -- [1]
+			"Skobank-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rógueóne-Silvermoon", -- [5]
+			"Skobank-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			394, -- [11]
-			"Player-3391-0814A6BB", -- [12]
+			16865, -- [11]
+			"Player-3391-0BA957DE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Rógueóne|r",
-			[51] = 1613446165,
+			[52] = "|cffc59a6cSkobank|r",
+			[51] = 1614199739,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [23]
 		{
-			"we love you too <3", -- [1]
-			"Irisky-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Deathmourne-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Irisky-Silvermoon", -- [5]
+			"Deathmourne-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			395, -- [11]
-			"Player-3391-09E2F9E4", -- [12]
+			16866, -- [11]
+			"Player-3391-07745DFD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Irisky|r",
-			[51] = 1613446177,
+			[52] = "|cffc31d39Deathmourne|r",
+			[51] = 1614199747,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [24]
 		{
-			"<Uncommitted> is looking for a Healer (Priest/Rsham pref.) and a Mage for its Mythic Roster. 2/10M 10/10H. We raid Thursday/Saturday 20:00>23:00. /w for details", -- [1]
-			"Arroçe-Silvermoon", -- [2]
+			"<The Bailiffs> is a raiding guild currently 2/10M 10/10HC we are recruiting healers and DPS  to join our ranks as we progress through mythic. Raids are Wed/Thurs/Sun 8.30ST-11.30ST. /w for info.", -- [1]
+			"Pepsey-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arroçe-Silvermoon", -- [5]
+			"Pepsey-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			396, -- [11]
-			"Player-3391-0B322F2A", -- [12]
+			16868, -- [11]
+			"Player-3391-0AF54F9A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Arroçe|r",
-			[51] = 1613446191,
+			[52] = "|cff00fe97Pepsey|r",
+			[51] = 1614199752,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [25]
 		{
-			"< Ordered Chaos > is a Semi-Hardcore Raiding guild aimed towards AOTC and Mythic Progression  - Currently 10/10H / 2/10M looking for extra people to fill a raid roster for shadowlands. Raid Days : Wed / Mon / Tue 20:00 - 23:00", -- [1]
-			"Syluü-Silvermoon", -- [2]
+			"WTS |cffa335ee|Hitem:184784::::::::60:66:::4:6652:7193:1472:6646:1:28:1707:::|h[Punishing Loop]|h|r ", -- [1]
+			"Gokukhdr-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Syluü-Silvermoon", -- [5]
+			"Gokukhdr-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			397, -- [11]
-			"Player-3391-090CACDD", -- [12]
+			16871, -- [11]
+			"Player-3391-0BB48914", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Syluü|r",
-			[51] = 1613446206,
+			[52] = "|cfff38bb9Gokukhdr|r",
+			[51] = 1614199758,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [26]
 		{
-			"i love when silvermoon love silvermoon :D", -- [1]
-			"Irisky-Silvermoon", -- [2]
+			"<NBC>  M(0-20) [10=90k] [12=120k] [Weekly 14=165k]  [+15= 295k] [All 15 timed 2100k] |||| Castle Nathria full HC=500k trader 210k Curve =160k |||| Mythic/HC specific bosses available ||||Torghast 15% off ALL layers |||| for gold only /w for info", -- [1]
+			"Shadowfùry-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Irisky-Silvermoon", -- [5]
+			"Shadowfùry-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			408, -- [11]
-			"Player-3391-09E2F9E4", -- [12]
+			16873, -- [11]
+			"Player-3391-0B03CE69", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Irisky|r",
-			[51] = 1613446279,
+			[52] = "|cffa22fc8Shadowfùry|r",
+			[51] = 1614199761,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [27]
 		{
-			"we are pretty dope server after all ^^", -- [1]
-			"Irisky-Silvermoon", -- [2]
+			"<Estimate Quantity> 10/10 HC is looking for DPS to fill out our roster as we look to go into mythic raiding! We're raiding Monday and Thursday 19-22 server time. PM if you're interested", -- [1]
+			"Metaphorical-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Irisky-Silvermoon", -- [5]
+			"Metaphorical-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			409, -- [11]
-			"Player-3391-09E2F9E4", -- [12]
+			16878, -- [11]
+			"Player-3391-0BB086B6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Irisky|r",
-			[51] = 1613446293,
+			[52] = "|cff00fe97Metaphorical|r",
+			[51] = 1614199767,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [28]
 		{
-			"I meaan... not the worst :D", -- [1]
-			"Szastkie-Silvermoon", -- [2]
+			"<Braincheck Raiding> (10/10n 5/10hc) Tired of salty atmosphere? Looking to progress in fun way? Then join us we are perfect for you! Guild just started hc.Need,DPS to fill out our raid roster. We accept all Socials! Raid days are Wed/Sat, /w", -- [1]
+			"Villapaita-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Szastkie-Silvermoon", -- [5]
+			"Villapaita-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			410, -- [11]
-			"Player-3391-0A0429CA", -- [12]
+			16882, -- [11]
+			"Player-3391-096284CA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cSzastkie|r",
-			[51] = 1613446308,
+			[52] = "|cff006fdcVillapaita|r",
+			[51] = 1614199773,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [29]
 		{
-			"well its because your awesome, thanks for the help reallly appreciate it <3", -- [1]
-			"Nelfonashelf-Silvermoon", -- [2]
+			"WTS M0 - M15  Boost (armor stack) ! CN normal / HC full run and Last 2 bosses torghast layer 1-8 ! fair price fast runs /w for more info ( gold only)", -- [1]
+			"Zoobriinger-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Nelfonashelf-Silvermoon", -- [5]
+			"Zoobriinger-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			411, -- [11]
-			"Player-3391-0BE3D08D", -- [12]
+			16884, -- [11]
+			"Player-3391-0BC88EF9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Nelfonashelf|r",
-			[51] = 1613446313,
+			[52] = "|cffa9d271Zoobriinger|r",
+			[51] = 1614199784,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [30]
 		{
-			"< Ordered Chaos > is a Semi-Hardcore Raiding guild aimed towards AOTC and Mythic Progression  - Currently 10/10H / 2/10M looking for extra people to fill a raid roster for shadowlands. Raid Days : Wed / Mon / Tue 20:00 - 23:00", -- [1]
-			"Syluü-Silvermoon", -- [2]
+			"Until Dawn is recruiting! Looking for a relaxed, laid-back and mostly fun guild to chat with while you explore the Shadowlands? Look no further! We raid, PvP and do Mythic+! Whisper for an invite!", -- [1]
+			"Meloure-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Syluü-Silvermoon", -- [5]
+			"Meloure-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			414, -- [11]
-			"Player-3391-090CACDD", -- [12]
+			16885, -- [11]
+			"Player-3391-0BA042C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Syluü|r",
-			[51] = 1613446358,
+			[52] = "|cfffe7b09Meloure|r",
+			[51] = 1614199795,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [31]
 		{
-			"<Classic is Better> 2/10 M. LF an Exceptional Ranged DPS to add to our Mythic raiding group, Also pushing M+ keys, Thurs/Mon 20:00 - 23:00 st.", -- [1]
-			"Neptuneprime-Silvermoon", -- [2]
+			"<Proper Guild Name> 6/10 Mythic 10/10 HC recruiting UH DK, Balance Druid, SP, Disc Priest, Afflock, MM Hunt. We achieved 12/12 mythic last tier and aim to do so in Castle Nathria. Days Wed/Thurs/Sun 9-12 ST. Apply at www.properguildname.co.uk", -- [1]
+			"Wuâ-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Neptuneprime-Silvermoon", -- [5]
+			"Wuâ-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			442, -- [11]
-			"Player-3391-0BD62CD6", -- [12]
+			16886, -- [11]
+			"Player-3391-0B69B2C2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Neptuneprime|r",
-			[51] = 1613446620,
+			[52] = "|cffc31d39Wuâ|r",
+			[51] = 1614199801,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [32]
 		{
-			"WTS |cffa335ee|Hitem:184790::::::::60:70:::3:6652:1472:6646:1:28:1707:::|h[Archdruid Van-Yali's Greenthumbs]|h|r", -- [1]
-			"Snairav-Silvermoon", -- [2]
+			"WTB |cffa335ee|Hitem:183008::::::::60:63:::::::|h[Supple Supplicant's Gloves]|h|r", -- [1]
+			"Doorali-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Snairav-Silvermoon", -- [5]
+			"Doorali-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			473, -- [11]
-			"Player-3391-0BB90C1A", -- [12]
+			16887, -- [11]
+			"Player-3391-0BE0127C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Snairav|r",
-			[51] = 1613446908,
+			[52] = "|cff3ec6eaDoorali|r",
+			[51] = 1614199806,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [33]
 		{
-			"WTS |cffffffff|Hitem:49916::::::::60:62:::::::|h[Lovely Charm Bracelet]|h|r", -- [1]
-			"Apucata-Silvermoon", -- [2]
+			"WTS |cffa335ee|Hitem:184784::::::::60:66:::4:6652:7193:1472:6646:1:28:1707:::|h[Punishing Loop]|h|r 120k", -- [1]
+			"Gokukhdr-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Apucata-Silvermoon", -- [5]
+			"Gokukhdr-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			491, -- [11]
-			"Player-3391-0BBB5DBF", -- [12]
+			16888, -- [11]
+			"Player-3391-0BB48914", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaApucata|r",
-			[51] = 1613447072,
+			[52] = "|cfff38bb9Gokukhdr|r",
+			[51] = 1614199808,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [34]
 		{
-			"WTS |cffffffff|Hitem:49916::::::::60:62:::::::|h[Lovely Charm Bracelet]|h|r ", -- [1]
-			"Apucata-Silvermoon", -- [2]
+			"<LGBTQ Community> is a social guild looking for chatty/active people, our goal is to create a community where everyone can fit in and of course \"EVERYONE\" is welcome, we also have a discord server, so if you are interested, do not hesitate to send a DM!", -- [1]
+			"Kässey-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Apucata-Silvermoon", -- [5]
+			"Kässey-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			499, -- [11]
-			"Player-3391-0BBB5DBF", -- [12]
+			16890, -- [11]
+			"Player-3391-0A777816", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaApucata|r",
-			[51] = 1613447282,
+			[52] = "|cfff38bb9Kässey|r",
+			[51] = 1614199816,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [35]
 		{
-			"i got apple watches 6 ", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Alcyeen-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Alcyeen-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			500, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16891, -- [11]
+			"Player-3391-0A292F55", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447346,
+			[52] = "|cff3ec6eaAlcyeen|r",
+			[51] = 1614199819,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [36]
 		{
-			"they didnt arriive yet tho", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"Until Dawn is recruiting! Looking for a relaxed, laid-back and mostly fun guild to chat with while you explore the Shadowlands? Look no further! We raid, PvP and do Mythic+! Whisper for an invite!Until Dawn is recruiting! Looking for a relaxed, laid-back ", -- [1]
+			"Meloure-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Meloure-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			501, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16893, -- [11]
+			"Player-3391-0BA042C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447374,
+			[52] = "|cfffe7b09Meloure|r",
+			[51] = 1614199822,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [37]
 		{
-			"they stucked in china", -- [1]
-			"Apucata-Silvermoon", -- [2]
+			"Nowopowstała gildia 'Inner Light', której aktywność skupia się przede wszystkim na wspólnym graniu m+, poszukuje graczy aktywnych discordowo.", -- [1]
+			"Noriena-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Apucata-Silvermoon", -- [5]
+			"Noriena-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			502, -- [11]
-			"Player-3391-0BBB5DBF", -- [12]
+			16894, -- [11]
+			"Player-3391-0A2224B7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaApucata|r",
-			[51] = 1613447398,
+			[52] = "|cfffe7b09Noriena|r",
+			[51] = 1614199825,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [38]
 		{
-			"kinda happy lol", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14836:Player-3391-0BE4B9D5:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[Unwavering Bond]|h|r!", -- [1]
+			"Zinicmage-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"", -- [4]
+			"Zinicmage-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			503, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16895, -- [11]
+			"Player-3391-0BE4B9D5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447400,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3ec6eaZinicmage|r",
+			[51] = 1614199828,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [39]
 		{
-			"really?", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"<Braincheck Raiding> (10/10n 5/10hc) Tired of salty atmosphere? Looking to progress in fun way? Then join us we are perfect for you! Guild just started hc.Need,DPS to fill out our raid roster. We accept all Socials! Raid days are Wed/Sat, /w", -- [1]
+			"Villapaita-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Villapaita-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			506, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16896, -- [11]
+			"Player-3391-096284CA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447411,
+			[52] = "|cff006fdcVillapaita|r",
+			[51] = 1614199843,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [40]
 		{
-			"my babe gave all apples news", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"<Estimate Quantity> 10/10 HC is looking for dps and a heal to complete our roster as we head into mythic progression! We're raiding Monday and Thursday 19-22 server time. PM if you're interested", -- [1]
+			"Porriw-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Porriw-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			562, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16899, -- [11]
+			"Player-3391-0BC33363", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447519,
+			[52] = "|cffa9d271Porriw|r",
+			[51] = 1614199845,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [41]
 		{
-			"phones and watches", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"any boe run ?", -- [1]
+			"Amojany-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Amojany-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			571, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16904, -- [11]
+			"Player-3391-0BD5DB46", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447535,
+			[52] = "|cffa22fc8Amojany|r",
+			[51] = 1614199851,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [42]
 		{
-			"but he is not here ", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"WTS Mount |cff71d5ff|Hspell:259741:0|h[Honeyback Harvester]|h|r /w me", -- [1]
+			"Ãphrodite-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Ãphrodite-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			582, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16907, -- [11]
+			"Player-3391-0AE141CF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447557,
+			[52] = "|cfffe7b09Ãphrodite|r",
+			[51] = 1614199854,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [43]
 		{
-			"WTS: |cffffffff|Hitem:49916::::::::26:256:::::::|h[Lovely Charm Bracelet]|h|r 100g each", -- [1]
-			"Lethallolly-Silvermoon", -- [2]
+			"Until Dawn is recruiting! Looking for a relaxed, laid-back and mostly fun guild to chat with while you explore the Shadowlands? Look no further! We raid, PvP and do Mythic+! Whisper for an invite!", -- [1]
+			"Meloure-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Lethallolly-Silvermoon", -- [5]
+			"Meloure-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			624, -- [11]
-			"Player-3391-0BE22AFF", -- [12]
+			16909, -- [11]
+			"Player-3391-0BA042C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeLethallolly|r",
-			[51] = 1613447617,
+			[52] = "|cfffe7b09Meloure|r",
+			[51] = 1614199862,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [44]
 		{
-			"sold out", -- [1]
-			"Lethallolly-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lethallolly-Silvermoon", -- [5]
+			"s", -- [1]
+			"Mefsitopanda-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mefsitopanda-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			668, -- [11]
-			"Player-3391-0BE22AFF", -- [12]
+			16917, -- [11]
+			"Player-3391-0A1279E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLethallolly|r",
-			[51] = 1613447689,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cMefsitopanda|r",
+			[51] = 1614199885,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [45]
 		{
-			"should i leave him?", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"<Nova> Selling Boost  M+10=90k / M+14=185k / M+15= 295k /Keystone Master 2.1M /2 run 7.5% discount or Stack armor FREE / Selling CASTLE NATHRIA Full HC 500k and per Stack Armor 220k /Curve 160k  / NM Raid 200k / Torghast Boost /w for info", -- [1]
+			"Exoservice-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Exoservice-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			671, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16918, -- [11]
+			"Player-3391-0BE1332A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447691,
+			[52] = "|cff3ec6eaExoservice|r",
+			[51] = 1614199885,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [46]
 		{
-			"Who's up for RMP", -- [1]
-			"Alkias-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Alcyeen-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Alkias-Silvermoon", -- [5]
+			"Alcyeen-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			676, -- [11]
-			"Player-3391-0A920790", -- [12]
+			16921, -- [11]
+			"Player-3391-0A292F55", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Alkias|r",
-			[51] = 1613447696,
+			[52] = "|cff3ec6eaAlcyeen|r",
+			[51] = 1614199888,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [47]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|r Looking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"<Braincheck Raiding> (10/10n 5/10hc) Tired of salty atmosphere? Looking to progress in fun way? Then join us we are perfect for you! Guild just started hc.Need,DPS to fill out our raid roster. We accept all Socials! Raid days are Wed/Sat, /w", -- [1]
+			"Villapaita-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"Villapaita-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			694, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			16942, -- [11]
+			"Player-3391-096284CA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613447720,
+			[52] = "|cff006fdcVillapaita|r",
+			[51] = 1614199912,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [48]
 		{
-			"looking to buy |cffffffff|Hitem:49916::::::::60:71:::::::|h[Lovely Charm Bracelet]|h|r", -- [1]
-			"Zrasalghulz-Silvermoon", -- [2]
+			"WTS Guildrun 10/10 HC Castel Nathria Personal Loot, optional leather/cloth trader", -- [1]
+			"Slingix-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Zrasalghulz-Silvermoon", -- [5]
+			"Slingix-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			709, -- [11]
-			"Player-3391-0B2128A8", -- [12]
+			16945, -- [11]
+			"Player-3391-06B8928B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cZrasalghulz|r",
-			[51] = 1613447766,
+			[52] = "|cfffe7b09Slingix|r",
+			[51] = 1614199916,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [49]
 		{
-			":((( ( (  ( (( ((  ( ( (  ( (  (  ( (  (  ( ( (  (( ( ( ", -- [1]
-			"Destrfrancis-Silvermoon", -- [2]
+			"Nowopowstała gildia 'Inner Light', której aktywność skupia się przede wszystkim na wspólnym graniu m+, poszukuje graczy aktywnych discordowo.", -- [1]
+			"Noriena-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Destrfrancis-Silvermoon", -- [5]
+			"Noriena-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			733, -- [11]
-			"Player-3391-0A2BCF6C", -- [12]
+			16959, -- [11]
+			"Player-3391-0A2224B7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Destrfrancis|r",
-			[51] = 1613447800,
+			[52] = "|cfffe7b09Noriena|r",
+			[51] = 1614199927,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [50]
 		{
-			"i mean, how long would you for your SO?", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"LF 1 dps/heal Mythic CN @Hungering. Guild run going 7-10", -- [1]
+			"Kolitopapito-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Kolitopapito-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			744, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16965, -- [11]
+			"Player-3391-0BDAE74D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447819,
+			[52] = "|cff00fe97Kolitopapito|r",
+			[51] = 1614199937,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [51]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|r Looking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"WTS Mount |cff71d5ff|Hspell:259741:0|h[Honeyback Harvester]|h|r /w me", -- [1]
+			"Ãphrodite-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"Ãphrodite-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			747, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			16972, -- [11]
+			"Player-3391-0AE141CF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613447823,
+			[52] = "|cfffe7b09Ãphrodite|r",
+			[51] = 1614199950,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [52]
 		{
-			"that kinda about 5 years", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"LF 1 dps/heal Mythic CN silvermoon @Hungering. Guild run going 7-10", -- [1]
+			"Kolitopapito-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Kolitopapito-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			774, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16975, -- [11]
+			"Player-3391-0BDAE74D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447879,
+			[52] = "|cff00fe97Kolitopapito|r",
+			[51] = 1614199953,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [53]
 		{
-			"READ THE STANDING ORDERS", -- [1]
-			"Flet-Silvermoon", -- [2]
+			"|cffa335ee|Hitem:44311::::::::50:254::3:1:6661:2:9:30:28:1020:::|h[Avool's Sword of Jin]|h|r|cffa335ee|Hitem:44310::::::::50:254::3:1:6661:2:9:30:28:1020:::|h[Namlak's Supernumerary Sticker]|h|r someone need?", -- [1]
+			"Kagetsuna-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Flet-Silvermoon", -- [5]
+			"Kagetsuna-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			782, -- [11]
-			"Player-3391-0BE4029E", -- [12]
+			16978, -- [11]
+			"Player-3391-0BC543D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Flet|r",
-			[51] = 1613447893,
+			[52] = "|cffa9d271Kagetsuna|r",
+			[51] = 1614199958,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [54]
 		{
-			"but i have all apple ", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"<Estimate Quantity> 10/10 HC is looking for dps and a heal to complete our roster as we head into mythic progression! We're raiding Monday and Thursday 19-22 server time. PM if you're interested", -- [1]
+			"Porriw-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Porriw-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			785, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			16980, -- [11]
+			"Player-3391-0BC33363", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447898,
+			[52] = "|cffa9d271Porriw|r",
+			[51] = 1614199960,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [55]
 		{
-			"READ THEM AND UNDERTAND THEM", -- [1]
-			"Flet-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Alcyeen-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Flet-Silvermoon", -- [5]
+			"Alcyeen-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			788, -- [11]
-			"Player-3391-0BE4029E", -- [12]
+			16993, -- [11]
+			"Player-3391-0A292F55", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Flet|r",
-			[51] = 1613447901,
+			[52] = "|cff3ec6eaAlcyeen|r",
+			[51] = 1614199979,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [56]
 		{
-			"YOU HAVE NO AUTHORUTY HERE", -- [1]
-			"Abeskyrider-Silvermoon", -- [2]
+			"{WTS}l Mythic dung key number 0-15(100%intimeGurantee)(Armor Stack (All Loot is yours)&good discounts&(Gp Ready) Whisper Me For More Info.", -- [1]
+			"Rebelangel-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Abeskyrider-Silvermoon", -- [5]
+			"Rebelangel-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			805, -- [11]
-			"Player-3391-0774A471", -- [12]
+			16999, -- [11]
+			"Player-3391-0BB4ED13", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaAbeskyrider|r",
-			[51] = 1613447935,
+			[52] = "|cffc31d39Rebelangel|r",
+			[51] = 1614199988,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [57]
 		{
-			"indeed", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"<NBC>  M(0-20) [10=90k] [12=120k] [Weekly 14=165k]  [+15= 295k] [All 15 timed 2100k] |||| Castle Nathria full HC=500k trader 210k Curve =160k |||| Mythic/HC specific bosses available ||||Torghast 15% off ALL layers |||| for gold only /w for info", -- [1]
+			"Shadowfùry-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Shadowfùry-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			809, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			17006, -- [11]
+			"Player-3391-0B03CE69", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447942,
+			[52] = "|cffa22fc8Shadowfùry|r",
+			[51] = 1614199997,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [58]
 		{
-			"jackie ", -- [1]
-			"Flet-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Deathmourne-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Flet-Silvermoon", -- [5]
+			"Deathmourne-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			820, -- [11]
-			"Player-3391-0BE4029E", -- [12]
+			17010, -- [11]
+			"Player-3391-07745DFD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Flet|r",
-			[51] = 1613447962,
+			[52] = "|cffc31d39Deathmourne|r",
+			[51] = 1614200003,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [59]
 		{
-			"looking for an enchanter", -- [1]
-			"Shori-Silvermoon", -- [2]
+			"<Estimate Quantity> 10/10 HC is looking for DPS to fill out our roster as we look to go into mythic raiding! We're raiding Monday and Thursday 19-22 server time. PM if you're interested", -- [1]
+			"Metaphorical-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Shori-Silvermoon", -- [5]
+			"Metaphorical-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			822, -- [11]
-			"Player-3391-0BD5784C", -- [12]
+			17017, -- [11]
+			"Player-3391-0BB086B6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Shori|r",
-			[51] = 1613447965,
+			[52] = "|cff00fe97Metaphorical|r",
+			[51] = 1614200012,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [60]
 		{
-			"it weird guys", -- [1]
-			"Ìrisky-Silvermoon", -- [2]
+			"<Braincheck Raiding> (10/10n 5/10hc) Tired of salty atmosphere? Looking to progress in fun way? Then join us we are perfect for you! Guild just started hc.Need,DPS to fill out our raid roster. We accept all Socials! Raid days are Wed/Sat, /w", -- [1]
+			"Villapaita-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Ìrisky-Silvermoon", -- [5]
+			"Villapaita-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			826, -- [11]
-			"Player-3391-0BE03A33", -- [12]
+			17033, -- [11]
+			"Player-3391-096284CA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaÌrisky|r",
-			[51] = 1613447971,
+			[52] = "|cff006fdcVillapaita|r",
+			[51] = 1614200040,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [61]
 		{
-			"zug zug", -- [1]
-			"Destrfrancis-Silvermoon", -- [2]
+			"Until Dawn is recruiting! Looking for a relaxed, laid-back and mostly fun guild to chat with while you explore the Shadowlands? Look no further! We raid, PvP and do Mythic+! Whisper for an invite!", -- [1]
+			"Meloure-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Destrfrancis-Silvermoon", -- [5]
+			"Meloure-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			833, -- [11]
-			"Player-3391-0A2BCF6C", -- [12]
+			17036, -- [11]
+			"Player-3391-0BA042C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Destrfrancis|r",
-			[51] = 1613447984,
+			[52] = "|cfffe7b09Meloure|r",
+			[51] = 1614200043,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [62]
 		{
-			"illegaly", -- [1]
-			"Flet-Silvermoon", -- [2]
+			"LF 1 dps/heal Mythic CN @Hungering. Guild run going 7-10", -- [1]
+			"Kolitopapito-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Flet-Silvermoon", -- [5]
+			"Kolitopapito-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			842, -- [11]
-			"Player-3391-0BE4029E", -- [12]
+			17045, -- [11]
+			"Player-3391-0BDAE74D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Flet|r",
-			[51] = 1613444400,
+			[52] = "|cff00fe97Kolitopapito|r",
+			[51] = 1614200058,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [63]
 		{
-			"<Paranoya> (9/10 Heroic) Progressimizi artırmak için bize katılacak yetenekli ve gearlı dpsler (balance druid ve shadow priest öncelikli tüm rangedler) ve healer (priest öncelikli) arıyoruz. Drama olmadan raid yapmak isteyen insanları bekleriz.", -- [1]
-			"Mialina-Silvermoon", -- [2]
+			"|cffffd100|HclubFinder:ClubFinder-1-29435-3391-40077832|h[Guild: Silvercity]|h|r Neo Elliniko Semi-Hardcore Guild anazita atoma gia Mythic Raiding roster, me prio HEAL/DPS. Stoxos to Progress kai to Cutting Edge. Socials euprosdektoi. /w for info", -- [1]
+			"Alcyeen-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Mialina-Silvermoon", -- [5]
+			"Alcyeen-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			847, -- [11]
-			"Player-3391-08D06A7E", -- [12]
+			17050, -- [11]
+			"Player-3391-0A292F55", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Mialina|r",
-			[51] = 1613444409,
+			[52] = "|cff3ec6eaAlcyeen|r",
+			[51] = 1614200067,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [64]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|r Looking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"WTS Guildrun 10/10 HC Castel Nathria Personal Loot, optional leather/cloth trader", -- [1]
+			"Slingix-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"Slingix-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			856, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			17055, -- [11]
+			"Player-3391-06B8928B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613448026,
+			[52] = "|cfffe7b09Slingix|r",
+			[51] = 1614200074,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [65]
 		{
-			"LF Tailor with rank 3 chest", -- [1]
-			"Lukenzi-Silvermoon", -- [2]
+			"Nowopowstała gildia 'Inner Light', której aktywność skupia się przede wszystkim na wspólnym graniu m+, poszukuje graczy aktywnych discordowo.", -- [1]
+			"Noriena-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Lukenzi-Silvermoon", -- [5]
+			"Noriena-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			861, -- [11]
-			"Player-3391-0B7F7CA0", -- [12]
+			17067, -- [11]
+			"Player-3391-0A2224B7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaLukenzi|r",
-			[51] = 1613448034,
+			[52] = "|cfffe7b09Noriena|r",
+			[51] = 1614200092,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [66]
 		{
-			"THEY TERK ERR JERBS!!!", -- [1]
-			"Abeskyrider-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:660:Player-3391-0BDBEE16:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[The Arcatraz]|h|r!", -- [1]
+			"Antarin-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Abeskyrider-Silvermoon", -- [5]
+			"", -- [4]
+			"Antarin-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			881, -- [11]
-			"Player-3391-0774A471", -- [12]
+			17074, -- [11]
+			"Player-3391-0BDBEE16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaAbeskyrider|r",
-			[51] = 1613448092,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc31d39Antarin|r",
+			[51] = 1614200099,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [67]
 		{
-			"looking for an enchanter!", -- [1]
-			"Shori-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:681:Player-3391-0BDBEE16:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Arcatraz]|h|r!", -- [1]
+			"Antarin-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shori-Silvermoon", -- [5]
+			"", -- [4]
+			"Antarin-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			893, -- [11]
-			"Player-3391-0BD5784C", -- [12]
+			17075, -- [11]
+			"Player-3391-0BDBEE16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Shori|r",
-			[51] = 1613448115,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc31d39Antarin|r",
+			[51] = 1614200099,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [68]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|r Looking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"Psychic Horror on Selalara", -- [1]
+			"Selalara-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Selalara-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1035, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			17187, -- [11]
+			"Player-3391-0B44F198", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613448450,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Selalara|r",
+			[51] = 1614200536,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [69]
 		{
-			"†_†_†_<ICECROWN>_†_†_†_HEROIC_FULL_RUN_+0~+10_+12_+14_+15_KEYS._ALWAYS_BEST_PRICE_._BIG_DISCOUNTS_MULTIPLE_BUYS_._ARMOR_STACKS_DESIRED ITEMS % KEYS_._TORGHAST/Corridors_LAYERS_1-2-3-4-5-6-7-8__BOOST FOR LIFE! \\m/ dont hesitate \\w/hisper", -- [1]
-			"Nanikaicc-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:649:Player-3391-0B3793E5:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r!", -- [1]
+			"Yóshino-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nanikaicc-Silvermoon", -- [5]
+			"", -- [4]
+			"Yóshino-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1138, -- [11]
-			"Player-3391-0BE3101E", -- [12]
+			17241, -- [11]
+			"Player-3391-0B3793E5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Nanikaicc|r",
-			[51] = 1613448898,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Yóshino|r",
+			[51] = 1614200784,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [70]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|r Looking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:669:Player-3391-0B3793E5:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Slave Pens]|h|r!", -- [1]
+			"Yóshino-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"", -- [4]
+			"Yóshino-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1166, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			17242, -- [11]
+			"Player-3391-0B3793E5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613448943,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Yóshino|r",
+			[51] = 1614200784,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [71]
 		{
-			"Anybody has |cffffffff|Hitem:21822::::::::60:73:::::::|h[Heart Candy]|h|r with \"Be Mine\"? I can trade for a few others", -- [1]
-			"Avardian-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:649:Player-3391-0B44F198:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r!", -- [1]
+			"Selalara-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Avardian-Silvermoon", -- [5]
+			"", -- [4]
+			"Selalara-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1177, -- [11]
-			"Player-3391-0B7DD956", -- [12]
+			17243, -- [11]
+			"Player-3391-0B44F198", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAvardian|r",
-			[51] = 1613449099,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Selalara|r",
+			[51] = 1614200784,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [72]
 		{
-			"<ICECROWN>_HEROIC_FULL_RUN_VIP_+0_+10_+12_+14_+15._ALWAYS_BEST_PRICE_._BIG_DISCOUNTS_MULTIPLE_BUYS_._ARMOR STACKS__DESIRED ITEMS & KEYS__TORGAST/Corridors  LAYERS 1-2-3-4-5-6-7-8__BOOST FOR LIFE! \\_/ dont hesitate /w", -- [1]
-			"Nanikaicc-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:669:Player-3391-0B44F198:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Slave Pens]|h|r!", -- [1]
+			"Selalara-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nanikaicc-Silvermoon", -- [5]
+			"", -- [4]
+			"Selalara-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1182, -- [11]
-			"Player-3391-0BE3101E", -- [12]
+			17244, -- [11]
+			"Player-3391-0B44F198", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Nanikaicc|r",
-			[51] = 1613449206,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Selalara|r",
+			[51] = 1614200784,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [73]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|rLooking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:4478:Player-3391-0B44F198:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[Looking For Multitudes]|h|r!", -- [1]
+			"Selalara-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"", -- [4]
+			"Selalara-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1183, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			17257, -- [11]
+			"Player-3391-0B44F198", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613449239,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa9d271Selalara|r",
+			[51] = 1614200784,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [74]
 		{
-			"†_†_†_<ICECROWN>_†_†_†_HEROIC_FULL_RUN_+0~+10_+12_+14_+15_KEYS._ALWAYS_BEST_PRICE_._BIG_DISCOUNTS_MULTIPLE_BUYS_._ARMOR_STACKS_DESIRED ITEMS % KEYS_._TORGHAST/Corridors_LAYERS_1-2-3-4-5-6-7-8__BOOST FOR LIFE! \\m/ dont hesitate \\w/hisper", -- [1]
-			"Nanikaicc-Silvermoon", -- [2]
+			"WTS Guildrun 10/10 HC Castle Nathria Personal Loot, optional leather/cloth trader", -- [1]
+			"Slingix-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Nanikaicc-Silvermoon", -- [5]
+			"Slingix-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1203, -- [11]
-			"Player-3391-0BE3101E", -- [12]
+			17271, -- [11]
+			"Player-3391-06B8928B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Nanikaicc|r",
-			[51] = 1613449321,
+			[52] = "|cfffe7b09Slingix|r",
+			[51] = 1614200812,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [75]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|r Looking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"<Detrimental> Currently looking for healers to progress HC! Chilled out relaxqing atmosphere, Raiders, M+ and Social Players welcome. We have an active discord, regular m+ and more !", -- [1]
+			"Arturó-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"Arturó-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1219, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			17273, -- [11]
+			"Player-3391-0BC79839", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613449420,
+			[52] = "|cff00fe97Arturó|r",
+			[51] = 1614200823,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [76]
 		{
-			"<NOVA>  ||Keystone Master (All 15s  = 2500k|| ||M+10=135k|| ||M+12=175k|| ||M+14=245k|| ||M+15  = 375k|| SHARELOOT+ARMORSTACK! [Castle Nathria HC Full = 500K , VIP Trader = 200 ||CURVE  140k, ARENAS, RBGs, LEGACY RAIDS +ALL KINDS OF BOOSTS!", -- [1]
-			"Orphanes-Silvermoon", -- [2]
+			"<Icecrown> Is selling Heroic  |cff66bbff|Hjournal:0:1190:16|h[Castle Nathria]|h|r  Last 2 bosses every 30mins for  210k /w me for more info", -- [1]
+			"Jamesiccsil-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Orphanes-Silvermoon", -- [5]
+			"Jamesiccsil-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1220, -- [11]
-			"Player-3391-0BD40F32", -- [12]
+			17274, -- [11]
+			"Player-3391-0BE2C3B1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Orphanes|r",
-			[51] = 1613449420,
+			[52] = "|cfff38bb9Jamesiccsil|r",
+			[51] = 1614200829,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [77]
 		{
-			"†_†_†_<ICECROWN>_†_†_†_HEROIC_FULL_RUN_+0~+10_+12_+14_+15_KEYS._ALWAYS_BEST_PRICE_._BIG_DISCOUNTS_MULTIPLE_BUYS_._ARMOR_STACKS_DESIRED ITEMS % KEYS_._TORGHAST/Corridors_LAYERS_1-2-3-4-5-6-7-8__BOOST FOR LIFE! \\m/ dont hesitate \\w/hisper", -- [1]
-			"Nanikaicc-Silvermoon", -- [2]
+			"<NOVA> BIG DISCOUNT ||Keystone Master (All 15s  = 2100k|| ||Castle Nathria HC Full = 500K , VIP Trader = 220k ,  || ||M+10=90k|| ||M+12=120k|| ||M+14=185k|| ||M+15  = 295k|| ||M+16=550k|| ||M+17=850k|| ||M+18=1.2M||  ||Curve=160k||", -- [1]
+			"Nbcjiren-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Nanikaicc-Silvermoon", -- [5]
+			"Nbcjiren-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1221, -- [11]
-			"Player-3391-0BE3101E", -- [12]
+			17275, -- [11]
+			"Player-3391-0BCFA8FE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Nanikaicc|r",
-			[51] = 1613449432,
+			[52] = "|cff00fe97Nbcjiren|r",
+			[51] = 1614200840,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [78]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|rLooking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14837:Player-3391-0BB107E4:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[Nexus of Bonds]|h|r!", -- [1]
+			"Rødekineser-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"", -- [4]
+			"Rødekineser-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1222, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			17276, -- [11]
+			"Player-3391-0BB107E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613449438,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cRødekineser|r",
+			[51] = 1614200843,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [79]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-211627-3391-101297968|h[Guild: Wowsa]|h|rLooking for player that want to start raiding from a fresh start 0/10 normal and start climbing towards heroic, we even play pvp and will help with m+. /w me if you have any questions.", -- [1]
-			"Oberon-Silvermoon", -- [2]
+			"WTS -------- |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r |cff71d5ff|Hspell:259741:0|h[Honeyback Harvester]|h|r |cff71d5ff|Hspell:215159:0|h[Long-Forgotten Hippogryph]|h|r |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r", -- [1]
+			"Shezenn-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Oberon-Silvermoon", -- [5]
+			"Shezenn-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1227, -- [11]
-			"Player-3391-0BCB0686", -- [12]
+			17282, -- [11]
+			"Player-3391-0B85A403", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Oberon|r",
-			[51] = 1613449552,
+			[52] = "|cff006fdcShezenn|r",
+			[51] = 1614200871,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [80]
 		{
-			"<ICECROWN>_HEROIC_FULL_RUN_VIP_+0_+10_+12_+14_+15._ALWAYS_BEST_PRICE_._BIG_DISCOUNTS_MULTIPLE_BUYS_._ARMOR STACKS__DESIRED ITEMS & KEYS__TORGAST/Corridors  LAYERS 1-2-3-4-5-6-7-8__BOOST FOR LIFE! \\_/ dont hesitate /w", -- [1]
-			"Nanikaicc-Silvermoon", -- [2]
+			"<S e V e N> Is 6/10 HC now looking for dedicated players to join us. Planned raid time/days are 18:30 to 22:0 Wed/Fri/Sat. We also have a casual and mythic+ ranks. Everyone is welcome to our friendly guild w/me for more info !", -- [1]
+			"Carrymypants-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Nanikaicc-Silvermoon", -- [5]
+			"Carrymypants-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1230, -- [11]
-			"Player-3391-0BE3101E", -- [12]
+			17283, -- [11]
+			"Player-3391-0B35827B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Nanikaicc|r",
-			[51] = 1613449701,
+			[52] = "|cfff38bb9Carrymypants|r",
+			[51] = 1614200879,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [81]
 		{
-			"LF Tailor", -- [1]
-			"Lukenzi-Silvermoon", -- [2]
+			"<Detrimental> Currently looking for healers to progress HC! Chilled out relaxqing atmosphere, Raiders, M+ and Social Players welcome. We have an active discord, regular m+ and more !", -- [1]
+			"Arturó-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Lukenzi-Silvermoon", -- [5]
+			"Arturó-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1233, -- [11]
-			"Player-3391-0B7F7CA0", -- [12]
+			17284, -- [11]
+			"Player-3391-0BC79839", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaLukenzi|r",
-			[51] = 1613449911,
+			[52] = "|cff00fe97Arturó|r",
+			[51] = 1614200889,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [82]
 		{
-			"HOOOKAIDO I WILL USE ALL MY SKILL!", -- [1]
-			"Ragemausi-Malorne", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Ragemausi-Malorne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1235, -- [11]
-			"Player-1097-09EAE4B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cRagemausi-Malorne|r",
-			[51] = 1613450006,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [83]
-		{
-			"I love when people actively want to get hated", -- [1]
-			"Eruruka-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruruka-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1248, -- [11]
-			"Player-3391-09EFEA2E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Eruruka|r",
-			[51] = 1613450153,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [84]
-		{
-			"like what do i do ?", -- [1]
-			"Trashtalk-Agamaggan", -- [2]
+			"WTS Mount |cff71d5ff|Hspell:259741:0|h[Honeyback Harvester]|h|r /w me", -- [1]
+			"Ãphrodite-Silvermoon", -- [2]
 			"", -- [3]
-			"1. General - Oribos", -- [4]
-			"Trashtalk-Agamaggan", -- [5]
+			"2. Trade - City", -- [4]
+			"Ãphrodite-Silvermoon", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Oribos", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1256, -- [11]
-			"Player-1091-0975D0EA", -- [12]
+			17286, -- [11]
+			"Player-3391-0AE141CF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa22fc8Trashtalk-Agamaggan|r",
-			[51] = 1613450308,
+			[52] = "|cfffe7b09Ãphrodite|r",
+			[51] = 1614200903,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14809:Player-3391-0AE5BB1E:1:2:24:21:4294967295:4294967295:4294967295:4294967295|h[Traversing Torghast]|h|r!", -- [1]
+			"Lamped-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lamped-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			17289, -- [11]
+			"Player-3391-0AE5BB1E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLamped|r",
+			[51] = 1614200925,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [84]
+		{
+			"WTS ------ |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r |cff71d5ff|Hspell:259741:0|h[Honeyback Harvester]|h|r |cff71d5ff|Hspell:215159:0|h[Long-Forgotten Hippogryph]|h|r |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r", -- [1]
+			"Shezenn-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shezenn-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			17290, -- [11]
+			"Player-3391-0B85A403", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcShezenn|r",
+			[51] = 1614200927,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [85]
 		{
-			"<Untitled>  [10/10 Heroic Castle Nathria] is recruiting for Mythic Castle Nathria. Particularly looking for a healer (Holy Paladin/Resto Shaman/Disc Priest. All exceptional players considered. Raid time Weds/Thursdayy 8-11. /w for info!", -- [1]
-			"Voidlockie-Silvermoon", -- [2]
+			"help i think guild dead?", -- [1]
+			"Swaggylord-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Voidlockie-Silvermoon", -- [5]
+			"Swaggylord-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1263, -- [11]
-			"Player-3391-0A2D7C10", -- [12]
+			17296, -- [11]
+			"Player-3391-0B2D0738", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff8687edVoidlockie|r",
-			[51] = 1613450490,
+			[52] = "|cffc31d39Swaggylord|r",
+			[51] = 1614200972,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [86]
 		{
-			"WTS |cffffffff|Hitem:49916::::::::28:256:::::::|h[Lovely Charm Bracelet]|h|r 100g each.  ", -- [1]
-			"Lethallolly-Silvermoon", -- [2]
+			"is dead for you?", -- [1]
+			"Swaggylord-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Lethallolly-Silvermoon", -- [5]
+			"Swaggylord-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1413, -- [11]
-			"Player-3391-0BE22AFF", -- [12]
+			17297, -- [11]
+			"Player-3391-0B2D0738", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeLethallolly|r",
-			[51] = 1613450826,
+			[52] = "|cffc31d39Swaggylord|r",
+			[51] = 1614200983,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [87]
 		{
-			"any priest abusers for rmp?", -- [1]
-			"Alkias-Silvermoon", -- [2]
+			"WTS Guildrun 10/10 HC Castle Nathria Personal Loot, optional leather/cloth trader", -- [1]
+			"Slingix-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Alkias-Silvermoon", -- [5]
+			"Slingix-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1467, -- [11]
-			"Player-3391-0A920790", -- [12]
+			17298, -- [11]
+			"Player-3391-06B8928B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Alkias|r",
-			[51] = 1613451560,
+			[52] = "|cfffe7b09Slingix|r",
+			[51] = 1614200985,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [88]
 		{
-			"READ THEM AND UNDERSTAND THEM", -- [1]
-			"Flet-Silvermoon", -- [2]
+			"WTF is this lagg", -- [1]
+			"Nodori-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Flet-Silvermoon", -- [5]
+			"Nodori-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1502, -- [11]
-			"Player-3391-0BE4029E", -- [12]
+			17300, -- [11]
+			"Player-3391-0BDD1004", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Flet|r",
-			[51] = 1613452912,
+			[52] = "|cff00fe97Nodori|r",
+			[51] = 1614200993,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [89]
 		{
-			"OK", -- [1]
-			"Déathblind-Silvermoon", -- [2]
+			"yep", -- [1]
+			"Yagoora-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Déathblind-Silvermoon", -- [5]
+			"Yagoora-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1503, -- [11]
-			"Player-3391-0BC4791C", -- [12]
+			17301, -- [11]
+			"Player-3391-0A960934", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeDéathblind|r",
-			[51] = 1613452926,
+			[52] = "|cffc31d39Yagoora|r",
+			[51] = 1614200995,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [90]
 		{
-			"I AM UNABLE TO READ", -- [1]
-			"Dopsyndrome-Silvermoon", -- [2]
+			"Yeah we all got disconnected", -- [1]
+			"Ayavel-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Dopsyndrome-Silvermoon", -- [5]
+			"Ayavel-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1504, -- [11]
-			"Player-3391-0BE302D2", -- [12]
+			17302, -- [11]
+			"Player-3391-0A298E28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Dopsyndrome|r",
-			[51] = 1613452945,
+			[52] = "|cfffe7b09Ayavel|r",
+			[51] = 1614200998,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [91]
 		{
-			"READ THE STANDING ORDERS", -- [1]
-			"Flet-Silvermoon", -- [2]
+			"thought it was just me", -- [1]
+			"Llynchh-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Flet-Silvermoon", -- [5]
+			"Llynchh-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1505, -- [11]
-			"Player-3391-0BE4029E", -- [12]
+			17305, -- [11]
+			"Player-3391-0BB2070D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Flet|r",
-			[51] = 1613452946,
+			[52] = "|cffa9d271Llynchh|r",
+			[51] = 1614201004,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [92]
 		{
-			"THAT YOU JACKIE?", -- [1]
-			"Zakkhar-Silvermoon", -- [2]
+			"holy moly fuck me this lag ", -- [1]
+			"Gagpit-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Zakkhar-Silvermoon", -- [5]
+			"Gagpit-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1506, -- [11]
-			"Player-3391-0A5F41C4", -- [12]
+			17306, -- [11]
+			"Player-3391-08554510", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Zakkhar|r",
-			[51] = 1613452974,
+			[52] = "|cff8687edGagpit|r",
+			[51] = 1614201011,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [93]
 		{
-			"im black help i carnt see", -- [1]
-			"Xlargefríes-Silvermoon", -- [2]
+			"Cool", -- [1]
+			"Yagoora-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Xlargefríes-Silvermoon", -- [5]
+			"Yagoora-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1507, -- [11]
-			"Player-3391-0BA4039C", -- [12]
+			17307, -- [11]
+			"Player-3391-0A960934", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Xlargefríes|r",
-			[51] = 1613452974,
+			[52] = "|cffc31d39Yagoora|r",
+			[51] = 1614201015,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [94]
 		{
-			"woops my lights went off", -- [1]
-			"Xlargefríes-Silvermoon", -- [2]
+			"Is wow gonna be okay? ", -- [1]
+			"Swaggylord-Silvermoon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Xlargefríes-Silvermoon", -- [5]
+			"Swaggylord-Silvermoon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1509, -- [11]
-			"Player-3391-0BA4039C", -- [12]
+			17308, -- [11]
+			"Player-3391-0B2D0738", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Xlargefríes|r",
-			[51] = 1613452984,
+			[52] = "|cffc31d39Swaggylord|r",
+			[51] = 1614201016,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [95]
 		{
-			"READ THEM AND UNDERSTAND THEM", -- [1]
-			"Flet-Silvermoon", -- [2]
+			"if you give me a couple of secs I need to relog", -- [1]
+			"Yóshino-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Flet-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1510, -- [11]
-			"Player-3391-0BE4029E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Flet|r",
-			[51] = 1613452989,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
-		{
-			"LF 180 min item lvl tank for Torgast L8 zerg", -- [1]
-			"Unnskyldd-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Unnskyldd-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1511, -- [11]
-			"Player-3391-0BE195AE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaUnnskyldd|r",
-			[51] = 1613452990,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
-		{
-			"MANA TIDE ON ME", -- [1]
-			"Gefyon-Silvermoon", -- [2]
-			"Common", -- [3]
 			"", -- [4]
-			"Gefyon-Silvermoon", -- [5]
+			"Yóshino-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1526, -- [11]
-			"Player-3391-0ADD893C", -- [12]
+			17380, -- [11]
+			"Player-3391-0B3793E5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcGefyon|r",
-			[51] = 1613453614,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [98]
+			[52] = "|cfff38bb9Yóshino|r",
+			[51] = 1614201185,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
 		{
-			"[Gino's Mercenaries] WTS M+15=310K/ +14=210k/ +13=190k/ +12=150k/ +11=140K/ +10=100k/ +9=90k /|cff66bbff|Hjournal:0:1190:14|h[Castle Nathria]|h|r 10/10 Mythic /10/10HC /Last 2 HC Bosses/w GOLD ONLY!", -- [1]
-			"Jaceline-Silvermoon", -- [2]
+			"this lag is killing me", -- [1]
+			"Yóshino-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jaceline-Silvermoon", -- [5]
+			"", -- [4]
+			"Yóshino-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1540, -- [11]
-			"Player-3391-0B0B8E66", -- [12]
+			17381, -- [11]
+			"Player-3391-0B3793E5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cJaceline|r",
-			[51] = 1613454200,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Yóshino|r",
+			[51] = 1614201190,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"go ahead ", -- [1]
+			"Pilinpal-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pilinpal-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			17388, -- [11]
+			"Player-1303-0A3F5661", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Pilinpal-Aggra(Português)|r",
+			[51] = 1614201202,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [98]
+		{
+			"sorry", -- [1]
+			"Pilinpal-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pilinpal-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			17389, -- [11]
+			"Player-1303-0A3F5661", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Pilinpal-Aggra(Português)|r",
+			[51] = 1614201203,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [99]
 	},
 }

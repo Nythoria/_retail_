@@ -8,9 +8,9 @@ SimulationCraftDB = {
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
-		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
 	},
 	["profiles"] = {
 		["Sharutía - Silvermoon"] = {
@@ -27,11 +27,11 @@ SimulationCraftDB = {
 		},
 		["Victoríque - Silvermoon"] = {
 		},
-		["Alyettes - Ravencrest"] = {
+		["Aryenís - Silvermoon"] = {
 		},
 		["Yóshino - Silvermoon"] = {
 		},
-		["Aryenís - Silvermoon"] = {
+		["Alyettes - Ravencrest"] = {
 		},
 	},
 }

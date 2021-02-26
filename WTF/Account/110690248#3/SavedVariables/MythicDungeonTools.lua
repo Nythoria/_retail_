@@ -8,8 +8,8 @@ MythicDungeonToolsDB = {
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
 		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
-		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
-		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
 		["Alyettes - Ravencrest"] = "Alyettes - Ravencrest",
+		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
+		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
 	},
 }

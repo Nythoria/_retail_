@@ -13,45 +13,45 @@ ExecAssistDB = {
 		["Mítsukí - Silvermoon"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
-		["Alyettes - Ravencrest"] = "Default",
-		["Yóshino - Silvermoon"] = "Default",
 		["Aryenís - Silvermoon"] = "Default",
+		["Yóshino - Silvermoon"] = "Default",
+		["Alyettes - Ravencrest"] = "Default",
 	},
 	["global"] = {
 		["clickmap"] = {
 			["ClickMap_Config"] = {
-				["s"] = true,
 				["c"] = true,
+				["s"] = true,
 				["code"] = "Rmsc",
 				["m"] = "RightButton",
-			},
-			["HELP"] = {
-				["s"] = true,
-				["code"] = "Rms",
-				["m"] = "RightButton",
-			},
-			["TACM"] = {
-				["notify"] = false,
-				["m"] = "RightButton",
-				["code"] = "Rm",
 			},
 			["CONFIG"] = {
 				["notify"] = false,
 				["m"] = "LeftButton",
 				["code"] = "Lm",
 			},
+			["TACM"] = {
+				["notify"] = false,
+				["m"] = "RightButton",
+				["code"] = "Rm",
+			},
+			["HELP"] = {
+				["s"] = true,
+				["code"] = "Rms",
+				["m"] = "RightButton",
+			},
 		},
-		["nextMidnightReset"] = 1614297600,
+		["nextMidnightReset"] = 1614384000,
 		["IsOldHat"] = true,
 		["nextWeeklyReset"] = 1614661200,
-		["nextDailyReset"] = 1614315600,
+		["nextDailyReset"] = 1614402000,
 		["taskWindow"] = {
 			["toggleState_ToggledOff"] = true,
 			["pos"] = {
-				["posW_relP"] = "TOPLEFT",
-				["posW_rel"] = "TOPLEFT",
 				["yOff"] = -104.9999923706055,
 				["xOff"] = 216.9998626708984,
+				["posW_relP"] = "TOPLEFT",
+				["posW_rel"] = "TOPLEFT",
 			},
 		},
 		["charStem"] = {
@@ -90,7 +90,7 @@ ExecAssistDB = {
 				},
 				["charClass"] = "WARLOCK",
 			},
-			["Alyettes - Ravencrest"] = {
+			["Aryenís - Silvermoon"] = {
 				["agg"] = {
 				},
 				["charClass"] = "WARRIOR",
@@ -100,7 +100,7 @@ ExecAssistDB = {
 				},
 				["charClass"] = "PALADIN",
 			},
-			["Aryenís - Silvermoon"] = {
+			["Alyettes - Ravencrest"] = {
 				["agg"] = {
 				},
 				["charClass"] = "WARRIOR",

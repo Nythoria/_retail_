@@ -112,7 +112,8 @@ L["Always active trigger"] = "Innesco sempre attivo"
 L["Always include realm"] = "Includi sempre il reame"
 L["Always True"] = "Sempre Vero"
 L["Amount"] = "Quantità"
-L["And Talent selected"] = "E Talento selezionato"
+--[[Translation missing --]]
+L["And Talent"] = "And Talent"
 L["Animations"] = "Animazioni"
 L["Anticlockwise"] = "Antiorario"
 --[[Translation missing --]]
@@ -270,7 +271,7 @@ L["Charge gained/lost"] = "Charge gained/lost"
 L["Charged Combo Point"] = "Charged Combo Point"
 L["Charges"] = "Cariche"
 --[[Translation missing --]]
-L["Charges Changed (Spell)"] = "Charges Changed (Spell)"
+L["Charges Changed Event"] = "Charges Changed Event"
 L["Chat Frame"] = "Cornice di chat"
 L["Chat Message"] = "Messaggio di chat"
 --[[Translation missing --]]
@@ -300,17 +301,17 @@ L["Continuously update Movement Speed"] = "Continuously update Movement Speed"
 --[[Translation missing --]]
 L["Cooldown"] = "Cooldown"
 --[[Translation missing --]]
-L["Cooldown Progress (Equipment Slot)"] = "Cooldown Progress (Equipment Slot)"
---[[Translation missing --]]
 L["Cooldown Progress (Item)"] = "Cooldown Progress (Item)"
 --[[Translation missing --]]
-L["Cooldown Progress (Spell)"] = "Cooldown Progress (Spell)"
+L["Cooldown Progress (Slot)"] = "Cooldown Progress (Slot)"
 --[[Translation missing --]]
-L["Cooldown Ready (Equipment Slot)"] = "Cooldown Ready (Equipment Slot)"
+L["Cooldown Ready Event"] = "Cooldown Ready Event"
 --[[Translation missing --]]
-L["Cooldown Ready (Item)"] = "Cooldown Ready (Item)"
+L["Cooldown Ready Event (Item)"] = "Cooldown Ready Event (Item)"
 --[[Translation missing --]]
-L["Cooldown Ready (Spell)"] = "Cooldown Ready (Spell)"
+L["Cooldown Ready Event (Slot)"] = "Cooldown Ready Event (Slot)"
+--[[Translation missing --]]
+L["Cooldown/Charges/Count"] = "Cooldown/Charges/Count"
 --[[Translation missing --]]
 L["Count"] = "Count"
 --[[Translation missing --]]
@@ -331,7 +332,9 @@ L["C'thun"] = "C'thun"
 --[[Translation missing --]]
 L["Current Experience"] = "Current Experience"
 --[[Translation missing --]]
-L["Current Zone Group"] = "Current Zone Group"
+L[ [=[Current Zone Group
+]=] ] = [=[Current Zone Group
+]=]
 --[[Translation missing --]]
 L[ [=[Current Zone
 ]=] ] = [=[Current Zone
@@ -383,9 +386,9 @@ L["Description"] = "Descrizione"
 --[[Translation missing --]]
 L["Dest Raid Mark"] = "Dest Raid Mark"
 --[[Translation missing --]]
-L["Destination GUID"] = "Destination GUID"
+L["Destination Affiliation"] = "Destination Affiliation"
 --[[Translation missing --]]
-L["Destination In Group"] = "Destination In Group"
+L["Destination GUID"] = "Destination GUID"
 --[[Translation missing --]]
 L["Destination Name"] = "Destination Name"
 --[[Translation missing --]]
@@ -398,6 +401,8 @@ L["Destination Reaction"] = "Destination Reaction"
 L["Destination Unit"] = "Destination Unit"
 --[[Translation missing --]]
 L["Disable Spell Known Check"] = "Disable Spell Known Check"
+--[[Translation missing --]]
+L["Disabled Spell Known Check"] = "Disabled Spell Known Check"
 --[[Translation missing --]]
 L["Disease"] = "Disease"
 --[[Translation missing --]]
@@ -731,8 +736,6 @@ L["Ignore Rune CDs"] = "Ignore Rune CDs"
 --[[Translation missing --]]
 L["Ignore Self"] = "Ignore Self"
 --[[Translation missing --]]
-L["Ignore Unknown Spell"] = "Ignore Unknown Spell"
---[[Translation missing --]]
 L["Immune"] = "Immune"
 --[[Translation missing --]]
 L["Import"] = "Import"
@@ -863,6 +866,8 @@ L["Kurinnaxx"] = "Kurinnaxx"
 --[[Translation missing --]]
 L["Large"] = "Large"
 --[[Translation missing --]]
+L["Latency"] = "Latency"
+--[[Translation missing --]]
 L["Least remaining time"] = "Least remaining time"
 --[[Translation missing --]]
 L["Leaving"] = "Leaving"
@@ -966,6 +971,8 @@ L["Message Type"] = "Message Type"
 L["Message type:"] = "Message type:"
 --[[Translation missing --]]
 L["Meta Data"] = "Meta Data"
+--[[Translation missing --]]
+L["Mine"] = "Mine"
 --[[Translation missing --]]
 L["Minimum"] = "Minimum"
 --[[Translation missing --]]
@@ -1111,6 +1118,8 @@ L["Only if on a different realm"] = "Only if on a different realm"
 --[[Translation missing --]]
 L["Only if Primary"] = "Only if Primary"
 --[[Translation missing --]]
+L["Only if selected"] = "Only if selected"
+--[[Translation missing --]]
 L["Onyxia"] = "Onyxia"
 --[[Translation missing --]]
 L["Onyxia's Lair"] = "Onyxia's Lair"
@@ -1129,6 +1138,10 @@ L["Orientation"] = "Orientation"
 --[[Translation missing --]]
 L["Ossirian the Unscarred"] = "Ossirian the Unscarred"
 --[[Translation missing --]]
+L["Other Addons"] = "Other Addons"
+--[[Translation missing --]]
+L["Other Events"] = "Other Events"
+--[[Translation missing --]]
 L["Ouro"] = "Ouro"
 --[[Translation missing --]]
 L["Outline"] = "Outline"
@@ -1142,6 +1155,8 @@ L["Overlay %s"] = "Overlay %s"
 L["Overlay Charged Combo Points"] = "Overlay Charged Combo Points"
 --[[Translation missing --]]
 L["Overlay Cost of Casts"] = "Overlay Cost of Casts"
+--[[Translation missing --]]
+L["Overlay Latency"] = "Overlay Latency"
 --[[Translation missing --]]
 L["Parry"] = "Parry"
 --[[Translation missing --]]
@@ -1210,6 +1225,8 @@ L["Player Race"] = "Player Race"
 L["Player(s) Affected"] = "Player(s) Affected"
 --[[Translation missing --]]
 L["Player(s) Not Affected"] = "Player(s) Not Affected"
+--[[Translation missing --]]
+L["Player/Unit Info"] = "Player/Unit Info"
 --[[Translation missing --]]
 L["Poison"] = "Poison"
 --[[Translation missing --]]
@@ -1501,9 +1518,9 @@ L["Sound by Kit ID"] = "Sound by Kit ID"
 --[[Translation missing --]]
 L["Source"] = "Source"
 --[[Translation missing --]]
-L["Source GUID"] = "Source GUID"
+L["Source Affiliation"] = "Source Affiliation"
 --[[Translation missing --]]
-L["Source In Group"] = "Source In Group"
+L["Source GUID"] = "Source GUID"
 --[[Translation missing --]]
 L["Source Name"] = "Source Name"
 --[[Translation missing --]]
@@ -1609,6 +1626,8 @@ L[ [=[Supports multiple entries, separated by commas
 ]=] ] = [=[Supports multiple entries, separated by commas
 ]=]
 --[[Translation missing --]]
+L["Supports multiple entries, separated by commas. Group Zone IDs must be prefixed with 'g', e.g. g277."] = "Supports multiple entries, separated by commas. Group Zone IDs must be prefixed with 'g', e.g. g277."
+--[[Translation missing --]]
 L["Swing"] = "Swing"
 --[[Translation missing --]]
 L["Swing Timer"] = "Swing Timer"
@@ -1618,6 +1637,14 @@ L["Swipe"] = "Swipe"
 L["System"] = "System"
 --[[Translation missing --]]
 L["Tab "] = "Tab "
+--[[Translation missing --]]
+L["Talent"] = "Talent"
+--[[Translation missing --]]
+L["Talent |cFFFF0000Not|r Known"] = "Talent |cFFFF0000Not|r Known"
+--[[Translation missing --]]
+L["Talent |cFFFF0000Not|r Selected"] = "Talent |cFFFF0000Not|r Selected"
+--[[Translation missing --]]
+L["Talent Known"] = "Talent Known"
 --[[Translation missing --]]
 L["Talent Selected"] = "Talent Selected"
 --[[Translation missing --]]
@@ -1896,8 +1923,6 @@ L["Your threat as a percentage of the tank's current threat."] = "Your threat as
 L["Your threat on the mob as a percentage of the amount required to pull aggro. Will pull aggro at 100."] = "Your threat on the mob as a percentage of the amount required to pull aggro. Will pull aggro at 100."
 --[[Translation missing --]]
 L["Your total threat on the mob."] = "Your total threat on the mob."
---[[Translation missing --]]
-L["Zone Group ID(s)"] = "Zone Group ID(s)"
 --[[Translation missing --]]
 L["Zone ID(s)"] = "Zone ID(s)"
 --[[Translation missing --]]

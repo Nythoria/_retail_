@@ -939,18 +939,10 @@ Private.text_word_wrap = {
   Elide = L["Elide"]
 }
 
-Private.event_types = {};
+Private.category_event_prototype = {}
 for name, prototype in pairs(Private.event_prototypes) do
-  if(prototype.type == "event") then
-    Private.event_types[name] = prototype.name;
-  end
-end
-
-Private.status_types = {};
-for name, prototype in pairs(Private.event_prototypes) do
-  if(prototype.type == "status") then
-    Private.status_types[name] = prototype.name;
-  end
+  Private.category_event_prototype[prototype.type] = Private.category_event_prototype[prototype.type] or {}
+  Private.category_event_prototype[prototype.type][name] = prototype.name
 end
 
 Private.subevent_prefix_types = {
@@ -1071,6 +1063,7 @@ Private.environmental_types = {
 }
 
 Private.combatlog_flags_check_type = {
+  Mine = L["Mine"],
   InGroup = L["In Group"],
   NotInGroup = L["Not in Group"]
 }
@@ -1191,6 +1184,13 @@ if not WeakAuras.IsClassic() then
     tinsert(Private.pvp_talent_types, string.format(L["PvP Talent %i"], i));
   end
 end
+
+Private.talent_extra_option_types = {
+    [0] = L["Talent Known"],
+    [1] = L["Talent Selected"],
+    [2] = L["Talent |cFFFF0000Not|r Known"],
+    [3] = L["Talent |cFFFF0000Not|r Selected"],
+}
 
 -- GetTotemInfo() only works for the first 5 totems
 Private.totem_types = {};
@@ -1817,11 +1817,6 @@ Private.custom_trigger_types = {
 
 Private.eventend_types = {
   ["timed"] = L["Timed"],
-  ["custom"] = L["Custom"]
-}
-
-Private.autoeventend_types = {
-  ["auto"] = L["Automatic"],
   ["custom"] = L["Custom"]
 }
 
@@ -3132,6 +3127,8 @@ if WeakAuras.IsClassic() then
   Private.threat_unit_types.focus = nil
   Private.item_slot_types[0] = AMMOSLOT
   Private.item_slot_types[18] = RANGEDSLOT
+  Private.talent_extra_option_types[0] = nil
+  Private.talent_extra_option_types[2] = nil
 
   local reset_swing_spell_list = {
     1464, 8820, 11604, 11605, -- Slam

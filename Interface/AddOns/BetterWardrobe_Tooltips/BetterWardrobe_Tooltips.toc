@@ -1,0 +1,9 @@
+## Interface: 90002
+## Title: BetterWardrobe_Tooltips (V2.7.2)
+## Version: V2.7.2
+## Game Version: 9.0.2
+## Author: SLOKnightfall
+## OptionalDeps: PetTracker
+## Notes: Loader addon to display tooltips
+
+BetterWardrobe_Tooltips.lua

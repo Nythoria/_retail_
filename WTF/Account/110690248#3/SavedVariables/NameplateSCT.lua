@@ -8,8 +8,8 @@ NameplateSCTDB = {
 		["Mítsukí - Silvermoon"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
-		["Aryenís - Silvermoon"] = "Default",
-		["Yóshino - Silvermoon"] = "Default",
 		["Alyettes - Ravencrest"] = "Default",
+		["Yóshino - Silvermoon"] = "Default",
+		["Aryenís - Silvermoon"] = "Default",
 	},
 }

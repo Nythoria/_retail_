@@ -32,16 +32,16 @@ VExRT = {
 			[72] = 10,
 			[104] = 10,
 			[73] = 10,
-			[252] = 10,
-			[105] = 10,
-			[254] = 10,
-			[256] = 10,
-			[577] = 10,
 			[581] = 10,
+			[105] = 10,
+			[577] = 10,
+			[256] = 10,
+			[254] = 10,
+			[252] = 10,
 		},
 		["Type"] = 2,
-		["timeToKillAnalyze"] = 15,
 		["Strata"] = "HIGH",
+		["timeToKillAnalyze"] = 15,
 	},
 	["ProfileKeys"] = {
 		["Victoríque-Silvermoon"] = "default",
@@ -56,8 +56,6 @@ VExRT = {
 		["Akatsúki-Silvermoon"] = "default",
 	},
 	["Encounter"] = {
-		["names"] = {
-		},
 		["list"] = {
 			["Akatsúki"] = {
 			},
@@ -69,9 +67,9 @@ VExRT = {
 			},
 			["Victoríque"] = {
 			},
-			["Eléonóra"] = {
-			},
 			["Kúsano"] = {
+			},
+			["Eléonóra"] = {
 			},
 			["Aryenís"] = {
 			},
@@ -79,6 +77,8 @@ VExRT = {
 			},
 			["Yóshino"] = {
 			},
+		},
+		["names"] = {
 		},
 	},
 	["InviteTool"] = {
@@ -100,19 +100,21 @@ VExRT = {
 		["gnGUIDs"] = {
 			["Pársa"] = 253,
 			["Berserkire"] = 70,
+			["Nethrys"] = 70,
 			["Høcsa"] = 66,
 			["Nepenthé"] = 105,
-			["Alyettes"] = 71,
 			["Akatsúki"] = 270,
-			["Bagsforyou"] = 70,
-			["Ririchíyo"] = 256,
-			["Reizm"] = 63,
+			["Sharutía"] = 252,
+			["Ririchíyo"] = 257,
+			["Shínt"] = 269,
+			["Sorrystone"] = 270,
 			["Nikeah"] = 252,
 			["Teuanuca"] = 252,
-			["Sharutía"] = 252,
-			["Kúsano"] = 105,
+			["Bagsforyou"] = 70,
+			["Alyettes"] = 71,
 			["Eléonóra"] = 253,
-			["Shínt"] = 269,
+			["Kúsano"] = 105,
+			["Reizm"] = 63,
 			["Mítsukí"] = 264,
 			["Yóshino"] = 65,
 		},
@@ -132,13 +134,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -147,13 +149,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -162,13 +164,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [3]
 			{
 				["frameGeneral"] = true,
@@ -176,13 +178,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -190,13 +192,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -204,13 +206,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -218,13 +220,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -232,13 +234,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -246,13 +248,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -260,13 +262,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [10]
 			{
 				["frameGeneral"] = true,
@@ -274,13 +276,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [11]
 		},
 		["Priority"] = {
@@ -304,12 +306,13 @@ VExRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeLowIlvl"] = true,
+		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["BattleRes"] = {
-		["Strata"] = "HIGH",
+	["Marks"] = {
+		["list"] = {
+		},
 	},
 	["Note"] = {
 		["BlackNames"] = {
@@ -325,9 +328,9 @@ VExRT = {
 			"", -- [3]
 		},
 		["Strata"] = "HIGH",
-		["OnlyPromoted"] = true,
 		["BlackLastUpdateTime"] = {
 		},
+		["OnlyPromoted"] = true,
 		["OptionsFormatting"] = true,
 	},
 	["WhoPulled"] = {
@@ -342,16 +345,8 @@ VExRT = {
 		["BuffsCheck"] = true,
 		["ReadyCheckFrame"] = true,
 		["ReadyCheckFrameTimerFade"] = 4,
-		["WeaponEnch"] = {
-		},
 		["FlaskExp"] = 1,
-	},
-	["LootHistory"] = {
-		["instanceNames"] = {
-		},
-		["bossNames"] = {
-		},
-		["list"] = {
+		["WeaponEnch"] = {
 		},
 	},
 	["BossWatcher"] = {
@@ -362,6 +357,8 @@ VExRT = {
 		["trackingDamageSpells"] = {
 		},
 	},
+	["Profiles"] = {
+	},
 	["Profile"] = "default",
 	["LootLink"] = {
 	},
@@ -369,14 +366,19 @@ VExRT = {
 		["profiles"] = {
 		},
 	},
-	["Profiles"] = {
+	["LootHistory"] = {
+		["list"] = {
+		},
+		["bossNames"] = {
+		},
+		["instanceNames"] = {
+		},
 	},
 	["Logging"] = {
 	},
 	["MarksBar"] = {
 		["pulltimer"] = 10,
 		["pulltimer_right"] = 10,
-		["Strata"] = "HIGH",
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]
@@ -384,6 +386,7 @@ VExRT = {
 			true, -- [4]
 			true, -- [5]
 		},
+		["Strata"] = "HIGH",
 	},
 	["VisNote"] = {
 		["data"] = {
@@ -391,8 +394,7 @@ VExRT = {
 		["sync_data"] = {
 		},
 	},
-	["Marks"] = {
-		["list"] = {
-		},
+	["BattleRes"] = {
+		["Strata"] = "HIGH",
 	},
 }

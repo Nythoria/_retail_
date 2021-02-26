@@ -101,20 +101,14 @@ local L = WeakAuras.L
 	L["Resources and Shapeshift Form"] = "Ресурсы и облики друида"
 	L["Runes"] = "Руны"
 	L["Shapeshift Form"] = "Облик друида"
-	--[[Translation missing --]]
-	L["Show Always, Glow on Missing"] = "Show Always, Glow on Missing"
-	--[[Translation missing --]]
-	L["Show Charges and Check Usable"] = "Show Charges and Check Usable"
-	--[[Translation missing --]]
-	L["Show Charges with Proc Tracking"] = "Show Charges with Proc Tracking"
-	--[[Translation missing --]]
-	L["Show Charges with Range Tracking"] = "Show Charges with Range Tracking"
-	--[[Translation missing --]]
-	L["Show Charges with Usable Check"] = "Show Charges with Usable Check"
+	L["Show Always, Glow on Missing"] = "Показывать всегда, сверкать при отсутствии"
+	L["Show Charges and Check Usable"] = "Показать заряды и проверить доступность"
+	L["Show Charges with Proc Tracking"] = "Показать заряды с отслеживанием срабатывания"
+	L["Show Charges with Range Tracking"] = "Показать заряды с отслеживанием дистанции"
+	L["Show Charges with Usable Check"] = "Показать заряды с проверкой доступности"
 	L["Show Cooldown and Buff"] = "Показать восстановление и бафф"
 	L["Show Cooldown and Buff and Check for Target"] = "Показать восстановление, бафф и проверку зоны действия"
-	--[[Translation missing --]]
-	L["Show Cooldown and Buff and Check Usable"] = "Show Cooldown and Buff and Check Usable"
+	L["Show Cooldown and Buff and Check Usable"] = "Показать восстановление, бафф и проверку доступности"
 	L["Show Cooldown and Check for Target"] = "Показать восстановление и проверку зоны действия"
 	--[[Translation missing --]]
 	L["Show Cooldown and Check for Target & Proc Tracking"] = "Show Cooldown and Check for Target & Proc Tracking"

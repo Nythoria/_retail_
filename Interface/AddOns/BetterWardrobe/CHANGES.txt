@@ -1,0 +1,12 @@
+tag c8ed1006769921f433aeaac02e79a0cfdd5613b4 V2.7.2
+Author:	SLOKnightfall <SLOKnightfall@gmail.com>
+Date:	Mon Feb 22 12:25:17 2021 -0800
+
+-Bugfix
+
+commit e9cc7c6f18c6b3924e5fc93a4eeab21416ad143b
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Mon Feb 22 12:24:47 2021 -0800
+
+    -Dressing Room Bug fix for error generated when viewing from a link.
+

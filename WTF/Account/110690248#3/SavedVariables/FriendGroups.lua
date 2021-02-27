@@ -7,8 +7,11 @@ FriendGroups_SavedVars = {
 	["colour_classes"] = true,
 	["gray_faction"] = false,
 	["show_btag"] = false,
+	["sort_by_status"] = false,
 	["ingame_only"] = false,
 	["collapsed"] = {
+		["Old Friends"] = true,
+		["Guild"] = true,
+		["IRL"] = false,
 	},
-	["sort_by_status"] = false,
 }

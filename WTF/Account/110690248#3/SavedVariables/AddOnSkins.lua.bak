@@ -7,13 +7,13 @@ AddOnSkinsDB = {
 		["Eléonóra - Silvermoon"] = "Default",
 		["Akatsúki - Silvermoon"] = "Default",
 		["Yóshino - Silvermoon"] = "Default",
-		["Santáshelper - Silvermoon"] = "Default",
+		["Iríya - Ravencrest"] = "Default",
 		["Ririchíyo - Silvermoon"] = "Default",
-		["Aryenís - Silvermoon"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
+		["Aryenís - Silvermoon"] = "Default",
 		["Mítsukí - Silvermoon"] = "Default",
 		["Rangii - Ravencrest"] = "Default",
-		["Iríya - Ravencrest"] = "Default",
+		["Santáshelper - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

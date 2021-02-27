@@ -7,13 +7,13 @@ SimulationCraftDB = {
 		["Eléonóra - Silvermoon"] = "Eléonóra - Silvermoon",
 		["Akatsúki - Silvermoon"] = "Akatsúki - Silvermoon",
 		["Yóshino - Silvermoon"] = "Yóshino - Silvermoon",
-		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
+		["Santáshelper - Silvermoon"] = "Santáshelper - Silvermoon",
 		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
-		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Aryenís - Silvermoon"] = "Aryenís - Silvermoon",
+		["Victoríque - Silvermoon"] = "Victoríque - Silvermoon",
 		["Mítsukí - Silvermoon"] = "Mítsukí - Silvermoon",
 		["Rangii - Ravencrest"] = "Rangii - Ravencrest",
-		["Santáshelper - Silvermoon"] = "Santáshelper - Silvermoon",
+		["Iríya - Ravencrest"] = "Iríya - Ravencrest",
 	},
 	["profiles"] = {
 		["Sharutía - Silvermoon"] = {
@@ -42,32 +42,24 @@ SimulationCraftDB = {
 				["width"] = 750,
 			},
 		},
-		["Iríya - Ravencrest"] = {
-			["frame"] = {
-				["ofsx"] = 0,
-				["point"] = "CENTER",
-				["relativePoint"] = "CENTER",
-				["height"] = 400,
-				["ofsy"] = 0,
-				["width"] = 750,
-			},
-			["minimap"] = {
-				["hide"] = false,
-			},
+		["Santáshelper - Silvermoon"] = {
 		},
 		["Ririchíyo - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
+		["Aryenís - Silvermoon"] = {
+		},
 		["Victoríque - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Aryenís - Silvermoon"] = {
-		},
 		["Mítsukí - Silvermoon"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 			["frame"] = {
 				["ofsx"] = 0,
 				["point"] = "CENTER",
@@ -76,13 +68,21 @@ SimulationCraftDB = {
 				["ofsy"] = 0,
 				["width"] = 750,
 			},
-			["minimap"] = {
-				["hide"] = true,
-			},
 		},
 		["Rangii - Ravencrest"] = {
 		},
-		["Santáshelper - Silvermoon"] = {
+		["Iríya - Ravencrest"] = {
+			["minimap"] = {
+				["hide"] = false,
+			},
+			["frame"] = {
+				["ofsx"] = 0,
+				["point"] = "CENTER",
+				["relativePoint"] = "CENTER",
+				["height"] = 400,
+				["ofsy"] = 0,
+				["width"] = 750,
+			},
 		},
 	},
 }

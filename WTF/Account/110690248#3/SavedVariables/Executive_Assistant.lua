@@ -41,8 +41,12 @@ ExecAssistDB = {
 						},
 					},
 					["t117838"] = {
-						["isCollapsed"] = true,
 						["p"] = "g446130",
+						["isCollapsed"] = true,
+					},
+					["t138408"] = {
+						["p"] = "g962072",
+						["isCollapsed"] = true,
 					},
 					["g446130"] = {
 						["p"] = "__garden",
@@ -50,10 +54,6 @@ ExecAssistDB = {
 							"t117838", -- [1]
 						},
 						["isCollapsed"] = false,
-					},
-					["t138408"] = {
-						["isCollapsed"] = true,
-						["p"] = "g962072",
 					},
 					["g67281"] = {
 						["p"] = "__garden",
@@ -63,12 +63,13 @@ ExecAssistDB = {
 						["isCollapsed"] = false,
 					},
 					["t866548"] = {
-						["isCollapsed"] = false,
 						["p"] = "g962072",
+						["isCollapsed"] = false,
 					},
 				},
 				["char"] = {
 					["p"] = "player",
+					["isCollapsed"] = false,
 					["PGT"] = {
 						["g134805"] = {
 							["p"] = "g67281",
@@ -100,6 +101,12 @@ ExecAssistDB = {
 							},
 							["isCollapsed"] = false,
 						},
+						["g962072"] = {
+							["p"] = "g67281",
+							["sibMap"] = {
+							},
+							["isCollapsed"] = false,
+						},
 						["g67281"] = {
 							["p"] = "__garden",
 							["sibMap"] = {
@@ -110,27 +117,10 @@ ExecAssistDB = {
 							},
 							["isCollapsed"] = false,
 						},
-						["g962072"] = {
-							["p"] = "g67281",
-							["sibMap"] = {
-							},
-							["isCollapsed"] = false,
-						},
 					},
-					["isCollapsed"] = false,
 				},
 			},
 			["useTaskWindow"] = false,
-		},
-		["Yóshino - Silvermoon"] = {
-			["map"] = {
-			},
-			["DBIconTable"] = {
-				["hide"] = false,
-			},
-			["useTaskWindow"] = true,
-			["charSpecificCmdLineTarget"] = false,
-			["useDataBrokerTooltip"] = true,
 		},
 		["Mítsukí - Silvermoon"] = {
 			["map"] = {
@@ -153,20 +143,20 @@ ExecAssistDB = {
 						["isCollapsed"] = false,
 					},
 					["t336891"] = {
-						["isCollapsed"] = true,
 						["p"] = "g915302",
+						["isCollapsed"] = true,
 					},
 					["t138408"] = {
-						["isCollapsed"] = true,
 						["p"] = "g962072",
+						["isCollapsed"] = true,
 					},
 					["t34248"] = {
-						["isCollapsed"] = true,
 						["p"] = "g467930",
+						["isCollapsed"] = true,
 					},
 					["t866548"] = {
-						["isCollapsed"] = true,
 						["p"] = "g962072",
+						["isCollapsed"] = true,
 					},
 					["g134805"] = {
 						["p"] = "g67281",
@@ -177,59 +167,16 @@ ExecAssistDB = {
 						["isCollapsed"] = true,
 					},
 					["t92876"] = {
-						["isCollapsed"] = true,
 						["p"] = "g467930",
+						["isCollapsed"] = true,
 					},
 					["t661502"] = {
-						["isCollapsed"] = true,
 						["p"] = "g915302",
+						["isCollapsed"] = true,
 					},
 					["t317784"] = {
-						["isCollapsed"] = true,
 						["p"] = "g467930",
-					},
-					["t117838"] = {
 						["isCollapsed"] = true,
-						["p"] = "g446130",
-					},
-					["t677226"] = {
-						["isCollapsed"] = true,
-						["p"] = "g446130",
-					},
-					["__garden"] = {
-						["sibMap"] = {
-							"g67281", -- [1]
-							"g446130", -- [2]
-						},
-					},
-					["g467930"] = {
-						["p"] = "g67281",
-						["sibMap"] = {
-							"t92876", -- [1]
-							"t317784", -- [2]
-							"t34248", -- [3]
-						},
-						["isCollapsed"] = false,
-					},
-					["t650156"] = {
-						["isCollapsed"] = true,
-						["p"] = "g134805",
-					},
-					["g446130"] = {
-						["p"] = "__garden",
-						["sibMap"] = {
-							"t117838", -- [1]
-							"t677226", -- [2]
-						},
-						["isCollapsed"] = false,
-					},
-					["t286667"] = {
-						["isCollapsed"] = true,
-						["p"] = "g915302",
-					},
-					["t669042"] = {
-						["isCollapsed"] = true,
-						["p"] = "g134805",
 					},
 					["g67281"] = {
 						["p"] = "__garden",
@@ -241,16 +188,69 @@ ExecAssistDB = {
 						},
 						["isCollapsed"] = false,
 					},
+					["__garden"] = {
+						["sibMap"] = {
+							"g67281", -- [1]
+							"g446130", -- [2]
+						},
+					},
+					["t669042"] = {
+						["p"] = "g134805",
+						["isCollapsed"] = true,
+					},
+					["g467930"] = {
+						["p"] = "g67281",
+						["sibMap"] = {
+							"t92876", -- [1]
+							"t317784", -- [2]
+							"t34248", -- [3]
+						},
+						["isCollapsed"] = false,
+					},
+					["t650156"] = {
+						["p"] = "g134805",
+						["isCollapsed"] = true,
+					},
+					["t286667"] = {
+						["p"] = "g915302",
+						["isCollapsed"] = true,
+					},
+					["g446130"] = {
+						["p"] = "__garden",
+						["sibMap"] = {
+							"t117838", -- [1]
+							"t677226", -- [2]
+						},
+						["isCollapsed"] = false,
+					},
+					["t677226"] = {
+						["p"] = "g446130",
+						["isCollapsed"] = true,
+					},
+					["t117838"] = {
+						["p"] = "g446130",
+						["isCollapsed"] = true,
+					},
 				},
 			},
+		},
+		["Yóshino - Silvermoon"] = {
+			["map"] = {
+			},
+			["DBIconTable"] = {
+				["hide"] = false,
+			},
+			["useTaskWindow"] = true,
+			["charSpecificCmdLineTarget"] = false,
+			["useDataBrokerTooltip"] = true,
 		},
 	},
 	["global"] = {
 		["clickmap"] = {
 			["ClickMap_Config"] = {
-				["name"] = "|cffff9966Cfg|r: Open |cff87d8deClick Map Config Dialog|r",
-				["c"] = true,
 				["s"] = true,
+				["c"] = true,
+				["name"] = "|cffff9966Cfg|r: Open |cff87d8deClick Map Config Dialog|r",
 				["code"] = "Rmsc",
 				["m"] = "RightButton",
 				["notify"] = true,
@@ -271,14 +271,13 @@ ExecAssistDB = {
 				["func"] = nil --[[ skipped inline function ]],
 				["desc"] = "Opens the Reset / Auto-Reset Options panel",
 			},
-			["HELP"] = {
-				["name"] = "Open |cffff9966Executive Assistant|r Help",
-				["s"] = true,
-				["code"] = "Rms",
-				["m"] = "RightButton",
-				["notify"] = true,
+			["CONFIG"] = {
+				["name"] = "|cffff9966Cfg|r: Open |cffff9966Executive Assistant|r Main Config",
+				["notify"] = false,
+				["m"] = "LeftButton",
+				["code"] = "Lm",
 				["func"] = nil --[[ skipped inline function ]],
-				["desc"] = "Opens the |cffff9966Executive Assistant|r Help Panel",
+				["desc"] = "Opens the main |cffff9966Executive Assistant|r configuration panel (this page)",
 			},
 			["ToggleShowTWControlButtons"] = {
 				["name"] = "Toggle Hide Task Window Control Buttons",
@@ -301,12 +300,14 @@ ExecAssistDB = {
 				["func"] = nil --[[ skipped inline function ]],
 				["desc"] = "Resets all Manual-Reset Tasks",
 			},
-			["purgePurgables"] = {
-				["name"] = "Delete Completed Purgable Tasks",
+			["HELP"] = {
+				["s"] = true,
+				["name"] = "Open |cffff9966Executive Assistant|r Help",
+				["code"] = "Rms",
+				["m"] = "RightButton",
 				["notify"] = true,
-				["m"] = false,
 				["func"] = nil --[[ skipped inline function ]],
-				["desc"] = "Deletes Completed Purgable Tasks -- if you use Executive Assistant as a general, on-the-fly to-do list, this may be for you.",
+				["desc"] = "Opens the |cffff9966Executive Assistant|r Help Panel",
 			},
 			["ToggleTooltipTips"] = {
 				["name"] = "Toggle Tooltip Tips",
@@ -322,12 +323,12 @@ ExecAssistDB = {
 				["func"] = nil --[[ skipped inline function ]],
 				["desc"] = "Useful if showing the display on Mouseover is disabled but you still want to occasionally open it",
 			},
-			["TOOLTIP CONFIG"] = {
-				["name"] = "|cffff9966Cfg|r: Open DataBroker Tooltip Display Configuration",
+			["purgePurgables"] = {
+				["name"] = "Delete Completed Purgable Tasks",
 				["notify"] = true,
 				["m"] = false,
 				["func"] = nil --[[ skipped inline function ]],
-				["desc"] = "Opens the DataBroker Tooltip Display Configuration page",
+				["desc"] = "Deletes Completed Purgable Tasks -- if you use Executive Assistant as a general, on-the-fly to-do list, this may be for you.",
 			},
 			["TACM"] = {
 				["name"] = "|cffff9966Cfg|r: Open Task Management",
@@ -337,13 +338,6 @@ ExecAssistDB = {
 				["func"] = nil --[[ skipped inline function ]],
 				["desc"] = "Opens the Task Management configuration page",
 			},
-			["ToggleTaskWindow"] = {
-				["name"] = "Toggle Task Window Display",
-				["notify"] = true,
-				["m"] = false,
-				["func"] = nil --[[ skipped inline function ]],
-				["desc"] = "Toggle Task Window Display",
-			},
 			["CLICKMAP"] = {
 				["name"] = "|cffff9966Cfg|r: Open Click Map",
 				["notify"] = true,
@@ -351,13 +345,19 @@ ExecAssistDB = {
 				["func"] = nil --[[ skipped inline function ]],
 				["desc"] = "Opens Click Map page",
 			},
-			["CONFIG"] = {
-				["name"] = "|cffff9966Cfg|r: Open |cffff9966Executive Assistant|r Main Config",
-				["notify"] = false,
-				["m"] = "LeftButton",
-				["code"] = "Lm",
+			["ToggleTaskWindow"] = {
+				["name"] = "Toggle Task Window Display",
+				["notify"] = true,
+				["m"] = false,
 				["func"] = nil --[[ skipped inline function ]],
-				["desc"] = "Opens the main |cffff9966Executive Assistant|r configuration panel (this page)",
+				["desc"] = "Toggle Task Window Display",
+			},
+			["TOOLTIP CONFIG"] = {
+				["name"] = "|cffff9966Cfg|r: Open DataBroker Tooltip Display Configuration",
+				["notify"] = true,
+				["m"] = false,
+				["func"] = nil --[[ skipped inline function ]],
+				["desc"] = "Opens the DataBroker Tooltip Display Configuration page",
 			},
 		},
 		["groupStem"] = {
@@ -413,41 +413,41 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t336891",
-					["taskName"] = "1 Done",
-					["p"] = "g915302",
 					["defaultEnabled"] = true,
+					["id"] = "t336891",
+					["p"] = "g915302",
+					["taskName"] = "1 Done",
+					["isTask"] = true,
 				},
 				["t138408"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t138408",
-					["taskName"] = "Wing 2",
-					["p"] = "g962072",
 					["defaultEnabled"] = true,
+					["id"] = "t138408",
+					["p"] = "g962072",
+					["taskName"] = "Wing 2",
+					["isTask"] = true,
 				},
 				["t34248"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t34248",
-					["taskName"] = "10 Bosses",
-					["p"] = "g467930",
 					["defaultEnabled"] = true,
+					["id"] = "t34248",
+					["p"] = "g467930",
+					["taskName"] = "10 Bosses",
+					["isTask"] = true,
 				},
 				["t866548"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t866548",
-					["taskName"] = "Wing 1",
-					["p"] = "g962072",
 					["defaultEnabled"] = true,
+					["id"] = "t866548",
+					["p"] = "g962072",
+					["taskName"] = "Wing 1",
+					["isTask"] = true,
 				},
 				["g134805"] = {
 					["hideDays"] = {
@@ -476,11 +476,11 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t92876",
-					["taskName"] = "3 Bosses",
-					["p"] = "g467930",
 					["defaultEnabled"] = true,
+					["id"] = "t92876",
+					["p"] = "g467930",
+					["taskName"] = "3 Bosses",
+					["isTask"] = true,
 				},
 				["garden"] = {
 					["id"] = "garden",
@@ -494,51 +494,63 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t661502",
-					["taskName"] = "4 Done",
-					["p"] = "g915302",
 					["defaultEnabled"] = true,
+					["id"] = "t661502",
+					["p"] = "g915302",
+					["taskName"] = "4 Done",
+					["isTask"] = true,
 				},
 				["t317784"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t317784",
-					["taskName"] = "7 Bosses",
-					["p"] = "g467930",
 					["defaultEnabled"] = true,
+					["id"] = "t317784",
+					["p"] = "g467930",
+					["taskName"] = "7 Bosses",
+					["isTask"] = true,
 				},
-				["t118929"] = {
+				["g67281"] = {
 					["hideDays"] = {
 					},
-					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t118929",
-					["taskName"] = "Favors",
-					["p"] = "g67281",
+					["p"] = "garden",
+					["DO"] = {
+						"g134805", -- [1]
+						"g962072", -- [2]
+						"g915302", -- [3]
+						"g467930", -- [4]
+						"t118929", -- [5]
+					},
+					["isGroup"] = true,
+					["id"] = "g67281",
+					["listName"] = "Weekly",
+					["G"] = {
+						{
+							["id"] = "g67281",
+							["oo"] = 10,
+						}, -- [1]
+					},
 					["defaultEnabled"] = true,
+				},
+				["t117838"] = {
+					["hideDays"] = {
+					},
+					["resetType"] = "Daily Automatic",
+					["defaultEnabled"] = true,
+					["id"] = "t117838",
+					["p"] = "g446130",
+					["taskName"] = "Calling",
+					["isTask"] = true,
 				},
 				["t669042"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
+					["defaultEnabled"] = true,
 					["id"] = "t669042",
-					["taskName"] = "Souls",
 					["p"] = "g134805",
-					["defaultEnabled"] = true,
-				},
-				["t677226"] = {
-					["hideDays"] = {
-					},
-					["resetType"] = "Daily Automatic",
+					["taskName"] = "Souls",
 					["isTask"] = true,
-					["id"] = "t677226",
-					["taskName"] = "Anima Conductor",
-					["p"] = "g446130",
-					["defaultEnabled"] = true,
 				},
 				["g467930"] = {
 					["hideDays"] = {
@@ -568,21 +580,11 @@ ExecAssistDB = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
+					["defaultEnabled"] = true,
 					["id"] = "t650156",
-					["taskName"] = "1k Anima",
 					["p"] = "g134805",
-					["defaultEnabled"] = true,
-				},
-				["t286667"] = {
-					["hideDays"] = {
-					},
-					["resetType"] = "Weekly Automatic",
+					["taskName"] = "1k Anima",
 					["isTask"] = true,
-					["id"] = "t286667",
-					["taskName"] = "10 Done",
-					["p"] = "g915302",
-					["defaultEnabled"] = true,
 				},
 				["g446130"] = {
 					["hideDays"] = {
@@ -603,37 +605,35 @@ ExecAssistDB = {
 					},
 					["defaultEnabled"] = true,
 				},
-				["t117838"] = {
+				["t286667"] = {
+					["hideDays"] = {
+					},
+					["resetType"] = "Weekly Automatic",
+					["defaultEnabled"] = true,
+					["id"] = "t286667",
+					["p"] = "g915302",
+					["taskName"] = "10 Done",
+					["isTask"] = true,
+				},
+				["t677226"] = {
 					["hideDays"] = {
 					},
 					["resetType"] = "Daily Automatic",
-					["isTask"] = true,
-					["id"] = "t117838",
-					["taskName"] = "Calling",
-					["p"] = "g446130",
 					["defaultEnabled"] = true,
+					["id"] = "t677226",
+					["p"] = "g446130",
+					["taskName"] = "Anima Conductor",
+					["isTask"] = true,
 				},
-				["g67281"] = {
+				["t118929"] = {
 					["hideDays"] = {
 					},
-					["p"] = "garden",
-					["DO"] = {
-						"g134805", -- [1]
-						"g962072", -- [2]
-						"g915302", -- [3]
-						"g467930", -- [4]
-						"t118929", -- [5]
-					},
-					["isGroup"] = true,
-					["id"] = "g67281",
-					["listName"] = "Weekly",
-					["G"] = {
-						{
-							["id"] = "g67281",
-							["oo"] = 10,
-						}, -- [1]
-					},
+					["resetType"] = "Weekly Automatic",
 					["defaultEnabled"] = true,
+					["id"] = "t118929",
+					["p"] = "g67281",
+					["taskName"] = "Favors",
+					["isTask"] = true,
 				},
 			},
 			["garden"] = {
@@ -642,14 +642,14 @@ ExecAssistDB = {
 		["Options"] = {
 			["AllowAPI"] = false,
 			["ldbIcon"] = "enabled",
-			["WeeklyResetDay"] = 4,
+			["cfg_groupColor"] = {
+				["b"] = 1,
+				["g"] = 0.9490196078431372,
+				["r"] = 0,
+			},
 			["ldbLabel"] = "Executive Assistant",
 			["showLoginAlerts"] = false,
-			["cfg_groupColor"] = {
-				["r"] = 0,
-				["g"] = 0.9490196078431372,
-				["b"] = 1,
-			},
+			["WeeklyResetDay"] = 4,
 			["DailyResetTime"] = 8,
 			["configConfig"] = {
 				["height"] = 700,
@@ -658,7 +658,7 @@ ExecAssistDB = {
 			},
 			["SaveCollapseMap"] = true,
 		},
-		["nextMidnightReset"] = 1614297600,
+		["nextMidnightReset"] = 1614470400,
 		["tooltip"] = {
 			["standard_font"] = "Friz Quadrata TT",
 			["standard_size"] = 11,
@@ -673,9 +673,9 @@ ExecAssistDB = {
 			["fontshadow"] = {
 				["shadowcolor"] = {
 					["a"] = 0.5,
-					["r"] = 0,
-					["g"] = 0,
 					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
 				},
 				["offset"] = {
 					["y"] = -2,
@@ -687,58 +687,38 @@ ExecAssistDB = {
 			["enableTooltipTooltips"] = true,
 			["header_font"] = "Friz Quadrata TT",
 			["default_tooltipType"] = "PGT",
-			["color_taskCounts"] = {
-				["r"] = 0,
-				["g"] = 0.7568627450980392,
-				["b"] = 1,
-			},
+			["snowflake_size"] = 11,
 			["OnlyCurrentChar"] = false,
 			["HideEmptyGroups"] = true,
-			["snowflake_font"] = "Friz Quadrata TT",
+			["color_taskCounts"] = {
+				["b"] = 1,
+				["g"] = 0.7568627450980392,
+				["r"] = 0,
+			},
 			["tooltipStyle"] = {
 				["edgeSize"] = 1,
 				["bgcolor"] = {
 					["a"] = 0.6579812169075012,
-					["r"] = 0,
-					["g"] = 0,
 					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
 				},
 				["useStyle"] = true,
 				["bgFile"] = "Solid",
 				["edgeFile"] = "1 Pixel",
 				["bdrcolor"] = {
 					["a"] = 1,
-					["r"] = 0,
-					["g"] = 0,
 					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
 				},
 				["insets"] = 1,
 			},
 			["color_Group"] = {
-				["r"] = 0,
-				["g"] = 0.9882352941176471,
 				["b"] = 1,
+				["g"] = 0.9882352941176471,
+				["r"] = 0,
 			},
-			["npc"] = {
-				["npcColor"] = {
-					["a"] = 1,
-					["r"] = 0.4,
-					["g"] = 0.4,
-					["b"] = 0.4,
-				},
-			},
-			["HideChar_ifNoIncomplete"] = false,
-			["default_GroupDisplayMode_GTP"] = 1,
-			["showChecked"] = false,
-			["ShowGroupNames_PGT"] = true,
-			["useCounts_onHeaders"] = true,
-			["useCounts_onLDB"] = true,
-			["ShowOnlySelectedGroup_PGT"] = true,
-			["displayType_onHeaders"] = 4,
-			["displayType_onLDB"] = 4,
-			["HideGroupNames_PGT"] = true,
-			["tooltipButtonPos"] = 1,
-			["AutoHideDelay"] = 0.5,
 			["SM"] = {
 				["cmdLineTarget"] = {
 					["useText_text"] = "(c)",
@@ -746,9 +726,9 @@ ExecAssistDB = {
 					["useColor"] = 2,
 					["useText"] = 2,
 					["color"] = {
-						["r"] = 0.33,
-						["g"] = 0.54,
 						["b"] = 0.52,
+						["g"] = 0.54,
+						["r"] = 0.33,
 					},
 				},
 				["acctwide"] = {
@@ -757,9 +737,9 @@ ExecAssistDB = {
 					["useColor"] = 2,
 					["useText"] = 2,
 					["color"] = {
-						["r"] = 0,
-						["g"] = 0.94,
 						["b"] = 0.94,
+						["g"] = 0.94,
+						["r"] = 0,
 					},
 				},
 				["purgable"] = {
@@ -768,9 +748,9 @@ ExecAssistDB = {
 					["useColor"] = 2,
 					["useText"] = 2,
 					["color"] = {
-						["r"] = 1,
-						["g"] = 0,
 						["b"] = 0.5,
+						["g"] = 0,
+						["r"] = 1,
 					},
 				},
 				["hidden"] = {
@@ -779,9 +759,9 @@ ExecAssistDB = {
 					["useColor"] = 2,
 					["useText"] = 2,
 					["color"] = {
-						["r"] = 0.73,
-						["g"] = 0.61,
 						["b"] = 0.78,
+						["g"] = 0.61,
+						["r"] = 0.73,
 					},
 				},
 				["snowflake"] = {
@@ -790,22 +770,42 @@ ExecAssistDB = {
 					["useColor"] = 2,
 					["useText"] = 2,
 					["color"] = {
-						["r"] = 1,
-						["g"] = 0.49,
 						["b"] = 0.4,
+						["g"] = 0.49,
+						["r"] = 1,
 					},
 				},
 			},
+			["HideChar_ifNoIncomplete"] = false,
+			["AutoHideDelay"] = 0.5,
+			["showChecked"] = false,
+			["ShowGroupNames_PGT"] = true,
+			["useCounts_onLDB"] = true,
+			["HideGroupNames_PGT"] = true,
+			["displayType_onHeaders"] = 4,
+			["useCounts_onHeaders"] = true,
+			["displayType_onLDB"] = 4,
+			["ShowOnlySelectedGroup_PGT"] = true,
+			["tooltipButtonPos"] = 1,
+			["default_GroupDisplayMode_GTP"] = 1,
+			["npc"] = {
+				["npcColor"] = {
+					["a"] = 1,
+					["b"] = 0.4,
+					["g"] = 0.4,
+					["r"] = 0.4,
+				},
+			},
 			["ShowServerNames"] = true,
-			["snowflake_size"] = 11,
+			["snowflake_font"] = "Friz Quadrata TT",
 			["color_TaskName"] = {
-				["r"] = 1,
-				["g"] = 1,
 				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
 			},
 		},
 		["nextWeeklyReset"] = 1614754800,
-		["nextDailyReset"] = 1614322800,
+		["nextDailyReset"] = 1614495600,
 		["taskWindow"] = {
 			["strata"] = "LOW",
 			["enableTooltipTooltips"] = true,
@@ -815,55 +815,55 @@ ExecAssistDB = {
 			["toggleState_ToggledOff"] = true,
 			["widthMethod"] = 1,
 			["FixedWidth_FontString"] = 380,
-			["MinWidth_FontString"] = 120,
+			["pos"] = {
+				["yOff"] = -48.00009536743164,
+				["xOff"] = 198.9994812011719,
+				["posW_rel"] = "TOPLEFT",
+				["posW_relP"] = "TOPLEFT",
+				["idx"] = 1,
+				["relTW"] = "CENTER",
+			},
 			["useMouseoverHighlight"] = true,
 			["showChecked"] = true,
-			["opacity_faded"] = 1,
-			["hideincombat"] = false,
-			["ButtonPos"] = 2,
-			["useDragFrame"] = true,
+			["opacity_mouseover"] = 1,
+			["style"] = {
+				["bgcolor"] = {
+					["a"] = 1,
+					["b"] = 0.01,
+					["g"] = 0.01,
+					["r"] = 0.01,
+				},
+				["background"] = "Solid",
+				["border"] = "Blizzard Tooltip",
+				["bdrcolor"] = {
+					["a"] = 1,
+					["b"] = 0.01,
+					["g"] = 0.01,
+					["r"] = 0.01,
+				},
+			},
+			["hidebuttons"] = false,
+			["MinWidth_FontString"] = 120,
 			["useCounts_onHeaders"] = true,
-			["displayType_onHeaders"] = 1,
-			["defaultCollapse"] = false,
 			["fontshadow"] = {
 				["shadowcolor"] = {
 					["a"] = 0.75,
-					["r"] = 0,
-					["g"] = 0,
 					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
 				},
 				["offset"] = {
 					["y"] = -1,
 					["x"] = 1,
 				},
 			},
+			["defaultCollapse"] = false,
+			["useDragFrame"] = true,
+			["displayType_onHeaders"] = 1,
+			["ButtonPos"] = 2,
+			["hideincombat"] = false,
+			["opacity_faded"] = 1,
 			["rightMouse_togglesShowChecked"] = true,
-			["hidebuttons"] = false,
-			["style"] = {
-				["border"] = "Blizzard Tooltip",
-				["background"] = "Solid",
-				["bgcolor"] = {
-					["a"] = 1,
-					["r"] = 0.01,
-					["g"] = 0.01,
-					["b"] = 0.01,
-				},
-				["bdrcolor"] = {
-					["a"] = 1,
-					["r"] = 0.01,
-					["g"] = 0.01,
-					["b"] = 0.01,
-				},
-			},
-			["opacity_mouseover"] = 1,
-			["pos"] = {
-				["posW_relP"] = "TOPLEFT",
-				["posW_rel"] = "TOPLEFT",
-				["relTW"] = "CENTER",
-				["idx"] = 1,
-				["yOff"] = -48.00009536743164,
-				["xOff"] = 198.9994812011719,
-			},
 		},
 		["charStem"] = {
 			["Yóshino - Silvermoon"] = {
@@ -888,11 +888,11 @@ ExecAssistDB = {
 					},
 					["t336891"] = {
 					},
-					["t118929"] = {
+					["t677226"] = {
 					},
 					["t92876"] = {
 					},
-					["t677226"] = {
+					["t118929"] = {
 					},
 				},
 				["charClass"] = "PRIEST",
@@ -906,34 +906,34 @@ ExecAssistDB = {
 				["agg"] = {
 					["t669042"] = {
 					},
-					["t118929"] = {
-					},
 					["t650156"] = {
+					},
+					["t118929"] = {
 					},
 				},
 				["charClass"] = "WARLOCK",
-			},
-			["Mítsukí - Silvermoon"] = {
-				["agg"] = {
-				},
-				["charClass"] = "SHAMAN",
-			},
-			["Akatsúki - Silvermoon"] = {
-				["agg"] = {
-				},
-				["charClass"] = "MONK",
 			},
 			["Iríya - Ravencrest"] = {
 				["agg"] = {
 				},
 				["charClass"] = "MAGE",
 			},
+			["Akatsúki - Silvermoon"] = {
+				["agg"] = {
+				},
+				["charClass"] = "MONK",
+			},
+			["Mítsukí - Silvermoon"] = {
+				["agg"] = {
+				},
+				["charClass"] = "SHAMAN",
+			},
 		},
+		["IsOldHat"] = true,
 		["acctwideStem"] = {
 			["agg"] = {
 			},
 		},
-		["IsOldHat"] = true,
 	},
 	["profileKeys"] = {
 		["Yóshino - Silvermoon"] = "Default",
@@ -941,8 +941,8 @@ ExecAssistDB = {
 		["Ririchíyo - Silvermoon"] = "Default",
 		["Ririchíyo - Aerie Peak"] = "Default",
 		["Victoríque - Silvermoon"] = "Default",
-		["Mítsukí - Silvermoon"] = "Default",
-		["Akatsúki - Silvermoon"] = "Default",
 		["Iríya - Ravencrest"] = "Default",
+		["Akatsúki - Silvermoon"] = "Default",
+		["Mítsukí - Silvermoon"] = "Default",
 	},
 }

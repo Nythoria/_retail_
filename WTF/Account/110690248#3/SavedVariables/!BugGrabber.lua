@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 162,
 	["lastSanitation"] = 3,
+	["session"] = 167,
 	["errors"] = {
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
@@ -45,24 +45,10 @@ BugGrabberDB = {
 		}, -- [5]
 		{
 			["message"] = "File Interface\\AddOns\\TradeSkillMaster_AppHelper\\AppData.lua is empty.",
-			["time"] = "2021/02/14 11:46:06",
 			["session"] = 90,
+			["time"] = "2021/02/14 11:46:06",
 			["counter"] = 3,
 		}, -- [6]
-		{
-			["message"] = "Interface\\AddOns\\GottaGoFast\\CM/Utility.lua:172: attempt to index global 'GossipTitleButton1' (a nil value)",
-			["time"] = "2021/02/14 14:53:39",
-			["stack"] = "[string \"@Interface\\AddOns\\GottaGoFast\\CM/Utility.lua\"]:172: in function `HandleGossip'\n[string \"@Interface\\AddOns\\GottaGoFast\\Core.lua\"]:104: in function `?'\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...s\\ElvUI\\Libraries\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
-			["session"] = 90,
-			["counter"] = 1,
-		}, -- [7]
-		{
-			["message"] = "Interface\\AddOns\\GottaGoFastHistory\\History-History.lua:27: attempt to call field 'GetDate' (a nil value)",
-			["time"] = "2021/02/03 13:17:14",
-			["stack"] = "[string \"@Interface\\AddOns\\GottaGoFastHistory\\History-History.lua\"]:27: in function `StoreRun'\n[string \"@Interface\\AddOns\\GottaGoFastHistory\\Core.lua\"]:46: in function `?'\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0-12.lua\"]:218: in function `OnReceiveMultipartLast'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0-12.lua\"]:256: in function <...Ons\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0.lua:246>",
-			["session"] = 127,
-			["counter"] = 14,
-		}, -- [8]
 		{
 			["message"] = "Interface\\AddOns\\AstralKeys\\Lists\\Friends-Friends.lua:655: attempt to perform arithmetic on field 'maxWidth' (a nil value)",
 			["time"] = "2021/02/23 09:31:02",
@@ -70,14 +56,28 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\AstralKeys\\Lists\\Friends-Friends.lua\"]:655: in function <Interface\\AddOns\\AstralKeys\\Lists\\Friends.lua:600>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?",
 			["session"] = 132,
 			["counter"] = 1,
+		}, -- [7]
+		{
+			["message"] = "Interface\\AddOns\\GottaGoFast\\CM/Utility.lua:172: attempt to index global 'GossipTitleButton1' (a nil value)",
+			["time"] = "2021/02/14 14:53:39",
+			["stack"] = "[string \"@Interface\\AddOns\\GottaGoFast\\CM/Utility.lua\"]:172: in function `HandleGossip'\n[string \"@Interface\\AddOns\\GottaGoFast\\Core.lua\"]:104: in function `?'\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...s\\ElvUI\\Libraries\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
+			["session"] = 166,
+			["counter"] = 9,
+		}, -- [8]
+		{
+			["message"] = "Interface\\AddOns\\GottaGoFastHistory\\History-History.lua:27: attempt to call field 'GetDate' (a nil value)",
+			["time"] = "2021/02/03 13:17:14",
+			["stack"] = "[string \"@Interface\\AddOns\\GottaGoFastHistory\\History-History.lua\"]:27: in function `StoreRun'\n[string \"@Interface\\AddOns\\GottaGoFastHistory\\Core.lua\"]:46: in function `?'\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...que\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\Masque\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0-12.lua\"]:218: in function `OnReceiveMultipartLast'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0-12.lua\"]:256: in function <...Ons\\ElvUI\\Libraries\\Ace3\\AceComm-3.0\\AceComm-3.0.lua:246>",
+			["session"] = 167,
+			["counter"] = 21,
 		}, -- [9]
 		{
 			["message"] = "Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0-27.lua:372: bad argument #1 to 'pairs' (table expected, got string)",
 			["time"] = "2021/02/03 11:57:21",
 			["locals"] = "(*temporary) = \"0\"\n(*temporary) = \"table expected, got string\"\n = <function> defined =[C]:-1\n",
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0-27.lua\"]:372: in function <Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0.lua:359>",
-			["session"] = 162,
-			["counter"] = 120,
+			["session"] = 167,
+			["counter"] = 124,
 		}, -- [10]
 	},
 }

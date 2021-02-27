@@ -1,4 +1,4 @@
--- Generated from CurseForge on Thu Feb 25 18:59:27 UTC 2021
+-- Generated from CurseForge on Sat Feb 27 07:09:52 UTC 2021
 local _, ns = ...
 
 if ns:IsSameLocale("koKR") then

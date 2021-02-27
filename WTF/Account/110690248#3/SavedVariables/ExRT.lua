@@ -863,6 +863,12 @@ VExRT = {
 				"^2390^8^1614376891^197^0^5^218.50^Pointykaktus-Blackmoore", -- [722]
 				"^2390^8^1614377120^7^0^5^218.50^", -- [723]
 				"^2390^8^1614377232^159^1^5^218.50^Pointykaktus-Blackmoore", -- [724]
+				"^2399^15^1614455988^290^0^16^215.53^Gretathunbrg", -- [725]
+				"^2399^15^1614456952^339^1^17^214.66^Winndie", -- [726]
+				"^2417^15^1614457677^7^0^16^213.24^", -- [727]
+				"^2417^15^1614457721^9^0^16^213.24^", -- [728]
+				"^2417^15^1614457957^187^0^16^210.37^Gretathunbrg", -- [729]
+				"^2417^15^1614458460^171^0^16^210.81^Anardel", -- [730]
 			},
 			["Rangii"] = {
 			},
@@ -1069,6 +1075,11 @@ VExRT = {
 				"^2356^8^1614441933^102^1^5^199.89^Morrodoom-Ambossar", -- [51]
 				"^2358^8^1614442262^143^1^5^199.89^Selalara", -- [52]
 				"^2359^8^1614442587^194^1^5^199.89^", -- [53]
+				"^2398^15^1614453275^250^1^14^208.15^", -- [54]
+				"^2399^15^1614453866^146^0^15^209.43^Avaloén", -- [55]
+				"^2399^15^1614454182^238^0^16^207.00^Anardel", -- [56]
+				"^2399^15^1614454549^359^0^16^206.84^Anardel", -- [57]
+				"^2399^15^1614455444^306^0^17^184.89^Anardel", -- [58]
 			},
 		},
 		["names"] = {
@@ -1170,7 +1181,7 @@ VExRT = {
 		},
 		["gnGUIDs"] = {
 			["Totmix"] = 262,
-			["Winndie"] = 103,
+			["Xuraél"] = 254,
 			["Speleus-Sylvanas"] = 104,
 			["Alizzasah-Ravencrest"] = 65,
 			["Markias-DefiasBrotherhood"] = 104,
@@ -1198,6 +1209,7 @@ VExRT = {
 			["Loderus"] = 252,
 			["Vitì"] = 269,
 			["Sallirion-Ravencrest"] = 263,
+			["Kizmaiarsh-Ravencrest"] = 65,
 			["Killsila"] = 253,
 			["Flashii"] = 63,
 			["Pottaan-Frostmane"] = 64,
@@ -1218,6 +1230,7 @@ VExRT = {
 			["Phåntom"] = 265,
 			["Lookatmylock-Sylvanas"] = 267,
 			["Kimuraii-AzjolNerub"] = 66,
+			["Regaas"] = 261,
 			["Starplattium"] = 577,
 			["Onorera"] = 577,
 			["Lourre"] = 70,
@@ -1240,6 +1253,7 @@ VExRT = {
 			["Illídaní-Blackmoore"] = 581,
 			["Holywaters-Ravencrest"] = 258,
 			["Daéwolf-Elune"] = 581,
+			["Dïscojanne"] = 254,
 			["Shaolinveno-Archimonde"] = 268,
 			["Suyseki-Ravencrest"] = 259,
 			["Drusku-EmeraldDream"] = 258,
@@ -1269,6 +1283,7 @@ VExRT = {
 			["Dallán"] = 260,
 			["Нервмарса-Дракономор"] = 72,
 			["Hoottz"] = 264,
+			["Gretathunbrg"] = 72,
 			["Kazràn"] = 102,
 			["Alvár-Ravencrest"] = 581,
 			["Коллеб-ВечнаяПесня"] = 254,
@@ -1288,9 +1303,9 @@ VExRT = {
 			["Asuri"] = 267,
 			["Mendøza"] = 268,
 			["Sishorion-Antonidas"] = 64,
-			["Níina"] = 65,
 			["Altmetall-Lordaeron"] = 254,
 			["Tortulho"] = 250,
+			["Lagii"] = 70,
 			["Andydh"] = 581,
 			["Пустоетело-Гордунни"] = 258,
 			["Plumbster"] = 64,
@@ -1302,174 +1317,196 @@ VExRT = {
 			["Firesnek"] = 102,
 			["Junî"] = 102,
 			["Jokery"] = 269,
+			["Syrubrew"] = 269,
+			["Googey"] = 63,
 			["Srmijä-DunModr"] = 70,
+			["Devouer"] = 252,
 			["Pennington-Ulduar"] = 65,
 			["Jancey-DunModr"] = 577,
+			["Zygx"] = 581,
 			["Emblair"] = 70,
+			["Siizzle-Malygos"] = 71,
 			["Cwhitéy-ChamberofAspects"] = 262,
-			["Ririchíyo"] = 256,
+			["Sojusoldier"] = 581,
+			["Chunkasauras"] = 250,
+			["Ruzha"] = 267,
+			["Ririchíyo"] = 257,
+			["Tîggy"] = 70,
 			["Ingorn"] = 70,
 			["Carthego-Mazrigos"] = 267,
 			["Rhinza"] = 267,
+			["Brã"] = 252,
+			["Schlagmich"] = 256,
+			["Wooddz"] = 577,
 			["Scrípé"] = 254,
 			["Benpríest"] = 256,
 			["Bubblícíous-Frostmane"] = 66,
 			["Kphilax-Ravencrest"] = 104,
+			["Skuron"] = 252,
+			["Protege"] = 105,
+			["Drrubenstein"] = 105,
+			["Isehime"] = 254,
+			["Drobadin"] = 253,
 			["Allyna"] = 269,
+			["Psychoz-Kilrogg"] = 577,
 			["Cleansingmud-Ravencrest"] = 262,
+			["Tinkerbyte"] = 250,
+			["Líliana"] = 252,
+			["Bakstjärten"] = 105,
 			["Ganyu-Ysondre"] = 62,
 			["Yasratcha"] = 267,
 			["Lunerba-Ravencrest"] = 260,
-			["Oblaa"] = 581,
 			["Klaussambo-Kilrogg"] = 253,
+			["Smealpha-Uldaman"] = 254,
+			["Spelunker"] = 257,
 			["Egosmania"] = 70,
+			["Bundleoffun"] = 64,
 			["Remiliah"] = 252,
 			["Kalseqt"] = 252,
 			["Saimiri-Kilrogg"] = 581,
-			["Serindei-Dalaran"] = 258,
+			["Oblaa"] = 581,
 			["Warxy"] = 71,
-			["Skulblâkâ-Blackmoore"] = 577,
+			["Althayr-Blackmoore"] = 262,
 			["Angelicgirl"] = 253,
 			["Jernknuser"] = 102,
-			["Bundleoffun"] = 64,
+			["Serindei-Dalaran"] = 258,
 			["Rødekineser"] = 72,
-			["Spelunker"] = 257,
+			["Squalli-Medivh"] = 66,
 			["Mítsukí"] = 264,
-			["Althayr-Blackmoore"] = 262,
+			["Svenbjorn"] = 269,
 			["Darkes-Kilrogg"] = 250,
 			["Asarîel-Hyjal"] = 103,
 			["Dàándy"] = 263,
-			["Okimoto"] = 577,
-			["Squalli-Medivh"] = 66,
-			["Pointykaktus-Blackmoore"] = 254,
-			["Zárgothrax"] = 265,
-			["Svenbjorn"] = 269,
-			["Lickyxx"] = 102,
 			["Xueñ-Ravencrest"] = 269,
+			["Pointykaktus-Blackmoore"] = 254,
+			["Zenibä"] = 258,
+			["Tervania-Ravencrest"] = 66,
+			["Echeb"] = 64,
+			["Lickyxx"] = 102,
+			["Skulblâkâ-Blackmoore"] = 577,
 			["Mythicdesire"] = 253,
 			["Zinicdh"] = 581,
 			["Eloyà"] = 63,
-			["Kjarudi-Blackmoore"] = 66,
-			["Echeb"] = 64,
-			["Xiandea-Ravencrest"] = 102,
-			["Hellstormm"] = 254,
 			["Akazi"] = 64,
+			["Zárgothrax"] = 265,
+			["Kjarudi-Blackmoore"] = 66,
+			["Hellstormm"] = 254,
+			["Sinner-Sylvanas"] = 581,
+			["Xiandea-Ravencrest"] = 102,
+			["Trecdor"] = 72,
 			["Ichix"] = 254,
-			["Arschlog-Lightbringer"] = 252,
-			["Buugimies"] = 70,
 			["Icefwry"] = 63,
 			["Urbinox-Darksorrow"] = 250,
 			["Kasta"] = 267,
 			["Lavieda-DieewigeWacht"] = 253,
-			["Hcpma-Quel'Thalas"] = 63,
-			["Sinner-Sylvanas"] = 581,
+			["Arschlog-Lightbringer"] = 252,
+			["Hehepriest"] = 258,
 			["Zurthex"] = 71,
-			["Bammelito"] = 63,
-			["Tinkerbyte"] = 250,
-			["Pawkypie-Frostmane"] = 258,
+			["Hcpma-Quel'Thalas"] = 63,
+			["Smoody"] = 65,
+			["Hedwig-Dunemaul"] = 104,
 			["Yóshino"] = 65,
 			["Thamous"] = 71,
-			["Rivendeell"] = 254,
 			["Kittyscratch"] = 102,
-			["Smoody"] = 65,
+			["Аекир-Борейскаятундра"] = 264,
 			["Skuiizdh-LaCroisadeécarlate"] = 581,
 			["Dottyxqt-Outland"] = 265,
-			["Hedwig-Dunemaul"] = 104,
-			["Ладрос-Гордунни"] = 63,
-			["Fabulosó"] = 65,
-			["Аекир-Борейскаятундра"] = 264,
-			["Nalfeshnee"] = 577,
-			["Jäc"] = 104,
+			["Rivendeell"] = 254,
 			["Yaganprayer-Silvermoon"] = 256,
-			["Herbicide-Darksorrow"] = 267,
+			["Fabulosó"] = 65,
 			["Niverbor-DefiasBrotherhood"] = 104,
+			["Süßjêçtwø"] = 257,
+			["Jäc"] = 102,
+			["Dedrel-Aszune"] = 260,
+			["Amsysa-Ravencrest"] = 581,
+			["Nylyssae-ArgentDawn"] = 252,
 			["Selalara"] = 254,
 			["Holykaktus-Blackmoore"] = 66,
 			["Avatarjorn-ArgentDawn"] = 264,
 			["Lookias"] = 264,
 			["Prutten"] = 254,
 			["Dwaalspoor-Turalyon"] = 581,
-			["Rankoh"] = 253,
-			["Süßjêçtwø"] = 257,
-			["Amsysa-Ravencrest"] = 581,
-			["Gabiatom"] = 254,
-			["Baileyboomer"] = 102,
 			["Kacukas"] = 577,
+			["Azunsa-Blackmoore"] = 63,
+			["Gabiatom"] = 254,
+			["Nalfeshnee"] = 577,
+			["Baileyboomer"] = 102,
+			["Rankoh"] = 253,
 			["Gooselle"] = 65,
-			["Heilefix-Anetheron"] = 102,
+			["Tumlingen-Ravencrest"] = 267,
 			["Fütanaarü"] = 70,
 			["Foko-Outland"] = 253,
 			["Nalgoth"] = 252,
-			["Azunsa-Blackmoore"] = 63,
-			["Scripé"] = 581,
+			["Mishal-Sylvanas"] = 269,
+			["Scripé"] = 577,
 			["Saltboi-Blackmoore"] = 254,
 			["Singhas"] = 263,
 			["Ezrí-Sylvanas"] = 256,
 			["Freemann-Dalaran"] = 577,
 			["Youngster"] = 264,
-			["Turoxas"] = 264,
+			["Eyther-Shadowsong"] = 581,
 			["Dyomine-Archimonde"] = 581,
-			["Friedfrost"] = 63,
+			["Iríya"] = 64,
 			["Crrown"] = 581,
 			["Rutcher-Doomhammer"] = 269,
-			["Tumlingen-Ravencrest"] = 267,
-			["Lelethis"] = 104,
-			["Mishal-Sylvanas"] = 269,
-			["Eyther-Shadowsong"] = 581,
-			["Líliana"] = 252,
 			["Bilbocabbins"] = 105,
-			["Iríya"] = 64,
+			["Lelethis"] = 104,
+			["Heilefix-Anetheron"] = 102,
+			["Andâløy-DunModr"] = 102,
+			["Exxe-Malorne"] = 254,
+			["Akatsúki"] = 270,
+			["Friedfrost"] = 63,
 			["Johnsnurse"] = 66,
-			["Klaggadin"] = 65,
+			["Kanaì"] = 254,
 			["Kalashników-Blackmoore"] = 254,
 			["Gangadia"] = 254,
 			["Gladiate"] = 72,
 			["Sicso"] = 251,
-			["Andâløy-DunModr"] = 102,
-			["Aleneira-Ravencrest"] = 65,
+			["Wokulski"] = 254,
+			["Heavena"] = 257,
 			["Mìcha"] = 253,
 			["Ríot-Tichondrius"] = 250,
-			["Akatsúki"] = 270,
-			["Skön-Sylvanas"] = 254,
-			["Arwendir-Quel'Thalas"] = 254,
-			["Kanaì"] = 254,
-			["Délen"] = 265,
-			["Heavena"] = 257,
-			["Nøcturnal-Sylvanas"] = 256,
-			["Bakstjärten"] = 105,
-			["Ravenoftrigo-Sylvanas"] = 265,
-			["Lsnoob-Hyjal"] = 254,
-			["Sunsträ"] = 269,
 			["Volframium"] = 260,
-			["Tharylo-Outland"] = 252,
-			["Siizzle-Malygos"] = 71,
-			["Jêssâ-Silvermoon"] = 253,
-			["Meltotem"] = 264,
-			["Anardel"] = 577,
+			["Skön-Sylvanas"] = 254,
 			["Ablaze"] = 266,
-			["Ogrïmhunter-DunModr"] = 254,
-			["Wokulski"] = 254,
+			["Meltotem"] = 264,
+			["Lsnoob-Hyjal"] = 254,
+			["Jyhn"] = 102,
+			["Nøcturnal-Sylvanas"] = 256,
+			["Délen"] = 265,
+			["Ravenoftrigo-Sylvanas"] = 265,
+			["Tharylo-Outland"] = 252,
+			["Sunsträ"] = 269,
+			["Klaggadin"] = 65,
+			["Arwendir-Quel'Thalas"] = 254,
+			["Aleneira-Ravencrest"] = 65,
+			["Jêssâ-Silvermoon"] = 253,
 			["Avalóen"] = 577,
-			["Vetrini"] = 577,
+			["Anardel"] = 577,
 			["Deathsymbol"] = 252,
-			["Exxe-Malorne"] = 254,
+			["Ogrïmhunter-DunModr"] = 254,
 			["Twimbam"] = 262,
 			["Mewkel-Draenor"] = 265,
+			["Vetrini"] = 577,
+			["Turoxas"] = 264,
+			["Antalayah"] = 105,
+			["Herbicide-Darksorrow"] = 267,
+			["Maestrof-Darksorrow"] = 260,
 			["Avalar-AzjolNerub"] = 63,
 			["Teuanuca"] = 252,
-			["Antalayah"] = 105,
-			["Maestrof-Darksorrow"] = 260,
+			["Ràkkar-Pozzodell'Eternità"] = 102,
+			["Stymphalos"] = 102,
 			["Killedbylagg"] = 267,
 			["Kúsano"] = 105,
 			["Canex-Hakkar"] = 70,
-			["Ràkkar-Pozzodell'Eternità"] = 102,
+			["Ладрос-Гордунни"] = 63,
 			["Кошадрил-Гордунни"] = 102,
-			["Nylyssae-ArgentDawn"] = 252,
-			["Maroîn-Dalaran"] = 105,
-			["Dedrel-Aszune"] = 260,
-			["Unforgîven"] = 250,
-			["Stymphalos"] = 102,
 			["Buffskekw"] = 65,
+			["Maroîn-Dalaran"] = 105,
+			["Pawkypie-Frostmane"] = 258,
+			["Unforgîven"] = 250,
+			["Bammelito"] = 63,
+			["Buugimies"] = 70,
 			["Skyblas"] = 262,
 			["Frizzl"] = 264,
 			["Yaganmage"] = 63,
@@ -1479,22 +1516,21 @@ VExRT = {
 			["Narcind"] = 269,
 			["Maxnoon"] = 256,
 			["Hyroda-Dalaran"] = 63,
-			["Trecdor"] = 72,
+			["Snifzn-Ravencrest"] = 256,
 			["Pingan-Aggramar"] = 262,
-			["Hehepriest"] = 258,
+			["Looneydh"] = 581,
 			["Ocago-Kael'thas"] = 102,
 			["Klaidas-Kazzak"] = 253,
-			["Snifzn-Ravencrest"] = 256,
+			["Typhon-Thrall"] = 66,
 			["Malucie-Sargeras"] = 104,
 			["Inal-Arathor"] = 267,
-			["Tervania-Ravencrest"] = 66,
-			["Zenibä"] = 258,
-			["Typhon-Thrall"] = 66,
-			["Êerie"] = 64,
-			["Looneydh"] = 581,
-			["Diyveteran"] = 70,
-			["Smealpha-Uldaman"] = 254,
+			["Okimoto"] = 577,
+			["Teodorus"] = 581,
 			["Эфтерпа-Голдринн"] = 70,
+			["Êerie"] = 64,
+			["Flashiihunt"] = 254,
+			["Diyveteran"] = 70,
+			["Avaloén"] = 254,
 			["Fenil-Outland"] = 258,
 		},
 		["SplitOpt"] = true,
@@ -1567,12 +1603,12 @@ VExRT = {
 			["51052;4"] = 1,
 			["91802;2"] = 3,
 			["115203;4"] = 6,
-			["527;2"] = 4,
+			["90361;3"] = 1,
 			["192058;4"] = 3,
 			["105809;2"] = 1,
-			["90361;3"] = 1,
+			["527;2"] = 4,
 			["10060;3"] = 4,
-			["116844;1"] = 3,
+			["20484;5"] = 3,
 			["23920;2"] = 6,
 			["119381;1"] = 3,
 			["114018;1"] = 4,
@@ -1580,13 +1616,13 @@ VExRT = {
 			["73325;3"] = 4,
 			["47528;3"] = 3,
 			["64382;1"] = 4,
-			["20594;1"] = 6,
+			["183752;3"] = 3,
 			["22812;5"] = 6,
 			["191427;3"] = 6,
 			["116844;2"] = 3,
 			["20608;3"] = 3,
 			["57994;2"] = 3,
-			["12472;4"] = 5,
+			["19505;1"] = 4,
 			["19647;4"] = 3,
 			["19647;1"] = 3,
 			["64901;3"] = 7,
@@ -1594,7 +1630,7 @@ VExRT = {
 			["2050;3"] = 2,
 			["4987;2"] = 4,
 			["78675;2"] = 3,
-			["19505;1"] = 4,
+			["12472;4"] = 5,
 			["116844;4"] = 3,
 			["22842;5"] = 6,
 			["22842;2"] = 6,
@@ -1639,16 +1675,16 @@ VExRT = {
 			["194223;2"] = 5,
 			["96231;3"] = 3,
 			["91802;4"] = 3,
-			["30283;4"] = 3,
+			["88423;5"] = 4,
 			["206931;2"] = 6,
-			["20608;4"] = 3,
+			["204263;2"] = 3,
 			["89766;2"] = 3,
 			["5246;3"] = 3,
 			["475;1"] = 4,
 			["91802;3"] = 3,
 			["1766;2"] = 3,
-			["64382;3"] = 4,
 			["2782;2"] = 4,
+			["106839;3"] = 3,
 			["1766;1"] = 3,
 			["192058;3"] = 3,
 			["22812;3"] = 6,
@@ -1658,8 +1694,8 @@ VExRT = {
 			["114018;4"] = 4,
 			["114018;3"] = 4,
 			["30283;2"] = 3,
-			["115781;3"] = 3,
 			["48792;1"] = 6,
+			["155835;4"] = 6,
 			["10060;2"] = 4,
 			["89766;3"] = 3,
 			["114052;4"] = 1,
@@ -1672,19 +1708,19 @@ VExRT = {
 			["207684;3"] = 3,
 			["198838;4"] = 1,
 			["89808;1"] = 4,
-			["155835;4"] = 6,
+			["115781;3"] = 3,
 			["31884;3"] = 10,
 			["49576;1"] = 3,
 			["6552;4"] = 3,
 			["19801;1"] = 4,
-			["106839;3"] = 3,
+			["64382;3"] = 4,
 			["96231;4"] = 3,
-			["204263;2"] = 3,
+			["20608;4"] = 3,
 			["20608;1"] = 3,
 			["46968;4"] = 3,
 			["194679;2"] = 6,
 			["32375;3"] = 4,
-			["88423;5"] = 4,
+			["30283;4"] = 3,
 			["325197;4"] = 1,
 			["12975;4"] = 6,
 			["213644;4"] = 4,
@@ -1705,13 +1741,13 @@ VExRT = {
 			["1160;4"] = 6,
 			["105809;4"] = 1,
 			["51052;1"] = 1,
-			["183752;3"] = 3,
+			["20594;1"] = 6,
 			["115203;3"] = 6,
 			["114018;2"] = 4,
 			["31884;2"] = 1,
 			["20484;3"] = 3,
 			["20484;4"] = 3,
-			["20484;5"] = 3,
+			["116844;1"] = 3,
 			["55233;2"] = 6,
 			["48792;3"] = 6,
 			["31850;3"] = 6,
@@ -1775,12 +1811,12 @@ VExRT = {
 				["textureColorBackgroundCooldownR"] = 0,
 				["frameBetweenLines"] = 3,
 				["textureColorTextCooldownB"] = 1,
-				["textureColorTextCooldownR"] = 1,
+				["fontOutline"] = true,
 				["textureColorBackgroundCooldownG"] = 0,
 				["textureColorBackgroundActiveR"] = 0,
 				["textureColorBackgroundDefaultG"] = 0,
-				["frameLines"] = 10,
 				["enabled"] = true,
+				["frameLines"] = 10,
 				["textureFile"] = "Interface\\AddOns\\ExRT\\media\\bar16.tga",
 				["textTemplateRight"] = "%stime%",
 				["textureColorTimeLineCooldownG"] = 0.44,
@@ -1794,39 +1830,39 @@ VExRT = {
 				["textureColorBackgroundActiveG"] = 0,
 				["textureColorTimeLineDefaultB"] = 0.2,
 				["textureAlphaBackground"] = 0.2496666717529297,
-				["textureAnimation"] = true,
+				["textureColorTimeLineDefaultG"] = 0.2,
 				["textureColorTimeLineCooldownB"] = 1,
-				["textureBorderColorB"] = 0,
+				["textureBorderColorR"] = 0,
 				["textTemplateCenter"] = "",
 				["methodsHideOwnSpells"] = true,
 				["iconGray"] = false,
 				["textureClassBackground"] = false,
 				["textureColorTextCooldownG"] = 1,
 				["methodsStyleAnimation"] = 1,
-				["textureBorderColorA"] = 1,
-				["textureBorderSize"] = 1,
 				["textureColorTimeLineCooldownR"] = 0.24,
+				["textureBorderSize"] = 1,
+				["textTemplateLeft"] = "%name%",
 				["textureColorBackgroundDefaultR"] = 0,
 				["posX"] = 119.0004959106445,
 				["iconSize"] = 22,
 				["iconGlowType"] = 4,
 				["visibilityPartyType"] = 1,
-				["fontShadow"] = true,
 				["textureAlphaTimeLine"] = 0.6523157501220703,
+				["fontShadow"] = true,
 				["methodsTimeLineAnimation"] = 2,
 				["posY"] = 666.4998779296875,
 				["textureColorBackgroundCooldownB"] = 0,
-				["textTemplateLeft"] = "%name%",
+				["textureBorderColorA"] = 1,
 				["textureColorTimeLineDefaultR"] = 0.2,
 				["frameWidth"] = 150,
 				["textureColorTimeLineActiveG"] = 0.37,
 				["textureColorTextActiveG"] = 1,
-				["textureBorderColorR"] = 0,
-				["textureColorTimeLineDefaultG"] = 0.2,
+				["textureBorderColorB"] = 0,
+				["textureAnimation"] = true,
 				["textureColorTextActiveR"] = 1,
 				["iconPosition"] = 1,
 				["textureColorTextDefaultB"] = 1,
-				["fontOutline"] = true,
+				["textureColorTextCooldownR"] = 1,
 				["textureColorTextDefaultG"] = 1,
 			}, -- [3]
 			{
@@ -1842,8 +1878,8 @@ VExRT = {
 				["frameLines"] = 10,
 				["frameAnchorBottom"] = true,
 				["frameWidth"] = 120,
-				["methodsHideOwnSpells"] = true,
 				["blacklistGeneral"] = true,
+				["methodsHideOwnSpells"] = true,
 				["frameBetweenLines"] = 1,
 				["methodsShownOnCD"] = true,
 				["visibilityPartyType"] = 1,
@@ -1860,7 +1896,7 @@ VExRT = {
 				["textureColorBackgroundActiveB"] = 1,
 				["textureColorBackgroundActiveR"] = 1,
 				["textureColorBackgroundDefaultB"] = 1,
-				["textureColorBackgroundCooldownR"] = 1,
+				["iconPosition"] = 2,
 				["frameBetweenLines"] = 1,
 				["textureColorTimeLineActiveR"] = 1,
 				["textureColorTextCooldownR"] = 1,
@@ -1885,16 +1921,16 @@ VExRT = {
 				["textureAnimation"] = false,
 				["textureColorTimeLineCooldownB"] = 1,
 				["textureClassText"] = false,
-				["fontSize"] = 23,
-				["textureColorTimeLineCooldownR"] = 1,
+				["textTemplateCenter"] = "",
+				["textTemplateLeft"] = "%time%",
 				["iconGray"] = true,
-				["iconCooldownShowSwipe"] = true,
+				["iconGlowType"] = 4,
 				["textureColorTextCooldownG"] = 0.5,
 				["posX"] = 315.9999694824219,
 				["methodsCooldown"] = true,
 				["textIconNameChars"] = 4,
-				["textTemplateLeft"] = "%time%",
-				["iconGlowType"] = 4,
+				["textureColorTimeLineCooldownR"] = 1,
+				["iconCooldownShowSwipe"] = true,
 				["textureColorBackgroundDefaultR"] = 1,
 				["iconSize"] = 32,
 				["textureColorTextDefaultB"] = 1,
@@ -1906,15 +1942,15 @@ VExRT = {
 				["textureColorBackgroundCooldownB"] = 1,
 				["textureClassTimeLine"] = false,
 				["textureColorTimeLineDefaultR"] = 1,
-				["textTemplateCenter"] = "",
+				["fontSize"] = 23,
 				["textureColorTimeLineActiveG"] = 1,
 				["textureColorTextActiveG"] = 1,
 				["frameLines"] = 5,
 				["fontOutline"] = true,
-				["frameColumns"] = 1,
 				["textureColorTextActiveR"] = 0.5,
+				["frameColumns"] = 1,
 				["textureColorTextCooldownB"] = 0.5,
-				["iconPosition"] = 2,
+				["textureColorBackgroundCooldownR"] = 1,
 				["textureColorTextDefaultG"] = 1,
 			}, -- [5]
 			{
@@ -1945,9 +1981,9 @@ VExRT = {
 				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
 				["posY"] = 295.4998779296875,
-				["posX"] = 640.9999389648438,
-				["iconGeneral"] = true,
 				["fontOutline"] = true,
+				["iconGeneral"] = true,
+				["posX"] = 640.9999389648438,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
@@ -2036,13 +2072,13 @@ VExRT = {
 				["iconSize"] = 21,
 				["textureAnimation"] = false,
 				["textureClassTimeLine"] = false,
-				["textureAlphaTimeLine"] = 0,
+				["fontShadow"] = true,
 				["iconPosition"] = 2,
-				["methodsTimeLineAnimation"] = 1,
+				["iconGlowType"] = 4,
 				["fontSize"] = 13,
 				["textureColorBackgroundCooldownB"] = 1,
-				["iconGlowType"] = 4,
-				["fontShadow"] = true,
+				["methodsTimeLineAnimation"] = 1,
+				["textureAlphaTimeLine"] = 0,
 				["textureClassBackground"] = false,
 				["textureColorTimeLineActiveG"] = 1,
 				["textureColorTextActiveG"] = 1,
@@ -2151,14 +2187,14 @@ VExRT = {
 			[190319] = true,
 			[116705] = true,
 			[30283] = true,
-			[33395] = true,
-			[15487] = true,
 			[107079] = true,
+			[15487] = true,
+			[33395] = true,
 			[89808] = true,
 			[115781] = true,
 			[207684] = true,
 			[207399] = true,
-			[116849] = true,
+			[109964] = true,
 			[6358] = true,
 			[183752] = true,
 			[246287] = true,
@@ -2177,10 +2213,10 @@ VExRT = {
 			[6940] = true,
 			[22842] = true,
 			[49028] = true,
-			[109248] = true,
+			[740] = true,
 			[115310] = true,
 			[15286] = true,
-			[740] = true,
+			[109248] = true,
 			[1022] = true,
 			[51052] = true,
 			[51485] = true,
@@ -2193,7 +2229,7 @@ VExRT = {
 			[49576] = true,
 			[64044] = true,
 			[5484] = true,
-			[109964] = true,
+			[116849] = true,
 			[106839] = true,
 			[102558] = true,
 			[408] = true,
@@ -2230,13 +2266,13 @@ VExRT = {
 				"BGooselle", -- [18]
 				"BNíina", -- [19]
 				"ERirichíyo", -- [20]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 16,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 				["t"] = 1608751977,
 				["g"] = 20,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 			}, -- [1]
 			{
 				"IZárgothrax", -- [1]
@@ -2260,13 +2296,13 @@ VExRT = {
 				"ANotenx", -- [19]
 				"ELightmeme", -- [20]
 				"IAsuri", -- [21]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Artificer Xy'mox",
+				["eI"] = 2405,
 				["t"] = 1609096834,
 				["g"] = 21,
-				["eI"] = 2405,
+				["eN"] = "Artificer Xy'mox",
 			}, -- [2]
 			{
 				"FLíliana", -- [1]
@@ -2292,13 +2328,13 @@ VExRT = {
 				"JPandanik", -- [21]
 				"CKhäleesy", -- [22]
 				"KJäc", -- [23]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 14,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1609182796,
 				["g"] = 23,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [3]
 			{
 				"IZárgothrax", -- [1]
@@ -2326,13 +2362,13 @@ VExRT = {
 				"DBabyautismo", -- [23]
 				"JCorlena", -- [24]
 				"BGooselle", -- [25]
-				["eN"] = "Stone Legion Generals",
-				["c"] = "Ririchíyo-Silvermoon",
-				["t"] = 1609272009,
 				["eI"] = 2417,
+				["k"] = true,
+				["t"] = 1609272009,
+				["eN"] = "Stone Legion Generals",
 				["d"] = 15,
 				["g"] = 25,
-				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 			}, -- [4]
 			{
 				"CSmithinhood", -- [1]
@@ -2358,13 +2394,13 @@ VExRT = {
 				"DBabyautismo", -- [21]
 				"CMìcha", -- [22]
 				"BGooselle", -- [23]
-				["eI"] = 2398,
-				["k"] = true,
-				["t"] = 1609872067,
 				["eN"] = "Shriekwing",
+				["c"] = "Ririchíyo-Silvermoon",
+				["t"] = 1609872067,
+				["eI"] = 2398,
 				["d"] = 15,
 				["g"] = 23,
-				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 			}, -- [5]
 			{
 				"CSmithinhood", -- [1]
@@ -2392,13 +2428,13 @@ VExRT = {
 				"BGooselle", -- [23]
 				"IAsuri", -- [24]
 				[36] = "HIcefwry",
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "The Council of Blood",
+				["eI"] = 2412,
 				["t"] = 1609878322,
 				["g"] = 22,
-				["eI"] = 2412,
+				["eN"] = "The Council of Blood",
 			}, -- [6]
 			{
 				"LNíksa", -- [1]
@@ -2425,13 +2461,13 @@ VExRT = {
 				"ENaughtypope", -- [22]
 				"CMìcha", -- [23]
 				"LScripé", -- [24]
-				["eI"] = 2398,
-				["k"] = true,
-				["t"] = 1610045206,
 				["eN"] = "Shriekwing",
+				["c"] = "Ririchíyo-Silvermoon",
+				["t"] = 1610045206,
+				["eI"] = 2398,
 				["d"] = 15,
 				["g"] = 23,
-				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 			}, -- [7]
 			{
 				"FTinkerbyte", -- [1]
@@ -2456,13 +2492,13 @@ VExRT = {
 				"ERirichíyo", -- [20]
 				"FJulerith", -- [21]
 				"FNikeah", -- [22]
-				["eN"] = "Sire Denathrius",
-				["k"] = true,
-				["t"] = 1610483761,
 				["eI"] = 2407,
+				["c"] = "Ririchíyo-Silvermoon",
+				["t"] = 1610483761,
+				["eN"] = "Sire Denathrius",
 				["d"] = 15,
 				["g"] = 22,
-				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 			}, -- [8]
 			{
 				"LNíksa", -- [1]
@@ -2483,13 +2519,13 @@ VExRT = {
 				"LScripé", -- [16]
 				"ENaughtypope", -- [17]
 				"ERirichíyo", -- [18]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1610649926,
 				["g"] = 18,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [9]
 			{
 				"LNíksa", -- [1]
@@ -2512,13 +2548,13 @@ VExRT = {
 				"FÅdå", -- [18]
 				"HScripémage", -- [19]
 				"KAleíhra", -- [20]
-				["c"] = "Kúsano-Silvermoon",
 				["k"] = true,
+				["c"] = "Kúsano-Silvermoon",
 				["d"] = 15,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1610825019,
 				["g"] = 20,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [10]
 			{
 				"BYóshino", -- [1]
@@ -2541,13 +2577,13 @@ VExRT = {
 				"FÅdå", -- [18]
 				"HScripémage", -- [19]
 				"KAleíhra", -- [20]
-				["eI"] = 2398,
-				["c"] = "Yóshino-Silvermoon",
-				["d"] = 14,
 				["eN"] = "Shriekwing",
+				["k"] = true,
+				["d"] = 14,
+				["eI"] = 2398,
 				["t"] = 1610828422,
 				["g"] = 18,
-				["k"] = true,
+				["c"] = "Yóshino-Silvermoon",
 			}, -- [11]
 			{
 				"BSaorise-DefiasBrotherhood", -- [1]
@@ -2563,13 +2599,13 @@ VExRT = {
 				"FLíliana", -- [11]
 				"CAvaloén", -- [12]
 				"JShinizi", -- [13]
-				["c"] = "Ririchíyo-Silvermoon",
 				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 				["d"] = 16,
-				["eN"] = "Champion of the Light",
+				["eI"] = 2265,
 				["t"] = 1610831708,
 				["g"] = 20,
-				["eI"] = 2265,
+				["eN"] = "Champion of the Light",
 			}, -- [12]
 			{
 				"FTinkerbyte", -- [1]
@@ -2593,13 +2629,13 @@ VExRT = {
 				"KAleíhra", -- [19]
 				"KWildlyfe", -- [20]
 				"FJulerith", -- [21]
-				["c"] = "Ririchíyo-Silvermoon",
 				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 				["d"] = 15,
-				["eN"] = "Sire Denathrius",
+				["eI"] = 2407,
 				["t"] = 1611085570,
 				["g"] = 21,
-				["eI"] = 2407,
+				["eN"] = "Sire Denathrius",
 			}, -- [13]
 			{
 				"FTinkerbyte", -- [1]
@@ -2622,13 +2658,13 @@ VExRT = {
 				"CZinih", -- [18]
 				"FJulerith", -- [19]
 				"KWildlyfe", -- [20]
-				["eN"] = "Shriekwing",
-				["k"] = true,
-				["t"] = 1611089429,
 				["eI"] = 2398,
+				["c"] = "Ririchíyo-Silvermoon",
+				["t"] = 1611089429,
+				["eN"] = "Shriekwing",
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 			}, -- [14]
 			{
 				"LNíksa", -- [1]
@@ -2654,13 +2690,13 @@ VExRT = {
 				"FJulerith", -- [21]
 				"FNikeah", -- [22]
 				"GArchisham", -- [23]
-				["eN"] = "Shriekwing",
-				["c"] = "Ririchíyo-Silvermoon",
-				["t"] = 1611254514,
 				["eI"] = 2398,
+				["k"] = true,
+				["t"] = 1611254514,
+				["eN"] = "Shriekwing",
 				["d"] = 15,
 				["g"] = 23,
-				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 			}, -- [15]
 			{
 				"LNíksa", -- [1]
@@ -2683,13 +2719,13 @@ VExRT = {
 				"FNikeah", -- [18]
 				"JCorlena", -- [19]
 				"IShumpyfap", -- [20]
-				["c"] = "Ririchíyo-Silvermoon",
 				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 				["d"] = 16,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 				["t"] = 1611260963,
 				["g"] = 20,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 			}, -- [16]
 			{
 				"FLíliana", -- [1]
@@ -2708,13 +2744,13 @@ VExRT = {
 				"GSókén", -- [14]
 				"GSearingxsh", -- [15]
 				"FCamefromhell", -- [16]
-				["c"] = "Kúsano-Silvermoon",
 				["k"] = true,
+				["c"] = "Kúsano-Silvermoon",
 				["d"] = 15,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1611429750,
 				["g"] = 16,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [17]
 			{
 				"FLíliana", -- [1]
@@ -2726,13 +2762,13 @@ VExRT = {
 				"ERirichíyo", -- [7]
 				"JShinizi", -- [8]
 				"ARødekineser", -- [9]
-				["eN"] = "Taloc",
-				["c"] = "Ririchíyo-Silvermoon",
-				["t"] = 1611436470,
 				["eI"] = 2144,
+				["k"] = true,
+				["t"] = 1611436470,
+				["eN"] = "Taloc",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 			}, -- [18]
 			{
 				"LNíksa", -- [1]
@@ -2753,13 +2789,13 @@ VExRT = {
 				"FNikeah", -- [16]
 				"GSenicyl", -- [17]
 				"AWarxy", -- [18]
-				["c"] = "Ririchíyo-Silvermoon",
 				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 				["d"] = 15,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 				["t"] = 1611859412,
 				["g"] = 18,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 			}, -- [19]
 			{
 				"LScripé", -- [1]
@@ -2782,13 +2818,13 @@ VExRT = {
 				"HIcefwry", -- [18]
 				"ERirichíyo", -- [19]
 				"CMìcha", -- [20]
-				["eN"] = "Shriekwing",
-				["k"] = true,
-				["t"] = 1612291803,
 				["eI"] = 2398,
+				["c"] = "Ririchíyo-Silvermoon",
+				["t"] = 1612291803,
+				["eN"] = "Shriekwing",
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 			}, -- [20]
 			{
 				"LNíksa", -- [1]
@@ -2811,13 +2847,13 @@ VExRT = {
 				"AWarxy", -- [18]
 				"EKrayyt", -- [19]
 				[36] = "LScripé",
-				["c"] = "Ririchíyo-Silvermoon",
 				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 				["d"] = 15,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 				["t"] = 1612464566,
 				["g"] = 19,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 			}, -- [21]
 			{
 				"FLíliana", -- [1]
@@ -2844,13 +2880,13 @@ VExRT = {
 				"CAngelicgirl", -- [22]
 				"CKhäleesy", -- [23]
 				"GDrad", -- [24]
-				["c"] = "Kúsano-Silvermoon",
 				["k"] = true,
+				["c"] = "Kúsano-Silvermoon",
 				["d"] = 15,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 				["t"] = 1612639152,
 				["g"] = 24,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 			}, -- [22]
 			{
 				"LScripé", -- [1]
@@ -2873,13 +2909,13 @@ VExRT = {
 				"ERirichíyo", -- [18]
 				"EHoottss", -- [19]
 				"JPeroping", -- [20]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1613069053,
 				["g"] = 20,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [23]
 			{
 				"CMìcha", -- [1]
@@ -2902,13 +2938,13 @@ VExRT = {
 				"LVetrini", -- [18]
 				"KJäc", -- [19]
 				"JPeroping", -- [20]
-				["c"] = "Ririchíyo-Silvermoon",
 				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 				["d"] = 15,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1613244191,
 				["g"] = 20,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [24]
 			{
 				"LScripé", -- [1]
@@ -2931,13 +2967,13 @@ VExRT = {
 				"KJunî", -- [18]
 				"CMìcha", -- [19]
 				"EHoottss", -- [20]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1613675525,
 				["g"] = 20,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [25]
 			{
 				"JXueñ-Ravencrest", -- [1]
@@ -2961,13 +2997,13 @@ VExRT = {
 				"LSkuiizdh-LaCroisadeécarlate", -- [19]
 				"CZýa-Hyjal", -- [20]
 				"KAsarîel-Hyjal", -- [21]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 14,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1613826320,
 				["g"] = 21,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [26]
 			{
 				"LNíksa", -- [1]
@@ -2989,13 +3025,13 @@ VExRT = {
 				"KScrïpé", -- [17]
 				"JPeroping", -- [18]
 				"CPrutten", -- [19]
-				["k"] = true,
 				["c"] = "Ririchíyo-Silvermoon",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 				["t"] = 1613848917,
 				["g"] = 19,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 			}, -- [27]
 			{
 				"LCrrown", -- [1]
@@ -3052,14 +3088,64 @@ VExRT = {
 				"KDruidbeard", -- [18]
 				"DDallán", -- [19]
 				"EKrayyt", -- [20]
-				["c"] = "Ririchíyo-Silvermoon",
 				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
 				["d"] = 16,
-				["eI"] = 2398,
+				["eN"] = "Shriekwing",
 				["t"] = 1614278940,
 				["g"] = 20,
-				["eN"] = "Shriekwing",
+				["eI"] = 2398,
 			}, -- [29]
+			{
+				"FLíliana", -- [1]
+				"LTeodorus", -- [2]
+				"LAnardel", -- [3]
+				"FTinkerbyte", -- [4]
+				"JPeroping", -- [5]
+				"CAngelicgirl", -- [6]
+				"CSelalara", -- [7]
+				"DBauls", -- [8]
+				"CAvaloén", -- [9]
+				"CFlashiihunt", -- [10]
+				"KScrïpé", -- [11]
+				"BYóshino", -- [12]
+				"KBakstjärten", -- [13]
+				"BGooselle", -- [14]
+				["eI"] = 2398,
+				["c"] = "Yóshino-Silvermoon",
+				["t"] = 1614453525,
+				["eN"] = "Shriekwing",
+				["d"] = 15,
+				["g"] = 14,
+				["k"] = true,
+			}, -- [30]
+			{
+				"LScripé", -- [1]
+				"FLíliana", -- [2]
+				"LTeodorus", -- [3]
+				"LAnardel", -- [4]
+				"FTinkerbyte", -- [5]
+				"CAngelicgirl", -- [6]
+				"CSelalara", -- [7]
+				"CDïscojanne", -- [8]
+				"CAvaloén", -- [9]
+				"HFlashii", -- [10]
+				"JPeroping", -- [11]
+				"ERirichíyo", -- [12]
+				"KBakstjärten", -- [13]
+				"KWinndie", -- [14]
+				"BGooselle", -- [15]
+				"KJäc", -- [16]
+				"AGretathunbrg", -- [17]
+				[36] = "KScrïpé",
+				["k"] = true,
+				["c"] = "Ririchíyo-Silvermoon",
+				["d"] = 15,
+				["eN"] = "Sludgefist",
+				["t"] = 1614457291,
+				["g"] = 17,
+				["eI"] = 2399,
+			}, -- [31]
 		},
 		["alts"] = {
 		},
@@ -3068,12 +3154,12 @@ VExRT = {
 		["Soulbinds"] = {
 			["Yssgramor-DunModr"] = "1609286978:1:7:328266:57-5-1:328261:15-6-2:328265",
 			["Archibrew-Silvermoon"] = "1610409380:1:7:328266:59-5-1:328261",
-			["Jäc-Silvermoon"] = "1613251887:3:1:322721:269-5-1:342270:257-6-0:320687:254-6-2:271-5-2:320659",
+			["Jäc-Silvermoon"] = "1614458460:2:8:331586:269-5-1:331576:257-6-0:331579:271-5-2:280-5-1:331582",
 			["Jadedaddy-Silvermoon"] = "1609286978:3:1:322721:279-4-1:342270:259-3-0:320668",
 			["Рутэния-Гордунни"] = "1610163131:3:2:319217:48-5-2:30-5-1:319211:38-4-1:61-6-2",
 			["Dreleria-Alleria"] = "1610157623:1:7:328266:261-5-1:328261:271-5-2:328265:263-5-1",
 			["Nemainé-DefiasBrotherhood"] = "1610830375:3:2:319217:254-3-2:279-4-1:319211:262-4-1",
-			["Líliana-Silvermoon"] = "1613857936:2:9:336239:70-6-0:336147:65-6-1:336247:74-6-2:124-6-1:336245",
+			["Líliana-Silvermoon"] = "1614458460:4:10:326514:65-6-1:326507:70-6-0:326512:74-6-2:88-6-2:326572",
 			["Hoottz-Silvermoon"] = "1613078842:4:5:342156:118-5-1:323921:96-6-0:324441:93-5-2",
 			["Torekov-Silvermoon"] = "1608763796:3:1:322721:279-3-1:342270:259-2-0:320687",
 			["Emblair-Silvermoon"] = "1614288265:2:9:336239:163-6-0:336147:182-6-1:336247:129-6-2:176-6-1:336245",
@@ -3089,10 +3175,10 @@ VExRT = {
 			["Rabina-Runetotem"] = "1608854220:2:8:331586:107-4-1:331576:69-5-0:331579",
 			["Rødekineser-Silvermoon"] = "1613857936:3:1:322721:50-5-1",
 			["Naughtypope-Silvermoon"] = "1612905366:2:9:336239:85-6-0:336147:115-5-1:336247:71-5-2:107-5-1",
-			["Winndie-Silvermoon"] = "1613857936:3:2:319217:257-4-0:279-1-1:319210:254-6-2:256-1-2",
+			["Winndie-Silvermoon"] = "1614458460:3:6:325066:279-1-1:325067:260-6-0:325072:271-5-2:265-5-1:325068",
 			["Pytox-Ravencrest"] = "1612559907:1:7:328266:216-5-1:328261:133-4-2:328263:182-4-1:159-4-0:328257",
 			["Kràyt-Silvermoon"] = "1609250214:1:7:328266:154-1-1:328261:49-4-2",
-			["Scripé-Silvermoon"] = "1614288265:3:1:322721:150-6-1:342270:134-6-0:320668:130-6-2:153-6-1:320660",
+			["Scripé-Silvermoon"] = "1614456952:3:1:322721:281-7-1:342270:134-6-0:320668:130-6-2:153-6-1:320660",
 			["Spythe-Silvermoon"] = "1614193786:1:7:328266:187-1-1",
 			["Spankpriest-Silvermoon"] = "1611435137:1:7:328266:115-5-1:328261:72-6-2:328263",
 			["Sokarr-Silvermoon"] = "1610219524:4:5:342156:204-5-1:323921:144-5-0:324441:222-5-2",
@@ -3103,7 +3189,7 @@ VExRT = {
 			["Julerith-Silvermoon"] = "1611264335:4:5:342156:65-5-1:323921:70-5-0:324441:74-6-2",
 			["Maërian-Minahonda"] = "1609037288:3:1:322721:202-5-1:342270:144-4-0:320668",
 			["Zinicshaman-Silvermoon"] = "1614288265:4:5:342156:117-5-1:323921:95-6-0:324440:93-6-2:118-5-1:323918",
-			["Peroping-Silvermoon"] = "1614288265:1:7:328266:19-5-1:328261:15-5-2:328263:22-5-1:33-5-2:328257",
+			["Peroping-Silvermoon"] = "1614458460:1:7:328266:19-5-1:328261:15-6-2:328263:22-5-1:33-5-2:328257",
 			["Avalóen-Silvermoon"] = "1613857936:3:1:322721:150-5-1:342270:134-6-0:320668:131-6-2:130-6-2:320659",
 			["Totemìc-Silvermoon"] = "1610054946:4:5:342156:104-5-1:323921:95-5-0:324440:93-5-2",
 			["Corlena-Silvermoon"] = "1611264335:1:7:328266:59-5-1:328261:15-4-2:328263:16-5-1",
@@ -3116,7 +3202,7 @@ VExRT = {
 			["Hoottss-Silvermoon"] = "1613683753:2:3:340159:66-4-2:319982:82-4-1:332755:72-6-2:116-4-1:332754",
 			["Deathpunch-Malorne"] = "1614163787:1:7:328266:22-5-1:328261:47-5-2:328263:19-5-1:33-6-2:328257",
 			["Lewhiteangel-Hyjal"] = "1610301600:4:4:323074:125-4-1:323091:108-1-2:323081",
-			["Yóshino-Silvermoon"] = "1614442587:1:7:328266:193-4-1",
+			["Yóshino-Silvermoon"] = "1614455444:1:7:328266:193-4-1",
 			["Krayyt-Silvermoon"] = "1614288265:2:8:331586:115-5-1:331576:69-6-0:331579:66-6-2:107-5-1:331582",
 			["Zolas-Silvermoon"] = "1613323919:2:8:331586:20-6-1:331576:26-6-0:331579:45-7-2:29-6-0:331584",
 			["Junî-Silvermoon"] = "1614115812:3:1:322721:279-5-1:342270:260-7-0:320668:271-5-2:256-6-2:320659",
@@ -3139,7 +3225,7 @@ VExRT = {
 			["Aleíhra-Silvermoon"] = "1611868234:3:2:319217:257-1-0:279-5-1:319211:264-5-1:271-4-2",
 			["Klaggtard-Silvermoon"] = "1609189779:3:2:319217:170-1-2:188-2-1:319211:140-1-1",
 			["Grønbjørn-Silvermoon"] = "1612647717:1:13:329791:31-5-1:334066:35-5-0:329784:25-6-2",
-			["Tinkerbyte-Silvermoon"] = "1614288265:1:7:328266:70-7-0:329777:121-5-2:328263:128-5-1:88-6-2:328257",
+			["Tinkerbyte-Silvermoon"] = "1614458460:1:7:328266:70-7-0:329777:121-5-2:328263:128-5-1:88-6-2:328257",
 			["Forkez-Silvermoon"] = "1610837345:1:7:328266:182-5-1:328261:129-5-2:328263:176-5-1",
 			["Камколд-Гордунни"] = "1609286978:4:5:342156:115-5-1:323921:69-4-0:324441",
 			["Dagand-Silvermoon"] = "1612647717:3:1:322721:204-5-1:342270:144-6-0:320687:222-6-2:160-6-2:320659",
@@ -3155,96 +3241,99 @@ VExRT = {
 			["Lourre-Silvermoon"] = "1613323919:2:8:331586:164-5-1:331576:159-6-0:331579:133-5-2:182-5-1:331582",
 			["Allyiepireé-Silvermoon"] = "1614198115:1:7:328266:59-1-1",
 			["Volframium-Silvermoon"] = "1614163787:3:1:322721:244-6-1:342270:235-7-0:320668:232-7-2:231-6-2:320659",
+			["Scrïpé-Silvermoon"] = "1614458461:3:1:322721:279-5-1:342270:257-1-0:320668:256-2-2",
 			["Necrótica-Silvermoon"] = "1609169630:2:8:331586:126-5-1:331576:70-4-0:331579",
 			["Ezrí-Sylvanas"] = "1613831133:2:3:340159:66-3-2:319982:105-5-1:332755:72-1-2:75-4-1:332754",
 			["Ichix-Silvermoon"] = "1613854142:3:1:322721:140-5-1:342270:175-3-0:320668:170-1-2",
 			["Scripémage-Silvermoon"] = "1610836661:2:8:331586:21-4-1:331576:29-3-0:331579",
-			["Ririchíyo-Silvermoon"] = "1614377233:1:7:328266:77-5-1:328261:71-6-2:328263:75-5-1:66-6-2:328257",
-			["Snifzn-Ravencrest"] = "1614163787:2:3:340159:71-6-2:319982:105-4-1:332755:72-5-2:77-5-1:332754",
-			["Warxy-Silvermoon"] = "1614288265:2:8:331586:11-5-1:331576:191-7-0:331579:5-6-2:8-6-0:331584",
+			["Ririchíyo-Silvermoon"] = "1614458460:1:13:329791:78-5-1:334066:69-6-0:329784:66-6-2:116-5-1:329779",
 			["Pilinpal-Aggra(Português)"] = "1614198115:1:7:328266:193-7-1:328261:133-6-2:328263:216-5-1:163-6-0:328257",
-			["Kúsano-Silvermoon"] = "1613323919:3:2:319217:271-5-2:273-5-1:319213",
-			["Kanaì-Silvermoon"] = "1613251887:3:1:322721:140-5-1:342270:175-5-0:320687:170-5-2:157-4-2:320659",
-			["Kimuraii-AzjolNerub"] = "1614197144:1:7:328266:216-5-1:328261:197-5-2:328263:196-4-1:133-5-2:328257",
-			["Betionak-Exodar"] = "1610293033:2:8:331586:149-5-1:331576:95-1-0:331579:93-3-2",
-			["Avaloén-Silvermoon"] = "1611435137:3:1:322721:140-4-1:342270:175-4-0:320668:173-4-2:157-4-2",
-			["Lightmeme-Silvermoon"] = "1609189779:2:8:331586:105-3-1:331576:69-5-0:331579",
+			["Warxy-Silvermoon"] = "1614288265:2:8:331586:11-5-1:331576:191-7-0:331579:5-6-2:8-6-0:331584",
 			["Tervania-Ravencrest"] = "1614188360:1:7:328266:216-5-1:328261:197-5-2:328263:196-5-1:133-5-2:328257",
 			["Himì-Silvermoon"] = "1610827464:3:2:319217:222-5-2:203-5-1:319211:202-5-1",
+			["Premetheus-Silvermoon"] = "1614162907:3:1:322721:140-6-1:342270:178-6-0:320668:170-6-2:166-6-2:320659",
+			["Kúsano-Silvermoon"] = "1613323919:3:2:319217:271-5-2:273-5-1:319213",
+			["Kanaì-Silvermoon"] = "1613251887:3:1:322721:140-5-1:342270:175-5-0:320687:170-5-2:157-4-2:320659",
+			["Alirra-Outland"] = "1614162907:3:1:322721:199-5-1:342270:181-7-0:320687:170-6-2:173-5-2:320659",
+			["Betionak-Exodar"] = "1610293033:2:8:331586:149-5-1:331576:95-1-0:331579:93-3-2",
+			["Avaloén-Silvermoon"] = "1614458460:3:1:322721:140-4-1:342270:175-4-0:320668:173-5-2:157-4-2:320659",
+			["Lightmeme-Silvermoon"] = "1609189779:2:8:331586:105-3-1:331576:69-5-0:331579",
+			["Ладрос-Гордунни"] = "1614163787:3:6:325066:30-6-1:325067:29-6-0:325073:45-6-2:38-7-1:325068",
+			["Lorant-DefiasBrotherhood"] = "1610840714:1:7:328266:133-5-2:329786:197-5-2:328263:216-5-1",
 			["Mordrez-Ravencrest"] = "1608982695:2:8:331586:126-5-1:331576:70-5-0:331579",
 			["Senicyl-Silvermoon"] = "1613078842:4:5:342156:118-5-1:323921:98-6-0:324440:94-6-2:117-5-1",
-			["Premetheus-Silvermoon"] = "1614162907:3:1:322721:140-6-1:342270:178-6-0:320668:170-6-2:166-6-2:320659",
-			["Alirra-Outland"] = "1614162907:3:1:322721:199-5-1:342270:181-7-0:320687:170-6-2:173-5-2:320659",
 			["Kasta-Silvermoon"] = "1613088240:3:2:319217:160-6-2:214-5-1:319211:211-5-1:222-5-2",
-			["Ладрос-Гордунни"] = "1614163787:3:6:325066:30-6-1:325067:29-6-0:325073:45-6-2:38-7-1:325068",
-			["Flashii-Silvermoon"] = "1614288265:3:6:325066:30-5-1:325067:58-5-0:325073:61-6-2:38-5-1:325068",
 			["Twimbam-Silvermoon"] = "1613831133:4:5:342156:104-4-1:323921:96-6-0:324440:94-6-2:103-5-1:323918",
-			["Raysteel-Silvermoon"] = "1608854220:4:5:342156:65-3-1:323921:70-5-0:324440",
-			["Felmeme-Silvermoon"] = "1610219524:2:8:331586:153-4-1:331576:134-3-0:331579",
-			["Lorint-Silvermoon"] = "1610830375:3:1:322721:140-4-1:342270:175-5-0:320668:170-4-2",
-			["Nylyssae-ArgentDawn"] = "1614163787:4:10:326514:65-5-1:326507:70-5-0:326512:74-5-2:88-6-2:326572",
-			["Victoríque-Silvermoon"] = "1613497982:3:1:322721:220-1-1:342270:168-1-0",
+			["Archisham-Silvermoon"] = "1611264335:4:5:342156:104-5-1:323921:98-4-0:324440:94-6-2",
 			["Jancey-DunModr"] = "1614162906:3:1:322721:153-5-1:342270:134-5-0:320687:131-6-2:132-6-2:320659",
+			["Flashii-Silvermoon"] = "1614458460:3:6:325066:30-5-1:325067:26-4-0:325073:48-5-2:38-5-1:325068",
 			["Deathsymbol-Silvermoon"] = "1614161368:4:10:326514:65-5-1:326507:70-7-0:326512:74-5-2:88-5-2:326572",
+			["Teodorus-Silvermoon"] = "1614458460:1:7:328266:150-4-1:328261:130-4-2:328263:187-5-1:132-5-2:328257",
+			["Felmeme-Silvermoon"] = "1610219524:2:8:331586:153-4-1:331576:134-3-0:331579",
+			["Nylyssae-ArgentDawn"] = "1614163787:4:10:326514:65-5-1:326507:70-5-0:326512:74-5-2:88-6-2:326572",
+			["Shinizi-Silvermoon"] = "1611436925:2:8:331586:31-4-1:331576:35-4-0:331579:25-4-2",
+			["Victoríque-Silvermoon"] = "1613497982:3:1:322721:220-1-1:342270:168-1-0",
+			["Druidbeard-Silvermoon"] = "1614288265:3:1:322721:279-5-1:342270:258-6-0:320668:255-5-2:254-6-2:320659",
+			["Skuiizdh-LaCroisadeécarlate"] = "1613830010:1:7:328266:187-3-1:328261:132-3-2:328265:153-5-1",
 			["Rhyun-Minahonda"] = "1609037288:3:1:322721:140-5-1:342270:178-6-0:320668",
 			["Saorise-DefiasBrotherhood"] = "1610840714:1:7:328266:193-5-1:328261:133-7-2:328265:216-5-1",
-			["Pawkypie-Frostmane"] = "1614163787:3:1:322721:115-5-1:342270:69-6-0:320687:66-6-2:72-6-2:320659",
+			["Przystojnis-Silvermoon"] = "1609286978:1:7:328266:137-4-1:328261:166-4-2:328263",
 			["Wiggor-Aegwynn"] = "1613207113:3:1:322721:214-5-1:342270:171-6-0:320687:222-5-2:211-5-1:320660",
 			["Blumpkuh-Silvermoon"] = "1609189779:3:2:319217:271-5-2:279-4-1:319210:256-5-2",
 			["Ladura-Blackmoore"] = "1614442587:3:1:322721:279-1-1:342270:257-4-0:320668:256-5-2:264-4-1",
-			["Shinizi-Silvermoon"] = "1611436925:2:8:331586:31-4-1:331576:35-4-0:331579:25-4-2",
+			["Snifzn-Ravencrest"] = "1614163787:2:3:340159:71-6-2:319982:105-4-1:332755:72-5-2:77-5-1:332754",
 			["Délen-Silvermoon"] = "1614163787:2:8:331586:202-7-1:331576:168-7-0:331579",
-			["Druidbeard-Silvermoon"] = "1614288265:3:1:322721:279-5-1:342270:258-6-0:320668:255-5-2:254-6-2:320659",
-			["Skuiizdh-LaCroisadeécarlate"] = "1613830010:1:7:328266:187-3-1:328261:132-3-2:328265:153-5-1",
+			["Leewang-ArgentDawn"] = "1609881856:2:8:331586:104-5-1:331576:96-6-0:331579",
+			["Антиклаус-Гордунни"] = "1608854220:1:7:328266:193-4-1:328261:133-3-2:328263",
 			["Azikoo-Ravencrest"] = "1613831133:3:1:322721:220-1-1:342270:168-1-0:320668",
 			["Ogrïmhunter-DunModr"] = "1614162482:3:1:322721:140-6-1:342270:178-7-0:320668:157-6-2:188-6-1:320660",
-			["Zýa-Hyjal"] = "1613831133:3:1:322721:140-5-1:342270:175-6-0:320687:157-7-2:188-5-1:320660",
+			["Teuanuca-Silvermoon"] = "1613251887:4:10:326514:65-5-1:326507:70-4-0:326513:88-6-2:74-5-2:326572",
 			["Scrípé-Silvermoon"] = "1613251887:3:1:322721:140-5-1:342270:178-6-0:320668:166-6-2:188-5-1:320660",
 			["Eloyà-Silvermoon"] = "1613930380:3:6:325066:38-5-1:325067:26-6-0:325073:45-6-2:30-6-1:325068",
 			["Puzzelpiece-Aegwynn"] = "1613820374:1:7:328266:187-1-1:328261:132-1-2:328265:172-2-1",
-			["Teuanuca-Silvermoon"] = "1613251887:4:10:326514:65-5-1:326507:70-4-0:326513:88-6-2:74-5-2:326572",
+			["Sókén-Silvermoon"] = "1613857936:4:5:342156:118-5-1:323921:95-6-0:324441:94-6-2:119-5-1:323918",
 			["Níina-Silvermoon"] = "1613251887:1:13:329791:184-5-1:334066:159-4-0:329784:133-5-2:193-5-1",
-			["Wildlyfe-Silvermoon"] = "1611089071:3:2:319217:271-5-2:273-5-1:319213:258-6-0",
+			["Cannot-Silvermoon"] = "1612624637:3:1:322721:279-1-1:342270:257-3-0:320687:254-4-2",
 			["Spankadin-Silvermoon"] = "1608991477:1:7:328266:216-1-1:328261:197-2-2",
 			["Drathh-Silvermoon"] = "1608747094:3:1:322721:140-5-1:342270:175-5-0:320687",
-			["Нервмарса-Дракономор"] = "1613831133:2:9:336239:13-6-0:336147:52-5-1:336247:27-6-2:5-6-2",
+			["Кошадрил-Гордунни"] = "1613320742:3:1:322721:263-4-1:342270:258-4-0:320668:256-5-2:279-3-1:320660",
 			["Yaganlock-Silvermoon"] = "1609358100:3:1:322721:202-5-1:342270:171-5-0:320687",
 			["Hìmí-Silvermoon"] = "1610839055:1:7:328266:57-5-1:328261:15-4-2:328265",
-			["Sókén-Silvermoon"] = "1613857936:4:5:342156:118-5-1:323921:95-6-0:324441:94-6-2:119-5-1:323918",
-			["Cannot-Silvermoon"] = "1612624637:3:1:322721:279-1-1:342270:257-3-0:320687:254-4-2",
-			["Niverbor-DefiasBrotherhood"] = "1613814240:2:8:331586:269-5-1:331576:259-5-0:331579:256-5-2:271-5-2:331580",
-			["Кошадрил-Гордунни"] = "1613320742:3:1:322721:263-4-1:342270:258-4-0:320668:256-5-2:279-3-1:320660",
 			["Klaggerino-Silvermoon"] = "1612645571:3:1:322721:30-2-1:342270:26-1-0:320668",
+			["Karanti-ArgentDawn"] = "1609189779:2:8:331586:105-5-1:331576:85-1-0:331579",
+			["Niverbor-DefiasBrotherhood"] = "1613814240:2:8:331586:269-5-1:331576:259-5-0:331579:256-5-2:271-5-2:331580",
+			["Smithinhood-Silvermoon"] = "1610485792:3:2:319217:166-6-2:253-4-1:319211:140-3-1",
+			["Gooselle-Silvermoon"] = "1614458460:1:7:328266:193-5-1:328261:133-5-2:328263:216-5-1:163-6-0:328257",
 			["Leaked-Silvermoon"] = "1610830375:4:4:323074:118-4-1:323091:0:323079",
 			["Nornh-Silvermoon"] = "1612647717:3:1:322721:140-5-1:342270:175-6-0:320687:170-6-2:166-6-2:320659",
 			["Lookias-Silvermoon"] = "1614162906:4:5:342156:118-5-1:323921:95-6-0:324441:92-6-2:147-5-1:323918",
-			["Gooselle-Silvermoon"] = "1614288265:1:7:328266:193-5-1:328261:133-5-2:328263:216-5-1:163-6-0:328257",
-			["Smithinhood-Silvermoon"] = "1610485792:3:2:319217:166-6-2:253-4-1:319211:140-3-1",
-			["Karanti-ArgentDawn"] = "1609189779:2:8:331586:105-5-1:331576:85-1-0:331579",
 			["Эллуна-Корольлич"] = "1608854220:3:1:322721:140-3-1:342270:178-3-0:320668",
+			["Нервмарса-Дракономор"] = "1613831133:2:9:336239:13-6-0:336147:52-5-1:336247:27-6-2:5-6-2",
+			["Wildlyfe-Silvermoon"] = "1611089071:3:2:319217:271-5-2:273-5-1:319213:258-6-0",
+			["Dallán-Silvermoon"] = "1614288265:3:1:322721:244-6-1:342270:233-5-0:320668:231-6-2:232-7-2:320659",
 			["Maxnoon-Silvermoon"] = "1614288265:2:9:336239:69-6-0:336147:77-4-1:336184:71-6-2:105-5-1:336245",
 			["Yaganmage-Silvermoon"] = "1614282467:3:6:325066:38-3-1:325067:26-6-0:325073:48-6-2:30-5-1",
-			["Dallán-Silvermoon"] = "1614288265:3:1:322721:244-6-1:342270:233-5-0:320668:231-6-2:232-7-2:320659",
+			["Zýa-Hyjal"] = "1613831133:3:1:322721:140-5-1:342270:175-6-0:320687:157-7-2:188-5-1:320660",
 			["Коллеб-ВечнаяПесня"] = "1613207113:3:1:322721:140-5-1:342270:175-6-0:320668:170-5-2:188-5-1:320660",
 			["Pandanik-Silvermoon"] = "1609189779:1:13:329791:31-4-1:334066:37-5-0:329784",
 			["Firesnek-Silvermoon"] = "1613251887:3:1:322721:279-5-1:342270:258-5-0:320668:271-5-2:255-6-2:320659",
 			["Hyroda-Dalaran"] = "1614163787:3:1:322721:30-5-1:342270:26-6-0:320668:61-6-2:38-6-1:320660",
-			["Антиклаус-Гордунни"] = "1608854220:1:7:328266:193-4-1:328261:133-3-2:328263",
-			["Leewang-ArgentDawn"] = "1609881856:2:8:331586:104-5-1:331576:96-6-0:331579",
-			["Przystojnis-Silvermoon"] = "1609286978:1:7:328266:137-4-1:328261:166-4-2:328263",
+			["Pawkypie-Frostmane"] = "1614163787:3:1:322721:115-5-1:342270:69-6-0:320687:66-6-2:72-6-2:320659",
+			["Raysteel-Silvermoon"] = "1608854220:4:5:342156:65-3-1:323921:70-5-0:324440",
+			["Zephien-Aszune"] = "1609286978:4:5:342156:65-4-1:323921:68-2-0:324440",
 			["Êerie-Silvermoon"] = "1613251887:2:8:331586:20-5-1:331576:26-6-0:331579:45-6-2:23-5-0:331584",
 			["Цсакура-Гордунни"] = "1610307608:3:1:322721:279-3-1:342270:260-1-0:320668",
-			["Zephien-Aszune"] = "1609286978:4:5:342156:65-4-1:323921:68-2-0:324440",
+			["Lorint-Silvermoon"] = "1610830375:3:1:322721:140-4-1:342270:175-5-0:320668:170-4-2",
 			["Exxe-Malorne"] = "1614163787:3:1:322721:140-5-1:342270:175-6-0:320687:166-5-2:188-5-1:320660",
 			["Khäleesy-Silvermoon"] = "1612647717:3:1:322721:140-5-1:342270:175-6-0:320687:170-6-2:199-5-1",
 			["Mìcha-Silvermoon"] = "1614288265:3:1:322721:140-5-1:342270:178-6-0:320687:170-6-2:166-4-2:320659",
 			["Cutter-Deathwing"] = "1613831133:3:1:322721:190-5-1:342270:8-5-0:320668:7-5-2:5-5-2:320659",
-			["Archisham-Silvermoon"] = "1611264335:4:5:342156:104-5-1:323921:98-4-0:324440:94-6-2",
-			["Lorant-DefiasBrotherhood"] = "1610840714:1:7:328266:133-5-2:329786:197-5-2:328263:216-5-1",
 			["Klaggadin-Silvermoon"] = "1613247723:2:8:331586:141-1-2:331577:159-1-0:331579:197-2-2",
 			["Hellstormm-Silvermoon"] = "1613201811:1:7:328266:188-4-1:328261:157-6-2:328263:137-5-1:166-4-2:328257",
-			["Ysharra-Antonidas"] = "1614163787:3:1:322721:240-5-1:342270:233-6-0:320687:231-6-2:232-6-2:320659",
+			["Kimuraii-AzjolNerub"] = "1614197144:1:7:328266:216-5-1:328261:197-5-2:328263:196-4-1:133-5-2:328257",
 			["Aliaê-Dalaran"] = "1613320742:1:7:328266:187-1-1:328261:132-1-2:328263:153-5-1:130-1-2",
+			["Ysharra-Antonidas"] = "1614163787:3:1:322721:240-5-1:342270:233-6-0:320687:231-6-2:232-6-2:320659",
+			["Flashiihunt-Silvermoon"] = "1614457957:3:1:322721:140-3-1:342270:178-1-0:320687:170-4-2:188-2-1",
 			["Nestradh-Silvermoon"] = "1613201811:1:7:328266:153-5-1:328261:130-5-2:328263:187-5-1:132-6-2:328257",
 		},
 	},
@@ -3316,14 +3405,6 @@ VExRT = {
 	},
 	["Marks"] = {
 		["list"] = {
-		},
-	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["trackingDamageSpells"] = {
 		},
 	},
 	["LootHistory"] = {
@@ -4500,6 +4581,13 @@ VExRT = {
 			"1614442796#2359#2285#8#Ladura-Blackmoore#11#1#item:180108::::::::60:65::16:5:7206:6652:1501:5858:6646:1:28:1279:::", -- [1170]
 			"1614442806#2359#2285#8#Morrodoom-Ambossar#3#1#item:183257::::::::60:65::16::1:28:1279:::", -- [1171]
 			"1614442806#2359#2285#8#Morrodoom-Ambossar#3#1#item:182610::::::::60:65::16:2:1527:7245:2:28:1279:37:5:::", -- [1172]
+			"1614453526#2398#2296#15#Teodorus#12#1#item:182330::::::::60:65::5:2:1540:7245:2:28:752:37:6:::", -- [1173]
+			"1614453527#2398#2296#15#Tinkerbyte#6#1#item:183034::::::::60:65::5:3:7188:1485:6646:1:28:752:::", -- [1174]
+			"1614453529#2398#2296#15#Scrïpé#11#1#item:183034::::::::60:65::5:4:7188:6652:1485:6646:1:28:752:::", -- [1175]
+			"1614457298#2399#2296#15#Selalara#3#1#item:184026::::::::60:257::5:4:7188:40:1485:6646:1:28:752:::", -- [1176]
+			"1614457315#2399#2296#15#Dïscojanne#3#1#item:183006::::::::60:257::5:4:7188:6652:1485:6646:1:28:752:::", -- [1177]
+			"1614457315#2399#2296#15#Anardel#12#1#item:183005::::::::60:257::5:5:7188:6652:7193:1485:6646:1:28:752:::", -- [1178]
+			"1614457321#2399#2296#15#Winndie#11#1#item:183233::::::::60:257::5::1:28:752:::", -- [1179]
 		},
 		["bossNames"] = {
 			[2395] = "Hakkar, the Soulflayer",
@@ -4546,8 +4634,8 @@ VExRT = {
 			[2386] = "Stradama Margrave",
 			[2418] = "Huntsman Altimor",
 			[2398] = "Shriekwing",
-			[1900] = "Pandemonius",
 			[2387] = "Blightbone",
+			[1900] = "Pandemonius",
 			[1916] = "Zereketh the Unbound",
 			[2399] = "Sludgefist",
 			[2356] = "Ventunax",
@@ -4601,13 +4689,6 @@ VExRT = {
 			[269] = "Opening of the Dark Portal",
 			[2287] = "Halls of Atonement",
 			[2286] = "The Necrotic Wake",
-		},
-	},
-	["Profile"] = "default",
-	["LootLink"] = {
-	},
-	["RaidGroups"] = {
-		["profiles"] = {
 		},
 	},
 	["Profiles"] = {
@@ -4945,6 +5026,21 @@ VExRT = {
 			},
 		},
 	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["profiles"] = {
+		},
+	},
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+	},
 	["Logging"] = {
 	},
 	["MarksBar"] = {
@@ -4975,8 +5071,8 @@ VExRT = {
 		["FlaskExp"] = 1,
 		["RCW_Mini"] = false,
 		["WeaponEnch"] = {
-			["Kúsano-Silvermoon"] = 171286,
 			["Ririchíyo-Silvermoon"] = 171286,
+			["Kúsano-Silvermoon"] = 171286,
 		},
 		["ReadyCheckTop"] = 986.5006103515625,
 		["ReadyCheckFrame"] = true,

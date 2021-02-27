@@ -20,7 +20,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 290232,
+		["time_stamp"] = 305766,
 	}, -- [2]
 	{
 		["source"] = "guild",
@@ -31,18 +31,18 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 288887,
+		["time_stamp"] = 303249,
 	}, -- [3]
 	{
 		["source"] = "guild",
 		["weekly_best"] = 16,
 		["class"] = "HUNTER",
-		["key_level"] = 15,
+		["key_level"] = 14,
 		["unit"] = "Khäleesy-Silvermoon",
-		["dungeon_id"] = 376,
+		["dungeon_id"] = 380,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 288885,
+		["time_stamp"] = 294627,
 	}, -- [4]
 	{
 		["source"] = "guild",
@@ -124,14 +124,14 @@ AstralKeys = {
 	}, -- [11]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 15,
 		["class"] = "MAGE",
 		["key_level"] = 14,
 		["unit"] = "Êerie-Silvermoon",
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 285458,
+		["time_stamp"] = 292001,
 	}, -- [12]
 	{
 		["source"] = "guild",
@@ -176,7 +176,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 233819,
+		["time_stamp"] = 3,
 		["source"] = "friend",
 	}, -- [16]
 	{
@@ -188,7 +188,7 @@ AstralKeys = {
 		["dungeon_id"] = 380,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 288886,
+		["time_stamp"] = 2,
 		["source"] = "friend",
 	}, -- [17]
 	{
@@ -247,7 +247,7 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 289728,
+		["time_stamp"] = 0,
 		["source"] = "friend",
 	}, -- [22]
 	{
@@ -270,7 +270,7 @@ AstralKeys = {
 		["dungeon_id"] = 376,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 134879,
+		["time_stamp"] = 304967,
 	}, -- [24]
 	{
 		["source"] = "guild",
@@ -281,7 +281,7 @@ AstralKeys = {
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 284058,
+		["time_stamp"] = 305474,
 	}, -- [25]
 	{
 		["source"] = "guild",
@@ -320,12 +320,12 @@ AstralKeys = {
 		["source"] = "guild",
 		["weekly_best"] = 15,
 		["class"] = "PALADIN",
-		["key_level"] = 15,
+		["key_level"] = 16,
 		["unit"] = "Emblair-Silvermoon",
-		["dungeon_id"] = 378,
+		["dungeon_id"] = 380,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 290243,
+		["time_stamp"] = 305170,
 	}, -- [29]
 	{
 		["source"] = "guild",
@@ -336,7 +336,7 @@ AstralKeys = {
 		["dungeon_id"] = 375,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 290017,
+		["time_stamp"] = 292432,
 	}, -- [30]
 	{
 		["btag"] = "TheOyabun#2412",
@@ -383,7 +383,7 @@ AstralKeys = {
 		["dungeon_id"] = 378,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 285498,
+		["time_stamp"] = 304210,
 	}, -- [34]
 	{
 		["source"] = "guild",
@@ -416,7 +416,7 @@ AstralKeys = {
 		["dungeon_id"] = 382,
 		["week"] = 188,
 		["faction"] = 0,
-		["time_stamp"] = 289392,
+		["time_stamp"] = 304115,
 	}, -- [37]
 	{
 		["source"] = "guild",
@@ -511,14 +511,14 @@ AstralKeys = {
 	}, -- [45]
 	{
 		["btag"] = "ElectroReapr#2670",
-		["weekly_best"] = 2,
+		["weekly_best"] = 7,
 		["class"] = "HUNTER",
-		["key_level"] = 7,
+		["key_level"] = 8,
 		["unit"] = "Selalara-Silvermoon",
-		["dungeon_id"] = 381,
+		["dungeon_id"] = 375,
 		["week"] = 188,
 		["faction"] = "0",
-		["time_stamp"] = 289727,
+		["time_stamp"] = 2,
 		["source"] = "friend",
 	}, -- [46]
 }
@@ -559,10 +559,10 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["no_key"] = false,
-			["party"] = true,
 			["guild"] = false,
 			["raid"] = false,
+			["no_key"] = false,
+			["party"] = true,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -709,39 +709,39 @@ AstralLists = {
 			["Nìksa-Silvermoon"] = "Kento#21136",
 			["Hylous-Silvermoon"] = true,
 			["Steelss-Silvermoon"] = true,
-			["Selalara-Silvermoon"] = "ElectroReapr#2670",
 			["Nestradh-Silvermoon"] = true,
-			["Àudacity-Silvermoon"] = true,
 			["Ïchi-Silvermoon"] = true,
-			["Yimu-Silvermoon"] = true,
+			["Àudacity-Silvermoon"] = true,
 			["Jäc-Silvermoon"] = true,
-			["Jakocarina-Silvermoon"] = true,
+			["Yimu-Silvermoon"] = true,
 			["Nosa-Silvermoon"] = true,
+			["Jakocarina-Silvermoon"] = true,
 			["Nikkitty-Silvermoon"] = true,
 			["Nikeah-Silvermoon"] = true,
+			["Lightflicker-Silvermoon"] = true,
 			["Eloyà-Silvermoon"] = "TheOyabun#2412",
 			["Naughtyninja-Silvermoon"] = true,
-			["Lightflicker-Silvermoon"] = true,
 			["Naughtypope-Silvermoon"] = true,
-			["Smithinhood-Silvermoon"] = "MisturSmith#2158",
 			["Mìcha-Silvermoon"] = true,
-			["Leaked-Silvermoon"] = true,
+			["Smithinhood-Silvermoon"] = "MisturSmith#2158",
 			["Archisham-Silvermoon"] = true,
+			["Leaked-Silvermoon"] = true,
+			["Nykea-Silvermoon"] = true,
 			["Nykhea-Silvermoon"] = true,
 			["Notenx-Silvermoon"] = true,
-			["Nykea-Silvermoon"] = true,
+			["Selalara-Silvermoon"] = "ElectroReapr#2670",
 			["Spankadin-Silvermoon"] = true,
 			["Avaloén-Silvermoon"] = true,
 			["Maxnoon-Silvermoon"] = true,
 			["Yaganmage-Silvermoon"] = "Zipper#2389",
-			["Sókén-Silvermoon"] = true,
-			["Firesnek-Silvermoon"] = true,
-			["Zárgothrax-Silvermoon"] = true,
+			["Djac-Silvermoon"] = true,
 			["Warlockzz-Silvermoon"] = true,
+			["Zárgothrax-Silvermoon"] = true,
+			["Firesnek-Silvermoon"] = true,
 			["Junî-Silvermoon"] = true,
 			["Hìmí-Silvermoon"] = "Kento#21136",
 			["Nestravoid-Silvermoon"] = true,
-			["Djac-Silvermoon"] = true,
+			["Sókén-Silvermoon"] = true,
 			["Êerie-Silvermoon"] = true,
 			["Michix-Silvermoon"] = true,
 			["Wsic-Silvermoon"] = "fill3rz#2977",

@@ -25,10 +25,7 @@ NameplateSCTDB = {
 			["offTarget"] = "MEDIUM",
 		},
 		["showIcon"] = false,
-		["formatting"] = {
-			["alpha"] = 1,
-			["size"] = 13,
-		},
+		["defaultColorPersonal"] = "ff0000",
 		["damageColor"] = true,
 		["offTargetFormatting"] = {
 			["alpha"] = 0.5,
@@ -41,8 +38,8 @@ NameplateSCTDB = {
 			["autoattack"] = "rainfall",
 			["miss"] = "rainfall",
 			["ability"] = "rainfall",
-			["animationspeed"] = 1,
 			["crit"] = "rainfall",
+			["animationspeed"] = 1,
 			["autoattackcrit"] = "rainfall",
 		},
 		["enableMSQ"] = true,
@@ -71,6 +68,9 @@ NameplateSCTDB = {
 			["smallHits"] = false,
 		},
 		["truncateLetter"] = true,
-		["defaultColorPersonal"] = "ff0000",
+		["formatting"] = {
+			["alpha"] = 1,
+			["size"] = 13,
+		},
 	},
 }

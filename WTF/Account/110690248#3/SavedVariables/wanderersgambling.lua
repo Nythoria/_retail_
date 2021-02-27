@@ -148,6 +148,18 @@ WanderersGambling = {
 				75222, -- [3]
 				0, -- [4]
 			}, -- [24]
+			{
+				"Bakstjärten", -- [1]
+				"Winndie", -- [2]
+				5480, -- [3]
+				0, -- [4]
+			}, -- [25]
+			{
+				"Jäc", -- [1]
+				"Gretathunbrg", -- [2]
+				9528, -- [3]
+				0, -- [4]
+			}, -- [26]
 		},
 	},
 	["whispers"] = false,
@@ -162,7 +174,7 @@ WanderersGambling = {
 	["isHouseCut"] = 0,
 	["hightie"] = {
 	},
-	["lastroll"] = "100000",
+	["lastroll"] = "10000",
 	["lowtie"] = {
 	},
 	["strings"] = {

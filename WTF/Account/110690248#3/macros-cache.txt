@@ -62,7 +62,7 @@ VER 3 000000000000003A "pBinding Heal" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000035 "pFeather" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@player, talent:2/3] Angelic Feather; [@mouseover, exists, help]Body and Mind: [help]Body and Mind; Body and Mind
+/cast [@player, talent:2/3] Angelic Feather
 /stopspelltarget
 END
 VER 3 0000000000000040 "pFocusSWP" "INV_Misc_QuestionMark"

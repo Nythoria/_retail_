@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 167,
+	["session"] = 169,
 	["errors"] = {
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
@@ -76,8 +76,8 @@ BugGrabberDB = {
 			["time"] = "2021/02/03 11:57:21",
 			["locals"] = "(*temporary) = \"0\"\n(*temporary) = \"table expected, got string\"\n = <function> defined =[C]:-1\n",
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0-27.lua\"]:372: in function <Interface\\AddOns\\Masque\\Libs\\AceDB-3.0\\AceDB-3.0.lua:359>",
-			["session"] = 167,
-			["counter"] = 124,
+			["session"] = 169,
+			["counter"] = 126,
 		}, -- [10]
 	},
 }

@@ -26,6 +26,12 @@ VER 3 010000000000000D "dgd" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover, help, exists]13
 END
+VER 3 0100000000000013 "Divine Toll" "INV_MISC_QUESTIONMARK"
+#showtooltip Divine Toll
+/use Sinful Aspirant's Badge of Ferocity
+/use Sinful Gladiator's Badge of Ferocity
+/cast [@mouseover, help, nodead][] Divine Toll
+END
 VER 3 0100000000000001 "Faith" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists, help]Beacon of Faith; [help]Beacon of Faith; Beacon of Faith

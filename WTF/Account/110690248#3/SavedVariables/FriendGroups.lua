@@ -8,10 +8,10 @@ FriendGroups_SavedVars = {
 	["gray_faction"] = false,
 	["show_btag"] = false,
 	["sort_by_status"] = false,
-	["ingame_only"] = false,
 	["collapsed"] = {
 		["Old Friends"] = true,
 		["Guild"] = true,
 		["IRL"] = false,
 	},
+	["ingame_only"] = false,
 }

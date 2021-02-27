@@ -192,13 +192,15 @@ ExecAssistDB = {
 						["isCollapsed"] = true,
 						["p"] = "g446130",
 					},
-					["t669042"] = {
-						["isCollapsed"] = true,
-						["p"] = "g134805",
-					},
 					["t677226"] = {
 						["isCollapsed"] = true,
 						["p"] = "g446130",
+					},
+					["__garden"] = {
+						["sibMap"] = {
+							"g67281", -- [1]
+							"g446130", -- [2]
+						},
 					},
 					["g467930"] = {
 						["p"] = "g67281",
@@ -225,11 +227,9 @@ ExecAssistDB = {
 						["isCollapsed"] = true,
 						["p"] = "g915302",
 					},
-					["__garden"] = {
-						["sibMap"] = {
-							"g67281", -- [1]
-							"g446130", -- [2]
-						},
+					["t669042"] = {
+						["isCollapsed"] = true,
+						["p"] = "g134805",
 					},
 					["g67281"] = {
 						["p"] = "__garden",
@@ -248,9 +248,9 @@ ExecAssistDB = {
 	["global"] = {
 		["clickmap"] = {
 			["ClickMap_Config"] = {
+				["c"] = true,
 				["name"] = "|cffff9966Cfg|r: Open |cff87d8deClick Map Config Dialog|r",
 				["s"] = true,
-				["c"] = true,
 				["code"] = "Rmsc",
 				["m"] = "RightButton",
 				["notify"] = true,
@@ -300,12 +300,12 @@ ExecAssistDB = {
 				["func"] = nil --[[ skipped inline function ]],
 				["desc"] = "Resets all Manual-Reset Tasks",
 			},
-			["purgePurgables"] = {
-				["name"] = "Delete Completed Purgable Tasks",
+			["TOOLTIP CONFIG"] = {
+				["name"] = "|cffff9966Cfg|r: Open DataBroker Tooltip Display Configuration",
 				["notify"] = true,
 				["m"] = false,
 				["func"] = nil --[[ skipped inline function ]],
-				["desc"] = "Deletes Completed Purgable Tasks -- if you use Executive Assistant as a general, on-the-fly to-do list, this may be for you.",
+				["desc"] = "Opens the DataBroker Tooltip Display Configuration page",
 			},
 			["ToggleTooltipTips"] = {
 				["name"] = "Toggle Tooltip Tips",
@@ -321,12 +321,12 @@ ExecAssistDB = {
 				["func"] = nil --[[ skipped inline function ]],
 				["desc"] = "Useful if showing the display on Mouseover is disabled but you still want to occasionally open it",
 			},
-			["TOOLTIP CONFIG"] = {
-				["name"] = "|cffff9966Cfg|r: Open DataBroker Tooltip Display Configuration",
+			["purgePurgables"] = {
+				["name"] = "Delete Completed Purgable Tasks",
 				["notify"] = true,
 				["m"] = false,
 				["func"] = nil --[[ skipped inline function ]],
-				["desc"] = "Opens the DataBroker Tooltip Display Configuration page",
+				["desc"] = "Deletes Completed Purgable Tasks -- if you use Executive Assistant as a general, on-the-fly to-do list, this may be for you.",
 			},
 			["TACM"] = {
 				["name"] = "|cffff9966Cfg|r: Open Task Management",
@@ -520,16 +520,6 @@ ExecAssistDB = {
 					["p"] = "g67281",
 					["defaultEnabled"] = true,
 				},
-				["t669042"] = {
-					["hideDays"] = {
-					},
-					["resetType"] = "Weekly Automatic",
-					["isTask"] = true,
-					["id"] = "t669042",
-					["taskName"] = "Souls",
-					["p"] = "g134805",
-					["defaultEnabled"] = true,
-				},
 				["t677226"] = {
 					["hideDays"] = {
 					},
@@ -538,6 +528,16 @@ ExecAssistDB = {
 					["id"] = "t677226",
 					["taskName"] = "Anima Conductor",
 					["p"] = "g446130",
+					["defaultEnabled"] = true,
+				},
+				["t669042"] = {
+					["hideDays"] = {
+					},
+					["resetType"] = "Weekly Automatic",
+					["isTask"] = true,
+					["id"] = "t669042",
+					["taskName"] = "Souls",
+					["p"] = "g134805",
 					["defaultEnabled"] = true,
 				},
 				["g467930"] = {
@@ -727,9 +727,9 @@ ExecAssistDB = {
 			["default_GroupDisplayMode_GTP"] = 1,
 			["showChecked"] = false,
 			["ShowGroupNames_PGT"] = true,
-			["useCounts_onHeaders"] = true,
 			["useCounts_onLDB"] = true,
 			["ShowOnlySelectedGroup_PGT"] = true,
+			["useCounts_onHeaders"] = true,
 			["displayType_onHeaders"] = 4,
 			["displayType_onLDB"] = 4,
 			["HideGroupNames_PGT"] = true,
@@ -815,30 +815,16 @@ ExecAssistDB = {
 			["toggleState_ToggledOff"] = true,
 			["widthMethod"] = 1,
 			["FixedWidth_FontString"] = 380,
-			["MinWidth_FontString"] = 120,
+			["rightMouse_togglesShowChecked"] = true,
 			["useMouseoverHighlight"] = true,
 			["showChecked"] = true,
 			["opacity_faded"] = 1,
 			["hideincombat"] = false,
 			["ButtonPos"] = 2,
-			["useDragFrame"] = true,
-			["useCounts_onHeaders"] = true,
 			["displayType_onHeaders"] = 1,
+			["useCounts_onHeaders"] = true,
+			["useDragFrame"] = true,
 			["defaultCollapse"] = false,
-			["fontshadow"] = {
-				["shadowcolor"] = {
-					["a"] = 0.75,
-					["r"] = 0,
-					["g"] = 0,
-					["b"] = 0,
-				},
-				["offset"] = {
-					["y"] = -1,
-					["x"] = 1,
-				},
-			},
-			["rightMouse_togglesShowChecked"] = true,
-			["hidebuttons"] = false,
 			["style"] = {
 				["border"] = "Blizzard Tooltip",
 				["background"] = "Solid",
@@ -855,6 +841,20 @@ ExecAssistDB = {
 					["b"] = 0.01,
 				},
 			},
+			["fontshadow"] = {
+				["shadowcolor"] = {
+					["a"] = 0.75,
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
+				},
+				["offset"] = {
+					["y"] = -1,
+					["x"] = 1,
+				},
+			},
+			["MinWidth_FontString"] = 120,
+			["hidebuttons"] = false,
 			["opacity_mouseover"] = 1,
 			["pos"] = {
 				["yOff"] = -48.00009536743164,

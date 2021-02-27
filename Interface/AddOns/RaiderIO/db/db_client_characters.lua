@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-27T17:11:36Z
+-- RaiderIO Client Data. Generated on 2021-02-27T21:53:26Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -119,14 +119,14 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 166.1,
+        ["score"] = 236.9,
         ["best"] = {
-          ["zone_id"] = 12841,
+          ["zone_id"] = 12837,
           ["level"] = 7,
           ["upgrades"] = 1,
-          ["fraction"] = 0.957,
-          ["score"] = 70.38045773546048,
-          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20419552-7-theater-of-pain?utm_source=client"
+          ["fraction"] = 0.913,
+          ["score"] = 70.7589740533849,
+          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20433797-7-spires-of-ascension?utm_source=client"
         },
         ["runs"] = {
           [1] = {
@@ -139,11 +139,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [2] = {
             ["zone_id"] = 12837,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 7,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.913,
+            ["score"] = 70.7589740533849,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20433797-7-spires-of-ascension?utm_source=client"
           },
           [3] = {
             ["zone_id"] = 12841,

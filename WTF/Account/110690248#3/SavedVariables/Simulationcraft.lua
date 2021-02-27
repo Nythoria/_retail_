@@ -30,17 +30,6 @@ SimulationCraftDB = {
 			},
 		},
 		["Yóshino - Silvermoon"] = {
-			["minimap"] = {
-				["hide"] = false,
-			},
-			["frame"] = {
-				["ofsx"] = 0,
-				["point"] = "CENTER",
-				["relativePoint"] = "CENTER",
-				["height"] = 400,
-				["ofsy"] = 0,
-				["width"] = 750,
-			},
 		},
 		["Santáshelper - Silvermoon"] = {
 		},

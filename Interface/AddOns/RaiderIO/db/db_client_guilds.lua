@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-26T16:57:39Z
+-- RaiderIO Client Data. Generated on 2021-02-27T18:48:14Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -183,6 +183,74 @@ ns.GUILD_BEST_DATA = {
     },
     ["weekly_best"] = {
       [1] = {
+        ["zone_id"] = 12841,
+        ["level"] = 17,
+        ["upgrades"] = 0,
+        ["fraction"] = 1.042158956397549,
+        ["clear_time"] = "00:38:34.634",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Líliana",
+            ["role"] = "tank",
+            ["class_id"] = 6
+          },
+          [2] = {
+            ["name"] = "Níina",
+            ["role"] = "healer",
+            ["class_id"] = 2
+          },
+          [3] = {
+            ["name"] = "Eloyà",
+            ["role"] = "dps",
+            ["class_id"] = 8
+          },
+          [4] = {
+            ["name"] = "Firesnek",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [5] = {
+            ["name"] = "Scripé",
+            ["role"] = "dps",
+            ["class_id"] = 12
+          }
+        }
+      },
+      [2] = {
+        ["zone_id"] = 13334,
+        ["level"] = 16,
+        ["upgrades"] = 1,
+        ["fraction"] = 0.8331126224945156,
+        ["clear_time"] = "00:25:00.435",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Alysiana",
+            ["role"] = "tank",
+            ["class_id"] = 12
+          },
+          [2] = {
+            ["name"] = "Zappiethot",
+            ["role"] = "healer",
+            ["class_id"] = 7
+          },
+          [3] = {
+            ["name"] = "Angelicgirl",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [4] = {
+            ["name"] = "Càrní",
+            ["role"] = "dps",
+            ["class_id"] = 11
+          },
+          [5] = {
+            ["name"] = "Ròuth",
+            ["role"] = "dps",
+            ["class_id"] = 10
+          }
+        }
+      },
+      [3] = {
         ["zone_id"] = 12837,
         ["level"] = 16,
         ["upgrades"] = 1,
@@ -216,7 +284,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [2] = {
+      [4] = {
         ["zone_id"] = 12837,
         ["level"] = 16,
         ["upgrades"] = 1,
@@ -250,7 +318,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
+      [5] = {
         ["zone_id"] = 13309,
         ["level"] = 16,
         ["upgrades"] = 1,
@@ -281,74 +349,6 @@ ns.GUILD_BEST_DATA = {
             ["name"] = "Frostydogqt",
             ["role"] = "dps",
             ["class_id"] = 1
-          }
-        }
-      },
-      [4] = {
-        ["zone_id"] = 13334,
-        ["level"] = 16,
-        ["upgrades"] = 1,
-        ["fraction"] = 0.9669350177318256,
-        ["clear_time"] = "00:29:01.449",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Illidhollo",
-            ["role"] = "tank",
-            ["class_id"] = 12
-          },
-          [2] = {
-            ["name"] = "Lanovar",
-            ["role"] = "healer",
-            ["class_id"] = 5
-          },
-          [3] = {
-            ["name"] = "Onjon",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [4] = {
-            ["name"] = "Prutten",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [5] = {
-            ["name"] = "Rdvparisnord",
-            ["role"] = "dps",
-            ["class_id"] = 6
-          }
-        }
-      },
-      [5] = {
-        ["zone_id"] = 12916,
-        ["level"] = 15,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7597870244271284,
-        ["clear_time"] = "00:27:21.899",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Caacrinolas",
-            ["role"] = "tank",
-            ["class_id"] = 12
-          },
-          [2] = {
-            ["name"] = "Saorise",
-            ["role"] = "healer",
-            ["class_id"] = 2
-          },
-          [3] = {
-            ["name"] = "Lorint",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [4] = {
-            ["name"] = "Mattdæmön",
-            ["role"] = "dps",
-            ["class_id"] = 12
-          },
-          [5] = {
-            ["name"] = "Novasix",
-            ["role"] = "dps",
-            ["class_id"] = 3
           }
         }
       }

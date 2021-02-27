@@ -16,23 +16,20 @@ BetterWardrobe_CharacterData = {
 	},
 }
 BetterWardrobe_SavedSetData = {
-	["profileKeys"] = {
-		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
-	},
 	["global"] = {
 		["sets"] = {
 			["Ririchíyo - Silvermoon"] = {
 				{
-					["name"] = "Shadow",
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 1515414,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 100,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
-					["items"] = {
-					},
+					["expansionID"] = 1,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
@@ -55,23 +52,23 @@ BetterWardrobe_SavedSetData = {
 						0, -- [19]
 					},
 					["isClass"] = true,
-					["setID"] = 5000,
 					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["expansionID"] = 1,
+					["setID"] = 5000,
+					["uiOrder"] = 100,
+					["icon"] = 1515414,
+					["name"] = "Shadow",
 				}, -- [1]
 				{
-					["name"] = "Holy",
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 1518071,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 200,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
-					["items"] = {
-					},
+					["expansionID"] = 1,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
@@ -94,23 +91,23 @@ BetterWardrobe_SavedSetData = {
 						0, -- [19]
 					},
 					["isClass"] = true,
-					["setID"] = 5001,
 					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["expansionID"] = 1,
+					["setID"] = 5001,
+					["uiOrder"] = 200,
+					["icon"] = 1518071,
+					["name"] = "Holy",
 				}, -- [2]
 				{
-					["name"] = "Discipline",
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 1601101,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 300,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
-					["items"] = {
-					},
+					["expansionID"] = 1,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
@@ -133,23 +130,23 @@ BetterWardrobe_SavedSetData = {
 						0, -- [19]
 					},
 					["isClass"] = true,
-					["setID"] = 5002,
 					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["expansionID"] = 1,
+					["setID"] = 5002,
+					["uiOrder"] = 300,
+					["icon"] = 1601101,
+					["name"] = "Discipline",
 				}, -- [3]
 				{
-					["name"] = "Shadow With Wand",
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 1360261,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 400,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
-					["items"] = {
-					},
+					["expansionID"] = 1,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
@@ -172,23 +169,23 @@ BetterWardrobe_SavedSetData = {
 						0, -- [19]
 					},
 					["isClass"] = true,
-					["setID"] = 5003,
 					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["expansionID"] = 1,
+					["setID"] = 5003,
+					["uiOrder"] = 400,
+					["icon"] = 1360261,
+					["name"] = "Shadow With Wand",
 				}, -- [4]
 				{
-					["name"] = "Disc 2",
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 937862,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 500,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
-					["items"] = {
-					},
+					["expansionID"] = 1,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
@@ -211,23 +208,23 @@ BetterWardrobe_SavedSetData = {
 						0, -- [19]
 					},
 					["isClass"] = true,
-					["setID"] = 5004,
 					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["expansionID"] = 1,
+					["setID"] = 5004,
+					["uiOrder"] = 500,
+					["icon"] = 937862,
+					["name"] = "Disc 2",
 				}, -- [5]
 				{
-					["name"] = "Holy 2",
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 132667,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 600,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
-					["items"] = {
-					},
+					["expansionID"] = 1,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
@@ -250,23 +247,23 @@ BetterWardrobe_SavedSetData = {
 						0, -- [19]
 					},
 					["isClass"] = true,
-					["setID"] = 5005,
 					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["expansionID"] = 1,
+					["setID"] = 5005,
+					["uiOrder"] = 600,
+					["icon"] = 132667,
+					["name"] = "Holy 2",
 				}, -- [6]
 				{
-					["name"] = "Wings",
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 132645,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 700,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
-					["items"] = {
-					},
+					["expansionID"] = 1,
 					["sources"] = {
 						77344, -- [1]
 						0, -- [2]
@@ -289,14 +286,17 @@ BetterWardrobe_SavedSetData = {
 						0, -- [19]
 					},
 					["isClass"] = true,
-					["setID"] = 5006,
 					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["expansionID"] = 1,
+					["setID"] = 5006,
+					["uiOrder"] = 700,
+					["icon"] = 132645,
+					["name"] = "Wings",
 				}, -- [7]
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
 	},
 	["profiles"] = {
 		["Ririchíyo - Silvermoon"] = {
@@ -334,7 +334,6 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
-	["lastUpdte"] = 1,
 	["OutfitDB"] = {
 		["profileKeys"] = {
 			["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",
@@ -347,6 +346,7 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
+	["lastUpdte"] = 1,
 	["HiddenAppearanceDB"] = {
 		["profileKeys"] = {
 			["Ririchíyo - Silvermoon"] = "Ririchíyo - Silvermoon",

@@ -1,0 +1,10 @@
+tag 9e375ba5ebb53ab4cf953ccfe7f3a9c4d765544d 9.0.2a
+Author:	AllInOneMighty <emmanuel.cron@gmail.com>
+Date:	Wed Nov 18 17:51:07 2020 -0800
+
+commit 93c0ecfdf74fcbe089a0fbe73f437f86c6e67a21
+Author: AllInOneMighty <emmanuel.cron@gmail.com>
+Date:   Wed Nov 18 01:20:57 2020 -0800
+
+    Fixing version number not incrementing with tag number
+

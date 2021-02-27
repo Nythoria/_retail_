@@ -1,0 +1,222 @@
+lightweight tag ea3c1de47079857b543db5e956d89d387620a1c8 r534
+Author:	Tom Merrow <tomber@toja.me>
+Date:	Sat Jan 16 09:51:41 2021 -0800
+
+commit ea3c1de47079857b543db5e956d89d387620a1c8
+Author: Tom Merrow <tomber@toja.me>
+Date:   Sat Jan 16 09:51:41 2021 -0800
+
+    Update Russian localization with strings for new spell id and caster options.
+
+commit 0f4ea73de123e052ed73ef86f1ac558814daeff5
+Author: Tom Merrow <tomber@toja.me>
+Date:   Fri Jan 15 16:46:39 2021 -0800
+
+    Add new options on General tab to add caster and spell ID to labels.
+    Change option on General tab that adds spell id to tooltips to only
+    require control key down (not both control and alt).
+
+commit 90cdd44588608c2a4b4043b851ac3130d7e15cb0
+Author: Tom Merrow <tomber@toja.me>
+Date:   Sat Jan 9 15:57:54 2021 -0800
+
+    Add toc files for classic but don't include them in packaged zip
+
+commit ebdcb00b11249b6039cb4a18661152b301e44c32
+Author: henbe <holypush@yandex.ru>
+Date:   Sat Jan 9 19:12:42 2021 +0500
+
+    Add files via upload
+
+commit ebdcb00b11249b6039cb4a18661152b301e44c32
+Author: henbe <holypush@yandex.ru>
+Date:   Sat Jan 9 19:12:42 2021 +0500
+
+    Add files via upload
+
+commit 98a3c55adb7c68956fa5e4cf8f2e7b0bd2e28b06
+Author: henbe <holypush@yandex.ru>
+Date:   Sat Jan 9 19:02:43 2021 +0500
+
+    Update Raven.toc
+
+commit a63caea45a1c6b4b78ad598b813e3d03e045a704
+Author: henbe <holypush@yandex.ru>
+Date:   Sat Jan 9 17:57:40 2021 +0500
+
+    Update ruRU.lua
+
+commit 9dfae9d97dfe5620b02eabd34284f246616bd84b
+Author: henbe <holypush@yandex.ru>
+Date:   Thu Nov 26 00:12:07 2020 +0500
+
+    Update ruRU.lua
+
+commit dd709bc39b704966c7e2cbe54791f9849cdfb051
+Author: henbe <holypush@yandex.ru>
+Date:   Wed Nov 25 13:13:52 2020 +0500
+
+    Update ruRU.lua
+
+commit 4d4577c258787d80fa6e45dcc3f4278874cb0e87
+Author: henbe <holypush@yandex.ru>
+Date:   Wed Nov 25 05:00:22 2020 +0500
+
+    Update ruRU.lua
+
+commit a5101dcaaf440ffa8db8882de874abbb4cd70b7e
+Author: henbe <holypush@yandex.ru>
+Date:   Wed Nov 25 00:00:48 2020 +0500
+
+    Update ruRU.lua
+
+commit 211d9895669733de88bfc3ab3ca9cb5db61d6e79
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 24 23:37:44 2020 +0500
+
+    Update ruRU.lua
+
+commit be8ef4d792e501ae5be58bc1b79b1f685fabe33e
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 24 19:53:44 2020 +0500
+
+    Update ruRU.lua
+
+commit 54519e2a15212eceff33a0ae7f66f3e01427fd33
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 24 17:02:23 2020 +0500
+
+    Update ruRU.lua
+
+commit 98076312238993a3f0816c9c7b831061a22a5f3c
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 24 10:10:16 2020 +0500
+
+    Update ruRU.lua
+
+commit 35d77e8707fc055407d6f5d30797d843ceb84ed0
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 24 05:23:27 2020 +0500
+
+    Update ruRU.lua
+
+commit 61df659dea5cdd420acaaf9bba8c35d1653e24fe
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 24 03:59:38 2020 +0500
+
+    Update ruRU.lua
+
+commit 3c7552b3e8b060d8bf60bd896d4f23b8db1345af
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 24 03:52:25 2020 +0500
+
+    Update ruRU.lua
+
+commit 0cdd8d1da7924a2c52d0db072d6b46bdd64fd037
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 23 07:03:50 2020 +0500
+
+    Update Raven.toc
+
+commit 10c12e193125269900c5200f328532f2f3789586
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 23 06:34:54 2020 +0500
+
+    Update ruRU.lua
+
+commit 68c9f03a3bedc718a6bd0ee6eb907c960fa647a9
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 23 06:33:58 2020 +0500
+
+    Update ruRU.lua
+
+commit acd570beb30705eef8ced37d756b95992ba2b9cb
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 23 02:53:31 2020 +0500
+
+    Update ruRU.lua
+
+commit 9a155c929b1684408637e72dd826de38820a31a8
+Author: henbe <holypush@yandex.ru>
+Date:   Sun Nov 22 06:03:21 2020 +0500
+
+    Update ruRU.lua
+
+commit b04bcddcd6c880c28439dd57a5b500bddd9d4a34
+Author: henbe <holypush@yandex.ru>
+Date:   Sun Nov 22 04:54:26 2020 +0500
+
+    Update ruRU.lua
+
+commit b2a8621cc7c21824a242c1f8af2154e60b62aae1
+Author: henbe <holypush@yandex.ru>
+Date:   Sun Nov 22 03:52:38 2020 +0500
+
+    Update ruRU.lua
+
+commit 9a56c311e78b03855fd89a812001b466cdee6fe3
+Author: henbe <holypush@yandex.ru>
+Date:   Fri Nov 20 22:23:04 2020 +0500
+
+    Update ruRU.lua
+
+commit 27590ef8912b9a5d38026978311c62b36c8c9191
+Author: henbe <holypush@yandex.ru>
+Date:   Thu Nov 19 03:17:37 2020 +0500
+
+    Update ruRU.lua
+
+commit 0af7c82db64a47c5b688580e4793581294604675
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 17 17:50:10 2020 +0500
+
+    Update ruRU.lua
+
+commit d5f4d7f35a2f1c70b93bc55987101f655cb4e87a
+Author: henbe <holypush@yandex.ru>
+Date:   Tue Nov 17 00:05:11 2020 +0500
+
+    Update ruRU.lua
+
+commit 4b683d9d51c3b30e1d102a7e5b9d36e3ba0c37c5
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 16 21:47:01 2020 +0500
+
+    Update ruRU.lua
+
+commit 16d463d317b411bd15d13e6af1563370fcc815b3
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 16 21:26:02 2020 +0500
+
+    Update ruRU.lua
+
+commit ea8b8938948f6f30edd5f4d210a318385e9e7c85
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 16 21:22:53 2020 +0500
+
+    Update ruRU.lua
+
+commit 2d5b94b14082b4195a16eb82e84ce0f930e609f5
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 16 19:54:45 2020 +0500
+
+    Update ruRU.lua
+
+commit beb16c14d4b61820929921172cd115efb4d3e89e
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 16 18:07:24 2020 +0500
+
+    Update ruRU.lua
+
+commit 496a05de62a570a38a3c411b48010f7ca214c9b3
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 16 17:51:04 2020 +0500
+
+    Update ruRU.lua
+
+commit 0d664a9568925e4630cdb5f0460e498e2b5cf2d5
+Author: henbe <holypush@yandex.ru>
+Date:   Mon Nov 16 17:23:02 2020 +0500
+
+    Add files via upload
+

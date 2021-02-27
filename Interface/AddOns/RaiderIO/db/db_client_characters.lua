@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2021-02-26T16:57:40Z
+-- RaiderIO Client Data. Generated on 2021-02-27T18:48:14Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -119,14 +119,14 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 23.9,
+        ["score"] = 236.9,
         ["best"] = {
-          ["zone_id"] = 13309,
-          ["level"] = 2,
-          ["upgrades"] = 2,
-          ["fraction"] = 0.724,
-          ["score"] = 23.912929547822372,
-          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/19253768-2-de-other-side?utm_source=client"
+          ["zone_id"] = 12837,
+          ["level"] = 7,
+          ["upgrades"] = 1,
+          ["fraction"] = 0.913,
+          ["score"] = 70.7589740533849,
+          ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20433797-7-spires-of-ascension?utm_source=client"
         },
         ["runs"] = {
           [1] = {
@@ -139,19 +139,19 @@ ns.CLIENT_CHARACTERS = {
           },
           [2] = {
             ["zone_id"] = 12837,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 7,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.913,
+            ["score"] = 70.7589740533849,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20433797-7-spires-of-ascension?utm_source=client"
           },
           [3] = {
             ["zone_id"] = 12841,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 7,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.957,
+            ["score"] = 70.38045773546048,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20419552-7-theater-of-pain?utm_source=client"
           },
           [4] = {
             ["zone_id"] = 12842,
@@ -163,19 +163,19 @@ ns.CLIENT_CHARACTERS = {
           },
           [5] = {
             ["zone_id"] = 12916,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 4,
+            ["upgrades"] = 3,
+            ["fraction"] = 0.528,
+            ["score"] = 47.12814744476976,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20412154-4-the-necrotic-wake?utm_source=client"
           },
           [6] = {
             ["zone_id"] = 13228,
-            ["level"] = 0,
-            ["upgrades"] = 0,
-            ["fraction"] = 0,
-            ["score"] = 0,
-            ["url"] = nil
+            ["level"] = 2,
+            ["upgrades"] = 2,
+            ["fraction"] = 0.633,
+            ["score"] = 24.70906102983824,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20408044-2-plaguefall?utm_source=client"
           },
           [7] = {
             ["zone_id"] = 13309,
@@ -207,7 +207,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 995.1,
+        ["score"] = 1056.3,
         ["best"] = {
           ["zone_id"] = 13228,
           ["level"] = 15,
@@ -227,11 +227,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [2] = {
             ["zone_id"] = 12837,
-            ["level"] = 12,
+            ["level"] = 14,
             ["upgrades"] = 1,
-            ["fraction"] = 0.894,
-            ["score"] = 122.07143176509877,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/17816780-12-spires-of-ascension?utm_source=client"
+            ["fraction"] = 0.976,
+            ["score"] = 146.7023526940629,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20296606-14-spires-of-ascension?utm_source=client"
           },
           [3] = {
             ["zone_id"] = 12841,
@@ -251,11 +251,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [5] = {
             ["zone_id"] = 12916,
-            ["level"] = 10,
-            ["upgrades"] = 2,
-            ["fraction"] = 0.775,
-            ["score"] = 103.47089690925354,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/18031446-10-the-necrotic-wake?utm_source=client"
+            ["level"] = 15,
+            ["upgrades"] = 0,
+            ["fraction"] = 1.111,
+            ["score"] = 140.05190613126445,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-sl-1/20309373-15-the-necrotic-wake?utm_source=client"
           },
           [6] = {
             ["zone_id"] = 13228,
